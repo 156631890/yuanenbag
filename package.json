@@ -1,0 +1,39 @@
+{
+  "name": "yuanenbag",
+  "version": "1.0.0",
+  "description": "YUANEN bilingual B2B insulated packaging website",
+  "private": true,
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build && vite build --ssr src/entry-server.tsx --outDir .ssr && node scripts/prerender.mjs",
+    "preview": "node scripts/serve.mjs",
+    "verify": "node scripts/verify-build.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/156631890/yuanenbag.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/156631890/yuanenbag/issues"
+  },
+  "homepage": "https://github.com/156631890/yuanenbag#readme",
+  "dependencies": {
+    "lucide-react": "^1.47.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "sharp": "^0.35.4",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.0"
+  }
+}

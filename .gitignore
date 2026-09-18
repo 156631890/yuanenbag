@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.ssr/
+.env
+.env.*
+!.env.example
+.vercel/
+.verification/
+*.log
+*.tsbuildinfo

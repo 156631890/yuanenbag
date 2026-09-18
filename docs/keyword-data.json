@@ -1,0 +1,104 @@
+{
+  "checked": "2026-09-18",
+  "results": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"noData\": true,\n  \"location\": \"Global\",\n  \"language\": null\n}"
+          }
+        ],
+        "structuredContent": {
+          "noData": true,
+          "location": "Global",
+          "language": null
+        },
+        "isError": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"keyword\": \"custom non woven bags\",\n  \"search_volume\": 70,\n  \"cpc\": 13.96,\n  \"seo_difficulty\": 37,\n  \"paid_difficulty\": 100,\n  \"competition\": 1,\n  \"search_intent\": \"Transactional\",\n  \"language\": \"English\",\n  \"location\": \"United States\",\n  \"monthly_searches\": [\n    {\n      \"period\": \"202511\",\n      \"search_volume\": 40\n    },\n    {\n      \"period\": \"202512\",\n      \"search_volume\": 40\n    },\n    {\n      \"period\": \"202601\",\n      \"search_volume\": 30\n    },\n    {\n      \"period\": \"202602\",\n      \"search_volume\": 70\n    }\n  ]\n}"
+          }
+        ],
+        "structuredContent": {
+          "keyword": "custom non woven bags",
+          "search_volume": 70,
+          "cpc": 13.96,
+          "seo_difficulty": 37,
+          "paid_difficulty": 100,
+          "competition": 1,
+          "search_intent": "Transactional",
+          "language": "English",
+          "location": "United States",
+          "monthly_searches": [
+            {
+              "period": "202511",
+              "search_volume": 40
+            },
+            {
+              "period": "202512",
+              "search_volume": 40
+            },
+            {
+              "period": "202601",
+              "search_volume": 30
+            },
+            {
+              "period": "202602",
+              "search_volume": 70
+            }
+          ]
+        },
+        "isError": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"keyword\": \"custom cooler bags\",\n  \"search_volume\": 880,\n  \"cpc\": 9.82,\n  \"seo_difficulty\": 29,\n  \"paid_difficulty\": 100,\n  \"competition\": 1,\n  \"search_intent\": \"Transactional\",\n  \"language\": \"English\",\n  \"location\": \"United States\",\n  \"monthly_searches\": [\n    {\n      \"period\": \"202604\",\n      \"search_volume\": 1000\n    },\n    {\n      \"period\": \"202605\",\n      \"search_volume\": 1000\n    },\n    {\n      \"period\": \"202606\",\n      \"search_volume\": 1000\n    },\n    {\n      \"period\": \"202607\",\n      \"search_volume\": 880\n    }\n  ]\n}"
+          }
+        ],
+        "structuredContent": {
+          "keyword": "custom cooler bags",
+          "search_volume": 880,
+          "cpc": 9.82,
+          "seo_difficulty": 29,
+          "paid_difficulty": 100,
+          "competition": 1,
+          "search_intent": "Transactional",
+          "language": "English",
+          "location": "United States",
+          "monthly_searches": [
+            {
+              "period": "202604",
+              "search_volume": 1000
+            },
+            {
+              "period": "202605",
+              "search_volume": 1000
+            },
+            {
+              "period": "202606",
+              "search_volume": 1000
+            },
+            {
+              "period": "202607",
+              "search_volume": 880
+            }
+          ]
+        },
+        "isError": false
+      }
+    }
+  ]
+}
