@@ -1,3 +1,21 @@
+# 最新检查点：全产品品类扩充
+
+更新时间：2026-09-18，Asia/Shanghai。任务 `01a0b39d-9359-76d2-bdad-39aaa199da0d`。
+
+- 实际目录 `C:\Users\Administrator\Desktop\yuanenbag`，分支 `main`；开始本轮 HEAD `c352c67452415be4310cd9e291158a38b978e1cb`，当时工作区干净。最终提交以实际 Git 核对，不使用本文件推断现状。
+- 用户最新要求：参考 TryingMePack 产品，按 SEO/GEO 优化专业度与流量；已明确选择全部产品品类，授权继续本地实现及同步既有 GitHub 仓库。
+- 已实现全部 18 材质分类、12 袋型方向、16 用途方向；22 产品系列（原有 6 + 新增 16），新增材质对比指南。33 内容路由 × 3 语言 = 99 内容页，另 3 个本地化 404。
+- 新增 `src/catalog-data.ts`、`src/Catalog.tsx`、16 张来源参考图；详情专属 FAQ、选材要点、相关产品、三语询价袋型/用途与预选，目录 CollectionPage/ItemList、完整 SSR 和内链。
+- 16 张参考图来自 TryingMePack，保留原标识并显示来源，不宣称为远恩实拍或客户。Leather 源站错归类、Others 无结果，使用示意图与定制评估内容。证据见 `docs/product-sources.json`，详细说明见 `docs/catalog-expansion.md`。
+- 构建及验证在正式索引/预览两模式均通过，最终 dist 恢复 noindex。102 HTML、99 页面 HTTP 200、三语 404 均通过。
+- 浏览器已检查中文桌面、西语手机目录、详情、指南；组合筛选、空结果与重置、西语忽略重音搜索、对应页语言切换、产品预选及包含新增字段的询价草稿均通过。未测试或发送实际邮件。
+- 本地预览仍在 http://127.0.0.1:4173/，脚本 `scripts/serve.mjs`。进程实际存活且本轮 HTTP 通过；恢复时再查，不依赖旧 PID。内置浏览器最终保留中文目录。
+- 未正式部署或改 DNS；未验证收录、流量增长、AI 引用。继续缺公开邮箱/WhatsApp、远恩新增品类确认资料与自有实拍。
+- Ubersuggest 本轮 canvas/jute 搜索量遇到每日报告限额，未重试；已取得 canvas 美国英语 SERP 和 RPET 词估算。无需因此阻塞实现，后续有额度再补数据。
+- 本轮完成代码后同步 GitHub，提交/远端结果见实际 `git status -sb`、`git rev-parse HEAD` 与 `git ls-remote origin refs/heads/main`。下一步若继续产品完善，优先替换自有产品照片与确认规格，而非复制更多同质 SKU。
+
+---
+
 # 远恩项目续做记录
 
 ## 最新进度：加入西班牙语

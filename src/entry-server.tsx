@@ -2,9 +2,11 @@ import { renderToString } from 'react-dom/server'
 import App from './App'
 import { bags, brand, faq, tx, languages, locales, type Lang } from './data'
 import { pages, href, resolveRoute } from './routes'
+import { materialCategories, styleOptions, usageOptions } from './catalog-data'
 
 export const notFoundPaths = languages.map(lang=>href('/404/',lang))
 export const paths = languages.flatMap(lang => pages.map(page => href(page.path, lang)))
+export const catalogAudit = {bags,materialCategories,styleOptions,usageOptions}
 const escape = (value: string) => value.replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]!))
 const absolute = (path: string) => new URL(path, brand.site).href
 export function render(path = '/', indexable = false) {
@@ -25,6 +27,7 @@ export function render(path = '/', indexable = false) {
     graph.push({'@type':'FAQPage',mainEntity:questions.map(item=>({'@type':'Question',name:item.q[lang],acceptedAnswer:{'@type':'Answer',text:item.a[lang]}}))})
   }
   if (page.type === 'guide') graph.push({'@type':'Article',headline:page.title[lang].split(' | ')[0],description:page.description[lang],inLanguage:locales[lang].tag,dateModified:'2026-09-18',author:{'@id':organization['@id']},publisher:{'@id':organization['@id']},mainEntityOfPage:{'@id':`${url}#webpage`}})
+  if (page.type === 'catalog') graph.push({'@type':'CollectionPage','@id':`${url}#collection`,name:page.title[lang],url,inLanguage:locales[lang].tag,mainEntity:{'@type':'ItemList',numberOfItems:bags.length,itemListElement:bags.map((bag,i)=>({'@type':'ListItem',position:i+1,name:bag.name[lang],url:absolute(href(`/products/${bag.slug}/`,lang))}))}})
   const head = [
     `<title>${escape(page.title[lang])}</title>`,
     `<meta name="description" content="${escape(page.description[lang])}" />`,

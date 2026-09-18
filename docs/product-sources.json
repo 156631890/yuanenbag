@@ -1,0 +1,130 @@
+{
+  "reviewedAt": "2026-09-18",
+  "catalog": "https://www.tryingmepack.com/products.html",
+  "scope": "All 18 material categories; 12 styles and 16 uses. Representative designs, not a full SKU mirror.",
+  "note": "Reference images remain third-party examples, not evidence of YUANEN manufacture, certifications or customer relationships. Source prices, MOQ and lead times are not adopted.",
+  "products": [
+    {
+      "slug": "pp-woven-bags",
+      "material": "PP Woven",
+      "path": "transparent-pp-woven-shopping-bag.html",
+      "image": "202305/31/202305311528343282_water.jpg",
+      "observed": "PP woven; laminated print; customized size"
+    },
+    {
+      "slug": "cotton-canvas-bags",
+      "material": "Cotton/Canvas",
+      "path": "heavy-duty-canvas-shouler-bag.html",
+      "image": "202309/15/202309151024361041_water.jpg",
+      "observed": "16 oz cotton; 34 x 32H x 14 cm; PU handle; magnetic closure"
+    },
+    {
+      "slug": "non-woven-bags",
+      "material": "Non woven",
+      "path": "non-woven-bag-111.html",
+      "image": "202504/29/202504291145074892_water.jpg",
+      "observed": "No written specifications in description"
+    },
+    {
+      "slug": "zipper-insulated-bags",
+      "material": "Cooler Bag",
+      "path": "non-woven-cooler-bag-with-bottom-but-no-gusset.html",
+      "image": "202206/15/202206151000338016.jpg",
+      "observed": "45 x 17 x H35 cm; non-woven + EPE; zipper; pocket"
+    },
+    {
+      "slug": "rpet-non-woven-bags",
+      "material": "Rpet non woven",
+      "path": "christmas-rpet-non-woven-candy-bag-04.html",
+      "image": "202206/16/202206161043374607.jpg",
+      "observed": "120 GSM RPET non-woven; ribbon handles; 40 x 16 x H24+8 cm"
+    },
+    {
+      "slug": "rpet-polyester-bags",
+      "material": "Rpet polyester",
+      "path": "rpet-polyester-bag-04.html",
+      "image": "202206/14/202206141538204285.jpg",
+      "observed": "190T RPET polyester; self-fabric handles"
+    },
+    {
+      "slug": "polyester-bags",
+      "material": "Polyester",
+      "path": "custom-metallic-polyester-cosmtic-bag.html",
+      "image": "202405/31/202405311021564842_water.jpg",
+      "observed": "Metallic polyester cosmetic bag; customized or source stock sizes"
+    },
+    {
+      "slug": "reflective-bags",
+      "material": "Reflective cloth",
+      "path": "reflective-8.html",
+      "image": "202206/14/202206141656534853.jpg",
+      "observed": "No written performance or compliance information"
+    },
+    {
+      "slug": "felt-bags",
+      "material": "Felt",
+      "path": "fashionable-felt-tote-bag.html",
+      "image": "202305/31/202305311537242105_water.jpg",
+      "observed": "2 mm felt; 4 x 50 cm felt handles"
+    },
+    {
+      "slug": "paper-washable-paper-bags",
+      "material": "Paper/Washable paper",
+      "path": "washable-kraft-paper-tote-bag.html",
+      "image": "202306/01/202306011045071292_water.jpg",
+      "observed": "47W x 37H x 10B cm; described as kraft paper; no wash test"
+    },
+    {
+      "slug": "glitter-metallic-bags",
+      "material": "Glitter",
+      "path": "non-woven-bag-72.html",
+      "image": "202206/15/202206151701098446.jpg",
+      "observed": "Metallic non-woven with lamination, 140 GSM total; adjustable shoulder strap. Renamed glitter/metallic category to distinguish finishes."
+    },
+    {
+      "slug": "tyvek-bags",
+      "material": "Tyvek",
+      "path": "tyvek-17.html",
+      "image": "202206/15/202206151624078985.jpg",
+      "observed": "Described as TYVEK; 40 x 35 x 12 cm; nylon webbing. Material authenticity not verified."
+    },
+    {
+      "slug": "pvc-tpu-bags",
+      "material": "PVC/TPU",
+      "path": "small-tpu-makeup-bag.html",
+      "image": "202302/08/202302081018544027_water.jpg",
+      "observed": "0.4 mm laser TPU; 15.5 x 4.5 x 11H cm; zipper; UV/screen printing"
+    },
+    {
+      "slug": "mesh-bags",
+      "material": "Mesh(Cotton/Polyester)",
+      "path": "mesh-cotton-tote-bag.html",
+      "image": "202302/06/202302061308282890_water.jpg",
+      "observed": "Cotton + mesh; 38.5 x 39.5H cm; cotton webbing"
+    },
+    {
+      "slug": "jute-bags",
+      "material": "Jute",
+      "path": "jute-bag-with-magnetic-button-inside-03.html",
+      "image": "202206/15/202206151128442209.jpg",
+      "observed": "Jute + cotton; cotton webbing; magnetic closure; several sizes"
+    },
+    {
+      "slug": "bamboo-fiber-bags",
+      "material": "Bamboo",
+      "path": "Bamboo%20Fiber%20Bag-001.html",
+      "image": "202206/15/202206151621207923.jpg",
+      "observed": "Described as 100/120 GSM bamboo fiber; W34 x H40 cm; actual fiber processing not specified"
+    },
+    {
+      "slug": "leather-bags",
+      "material": "Leather",
+      "observed": "Filter returned a product titled Reusable Metallic non woven bag (non-woven-bag-53.html). Rejected as a leather image/specification reference."
+    },
+    {
+      "slug": "other-custom-bags",
+      "material": "Others",
+      "observed": "Material filter exists but returned no product cards. Retained as custom development enquiry, without invented example."
+    }
+  ]
+}

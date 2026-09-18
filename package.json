@@ -1,7 +1,7 @@
 {
   "name": "yuanenbag",
   "version": "1.0.0",
-  "description": "YUANEN bilingual B2B insulated packaging website",
+  "description": "YUANEN trilingual B2B custom bags and insulated packaging website",
   "private": true,
   "scripts": {
     "dev": "vite --host 127.0.0.1",

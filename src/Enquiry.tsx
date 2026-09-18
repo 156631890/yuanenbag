@@ -2,9 +2,10 @@ import { useEffect, useRef, useState, type FormEvent } from 'react'
 import { ArrowUpRight, Check, Download, Mail, X } from 'lucide-react'
 import { bags, brand, tx, type Lang } from './data'
 import { href } from './routes'
+import { styleOptions, usageOptions } from './catalog-data'
 
 export default function Enquiry({lang}:{lang:Lang}) {
-  const t=(en:string,zh:string)=>tx(en,zh)[lang]
+  const t=(en:string,zh:string,es?:string)=>tx(en,zh,es)[lang]
   const [bag,setBag]=useState('')
   const [brief,setBrief]=useState('')
   const dialog=useRef<HTMLDialogElement>(null)
@@ -13,9 +14,11 @@ export default function Enquiry({lang}:{lang:Lang}) {
   function prepare(event:FormEvent<HTMLFormElement>) {
     event.preventDefault()
     const data=new FormData(event.currentTarget)
-    const labels:Record<string,string>={name:t('Name','姓名'),email:t('Email','邮箱'),company:t('Company','公司'),bag:t('Bag format','袋型'),quantity:t('Quantity','数量'),dimensions:t('Dimensions (W × H × D, cm)','尺寸（宽 × 高 × 侧宽，cm）'),destination:t('Destination','目的地'),details:t('Project details','详细需求')}
+    const labels:Record<string,string>={name:t('Name','姓名'),email:t('Email','邮箱'),company:t('Company','公司'),bag:t('Bag format','袋型'),style:t('Requested style','期望袋型','Formato solicitado'),usage:t('Intended use','预期用途','Uso previsto'),quantity:t('Quantity','数量'),dimensions:t('Dimensions (W × H × D, cm)','尺寸（宽 × 高 × 侧宽，cm）'),destination:t('Destination','目的地'),details:t('Project details','详细需求')}
     const lines=Object.entries(labels).map(([key,label])=>{
       let value=String(data.get(key)||'').trim()
+      if(key==='style')value=styleOptions.find(([id])=>id===value)?.[1][lang]||t('To discuss','待讨论')
+      if(key==='usage')value=usageOptions.find(([id])=>id===value)?.[1][lang]||t('To discuss','待讨论')
       if(key==='bag')value=bags.find(b=>b.slug===value)?.name[lang]||t('To discuss','待讨论')
       return `${label}: ${value||'—'}`
     })
@@ -33,6 +36,7 @@ export default function Enquiry({lang}:{lang:Lang}) {
       <label>{t('Company','公司')}<input name="company" autoComplete="organization" maxLength={140}/></label>
       <div className="form-heading spaced"><span>02 — {t('YOUR PROJECT','项目需求')}</span></div>
       <div className="field-row"><label>{t('Bag format *','袋型 *')}<select name="bag" value={bag} onChange={e=>setBag(e.target.value)} required><option value="">{t('Select a bag format','请选择袋型')}</option>{bags.map(b=><option key={b.slug} value={b.slug}>{b.short[lang]}</option>)}<option value="custom">{t('Other / help me choose','其他 / 需要选型建议')}</option></select></label><label>{t('Estimated quantity (pieces) *','预计数量（件）*')}<input name="quantity" type="number" min="1" step="1" max="100000000" required placeholder={t('e.g. 3000','例如 3000')}/></label></div>
+      <div className="field-row"><label>{t('Requested style','期望袋型','Formato solicitado')}<select name="style"><option value="">{t('To discuss','待讨论')}</option>{styleOptions.map(([id,label])=><option key={id} value={id}>{label[lang]}</option>)}</select></label><label>{t('Intended use','预期用途','Uso previsto')}<select name="usage"><option value="">{t('To discuss','待讨论')}</option>{usageOptions.map(([id,label])=><option key={id} value={id}>{label[lang]}</option>)}</select></label></div>
       <div className="field-row"><label>{t('Width × height × depth (cm)','宽 × 高 × 侧宽（cm）')}<input name="dimensions" maxLength={100} placeholder={t('e.g. 38 × 40 × 10','例如 38 × 40 × 10')}/></label><label>{t('Delivery country / region *','交货国家 / 地区 *')}<input name="destination" autoComplete="country-name" required maxLength={100}/></label></div>
       <label>{t('Tell us about your project *','详细需求 *')}<textarea name="details" rows={5} required minLength={10} maxLength={3000} placeholder={t('Materials, printing, intended use, target delivery date and any testing requirements…','材质、印刷、用途、目标交期及测试要求……')}/></label>
       <label className="check-field"><input type="checkbox" required/><span>{t('I have read the ','我已阅读')}<a href={href('/privacy/',lang)} target="_blank" rel="noreferrer">{t('privacy information','隐私说明')}</a>{t(' and understand this step prepares a draft.','，并了解这一步将生成需求草稿。')}</span></label>
