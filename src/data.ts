@@ -1,6 +1,16 @@
-﻿export type Lang = 'en' | 'zh'
-export type Text = { en: string; zh: string }
-export const tx = (en: string, zh: string): Text => ({ en, zh })
+import { spanish } from './es'
+export const languages = ['en', 'zh', 'es'] as const
+export type Lang = typeof languages[number]
+export type Text = Record<Lang, string>
+export const locales = {
+  en: { tag:'en', og:'en_US', label:'English', short:'EN' },
+  zh: { tag:'zh-CN', og:'zh_CN', label:'中文', short:'中文' },
+  es: { tag:'es', og:'es_ES', label:'Español', short:'ES' },
+} as const
+export const tx = (en: string, zh: string, es = spanish[en]): Text => {
+  if (!es) throw new Error(`Missing Spanish translation: ${en}`)
+  return { en, zh, es }
+}
 export const brand = { name:'YUANEN', chineseName:'温州远恩工艺品有限公司', email:import.meta.env.VITE_CONTACT_EMAIL||'', whatsapp:import.meta.env.VITE_WHATSAPP||'', site:'https://yuanenbag.com', verifiedCatalog:true }
 export const heroImage = `${import.meta.env.BASE_URL}images/packaging-concept.webp`
 export type Bag = {slug:string;name:Text;short:Text;intro:Text;material:Text;use:Text;group:'delivery'|'cold-chain'|'shopping';color:string;type:'box'|'cooler'|'foil'|'ice';considerations:Text[];question:Text;answer:Text}

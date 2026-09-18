@@ -25,8 +25,8 @@ const server = createServer(async (req,res)=>{
       file=resolve(file,'index.html')
     }
     await stat(file)
-    if (relative==='/404.html') status=404
-  } catch {status=404;file=resolve(root,'404.html')}
+    if (/\/404\.html$/.test(relative)) status=404
+  } catch {status=404;const prefix=relative.match(/^\/(zh|es)(?:\/|$)/)?.[1];file=resolve(root,prefix || '', '404.html')}
   try {
     const content=await readFile(file)
     res.writeHead(status,{'Content-Type':types[extname(file)]||'application/octet-stream','Cache-Control':'no-store','Content-Length':content.length,'X-Content-Type-Options':'nosniff'})

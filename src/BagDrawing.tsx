@@ -1,7 +1,7 @@
 import { useId } from 'react'
-import type { Bag } from './data'
+import type { Bag, Lang } from './data'
 
-export default function BagDrawing({bag, dimensions=false}:{bag:Bag;dimensions?:boolean}) {
+export default function BagDrawing({bag, lang='en', dimensions=false}:{bag:Bag;lang?:Lang;dimensions?:boolean}) {
   const id = useId().replace(/:/g,'')
   const body = bag.type==='cooler' ? 'M102 160 270 150 297 177 293 278 104 287Z' : bag.type==='ice' ? 'M113 105Q188 99 268 105L267 289Q190 298 115 289Z' : 'M103 140 259 132 288 156 285 287 103 290Z'
   return <svg viewBox="0 0 400 360" className="bag-drawing" aria-hidden="true">
@@ -14,8 +14,8 @@ export default function BagDrawing({bag, dimensions=false}:{bag:Bag;dimensions?:
       <path d={bag.type==='cooler'?'M105 177 271 165 293 179':'M113 140Q189 152 267 137M121 148V282M263 150V283'} fill="none" stroke="#fff" opacity=".24" strokeWidth="1.5" strokeDasharray="3 2"/>
       {bag.type!=='ice'&&<><path d={bag.type==='cooler'?'M139 172V127Q139 94 184 94Q222 94 222 131V170':'M139 148V102Q139 61 179 61Q219 61 219 105V148'} fill="none" stroke={bag.color} strokeWidth="13"/><path d={bag.type==='cooler'?'M139 172V127Q139 94 184 94Q222 94 222 131V170':'M139 148V102Q139 61 179 61Q219 61 219 105V148'} fill="none" stroke="#fff" opacity=".25" strokeWidth="1.3" strokeDasharray="3 2"/></>}
       <rect x="150" y="192" width="79" height="54" rx="1" fill="none" stroke="#fff" strokeOpacity=".5" strokeDasharray="3 4"/>
-      <text x="190" y="220" textAnchor="middle" fill="#fff" opacity=".85" fontSize="10" letterSpacing="2" fontFamily="Arial">YOUR LOGO</text>
+      <text x="190" y="220" textAnchor="middle" fill="#fff" opacity=".85" fontSize="10" letterSpacing="2" fontFamily="Arial">{lang==='es'?'SU LOGO':lang==='zh'?'您的标志':'YOUR LOGO'}</text>
     </g>
-    {dimensions&&<g stroke="#647165" fill="#647165" fontFamily="Arial" fontSize="10"><path d="M78 135V293M73 135H83M73 293H83M115 326H283M115 321V331M283 321V331" fill="none"/><text x="56" y="216" stroke="none">H</text><text x="193" y="344" stroke="none">W</text></g>}
+    {dimensions&&<g stroke="#647165" fill="#647165" fontFamily="Arial" fontSize="10"><path d="M78 135V293M73 135H83M73 293H83M115 326H283M115 321V331M283 321V331" fill="none"/><text x="56" y="216" stroke="none">{lang==='es'?'Al':'H'}</text><text x="193" y="344" stroke="none">{lang==='es'?'An':'W'}</text></g>}
   </svg>
 }

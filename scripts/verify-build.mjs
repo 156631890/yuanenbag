@@ -13,7 +13,7 @@ async function collect(dir) {
   }
 }
 await collect(root)
-assert.equal(files.length,33,'Expected 32 bilingual pages and a 404 document')
+assert.equal(files.length,51,'Expected 48 trilingual pages and 3 localized 404 documents')
 const titles = new Set()
 const canonicals = new Set()
 const env = {...loadEnv('production',process.cwd(),'SITE_'),...process.env}
@@ -28,14 +28,23 @@ for (const file of files) {
   const json = html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)?.[1]
   assert(json && JSON.parse(json)['@graph'].length>=3,`Missing schema graph: ${file}`)
   assert(html.includes('<main id="main">'),`Missing main content: ${file}`)
+  const relative = file.slice(root.length).replaceAll('\\','/').replace(/index\.html$/,'')
+  const lang = relative.startsWith('/zh/')?'zh-CN':relative.startsWith('/es/')?'es':'en'
+  assert(html.includes(`lang="${lang}"`),`Incorrect language: ${file}`)
+  assert(JSON.parse(json)['@graph'].some(item=>item['@type']==='WebPage' && item.inLanguage===lang),`Incorrect schema language: ${file}`)
   if (!file.endsWith('404.html')) {
     const canonical = html.match(/rel="canonical" href="([^"]+)"/)?.[1]
     assert(canonical && !canonicals.has(canonical),`Missing or duplicate canonical: ${file}`)
     canonicals.add(canonical)
-    assert.equal((html.match(/hreflang=/g)||[]).length,3,`Missing language alternates: ${file}`)
-    const relative = file.slice(root.length).replaceAll('\\','/').replace(/index\.html$/,'')
+    assert.equal((html.match(/hreflang=/g)||[]).length,4,`Missing language alternates: ${file}`)
     assert.equal(canonical,`https://yuanenbag.com${base}${relative}`,`Incorrect canonical: ${file}`)
-    assert(html.includes(`lang="${relative.startsWith('/zh/')?'zh-CN':'en'}"`),`Incorrect language: ${file}`)
+    const route = relative.replace(/^\/(zh|es)(?=\/)/,'')
+    for (const [tag,prefix] of [['en',''],['zh-CN','/zh'],['es','/es'],['x-default','']]) {
+      assert(html.includes(`hreflang="${tag}" href="https://yuanenbag.com${base}${prefix}${route}"`),`Incorrect alternate ${tag}: ${file}`)
+    }
+  } else {
+    assert(html.includes('noindex, follow'),`404 must not be indexed: ${file}`)
+    assert(!html.includes('rel="canonical"'),`404 should not declare a canonical: ${file}`)
   }
   for (const match of html.matchAll(/(?:href|src)="(\/[^"]*)"/g)) {
     let path = match[1].split(/[?#]/)[0]
@@ -46,7 +55,7 @@ for (const file of files) {
 }
 const sitemap = await readFile(join(root,'sitemap.xml'),'utf8')
 const locs = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1])
-assert.equal(locs.length,env.SITE_INDEXABLE==='true'?32:0,'Sitemap indexing mode mismatch')
+assert.equal(locs.length,env.SITE_INDEXABLE==='true'?48:0,'Sitemap indexing mode mismatch')
 for (const url of locs) assert(canonicals.has(url),`Noncanonical URL in sitemap: ${url}`)
 assert((await readFile(join(root,'404.html'),'utf8')).includes('noindex, follow'),'404 must not be indexed')
 console.log(`Verified ${files.length} HTML documents: distinct titles, H1, language, canonical, alternates, schema, local links/assets, sitemap and 404.`)
