@@ -1,6 +1,6 @@
 # YUANEN · 远恩保温包装
 
-温州远恩工艺品有限公司的中英西三语 B2B 包装展示与询价网站。使用 React、TypeScript 和 Vite，构建时输出 99 个独立 HTML 页面，以及三语 404、robots.txt 和 sitemap.xml。
+温州远恩工艺品有限公司的中英西三语 B2B 包装展示与询价网站。使用 React、TypeScript 和 Vite，构建时输出 138 个独立 HTML 页面，以及三语 404、robots.txt 和 sitemap.xml。
 
 ## 本地运行
 
@@ -17,10 +17,11 @@ npm run preview
 
 ## 现有页面与业务行为
 
-- 22 个产品系列，覆盖参考站全部 18 个材质/产品分类；保留原有 6 个产品 URL。目录支持材质、12 种袋型、16 种用途与三语搜索的组合筛选。
+- 35 个产品与系列：2026 用户目录新增 13 款（5 款铝箔袋、3 款冰源、1 款自粘无纺布外卖袋、4 款拉链保温包），保留 22 个材质与袋型系列及全部既有 URL。支持目录集合、材质、12 种袋型、16 种用途与三语搜索的组合筛选。
 - 独立产品页、应用场景、定制流程、工厂介绍、三篇采购指南、询价及隐私说明，均有英文、中文和西班牙语 URL。页头可在对应页面切换语言，西语产品搜索支持忽略重音符号。
 - 工厂实拍来自用户提供的六张企业资料海报，页面用 SVG viewBox 展示原始照片区域。
 - 产能按用户确认的新资料：温州 20,000㎡、山东 5,000㎡、湖南 3,800㎡，合计 28,800㎡，日产 300 万+；实际订单按规格与排期确认。
+- 新增 36 张用户 2026 目录图片（WebP 合计约 1 MB），详情支持缩略图切换与放大。部分源图带 AI 生成标记，保留原标识，展示为目录图片，不宣称实拍。来源映射见 `docs/2026-catalog-sources.json`；未公开整本 PDF。
 - 16 张 TryingMePack 参考款照片保留原始标识，明确区分于远恩实拍；其他产品使用袋型示意。来源与分类审计见 `docs/product-sources.json` 和 `docs/catalog-expansion.md`。
 - 询价表包括产品、袋型、用途选择，只在浏览器中生成需求草稿和文本下载；配置邮箱后提供邮件应用草稿入口。没有自动邮件投递或服务器留资，不显示发送成功。
 
@@ -37,7 +38,7 @@ SITE_INDEXABLE=false
 
 - 正式域名已按用户提供的 `https://yuanenbag.com` 配置在 `src/data.ts`。
 - `SITE_INDEXABLE=false` 是预览默认值，各页输出 `noindex, follow`；robots 允许读取 noindex，预览 sitemap 不列页面。
-- 确认公开联系方式和上线内容后，正式构建设 `SITE_INDEXABLE=true`，重新构建会输出可索引页面及含 99 个 URL 的 sitemap。
+- 确认公开联系方式和上线内容后，正式构建设 `SITE_INDEXABLE=true`，重新构建会输出可索引页面及含 138 个 URL 的 sitemap。
 - 部署到正式域名根目录时保持 `SITE_BASE_PATH=/`。在 GitHub 项目 Pages 子目录预览时可设置 `/yuanenbag/`，同时保持 `SITE_INDEXABLE=false`，避免把预览地址当正式站点。
 - 修改构建配置后需重新构建；修改预览服务器配置后需重启预览。
 
@@ -59,4 +60,4 @@ SITE_INDEXABLE=false
 - 项目：`stevens-projects-08c9c5b0/yuanenbag`，已部署为 Vercel production，公开地址 https://yuanenbag.vercel.app/ 。
 - `vercel.json` 固定执行完整构建及验证，输出 `dist`；静态文件优先，未知路径返回对应语言 404。
 - 环境变量 `SITE_BASE_PATH=/`、`SITE_INDEXABLE=false`。临时域名可访问但暂不索引；canonical 仍为计划使用的 yuanenbag.com。绑定正式域名后再开启正式索引。
-- 联系方式仍未配置，询价为可下载草稿。没有执行付费升级、域名购买或 DNS 修改。
+- 2026 目录公开电话已接入页脚及询价页；邮箱与 WhatsApp 仍未配置，询价为可下载草稿。没有执行付费升级、域名购买或 DNS 修改。

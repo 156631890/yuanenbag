@@ -1,0 +1,145 @@
+{
+  "source": "压缩2026目录(1).pdf",
+  "sourceType": "User-provided 2026 YUANEN catalog",
+  "products": [
+    {
+      "slug": "self-adhesive-foil-bags",
+      "pdfSheet": 6,
+      "imageXrefs": [
+        402,
+        401,
+        403,
+        404,
+        405,
+        407
+      ]
+    },
+    {
+      "slug": "open-top-foil-bags",
+      "pdfSheet": 7,
+      "imageXrefs": [
+        447,
+        448,
+        454,
+        446,
+        451
+      ]
+    },
+    {
+      "slug": "hand-finished-gusseted-foil-bags",
+      "pdfSheet": 7,
+      "imageXrefs": [
+        445,
+        450,
+        451
+      ]
+    },
+    {
+      "slug": "machine-formed-gusseted-foil-bags",
+      "pdfSheet": 7,
+      "imageXrefs": [
+        452,
+        450,
+        451
+      ]
+    },
+    {
+      "slug": "gusseted-foil-cake-bags",
+      "pdfSheet": 7,
+      "imageXrefs": [
+        453,
+        450,
+        407
+      ]
+    },
+    {
+      "slug": "water-fill-ice-packs",
+      "pdfSheet": 8,
+      "imageXrefs": [
+        472
+      ]
+    },
+    {
+      "slug": "self-absorbing-ice-packs",
+      "pdfSheet": 8,
+      "imageXrefs": [
+        473,
+        474
+      ]
+    },
+    {
+      "slug": "segmented-ice-sheets",
+      "pdfSheet": 8,
+      "imageXrefs": [
+        475
+      ]
+    },
+    {
+      "slug": "self-seal-non-woven-delivery-bags",
+      "pdfSheet": 9,
+      "imageXrefs": [
+        499,
+        494,
+        500,
+        501,
+        495,
+        496,
+        497,
+        498
+      ]
+    },
+    {
+      "slug": "square-zipper-cake-cooler",
+      "pdfSheet": 10,
+      "imageXrefs": [
+        532,
+        534,
+        538,
+        539,
+        540,
+        541
+      ]
+    },
+    {
+      "slug": "upright-dessert-cooler",
+      "pdfSheet": 10,
+      "imageXrefs": [
+        535,
+        534,
+        539,
+        540,
+        541
+      ]
+    },
+    {
+      "slug": "wide-base-meal-cooler",
+      "pdfSheet": 10,
+      "imageXrefs": [
+        536,
+        534,
+        538,
+        540,
+        541
+      ]
+    },
+    {
+      "slug": "upright-grocery-cooler",
+      "pdfSheet": 10,
+      "imageXrefs": [
+        537,
+        534,
+        538,
+        539,
+        540,
+        541
+      ]
+    }
+  ],
+  "uniqueImages": 36,
+  "notes": [
+    "No inferred SKU, MOQ, price, certification or thermal-duration claims.",
+    "Same-format print variants are grouped in galleries.",
+    "Company-confirmed capacity retained; conflicting catalog capacity not imported.",
+    "Source images include AI-generation watermarks. Original marks are retained; catalog scenes are not described as factory photography or verified production samples."
+  ]
+}

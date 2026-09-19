@@ -28,6 +28,9 @@ export function render(path = '/', indexable = false) {
   }
   if (page.type === 'guide') graph.push({'@type':'Article',headline:page.title[lang].split(' | ')[0],description:page.description[lang],inLanguage:locales[lang].tag,dateModified:'2026-09-18',author:{'@id':organization['@id']},publisher:{'@id':organization['@id']},mainEntityOfPage:{'@id':`${url}#webpage`}})
   if (page.type === 'catalog') graph.push({'@type':'CollectionPage','@id':`${url}#collection`,name:page.title[lang],url,inLanguage:locales[lang].tag,mainEntity:{'@type':'ItemList',numberOfItems:bags.length,itemListElement:bags.map((bag,i)=>({'@type':'ListItem',position:i+1,name:bag.name[lang],url:absolute(href(`/products/${bag.slug}/`,lang))}))}})
+  const currentBag = bags.find(b=>b.slug===page.slug)
+  const shareImage = currentBag?.image ? `images/products/${currentBag.image}` : 'images/products/2026/532.webp'
+  if (page.type === 'bag' && currentBag?.collection) graph.push({'@type':'Product','@id':`${url}#product`,name:currentBag.name[lang],description:currentBag.intro[lang],url,image:[currentBag.image,...(currentBag.gallery||[])].map(file=>absolute(href('/', 'en')+`images/products/${file}`)),brand:{'@type':'Brand',name:brand.name},manufacturer:{'@id':organization['@id']},material:currentBag.material[lang],category:currentBag.use[lang]})
   const head = [
     `<title>${escape(page.title[lang])}</title>`,
     `<meta name="description" content="${escape(page.description[lang])}" />`,
@@ -38,7 +41,7 @@ export function render(path = '/', indexable = false) {
     `<meta property="og:url" content="${escape(url)}" />`,
     `<meta property="og:type" content="${page.type==='guide'?'article':'website'}" />`,
     `<meta property="og:locale" content="${locales[lang].og}" />`,
-    `<meta property="og:image" content="${escape(absolute(href('/', 'en')+'images/factory/production-workshops.webp'))}" />`,
+    `<meta property="og:image" content="${escape(absolute(href('/', 'en')+shareImage))}" />`,
     `<script type="application/ld+json">${JSON.stringify({'@context':'https://schema.org','@graph':graph}).replace(/</g,'\\u003c')}</script>`,
   ].join('\n    ')
   return {html:renderToString(<App path={path}/>),head,lang:locales[lang].tag,url}

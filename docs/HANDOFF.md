@@ -1,3 +1,16 @@
+# 最新检查点：2026 产品目录与全站视觉升级（2026-09-19）
+
+- 当前目标：用户要求补齐其 PDF 产品并改善网站不够大气的问题。目录为 `C:/Users/Administrator/Desktop/压缩2026目录(1).pdf`，10 个跨页；导入产品来源集中在 PDF 第 6–10 张。
+- 实际项目 `C:/Users/Administrator/Desktop/yuanenbag`，main；本轮起始 HEAD b24c9ef，工作区干净。用户既有 GitHub/Vercel 发布授权继续适用；本轮完成后推送 main 自动发布，最终部署状态以 Vercel 查询和线上内容为准。
+- 新增 13 个具体款式与 36 张 WebP 图片（997,226 bytes），保留 22 个系列，共 35 个产品/系列、138 内容页与 3 个本地化 404。印花变化收入图集，不冒充新 SKU。数据在 src/yuanen-catalog.ts，来源映射 docs/2026-catalog-sources.json。
+- 首页改成全宽深蓝品牌版面、目录场景图、四大核心系列、精选产品、工厂与采购内容；同步更新全站间距/标题/产品卡/目录/详情/手机版式。图库支持缩略图和原图弹窗，远恩目录与 TryingMePack 参考明确区分。产品结构化数据只用于用户目录款，不虚构 offers/ratings。
+- PDF 中部分图片带 AI 生成水印，保持原标记；不将其描述为工厂实拍或验证样品。保留原已确认 28,800㎡、日产300万+口径，不采用 PDF 冲突的500万口径。未补写无法确认的价格、MOQ、时效、认证或承重。
+- PDF 封底电话 13968744777 / 13616655488 已核对，加入可点击电话入口。邮箱与 WhatsApp 仍未提供，表单仍仅生成/下载草稿。
+- 验证：npm run build 和 npm run verify 通过，141 HTML（标题、H1、三语/hreflang、schema、本地资源/链接、404、sitemap）。新增目录来源/图片路径/Product schema检查。CUA 检查中英文桌面、西语手机、目录13/35筛选、搜索冰袋2/35、重置35/35、图集切换/放大、询价产品预选；修复较长西语产品选项导致的手机询价页溢出。检查控制台没有 error/warn。
+- 本地预览 http://127.0.0.1:4173/（恢复时检查实际进程）。SITE_INDEXABLE=false；canonical 仍为 yuanenbag.com，未修改 DNS。尚未验证搜索收录、排名或 AI 引用。
+
+---
+
 # 最新部署检查点（2026-09-19）
 
 - 用户明确授权通过浏览器部署其提供的 Vercel 导入链接。已使用 Chrome 现有登录态导入 GitHub `156631890/yuanenbag`，项目 `yuanenbag`，团队 `stevens-projects-08c9c5b0`。

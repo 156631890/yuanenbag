@@ -23,6 +23,12 @@ for (const [category] of catalogAudit.materialCategories) assert(catalogAudit.ba
 for (const [option] of catalogAudit.styleOptions) assert(catalogAudit.bags.some(b=>b.styles.includes(option)),`Empty style ${option}`)
 for (const [option] of catalogAudit.usageOptions) assert(catalogAudit.bags.some(b=>b.uses.includes(option)),`Empty use ${option}`)
 for (const bag of catalogAudit.bags) {
+  if (bag.collection) {
+    assert.equal(bag.collection,'yuanen-2026')
+    assert(bag.catalogPage>=6 && bag.catalogPage<=10,`Missing catalog source: ${bag.slug}`)
+    assert(!bag.source,`Own catalog product cannot carry third-party reference attribution: ${bag.slug}`)
+    for (const file of [bag.image,...bag.gallery]) await access(join(root,'images/products',file))
+  }
   assert(catalogAudit.materialCategories.some(([id])=>id===bag.category),`Invalid category ${bag.slug}`)
   for (const [field,options] of [['styles',catalogAudit.styleOptions],['uses',catalogAudit.usageOptions]]) for (const value of bag[field]) assert(options.some(([id])=>id===value),`Invalid ${field} ${value}`)
   for (const lang of ['en','zh','es']) for (const field of ['name','intro','material','use','question','answer']) assert(bag[field][lang]?.trim(),`Missing ${lang} ${field}: ${bag.slug}`)
@@ -43,6 +49,13 @@ for (const file of files) {
   assert(json && JSON.parse(json)['@graph'].length>=3,`Missing schema graph: ${file}`)
   assert(html.includes('<main id="main">'),`Missing main content: ${file}`)
   const relative = file.slice(root.length).replaceAll('\\','/').replace(/index\.html$/,'')
+  const ownProduct = catalogAudit.bags.find(b=>b.collection && relative.endsWith(`/products/${b.slug}/`))
+  if (ownProduct) {
+    const product = JSON.parse(json)['@graph'].find(item=>item['@type']==='Product')
+    assert(product,`Missing product schema: ${relative}`)
+    assert.equal(product.image.length,ownProduct.gallery.length+1,`Incomplete gallery schema: ${relative}`)
+    assert(!product.offers && !product.aggregateRating,`Unverified commercial claims: ${relative}`)
+  }
   const lang = relative.startsWith('/zh/')?'zh-CN':relative.startsWith('/es/')?'es':'en'
   assert(html.includes(`lang="${lang}"`),`Incorrect language: ${file}`)
   assert(JSON.parse(json)['@graph'].some(item=>item['@type']==='WebPage' && item.inLanguage===lang),`Incorrect schema language: ${file}`)
