@@ -2,12 +2,13 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises'
 import { resolve, dirname } from 'node:path'
 import { render, paths, notFoundPaths } from '../.ssr/entry-server.js'
 import { loadEnv } from 'vite'
+import { isIndexable } from './indexing.mjs'
 
 const template = await readFile(new URL('../dist/index.html', import.meta.url), 'utf8')
 if (!template.includes('<!--app-html-->')) throw new Error('Missing prerender placeholder')
 if (!template.includes('<!--page-head-->')) throw new Error('Missing metadata placeholder')
 const env = {...loadEnv('production',process.cwd(),'SITE_'),...process.env}
-const indexable = env.SITE_INDEXABLE === 'true'
+const indexable = isIndexable(env)
 const base = (env.SITE_BASE_PATH || '/').replace(/\/$/, '')
 const urls = []
 for (const path of [...paths, ...notFoundPaths]) {

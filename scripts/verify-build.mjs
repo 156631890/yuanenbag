@@ -2,6 +2,7 @@ import { readdir, readFile, access } from 'node:fs/promises'
 import { resolve, join } from 'node:path'
 import assert from 'node:assert/strict'
 import { loadEnv } from 'vite'
+import { isIndexable } from './indexing.mjs'
 import { paths, notFoundPaths, catalogAudit, documentationAudit } from '../.ssr/entry-server.js'
 
 const root = resolve('dist')
@@ -119,7 +120,7 @@ for (const file of files) {
   }
   assert(!/Compare six product|六大产品系列|六类保温包装|Compare seis familias/.test(html),`Stale catalog copy: ${file}`)
   if (!file.endsWith('404.html')) {
-    assert(html.includes(`name="robots" content="${env.SITE_INDEXABLE==='true'?'index':'noindex'}, follow"`),`Incorrect robots directive: ${file}`)
+    assert(html.includes(`name="robots" content="${isIndexable(env)?'index':'noindex'}, follow"`),`Incorrect robots directive: ${file}`)
     const canonical = html.match(/rel="canonical" href="([^"]+)"/)?.[1]
     assert(canonical && !canonicals.has(canonical),`Missing or duplicate canonical: ${file}`)
     canonicals.add(canonical)
@@ -142,7 +143,7 @@ for (const file of files) {
 }
 const sitemap = await readFile(join(root,'sitemap.xml'),'utf8')
 const locs = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1])
-assert.equal(locs.length,env.SITE_INDEXABLE==='true'?paths.length:0,'Sitemap indexing mode mismatch')
+assert.equal(locs.length,isIndexable(env)?paths.length:0,'Sitemap indexing mode mismatch')
 for (const url of locs) assert(canonicals.has(url),`Noncanonical URL in sitemap: ${url}`)
 assert((await readFile(join(root,'404.html'),'utf8')).includes('noindex, follow'),'404 must not be indexed')
 console.log(`Verified ${files.length} HTML documents: distinct titles, H1, language, canonical, alternates, schema, local links/assets, sitemap and 404.`)
