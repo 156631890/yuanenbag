@@ -43,7 +43,7 @@ SITE_INDEXABLE=false
 
 ## 发布说明
 
-将 `dist` 的内容部署至支持目录 `index.html` 的静态托管平台；将未知路径返回 `404.html` 并保留 HTTP 404，不要把未知地址重写成首页 200。GitHub 仓库同步不等于正式站已上线；此项目未设置自动发布或修改域名 DNS。
+将 `dist` 的内容部署至支持目录 `index.html` 的静态托管平台；将未知路径返回 `404.html` 并保留 HTTP 404，不要把未知地址重写成首页 200。已通过 GitHub 导入 Vercel，`main` 更新会触发部署。在线地址为 https://yuanenbag.vercel.app/；当前未绑定 yuanenbag.com，也未修改域名 DNS。
 
 正式上线后验证 canonical、语言切换、资源路径、404、robots 与 sitemap，再在 GSC/Bing 提交并观察抓取与询盘。静态 HTML 和结构化数据不等于已收录或获得 AI 引用。
 
@@ -52,3 +52,11 @@ SITE_INDEXABLE=false
 ## 翻译维护
 
 西语文本位于 `src/es.ts`，产品与页面共用同一词典。新增文案时需补齐西语；缺失翻译会让构建失败，避免静默显示其他语言。页面地址保留原有英文路径，西语使用 `/es/` 前缀，语言标签为通用 `es`。公司注册中文名和品牌名保留原文。
+
+
+## Vercel 部署（2026-09-19）
+
+- 项目：`stevens-projects-08c9c5b0/yuanenbag`，已部署为 Vercel production，公开地址 https://yuanenbag.vercel.app/ 。
+- `vercel.json` 固定执行完整构建及验证，输出 `dist`；静态文件优先，未知路径返回对应语言 404。
+- 环境变量 `SITE_BASE_PATH=/`、`SITE_INDEXABLE=false`。临时域名可访问但暂不索引；canonical 仍为计划使用的 yuanenbag.com。绑定正式域名后再开启正式索引。
+- 联系方式仍未配置，询价为可下载草稿。没有执行付费升级、域名购买或 DNS 修改。

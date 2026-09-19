@@ -1,3 +1,17 @@
+# 最新部署检查点（2026-09-19）
+
+- 用户明确授权通过浏览器部署其提供的 Vercel 导入链接。已使用 Chrome 现有登录态导入 GitHub `156631890/yuanenbag`，项目 `yuanenbag`，团队 `stevens-projects-08c9c5b0`。
+- 公开地址：https://yuanenbag.vercel.app/；管理页：https://vercel.com/stevens-projects-08c9c5b0/yuanenbag 。
+- 首次部署 `dpl_6p84S6y4w3posovDTtGbDy3CZdrQ`，Vercel production / READY；代码提交 `a64564cb1593c76da03ce4d440de3b41857b7dee`；构建约 11 秒。部署 URL `yuanenbag-r4ryrf8zx-stevens-projects-08c9c5b0.vercel.app`。
+- Vercel 项目 ID `prj_lRt4cwiF53Y4LE86D13GVmEh2GT7`；team/org ID `team_f4eZTnVOClO7jVJlmtJJU0Us`。本地 `.vercel/project.json` 已保存关联且被忽略。
+- 新增 vercel.json：npm ci；npm run build && npm run verify；dist；filesystem 优先；中/西/英 404 status 404。远端构建及本地 102 HTML 检查通过。
+- 环境变量仅 SITE_BASE_PATH=/、SITE_INDEXABLE=false；无公开联系方式配置。未修改 DNS、未绑定 yuanenbag.com、未开启搜索索引。Vercel production 表示部署环境，不等于正式自定义域名接入。
+- 线上 HTTP 检查：英/中/西首页、中文目录、西语产品和指南、带产品参数的询价为 200；三语不存在路径正确返回 404 与对应语言内容。浏览器验证棉帆布筛选得到 1/22，点击详情询价自动选中 cotton-canvas-bags；所查控制台无 error/warn。
+- 已连接 GitHub main 自动部署。本记录同步时可能产生后续文档部署；恢复时核对 Vercel 最新 READY 与实际 commit，不重复导入项目。
+- Vercel get_project 连接器此次 schema 出现 idOrName/projectId 不一致，使用 get_deployment 和浏览器取证成功。无需因该工具错误重复创建部署。
+
+---
+
 # 最新检查点：全产品品类扩充
 
 更新时间：2026-09-18，Asia/Shanghai。任务 `01a0b39d-9359-76d2-bdad-39aaa199da0d`。
