@@ -1,0 +1,416 @@
+{
+  "date": "2026-09-19",
+  "provider": "Packy",
+  "model": "gpt-image-2",
+  "referenceStyle": "https://ipcpack.com/products/insulated-pouches/",
+  "accepted": [
+    {
+      "slug": "self-adhesive-foil-bags",
+      "kind": "application",
+      "file": "public/images/products/packy/details-v2/self-adhesive-foil-bags-application-v2.webp",
+      "sha256": "4d732fad50b2af981cceb7db9e10404d199be22aec3738b43c711a6942f3eba6",
+      "bytes": 166484,
+      "sourceMain": ".verification/packy/self-adhesive-foil-bags-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "self-adhesive-foil-bags",
+      "kind": "detail",
+      "file": "public/images/products/packy/details-v2/self-adhesive-foil-bags-detail-v2.webp",
+      "sha256": "75c31d53cba1c5548f96a676fa4abc000f05b62b49a9fb5979d5f7809916ef8d",
+      "bytes": 169046,
+      "sourceMain": ".verification/packy/self-adhesive-foil-bags-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "self-adhesive-foil-bags",
+      "kind": "structure",
+      "file": "public/images/products/packy/details-v2/self-adhesive-foil-bags-structure-v2.webp",
+      "sha256": "a3a23f86fddc5843f17c283f6e8eb1e063de3c5e3954d8cf70d2c2466bd5ce46",
+      "bytes": 168974,
+      "sourceMain": ".verification/packy/self-adhesive-foil-bags-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "open-top-foil-bags",
+      "kind": "application",
+      "file": "public/images/products/packy/details-v2/open-top-foil-bags-application-v2.webp",
+      "sha256": "d106f692b8c2cb6dea4607cde5d45828dc36afc1697bb8aa775b07dafa7f4b76",
+      "bytes": 184298,
+      "sourceMain": ".verification/packy/open-top-foil-bags-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "open-top-foil-bags",
+      "kind": "detail",
+      "file": "public/images/products/packy/details-v2/open-top-foil-bags-detail-v2.webp",
+      "sha256": "34af5568608d2becf282beced93e4dce6b5f494fe545c6fd84d0025565e2ee2c",
+      "bytes": 195562,
+      "sourceMain": ".verification/packy/open-top-foil-bags-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "open-top-foil-bags",
+      "kind": "structure",
+      "file": "public/images/products/packy/details-v2/open-top-foil-bags-structure-v2.webp",
+      "sha256": "6a0219f25b1b7782fdb81577c48a3717f5e530a4c07e914c255489a9f3022556",
+      "bytes": 147960,
+      "sourceMain": ".verification/packy/open-top-foil-bags-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "hand-finished-gusseted-foil-bags",
+      "kind": "application",
+      "file": "public/images/products/packy/details-v2/hand-finished-gusseted-foil-bags-application-v2.webp",
+      "sha256": "e84f9711b30149af654fd1bb613d1cf145ef6cdf4aa82549e08eeb4ac933c7cd",
+      "bytes": 151348,
+      "sourceMain": ".verification/packy/hand-finished-gusseted-foil-bags-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "hand-finished-gusseted-foil-bags",
+      "kind": "detail",
+      "file": "public/images/products/packy/details-v2/hand-finished-gusseted-foil-bags-detail-v2.webp",
+      "sha256": "da9ea5c1d591eebc137d7a91ca0801480bb8f075184cb9789854635bd7ffc905",
+      "bytes": 168162,
+      "sourceMain": ".verification/packy/hand-finished-gusseted-foil-bags-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "hand-finished-gusseted-foil-bags",
+      "kind": "structure",
+      "file": "public/images/products/packy/details-v2/hand-finished-gusseted-foil-bags-structure-v2.webp",
+      "sha256": "b9cfd909de71defe4a437a8a920b72dd3f1dc2b351cf95e1b19688c47dda13e7",
+      "bytes": 169722,
+      "sourceMain": ".verification/packy/hand-finished-gusseted-foil-bags-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "machine-formed-gusseted-foil-bags",
+      "kind": "application",
+      "file": "public/images/products/packy/details-v2/machine-formed-gusseted-foil-bags-application-v2.webp",
+      "sha256": "a3957eec8a1a50d7096ebcc1e070d6174d2cb83ab9747bba58923302b454faa1",
+      "bytes": 227198,
+      "sourceMain": ".verification/packy/machine-formed-gusseted-foil-bags-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "machine-formed-gusseted-foil-bags",
+      "kind": "detail",
+      "file": "public/images/products/packy/details-v2/machine-formed-gusseted-foil-bags-detail-v2.webp",
+      "sha256": "7581b4b651d5d8f730c9b1c42c683b2574184b439892fd527f1d420bcaf96512",
+      "bytes": 233430,
+      "sourceMain": ".verification/packy/machine-formed-gusseted-foil-bags-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "machine-formed-gusseted-foil-bags",
+      "kind": "structure",
+      "file": "public/images/products/packy/details-v2/machine-formed-gusseted-foil-bags-structure-v2.webp",
+      "sha256": "2a5ead31e402a70f80cfd4a6d7c6f4f722fd0fecabecf45536e1bc8a88b2aed9",
+      "bytes": 179968,
+      "sourceMain": ".verification/packy/machine-formed-gusseted-foil-bags-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "gusseted-foil-cake-bags",
+      "kind": "application",
+      "file": "public/images/products/packy/details-v2/gusseted-foil-cake-bags-application-v2.webp",
+      "sha256": "a66968c720eac28280fcd71fa1f96fb9145334dd40e7fd7035557e85e9318d0e",
+      "bytes": 168718,
+      "sourceMain": ".verification/packy/gusseted-foil-cake-bags-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "gusseted-foil-cake-bags",
+      "kind": "detail",
+      "file": "public/images/products/packy/details-v2/gusseted-foil-cake-bags-detail-v2.webp",
+      "sha256": "7a52e99a5c8b081d9b00fc6f7be3c8cacd6733d3a8a4e53641923843a3b5a46a",
+      "bytes": 259900,
+      "sourceMain": ".verification/packy/gusseted-foil-cake-bags-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "gusseted-foil-cake-bags",
+      "kind": "structure",
+      "file": "public/images/products/packy/details-v2/gusseted-foil-cake-bags-structure-v2.webp",
+      "sha256": "86917f44510b03a7bef708c9b9fb0f41b5fc651bdae1e5861e01cf74179ba68a",
+      "bytes": 158142,
+      "sourceMain": ".verification/packy/gusseted-foil-cake-bags-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "water-fill-ice-packs",
+      "kind": "application",
+      "file": "public/images/products/packy/details-v2/water-fill-ice-packs-application-v2.webp",
+      "sha256": "0a8ebdfe108328840199ed75106c2c40f8dbcd683fb1cb8dec0a6030fb194b4c",
+      "bytes": 197410,
+      "sourceMain": ".verification/packy/water-fill-ice-packs-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "water-fill-ice-packs",
+      "kind": "detail",
+      "file": "public/images/products/packy/details-v2/water-fill-ice-packs-detail-v2.webp",
+      "sha256": "bbee7574a9a63cd20be0e6a9ee30cc2398dce7e27389aa0570a351a3e000068b",
+      "bytes": 53506,
+      "sourceMain": ".verification/packy/water-fill-ice-packs-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "water-fill-ice-packs",
+      "kind": "structure",
+      "file": "public/images/products/packy/details-v2/water-fill-ice-packs-structure-v2.webp",
+      "sha256": "62342afa144b64a40bdd14bc6820eea0dcafcfa2f6fbf04241a6842c91093a4f",
+      "bytes": 31124,
+      "sourceMain": ".verification/packy/water-fill-ice-packs-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "self-absorbing-ice-packs",
+      "kind": "application",
+      "file": "public/images/products/packy/details-v2/self-absorbing-ice-packs-application-v2.webp",
+      "sha256": "2c9a42c865d0133e15254944e63ecdf0fe4e785a6eb36bf5b1df4bd928768c14",
+      "bytes": 127584,
+      "sourceMain": ".verification/packy/self-absorbing-ice-packs-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "self-absorbing-ice-packs",
+      "kind": "detail",
+      "file": "public/images/products/packy/details-v2/self-absorbing-ice-packs-detail-v2.webp",
+      "sha256": "141ed6a573bb99a09783cf2625f54a33758548f1ecd94e42d46787777ade8fa7",
+      "bytes": 54390,
+      "sourceMain": ".verification/packy/self-absorbing-ice-packs-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "self-absorbing-ice-packs",
+      "kind": "structure",
+      "file": "public/images/products/packy/details-v2/self-absorbing-ice-packs-structure-v2.webp",
+      "sha256": "b86a66e10d2634054ee838c5949ec624c63d4e37e144e9be56a7955f1edca116",
+      "bytes": 49558,
+      "sourceMain": ".verification/packy/self-absorbing-ice-packs-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "segmented-ice-sheets",
+      "kind": "application",
+      "file": "public/images/products/packy/details-v2/segmented-ice-sheets-application-v2.webp",
+      "sha256": "64430c1320681a0cbce5108d9e52a854dc40a567587b95a6f2446616c1b46f65",
+      "bytes": 192540,
+      "sourceMain": ".verification/packy/segmented-ice-sheets-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "segmented-ice-sheets",
+      "kind": "detail",
+      "file": "public/images/products/packy/details-v2/segmented-ice-sheets-detail-v2.webp",
+      "sha256": "c1836d7f9177696cc9a0bec9195c9115f7591e06e956a12e161bb3603b1142d8",
+      "bytes": 31050,
+      "sourceMain": ".verification/packy/segmented-ice-sheets-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "segmented-ice-sheets",
+      "kind": "structure",
+      "file": "public/images/products/packy/details-v2/segmented-ice-sheets-structure-v2.webp",
+      "sha256": "96f5068f2f819b673bd3822764c581496bca7f31c1206196beb157cca5f6b733",
+      "bytes": 41110,
+      "sourceMain": ".verification/packy/segmented-ice-sheets-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "self-seal-non-woven-delivery-bags",
+      "kind": "application",
+      "file": "public/images/products/packy/details-v2/self-seal-non-woven-delivery-bags-application-v2.webp",
+      "sha256": "866eb71ad785cea8059ecf62208089385a1059f512a14d8ad4ec53839bbca5b0",
+      "bytes": 70206,
+      "sourceMain": ".verification/packy/self-seal-non-woven-delivery-bags-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "self-seal-non-woven-delivery-bags",
+      "kind": "detail",
+      "file": "public/images/products/packy/details-v2/self-seal-non-woven-delivery-bags-detail-v2.webp",
+      "sha256": "98c534ed7289a81429c4b0ffe75d7d5ca64a08873046e6f2e5712800a9793e38",
+      "bytes": 103166,
+      "sourceMain": ".verification/packy/self-seal-non-woven-delivery-bags-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "self-seal-non-woven-delivery-bags",
+      "kind": "structure",
+      "file": "public/images/products/packy/details-v2/self-seal-non-woven-delivery-bags-structure-v2.webp",
+      "sha256": "0b0d125401896248f2531a03c14f924aa9eb19606ee2d0783199d811807b5575",
+      "bytes": 41724,
+      "sourceMain": ".verification/packy/self-seal-non-woven-delivery-bags-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "square-zipper-cake-cooler",
+      "kind": "application",
+      "file": "public/images/products/packy/details-v2/square-zipper-cake-cooler-application-v2.webp",
+      "sha256": "990898c73935b8e1f18346b2cdf511ec7fc55d7786691320424c87259663bc79",
+      "bytes": 95284,
+      "sourceMain": ".verification/packy/square-zipper-cake-cooler-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "square-zipper-cake-cooler",
+      "kind": "detail",
+      "file": "public/images/products/packy/details-v2/square-zipper-cake-cooler-detail-v2.webp",
+      "sha256": "7def7d7eb8a5bf0b37b69c945b8b6780f3daea93e48caf7d8e4f275b7e8e07c4",
+      "bytes": 198772,
+      "sourceMain": ".verification/packy/square-zipper-cake-cooler-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "square-zipper-cake-cooler",
+      "kind": "structure",
+      "file": "public/images/products/packy/details-v2/square-zipper-cake-cooler-structure-v2.webp",
+      "sha256": "b42430fd67926a4b08c9255adfa63cede8ca0edce3e7750a2229f13d80884eab",
+      "bytes": 99238,
+      "sourceMain": ".verification/packy/square-zipper-cake-cooler-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "upright-dessert-cooler",
+      "kind": "application",
+      "file": "public/images/products/packy/details-v2/upright-dessert-cooler-application-v2.webp",
+      "sha256": "00c295483282ced1cde1bffa1ac43868b7b229b41c2efbe3aea7c05fb728e1ed",
+      "bytes": 49734,
+      "sourceMain": ".verification/packy/upright-dessert-cooler-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "upright-dessert-cooler",
+      "kind": "detail",
+      "file": "public/images/products/packy/details-v2/upright-dessert-cooler-detail-v2.webp",
+      "sha256": "2d5713f65a455ba8125fa1f2bc10652cfe50f28df25cf0aa8ccf7ce9bf1977be",
+      "bytes": 102860,
+      "sourceMain": ".verification/packy/upright-dessert-cooler-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "upright-dessert-cooler",
+      "kind": "structure",
+      "file": "public/images/products/packy/details-v2/upright-dessert-cooler-structure-v2.webp",
+      "sha256": "f88c1e7b8b13495c904a8c550097caa0e83c7df6780d3a01f613f779cd0654b1",
+      "bytes": 43306,
+      "sourceMain": ".verification/packy/upright-dessert-cooler-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "wide-base-meal-cooler",
+      "kind": "application",
+      "file": "public/images/products/packy/details-v2/wide-base-meal-cooler-application-v2.webp",
+      "sha256": "17cb8b1d235e8642f0f8fdb4fc7ca9d8106298361425e12e459f5776c2a27e4d",
+      "bytes": 116228,
+      "sourceMain": ".verification/packy/wide-base-meal-cooler-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "wide-base-meal-cooler",
+      "kind": "detail",
+      "file": "public/images/products/packy/details-v2/wide-base-meal-cooler-detail-v2.webp",
+      "sha256": "fb09aa232958c66060c21d41ea8af09f63d5a46402dfbf1805bf12f3902f0301",
+      "bytes": 268854,
+      "sourceMain": ".verification/packy/wide-base-meal-cooler-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "wide-base-meal-cooler",
+      "kind": "structure",
+      "file": "public/images/products/packy/details-v2/wide-base-meal-cooler-structure-v2.webp",
+      "sha256": "2e045721209d6268c24451ede6183feb6771e72354177b02ffae80249bdf231b",
+      "bytes": 89386,
+      "sourceMain": ".verification/packy/wide-base-meal-cooler-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "upright-grocery-cooler",
+      "kind": "application",
+      "file": "public/images/products/packy/details-v2/upright-grocery-cooler-application-v2.webp",
+      "sha256": "76bcff458af3165fcc900052695e3d6fffe383f7abd5cdb58d12ed89c82bdb1d",
+      "bytes": 185198,
+      "sourceMain": ".verification/packy/upright-grocery-cooler-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "upright-grocery-cooler",
+      "kind": "detail",
+      "file": "public/images/products/packy/details-v2/upright-grocery-cooler-detail-v2.webp",
+      "sha256": "f6a2c01014c0dcf1f69bf185a149b7f45787139f38b6b55acc7f031253d46cb3",
+      "bytes": 430744,
+      "sourceMain": ".verification/packy/upright-grocery-cooler-main.png",
+      "reviewed": true
+    },
+    {
+      "slug": "upright-grocery-cooler",
+      "kind": "structure",
+      "file": "public/images/products/packy/details-v2/upright-grocery-cooler-structure-v2.webp",
+      "sha256": "8b661ea506f1aa96520b8dfdad098c74c91b5b28092ad1ccf59c2f90c2d83418",
+      "bytes": 144666,
+      "sourceMain": ".verification/packy/upright-grocery-cooler-main.png",
+      "reviewed": true
+    }
+  ],
+  "preservedMainImages": [
+    {
+      "slug": "gusseted-foil-cake-bags",
+      "sha256": "c76d52d8fa2260d478bf52bb778be1db8d5cebb549c143c581a1379d16556d77"
+    },
+    {
+      "slug": "hand-finished-gusseted-foil-bags",
+      "sha256": "83a529cf823a155d3d7c7fe4ede8de0c70639e11e57040dcc8d0c526aef201d1"
+    },
+    {
+      "slug": "machine-formed-gusseted-foil-bags",
+      "sha256": "02f937b1bc2bc6b6ec105f3cb45121ed7395f5d9b9b9266cc1940d56522deb3e"
+    },
+    {
+      "slug": "open-top-foil-bags",
+      "sha256": "71aafe0419391e5c642027865d061c9f01ea35211a0eb4369d60f42b4bd6987c"
+    },
+    {
+      "slug": "segmented-ice-sheets",
+      "sha256": "9723f63a7b9e53cfc56e3bdcc70892063cc68bdfddaf2ed7395f106a1037490c"
+    },
+    {
+      "slug": "self-absorbing-ice-packs",
+      "sha256": "dd8869003ea04356daf7dc8f3a6d7cadc30647ae4861e1fe3ee570198e2bf271"
+    },
+    {
+      "slug": "self-adhesive-foil-bags",
+      "sha256": "54604f0a799ffdcad8fc5e80f9e2d3d141c0cf1939d9a08cd3aa2d12b4696b87"
+    },
+    {
+      "slug": "self-seal-non-woven-delivery-bags",
+      "sha256": "4977be02639618559c349b21d8e7ccad592e145aa2604034b75256145088e103"
+    },
+    {
+      "slug": "square-zipper-cake-cooler",
+      "sha256": "49ac1ddd44d6ff87d0b644f6e72998150c1458ceafbac43a8e2c74dfbd9f3e56"
+    },
+    {
+      "slug": "upright-dessert-cooler",
+      "sha256": "cea706adaea0864d02570ade9e53dcdbcef960ada7a7e1789eb10b61d8fd7bef"
+    },
+    {
+      "slug": "upright-grocery-cooler",
+      "sha256": "2a04399bd4df134325e7b3fa7aec86680a60935910ab2a30f0baf1cbd3613d14"
+    },
+    {
+      "slug": "water-fill-ice-packs",
+      "sha256": "65c3815256426da367ed7820d4672ae59d80348c7cc8bc94083fd6d5429f6693"
+    },
+    {
+      "slug": "wide-base-meal-cooler",
+      "sha256": "b9df747ae7b836f3e90d6defa0f1bbf435296ada196a11f3b46e88bf5d2dafb7"
+    }
+  ],
+  "rejected": [
+    "First self-adhesive structure output invented a gusset; regenerated as a flat pouch."
+  ]
+}

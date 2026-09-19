@@ -286,5 +286,161 @@
   "packy/wide-base-meal-cooler-main.webp": {
     "width": 1024,
     "height": 1024
+  },
+  "packy/details-v2/self-adhesive-foil-bags-application-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/self-adhesive-foil-bags-detail-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/self-adhesive-foil-bags-structure-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/open-top-foil-bags-application-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/open-top-foil-bags-detail-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/open-top-foil-bags-structure-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/hand-finished-gusseted-foil-bags-application-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/hand-finished-gusseted-foil-bags-detail-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/hand-finished-gusseted-foil-bags-structure-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/machine-formed-gusseted-foil-bags-application-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/machine-formed-gusseted-foil-bags-detail-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/machine-formed-gusseted-foil-bags-structure-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/gusseted-foil-cake-bags-application-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/water-fill-ice-packs-application-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/square-zipper-cake-cooler-application-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/gusseted-foil-cake-bags-detail-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/gusseted-foil-cake-bags-structure-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/water-fill-ice-packs-detail-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/water-fill-ice-packs-structure-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/self-absorbing-ice-packs-application-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/self-absorbing-ice-packs-detail-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/self-absorbing-ice-packs-structure-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/segmented-ice-sheets-application-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/segmented-ice-sheets-detail-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/segmented-ice-sheets-structure-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/self-seal-non-woven-delivery-bags-application-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/self-seal-non-woven-delivery-bags-detail-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/self-seal-non-woven-delivery-bags-structure-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/square-zipper-cake-cooler-detail-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/square-zipper-cake-cooler-structure-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/upright-dessert-cooler-application-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/upright-dessert-cooler-detail-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/upright-dessert-cooler-structure-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/wide-base-meal-cooler-application-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/wide-base-meal-cooler-detail-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/wide-base-meal-cooler-structure-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/upright-grocery-cooler-application-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/upright-grocery-cooler-detail-v2.webp": {
+    "width": 1536,
+    "height": 1024
+  },
+  "packy/details-v2/upright-grocery-cooler-structure-v2.webp": {
+    "width": 1536,
+    "height": 1024
   }
 }

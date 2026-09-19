@@ -1,7 +1,7 @@
 import sizes from './product-image-sizes.json'
 import { tx, type Bag, type Lang } from './data'
 
-export type ProductImage = { file: string; kind: 'scene' | 'detail' | 'reference' | 'visualization' }
+export type ProductImage = { file: string; kind: 'scene' | 'detail' | 'reference' | 'visualization' | 'application' | 'material' | 'structure' }
 // Accepted product visualizations go here after comparison with the catalog source.
 export const productPresentations: Record<string, string> = {
   "gusseted-foil-cake-bags": "packy/gusseted-foil-cake-bags-main.webp",
@@ -20,10 +20,19 @@ export const productPresentations: Record<string, string> = {
 }
 const detailImages = new Set(['404','405','407','446','449','450','451','495','496','497','498','534','538','539','540','541'])
 export function productImages(bag: Bag): ProductImage[] {
+  if (productPresentations[bag.slug]) return [
+    {file: productPresentations[bag.slug], kind: 'visualization'},
+    {file: productDetailImage(bag.slug, 'application'), kind: 'application'},
+    {file: productDetailImage(bag.slug, 'detail'), kind: 'material'},
+    {file: productDetailImage(bag.slug, 'structure'), kind: 'structure'},
+  ]
   const original = bag.image ? [bag.image, ...(bag.gallery || [])] : []
   const images: ProductImage[] = original.map(file => ({ file, kind: !bag.collection ? 'reference' : detailImages.has(file.split('/').pop()!.split('.')[0]) ? 'detail' : 'scene' }))
   if (productPresentations[bag.slug]) images.unshift({ file: productPresentations[bag.slug], kind: 'visualization' })
   return images
+}
+export function productDetailImage(slug: string, kind: 'application' | 'detail' | 'structure') {
+  return `packy/details-v2/${slug}-${kind}-v2.webp`
 }
 export function imageSize(file: string) {
   return (sizes as Record<string, {width:number;height:number}>)[file] || {width:1200,height:1200}
@@ -35,5 +44,8 @@ export function imageLabel(kind: ProductImage['kind'], lang: Lang) {
     detail: tx('Construction reference', '结构参考', 'Referencia de construcción'),
     reference: tx('Design reference', '参考款', 'Diseño de referencia'),
     visualization: tx('Product visualization', '产品效果图', 'Visualización del producto'),
+    application: tx('Packing application', '装载应用', 'Aplicación de embalaje'),
+    material: tx('Material & seam detail', '材质与封边细节', 'Detalle de material y uniones'),
+    structure: tx('Product construction', '袋型与结构', 'Forma y construcción'),
   })[kind][lang]
 }

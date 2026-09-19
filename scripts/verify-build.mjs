@@ -81,7 +81,10 @@ for (const file of files) {
   if (ownProduct) {
     const product = JSON.parse(json)['@graph'].find(item=>item['@type']==='Product')
     assert(product,`Missing product schema: ${relative}`)
-    for (const original of [ownProduct.image,...ownProduct.gallery]) assert(product.image.some(url=>url.endsWith('/images/products/'+original)),`Original gallery image missing: ${relative}`)
+    assert.equal(product.image.length,4,`Expected approved main plus three product-specific images: ${relative}`)
+    assert(product.image[0].endsWith(`/packy/${ownProduct.slug}-main.webp`),`Approved main image must stay first: ${relative}`)
+    for (const kind of ['application','detail','structure']) assert(product.image.some(url=>url.endsWith(`/packy/details-v2/${ownProduct.slug}-${kind}-v2.webp`)),`Missing product-specific ${kind}: ${relative}`)
+    for (const original of [ownProduct.image,...ownProduct.gallery]) assert(!html.includes(`/images/products/${original}`),`Rejected catalog image still displayed: ${relative}`)
     for (const image of product.image) { const imagePath=new URL(image).pathname; await access(join(root,imagePath)); assert(html.includes(imagePath),`Schema image absent from visible gallery: ${relative}`) }
     assert(!product.offers && !product.aggregateRating,`Unverified commercial claims: ${relative}`)
     const profile=commercialProfiles[ownProduct.slug]

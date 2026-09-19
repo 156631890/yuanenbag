@@ -1,4 +1,15 @@
-# 最新检查点：正式收录与搜索平台接入（2026-09-19）
+# 最新检查点：13款产品独立详情图重做（2026-09-19）
+
+- 用户要求保留已认可的第一张白底主图，其他产品图全部用 Packy 重做，并参考 ipcpack.com 的产品展示。沿用已有 GitHub/Vercel 正式发布授权。
+- Packy 实际 gpt-image-2，以13款原始主图为参考，生成39张：每款 application / detail / structure 各一张。1536×1024 WebP共5,566,550字节，保存在 public/images/products/packy/details-v2。13张main.webp逐字节与本轮起始HEAD比较未变；旧目录图片不再进入这些产品的图集及Product schema。
+- 完整提示词 docs/product-detail-prompts-v2.json；成品哈希、来源和审阅记录 docs/product-detail-assets-v2.json。原始PNG与审阅拼图保存在忽略目录 .verification/product-details-v2。全部39张视觉检查通过；带胶袋structure首版错误底褶已拒用，重做为正确平口平放结构。
+- 三语每款图集4张；应用、材料、功能区分别接入本款新图。桌面图文分栏，手机单列，保留AI效果示意说明，不虚构性能、认证、价格或商业条款。
+- 生产模式build/verify通过78 HTML，覆盖39产品详情页的4图schema及文件，旧目录图下线，SEO和商业资料检查通过。CUA检查1280中文带胶袋、390西语注水冰袋与英文蛋糕保温包：图片加载、无横向溢出、图集按钮/键盘切换/Escape正常，所查控制台无error/warn。应用核对清单移至左栏后复核通过。
+- 正式发布沿用main推送，最终提交、READY部署与线上39张资源核对记录存 .verification/product-details-v2/release.json；恢复时读取实际Git/Vercel，不把本段发布计划当作上线证据。保持正式index, follow、站长验证标签和75 URL地图；统计仍暂缓。
+
+---
+
+# 历史检查点：正式收录与搜索平台接入（2026-09-19）
 
 - 用户在SEO/GEO审计后回复“OK操作”，授权正式索引、站长工具接入；后续明确“先完成收录，统计暂缓”。不再沿用历史SITE_INDEXABLE=false的生产限制。SMTP问题尚未回复，不擅自配置密码/投递，不加入虚假发送成功。
 - 项目仍 `C:/Users/Administrator/Desktop/yuanenbag`，main。实现提交 `1544c2806f794f5c3428bbdede934b2ce4d433bd`；生产部署 `dpl_CbQE5nsohAEvyyer65d4hr1SCzqh` READY。文档检查点后续提交不修改页面行为，恢复时核对实际HEAD。
