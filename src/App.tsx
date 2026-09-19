@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
-import { ArrowRight, ArrowUpRight, Check, ChevronDown, Globe2, Layers3, MapPin, Menu, PackageCheck, Plus, Ruler, ShieldCheck, Snowflake, X } from 'lucide-react'
-import { bags, brand, faq, guides, locations, steps, tx, languages, locales, type Bag, type Lang } from './data'
+import { ArrowRight, ArrowUpRight, Check, ChevronDown, Globe2, MapPin, Menu, PackageCheck, Plus, Ruler, ShieldCheck, Snowflake, X } from 'lucide-react'
+import { bags, brand, faq, guides, locations, tx, languages, locales, type Bag, type Lang } from './data'
 import { href, resolveRoute } from './routes'
 import BagDrawing from './BagDrawing'
 import CatalogPage, { ProductCard, ReferenceNote, SelectionDetails, MaterialComparison } from './Catalog'
@@ -10,6 +10,7 @@ import ProductGallery from './ProductGallery'
 import CollectionShowcase from './CollectionShowcase'
 import HomeHero from './HomeHero'
 import ProductSections from './ProductSections'
+import { Process, ProcessSection, GuideCards, GuidesSection, FAQ, FAQSection } from './BuyerResources'
 
 type Props={lang:Lang}
 const l=(lang:Lang,en:string,zh:string)=>tx(en,zh)[lang]
@@ -27,9 +28,6 @@ function CapacityNote({lang}:Props){return <p className="capacity-note">{l(lang,
 function BagCard({bag,lang,index}:{bag:Bag;lang:Lang;index:number}) {return <ProductCard bag={bag} lang={lang} index={index}/>}
 function ProductGrid({lang,limit}:{lang:Lang;limit?:number}) {return <div className="product-grid">{(limit?bags.slice(0,limit):['self-adhesive-foil-bags','self-seal-non-woven-delivery-bags','square-zipper-cake-cooler','segmented-ice-sheets','wide-base-meal-cooler','upright-dessert-cooler'].map(slug=>bags.find(b=>b.slug===slug)!)).map((bag,index)=><BagCard key={bag.slug} bag={bag} lang={lang} index={index}/>)}</div>}
 function CTA({lang}:Props){return <section className="cta-section"><div className="container"><span className="eyebrow">{l(lang,'YOUR BRAND. YOUR SPECIFICATION.','您的品牌，您的定制方案。')}</span><h2>{l(lang,'Discuss Your Packaging Requirements','咨询您的包装采购需求')}</h2><a className="button light" href={href('/contact/',lang)}>{l(lang,'Tell us about your project','告诉我们您的需求')}<ArrowUpRight size={18}/></a></div><div className="cta-line" aria-hidden="true"/></section>}
-function Process({lang}:Props){return <ol className="process-grid">{steps.map((s,i)=><li key={s.title.en}><span className="step-number">0{i+1}</span><h3>{s.title[lang]}</h3><p>{s.body[lang]}</p></li>)}</ol>}
-function FAQ({lang,items=faq}:{lang:Lang;items?:typeof faq}){return <div className="faq-list">{items.map((item,i)=><details key={item.q.en} open={i===0}><summary>{item.q[lang]}<Plus size={18}/></summary><p>{item.a[lang]}</p></details>)}</div>}
-function GuideCards({lang}:Props){return <div className="guide-grid">{guides.map((g,i)=><a key={g.slug} className="guide-card" href={href(`/guides/${g.slug}/`,lang)}><div className="guide-icon">{i===0?<Layers3 size={38} strokeWidth={1}/>:<Ruler size={38} strokeWidth={1}/>}<span>0{i+1}</span></div><span className="eyebrow">{g.label[lang]}</span><h3>{g.title[lang]}</h3><p>{g.summary[lang]}</p><span className="text-link">{l(lang,'Read the guide','阅读指南')}<ArrowUpRight size={16}/></span></a>)}</div>}
 function Home({lang}:Props) {
   const t=(en:string,zh:string)=>l(lang,en,zh)
   return <>
@@ -39,9 +37,9 @@ function Home({lang}:Props) {
     <section className="new-products"><div className="section container"><SectionTitle eyebrow="PRODUCT EDIT / 2026" title={tx('Made to carry your ideas.','好产品，承载好想法。','Hecho para llevar sus ideas.')[lang]} text={tx('Explore our core formats. Make the dimensions, material and print work for your next project.','精选核心袋型，从材质、尺寸到图案，为您的下一个项目找到合适的定制起点。','Explore nuestros formatos principales y adapte medidas, material e impresión a su próximo proyecto.')[lang]}><a className="text-link" href={href('/products/',lang)}>{t('All products','全部产品')}<ArrowUpRight size={17}/></a></SectionTitle><ProductGrid lang={lang}/></div></section>
     <section className="factory-feature"><div className="container feature-grid"><div className="feature-photo"><FactoryPhoto photo="production" lang={lang}/><span className="photo-caption">{t('YUANEN · WENZHOU, CHINA','远恩 · 中国温州')}</span></div><div className="feature-copy"><span className="eyebrow">{t('MANUFACTURING CAPABILITIES','工厂与制造实力')}</span><h2>{t('Three Locations.\n28,800 m² of Facilities.','三地布局，\n28,800㎡生产基地。')}</h2><p>{t('Based in Longgang, Wenzhou, YUANEN brings together packaging design, development, manufacturing and after-sales experience. Our footprint spans Zhejiang, Shandong and Hunan.','远恩扎根温州龙港，积累包装设计、研发、生产、销售及售后经验，生产布局覆盖浙江、山东和湖南。')}</p><a className="text-link" href={href('/about/',lang)}>{t('Go inside our factory','了解工厂与生产实力')}<ArrowUpRight size={18}/></a><div className="feature-location"><MapPin size={18}/><span>WENZHOU · SHANDONG · HUNAN</span></div></div></div></section>
     <section className="customer-strip container"><span className="eyebrow">{t('BRANDS WE HAVE SERVED','曾服务的品牌客户')}</span><div><span>Walmart</span><span>{t('Yonghui','永辉超市')}</span><span>MIXUE</span><span>{t('Haidilao','海底捞')}</span></div></section>
-    <section className="section container"><SectionTitle eyebrow={t('CUSTOM MANUFACTURING','定制生产')} title={t('From Specification to Delivery','从规格确认到生产交付')}><a className="text-link" href={href('/customization/',lang)}>{t('Explore customization','了解定制流程')}<ArrowUpRight size={17}/></a></SectionTitle><Process lang={lang}/></section>
-    <section className="insights-section"><div className="section container"><SectionTitle eyebrow={t('TECHNICAL & PURCHASING RESOURCES','选材与采购资源')} title={t('Packaging Materials & Buying Guides','包装材质与采购指南')} text={t('Practical guidance to make your next sourcing conversation more productive.','实用的选材与采购参考，让下一次沟通更有效。')}/><GuideCards lang={lang}/></div></section>
-    <section className="section container faq-section"><div><span className="eyebrow">{t('FREQUENTLY ASKED QUESTIONS','采购常见问题')}</span><h2>{t('Manufacturer & Product FAQ','工厂与产品常见问题')}</h2><p>{t('Clear specifications are the foundation of a successful packaging project.','清晰的规格，是做好包装项目的基础。')}</p></div><FAQ lang={lang}/></section><CTA lang={lang}/>
+    <ProcessSection lang={lang}/>
+    <GuidesSection lang={lang}/>
+    <FAQSection lang={lang}/><CTA lang={lang}/>
   </>
 }
 function Catalog({lang}:Props){return <CatalogPage lang={lang}/>}

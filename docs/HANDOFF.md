@@ -1,4 +1,14 @@
-# 最新检查点：保温冷链聚焦与 Packy 配图（2026-09-19）
+# 最新检查点：流程、指南与 FAQ 视觉优化（2026-09-19）
+
+- 用户点名优化首页 From Specification to Delivery、Packaging Materials & Buying Guides、Manufacturer & Product FAQ。起始 HEAD c72a73e5781cfdaded2f3bd2c23fb5349373192c，main，工作区干净。
+- 新增 BuyerResources.tsx 和 buyer-resources.css：流程为工厂实景加六步说明；指南为重点文章加两篇辅助图文；FAQ 为带问题序号的原生单项展开面板，包含键盘焦点与联系入口。复用已上线的工厂/Packy素材，没有额外生图。产品内容与业务数据未变。
+- 同步三语首页、定制页、指南列表、产品详情 FAQ。页面锚点 manufacturing-process、buying-guides、manufacturer-faq 可直达三个首页区块。
+- build/verify 通过75 HTML。浏览器检查1280桌面、390西语手机、768中文定制页；无横向溢出。验证FAQ点击/键盘Enter与单项展开、指南跳转和联系入口；所查控制台无error/warn，产品详情资源无断图。工具定位错误已修正，不是页面错误。
+- 将沿用用户发布授权推送main触发Vercel，最新线上核验记录 .verification/buyer-resources-release.json。SITE_INDEXABLE=false及询价草稿机制保持。恢复时查询实际部署，不把本段计划当上线证据。
+
+---
+
+# 历史检查点：保温冷链聚焦与 Packy 配图（2026-09-19）
 
 - 当前任务 01a0b39d-9359-76d2-bdad-39aaa199da0d；路径 C:/Users/Administrator/Desktop/yuanenbag，main；开始 HEAD 3b37644f33bd5e8b9b3de76b661cade351590d0e。本轮提交后推送既有 GitHub/Vercel 自动部署，最终线上证据保存在 .verification/cold-chain-release.json；恢复时核对实际 HEAD 与 Vercel 状态。
 - 最新授权：只做保温冷链；参考 ipcpack.com 布局；使用用户 Packy 生成产品与 UI 图；使用桌面龙港新厂、台州工厂素材。无需再要求登录或更新 Packy 密钥。

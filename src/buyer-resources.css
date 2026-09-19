@@ -1,0 +1,78 @@
+.buyer-section-heading{display:flex;justify-content:space-between;align-items:end;gap:48px;margin-bottom:38px}
+.buyer-section-heading h2,.buyer-faq-intro h2{font-size:clamp(32px,3.2vw,44px);line-height:1.16;letter-spacing:-.035em;font-weight:550;margin:0;max-width:680px}
+.buyer-section-heading .eyebrow,.buyer-faq-intro>.eyebrow{font-size:10px;letter-spacing:.15em;margin-bottom:18px}
+.buyer-heading-link{display:inline-flex;align-items:center;justify-content:space-between;gap:24px;min-height:44px;border-bottom:1px solid #8ba3b0;padding:10px 0;font-size:13px;font-weight:600;color:var(--navy);flex-shrink:0}
+.buyer-heading-link svg,.buyer-guide-link svg{flex-shrink:0;transition:transform .2s}
+.buyer-heading-link:hover svg,.buyer-guide:hover .buyer-guide-link svg{transform:translate(3px,-3px)}
+.buyer-heading-link:focus-visible,.buyer-guide:focus-visible,.buyer-faq summary:focus-visible{outline:2px solid #367b9a;outline-offset:5px}
+.buyer-process{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.7fr);background:#f3f6f7}
+.process-factory{margin:0;position:relative;display:flex;flex-direction:column;min-width:0;background:#123553}
+.process-factory>img{display:block;width:100%;height:auto;min-height:240px;flex:1;object-fit:cover}
+.process-factory figcaption{background:#123553;color:white;padding:28px 30px}
+.process-factory figcaption .eyebrow{color:#a9c7d9;font-size:9px;letter-spacing:.15em;margin-bottom:12px}
+.process-factory strong{display:block;white-space:pre-line;font-size:26px;line-height:1.35;font-weight:450;letter-spacing:-.02em}
+.process-location{display:block;margin-top:22px;font-size:9px;letter-spacing:.14em;color:#a9c7d9}
+.buyer-steps{list-style:none;margin:0;padding:16px 38px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 30px}
+.buyer-steps li{display:flex;align-items:start;gap:16px;padding:32px 0;border-bottom:1px solid #d3dee3}
+.buyer-steps li:nth-last-child(-n+2){border-bottom:0}
+.buyer-step-number{display:grid;place-items:center;width:34px;height:34px;border:1px solid #acbfca;border-radius:50%;font-size:11px;color:#2a627e;flex-shrink:0;font-variant-numeric:tabular-nums}
+.buyer-steps h3{font-size:19px;line-height:1.4;font-weight:550;margin:3px 0 11px;letter-spacing:-.02em}
+.buyer-steps p{font-size:13px;line-height:1.85;color:#5b6e7b;margin:0}
+.buyer-resources-section{background:#edf2f4;border-block:1px solid #e2eaed}
+.buyer-heading-aside{max-width:330px;flex-shrink:0}
+.buyer-heading-aside p{font-size:14px;line-height:1.8;color:#5b6e7b;margin:0 0 10px}
+.buyer-guides{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);gap:24px}
+.buyer-guide{display:grid;grid-template-columns:minmax(0,.72fr) minmax(0,1fr);min-width:0;background:#fff;color:var(--navy)}
+.buyer-guide-featured{grid-row:span 2;grid-template-columns:1fr}
+.buyer-guide-photo{position:relative;overflow:hidden;min-height:180px;background:#dce5e9}
+.buyer-guide-photo img{display:block;width:100%;height:100%;position:absolute;inset:0;object-fit:cover;transition:transform .35s}
+.buyer-guide-photo>span{position:absolute;left:12px;bottom:12px;padding:5px 8px;background:#ffffffeb;font-size:9px;line-height:1.5;color:#516773}
+.buyer-guide-featured .buyer-guide-photo{min-height:250px}
+.buyer-guide-copy{padding:28px;display:flex;align-items:start;flex-direction:column}
+.buyer-guide-copy .eyebrow{font-size:9px;letter-spacing:.12em;margin-bottom:13px;line-height:1.6}
+.buyer-guide h3{font-size:23px;line-height:1.3;font-weight:550;letter-spacing:-.025em;margin-bottom:14px}
+.buyer-guide-featured h3{font-size:28px}
+.buyer-guide p{font-size:13px;line-height:1.85;color:#5b6e7b;margin-bottom:22px}
+.buyer-guide-link{display:flex;justify-content:space-between;align-items:center;gap:18px;width:100%;margin-top:auto;padding-top:16px;border-top:1px solid #dce5e9;font-size:12px;font-weight:600}
+.buyer-guide:hover{color:#226482}
+.buyer-guide:hover .buyer-guide-photo img{transform:scale(1.035)}
+.buyer-faq-section{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.4fr);gap:80px;align-items:start}
+.buyer-faq-intro h2{max-width:400px}
+.buyer-faq-intro>p{font-size:14px;line-height:1.85;color:#5b6e7b;margin:22px 0 0;max-width:330px}
+.buyer-faq-contact{border-top:1px solid #d5dfe4;margin-top:32px;padding-top:25px;max-width:330px}
+.buyer-faq-contact>span{display:block;font-size:12px;color:#5b6e7b;margin-bottom:7px}
+.buyer-faq-contact a{width:100%}
+.buyer-faq{border-top:1px solid #bdcdd6;min-width:0}
+.buyer-faq details{border-bottom:1px solid #bdcdd6}
+.buyer-faq summary{list-style:none;display:grid;grid-template-columns:24px 1fr 32px;gap:16px;align-items:center;cursor:pointer;padding:24px 18px;font-size:17px;line-height:1.5;font-weight:500;color:var(--navy)}
+.buyer-faq summary::-webkit-details-marker{display:none}
+.faq-question-number{font-size:10px;color:#688492;font-variant-numeric:tabular-nums}
+.faq-toggle{width:30px;height:30px;display:grid;place-items:center;border:1px solid #c6d6de;border-radius:50%}
+.faq-toggle svg{transition:transform .2s}
+.buyer-faq details[open]{background:#f0f5f7}
+.buyer-faq details[open] .faq-toggle{background:#17445f;border-color:#17445f;color:white}
+.buyer-faq details[open] .faq-toggle svg{transform:rotate(45deg)}
+.faq-answer{padding:0 66px 25px 58px}
+.faq-answer p{font-size:14px;line-height:1.9;color:#526975;margin:0}
+@media(max-width:1050px){
+ .buyer-process{grid-template-columns:minmax(0,.8fr) minmax(0,1.5fr)}
+ .buyer-steps{padding:12px 24px;gap:0 22px}.buyer-steps li{gap:12px;padding:26px 0}.buyer-steps h3{font-size:17px}
+ .buyer-faq-section{gap:45px}.buyer-section-heading{gap:32px}.buyer-heading-aside{max-width:270px}
+ .buyer-guide-copy{padding:22px}.buyer-guide h3{font-size:21px}.buyer-guide-featured h3{font-size:26px}
+}
+@media(max-width:800px){
+ .buyer-section-heading{align-items:start;flex-direction:column;gap:18px}.buyer-heading-aside{max-width:560px}
+ .buyer-process{grid-template-columns:1fr}.process-factory{display:grid;grid-template-columns:1fr 1fr}.process-factory>img{height:100%;min-height:220px}.process-factory figcaption{display:flex;flex-direction:column;justify-content:center}
+ .buyer-steps{padding:8px 28px;gap:0 32px}.buyer-steps li{padding:26px 0}
+ .buyer-guides{grid-template-columns:1fr;gap:20px}.buyer-guide-featured{grid-row:auto;grid-template-columns:minmax(0,.72fr) minmax(0,1fr)}.buyer-guide-featured .buyer-guide-photo{min-height:180px}.buyer-guide-featured h3{font-size:23px}
+ .buyer-faq-section{grid-template-columns:1fr;gap:30px}.buyer-faq-intro h2{max-width:600px}.buyer-faq-intro>p{max-width:560px}.buyer-faq-contact{max-width:360px;margin-top:22px;padding-top:18px}
+}
+@media(max-width:520px){
+ .buyer-section-heading h2,.buyer-faq-intro h2{font-size:30px;line-height:1.2}.buyer-section-heading{margin-bottom:26px}.buyer-section-heading .eyebrow,.buyer-faq-intro>.eyebrow{font-size:9px;line-height:1.7;margin-bottom:13px}
+ .buyer-heading-link{font-size:12px}.buyer-heading-aside p{font-size:13px}
+ .process-factory{grid-template-columns:1fr}.process-factory>img{height:200px;min-height:0}.process-factory figcaption{padding:23px}.process-factory strong{font-size:24px}.process-location{margin-top:14px}
+ .buyer-steps{grid-template-columns:1fr;padding:6px 23px}.buyer-steps li{padding:21px 0;gap:17px}.buyer-steps li:nth-last-child(2){border-bottom:1px solid #d3dee3}.buyer-steps h3{font-size:18px;margin:3px 0 8px}.buyer-steps p{font-size:13px}.buyer-step-number{width:32px;height:32px}
+ .buyer-guide,.buyer-guide-featured{grid-template-columns:1fr}.buyer-guide-photo,.buyer-guide-featured .buyer-guide-photo{height:190px;min-height:0}.buyer-guide-copy{padding:23px}.buyer-guide h3,.buyer-guide-featured h3{font-size:24px}.buyer-guide p{margin-bottom:20px}
+ .buyer-faq summary{grid-template-columns:18px 1fr 28px;gap:11px;padding:20px 10px;font-size:15px;line-height:1.6}.faq-toggle{width:28px;height:28px}.faq-answer{padding:0 20px 23px 39px}.faq-answer p{font-size:13px}.buyer-faq-intro>p{font-size:13px;margin-top:18px}
+}
+@media(prefers-reduced-motion:reduce){.buyer-heading-link svg,.buyer-guide-link svg,.buyer-guide-photo img,.faq-toggle svg{transition:none}}
