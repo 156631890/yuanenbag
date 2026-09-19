@@ -18,6 +18,28 @@ assert.equal(files.length,paths.length+notFoundPaths.length,'Expected every conf
 assert.equal(catalogAudit.bags.length,13,'Publish only the selected insulated and cold-chain catalog')
 assert(catalogAudit.bags.every(b=>b.collection==='yuanen-2026'),'Unselected category published')
 assert.equal(new Set(catalogAudit.bags.map(b=>b.slug)).size,catalogAudit.bags.length,'Duplicate product slugs')
+const {commercialProfiles,stockSpecifications}=catalogAudit
+const commercialSources=JSON.parse(await readFile('docs/commercial-sources.json','utf8'))
+assert.equal(Object.keys(commercialProfiles).length,9,'Commercial terms cover nine supported catalog products')
+assert.equal(stockSpecifications.length,commercialSources.stockDisplayRows,'Stock display rows must match the source audit')
+const sourceRows=stockSpecifications.flatMap(s=>s.sourceRows)
+assert.equal(sourceRows.length,commercialSources.stockSourceRows,'All imported stock rows must be represented')
+assert.equal(new Set(sourceRows).size,sourceRows.length,'Stock source rows must not be duplicated')
+assert.equal(new Set(stockSpecifications.map(s=>`${s.group}/${s.dimensions}/${s.capacity}`)).size,stockSpecifications.length,'Duplicate stock specifications')
+for (const [slug,profile] of Object.entries(commercialProfiles)) {
+  const bag=catalogAudit.bags.find(b=>b.slug===slug)
+  assert(bag && !slug.endsWith('-cooler'),`Unsupported commercial mapping: ${slug}`)
+  assert(stockSpecifications.some(s=>s.group===profile.stocks),`Missing stock sizes: ${slug}`)
+  for (const lang of ['en','zh','es']) {
+    for (const field of ['moq','sample','lead','dimensions']) assert(profile[field][lang]?.trim(),`Missing commercial translation: ${slug}/${lang}/${field}`)
+    for (const option of profile.options) for (const field of ['name','moq','scope','sample','lead']) assert(option[field][lang]?.trim(),`Missing order option: ${slug}/${lang}/${field}`)
+  }
+  if (bag.type==='ice') {
+    assert(profile.fixedSizes,`Ice sizes must be fixed: ${slug}`)
+    assert(profile.options[1].moq.en.includes('100,000'),`Custom ice printing requires 100,000 pcs: ${slug}`)
+    assert(profile.dimensions.zh.includes('不可更改尺寸'),`Missing size limitation: ${slug}`)
+  }
+}
 for (const bag of catalogAudit.bags) {
   if (bag.collection) {
     assert.equal(bag.collection,'yuanen-2026')
@@ -52,6 +74,17 @@ for (const file of files) {
     for (const original of [ownProduct.image,...ownProduct.gallery]) assert(product.image.some(url=>url.endsWith('/images/products/'+original)),`Original gallery image missing: ${relative}`)
     for (const image of product.image) { const imagePath=new URL(image).pathname; await access(join(root,imagePath)); assert(html.includes(imagePath),`Schema image absent from visible gallery: ${relative}`) }
     assert(!product.offers && !product.aggregateRating,`Unverified commercial claims: ${relative}`)
+    const profile=commercialProfiles[ownProduct.slug]
+    if (profile) {
+      const language=relative.startsWith('/zh/')?'zh':relative.startsWith('/es/')?'es':'en'
+      const plain=html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/g,'').replace(/<[^>]*>/g,'').replaceAll('&amp;','&').replaceAll('&quot;','"').replaceAll('&#x27;',"'").replaceAll('&#39;',"'").replaceAll('&lt;','<').replaceAll('&gt;','>')
+      assert(plain.includes(profile.moq[language]) && plain.includes(profile.sample[language]) && plain.includes(profile.lead[language]),`Missing rendered commercial terms: ${relative}`)
+      const table=html.match(/<table class="stock-size-table">([\s\S]*?)<\/table>/)?.[1]
+      assert(table,`Missing stock table: ${relative}`)
+      for (const spec of stockSpecifications.filter(s=>s.group===profile.stocks)) assert(table.includes(spec.dimensions),`Missing stock dimension ${spec.dimensions}: ${relative}`)
+      const faq=JSON.parse(json)['@graph'].find(item=>item['@type']==='FAQPage')
+      for (const item of faq.mainEntity) assert(plain.includes(item.name) && plain.includes(item.acceptedAnswer.text),`FAQ schema differs from page: ${relative}`)
+    }
   }
   const lang = relative.startsWith('/zh/')?'zh-CN':relative.startsWith('/es/')?'es':'en'
   assert(html.includes(`lang="${lang}"`),`Incorrect language: ${file}`)
@@ -90,3 +123,4 @@ assert.equal(locs.length,env.SITE_INDEXABLE==='true'?paths.length:0,'Sitemap ind
 for (const url of locs) assert(canonicals.has(url),`Noncanonical URL in sitemap: ${url}`)
 assert((await readFile(join(root,'404.html'),'utf8')).includes('noindex, follow'),'404 must not be indexed')
 console.log(`Verified ${files.length} HTML documents: distinct titles, H1, language, canonical, alternates, schema, local links/assets, sitemap and 404.`)
+console.log(`Verified commercial terms for ${Object.keys(commercialProfiles).length} products in three languages, ${stockSpecifications.length} stock rows from ${sourceRows.length} source rows, and matching visible FAQ/schema.`)

@@ -1,4 +1,15 @@
-# 最新检查点：生成采购区块专用视觉（2026-09-19）
+# 最新检查点：导入真实 MOQ、打样、交期与规格（2026-09-19）
+
+- 用户提供 `C:/Users/Administrator/Desktop/产品最低定制数量_打样与交期汇总.xlsx`，用于补齐网站商业资料。原工作簿只读；来源 SHA256、表页及导入规则记录在 `docs/commercial-sources.json`。起始 HEAD `86f213b27fb41407493fc288b07b5fe28869b177`，实际 checkout 为本项目 main；沿用同步 GitHub 与 Vercel 发布授权。
+- 新增 `commercial-data.ts`、`stock-specifications.json`、`CommercialDetails.tsx` 与响应式样式。9款现有产品对应8组商业规格；140条源规格按相同尺寸合并厚度，展示89行。蛋糕袋与手工立体共用同组。4款保温包没有对应条款；双面自吸冰袋没有现有独立SKU，未擅自新增。
+- 三语产品首屏、数量分段、MOQ/价格、打样/交期、尺寸及FAQ同步。现货/定制/印刷门槛分别说明；保留3.8mm特例。冰袋专版印刷单款100,000个起，仅现有尺寸；无纺布丝印100、数码常规200/特大1000、专版5000个起。尺寸单位cm，带胶袋另加4cm折口；无纺布显示五档尺寸名称。
+- 只导入人民币样品费用，没有将其作为产品单价或schema offers。生产交期不含运输，不擅自写工作日；起算、库存与具体出货日期按订单确认。无新增承重/温度测试/食品级认证声明。产品单价、阶梯价格及出口证明仍需资料。
+- 本地build/verify通过75 HTML，新增9款三语商业数据、140源行/89显示行、冰袋限制、可见FAQ与schema一致性检查。独立对照提取的工作簿，140条尺寸和厚度通过。CUA检查1280中文带胶订购卡、英文无纺布交期与5档尺寸、390西语冰袋数量/尺寸与询价预选；无横向溢出，所查控制台无error/warn。
+- 本轮推送main触发既有Vercel自动部署。最新提交与远端READY以实际Git/Vercel核验；发布证据写入忽略的 `.verification/commercial-release.json`，不能把本段发布计划当上线完成。保持 `SITE_INDEXABLE=false`、13款冷链目录和询价草稿机制。
+
+---
+
+# 历史检查点：生成采购区块专用视觉（2026-09-19）
 
 - 用户要求生成需要的 icon 和配图；起始 HEAD f2b1243b41bfc98cac5ea4a94a029cf65e5840e0，main 干净；沿用 Packy 生图及 GitHub/Vercel 发布授权。
 - Packy gpt-image-2 实际生成10张：6流程图标、3指南封面、1 FAQ 插图。全部接入 public/images/ui/packy，共385,568字节。完整提示词 docs/buyer-visual-prompts.json；来源/使用说明 docs/PRODUCT-IMAGERY.md。凭证仍只在用户环境变量 YUANEN_PACKY_IMAGE_KEY。

@@ -1,0 +1,22 @@
+.order-options{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px;margin-top:28px}
+.order-options article{border:1px solid #d3dfe6;padding:26px;min-width:0}
+.order-options h3{font-size:22px;line-height:1.4;font-weight:550;margin-bottom:22px}
+.order-minimum{background:#edf3f6;padding:18px;margin-bottom:20px}
+.order-minimum>span{display:block;font-size:11px;color:#557080;margin-bottom:10px}
+.order-minimum>strong{display:block;font-size:17px;font-weight:550;line-height:1.6;color:var(--navy)}
+.order-options .order-exception{border-top:1px solid var(--line);padding-top:16px;font-size:12px;margin-bottom:0}
+.commercial-schedule{border-top:1px solid #bccdd7}
+.commercial-schedule article{display:grid;grid-template-columns:.8fr 1.6fr 1fr;gap:28px;border-bottom:1px solid #d2dfe6;padding:25px 0}
+.commercial-schedule h3{font-size:19px;font-weight:550;line-height:1.5;margin:0}
+.commercial-schedule article>div>span{display:block;font-size:11px;color:#627c8b;margin-bottom:8px}
+.commercial-schedule article p{margin:0;font-size:14px}
+.commercial-schedule strong{font-size:16px;line-height:1.7;font-weight:550}
+.stock-table-scroll{max-height:430px;overflow:auto;border:1px solid #d4e0e6;margin-top:24px}
+.stock-table-scroll:focus-visible{outline:2px solid #347291;outline-offset:3px}
+.stock-size-table{width:100%;border-collapse:collapse;margin:0}
+.stock-size-table caption{text-align:left;padding:16px 20px;color:#506b7b;background:#f0f5f7;font-size:12px}
+.stock-size-table th{background:#193d53;color:white;font-size:13px;font-weight:500;text-align:left;position:sticky;top:0}
+.stock-size-table th,.stock-size-table td{padding:14px 20px;line-height:1.7}
+.stock-size-table td{font-size:14px;border-bottom:1px solid #e1e8ed}
+.stock-size-table tbody tr:nth-child(even){background:#f7f9fa}
+@media(max-width:650px){.order-options{grid-template-columns:1fr;gap:16px}.order-options article{padding:22px}.order-options h3{font-size:21px}.commercial-schedule article{grid-template-columns:1fr;gap:15px;padding:24px 0}.commercial-schedule h3{font-size:20px}.stock-size-table th,.stock-size-table td{padding:12px 14px;font-size:12px}.stock-size-table caption{padding:14px;font-size:11px}}

@@ -385,9 +385,9 @@ export const yuanenProducts:Bag[] = [
       "es": "Opción de frío rellenable con agua para bolsas y cajas térmicas. Confirme nivel de llenado, cierre de entrada e instrucciones de congelación antes del envío."
     },
     "material": {
-      "en": "Pack film + coolant contents; formulation and fill specification to confirm",
-      "zh": "袋膜 + 蓄冷内容物；配方与填充规格需确认",
-      "es": "Película + contenido refrigerante; fórmula y llenado por confirmar"
+      "en": "Pack film + coolant contents, according to the selected stock specification",
+      "zh": "袋膜 + 蓄冷内容物，按选定现货规格核对",
+      "es": "Película + contenido refrigerante, según la especificación existente elegida"
     },
     "use": {
       "en": "Insulated boxes · Fresh food · Cold-chain packing",
@@ -415,9 +415,9 @@ export const yuanenProducts:Bag[] = [
         "es": "Volumen de llenado, cierre y procedimiento de congelación"
       },
       {
-        "en": "Confirm finished dimensions, quantity and artwork before requesting the production quotation.",
-        "zh": "生产报价前确认成品尺寸、数量及印刷图稿。",
-        "es": "Confirme medidas, cantidad y diseño antes de solicitar cotización de producción."
+        "en": "Select an existing size and confirm quantity and artwork. Customization is limited to printing; dimensions cannot be changed.",
+        "zh": "选择现有尺寸并确认数量和图稿；专版仅可定制印刷，不可更改尺寸。",
+        "es": "Elija una medida existente y confirme cantidad y diseño. Solo se personaliza la impresión; no se cambian las medidas."
       },
       {
         "en": "Validate the complete packing system with the intended contents, route and temperature conditions.",
@@ -431,9 +431,9 @@ export const yuanenProducts:Bag[] = [
       "es": "¿Qué debo especificar para acumuladores de frío rellenables con agua?"
     },
     "answer": {
-      "en": "Start with fill volume, inlet closure and freezing procedure. Provide the packed product dimensions, quantity and destination. Confirm a sample and order-specific materials, closure and acceptance criteria before production.",
-      "zh": "优先确认注水量、进水口封闭与冻结方法。同时提供内装物尺寸、采购数量与交货目的地，生产前通过样品确认订单对应的材质、封口与验收标准。",
-      "es": "Empiece por: volumen de llenado, cierre y procedimiento de congelación. Indique medidas del contenido, cantidad y destino. Antes de producir, confirme la muestra, los materiales, el cierre y los criterios de aceptación del pedido."
+      "en": "Start with fill volume, inlet closure and freezing procedure. Provide the packed product dimensions, quantity and destination. Choose an existing size and purchase stock samples to evaluate fit and use. Custom orders change printing only, with no size changes or digitally printed custom samples.",
+      "zh": "优先确认注水量、进水口封闭与冻结方法。同时提供内装物尺寸、采购数量与交货目的地，选择现有尺寸，可购买现货样品评估适配和使用效果。专版只可定制印刷，不可改尺寸，也不提供数码打印定制样。",
+      "es": "Empiece por: volumen de llenado, cierre y procedimiento de congelación. Indique medidas del contenido, cantidad y destino. Elija medidas existentes y compre muestras para evaluar ajuste y uso. Solo se personaliza la impresión, sin cambio de medidas ni muestras digitales personalizadas."
     }
   },
   {
@@ -454,9 +454,9 @@ export const yuanenProducts:Bag[] = [
       "es": "Acumuladores de absorción de agua mostrados con marisco. Confirme remojo, escurrido, espacio de expansión y condiciones de congelación del formato elegido."
     },
     "material": {
-      "en": "Pack film + coolant contents; formulation and fill specification to confirm",
-      "zh": "袋膜 + 蓄冷内容物；配方与填充规格需确认",
-      "es": "Película + contenido refrigerante; fórmula y llenado por confirmar"
+      "en": "Pack film + coolant contents, according to the selected stock specification",
+      "zh": "袋膜 + 蓄冷内容物，按选定现货规格核对",
+      "es": "Película + contenido refrigerante, según la especificación existente elegida"
     },
     "use": {
       "en": "Insulated boxes · Fresh food · Cold-chain packing",
@@ -486,9 +486,9 @@ export const yuanenProducts:Bag[] = [
         "es": "Tiempo de absorción, tamaño expandido y acondicionamiento"
       },
       {
-        "en": "Confirm finished dimensions, quantity and artwork before requesting the production quotation.",
-        "zh": "生产报价前确认成品尺寸、数量及印刷图稿。",
-        "es": "Confirme medidas, cantidad y diseño antes de solicitar cotización de producción."
+        "en": "Select an existing size and confirm quantity and artwork. Customization is limited to printing; dimensions cannot be changed.",
+        "zh": "选择现有尺寸并确认数量和图稿；专版仅可定制印刷，不可更改尺寸。",
+        "es": "Elija una medida existente y confirme cantidad y diseño. Solo se personaliza la impresión; no se cambian las medidas."
       },
       {
         "en": "Validate the complete packing system with the intended contents, route and temperature conditions.",
@@ -502,9 +502,9 @@ export const yuanenProducts:Bag[] = [
       "es": "¿Qué debo especificar para acumuladores de frío de absorción de agua?"
     },
     "answer": {
-      "en": "Start with absorption time, expanded size and conditioning. Provide the packed product dimensions, quantity and destination. Confirm a sample and order-specific materials, closure and acceptance criteria before production.",
-      "zh": "优先确认吸水时间、膨胀后尺寸与预冷要求。同时提供内装物尺寸、采购数量与交货目的地，生产前通过样品确认订单对应的材质、封口与验收标准。",
-      "es": "Empiece por: tiempo de absorción, tamaño expandido y acondicionamiento. Indique medidas del contenido, cantidad y destino. Antes de producir, confirme la muestra, los materiales, el cierre y los criterios de aceptación del pedido."
+      "en": "Start with absorption time, expanded size and conditioning. Provide the packed product dimensions, quantity and destination. Choose an existing size and purchase stock samples to evaluate fit and use. Custom orders change printing only, with no size changes or digitally printed custom samples.",
+      "zh": "优先确认吸水时间、膨胀后尺寸与预冷要求。同时提供内装物尺寸、采购数量与交货目的地，选择现有尺寸，可购买现货样品评估适配和使用效果。专版只可定制印刷，不可改尺寸，也不提供数码打印定制样。",
+      "es": "Empiece por: tiempo de absorción, tamaño expandido y acondicionamiento. Indique medidas del contenido, cantidad y destino. Elija medidas existentes y compre muestras para evaluar ajuste y uso. Solo se personaliza la impresión, sin cambio de medidas ni muestras digitales personalizadas."
     }
   },
   {
@@ -525,9 +525,9 @@ export const yuanenProducts:Bag[] = [
       "es": "Lámina flexible de celdas separadas para distribuir alrededor del contenido. Si necesita ajustarla, corte únicamente por las líneas aprobadas para la muestra, sin abrir las celdas."
     },
     "material": {
-      "en": "Pack film + coolant contents; formulation and fill specification to confirm",
-      "zh": "袋膜 + 蓄冷内容物；配方与填充规格需确认",
-      "es": "Película + contenido refrigerante; fórmula y llenado por confirmar"
+      "en": "Pack film + coolant contents, according to the selected stock specification",
+      "zh": "袋膜 + 蓄冷内容物，按选定现货规格核对",
+      "es": "Película + contenido refrigerante, según la especificación existente elegida"
     },
     "use": {
       "en": "Insulated boxes · Fresh food · Cold-chain packing",
@@ -555,9 +555,9 @@ export const yuanenProducts:Bag[] = [
         "es": "Distribución de celdas, líneas de corte y colocación"
       },
       {
-        "en": "Confirm finished dimensions, quantity and artwork before requesting the production quotation.",
-        "zh": "生产报价前确认成品尺寸、数量及印刷图稿。",
-        "es": "Confirme medidas, cantidad y diseño antes de solicitar cotización de producción."
+        "en": "Select an existing size and confirm quantity and artwork. Customization is limited to printing; dimensions cannot be changed.",
+        "zh": "选择现有尺寸并确认数量和图稿；专版仅可定制印刷，不可更改尺寸。",
+        "es": "Elija una medida existente y confirme cantidad y diseño. Solo se personaliza la impresión; no se cambian las medidas."
       },
       {
         "en": "Validate the complete packing system with the intended contents, route and temperature conditions.",
@@ -571,9 +571,9 @@ export const yuanenProducts:Bag[] = [
       "es": "¿Qué debo especificar para láminas de frío de absorción por celdas?"
     },
     "answer": {
-      "en": "Start with cell layout, approved cutting lines and packed placement. Provide the packed product dimensions, quantity and destination. Confirm a sample and order-specific materials, closure and acceptance criteria before production.",
-      "zh": "优先确认冰格布局、允许裁切线与装箱位置。同时提供内装物尺寸、采购数量与交货目的地，生产前通过样品确认订单对应的材质、封口与验收标准。",
-      "es": "Empiece por: distribución de celdas, líneas de corte y colocación. Indique medidas del contenido, cantidad y destino. Antes de producir, confirme la muestra, los materiales, el cierre y los criterios de aceptación del pedido."
+      "en": "Start with cell layout, approved cutting lines and packed placement. Provide the packed product dimensions, quantity and destination. Choose an existing size and purchase stock samples to evaluate fit and use. Custom orders change printing only, with no size changes or digitally printed custom samples.",
+      "zh": "优先确认冰格布局、允许裁切线与装箱位置。同时提供内装物尺寸、采购数量与交货目的地，选择现有尺寸，可购买现货样品评估适配和使用效果。专版只可定制印刷，不可改尺寸，也不提供数码打印定制样。",
+      "es": "Empiece por: distribución de celdas, líneas de corte y colocación. Indique medidas del contenido, cantidad y destino. Elija medidas existentes y compre muestras para evaluar ajuste y uso. Solo se personaliza la impresión, sin cambio de medidas ni muestras digitales personalizadas."
     }
   },
   {
@@ -649,9 +649,9 @@ export const yuanenProducts:Bag[] = [
       "es": "¿Qué debo especificar para bolsas térmicas no tejidas con cierre autoadhesivo?"
     },
     "answer": {
-      "en": "Start with cup or meal-box arrangement, handle reinforcement and seal position. Provide the packed product dimensions, quantity and destination. Confirm a sample and order-specific materials, closure and acceptance criteria before production.",
-      "zh": "优先确认杯组或餐盒排列、提手加固与封口位置。同时提供内装物尺寸、采购数量与交货目的地，生产前通过样品确认订单对应的材质、封口与验收标准。",
-      "es": "Empiece por: distribución de vasos o envases, refuerzo de asas y cierre. Indique medidas del contenido, cantidad y destino. Antes de producir, confirme la muestra, los materiales, el cierre y los criterios de aceptación del pedido."
+      "en": "Start with cup or meal-box arrangement, handle reinforcement and closure. Choose one of the five stock sizes for screen or digital printing; these methods use digital artwork approval only. Fully custom production starts at 5,000 pcs and can include 1–2 paid digital-print samples; sample and bulk finishes may differ.",
+      "zh": "先确认杯组或餐盒排列、提手加固与封口位置。现货丝印或数码彩印限五种现有尺寸，只确认电子效果图。专版定制 5,000 个起，可另付费做 1–2 个数码实物样，样品与大货效果可能有差异。",
+      "es": "Defina disposición de vasos o envases, refuerzo de asas y cierre. Serigrafía e impresión digital usan cinco medidas existentes y solo aprobación del diseño digital. La producción exclusiva empieza en 5.000 unidades y admite 1–2 muestras digitales de pago; el acabado puede diferir del lote."
     }
   },
   {

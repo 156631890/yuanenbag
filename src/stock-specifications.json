@@ -1,0 +1,879 @@
+[
+  {
+    "group": "nonwoven",
+    "dimensions": "12×10×26",
+    "thickness": "",
+    "capacity": "",
+    "sourceRows": [
+      7
+    ],
+    "sizeLabel": {
+      "en": "Extra small · single cup",
+      "zh": "超小号 · 单杯",
+      "es": "Extrapequeña · un vaso"
+    }
+  },
+  {
+    "group": "nonwoven",
+    "dimensions": "21×11×26",
+    "thickness": "",
+    "capacity": "",
+    "sourceRows": [
+      8
+    ],
+    "sizeLabel": {
+      "en": "Small · two cups",
+      "zh": "小号 · 双杯",
+      "es": "Pequeña · dos vasos"
+    }
+  },
+  {
+    "group": "nonwoven",
+    "dimensions": "24×15×24",
+    "thickness": "",
+    "capacity": "",
+    "sourceRows": [
+      9
+    ],
+    "sizeLabel": {
+      "en": "Medium",
+      "zh": "中号",
+      "es": "Mediana"
+    }
+  },
+  {
+    "group": "nonwoven",
+    "dimensions": "26×17×26",
+    "thickness": "",
+    "capacity": "",
+    "sourceRows": [
+      10
+    ],
+    "sizeLabel": {
+      "en": "Large",
+      "zh": "大号",
+      "es": "Grande"
+    }
+  },
+  {
+    "group": "nonwoven",
+    "dimensions": "30×20×30",
+    "thickness": "",
+    "capacity": "",
+    "sourceRows": [
+      11
+    ],
+    "sizeLabel": {
+      "en": "Extra large",
+      "zh": "特大号",
+      "es": "Extragrande"
+    }
+  },
+  {
+    "group": "machine",
+    "dimensions": "35×23×33",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      13,
+      14
+    ]
+  },
+  {
+    "group": "machine",
+    "dimensions": "29×17×26",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      15,
+      16
+    ]
+  },
+  {
+    "group": "machine",
+    "dimensions": "24×12×24",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      17,
+      18
+    ]
+  },
+  {
+    "group": "machine",
+    "dimensions": "21×11.5×24",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      19,
+      20
+    ]
+  },
+  {
+    "group": "machine",
+    "dimensions": "19×8×20",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      21,
+      22
+    ]
+  },
+  {
+    "group": "machine",
+    "dimensions": "39×19×40",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      23,
+      24
+    ]
+  },
+  {
+    "group": "machine",
+    "dimensions": "34×18×36",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      25,
+      26
+    ]
+  },
+  {
+    "group": "machine",
+    "dimensions": "27×16×32",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      27,
+      28
+    ]
+  },
+  {
+    "group": "machine",
+    "dimensions": "24×14×28",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      29,
+      30
+    ]
+  },
+  {
+    "group": "machine",
+    "dimensions": "21×12×24",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      31,
+      32
+    ]
+  },
+  {
+    "group": "machine",
+    "dimensions": "26×13×29",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      33,
+      34
+    ]
+  },
+  {
+    "group": "machine",
+    "dimensions": "15×13×23",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      35,
+      36
+    ]
+  },
+  {
+    "group": "machine",
+    "dimensions": "14×14×30",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      37,
+      38
+    ]
+  },
+  {
+    "group": "machine",
+    "dimensions": "24×24×28",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      39,
+      40
+    ]
+  },
+  {
+    "group": "machine",
+    "dimensions": "34×14×30",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      41,
+      42
+    ]
+  },
+  {
+    "group": "machine",
+    "dimensions": "29×19×30",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      43,
+      44
+    ]
+  },
+  {
+    "group": "manual",
+    "dimensions": "24×12×24",
+    "thickness": "3.8mm",
+    "capacity": "",
+    "sourceRows": [
+      45
+    ]
+  },
+  {
+    "group": "manual",
+    "dimensions": "44×27×41",
+    "thickness": "3.8mm",
+    "capacity": "",
+    "sourceRows": [
+      46
+    ]
+  },
+  {
+    "group": "manual",
+    "dimensions": "55×36×51",
+    "thickness": "3.8mm",
+    "capacity": "",
+    "sourceRows": [
+      47
+    ]
+  },
+  {
+    "group": "manual",
+    "dimensions": "35×23×29",
+    "thickness": "3.8mm",
+    "capacity": "",
+    "sourceRows": [
+      48
+    ]
+  },
+  {
+    "group": "manual",
+    "dimensions": "42×32×31.5",
+    "thickness": "3.8mm",
+    "capacity": "",
+    "sourceRows": [
+      49
+    ]
+  },
+  {
+    "group": "manual",
+    "dimensions": "16×16×22",
+    "thickness": "3.8mm",
+    "capacity": "",
+    "sourceRows": [
+      50
+    ]
+  },
+  {
+    "group": "manual",
+    "dimensions": "26×26×32",
+    "thickness": "3.8mm",
+    "capacity": "",
+    "sourceRows": [
+      51
+    ]
+  },
+  {
+    "group": "manual",
+    "dimensions": "30×30×35",
+    "thickness": "3.8mm",
+    "capacity": "",
+    "sourceRows": [
+      52
+    ]
+  },
+  {
+    "group": "manual",
+    "dimensions": "26×26×42",
+    "thickness": "3.8mm",
+    "capacity": "",
+    "sourceRows": [
+      53
+    ]
+  },
+  {
+    "group": "manual",
+    "dimensions": "30×30×42",
+    "thickness": "3.8mm",
+    "capacity": "",
+    "sourceRows": [
+      54
+    ]
+  },
+  {
+    "group": "manual",
+    "dimensions": "34×34×42",
+    "thickness": "3.8mm",
+    "capacity": "",
+    "sourceRows": [
+      55
+    ]
+  },
+  {
+    "group": "manual",
+    "dimensions": "39×39×50",
+    "thickness": "3.8mm",
+    "capacity": "",
+    "sourceRows": [
+      56
+    ]
+  },
+  {
+    "group": "manual",
+    "dimensions": "42×42×49",
+    "thickness": "3.8mm",
+    "capacity": "",
+    "sourceRows": [
+      57
+    ]
+  },
+  {
+    "group": "manual",
+    "dimensions": "31×21.5×31",
+    "thickness": "3.8mm",
+    "capacity": "",
+    "sourceRows": [
+      58
+    ]
+  },
+  {
+    "group": "manual",
+    "dimensions": "37×26×40",
+    "thickness": "3.8mm",
+    "capacity": "",
+    "sourceRows": [
+      59
+    ]
+  },
+  {
+    "group": "flat",
+    "dimensions": "40×30",
+    "thickness": "3.8mm",
+    "capacity": "",
+    "sourceRows": [
+      60
+    ]
+  },
+  {
+    "group": "flat",
+    "dimensions": "50×35",
+    "thickness": "3.8mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      61,
+      97
+    ]
+  },
+  {
+    "group": "flat",
+    "dimensions": "50×40",
+    "thickness": "3.8mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      62,
+      98
+    ]
+  },
+  {
+    "group": "flat",
+    "dimensions": "60×40",
+    "thickness": "3.8mm",
+    "capacity": "",
+    "sourceRows": [
+      63
+    ]
+  },
+  {
+    "group": "flat",
+    "dimensions": "15×20",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      64,
+      80
+    ]
+  },
+  {
+    "group": "flat",
+    "dimensions": "20×20",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      65,
+      81
+    ]
+  },
+  {
+    "group": "flat",
+    "dimensions": "20×25",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      66,
+      82
+    ]
+  },
+  {
+    "group": "flat",
+    "dimensions": "25×25",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      67,
+      83
+    ]
+  },
+  {
+    "group": "flat",
+    "dimensions": "20×30",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      68,
+      84
+    ]
+  },
+  {
+    "group": "flat",
+    "dimensions": "25×30",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      69,
+      85
+    ]
+  },
+  {
+    "group": "flat",
+    "dimensions": "30×25",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      70,
+      86
+    ]
+  },
+  {
+    "group": "flat",
+    "dimensions": "25×35",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      71,
+      87
+    ]
+  },
+  {
+    "group": "flat",
+    "dimensions": "30×30",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      72,
+      88
+    ]
+  },
+  {
+    "group": "flat",
+    "dimensions": "30×35",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      73,
+      89
+    ]
+  },
+  {
+    "group": "flat",
+    "dimensions": "30×40",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      74,
+      90
+    ]
+  },
+  {
+    "group": "flat",
+    "dimensions": "35×35",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      75,
+      92
+    ]
+  },
+  {
+    "group": "flat",
+    "dimensions": "35×40",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      76,
+      93
+    ]
+  },
+  {
+    "group": "flat",
+    "dimensions": "40×40",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      77,
+      94
+    ]
+  },
+  {
+    "group": "flat",
+    "dimensions": "40×50",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      78,
+      96
+    ]
+  },
+  {
+    "group": "flat",
+    "dimensions": "50×50",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      79,
+      99
+    ]
+  },
+  {
+    "group": "flat",
+    "dimensions": "35×30",
+    "thickness": "3mm",
+    "capacity": "",
+    "sourceRows": [
+      91
+    ]
+  },
+  {
+    "group": "flat",
+    "dimensions": "40×35",
+    "thickness": "3mm",
+    "capacity": "",
+    "sourceRows": [
+      95
+    ]
+  },
+  {
+    "group": "adhesive",
+    "dimensions": "15×20 + 4",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      100,
+      117
+    ]
+  },
+  {
+    "group": "adhesive",
+    "dimensions": "20×20 + 4",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      101,
+      118
+    ]
+  },
+  {
+    "group": "adhesive",
+    "dimensions": "20×25 + 4",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      102,
+      119
+    ]
+  },
+  {
+    "group": "adhesive",
+    "dimensions": "20×30 + 4",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      103,
+      120
+    ]
+  },
+  {
+    "group": "adhesive",
+    "dimensions": "25×25 + 4",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      104,
+      121
+    ]
+  },
+  {
+    "group": "adhesive",
+    "dimensions": "25×30 + 4",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      105,
+      122
+    ]
+  },
+  {
+    "group": "adhesive",
+    "dimensions": "25×35 + 4",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      106,
+      123
+    ]
+  },
+  {
+    "group": "adhesive",
+    "dimensions": "30×25 + 4",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      107,
+      124
+    ]
+  },
+  {
+    "group": "adhesive",
+    "dimensions": "30×30 + 4",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      108,
+      125
+    ]
+  },
+  {
+    "group": "adhesive",
+    "dimensions": "30×35 + 4",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      109,
+      126
+    ]
+  },
+  {
+    "group": "adhesive",
+    "dimensions": "30×40 + 4",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      110,
+      127
+    ]
+  },
+  {
+    "group": "adhesive",
+    "dimensions": "35×30 + 4",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      111,
+      128
+    ]
+  },
+  {
+    "group": "adhesive",
+    "dimensions": "35×35 + 4",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      112,
+      129
+    ]
+  },
+  {
+    "group": "adhesive",
+    "dimensions": "35×40 + 4",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      113,
+      130
+    ]
+  },
+  {
+    "group": "adhesive",
+    "dimensions": "40×40 + 4",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      114,
+      131
+    ]
+  },
+  {
+    "group": "adhesive",
+    "dimensions": "45×40 + 4",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      115,
+      133
+    ]
+  },
+  {
+    "group": "adhesive",
+    "dimensions": "50×40 + 4",
+    "thickness": "2mm / 3mm",
+    "capacity": "",
+    "sourceRows": [
+      116,
+      134
+    ]
+  },
+  {
+    "group": "adhesive",
+    "dimensions": "40×50 + 4",
+    "thickness": "3mm",
+    "capacity": "",
+    "sourceRows": [
+      132
+    ]
+  },
+  {
+    "group": "water",
+    "dimensions": "10×12",
+    "thickness": "",
+    "capacity": "100ml",
+    "sourceRows": [
+      135
+    ]
+  },
+  {
+    "group": "water",
+    "dimensions": "10×15",
+    "thickness": "",
+    "capacity": "200ml",
+    "sourceRows": [
+      136
+    ]
+  },
+  {
+    "group": "water",
+    "dimensions": "12×18.5",
+    "thickness": "",
+    "capacity": "400ml",
+    "sourceRows": [
+      137
+    ]
+  },
+  {
+    "group": "water",
+    "dimensions": "12.5×23",
+    "thickness": "",
+    "capacity": "600ml",
+    "sourceRows": [
+      138
+    ]
+  },
+  {
+    "group": "absorbing",
+    "dimensions": "7×14",
+    "thickness": "",
+    "capacity": "100ml",
+    "sourceRows": [
+      139
+    ]
+  },
+  {
+    "group": "absorbing",
+    "dimensions": "9.5×12",
+    "thickness": "",
+    "capacity": "180ml",
+    "sourceRows": [
+      140
+    ]
+  },
+  {
+    "group": "absorbing",
+    "dimensions": "9.5×15",
+    "thickness": "",
+    "capacity": "250ml",
+    "sourceRows": [
+      141
+    ]
+  },
+  {
+    "group": "absorbing",
+    "dimensions": "11×18",
+    "thickness": "",
+    "capacity": "400ml",
+    "sourceRows": [
+      142
+    ]
+  },
+  {
+    "group": "segmented",
+    "dimensions": "7×7",
+    "thickness": "",
+    "capacity": "1",
+    "sourceRows": [
+      143
+    ]
+  },
+  {
+    "group": "segmented",
+    "dimensions": "7×21",
+    "thickness": "",
+    "capacity": "3",
+    "sourceRows": [
+      144
+    ]
+  },
+  {
+    "group": "segmented",
+    "dimensions": "14×21",
+    "thickness": "",
+    "capacity": "6",
+    "sourceRows": [
+      145
+    ]
+  },
+  {
+    "group": "segmented",
+    "dimensions": "21×28",
+    "thickness": "",
+    "capacity": "12",
+    "sourceRows": [
+      146
+    ]
+  },
+  {
+    "group": "segmented",
+    "dimensions": "28×42",
+    "thickness": "",
+    "capacity": "24",
+    "sourceRows": [
+      147
+    ]
+  }
+]

@@ -4,6 +4,7 @@ import './styles.css'
 import './collection.css'
 import './product-sections.css'
 import './buyer-resources.css'
+import './commercial-details.css'
 
 const root = document.getElementById('root')!
 const path=window.location.pathname
