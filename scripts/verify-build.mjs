@@ -15,13 +15,9 @@ async function collect(dir) {
 }
 await collect(root)
 assert.equal(files.length,paths.length+notFoundPaths.length,'Expected every configured route and localized 404 document')
-assert.equal(catalogAudit.materialCategories.length,18,'Cover every source material category')
-assert.equal(catalogAudit.styleOptions.length,12,'Cover every source style category')
-assert.equal(catalogAudit.usageOptions.length,16,'Cover every source use category')
+assert.equal(catalogAudit.bags.length,13,'Publish only the selected insulated and cold-chain catalog')
+assert(catalogAudit.bags.every(b=>b.collection==='yuanen-2026'),'Unselected category published')
 assert.equal(new Set(catalogAudit.bags.map(b=>b.slug)).size,catalogAudit.bags.length,'Duplicate product slugs')
-for (const [category] of catalogAudit.materialCategories) assert(catalogAudit.bags.some(b=>b.category===category),`Empty category ${category}`)
-for (const [option] of catalogAudit.styleOptions) assert(catalogAudit.bags.some(b=>b.styles.includes(option)),`Empty style ${option}`)
-for (const [option] of catalogAudit.usageOptions) assert(catalogAudit.bags.some(b=>b.uses.includes(option)),`Empty use ${option}`)
 for (const bag of catalogAudit.bags) {
   if (bag.collection) {
     assert.equal(bag.collection,'yuanen-2026')
@@ -53,7 +49,8 @@ for (const file of files) {
   if (ownProduct) {
     const product = JSON.parse(json)['@graph'].find(item=>item['@type']==='Product')
     assert(product,`Missing product schema: ${relative}`)
-    assert.equal(product.image.length,ownProduct.gallery.length+1,`Incomplete gallery schema: ${relative}`)
+    for (const original of [ownProduct.image,...ownProduct.gallery]) assert(product.image.some(url=>url.endsWith('/images/products/'+original)),`Original gallery image missing: ${relative}`)
+    for (const image of product.image) { const imagePath=new URL(image).pathname; await access(join(root,imagePath)); assert(html.includes(imagePath),`Schema image absent from visible gallery: ${relative}`) }
     assert(!product.offers && !product.aggregateRating,`Unverified commercial claims: ${relative}`)
   }
   const lang = relative.startsWith('/zh/')?'zh-CN':relative.startsWith('/es/')?'es':'en'

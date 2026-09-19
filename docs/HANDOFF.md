@@ -1,4 +1,17 @@
-# 最新检查点：域名、免费邮箱与 WhatsApp（2026-09-19）
+# 最新检查点：保温冷链聚焦与 Packy 配图（2026-09-19）
+
+- 当前任务 01a0b39d-9359-76d2-bdad-39aaa199da0d；路径 C:/Users/Administrator/Desktop/yuanenbag，main；开始 HEAD 3b37644f33bd5e8b9b3de76b661cade351590d0e。本轮提交后推送既有 GitHub/Vercel 自动部署，最终线上证据保存在 .verification/cold-chain-release.json；恢复时核对实际 HEAD 与 Vercel 状态。
+- 最新授权：只做保温冷链；参考 ipcpack.com 布局；使用用户 Packy 生成产品与 UI 图；使用桌面龙港新厂、台州工厂素材。无需再要求登录或更新 Packy 密钥。
+- Packy image2 令牌现可用，image 分组，实际 gpt-image-2；20 张生图成功并接入（13 白底主图、4 细节、3 页面配图）。环境变量 YUANEN_PACKY_IMAGE_KEY；旧 Gemini 分组没有生图模型，不要再次误报整个 Packy 不可用。来源与限制见 docs/PRODUCT-IMAGERY.md。
+- 仅展示 13 个远恩目录核心产品，旧 22 系列源数据保留，旧三语 URL 307 至对应产品中心。首页深蓝左右分栏，目录四系列筛选/搜索，图集缩略图、放大、键盘切换；产品详情包含用户指定的 8 模块。三语同步。
+- 用户工厂素材导入 9 张，目前展示 8 张；台州加工备用。产品 AI 图标明效果示意，目录原图保留；没有生成厂房照片或虚构认证。
+- 最终 build/verify 通过，72 内容页加 3 个404，共75 HTML。CUA 检查英文桌面首页、中文详情材料锚点、图库缩略图/下一张/键盘/Escape、工厂图放大、定制流程与应用图片；390px 西语首页/目录/详情/价格与询价页面无横向溢出，产品自动预选与邮箱/WhatsApp正确。所查控制台无 error/warn。修正应用及定制配图高度后已复核。
+- 保留 info@yuanenbag.com、WhatsApp +86 189 6971 7999 和原目录两电话。询价仍仅草稿/下载/mailto，不是服务端自动投递。未实际发送邮件或 WhatsApp。
+- 尚缺真实MOQ、阶梯价/币种、样品及大货交期、可公开的出口资料；页面显示按订单确认及文件清单。SITE_INDEXABLE=false 保持，没有开启搜索收录或验证流量增长。后续优先补齐真实商业资料、询盘投递与上线索引策略。
+
+---
+
+# 历史检查点：域名、免费邮箱与 WhatsApp（2026-09-19）
 
 - 本轮路径 C:/Users/Administrator/Desktop/yuanenbag，main；开始 HEAD 97589cad3a9b1f2f405bba60efa9a158068e06f0，工作区干净。任务 01a0b39d-9359-76d2-bdad-39aaa199da0d。
 - 阿里云网站 DNS：@ A 216.150.1.1；www CNAME 13f8666bb2aa1188.vercel-dns-016.com；TTL 600。保留全部 8 条原邮件记录。Vercel 两域名 Valid Configuration，主域名 Production，www 308 跳转主域名，三语 HTTPS 已验证。

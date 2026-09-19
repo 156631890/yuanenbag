@@ -1,5 +1,6 @@
 import { renderToString } from 'react-dom/server'
 import App from './App'
+import { productImages } from './product-media'
 import { bags, brand, faq, tx, languages, locales, type Lang } from './data'
 import { pages, href, resolveRoute } from './routes'
 import { materialCategories, styleOptions, usageOptions } from './catalog-data'
@@ -29,8 +30,8 @@ export function render(path = '/', indexable = false) {
   if (page.type === 'guide') graph.push({'@type':'Article',headline:page.title[lang].split(' | ')[0],description:page.description[lang],inLanguage:locales[lang].tag,dateModified:'2026-09-18',author:{'@id':organization['@id']},publisher:{'@id':organization['@id']},mainEntityOfPage:{'@id':`${url}#webpage`}})
   if (page.type === 'catalog') graph.push({'@type':'CollectionPage','@id':`${url}#collection`,name:page.title[lang],url,inLanguage:locales[lang].tag,mainEntity:{'@type':'ItemList',numberOfItems:bags.length,itemListElement:bags.map((bag,i)=>({'@type':'ListItem',position:i+1,name:bag.name[lang],url:absolute(href(`/products/${bag.slug}/`,lang))}))}})
   const currentBag = bags.find(b=>b.slug===page.slug)
-  const shareImage = currentBag?.image ? `images/products/${currentBag.image}` : 'images/products/2026/532.webp'
-  if (page.type === 'bag' && currentBag?.collection) graph.push({'@type':'Product','@id':`${url}#product`,name:currentBag.name[lang],description:currentBag.intro[lang],url,image:[currentBag.image,...(currentBag.gallery||[])].map(file=>absolute(href('/', 'en')+`images/products/${file}`)),brand:{'@type':'Brand',name:brand.name},manufacturer:{'@id':organization['@id']},material:currentBag.material[lang],category:currentBag.use[lang]})
+  const shareImage = currentBag?.image ? `images/products/${productImages(currentBag)[0].file}` : 'images/factory/2026/longgang-production.webp'
+  if (page.type === 'bag' && currentBag?.collection) graph.push({'@type':'Product','@id':`${url}#product`,name:currentBag.name[lang],description:currentBag.intro[lang],url,image:productImages(currentBag).map(({file})=>absolute(href('/', 'en')+`images/products/${file}`)),brand:{'@type':'Brand',name:brand.name},manufacturer:{'@id':organization['@id']},material:currentBag.material[lang],category:currentBag.use[lang]})
   const head = [
     `<title>${escape(page.title[lang])}</title>`,
     `<meta name="description" content="${escape(page.description[lang])}" />`,
