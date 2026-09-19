@@ -1,4 +1,19 @@
-# 最新检查点：关联工厂证书与报告资料页（2026-09-19）
+# 最新检查点：正式收录与搜索平台接入（2026-09-19）
+
+- 用户在SEO/GEO审计后回复“OK操作”，授权正式索引、站长工具接入；后续明确“先完成收录，统计暂缓”。不再沿用历史SITE_INDEXABLE=false的生产限制。SMTP问题尚未回复，不擅自配置密码/投递，不加入虚假发送成功。
+- 项目仍 `C:/Users/Administrator/Desktop/yuanenbag`，main。实现提交 `1544c2806f794f5c3428bbdede934b2ce4d433bd`；生产部署 `dpl_CbQE5nsohAEvyyer65d4hr1SCzqh` READY。文档检查点后续提交不修改页面行为，恢复时核对实际HEAD。
+- Vercel `SITE_INDEXABLE`由Production+Preview共享false改为仅Production true（UI保存成功，CLI env ls核实作用域）；Preview未配置默认为false。新增统一indexing.mjs保护预览，VERCEL_ENV=preview时即使true也noindex。Production/Preview分别build+verify通过78 HTML。三语404仍noindex。
+- 正式域名HTTP核实：英文首页/中文冰袋/西语资料页200且index, follow；sitemap.xml有75个loc；robots含Sitemap地址；未知中文URL404且noindex。证据 `.verification/search-release.json`。
+- GSC当前已登录账户下新增URL前缀资源 `https://yuanenbag.com/`，HTML meta验证成功；Bing同样meta验证成功。验证码为公开站点验证标签，保留在index.html，不能删除。没有动其他网站资源或DNS。
+- Google和Bing均已成功处理 `https://yuanenbag.com/sitemap.xml`，各识别75页。Google首页及英文/products/的“请求编入索引”均成功加入优先抓取队列，之前状态为已发现尚未索引。Bing首页Live URL通过、Request indexing成功；其历史DNS错误未在实时抓取复现，Google/Cloudflare DNS均返回216.150.1.1。不要重复提交同页以为能加速；真实索引状态仍需后续观察。
+- Bing实时检查提示10张空alt，核对全部为首页流程/指南/FAQ装饰性配图，邻近有对应文字，未为评分堆重复关键词；产品图alt不为空。
+- Bing AI Performance读取2026-06-19至2026-09-18，总引用0、平均引用页0、查询无数据；仅Microsoft Copilots and Partners抽样，新资源可能延迟，不代表全网AI。固定英语/西语采购问题、对应URL及测量口径见docs/SEO-GEO-STATUS.md，未执行ChatGPT/Gemini基准测试。
+- Vercel Pro Analytics按量$0.03/千事件，无法给单项目统计$1硬上限；团队Spend Management会影响全部网站并可能有延迟超额。用户最终决定统计暂缓，未点最终Enable、未接GA4/追踪脚本、未改团队预算。无新增统计费用。
+- 询价保持浏览器草稿/下载/mailto；未有SMTP_USER/SMTP_PASS凭证，未实现或声称在线投递。下一步先看GSC/Bing索引与实际搜索词，再做冷链专项选词/内容和真正询盘投递；4款保温包商业条款、真实整套温控测试仍缺。网站不恢复其他类目。
+
+---
+
+# 历史检查点：关联工厂证书与报告资料页（2026-09-19）
 
 - 用户提供微信接收文件夹 F，实际路径为 `D:/Users/Administrator/xwechat_files/wxid_4684926849812_be91/msg/attach/8bdb3a13cfec50b32f1f37df04741b98/2026-09/Rec/07c317a66e51077c/F`。8个PDF按SHA256去重为6份；原件只读。用户已明确确认创明工艺礼品公司和 QIANQUAN 纺织公司为“自有/关联工厂”；网页统一采用关联工厂表述，保留文件原主体。
 - 起始main `765dd5eb47588037bfdfb1482b10a9d489aff7bd`，工作区干净。新增中英西 `/quality/`，工厂页、产品出口资料区及页脚入口。原件首页预览、类型筛选、可放大查看、报告编号邮件索取完整资料；完整PDF未放入public或Git。网站仍13款冷链产品，不为报告恢复其他商品类目。
