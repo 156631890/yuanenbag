@@ -1,0 +1,92 @@
+{
+  "reviewedAt": "2026-09-19",
+  "relationship": "User confirmed the named holders as owned/affiliated facilities in this task. Public copy uses affiliated facilities and keeps original holders.",
+  "verification": "Supplied PDFs visually reviewed, including result pages and sample photographs. Issuer registry verification has not been performed.",
+  "publication": "First-page previews and accurate summaries only. Complete original PDFs remain local and are available through a document enquiry; no product-specific certification mapping has been established.",
+  "documents": [
+    {
+      "id": "bsci-factory-audit",
+      "file": "2025 BSCI-Tryingme Pack(1).pdf",
+      "sha256": "2a9f4ca8692589a2e73ff8b8f37f8b9e9045143aefce224987e20e6bb17964db",
+      "number": "24-0277774-1",
+      "holder": "WENZHOU CHARMING GIFTS&CRAFTS CO., LTD.（温州市创明工艺礼品有限公司）",
+      "pageCount": 13,
+      "category": "工厂审核",
+      "date": "审核：2025-09-19",
+      "expiry": "文件载明到期日：2026-09-29",
+      "result": "总评级 C；工作时间分项 D",
+      "scope": "龙港市黄河产业园 20-B 幢的指定受审场所。属于跟进审核记录，不是产品认证。",
+      "image": "public/images/documents/bsci-factory-audit.webp"
+    },
+    {
+      "id": "nonwoven-heavy-metals",
+      "file": "NON WOVEN bag CTT2607032795EN_sign.pdf",
+      "sha256": "417652046eb9867787400c5329e09a2f64586fd62acc81c742b7e2147ce6f8f2",
+      "number": "CTT2607032795EN",
+      "holder": "WENZHOU CHARMING GIFTS&CRAFTS CO., LTD.（温州市创明工艺礼品有限公司）",
+      "pageCount": 3,
+      "category": "样品检测",
+      "date": "报告：2026-07-21",
+      "expiry": "报告未列有效截止日期",
+      "result": "所列项目 PASS；各项 N.D.（低于定量限）",
+      "scope": "红色无纺布、白色印刷的袋身样品；(EU) 2025/40 中 Pb/Cd/Hg/Cr(VI) 含量检测。合计限值 100 mg/kg，定量限 10 mg/kg。",
+      "image": "public/images/documents/nonwoven-heavy-metals.webp"
+    },
+    {
+      "id": "polyester-heavy-metals",
+      "file": "polyester bag CTT2607032794EN_sign.pdf",
+      "sha256": "a6e84d6c80ba979505c266dbde11f725e5d5ba0956d81e60970f8d7a1173f009",
+      "number": "CTT2607032794EN",
+      "holder": "WENZHOU CHARMING GIFTS&CRAFTS CO., LTD.（温州市创明工艺礼品有限公司）",
+      "pageCount": 3,
+      "category": "样品检测",
+      "date": "报告：2026-07-21",
+      "expiry": "报告未列有效截止日期",
+      "result": "所列项目 PASS；各项 N.D.（低于定量限）",
+      "scope": "白色合成纤维、多色印刷的聚酯袋身样品；(EU) 2025/40 中 Pb/Cd/Hg/Cr(VI) 含量检测。合计限值 100 mg/kg，定量限 10 mg/kg。",
+      "image": "public/images/documents/polyester-heavy-metals.webp"
+    },
+    {
+      "id": "rpet-heavy-metals",
+      "file": "RPET BAG CTT2607032793EN_sign.pdf",
+      "sha256": "cd33a2a7577d79e4c2100c1aeea9c4b27df317ed6d865b071951c97a346f6fc4",
+      "number": "CTT2607032793EN",
+      "holder": "WENZHOU CHARMING GIFTS&CRAFTS CO., LTD.（温州市创明工艺礼品有限公司）",
+      "pageCount": 3,
+      "category": "样品检测",
+      "date": "报告：2026-07-21",
+      "expiry": "报告未列有效截止日期",
+      "result": "所列项目 PASS；各项 N.D.（低于定量限）",
+      "scope": "白色合成纤维、棕/深棕印刷及透明塑料的袋身样品；(EU) 2025/40 中 Pb/Cd/Hg/Cr(VI) 含量检测。合计限值 100 mg/kg，定量限 10 mg/kg。",
+      "image": "public/images/documents/rpet-heavy-metals.webp"
+    },
+    {
+      "id": "cotton-linen-lead",
+      "file": "cotton-linen bag CTT2607061300EN_sign.pdf",
+      "sha256": "bccc52c3c18e8caf5783e48423a99cecd5aa76f2cdeb8674178602bcea451123",
+      "number": "CTT2607061300EN",
+      "holder": "WENZHOU CHARMING GIFTS&CRAFTS CO., LTD.（温州市创明工艺礼品有限公司）",
+      "pageCount": 3,
+      "category": "样品检测",
+      "date": "报告：2026-07-25",
+      "expiry": "报告未列有效截止日期",
+      "result": "铅含量 PASS；N.D.（低于 10 mg/kg）",
+      "scope": "棕色面料、黑色印刷的袋身样品；CPSIA Section 101 / 15 U.S.C. §1278a 铅含量，限值 100 mg/kg；方法 CPSC-CH-E1002-08.3。",
+      "image": "public/images/documents/cotton-linen-lead.webp"
+    },
+    {
+      "id": "oeko-tex-cotton-fabric",
+      "file": "25.HCN.43344-zh(1).pdf",
+      "sha256": "15966c2b7d724390e2e5d1401b6f9bbfc78f75ec64a4f73b88e05ab256a1855c",
+      "number": "25.HCN.43344",
+      "holder": "SHAOXING KEQIAO QIANQUAN TEXTILE CO., LTD.",
+      "pageCount": 1,
+      "category": "面料证书",
+      "date": "签发：2026-07-21",
+      "expiry": "证书载明有效期至：2027-06-30",
+      "result": "产品级别 I（婴幼儿产品），附录 4",
+      "scope": "本白、漂白、活性染色及活性印花的全棉梭织面料；支持测试报告编号 26.1300594。",
+      "image": "public/images/documents/oeko-tex-cotton-fabric.webp"
+    }
+  ]
+}

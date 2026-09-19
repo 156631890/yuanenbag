@@ -2,9 +2,18 @@ import { readdir, readFile, access } from 'node:fs/promises'
 import { resolve, join } from 'node:path'
 import assert from 'node:assert/strict'
 import { loadEnv } from 'vite'
-import { paths, notFoundPaths, catalogAudit } from '../.ssr/entry-server.js'
+import { paths, notFoundPaths, catalogAudit, documentationAudit } from '../.ssr/entry-server.js'
 
 const root = resolve('dist')
+const documentSources=JSON.parse(await readFile('docs/documentation-sources.json','utf8')).documents
+assert.equal(documentationAudit.length,6,'Six unique supplied documentation records')
+assert.equal(new Set(documentationAudit.map(d=>d.number)).size,6,'Duplicate report or certificate numbers')
+for (const document of documentationAudit) {
+  const source=documentSources.find(d=>d.id===document.id)
+  assert(source && source.number===document.number && source.pageCount===document.pages,`Document provenance mismatch: ${document.id}`)
+  await access(join(root,'images/documents',document.image))
+  assert(document.holder!=='YUANEN','Keep each original document holder')
+}
 const files = []
 async function collect(dir) {
   for (const entry of await readdir(dir, {withFileTypes:true})) {
@@ -94,6 +103,20 @@ for (const file of files) {
     assert.equal(collection?.mainEntity?.itemListElement.length,catalogAudit.bags.length,`Catalog schema must include every product: ${file}`)
     for (const bag of catalogAudit.bags) assert(html.includes(`/products/${bag.slug}/`),`Product missing from prerendered catalog: ${bag.slug}`)
   }
+  if (/\/quality\/$/.test(relative)) {
+    const language=lang==='zh-CN'?'zh':lang
+    const collection=JSON.parse(json)['@graph'].find(item=>item['@type']==='CollectionPage')
+    assert.equal(collection?.mainEntity?.numberOfItems,6,`Document library schema count: ${relative}`)
+    const visible=html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/g,'')
+    for (const d of documentationAudit) {
+      assert(visible.includes(`id="${d.id}"`) && visible.includes(d.number),`Missing document: ${relative}/${d.id}`)
+      assert(visible.includes(d.holder.replaceAll('&','&amp;')),`Missing original holder: ${relative}/${d.id}`)
+      assert(visible.includes(d.note[language].replaceAll('&','&amp;')),`Missing scope limitation: ${relative}/${d.id}`)
+      if(d.validUntil) assert(visible.includes(d.validUntil),`Missing validity date: ${relative}/${d.id}`)
+      assert(visible.includes(encodeURIComponent(`YUANEN document request - ${d.number}`)),`Missing document-specific email subject: ${relative}/${d.id}`)
+    }
+    assert(!html.includes('hasCertification'),`Do not assign affiliated documentation as YUANEN product certification: ${relative}`)
+  }
   assert(!/Compare six product|六大产品系列|六类保温包装|Compare seis familias/.test(html),`Stale catalog copy: ${file}`)
   if (!file.endsWith('404.html')) {
     assert(html.includes(`name="robots" content="${env.SITE_INDEXABLE==='true'?'index':'noindex'}, follow"`),`Incorrect robots directive: ${file}`)
@@ -124,3 +147,4 @@ for (const url of locs) assert(canonicals.has(url),`Noncanonical URL in sitemap:
 assert((await readFile(join(root,'404.html'),'utf8')).includes('noindex, follow'),'404 must not be indexed')
 console.log(`Verified ${files.length} HTML documents: distinct titles, H1, language, canonical, alternates, schema, local links/assets, sitemap and 404.`)
 console.log(`Verified commercial terms for ${Object.keys(commercialProfiles).length} products in three languages, ${stockSpecifications.length} stock rows from ${sourceRows.length} source rows, and matching visible FAQ/schema.`)
+console.log('Verified six document records, original holders, provenance, stated validity, scope limitations, cover assets and document-specific enquiry links in three languages.')

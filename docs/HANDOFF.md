@@ -1,4 +1,16 @@
-# 最新检查点：导入真实 MOQ、打样、交期与规格（2026-09-19）
+# 最新检查点：关联工厂证书与报告资料页（2026-09-19）
+
+- 用户提供微信接收文件夹 F，实际路径为 `D:/Users/Administrator/xwechat_files/wxid_4684926849812_be91/msg/attach/8bdb3a13cfec50b32f1f37df04741b98/2026-09/Rec/07c317a66e51077c/F`。8个PDF按SHA256去重为6份；原件只读。用户已明确确认创明工艺礼品公司和 QIANQUAN 纺织公司为“自有/关联工厂”；网页统一采用关联工厂表述，保留文件原主体。
+- 起始main `765dd5eb47588037bfdfb1482b10a9d489aff7bd`，工作区干净。新增中英西 `/quality/`，工厂页、产品出口资料区及页脚入口。原件首页预览、类型筛选、可放大查看、报告编号邮件索取完整资料；完整PDF未放入public或Git。网站仍13款冷链产品，不为报告恢复其他商品类目。
+- BSCI是创明指定场所的跟进审核，总评级C，工作时间D；载明到期日2026-09-29。3份CTT无纺布/聚酯/RPET袋报告只检测所列包装重金属；棉麻袋CTT只检测铅。OEKO-TEX 25.HCN.43344持证主体为SHAOXING KEQIAO QIANQUAN TEXTILE CO., LTD.，范围为指定全棉梭织面料，级别I/附录4，有效期至2027-06-30。不能扩展为整包认证、全部PPWR/CPSIA合规、GRS/RCS、食品接触或保温性能证明；无现有保温袋/冰袋成品对应证据。
+- 来源、文件SHA256、范围及使用说明见 `docs/documentation-sources.json`；本地完整整理与原文页图在忽略目录 `.verification/certificates/`。已阅读13页BSCI文本并查看首页评级，四份CTT全部3页与OEKO-TEX证书页；未做发证机构在线独立验真。
+- 新增 `documentation-data.ts`、`Quality.tsx`、`quality.css`，6张原文首页WebP。三语静态页增至78 HTML，保留noindex与原询价草稿机制。资料索取为mailto，已带编号与目的地/检测需求字段，未实际发送。
+- build/verify通过78 HTML及新增资料来源/原主体/日期/范围/图片/索取链接检查。CUA检查1280英文及中文资料页、390西语证书与产品出口入口；筛选得到4份样品报告，原件预览可打开、按钮/Escape可关闭并返回触发点，无横向溢出，所查控制台无error/warn。发现并修复深底标题对比度后已复核。
+- 发布沿用main自动部署授权；完成证据在 `.verification/documentation-release.json`，恢复时核对实际Git/Vercel状态。BSCI接近载明到期日，未来资料更新优先获取后续审核记录，不能在到期后沿用“当前有效”宣传。
+
+---
+
+# 历史检查点：导入真实 MOQ、打样、交期与规格（2026-09-19）
 
 - 用户提供 `C:/Users/Administrator/Desktop/产品最低定制数量_打样与交期汇总.xlsx`，用于补齐网站商业资料。原工作簿只读；来源 SHA256、表页及导入规则记录在 `docs/commercial-sources.json`。起始 HEAD `86f213b27fb41407493fc288b07b5fe28869b177`，实际 checkout 为本项目 main；沿用同步 GitHub 与 Vercel 发布授权。
 - 新增 `commercial-data.ts`、`stock-specifications.json`、`CommercialDetails.tsx` 与响应式样式。9款现有产品对应8组商业规格；140条源规格按相同尺寸合并厚度，展示89行。蛋糕袋与手工立体共用同组。4款保温包没有对应条款；双面自吸冰袋没有现有独立SKU，未擅自新增。
