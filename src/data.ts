@@ -13,7 +13,7 @@ export const tx = (en: string, zh: string, es = spanish[en]): Text => {
   if (!es) throw new Error(`Missing Spanish translation: ${en}`)
   return { en, zh, es }
 }
-export const brand = { name:'YUANEN', chineseName:'温州远恩工艺品有限公司', email:import.meta.env.VITE_CONTACT_EMAIL||'', whatsapp:import.meta.env.VITE_WHATSAPP||'', site:'https://yuanenbag.com', phones:['+86 139 6874 4777','+86 136 1665 5488'], verifiedCatalog:true }
+export const brand = { name:'YUANEN', chineseName:'温州远恩工艺品有限公司', email:import.meta.env.VITE_CONTACT_EMAIL||'info@yuanenbag.com', whatsapp:import.meta.env.VITE_WHATSAPP||'+86 189 6971 7999', site:'https://yuanenbag.com', phones:['+86 189 6971 7999','+86 139 6874 4777','+86 136 1665 5488'], verifiedCatalog:true }
 export const heroImage = `${import.meta.env.BASE_URL}images/packaging-concept.webp`
 export type Bag = {slug:string;name:Text;short:Text;intro:Text;material:Text;use:Text;group:'delivery'|'cold-chain'|'shopping';color:string;type:'box'|'cooler'|'foil'|'ice';considerations:Text[];question:Text;answer:Text;category?:string;styles?:string[];uses?:string[];image?:string;source?:string;gallery?:string[];collection?:'yuanen-2026';catalogPage?:number}
 const coreBags:Bag[] = [

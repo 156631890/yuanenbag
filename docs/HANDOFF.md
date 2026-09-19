@@ -1,3 +1,14 @@
+# 最新检查点：域名、免费邮箱与 WhatsApp（2026-09-19）
+
+- 本轮路径 C:/Users/Administrator/Desktop/yuanenbag，main；开始 HEAD 97589cad3a9b1f2f405bba60efa9a158068e06f0，工作区干净。任务 01a0b39d-9359-76d2-bdad-39aaa199da0d。
+- 阿里云网站 DNS：@ A 216.150.1.1；www CNAME 13f8666bb2aa1188.vercel-dns-016.com；TTL 600。保留全部 8 条原邮件记录。Vercel 两域名 Valid Configuration，主域名 Production，www 308 跳转主域名，三语 HTTPS 已验证。
+- 复用原有阿里企业邮箱免费版；后台有效期至 2031-02-28。用户亲自设置密码并创建 info@yuanenbag.com；本轮员工列表显示正常，名称 YUANEN 远恩询盘，容量 5GB。未读取或保存密码，未实测邮件收发。
+- 用户提供 WhatsApp / 电话 18969717999，按中国大陆 +86 接入。src/data.ts 提供确认后的公开默认邮箱及 WhatsApp，可由 VITE_CONTACT_EMAIL / VITE_WHATSAPP 覆盖；号码加在首位并保留 PDF 两个电话。三语页脚、询价、隐私联系入口及 Organization email/telephone 同步。
+- 本地 npm run build 与 npm run verify 通过（141 HTML）；英中西 contact 产物的 mailto、wa.me、tel 及结构化电话均核验。main 推送触发既有 Vercel 自动部署；远端结果以实际最新部署及 .verification/domain-mail-setup.json 为准。
+- 询价仍是浏览器草稿/下载/邮件应用入口，没有服务器自动投递；WhatsApp 仅打开聊天链接，未发送消息，也未验证号码注册状态。SITE_INDEXABLE=false 仍保持，未报告搜索收录或 AI 引用。
+
+---
+
 # 最新检查点：2026 产品目录与全站视觉升级（2026-09-19）
 
 - 当前目标：用户要求补齐其 PDF 产品并改善网站不够大气的问题。目录为 `C:/Users/Administrator/Desktop/压缩2026目录(1).pdf`，10 个跨页；导入产品来源集中在 PDF 第 6–10 张。

@@ -12,7 +12,7 @@ const absolute = (path: string) => new URL(path, brand.site).href
 export function render(path = '/', indexable = false) {
   const { lang, page } = resolveRoute(path)
   const url = absolute(href(page.path, lang))
-  const organization = { '@type':'Organization', '@id':`${brand.site}/#organization`, name:brand.name, legalName:brand.chineseName, url:brand.site, address:{'@type':'PostalAddress',addressLocality:'Longgang, Wenzhou',addressRegion:'Zhejiang',addressCountry:'CN'}, ...(brand.email ? {email:brand.email} : {}) }
+  const organization = { '@type':'Organization', '@id':`${brand.site}/#organization`, name:brand.name, legalName:brand.chineseName, url:brand.site, telephone:brand.phones[0], address:{'@type':'PostalAddress',addressLocality:'Longgang, Wenzhou',addressRegion:'Zhejiang',addressCountry:'CN'}, ...(brand.email ? {email:brand.email} : {}) }
   const graph: Record<string, unknown>[] = [organization, {'@type':'WebSite','@id':`${brand.site}/#website`,url:brand.site,name:brand.name,publisher:{'@id':organization['@id']},inLanguage:languages.map(language=>locales[language].tag)}, {'@type':'WebPage','@id':`${url}#webpage`,url,name:page.title[lang],description:page.description[lang],inLanguage:locales[lang].tag,isPartOf:{'@id':`${brand.site}/#website`}}]
   if (page.type !== 'home' && page.type !== '404') {
     const crumbs = [{name:tx('Home','首页')[lang],item:absolute(href('/',lang))}]

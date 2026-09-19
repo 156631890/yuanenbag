@@ -27,7 +27,7 @@ npm run preview
 
 ## 对外联系与索引配置
 
-复制 `.env.example` 为 `.env.local`，按实际资料填写。以下值会公开显示，不能填入任何密钥：
+默认公开邮箱为 `info@yuanenbag.com`，WhatsApp / 首要联系电话为 `+86 189 6971 7999`。如需覆盖，可复制 `.env.example` 为 `.env.local` 填写；留空使用已确认的默认值。以下值会公开显示，不能填入任何密钥：
 
 ```dotenv
 VITE_CONTACT_EMAIL=
@@ -44,7 +44,7 @@ SITE_INDEXABLE=false
 
 ## 发布说明
 
-将 `dist` 的内容部署至支持目录 `index.html` 的静态托管平台；将未知路径返回 `404.html` 并保留 HTTP 404，不要把未知地址重写成首页 200。已通过 GitHub 导入 Vercel，`main` 更新会触发部署。在线地址为 https://yuanenbag.vercel.app/；当前未绑定 yuanenbag.com，也未修改域名 DNS。
+将 `dist` 的内容部署至支持目录 `index.html` 的静态托管平台；将未知路径返回 `404.html` 并保留 HTTP 404，不要把未知地址重写成首页 200。已通过 GitHub 导入 Vercel，`main` 更新会触发部署。在线地址为 https://yuanenbag.vercel.app/；正式域名 https://yuanenbag.com/ 已接通，www 永久跳转至主域名，HTTPS 正常。
 
 正式上线后验证 canonical、语言切换、资源路径、404、robots 与 sitemap，再在 GSC/Bing 提交并观察抓取与询盘。静态 HTML 和结构化数据不等于已收录或获得 AI 引用。
 
@@ -59,5 +59,5 @@ SITE_INDEXABLE=false
 
 - 项目：`stevens-projects-08c9c5b0/yuanenbag`，已部署为 Vercel production，公开地址 https://yuanenbag.vercel.app/ 。
 - `vercel.json` 固定执行完整构建及验证，输出 `dist`；静态文件优先，未知路径返回对应语言 404。
-- 环境变量 `SITE_BASE_PATH=/`、`SITE_INDEXABLE=false`。临时域名可访问但暂不索引；canonical 仍为计划使用的 yuanenbag.com。绑定正式域名后再开启正式索引。
-- 2026 目录公开电话已接入页脚及询价页；邮箱与 WhatsApp 仍未配置，询价为可下载草稿。没有执行付费升级、域名购买或 DNS 修改。
+- 环境变量 `SITE_BASE_PATH=/`、`SITE_INDEXABLE=false`。正式域名已接入，canonical 为 yuanenbag.com；目前仍未开启搜索索引。
+- 邮箱、WhatsApp 和首要联系电话已接入三语页脚与询价页，保留 2026 目录电话。邮件入口打开客户邮件应用中的草稿，需要客户自行发送；没有服务端自动投递。阿里免费邮箱账号已确认正常、5GB，收发尚未实测；未执行付费升级或域名购买。
