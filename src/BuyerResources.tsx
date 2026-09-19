@@ -5,6 +5,7 @@ import { href } from './routes'
 
 type Props = { lang: Lang }
 const asset = (path: string) => `${import.meta.env.BASE_URL}images/${path}`
+const processIcons = ['select', 'specify', 'sample', 'produce', 'dispatch', 'support']
 
 export function Process({ lang }: Props) {
   const t = (en: string, zh: string, es: string) => tx(en, zh, es)[lang]
@@ -18,7 +19,7 @@ export function Process({ lang }: Props) {
       </figcaption>
     </figure>
     <ol className="buyer-steps">{steps.map((step, i) => <li key={step.title.en}>
-      <span className="buyer-step-number" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+      <div className="buyer-step-visual" aria-hidden="true"><img src={asset(`ui/packy/process-${processIcons[i]}.webp`)} width="160" height="160" loading="lazy" alt="" /><span>{String(i + 1).padStart(2, '0')}</span></div>
       <div><h3>{step.title[lang]}</h3><p>{step.body[lang]}</p></div>
     </li>)}</ol>
   </div>
@@ -34,11 +35,11 @@ export function ProcessSection({ lang }: Props) {
   </section>
 }
 
-const guidePhotos = ['foil-adhesive-detail', 'cooler-lining-detail', 'cold-chain-range']
+const guidePhotos = ['guide-materials', 'guide-specification', 'guide-order']
 
 export function GuideCards({ lang }: Props) {
   return <div className="buyer-guides">{guides.map((guide, i) => <a key={guide.slug} className={`buyer-guide ${i === 0 ? 'buyer-guide-featured' : ''}`} href={href(`/guides/${guide.slug}/`, lang)}>
-    <div className="buyer-guide-photo"><img src={asset(`products/packy/${guidePhotos[i]}.webp`)} width={i === 2 ? '1536' : '1024'} height="1024" loading="lazy" alt="" /><span>{tx('Material illustration', '材质效果示意', 'Ilustración de materiales')[lang]}</span></div>
+    <div className="buyer-guide-photo"><img src={asset(`ui/packy/${guidePhotos[i]}.webp`)} width="1200" height="800" loading="lazy" alt="" /><span>{tx('AI-assisted illustration', 'AI 场景示意', 'Ilustración asistida por IA')[lang]}</span></div>
     <div className="buyer-guide-copy">
       <span className="eyebrow">{guide.label[lang]}</span>
       <h3>{guide.title[lang]}</h3><p>{guide.summary[lang]}</p>
@@ -68,7 +69,7 @@ export function FAQ({ lang, items = faq }: Props & { items?: typeof faq }) {
 export function FAQSection({ lang }: Props) {
   return <section className="section container buyer-faq-section" id="manufacturer-faq">
     <div className="buyer-faq-intro"><span className="eyebrow">{tx('FREQUENTLY ASKED QUESTIONS', '采购常见问题')[lang]}</span><h2>{tx('Manufacturer & Product FAQ', '工厂与产品常见问题')[lang]}</h2><p>{tx('Clear specifications are the foundation of a successful packaging project.', '清晰的规格，是做好包装项目的基础。')[lang]}</p>
-      <div className="buyer-faq-contact"><span>{tx('Have a project in mind?', '已有具体项目需求？', '¿Tiene un proyecto en mente?')[lang]}</span><a className="buyer-heading-link" href={href('/contact/', lang)}>{tx('Talk to our team', '与我们沟通', 'Hable con nuestro equipo')[lang]}<ArrowUpRight size={19} /></a></div>
+      <div className="buyer-faq-contact"><img className="buyer-support-image" src={asset('ui/packy/faq-support.webp')} width="600" height="400" loading="lazy" alt="" /><span>{tx('Have a project in mind?', '已有具体项目需求？', '¿Tiene un proyecto en mente?')[lang]}</span><a className="buyer-heading-link" href={href('/contact/', lang)}>{tx('Talk to our team', '与我们沟通', 'Hable con nuestro equipo')[lang]}<ArrowUpRight size={19} /></a></div>
     </div>
     <FAQ lang={lang} />
   </section>

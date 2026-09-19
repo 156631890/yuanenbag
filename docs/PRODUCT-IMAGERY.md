@@ -1,5 +1,17 @@
 # 保温冷链产品图片（2026-09-19）
 
+## 本轮新增：采购区块专用图标与配图
+
+用户要求“该生成的 icon 和图片要生成”，沿用用户指定 Packy API，由 imagegen 技能内置 CLI generate-batch 调用 gpt-image-2。10 个任务全部成功；完整最终提示词在 `docs/buyer-visual-prompts.json`，无凭证。原始 PNG 在本地忽略目录 `.verification/buyer-visuals/`。
+
+网页成品在 `public/images/ui/packy/`，10 张共 385,568 字节：
+
+- process-select / specify / sample / produce / dispatch / support：6 张 160×160 WebP，深蓝和银灰等距立体图标，用于六步定制流程。页面显示 64–72px，保留原步骤名称和顺序；这些是概念图标，不代表特定设备型号。
+- guide-materials / specification / order：3 张 1200×800 WebP，分别表现材料样片、尺寸规格确认、采购资料准备，替换指南之前重复使用的产品图；标明 AI 场景示意，不用作实物或检测证据。
+- faq-support：600×400 WebP，包装与问答概念图，用于 FAQ 联系入口。
+
+所有图片已检查主体、无文字与整体风格，尺寸和格式优化使用 Sharp。六张工艺图标与四张配图的本地审阅拼图为 `.verification/buyer-visuals/icon-contact.png`、`editorial-contact.png`。工厂实拍仍使用用户原素材。
+
 本轮仅公开远恩 2026 目录的 13 个保温冷链产品。其余 22 个历史系列保留源数据，公开旧 URL 暂时跳转到相应语言的产品目录。
 
 ## Packy 图片

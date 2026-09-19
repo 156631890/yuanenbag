@@ -15,7 +15,9 @@
 .buyer-steps{list-style:none;margin:0;padding:16px 38px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 30px}
 .buyer-steps li{display:flex;align-items:start;gap:16px;padding:32px 0;border-bottom:1px solid #d3dee3}
 .buyer-steps li:nth-last-child(-n+2){border-bottom:0}
-.buyer-step-number{display:grid;place-items:center;width:34px;height:34px;border:1px solid #acbfca;border-radius:50%;font-size:11px;color:#2a627e;flex-shrink:0;font-variant-numeric:tabular-nums}
+.buyer-step-visual{width:72px;flex-shrink:0;text-align:center}
+.buyer-step-visual img{display:block;width:72px;height:72px;object-fit:contain;mix-blend-mode:multiply}
+.buyer-step-visual span{display:block;margin-top:8px;font-size:10px;letter-spacing:.08em;color:#557382;font-variant-numeric:tabular-nums}
 .buyer-steps h3{font-size:19px;line-height:1.4;font-weight:550;margin:3px 0 11px;letter-spacing:-.02em}
 .buyer-steps p{font-size:13px;line-height:1.85;color:#5b6e7b;margin:0}
 .buyer-resources-section{background:#edf2f4;border-block:1px solid #e2eaed}
@@ -42,6 +44,7 @@
 .buyer-faq-contact{border-top:1px solid #d5dfe4;margin-top:32px;padding-top:25px;max-width:330px}
 .buyer-faq-contact>span{display:block;font-size:12px;color:#5b6e7b;margin-bottom:7px}
 .buyer-faq-contact a{width:100%}
+.buyer-support-image{display:block;width:210px;max-width:100%;height:140px;object-fit:contain;margin:-10px 0 16px}
 .buyer-faq{border-top:1px solid #bdcdd6;min-width:0}
 .buyer-faq details{border-bottom:1px solid #bdcdd6}
 .buyer-faq summary{list-style:none;display:grid;grid-template-columns:24px 1fr 32px;gap:16px;align-items:center;cursor:pointer;padding:24px 18px;font-size:17px;line-height:1.5;font-weight:500;color:var(--navy)}
@@ -71,7 +74,7 @@
  .buyer-section-heading h2,.buyer-faq-intro h2{font-size:30px;line-height:1.2}.buyer-section-heading{margin-bottom:26px}.buyer-section-heading .eyebrow,.buyer-faq-intro>.eyebrow{font-size:9px;line-height:1.7;margin-bottom:13px}
  .buyer-heading-link{font-size:12px}.buyer-heading-aside p{font-size:13px}
  .process-factory{grid-template-columns:1fr}.process-factory>img{height:200px;min-height:0}.process-factory figcaption{padding:23px}.process-factory strong{font-size:24px}.process-location{margin-top:14px}
- .buyer-steps{grid-template-columns:1fr;padding:6px 23px}.buyer-steps li{padding:21px 0;gap:17px}.buyer-steps li:nth-last-child(2){border-bottom:1px solid #d3dee3}.buyer-steps h3{font-size:18px;margin:3px 0 8px}.buyer-steps p{font-size:13px}.buyer-step-number{width:32px;height:32px}
+ .buyer-steps{grid-template-columns:1fr;padding:6px 23px}.buyer-steps li{padding:21px 0;gap:17px}.buyer-steps li:nth-last-child(2){border-bottom:1px solid #d3dee3}.buyer-steps h3{font-size:18px;margin:3px 0 8px}.buyer-steps p{font-size:13px}.buyer-step-visual,.buyer-step-visual img{width:64px}.buyer-step-visual img{height:64px}
  .buyer-guide,.buyer-guide-featured{grid-template-columns:1fr}.buyer-guide-photo,.buyer-guide-featured .buyer-guide-photo{height:190px;min-height:0}.buyer-guide-copy{padding:23px}.buyer-guide h3,.buyer-guide-featured h3{font-size:24px}.buyer-guide p{margin-bottom:20px}
  .buyer-faq summary{grid-template-columns:18px 1fr 28px;gap:11px;padding:20px 10px;font-size:15px;line-height:1.6}.faq-toggle{width:28px;height:28px}.faq-answer{padding:0 20px 23px 39px}.faq-answer p{font-size:13px}.buyer-faq-intro>p{font-size:13px;margin-top:18px}
 }

@@ -1,0 +1,77 @@
+{
+  "provider": "Packy",
+  "model": "gpt-image-2",
+  "date": "2026-09-19",
+  "jobs": [
+    {
+      "out": "process-select.png",
+      "prompt": "Use case: stylized-concept. Asset type: one bespoke process icon for YUANEN, a premium insulated cold-chain packaging manufacturer serving Europe and North America. Create a precise understated isometric 3D pictogram, not a photo. Single centered compact object group filling 76% of the canvas. Orthographic view from slightly above, front-right face visible. Solid pure white background edge to edge, no border, no circle, no pedestal. Matte deep navy #123553 body, brushed silver details, restrained desaturated ice-blue #A8CADB accents. Simple broad geometric forms and generous gaps, crisp silhouettes readable at 64 pixels; fine industrial detailing only where essential. Soft upper-left studio lighting and a small contact shadow. Premium machined model aesthetic, not plastic toy, not emoji. No people, hands, text, letters, numbers, logo, watermark, ribbons, decorative particles. Subject: Two distinct insulated pouch formats standing side by side: one flat silver foil pouch and one deep-navy gusseted carry bag, clearly representing choosing a packaging format.",
+      "size": "1024x1024",
+      "quality": "medium",
+      "model": "gpt-image-2"
+    },
+    {
+      "out": "process-specify.png",
+      "prompt": "Use case: stylized-concept. Asset type: one bespoke process icon for YUANEN, a premium insulated cold-chain packaging manufacturer serving Europe and North America. Create a precise understated isometric 3D pictogram, not a photo. Single centered compact object group filling 76% of the canvas. Orthographic view from slightly above, front-right face visible. Solid pure white background edge to edge, no border, no circle, no pedestal. Matte deep navy #123553 body, brushed silver details, restrained desaturated ice-blue #A8CADB accents. Simple broad geometric forms and generous gaps, crisp silhouettes readable at 64 pixels; fine industrial detailing only where essential. Soft upper-left studio lighting and a small contact shadow. Premium machined model aesthetic, not plastic toy, not emoji. No people, hands, text, letters, numbers, logo, watermark, ribbons, decorative particles. Subject: One dark-navy L-shaped drafting square framing a simple rectangular silver pouch outline and a short silver measuring caliper. Represents dimensions and specification. Absolutely no ruler numerals or text.",
+      "size": "1024x1024",
+      "quality": "medium",
+      "model": "gpt-image-2"
+    },
+    {
+      "out": "process-sample.png",
+      "prompt": "Use case: stylized-concept. Asset type: one bespoke process icon for YUANEN, a premium insulated cold-chain packaging manufacturer serving Europe and North America. Create a precise understated isometric 3D pictogram, not a photo. Single centered compact object group filling 76% of the canvas. Orthographic view from slightly above, front-right face visible. Solid pure white background edge to edge, no border, no circle, no pedestal. Matte deep navy #123553 body, brushed silver details, restrained desaturated ice-blue #A8CADB accents. Simple broad geometric forms and generous gaps, crisp silhouettes readable at 64 pixels; fine industrial detailing only where essential. Soft upper-left studio lighting and a small contact shadow. Premium machined model aesthetic, not plastic toy, not emoji. No people, hands, text, letters, numbers, logo, watermark, ribbons, decorative particles. Subject: One small upright silver foil pouch sample with a folded edge next to one compact navy approval tile bearing a single ice-blue checkmark. Represents reviewing a physical sample. No other markings.",
+      "size": "1024x1024",
+      "quality": "medium",
+      "model": "gpt-image-2"
+    },
+    {
+      "out": "process-produce.png",
+      "prompt": "Use case: stylized-concept. Asset type: one bespoke process icon for YUANEN, a premium insulated cold-chain packaging manufacturer serving Europe and North America. Create a precise understated isometric 3D pictogram, not a photo. Single centered compact object group filling 76% of the canvas. Orthographic view from slightly above, front-right face visible. Solid pure white background edge to edge, no border, no circle, no pedestal. Matte deep navy #123553 body, brushed silver details, restrained desaturated ice-blue #A8CADB accents. Simple broad geometric forms and generous gaps, crisp silhouettes readable at 64 pixels; fine industrial detailing only where essential. Soft upper-left studio lighting and a small contact shadow. Premium machined model aesthetic, not plastic toy, not emoji. No people, hands, text, letters, numbers, logo, watermark, ribbons, decorative particles. Subject: One simplified compact navy packaging converting machine with a single silver material roll feeding a short flat sheet through two rollers. Clearly machinery, not a printer. No printed symbols.",
+      "size": "1024x1024",
+      "quality": "medium",
+      "model": "gpt-image-2"
+    },
+    {
+      "out": "process-dispatch.png",
+      "prompt": "Use case: stylized-concept. Asset type: one bespoke process icon for YUANEN, a premium insulated cold-chain packaging manufacturer serving Europe and North America. Create a precise understated isometric 3D pictogram, not a photo. Single centered compact object group filling 76% of the canvas. Orthographic view from slightly above, front-right face visible. Solid pure white background edge to edge, no border, no circle, no pedestal. Matte deep navy #123553 body, brushed silver details, restrained desaturated ice-blue #A8CADB accents. Simple broad geometric forms and generous gaps, crisp silhouettes readable at 64 pixels; fine industrial detailing only where essential. Soft upper-left studio lighting and a small contact shadow. Premium machined model aesthetic, not plastic toy, not emoji. No people, hands, text, letters, numbers, logo, watermark, ribbons, decorative particles. Subject: One navy open shipping carton with two neatly packed silver pouches visible and two folded flaps. A minimal small upward-right ice-blue arrow next to the carton indicates dispatch.",
+      "size": "1024x1024",
+      "quality": "medium",
+      "model": "gpt-image-2"
+    },
+    {
+      "out": "process-support.png",
+      "prompt": "Use case: stylized-concept. Asset type: one bespoke process icon for YUANEN, a premium insulated cold-chain packaging manufacturer serving Europe and North America. Create a precise understated isometric 3D pictogram, not a photo. Single centered compact object group filling 76% of the canvas. Orthographic view from slightly above, front-right face visible. Solid pure white background edge to edge, no border, no circle, no pedestal. Matte deep navy #123553 body, brushed silver details, restrained desaturated ice-blue #A8CADB accents. Simple broad geometric forms and generous gaps, crisp silhouettes readable at 64 pixels; fine industrial detailing only where essential. Soft upper-left studio lighting and a small contact shadow. Premium machined model aesthetic, not plastic toy, not emoji. No people, hands, text, letters, numbers, logo, watermark, ribbons, decorative particles. Subject: One navy headset with silver ear cups wrapping around a small ice-blue speech bubble with three round dots. Represents after-sales support, no person or face.",
+      "size": "1024x1024",
+      "quality": "medium",
+      "model": "gpt-image-2"
+    },
+    {
+      "out": "guide-materials.png",
+      "prompt": "Use case: product-mockup. Asset type: editorial cover photograph for a cold-chain packaging material selection guide. An orderly close-up flat lay of separate material samples: lightly crinkled silver foil facing, white fine-cell EPE foam with clearly visible thickness, a swatch of deep-navy woven outer fabric, and a clean pale-blue translucent coolant pouch corner. Samples gently overlap on a matte warm-white studio table. Conceptual sampling arrangement, not a fixed certified layer stack. Restrained silver, navy, white and pale ice blue palette. Soft natural side light, realistic tactile surfaces, refined industrial editorial photography, subtle shadows. Wide landscape composition, all main samples grouped near the center so it also crops square. No hands, people, text, printed labels, arrows, measurements, logos, certification marks, watermark, fake test data. Do not render a webpage.",
+      "size": "1536x1024",
+      "quality": "medium",
+      "model": "gpt-image-2"
+    },
+    {
+      "out": "guide-specification.png",
+      "prompt": "Use case: product-mockup. Asset type: editorial cover photograph for a guide to specifying insulated packaging. One plain silver foil gusseted pouch standing open slightly with visible white foam edge, a simple brushed-metal caliper resting beside it, and a folded small deep-navy fabric swatch on a warm-white studio table. Conceptual specification scene. No numerals or tick marks on tools, no labels. Product and caliper centered as one coherent compact composition, wide landscape image also suitable for a vertical center crop. Photoreal industrial still life, soft side daylight, sharp material detail, restrained deep-navy silver white pale ice-blue colors. No hands, people, laptop, screen, laboratory claims, certificates, branding, logos, text, watermark. Do not render a webpage.",
+      "size": "1536x1024",
+      "quality": "medium",
+      "model": "gpt-image-2"
+    },
+    {
+      "out": "guide-order.png",
+      "prompt": "Use case: product-mockup. Asset type: editorial cover photo for an insulated packaging procurement checklist guide. Thoughtfully arranged plain navy clipboard carrying an unprinted white paper sheet, one sleek silver pen, one small silver insulated pouch sample and two navy and white material swatches, on a matte warm-white studio desk. A small plain open kraft shipping box partly visible behind. Conceptual order planning still life, authentic tactile textures, soft daylight, premium minimalist B2B industrial photography. Main objects centered together and separated clearly, wide landscape crop with quiet negative space, usable as a vertical center crop. No written words, pseudo-text, numbers, checklists printed on paper, logos, screens, people, hands, signatures, certificates or watermark. Do not render a website.",
+      "size": "1536x1024",
+      "quality": "medium",
+      "model": "gpt-image-2"
+    },
+    {
+      "out": "faq-support.png",
+      "prompt": "Use case: stylized-concept. Asset type: small editorial illustration beside manufacturer and product FAQ. A simple upright silver foil insulated pouch with a white foam edge, two modest navy material sample tiles, and two overlapping sculptural matte navy and ice-blue speech bubbles. One bubble has three raised silver dots; the other has a single raised silver question mark. Clean precise isometric 3D still life on a pure white background. A compact centered composition with generous white space, elegant industrial design, subdued silver navy and ice-blue palette, soft upper-left studio lighting, gentle contact shadow. Understated and professional, not a toy or emoji, no people, no certification symbols, no letters, words, logo or watermark. Not a screenshot or webpage.",
+      "size": "1536x1024",
+      "quality": "medium",
+      "model": "gpt-image-2"
+    }
+  ]
+}

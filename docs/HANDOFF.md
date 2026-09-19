@@ -1,4 +1,13 @@
-# 最新检查点：流程、指南与 FAQ 视觉优化（2026-09-19）
+# 最新检查点：生成采购区块专用视觉（2026-09-19）
+
+- 用户要求生成需要的 icon 和配图；起始 HEAD f2b1243b41bfc98cac5ea4a94a029cf65e5840e0，main 干净；沿用 Packy 生图及 GitHub/Vercel 发布授权。
+- Packy gpt-image-2 实际生成10张：6流程图标、3指南封面、1 FAQ 插图。全部接入 public/images/ui/packy，共385,568字节。完整提示词 docs/buyer-visual-prompts.json；来源/使用说明 docs/PRODUCT-IMAGERY.md。凭证仍只在用户环境变量 YUANEN_PACKY_IMAGE_KEY。
+- 保留真实工厂素材；指南新图标明 AI 场景示意，不添加未经确认的产品或商业事实。桌面检查10张全部加载、裁切合适；手机和部署证据见 .verification/buyer-visuals/release.json。
+- 本轮沿用三语、75 HTML、noindex 和询价草稿机制。发布时推送main，恢复时读取实际Git/Vercel状态。
+
+---
+
+# 历史检查点：流程、指南与 FAQ 视觉优化（2026-09-19）
 
 - 用户点名优化首页 From Specification to Delivery、Packaging Materials & Buying Guides、Manufacturer & Product FAQ。起始 HEAD c72a73e5781cfdaded2f3bd2c23fb5349373192c，main，工作区干净。
 - 新增 BuyerResources.tsx 和 buyer-resources.css：流程为工厂实景加六步说明；指南为重点文章加两篇辅助图文；FAQ 为带问题序号的原生单项展开面板，包含键盘焦点与联系入口。复用已上线的工厂/Packy素材，没有额外生图。产品内容与业务数据未变。
