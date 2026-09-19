@@ -1,4 +1,15 @@
-# 最新检查点：13款产品独立详情图重做（2026-09-19）
+# 最新检查点：Google Trends 产品标题优化（2026-09-19）
+
+- 用户要求根据Google Trends优化产品标题，增加热门相关词及长尾词。实际checkout main，起始fceff7f，干净；沿用网站修改及GitHub/Vercel发布授权。
+- 实际读取Google Trends四组（美国品类/长尾、英国品类、西班牙品类），过去12个月、所有类别、Web Search。美国insulated grocery bag with zipper +80%、insulated shopping bags +70%；西班牙bolsas termicas personalizadas +250%，均为相关查询Rising，不是本站增长或搜索量。详细口径、来源及排除词见 docs/PRODUCT-TITLE-RESEARCH-2026-09.md。
+- 查看3个Google采购查询，并打开Custom Earth Promos、bolsastermicas.es、IPC gel-packs核对采购意图。已登录个性化结果、有地区参数但物理位置中国，未声称当地排名。没有取得新的GSC查询表现；长尾低量/未测不冒称暴涨。
+- 13款中英西H1与39个独立搜索标题完成，新增Bag.seoTitle替代统一材质规格尾缀；schema随真实产品name同步。商超包和无纺布外卖袋描述补充定制采购意图。保留短卡片名称、URL、图片、MOQ和原技术限制，未加干冰/医药用途/保冷时长。完整前后名称及关键词簇：docs/product-keyword-map-2026-09.json。
+- 生产build/verify通过78 HTML；另逐项比对39个title/H1/Product.name与关键词映射全部一致。CUA检查西语长标题在桌面及390宽无溢出，所查控制台无错误。无新增收费工具、统计或自动监控。
+- 本轮推送main自动部署；最终提交、READY状态及正式三语标题核实保存在 .verification/title-seo-release.json。恢复时查询实际状态，不把本段发布计划当作上线证明。
+
+---
+
+# 历史检查点：13款产品独立详情图重做（2026-09-19）
 
 - 用户要求保留已认可的第一张白底主图，其他产品图全部用 Packy 重做，并参考 ipcpack.com 的产品展示。沿用已有 GitHub/Vercel 正式发布授权。
 - Packy 实际 gpt-image-2，以13款原始主图为参考，生成39张：每款 application / detail / structure 各一张。1536×1024 WebP共5,566,550字节，保存在 public/images/products/packy/details-v2。13张main.webp逐字节与本轮起始HEAD比较未变；旧目录图片不再进入这些产品的图集及Product schema。

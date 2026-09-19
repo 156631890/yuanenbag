@@ -5,9 +5,9 @@ export const yuanenProducts:Bag[] = [
   {
     "slug": "self-adhesive-foil-bags",
     "name": {
-      "en": "Self-adhesive foil insulated bags",
-      "zh": "带胶铝箔保温袋",
-      "es": "Bolsas térmicas de aluminio autoadhesivas"
+      "en": "Self-seal foil insulated bags for food delivery",
+      "zh": "外卖保温铝箔袋定制｜自粘封口款",
+      "es": "Bolsas térmicas de aluminio autoadhesivas para reparto"
     },
     "short": {
       "en": "Self-adhesive foil insulated bags",
@@ -75,14 +75,19 @@ export const yuanenProducts:Bag[] = [
       "en": "Start with adhesive flap overlap and usable opening width. Provide the packed product dimensions, quantity and destination. Confirm a sample and order-specific materials, closure and acceptance criteria before production.",
       "zh": "优先确认胶条搭接长度与可用开口宽度。同时提供内装物尺寸、采购数量与交货目的地，生产前通过样品确认订单对应的材质、封口与验收标准。",
       "es": "Empiece por: solape adhesivo y anchura útil de apertura. Indique medidas del contenido, cantidad y destino. Antes de producir, confirme la muestra, los materiales, el cierre y los criterios de aceptación del pedido."
+    },
+    "seoTitle": {
+      "en": "Self-Seal Foil Insulated Bags for Food Delivery | YUANEN",
+      "zh": "外卖铝箔保温袋定制・自粘封口 | 远恩",
+      "es": "Bolsas térmicas autoadhesivas para reparto | YUANEN"
     }
   },
   {
     "slug": "open-top-foil-bags",
     "name": {
-      "en": "Open-top foil insulated bags",
-      "zh": "平口铝箔保温袋",
-      "es": "Bolsas térmicas de aluminio de boca abierta"
+      "en": "Open-top foil insulated bags for seafood & takeaway",
+      "zh": "海鲜外卖铝箔保温袋｜平口无胶款",
+      "es": "Bolsas térmicas de aluminio para marisco y comida para llevar"
     },
     "short": {
       "en": "Open-top foil insulated bags",
@@ -149,14 +154,19 @@ export const yuanenProducts:Bag[] = [
       "en": "Start with closure method and clearance around trays. Provide the packed product dimensions, quantity and destination. Confirm a sample and order-specific materials, closure and acceptance criteria before production.",
       "zh": "优先确认封口方式与托盘周边余量。同时提供内装物尺寸、采购数量与交货目的地，生产前通过样品确认订单对应的材质、封口与验收标准。",
       "es": "Empiece por: método de cierre y holgura alrededor de bandejas. Indique medidas del contenido, cantidad y destino. Antes de producir, confirme la muestra, los materiales, el cierre y los criterios de aceptación del pedido."
+    },
+    "seoTitle": {
+      "en": "Open-Top Foil Insulated Bags for Seafood & Takeaway | YUANEN",
+      "zh": "海鲜外卖铝箔保温袋・平口款 | 远恩",
+      "es": "Bolsas térmicas de aluminio de boca abierta | YUANEN"
     }
   },
   {
     "slug": "hand-finished-gusseted-foil-bags",
     "name": {
-      "en": "Hand-finished gusseted foil bags",
-      "zh": "手工立体铝箔保温袋",
-      "es": "Bolsas térmicas de aluminio con base de acabado manual"
+      "en": "Gusseted foil insulated bags for meal boxes — hand-finished",
+      "zh": "盒饭外卖立体铝箔保温袋｜手工款",
+      "es": "Bolsas térmicas con base para comida — acabado manual"
     },
     "short": {
       "en": "Hand-finished gusseted foil bags",
@@ -221,14 +231,19 @@ export const yuanenProducts:Bag[] = [
       "en": "Start with bottom fold, joining method and loaded stability. Provide the packed product dimensions, quantity and destination. Confirm a sample and order-specific materials, closure and acceptance criteria before production.",
       "zh": "优先确认底部折叠、连接工艺与装载稳定性。同时提供内装物尺寸、采购数量与交货目的地，生产前通过样品确认订单对应的材质、封口与验收标准。",
       "es": "Empiece por: pliegue de base, unión y estabilidad con carga. Indique medidas del contenido, cantidad y destino. Antes de producir, confirme la muestra, los materiales, el cierre y los criterios de aceptación del pedido."
+    },
+    "seoTitle": {
+      "en": "Gusseted Foil Insulated Bags for Meal Boxes | YUANEN",
+      "zh": "盒饭外卖立体铝箔保温袋・手工款 | 远恩",
+      "es": "Bolsas térmicas con base para comida | YUANEN"
     }
   },
   {
     "slug": "machine-formed-gusseted-foil-bags",
     "name": {
-      "en": "Machine-formed gusseted foil bags",
-      "zh": "机械立体铝箔保温袋",
-      "es": "Bolsas térmicas de aluminio con base mecanizada"
+      "en": "Foil insulated grocery bags — machine-formed gusseted base",
+      "zh": "商超生鲜立体铝箔保温袋｜机械成型款",
+      "es": "Bolsas térmicas de aluminio para compra — base mecanizada"
     },
     "short": {
       "en": "Machine-formed gusseted foil bags",
@@ -293,14 +308,19 @@ export const yuanenProducts:Bag[] = [
       "en": "Start with base dimensions, seam positions and dimensional tolerance. Provide the packed product dimensions, quantity and destination. Confirm a sample and order-specific materials, closure and acceptance criteria before production.",
       "zh": "优先确认底部尺寸、封边位置与尺寸公差。同时提供内装物尺寸、采购数量与交货目的地，生产前通过样品确认订单对应的材质、封口与验收标准。",
       "es": "Empiece por: medidas de base, sellados y tolerancia dimensional. Indique medidas del contenido, cantidad y destino. Antes de producir, confirme la muestra, los materiales, el cierre y los criterios de aceptación del pedido."
+    },
+    "seoTitle": {
+      "en": "Foil Insulated Grocery Bags with Gusseted Base | YUANEN",
+      "zh": "商超生鲜铝箔保温袋・机械立体款 | 远恩",
+      "es": "Bolsas térmicas de aluminio para la compra | YUANEN"
     }
   },
   {
     "slug": "gusseted-foil-cake-bags",
     "name": {
-      "en": "Gusseted foil cake bags",
-      "zh": "立体铝箔蛋糕保温袋",
-      "es": "Bolsas térmicas de aluminio para tartas"
+      "en": "Foil insulated cake bags with gusseted base",
+      "zh": "蛋糕配送铝箔保温袋定制｜立体宽底款",
+      "es": "Bolsas térmicas de aluminio con base para tartas"
     },
     "short": {
       "en": "Gusseted foil cake bags",
@@ -365,14 +385,19 @@ export const yuanenProducts:Bag[] = [
       "en": "Start with cake-box footprint, total height and top clearance. Provide the packed product dimensions, quantity and destination. Confirm a sample and order-specific materials, closure and acceptance criteria before production.",
       "zh": "优先确认蛋糕盒底面积、总高度与顶部余量。同时提供内装物尺寸、采购数量与交货目的地，生产前通过样品确认订单对应的材质、封口与验收标准。",
       "es": "Empiece por: base de la caja, altura total y espacio superior. Indique medidas del contenido, cantidad y destino. Antes de producir, confirme la muestra, los materiales, el cierre y los criterios de aceptación del pedido."
+    },
+    "seoTitle": {
+      "en": "Foil Insulated Cake Bags for Bakery Delivery | YUANEN",
+      "zh": "蛋糕配送铝箔保温袋定制・立体款 | 远恩",
+      "es": "Bolsas térmicas de aluminio para tartas | YUANEN"
     }
   },
   {
     "slug": "water-fill-ice-packs",
     "name": {
-      "en": "Water-fill ice packs",
-      "zh": "注水冰袋",
-      "es": "Acumuladores de frío rellenables con agua"
+      "en": "Water-fill ice packs for shipping food",
+      "zh": "生鲜冷链运输注水冰袋｜现货与印刷定制",
+      "es": "Acumuladores de frío rellenables para envío de alimentos"
     },
     "short": {
       "en": "Water-fill ice packs",
@@ -434,14 +459,19 @@ export const yuanenProducts:Bag[] = [
       "en": "Start with fill volume, inlet closure and freezing procedure. Provide the packed product dimensions, quantity and destination. Choose an existing size and purchase stock samples to evaluate fit and use. Custom orders change printing only, with no size changes or digitally printed custom samples.",
       "zh": "优先确认注水量、进水口封闭与冻结方法。同时提供内装物尺寸、采购数量与交货目的地，选择现有尺寸，可购买现货样品评估适配和使用效果。专版只可定制印刷，不可改尺寸，也不提供数码打印定制样。",
       "es": "Empiece por: volumen de llenado, cierre y procedimiento de congelación. Indique medidas del contenido, cantidad y destino. Elija medidas existentes y compre muestras para evaluar ajuste y uso. Solo se personaliza la impresión, sin cambio de medidas ni muestras digitales personalizadas."
+    },
+    "seoTitle": {
+      "en": "Water-Fill Ice Packs for Shipping Food | YUANEN",
+      "zh": "生鲜冷链注水冰袋・现货与印刷定制 | 远恩",
+      "es": "Acumuladores rellenables para envío de alimentos | YUANEN"
     }
   },
   {
     "slug": "self-absorbing-ice-packs",
     "name": {
-      "en": "Self-absorbing ice packs",
-      "zh": "自吸冰袋",
-      "es": "Acumuladores de frío de absorción de agua"
+      "en": "Water-absorbing ice packs for seafood shipping",
+      "zh": "海鲜冷链运输自吸冰袋｜吸水蓄冷款",
+      "es": "Acumuladores de frío por absorción para envío de marisco"
     },
     "short": {
       "en": "Self-absorbing ice packs",
@@ -505,14 +535,19 @@ export const yuanenProducts:Bag[] = [
       "en": "Start with absorption time, expanded size and conditioning. Provide the packed product dimensions, quantity and destination. Choose an existing size and purchase stock samples to evaluate fit and use. Custom orders change printing only, with no size changes or digitally printed custom samples.",
       "zh": "优先确认吸水时间、膨胀后尺寸与预冷要求。同时提供内装物尺寸、采购数量与交货目的地，选择现有尺寸，可购买现货样品评估适配和使用效果。专版只可定制印刷，不可改尺寸，也不提供数码打印定制样。",
       "es": "Empiece por: tiempo de absorción, tamaño expandido y acondicionamiento. Indique medidas del contenido, cantidad y destino. Elija medidas existentes y compre muestras para evaluar ajuste y uso. Solo se personaliza la impresión, sin cambio de medidas ni muestras digitales personalizadas."
+    },
+    "seoTitle": {
+      "en": "Water-Absorbing Ice Packs for Seafood Shipping | YUANEN",
+      "zh": "海鲜冷链运输自吸冰袋・印刷定制 | 远恩",
+      "es": "Acumuladores por absorción para envío de marisco | YUANEN"
     }
   },
   {
     "slug": "segmented-ice-sheets",
     "name": {
-      "en": "Segmented self-absorbing ice sheets",
-      "zh": "自吸冰格",
-      "es": "Láminas de frío de absorción por celdas"
+      "en": "Flexible ice pack sheets for cold-chain packaging",
+      "zh": "冷链包装自吸冰格｜分格柔性冰袋",
+      "es": "Láminas refrigerantes flexibles para embalaje de cadena de frío"
     },
     "short": {
       "en": "Segmented self-absorbing ice sheets",
@@ -574,14 +609,19 @@ export const yuanenProducts:Bag[] = [
       "en": "Start with cell layout, approved cutting lines and packed placement. Provide the packed product dimensions, quantity and destination. Choose an existing size and purchase stock samples to evaluate fit and use. Custom orders change printing only, with no size changes or digitally printed custom samples.",
       "zh": "优先确认冰格布局、允许裁切线与装箱位置。同时提供内装物尺寸、采购数量与交货目的地，选择现有尺寸，可购买现货样品评估适配和使用效果。专版只可定制印刷，不可改尺寸，也不提供数码打印定制样。",
       "es": "Empiece por: distribución de celdas, líneas de corte y colocación. Indique medidas del contenido, cantidad y destino. Elija medidas existentes y compre muestras para evaluar ajuste y uso. Solo se personaliza la impresión, sin cambio de medidas ni muestras digitales personalizadas."
+    },
+    "seoTitle": {
+      "en": "Flexible Ice Pack Sheets for Cold-Chain Packaging | YUANEN",
+      "zh": "冷链包装自吸冰格・分格柔性冰袋 | 远恩",
+      "es": "Láminas refrigerantes flexibles para embalaje | YUANEN"
     }
   },
   {
     "slug": "self-seal-non-woven-delivery-bags",
     "name": {
-      "en": "Self-seal non-woven insulated totes",
-      "zh": "自粘封口无纺布保温外卖袋",
-      "es": "Bolsas térmicas no tejidas con cierre autoadhesivo"
+      "en": "Custom non-woven insulated food delivery bags — self-seal",
+      "zh": "无纺布外卖保温袋定制｜奶茶咖啡自粘手提袋",
+      "es": "Bolsas térmicas personalizadas para reparto — cierre adhesivo"
     },
     "short": {
       "en": "Self-seal non-woven insulated totes",
@@ -589,9 +629,9 @@ export const yuanenProducts:Bag[] = [
       "es": "Bolsas térmicas no tejidas con cierre autoadhesivo"
     },
     "intro": {
-      "en": "Laminated non-woven carry bags with a self-seal strip and bonded handles. The catalog shows tea, coffee and takeaway prints on the same format; develop artwork and handle colours around your brand.",
-      "zh": "覆膜无纺布手提结构，搭配自粘胶条与热压提手。目录展示奶茶、咖啡及餐饮印花，可按品牌开发图案与提手配色。",
-      "es": "Bolsas laminadas no tejidas con tira autoadhesiva y asas soldadas. El catálogo muestra diseños para té, café y comida; adapte impresión y color de asas a su marca."
+      "en": "Custom non-woven insulated food delivery bags with a self-seal strip and bonded handles for takeaway meals, tea and coffee. Choose stock-size printing or a fully custom order, with artwork and production terms confirmed before ordering.",
+      "zh": "自粘封口无纺布外卖保温袋，搭配热压提手，适用于餐食、奶茶与咖啡打包。可选择现有尺寸印刷或专版定制，下单前确认图稿及对应生产条件。",
+      "es": "Bolsas térmicas personalizadas para reparto de comida, té y café, con tejido no tejido, cierre adhesivo y asas termoselladas. Elija impresión en medidas existentes o fabricación a medida según las condiciones del pedido."
     },
     "material": {
       "en": "Laminated non-woven exterior + insulated lining; bonded handles",
@@ -652,14 +692,19 @@ export const yuanenProducts:Bag[] = [
       "en": "Start with cup or meal-box arrangement, handle reinforcement and closure. Choose one of the five stock sizes for screen or digital printing; these methods use digital artwork approval only. Fully custom production starts at 5,000 pcs and can include 1–2 paid digital-print samples; sample and bulk finishes may differ.",
       "zh": "先确认杯组或餐盒排列、提手加固与封口位置。现货丝印或数码彩印限五种现有尺寸，只确认电子效果图。专版定制 5,000 个起，可另付费做 1–2 个数码实物样，样品与大货效果可能有差异。",
       "es": "Defina disposición de vasos o envases, refuerzo de asas y cierre. Serigrafía e impresión digital usan cinco medidas existentes y solo aprobación del diseño digital. La producción exclusiva empieza en 5.000 unidades y admite 1–2 muestras digitales de pago; el acabado puede diferir del lote."
+    },
+    "seoTitle": {
+      "en": "Custom Non-Woven Insulated Food Delivery Bags | YUANEN",
+      "zh": "无纺布外卖保温袋定制・奶茶咖啡手提袋 | 远恩",
+      "es": "Bolsas térmicas personalizadas para reparto | YUANEN"
     }
   },
   {
     "slug": "square-zipper-cake-cooler",
     "name": {
-      "en": "Square zipper cake cooler",
-      "zh": "方形蛋糕拉链保温包",
-      "es": "Bolsa térmica cuadrada con cremallera para tartas"
+      "en": "Custom insulated cake delivery bags with zipper",
+      "zh": "蛋糕配送保温包定制｜方形拉链款",
+      "es": "Bolsas térmicas personalizadas para tartas con cremallera"
     },
     "short": {
       "en": "Square zipper cake cooler",
@@ -728,14 +773,19 @@ export const yuanenProducts:Bag[] = [
       "en": "Start with internal width and depth, zip opening and cake-box clearance. Provide the packed product dimensions, quantity and destination. Confirm a sample and order-specific materials, closure and acceptance criteria before production.",
       "zh": "优先确认内部宽深、拉链开口与蛋糕盒余量。同时提供内装物尺寸、采购数量与交货目的地，生产前通过样品确认订单对应的材质、封口与验收标准。",
       "es": "Empiece por: anchura y profundidad interiores, apertura y holgura de caja. Indique medidas del contenido, cantidad y destino. Antes de producir, confirme la muestra, los materiales, el cierre y los criterios de aceptación del pedido."
+    },
+    "seoTitle": {
+      "en": "Custom Insulated Cake Delivery Bags with Zipper | YUANEN",
+      "zh": "蛋糕配送保温包定制・方形拉链款 | 远恩",
+      "es": "Bolsas térmicas personalizadas para tartas | YUANEN"
     }
   },
   {
     "slug": "upright-dessert-cooler",
     "name": {
-      "en": "Upright dessert cooler tote",
-      "zh": "立式甜品保温手提包",
-      "es": "Bolsa térmica vertical para postres"
+      "en": "Custom cooler tote bags for desserts & drinks",
+      "zh": "甜品饮品保温手提包定制｜立式拉链款",
+      "es": "Bolsas térmicas personalizadas para postres y bebidas"
     },
     "short": {
       "en": "Upright dessert cooler tote",
@@ -803,14 +853,19 @@ export const yuanenProducts:Bag[] = [
       "en": "Start with upright container height, handle drop and artwork placement. Provide the packed product dimensions, quantity and destination. Confirm a sample and order-specific materials, closure and acceptance criteria before production.",
       "zh": "优先确认立式容器高度、提手高度与图案位置。同时提供内装物尺寸、采购数量与交货目的地，生产前通过样品确认订单对应的材质、封口与验收标准。",
       "es": "Empiece por: altura del envase, caída de asas y posición del diseño. Indique medidas del contenido, cantidad y destino. Antes de producir, confirme la muestra, los materiales, el cierre y los criterios de aceptación del pedido."
+    },
+    "seoTitle": {
+      "en": "Custom Cooler Tote Bags for Desserts & Drinks | YUANEN",
+      "zh": "甜品饮品保温手提包定制・立式款 | 远恩",
+      "es": "Bolsas térmicas para postres y bebidas | YUANEN"
     }
   },
   {
     "slug": "wide-base-meal-cooler",
     "name": {
-      "en": "Wide-base meal delivery cooler",
-      "zh": "宽底餐饮配送保温包",
-      "es": "Bolsa térmica de base ancha para comida"
+      "en": "Insulated food delivery bags with wide base & zipper",
+      "zh": "餐饮配送保温包定制｜宽底拉链外卖包",
+      "es": "Bolsas térmicas para reparto de comida con base ancha"
     },
     "short": {
       "en": "Wide-base meal delivery cooler",
@@ -878,14 +933,19 @@ export const yuanenProducts:Bag[] = [
       "en": "Start with meal-box layout, base support and handle balance. Provide the packed product dimensions, quantity and destination. Confirm a sample and order-specific materials, closure and acceptance criteria before production.",
       "zh": "优先确认餐盒排布、底部支撑与提手受力平衡。同时提供内装物尺寸、采购数量与交货目的地，生产前通过样品确认订单对应的材质、封口与验收标准。",
       "es": "Empiece por: distribución de envases, soporte de base y equilibrio de asas. Indique medidas del contenido, cantidad y destino. Antes de producir, confirme la muestra, los materiales, el cierre y los criterios de aceptación del pedido."
+    },
+    "seoTitle": {
+      "en": "Insulated Food Delivery Bags with Wide Base | YUANEN",
+      "zh": "餐饮配送保温包定制・宽底拉链款 | 远恩",
+      "es": "Bolsas térmicas para reparto con base ancha | YUANEN"
     }
   },
   {
     "slug": "upright-grocery-cooler",
     "name": {
-      "en": "Upright grocery cooler tote",
-      "zh": "立式商超保温购物包",
-      "es": "Bolsa térmica vertical para supermercado"
+      "en": "Custom insulated grocery bags with zipper",
+      "zh": "商超生鲜保温购物袋定制｜立式拉链款",
+      "es": "Bolsas térmicas personalizadas para la compra con cremallera"
     },
     "short": {
       "en": "Upright grocery cooler tote",
@@ -893,9 +953,9 @@ export const yuanenProducts:Bag[] = [
       "es": "Bolsa térmica vertical para supermercado"
     },
     "intro": {
-      "en": "A blue-and-gold upright cooler shown with packaged seafood. Review product placement, coolant separation and handle construction for your grocery or fresh-food packing project.",
-      "zh": "目录展示蓝金色立式保温包，搭配包装海鲜场景。商超与生鲜项目应一起核对商品摆放、冰源隔离与提手结构。",
-      "es": "Bolsa térmica vertical azul y dorada, mostrada con pescado envasado. Revise colocación del producto, separación del refrigerante y asas para supermercado o alimentos frescos."
+      "en": "Custom insulated grocery bags with a zipper, upright shape and carry handles for fresh-food and seafood packing. Specify logo printing and confirm product placement, coolant space and the finished sample before a bulk order.",
+      "zh": "立式拉链保温购物袋，适用于商超生鲜及包装海鲜。可按品牌沟通印刷，批量订购前确认商品摆放、冰源空间、提手结构与成品样品。",
+      "es": "Bolsas térmicas personalizadas para la compra, con cremallera, formato vertical y asas. Para alimentos frescos y marisco envasado: confirme impresión, espacio para refrigerantes y muestra antes del pedido al por mayor."
     },
     "material": {
       "en": "Non-woven exterior + EPE foam + foil lining; zip closure",
@@ -954,6 +1014,11 @@ export const yuanenProducts:Bag[] = [
       "en": "Start with product placement, coolant space and handle attachment. Provide the packed product dimensions, quantity and destination. Confirm a sample and order-specific materials, closure and acceptance criteria before production.",
       "zh": "优先确认商品摆放、冰源空间与提手连接。同时提供内装物尺寸、采购数量与交货目的地，生产前通过样品确认订单对应的材质、封口与验收标准。",
       "es": "Empiece por: colocación del producto, espacio de frío y fijación de asas. Indique medidas del contenido, cantidad y destino. Antes de producir, confirme la muestra, los materiales, el cierre y los criterios de aceptación del pedido."
+    },
+    "seoTitle": {
+      "en": "Custom Insulated Grocery Bags with Zipper | YUANEN",
+      "zh": "商超生鲜保温购物袋定制・拉链款 | 远恩",
+      "es": "Bolsas térmicas para la compra con cremallera | YUANEN"
     }
   }
 ]

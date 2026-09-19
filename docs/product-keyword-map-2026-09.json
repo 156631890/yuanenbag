@@ -1,0 +1,308 @@
+{
+  "date": "2026-09-19",
+  "products": [
+    {
+      "slug": "self-adhesive-foil-bags",
+      "previousName": {
+        "en": "Self-adhesive foil insulated bags",
+        "zh": "带胶铝箔保温袋",
+        "es": "Bolsas térmicas de aluminio autoadhesivas"
+      },
+      "name": {
+        "en": "Self-seal foil insulated bags for food delivery",
+        "zh": "外卖保温铝箔袋定制｜自粘封口款",
+        "es": "Bolsas térmicas de aluminio autoadhesivas para reparto"
+      },
+      "seoTitle": {
+        "en": "Self-Seal Foil Insulated Bags for Food Delivery | YUANEN",
+        "zh": "外卖铝箔保温袋定制・自粘封口 | 远恩",
+        "es": "Bolsas térmicas autoadhesivas para reparto | YUANEN"
+      },
+      "keywordCluster": [
+        "insulated bags",
+        "self-seal foil insulated bags",
+        "food delivery packaging"
+      ],
+      "evidence": "Google Trends category and related-query evidence plus existing product specifications; exact long-tail volume not established."
+    },
+    {
+      "slug": "open-top-foil-bags",
+      "previousName": {
+        "en": "Open-top foil insulated bags",
+        "zh": "平口铝箔保温袋",
+        "es": "Bolsas térmicas de aluminio de boca abierta"
+      },
+      "name": {
+        "en": "Open-top foil insulated bags for seafood & takeaway",
+        "zh": "海鲜外卖铝箔保温袋｜平口无胶款",
+        "es": "Bolsas térmicas de aluminio para marisco y comida para llevar"
+      },
+      "seoTitle": {
+        "en": "Open-Top Foil Insulated Bags for Seafood & Takeaway | YUANEN",
+        "zh": "海鲜外卖铝箔保温袋・平口款 | 远恩",
+        "es": "Bolsas térmicas de aluminio de boca abierta | YUANEN"
+      },
+      "keywordCluster": [
+        "open-top insulated bags",
+        "foil pouches for seafood",
+        "takeaway packaging"
+      ],
+      "evidence": "Google Trends category and related-query evidence plus existing product specifications; exact long-tail volume not established."
+    },
+    {
+      "slug": "hand-finished-gusseted-foil-bags",
+      "previousName": {
+        "en": "Hand-finished gusseted foil bags",
+        "zh": "手工立体铝箔保温袋",
+        "es": "Bolsas térmicas de aluminio con base de acabado manual"
+      },
+      "name": {
+        "en": "Gusseted foil insulated bags for meal boxes — hand-finished",
+        "zh": "盒饭外卖立体铝箔保温袋｜手工款",
+        "es": "Bolsas térmicas con base para comida — acabado manual"
+      },
+      "seoTitle": {
+        "en": "Gusseted Foil Insulated Bags for Meal Boxes | YUANEN",
+        "zh": "盒饭外卖立体铝箔保温袋・手工款 | 远恩",
+        "es": "Bolsas térmicas con base para comida | YUANEN"
+      },
+      "keywordCluster": [
+        "gusseted insulated bags",
+        "insulated bags for meal boxes"
+      ],
+      "evidence": "Google Trends category and related-query evidence plus existing product specifications; exact long-tail volume not established."
+    },
+    {
+      "slug": "machine-formed-gusseted-foil-bags",
+      "previousName": {
+        "en": "Machine-formed gusseted foil bags",
+        "zh": "机械立体铝箔保温袋",
+        "es": "Bolsas térmicas de aluminio con base mecanizada"
+      },
+      "name": {
+        "en": "Foil insulated grocery bags — machine-formed gusseted base",
+        "zh": "商超生鲜立体铝箔保温袋｜机械成型款",
+        "es": "Bolsas térmicas de aluminio para compra — base mecanizada"
+      },
+      "seoTitle": {
+        "en": "Foil Insulated Grocery Bags with Gusseted Base | YUANEN",
+        "zh": "商超生鲜铝箔保温袋・机械立体款 | 远恩",
+        "es": "Bolsas térmicas de aluminio para la compra | YUANEN"
+      },
+      "keywordCluster": [
+        "insulated grocery bags",
+        "gusseted foil grocery bags"
+      ],
+      "evidence": "Google Trends category and related-query evidence plus existing product specifications; exact long-tail volume not established."
+    },
+    {
+      "slug": "gusseted-foil-cake-bags",
+      "previousName": {
+        "en": "Gusseted foil cake bags",
+        "zh": "立体铝箔蛋糕保温袋",
+        "es": "Bolsas térmicas de aluminio para tartas"
+      },
+      "name": {
+        "en": "Foil insulated cake bags with gusseted base",
+        "zh": "蛋糕配送铝箔保温袋定制｜立体宽底款",
+        "es": "Bolsas térmicas de aluminio con base para tartas"
+      },
+      "seoTitle": {
+        "en": "Foil Insulated Cake Bags for Bakery Delivery | YUANEN",
+        "zh": "蛋糕配送铝箔保温袋定制・立体款 | 远恩",
+        "es": "Bolsas térmicas de aluminio para tartas | YUANEN"
+      },
+      "keywordCluster": [
+        "insulated cake bags",
+        "foil cake delivery bags"
+      ],
+      "evidence": "Google Trends category and related-query evidence plus existing product specifications; exact long-tail volume not established."
+    },
+    {
+      "slug": "water-fill-ice-packs",
+      "previousName": {
+        "en": "Water-fill ice packs",
+        "zh": "注水冰袋",
+        "es": "Acumuladores de frío rellenables con agua"
+      },
+      "name": {
+        "en": "Water-fill ice packs for shipping food",
+        "zh": "生鲜冷链运输注水冰袋｜现货与印刷定制",
+        "es": "Acumuladores de frío rellenables para envío de alimentos"
+      },
+      "seoTitle": {
+        "en": "Water-Fill Ice Packs for Shipping Food | YUANEN",
+        "zh": "生鲜冷链注水冰袋・现货与印刷定制 | 远恩",
+        "es": "Acumuladores rellenables para envío de alimentos | YUANEN"
+      },
+      "keywordCluster": [
+        "ice packs",
+        "water-fill ice packs for shipping food"
+      ],
+      "evidence": "Google Trends category and related-query evidence plus existing product specifications; exact long-tail volume not established."
+    },
+    {
+      "slug": "self-absorbing-ice-packs",
+      "previousName": {
+        "en": "Self-absorbing ice packs",
+        "zh": "自吸冰袋",
+        "es": "Acumuladores de frío de absorción de agua"
+      },
+      "name": {
+        "en": "Water-absorbing ice packs for seafood shipping",
+        "zh": "海鲜冷链运输自吸冰袋｜吸水蓄冷款",
+        "es": "Acumuladores de frío por absorción para envío de marisco"
+      },
+      "seoTitle": {
+        "en": "Water-Absorbing Ice Packs for Seafood Shipping | YUANEN",
+        "zh": "海鲜冷链运输自吸冰袋・印刷定制 | 远恩",
+        "es": "Acumuladores por absorción para envío de marisco | YUANEN"
+      },
+      "keywordCluster": [
+        "ice packs for shipping",
+        "water-absorbing ice packs for seafood"
+      ],
+      "evidence": "Google Trends category and related-query evidence plus existing product specifications; exact long-tail volume not established."
+    },
+    {
+      "slug": "segmented-ice-sheets",
+      "previousName": {
+        "en": "Segmented self-absorbing ice sheets",
+        "zh": "自吸冰格",
+        "es": "Láminas de frío de absorción por celdas"
+      },
+      "name": {
+        "en": "Flexible ice pack sheets for cold-chain packaging",
+        "zh": "冷链包装自吸冰格｜分格柔性冰袋",
+        "es": "Láminas refrigerantes flexibles para embalaje de cadena de frío"
+      },
+      "seoTitle": {
+        "en": "Flexible Ice Pack Sheets for Cold-Chain Packaging | YUANEN",
+        "zh": "冷链包装自吸冰格・分格柔性冰袋 | 远恩",
+        "es": "Láminas refrigerantes flexibles para embalaje | YUANEN"
+      },
+      "keywordCluster": [
+        "ice pack sheets",
+        "flexible ice sheets for cold-chain packaging"
+      ],
+      "evidence": "Google Trends category and related-query evidence plus existing product specifications; exact long-tail volume not established."
+    },
+    {
+      "slug": "self-seal-non-woven-delivery-bags",
+      "previousName": {
+        "en": "Self-seal non-woven insulated totes",
+        "zh": "自粘封口无纺布保温外卖袋",
+        "es": "Bolsas térmicas no tejidas con cierre autoadhesivo"
+      },
+      "name": {
+        "en": "Custom non-woven insulated food delivery bags — self-seal",
+        "zh": "无纺布外卖保温袋定制｜奶茶咖啡自粘手提袋",
+        "es": "Bolsas térmicas personalizadas para reparto — cierre adhesivo"
+      },
+      "seoTitle": {
+        "en": "Custom Non-Woven Insulated Food Delivery Bags | YUANEN",
+        "zh": "无纺布外卖保温袋定制・奶茶咖啡手提袋 | 远恩",
+        "es": "Bolsas térmicas personalizadas para reparto | YUANEN"
+      },
+      "keywordCluster": [
+        "insulated food delivery bags",
+        "custom non-woven insulated bags",
+        "bolsas termicas personalizadas"
+      ],
+      "evidence": "Google Trends category and related-query evidence plus existing product specifications; exact long-tail volume not established."
+    },
+    {
+      "slug": "square-zipper-cake-cooler",
+      "previousName": {
+        "en": "Square zipper cake cooler",
+        "zh": "方形蛋糕拉链保温包",
+        "es": "Bolsa térmica cuadrada con cremallera para tartas"
+      },
+      "name": {
+        "en": "Custom insulated cake delivery bags with zipper",
+        "zh": "蛋糕配送保温包定制｜方形拉链款",
+        "es": "Bolsas térmicas personalizadas para tartas con cremallera"
+      },
+      "seoTitle": {
+        "en": "Custom Insulated Cake Delivery Bags with Zipper | YUANEN",
+        "zh": "蛋糕配送保温包定制・方形拉链款 | 远恩",
+        "es": "Bolsas térmicas personalizadas para tartas | YUANEN"
+      },
+      "keywordCluster": [
+        "insulated cake delivery bags",
+        "cake cooler bags with zipper"
+      ],
+      "evidence": "Google Trends category and related-query evidence plus existing product specifications; exact long-tail volume not established."
+    },
+    {
+      "slug": "upright-dessert-cooler",
+      "previousName": {
+        "en": "Upright dessert cooler tote",
+        "zh": "立式甜品保温手提包",
+        "es": "Bolsa térmica vertical para postres"
+      },
+      "name": {
+        "en": "Custom cooler tote bags for desserts & drinks",
+        "zh": "甜品饮品保温手提包定制｜立式拉链款",
+        "es": "Bolsas térmicas personalizadas para postres y bebidas"
+      },
+      "seoTitle": {
+        "en": "Custom Cooler Tote Bags for Desserts & Drinks | YUANEN",
+        "zh": "甜品饮品保温手提包定制・立式款 | 远恩",
+        "es": "Bolsas térmicas para postres y bebidas | YUANEN"
+      },
+      "keywordCluster": [
+        "custom cooler tote bags",
+        "insulated dessert bags"
+      ],
+      "evidence": "Google Trends category and related-query evidence plus existing product specifications; exact long-tail volume not established."
+    },
+    {
+      "slug": "wide-base-meal-cooler",
+      "previousName": {
+        "en": "Wide-base meal delivery cooler",
+        "zh": "宽底餐饮配送保温包",
+        "es": "Bolsa térmica de base ancha para comida"
+      },
+      "name": {
+        "en": "Insulated food delivery bags with wide base & zipper",
+        "zh": "餐饮配送保温包定制｜宽底拉链外卖包",
+        "es": "Bolsas térmicas para reparto de comida con base ancha"
+      },
+      "seoTitle": {
+        "en": "Insulated Food Delivery Bags with Wide Base | YUANEN",
+        "zh": "餐饮配送保温包定制・宽底拉链款 | 远恩",
+        "es": "Bolsas térmicas para reparto con base ancha | YUANEN"
+      },
+      "keywordCluster": [
+        "insulated food delivery bags",
+        "wide-base meal delivery bags"
+      ],
+      "evidence": "Google Trends category and related-query evidence plus existing product specifications; exact long-tail volume not established."
+    },
+    {
+      "slug": "upright-grocery-cooler",
+      "previousName": {
+        "en": "Upright grocery cooler tote",
+        "zh": "立式商超保温购物包",
+        "es": "Bolsa térmica vertical para supermercado"
+      },
+      "name": {
+        "en": "Custom insulated grocery bags with zipper",
+        "zh": "商超生鲜保温购物袋定制｜立式拉链款",
+        "es": "Bolsas térmicas personalizadas para la compra con cremallera"
+      },
+      "seoTitle": {
+        "en": "Custom Insulated Grocery Bags with Zipper | YUANEN",
+        "zh": "商超生鲜保温购物袋定制・拉链款 | 远恩",
+        "es": "Bolsas térmicas para la compra con cremallera | YUANEN"
+      },
+      "keywordCluster": [
+        "insulated grocery bag with zipper",
+        "insulated shopping bags",
+        "custom cooler bags"
+      ],
+      "evidence": "Google Trends category and related-query evidence plus existing product specifications; exact long-tail volume not established."
+    }
+  ]
+}
