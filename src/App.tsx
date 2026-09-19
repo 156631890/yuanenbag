@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import { ArrowRight, ArrowUpRight, Check, ChevronDown, Globe2, MapPin, Menu, PackageCheck, Plus, Ruler, ShieldCheck, Snowflake, X } from 'lucide-react'
+import { ArrowRight, ArrowUpRight, Check, ChevronDown, Globe2, Layers3, MapPin, Menu, PackageCheck, Plus, Ruler, ShieldCheck, Snowflake, X } from 'lucide-react'
 import { bags, brand, faq, guides, locations, tx, languages, locales, type Bag, type Lang } from './data'
 import { href, resolveRoute } from './routes'
 import BagDrawing from './BagDrawing'
