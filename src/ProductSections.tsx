@@ -43,4 +43,3 @@ export default function ProductSections({bag,lang}:{bag:Bag;lang:Lang}){
  [t('Coolant information, where applicable','冰源资料（适用时）','Información del refrigerante, si corresponde'),t('Composition, handling and relevant safety documentation','成分、操作说明及相关安全文件','Composición, manipulación y documentación de seguridad')]].map(([title,body])=><div key={title}><FileText size={24}/><h3>{title}</h3><p>{body}</p><span>{t('Confirm for your order','按订单核对提供','Confirmar para su pedido')}</span></div>)}</div><a className="text-link" href={contact}>{t('Discuss your export requirements','沟通出口资料要求','Consultar requisitos de exportación')}<ArrowUpRight size={17}/></a></section>
  </div>
 }
-
