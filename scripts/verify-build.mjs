@@ -27,14 +27,16 @@ await collect(root)
 assert.equal(files.length,paths.length+notFoundPaths.length,'Expected every configured route and localized 404 document')
 const photoImport=JSON.parse(await readFile('docs/sample-photo-import-2026-09.json','utf8'))
 const icePhotoImport=JSON.parse(await readFile('docs/ice-photo-import-2026-09.json','utf8'))
-const photoSources=[...photoImport.files,...icePhotoImport.files]
-const addedGalleryCounts={'square-zipper-cake-cooler':6,'water-fill-ice-packs':4,'self-absorbing-ice-packs':5}
+const foilPhotoImport=JSON.parse(await readFile('docs/foil-photo-import-2026-09.json','utf8'))
+const photoSources=[...photoImport.files,...icePhotoImport.files,...foilPhotoImport.files]
+const addedGalleryCounts={'square-zipper-cake-cooler':6,'water-fill-ice-packs':4,'self-absorbing-ice-packs':5,'hand-finished-gusseted-foil-bags':3,'open-top-foil-bags':3}
 const photoProducts=catalogAudit.bags.filter(b=>b.collection==='yuanen-photos-2026')
 assert.equal(catalogAudit.bags.filter(b=>b.collection==='yuanen-2026').length,13,'Retain the original cold-chain catalog')
-assert.deepEqual(photoProducts.map(b=>b.slug).sort(),['compact-insulated-lunch-bags','double-film-self-absorbing-ice-packs','gold-trim-insulated-cake-bags','side-absorbing-ice-packs'])
+assert.deepEqual(photoProducts.map(b=>b.slug).sort(),['compact-insulated-lunch-bags','double-film-self-absorbing-ice-packs','foil-insulated-box-liners','gold-trim-insulated-cake-bags','gusseted-self-seal-foil-bags','side-absorbing-ice-packs'])
 assert(catalogAudit.bags.every(b=>['yuanen-2026','yuanen-photos-2026'].includes(b.collection)),'Unselected category published')
 assert.equal(photoImport.files.filter(f=>f.selected).length,20,'Expected curated sample photographs')
 assert.equal(icePhotoImport.files.filter(f=>f.selected).length,14,'Expected curated ice-pack photographs')
+assert.equal(foilPhotoImport.files.filter(f=>f.selected).length,8,'Expected curated foil-packaging photographs')
 assert.equal(new Set(catalogAudit.bags.map(b=>b.slug)).size,catalogAudit.bags.length,'Duplicate product slugs')
 const {commercialProfiles,stockSpecifications}=catalogAudit
 const commercialSources=JSON.parse(await readFile('docs/commercial-sources.json','utf8'))

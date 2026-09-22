@@ -1,7 +1,7 @@
 import { ArrowUpRight, Package, Layers3, Snowflake, Ruler, FileText, Clock3 } from 'lucide-react'
 import { tx, type Bag, type Lang } from './data'
 import { href } from './routes'
-import { imageUrl, productDetailImage, imageSize } from './product-media'
+import { imageUrl, productDetailImage, imageSize, isMeasurementPhoto } from './product-media'
 import { commercialProfile } from './commercial-data'
 import { OrderOptions, CommercialLeadTimes, StockSizes } from './CommercialDetails'
 import { DocumentationLink } from './Quality'
@@ -23,7 +23,8 @@ export default function ProductSections({bag,lang}:{bag:Bag;lang:Lang}){
  const contact=`${href('/contact/',lang)}?bag=${bag.slug}`
  const visual=(kind:'application'|'detail'|'structure',label:string)=>{
   const file=productDetailImage(bag.slug,kind)
-  return <figure className={`product-editorial-figure editorial-${kind}`}><img src={imageUrl(file)} alt={`${bag.short[lang]} — ${label}`} {...imageSize(file)} loading="lazy"/><figcaption><span>{label}</span><span>{file.startsWith('photos-2026-09/')?t('Sample photograph · confirm order specifications','样品实拍 · 订单规格另行确认','Fotografía de muestra · confirmar especificaciones'):t('AI product illustration · sample approval required','AI 产品示意 · 以确认样品为准','Ilustración con IA · confirmar con muestra')}</span></figcaption></figure>
+  if(isMeasurementPhoto(file)) label=t('Material sample measurement','材料样品测厚','Medición de muestra de material')
+  return <figure className={`product-editorial-figure editorial-${kind}`}><img src={imageUrl(file)} alt={`${bag.short[lang]} — ${label}`} {...imageSize(file)} loading="lazy"/><figcaption><span>{label}</span><span>{isMeasurementPhoto(file)?t('Material measurement reference · confirm ordered thickness','材料测厚参考 · 订单厚度另行确认','Medición de material · confirmar espesor del pedido'):file.startsWith('photos-2026-09/')?t('Sample photograph · confirm order specifications','样品实拍 · 订单规格另行确认','Fotografía de muestra · confirmar especificaciones'):t('AI product illustration · sample approval required','AI 产品示意 · 以确认样品为准','Ilustración con IA · confirmar con muestra')}</span></figcaption></figure>
  }
 
  return <div className="product-specification">

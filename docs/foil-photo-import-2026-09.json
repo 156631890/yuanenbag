@@ -1,0 +1,120 @@
+{
+  "date": "2026-09-22",
+  "source": "Owner-supplied foil-bag photography folder",
+  "processing": "EXIF orientation, proportional resize to maximum 1600px, WebP quality 86; metadata stripped; original transparency retained; no generative changes",
+  "files": [
+    {
+      "filename": "微信图片_20230529172335.jpg",
+      "sourceSha256": "a7c057a2b1082f212ecdfdcd7131897d845aca6e62801f18bcea0b37e1a3806f",
+      "sourceBytes": 2178564,
+      "width": 2500,
+      "height": 2500,
+      "selected": true,
+      "output": "photos-2026-09/gusseted-foil-open-interior.webp",
+      "outputSha256": "0f857c0a85e06e8e246b120b7a2e2660ce0844cab40ec76770a6ab3bd5d757cf",
+      "outputBytes": 204468,
+      "outputWidth": 1600,
+      "outputHeight": 1600
+    },
+    {
+      "filename": "微信图片_20230708132816.jpg",
+      "sourceSha256": "01fc86b3ef1fbdd341e30aebfc836b19ae0f86203f2db102e445f1b2776f0b9e",
+      "sourceBytes": 1079677,
+      "width": 3024,
+      "height": 4032,
+      "selected": true,
+      "output": "photos-2026-09/foil-material-measurement-a.webp",
+      "outputSha256": "c79cc9b13cc801b1796822c737fdb00764f8a46b18f463482b7d0efd3a4605a1",
+      "outputBytes": 126796,
+      "outputWidth": 1200,
+      "outputHeight": 1600
+    },
+    {
+      "filename": "微信图片_20230718132137.jpg",
+      "sourceSha256": "6f0378f826ef017e593de28437a167e8f73436cf481186b3e26094a1d235d79e",
+      "sourceBytes": 1531194,
+      "width": 3024,
+      "height": 4032,
+      "selected": true,
+      "output": "photos-2026-09/foil-material-measurement-b.webp",
+      "outputSha256": "72563289553b769046e4367b264f21d09af0f391888573c84e55743974d64037",
+      "outputBytes": 217186,
+      "outputWidth": 1200,
+      "outputHeight": 1600
+    },
+    {
+      "filename": "微信图片_20240813132905.jpg",
+      "sourceSha256": "23dc76e16525a6157d7eb3e75e094f85620aa59195fad6a0ff2321a6ab7166e4",
+      "sourceBytes": 6481497,
+      "width": 7360,
+      "height": 4912,
+      "selected": true,
+      "output": "photos-2026-09/flat-foil-bag-loading.webp",
+      "outputSha256": "4e6d375a07141c573f5ce4eefadd2128a2f6dcb9302a6202801648441e7394b5",
+      "outputBytes": 43212,
+      "outputWidth": 1600,
+      "outputHeight": 1068
+    },
+    {
+      "filename": "微信图片_20240813140142.jpg",
+      "sourceSha256": "a45ccc0bbcd0c5fb9f63e492550d716509e6791bfafaf7b7f4d86f58ccbb44e3",
+      "sourceBytes": 6908449,
+      "width": 7360,
+      "height": 4912,
+      "selected": true,
+      "output": "photos-2026-09/flat-foil-bag-standing.webp",
+      "outputSha256": "7f57266e64510918afde9506ee9297efc81b8c58f291af43f894d2a94a253f33",
+      "outputBytes": 104874,
+      "outputWidth": 1600,
+      "outputHeight": 1068
+    },
+    {
+      "filename": "微信图片_20240816162617.jpg",
+      "sourceSha256": "25e88a3bd37de2a591d22c3c5e6609b711c1a390e54ea4c55b5debd2bdefb228",
+      "sourceBytes": 6324838,
+      "width": 7360,
+      "height": 4912,
+      "selected": true,
+      "output": "photos-2026-09/foil-box-liner-insert.webp",
+      "outputSha256": "69ace9f5921ae2df626e29be5bd08ba0405c5d8e071dadd27767eddf15826d37",
+      "outputBytes": 66512,
+      "outputWidth": 1600,
+      "outputHeight": 1068
+    },
+    {
+      "filename": "微信图片_20240820151913.jpg",
+      "sourceSha256": "f7bf61b3bdb78ac638cb8e7014e6051b3ab8c28fe498331e1bc76c90495f2d2c",
+      "sourceBytes": 7528210,
+      "width": 7360,
+      "height": 4912,
+      "selected": false,
+      "reason": "Stacked item awaiting owner identification as finished pouches or separate sheets; retained in source folder."
+    },
+    {
+      "filename": "手工立体.JPG",
+      "sourceSha256": "68dd3e9c559e7819e90fc8572805e5c25d88914362f1f65322513e0f42c957a1",
+      "sourceBytes": 639806,
+      "width": 2592,
+      "height": 1728,
+      "selected": true,
+      "output": "photos-2026-09/handmade-foil-bag-shape.webp",
+      "outputSha256": "735a869071db687bbae9e3538939bca8a160ceee7fd07653d8f928c7171eed11",
+      "outputBytes": 138094,
+      "outputWidth": 1600,
+      "outputHeight": 1067
+    },
+    {
+      "filename": "立体带胶.jpg",
+      "sourceSha256": "f7c710786465c45d93dee194bf714a1a2421bbb490a8fa8077fe2870d012d387",
+      "sourceBytes": 287074,
+      "width": 800,
+      "height": 800,
+      "selected": true,
+      "output": "photos-2026-09/gusseted-self-seal-foil-main.webp",
+      "outputSha256": "d397e2338e52a68f60a2859fe6b79c3de9552e6e7805da6577114c207bc5ccdf",
+      "outputBytes": 41874,
+      "outputWidth": 800,
+      "outputHeight": 800
+    }
+  ]
+}
