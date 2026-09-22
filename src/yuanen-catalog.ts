@@ -953,7 +953,7 @@ export const yuanenProducts:Bag[] = [
       "es": "Bolsa térmica vertical para supermercado"
     },
     "intro": {
-      "en": "Custom insulated grocery bags with a zipper, upright shape and carry handles for fresh-food and seafood packing. Specify logo printing and confirm product placement, coolant space and the finished sample before a bulk order.",
+      "en": "Custom insulated grocery bags with a zipper, upright shape and carry handles for fresh-food and seafood packing. Specify logo printing and confirm product placement, coolant space and the finished sample before a bulk order. Please contact us to confirm the final specifications, pricing and delivery schedule.",
       "zh": "立式拉链保温购物袋，适用于商超生鲜及包装海鲜。可按品牌沟通印刷，批量订购前确认商品摆放、冰源空间、提手结构与成品样品。",
       "es": "Bolsas térmicas personalizadas para la compra, con cremallera, formato vertical y asas. Para alimentos frescos y marisco envasado: confirme impresión, espacio para refrigerantes y muestra antes del pedido al por mayor."
     },
