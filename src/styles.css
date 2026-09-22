@@ -21,3 +21,24 @@
 @media(max-width:1150px){.catalog-layout{grid-template-columns:190px minmax(0,1fr);gap:22px}.catalog-results .product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.catalog-filters{grid-template-columns:1fr 1fr}.catalog-search{grid-column:1/-1}.catalog-intro{grid-template-columns:1fr 240px;gap:30px}}
 @media(max-width:960px){.guide-grid{grid-template-columns:1fr}.catalog-intro{grid-template-columns:1fr}.catalog-guide{margin:0 0 28px;max-width:none}.catalog-intro .page-intro{margin-bottom:0}.catalog-intro{gap:22px}}
 @media(max-width:650px){.catalog-layout{grid-template-columns:1fr;gap:24px}.material-buttons{grid-template-columns:repeat(2,minmax(0,1fr));max-height:215px;overflow-y:auto;border-bottom:1px solid var(--line)}.material-buttons button{padding:10px 8px;font-size:11px;min-height:44px}.material-sidebar h2{font-size:16px;padding-bottom:12px}.catalog-filters{gap:12px}.catalog-results .product-grid{gap:12px}.catalog-results .bag-visual{height:170px}.catalog-results .bag-info{padding:13px 11px}.catalog-results .bag-info h3{font-size:14px}.material-label{font-size:8px}.product-reference{max-width:100%}.selection-details{padding:23px 20px}.selection-details>div{grid-template-columns:1fr;gap:5px}.reference-note{font-size:10px}.catalog-guide{padding:20px}.catalog-guide strong{font-size:20px}.material-index{padding-top:30px}}
+
+/* Crawlable range navigation and purchasing comparisons. */
+.seo-collection-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:28px 0 36px}
+.seo-collection-links a{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:20px 22px;border:1px solid #d7e0df;background:#f4f7f6;color:#163b3a;font-weight:600;line-height:1.5;text-decoration:none}
+.seo-collection-links a:hover{background:#e8f0ed;border-color:#789c8e}
+.seo-collection-links a:focus-visible{outline:2px solid #163b3a;outline-offset:3px}
+.seo-collection .answer-box{margin-bottom:42px;max-width:none}
+.seo-collection .answer-box h2{font-size:26px;margin:0 0 16px}
+.seo-collection .product-grid{margin-top:36px}
+.seo-comparison{width:100%;border-collapse:collapse;min-width:650px;font-size:15px;line-height:1.7}
+.seo-comparison th,.seo-comparison td{text-align:left;vertical-align:top;padding:18px;border-bottom:1px solid #d7e0df}
+.seo-comparison thead{background:#edf3f0}.seo-comparison thead th{color:#163b3a}
+.seo-comparison th{width:29%;font-weight:600}
+.seo-comparison a{text-underline-offset:4px}
+.seo-checks{padding-left:24px;max-width:920px;line-height:1.9}
+.seo-checks li{padding-left:8px;margin:18px 0}
+.seo-buying-links{padding:30px;background:#f3f6f4;margin:36px 0;border-left:3px solid #386455}
+.seo-buying-links h2{font-size:25px;margin:0 0 12px}
+.seo-buying-links p{line-height:1.8;max-width:850px}
+.seo-collection .related-links{margin:26px 0}
+@media(max-width:700px){.seo-collection-links{grid-template-columns:1fr;gap:8px}.seo-collection-links a{padding:16px 18px}.seo-buying-links{padding:22px 18px}.seo-buying-links h2,.seo-collection .answer-box h2{font-size:22px}}

@@ -35,11 +35,11 @@ export function ProcessSection({ lang }: Props) {
   </section>
 }
 
-const guidePhotos = ['guide-materials', 'guide-specification', 'guide-order']
+const guidePhotos:Record<string,string> = {'bag-material-comparison':'guide-materials','insulated-bag-materials':'guide-specification','custom-bag-order-checklist':'guide-order','ice-pack-selection':'guide-specification'}
 
 export function GuideCards({ lang }: Props) {
-  return <div className="buyer-guides">{guides.map((guide, i) => <a key={guide.slug} className={`buyer-guide ${i === 0 ? 'buyer-guide-featured' : ''}`} href={href(`/guides/${guide.slug}/`, lang)}>
-    <div className="buyer-guide-photo"><img src={asset(`ui/packy/${guidePhotos[i]}.webp`)} width="1200" height="800" loading="lazy" alt="" /><span>{tx('AI-assisted illustration', 'AI 场景示意', 'Ilustración asistida por IA')[lang]}</span></div>
+  return <div className="buyer-guides">{guides.map((guide, i) => <a key={guide.slug} className={`buyer-guide ${guides.length === 3 && i === 0 ? 'buyer-guide-featured' : ''}`} href={href(`/guides/${guide.slug}/`, lang)}>
+    <div className="buyer-guide-photo"><img src={asset(`ui/packy/${guidePhotos[guide.slug]}.webp`)} width="1200" height="800" loading="lazy" alt="" /><span>{tx('AI-assisted illustration', 'AI 场景示意', 'Ilustración asistida por IA')[lang]}</span></div>
     <div className="buyer-guide-copy">
       <span className="eyebrow">{guide.label[lang]}</span>
       <h3>{guide.title[lang]}</h3><p>{guide.summary[lang]}</p>

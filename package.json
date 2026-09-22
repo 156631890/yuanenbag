@@ -7,7 +7,7 @@
     "dev": "vite --host 127.0.0.1",
     "build": "tsc --noEmit && vite build && vite build --ssr src/entry-server.tsx --outDir .ssr && node scripts/prerender.mjs",
     "preview": "node scripts/serve.mjs",
-    "verify": "node scripts/verify-build.mjs",
+    "verify": "node scripts/verify-build.mjs && node scripts/verify-seo.mjs",
     "typecheck": "tsc --noEmit"
   },
   "repository": {
