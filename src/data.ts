@@ -1,5 +1,6 @@
 import { yuanenProducts } from './yuanen-catalog'
 import { photographedProducts } from './photographed-products'
+import { icePhotoProducts } from './ice-photo-products'
 import { spanish } from './es'
 import { extraBags, catalogDetails } from './catalog-data'
 export const languages = ['en', 'zh', 'es'] as const
@@ -26,7 +27,7 @@ const coreBags:Bag[] = [
  {slug:'ice-packs',name:tx('Ice packs for insulated packaging','保温包装配套冰袋'),short:tx('Ice packs','冰袋'),intro:tx('Coolant packs for use alongside insulated packaging. Select the pack format, fill specification and quantity for the actual product, route and required temperature range.','用于配套保温包装的蓄冷冰袋。需要根据产品、运输路线及目标温度范围，确认袋型、填充规格与用量。'),material:tx('Pack film and coolant formulation to confirm','袋膜与蓄冷内容物配方需确认'),use:tx('Cold-chain packing · Fresh food · Grocery','冷链包装 · 生鲜 · 商超'),group:'cold-chain',color:'#9cc9d0',type:'ice',considerations:[tx('Confirm pack dimensions, fill weight, seal integrity and handling instructions.','确认尺寸、填充重量、封口完整性及操作说明。'),tx('Plan conditioning and placement to avoid unsuitable direct contact with temperature-sensitive contents.','规划预冷和摆放方式，避免与温度敏感产品不适宜地直接接触。'),tx('Verify performance through shipment testing; do not infer a temperature range from colour or appearance.','通过运输测试确认性能，不依据颜色或外观推测温度范围。')],question:tx('How many ice packs should be used per shipment?','每箱需要配多少冰袋？'),answer:tx('The answer depends on product mass, starting temperature, insulation, transit duration and external conditions. Establish the amount through testing of the complete packed shipment.','用量取决于产品重量、初始温度、隔热包装、运输时长及外部条件，应通过完整运输包装测试确定。')},
 ]
 export const archivedBags:Bag[] = [...coreBags.map(b=>({...b,...catalogDetails[b.slug]})),...extraBags]
-export const bags:Bag[] = [...photographedProducts, ...yuanenProducts]
+export const bags:Bag[] = [...icePhotoProducts, ...photographedProducts, ...yuanenProducts]
 export const steps = [
  {title:tx('Choose your format','选择款式'),body:tx('Select the product family and share your intended use.','选择产品类型，说明实际用途。')},
  {title:tx('Define the details','沟通需求'),body:tx('Confirm size, material, quantity, artwork and delivery requirements.','确认尺寸、材质、数量、图稿和交货要求。')},

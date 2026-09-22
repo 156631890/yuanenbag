@@ -1,4 +1,5 @@
 import type { Bag, Text } from './data'
+import { icePhotoGalleries, iceSectionPhotos } from './ice-photo-products'
 
 const t = (en:string, zh:string, es:string):Text => ({en,zh,es})
 const file = (name:string) => `photos-2026-09/${name}.webp`
@@ -47,9 +48,11 @@ export const photographedProducts:Bag[] = [
 ]
 
 export const samplePhotoGalleries:Record<string,string[]> = {
+  ...icePhotoGalleries,
   'square-zipper-cake-cooler': ['mint-cake-bag-front','mint-cake-bag-application','mint-cake-bag-lining','mint-cake-bag-open','mint-cake-bag-handles','mint-cake-bag-carrying'].map(file),
 }
 export const sampleSectionPhotos:Record<string,Record<'application'|'detail'|'structure',string>> = {
+  ...iceSectionPhotos,
   'compact-insulated-lunch-bags':{application:file('compact-lunch-bag-carrying'),detail:file('compact-lunch-bag-handles'),structure:file('compact-lunch-bag-size-comparison')},
   'gold-trim-insulated-cake-bags':{application:file('gold-trim-cake-bag-loading'),detail:file('gold-trim-cake-bag-stitching'),structure:file('gold-trim-cake-bag-interior')},
   'square-zipper-cake-cooler':{application:file('mint-cake-bag-application'),detail:file('mint-cake-bag-lining'),structure:file('mint-cake-bag-open')},

@@ -1,0 +1,513 @@
+{
+  "date": "2026-09-22",
+  "source": "Owner-supplied ice-pack photography folder",
+  "processing": "EXIF orientation, proportional resize to maximum 1600px, WebP quality 86; metadata stripped; original transparency retained; no generative changes",
+  "files": [
+    {
+      "filename": "DSC07863.jpg",
+      "sourceSha256": "a3b5380e1c369ffcf51c25f528701be76afdc4208b9ab8c7e716025a15117e85",
+      "sourceBytes": 14891784,
+      "width": 4000,
+      "height": 6000,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07864.jpg",
+      "sourceSha256": "ac49f312fdad2df182255b7a88162874a7c2885382a52271659e0e730ce06e58",
+      "sourceBytes": 12367733,
+      "width": 4357,
+      "height": 4000,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07865.jpg",
+      "sourceSha256": "d9ab2dab4fb98e16f93f07e5013b37b51ce53b3d532a281d384dc309e155b3db",
+      "sourceBytes": 13269195,
+      "width": 5469,
+      "height": 4000,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07866.jpg",
+      "sourceSha256": "956530a0340d20415a4e1ba56d1df70b379dab059ad6ce499be720c9fa109fb8",
+      "sourceBytes": 13018319,
+      "width": 4657,
+      "height": 4000,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07867.jpg",
+      "sourceSha256": "8cc080abb0ec9d1e49e63981c42fa0c9a521c986979822f816f8f8be37f0b1eb",
+      "sourceBytes": 9286052,
+      "width": 4899,
+      "height": 4000,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07868.jpg",
+      "sourceSha256": "5441f449a9a3968c0ba347e534aa884b48dcbc8a2245d80dd8c13942312bc2dd",
+      "sourceBytes": 8397247,
+      "width": 6000,
+      "height": 4000,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07873.jpg",
+      "sourceSha256": "05900089354f05edf38736f50f81b40f3caccba978191782edc808704e5cf151",
+      "sourceBytes": 9039511,
+      "width": 6000,
+      "height": 4000,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07874.jpg",
+      "sourceSha256": "fc7c902a1341db1fd716797189ca8d96d1b6f785f558e773dddd58ef851dc6ec",
+      "sourceBytes": 10977991,
+      "width": 4754,
+      "height": 4000,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07876.jpg",
+      "sourceSha256": "f578cbaad69c5cc7441a5b2eeb5c70d1bd58889fa2141d896f73bc5ee560f019",
+      "sourceBytes": 6700278,
+      "width": 4986,
+      "height": 3744,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07879.jpg",
+      "sourceSha256": "0de598b0606da7ceea1d1328051b38cef55303a9284ce12112c839e1ae929bfd",
+      "sourceBytes": 12597651,
+      "width": 4807,
+      "height": 4000,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07881.jpg",
+      "sourceSha256": "e41693adc44cb05af12b299eaa7d867f9b62ed6f802b5fc70d2b79356565a5c5",
+      "sourceBytes": 11891449,
+      "width": 4324,
+      "height": 4000,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07883.jpg",
+      "sourceSha256": "47037b6f410e7128aa49d2c69d0ab08b186bbb7999e131d26acb6cbac646e080",
+      "sourceBytes": 9530508,
+      "width": 4106,
+      "height": 3662,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07884.jpg",
+      "sourceSha256": "cbb2ff2d36577f9dcf5f18ac93d195efa8d1892656ab5b9985bf460572fb45ea",
+      "sourceBytes": 7907713,
+      "width": 4000,
+      "height": 3899,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07885.jpg",
+      "sourceSha256": "14029fad7c2eef1f2a9b39381eaa0e1bc27b3338517aed4f08e74bf3989d1b95",
+      "sourceBytes": 8658285,
+      "width": 4415,
+      "height": 3975,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07889.JPG",
+      "sourceSha256": "a837f43806d6b6d8eb1b50a3555a3f847c4b4cdd3d8f99e7741107979e0cef79",
+      "sourceBytes": 9895936,
+      "width": 6000,
+      "height": 4000,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07890.jpg",
+      "sourceSha256": "03a8ec6878b0e33954a718d00c77dc90a6857fec22c0d5e76e63122fd85c7bc0",
+      "sourceBytes": 8356537,
+      "width": 3546,
+      "height": 3503,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07891.jpg",
+      "sourceSha256": "1b882fea9f99d0f75ce6683d3515c52b3674ea79fc02aaa9f61e99d84b7a6dc6",
+      "sourceBytes": 8500119,
+      "width": 3907,
+      "height": 3497,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07893.jpg",
+      "sourceSha256": "4c5a30533da46f2fb07fa24a93f64254a70cd6ee37fa2c1de5937c6f6436d62b",
+      "sourceBytes": 11558899,
+      "width": 4367,
+      "height": 4000,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07895.jpg",
+      "sourceSha256": "ed76bc4affa2fdcca7a4358003e2e1b0bf7c4aea3f6569bd304040131533b276",
+      "sourceBytes": 7728122,
+      "width": 3783,
+      "height": 3730,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07896.jpg",
+      "sourceSha256": "9d0cb364a495a5e4e555e1cc79b7fb65c12464a400f4b8e20a01ff5cdb8143ec",
+      "sourceBytes": 7481562,
+      "width": 4793,
+      "height": 3990,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07897.jpg",
+      "sourceSha256": "45617abe538a44a100285e020f2c7f2ca72434ff9fab5541a792a933431deda5",
+      "sourceBytes": 5193552,
+      "width": 4599,
+      "height": 3783,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07898.jpg",
+      "sourceSha256": "ec50ce47ae997288086d2a0c94693f1cbdafb14a69dbfd9680aeec8647b751a8",
+      "sourceBytes": 9220811,
+      "width": 4198,
+      "height": 3816,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07899.jpg",
+      "sourceSha256": "1d997bd828c934c1cbb0c954db0d1f07eddd65d4fe4fe20943518e34d17ad743",
+      "sourceBytes": 7401712,
+      "width": 3850,
+      "height": 3831,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07900.jpg",
+      "sourceSha256": "a1e5e939e4fea726e835d0f5754ab46baedd2fd923e0f07f304242b6c5b4ad53",
+      "sourceBytes": 7526675,
+      "width": 4734,
+      "height": 3734,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07901.jpg",
+      "sourceSha256": "4bb7a2b4544a2d09c90378daece3f4cbce649d1b204224078c960eb29fcdc7e4",
+      "sourceBytes": 5979091,
+      "width": 4000,
+      "height": 3855,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07902.jpg",
+      "sourceSha256": "c431a78082ac236b1e5ff5c1b54e1bab82300a1569bdb39bf3a223c877c50fbf",
+      "sourceBytes": 6325260,
+      "width": 3812,
+      "height": 3636,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07903.jpg",
+      "sourceSha256": "a673b8ce58614afe7191c9c18e89e88352c8b1e852a10e4fd183298293053783",
+      "sourceBytes": 8429855,
+      "width": 6000,
+      "height": 4000,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07904.jpg",
+      "sourceSha256": "9f478c7e902c1ccb1f63f01e9c6796ed1df55b665c1def13b580aa297b2ba91b",
+      "sourceBytes": 7350667,
+      "width": 4575,
+      "height": 3860,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07905.jpg",
+      "sourceSha256": "0c5fd8ab0d4657867c1eae684688ebb4a1143380b9b59366c6edf3276bafe79a",
+      "sourceBytes": 5497200,
+      "width": 4599,
+      "height": 3507,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07906.jpg",
+      "sourceSha256": "1407c838439bf88699e3720e64726575950fc6e2aa68f4b6b3ab732948b7d8a9",
+      "sourceBytes": 7036459,
+      "width": 4768,
+      "height": 3778,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07909.jpg",
+      "sourceSha256": "d7916ccac4dad74c7abbb7a1aa0a4078b651c344cd040e7b2a756f2bbe69dbf4",
+      "sourceBytes": 11062902,
+      "width": 4222,
+      "height": 4000,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07910.jpg",
+      "sourceSha256": "5f24923edaccbc587e5a0575f72bc56dd488b98692f045b4ade2e648ec6d2f93",
+      "sourceBytes": 11737170,
+      "width": 3889,
+      "height": 3903,
+      "selected": true,
+      "output": "photos-2026-09/absorbing-ice-pack-range.webp",
+      "outputSha256": "7bc21abaeeb682512090468b9a2dae7d52eb3c5c24b88e00788c5fff14b40acf",
+      "outputBytes": 531318,
+      "outputWidth": 1594,
+      "outputHeight": 1600
+    },
+    {
+      "filename": "DSC07911.jpg",
+      "sourceSha256": "68baef4b23606408487e43b71f6c620391b2f379c1a07bd8a535fff8e1603498",
+      "sourceBytes": 11293146,
+      "width": 3942,
+      "height": 4000,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07912.jpg",
+      "sourceSha256": "8c01d021b78917b8d120aa5cdd406659ed8efc5fab15edb8a2f1f3ba6940c26a",
+      "sourceBytes": 8119007,
+      "width": 3653,
+      "height": 4341,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07913.jpg",
+      "sourceSha256": "2530122a4fb49055267a3cf936f46dfabed7ba4c44ea216dc920d067e12e2dda",
+      "sourceBytes": 7365962,
+      "width": 3522,
+      "height": 3928,
+      "selected": true,
+      "output": "photos-2026-09/absorbing-ice-pack-front-back.webp",
+      "outputSha256": "1621b7a1b70a3ae87dfb521d6dc266adcdac7f450cabcdf03ed0f09c106fbe39",
+      "outputBytes": 250086,
+      "outputWidth": 1435,
+      "outputHeight": 1600
+    },
+    {
+      "filename": "DSC07914.jpg",
+      "sourceSha256": "161f1c979231ed9b6c955b874a245ce9ad4cae8a84ea83cb1d29649c96e7f793",
+      "sourceBytes": 10082008,
+      "width": 6000,
+      "height": 4000,
+      "selected": true,
+      "output": "photos-2026-09/absorbing-ice-pack-reverse.webp",
+      "outputSha256": "b009c32681a0a8ce218cae4236fe687a50abe49768b3bb4b6b7d49fc0417eecc",
+      "outputBytes": 116866,
+      "outputWidth": 1600,
+      "outputHeight": 1067
+    },
+    {
+      "filename": "DSC07915.jpg",
+      "sourceSha256": "9573d0bd81e322ef2f9f64fea61502bf929c5dbca50224d01485f859313ca5c5",
+      "sourceBytes": 9794251,
+      "width": 6000,
+      "height": 4000,
+      "selected": true,
+      "output": "photos-2026-09/absorbing-ice-pack-hand.webp",
+      "outputSha256": "54f2026318b6aa70c84cbdf1e0a646870f275be654d5c65cc32573261ed273ac",
+      "outputBytes": 111074,
+      "outputWidth": 1600,
+      "outputHeight": 1067
+    },
+    {
+      "filename": "DSC07918.jpg",
+      "sourceSha256": "5ac7f650546845a5eaa693fe5631c513ef8c63342dd02671f989116c81169286",
+      "sourceBytes": 7496624,
+      "width": 3928,
+      "height": 3827,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07919.jpg",
+      "sourceSha256": "b5c99e19da52141dcc51ba47a9771087e3aa3df3513b0a86557d61a1f87e37bb",
+      "sourceBytes": 10197870,
+      "width": 4000,
+      "height": 6000,
+      "selected": true,
+      "output": "photos-2026-09/water-fill-ice-pack-sizes.webp",
+      "outputSha256": "c6d37b9e85c213ca174227e06823e0fc59e4c37175a415316ed0625cc298649e",
+      "outputBytes": 125240,
+      "outputWidth": 1067,
+      "outputHeight": 1600
+    },
+    {
+      "filename": "DSC07920.jpg",
+      "sourceSha256": "a301f5a63d7e3fd2fcc5359d95b8b1f61b42eb6b9dd1464b3403877ec237b2be",
+      "sourceBytes": 8082835,
+      "width": 4000,
+      "height": 4377,
+      "selected": true,
+      "output": "photos-2026-09/water-fill-ice-pack-range.webp",
+      "outputSha256": "d7932ba8f3797b23609b59e32f50d8277fcca427e3492de7148739abf4acfd79",
+      "outputBytes": 177688,
+      "outputWidth": 1462,
+      "outputHeight": 1600
+    },
+    {
+      "filename": "DSC07922.jpg",
+      "sourceSha256": "abb09722e356e4257d7ac405045fa0ef8e5fe9b80ca9c8f43b1ba6e8338c0dc7",
+      "sourceBytes": 6318913,
+      "width": 3256,
+      "height": 3768,
+      "selected": true,
+      "output": "photos-2026-09/water-fill-ice-pack-closure.webp",
+      "outputSha256": "05c488a24dce50686bb2c4d04407ca5ab6a21c886faa6c0e1b4ce35277372e5d",
+      "outputBytes": 202130,
+      "outputWidth": 1383,
+      "outputHeight": 1600
+    },
+    {
+      "filename": "DSC07923.jpg",
+      "sourceSha256": "7c6e336463840bb4c725f5685fe5e3dc7b197aa8b4e5c48c4253b06d24af0f41",
+      "sourceBytes": 5471887,
+      "width": 3819,
+      "height": 3420,
+      "selected": true,
+      "output": "photos-2026-09/water-fill-ice-pack-stacked.webp",
+      "outputSha256": "7cc4533361e76fa5c83672781cd53114a14493888181f8ba5e2c68ad599dab13",
+      "outputBytes": 119456,
+      "outputWidth": 1600,
+      "outputHeight": 1433
+    },
+    {
+      "filename": "DSC07924.jpg",
+      "sourceSha256": "79a1c1e16bbe4a042a41a4a139cf815d18aaec9287a24abfb24fcefcef449d3f",
+      "sourceBytes": 8863817,
+      "width": 6000,
+      "height": 4000,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07925.jpg",
+      "sourceSha256": "2f99e51fe5e0a1c66dbc5af4a9ff053968e7c6ee871d3b9a6e36f06cfb104e61",
+      "sourceBytes": 6617311,
+      "width": 3551,
+      "height": 4667,
+      "selected": false,
+      "reason": "Repeated angle/background or exposed contents; retained in source folder rather than added as a duplicate product or unverified handling instruction."
+    },
+    {
+      "filename": "DSC07926.jpg",
+      "sourceSha256": "15ee2a438fe510c045bd2429a468dd7b13b1745c614b80218e8c7f8ca6e73200",
+      "sourceBytes": 6549192,
+      "width": 3647,
+      "height": 3722,
+      "selected": true,
+      "output": "photos-2026-09/absorbing-ice-pack-flat.webp",
+      "outputSha256": "564c08e43b53279a9318459a144b931e17d49703d1f5c81dfad2e729969c00ed",
+      "outputBytes": 192936,
+      "outputWidth": 1568,
+      "outputHeight": 1600
+    },
+    {
+      "filename": "双面侧吸.png",
+      "sourceSha256": "ec8e704376a28c41967b0fbed41e7ae167d8a8d011037db2b54cf1597ff4bf4c",
+      "sourceBytes": 24440935,
+      "width": 7360,
+      "height": 4912,
+      "selected": true,
+      "output": "photos-2026-09/side-absorbing-ice-pack-front.webp",
+      "outputSha256": "9c57af2a504bd7406c7270bcc42dead84393c2a3fad0c0198bc1abb41584903f",
+      "outputBytes": 140752,
+      "outputWidth": 1600,
+      "outputHeight": 1068
+    },
+    {
+      "filename": "双面侧吸背面.JPG",
+      "sourceSha256": "dbf046f94605af7010c6623b0eb82a8f367e20b1bd6eac8944415cc55aebe62a",
+      "sourceBytes": 24377946,
+      "width": 7360,
+      "height": 4912,
+      "selected": true,
+      "output": "photos-2026-09/side-absorbing-ice-pack-back.webp",
+      "outputSha256": "7f7c4d77475036866e86ca1995673c2bc235a36124a4b84ce532cae5fd059575",
+      "outputBytes": 24138,
+      "outputWidth": 1600,
+      "outputHeight": 1068
+    },
+    {
+      "filename": "双面侧吸背面2.png",
+      "sourceSha256": "6577672205c4e1d7f974bf7245b3d8e3c2def73f26ff9ade3a5b6ed0fa8fcad6",
+      "sourceBytes": 6243585,
+      "width": 4284,
+      "height": 5712,
+      "selected": true,
+      "output": "photos-2026-09/side-absorbing-ice-pack-seams.webp",
+      "outputSha256": "42771cee0e70028bdd5cc119578286c46e333dece275a8282f76c42b99c816ac",
+      "outputBytes": 46336,
+      "outputWidth": 1200,
+      "outputHeight": 1600
+    },
+    {
+      "filename": "双面自吸.png",
+      "sourceSha256": "19142eab824525d734aecf20520f8aecc101260521de009d871a2664a87d02ea",
+      "sourceBytes": 16237639,
+      "width": 7360,
+      "height": 4912,
+      "selected": true,
+      "output": "photos-2026-09/double-film-ice-pack-front.webp",
+      "outputSha256": "408eff9c27f727ad6f8e7c47aa8bea5b81ed94002590a15ef591f0c7e5ac5aac",
+      "outputBytes": 101524,
+      "outputWidth": 1600,
+      "outputHeight": 1068
+    },
+    {
+      "filename": "双面自吸2.JPG",
+      "sourceSha256": "5ecbd10f69f3a21fa4cbf5c419ed0ac90ccb48c2e6f61fd05ce89c6f23f7c3ea",
+      "sourceBytes": 22527187,
+      "width": 7360,
+      "height": 4912,
+      "selected": true,
+      "output": "photos-2026-09/double-film-ice-pack-back.webp",
+      "outputSha256": "3a0673b68b506945de9647d4fdfa9425f4656d1cd9a0868b8f357c46a50e2b9b",
+      "outputBytes": 73546,
+      "outputWidth": 1600,
+      "outputHeight": 1068
+    }
+  ]
+}
