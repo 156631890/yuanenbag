@@ -22,7 +22,7 @@ export default function ProductSections({bag,lang}:{bag:Bag;lang:Lang}){
  const contact=`${href('/contact/',lang)}?bag=${bag.slug}`
  const visual=(kind:'application'|'detail'|'structure',label:string)=>{
   const file=productDetailImage(bag.slug,kind)
-  return <figure className={`product-editorial-figure editorial-${kind}`}><img src={imageUrl(file)} alt={`${bag.short[lang]} — ${label}`} {...imageSize(file)} loading="lazy"/><figcaption><span>{label}</span><span>{t('AI product illustration · sample approval required','AI 产品示意 · 以确认样品为准','Ilustración con IA · confirmar con muestra')}</span></figcaption></figure>
+  return <figure className={`product-editorial-figure editorial-${kind}`}><img src={imageUrl(file)} alt={`${bag.short[lang]} — ${label}`} {...imageSize(file)} loading="lazy"/><figcaption><span>{label}</span><span>{file.startsWith('photos-2026-09/')?t('Sample photograph · confirm order specifications','样品实拍 · 订单规格另行确认','Fotografía de muestra · confirmar especificaciones'):t('AI product illustration · sample approval required','AI 产品示意 · 以确认样品为准','Ilustración con IA · confirmar con muestra')}</span></figcaption></figure>
  }
 
  return <div className="product-specification">

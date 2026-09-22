@@ -1,7 +1,8 @@
 import sizes from './product-image-sizes.json'
 import { tx, type Bag, type Lang } from './data'
+import { samplePhotoGalleries, sampleSectionPhotos } from './photographed-products'
 
-export type ProductImage = { file: string; kind: 'scene' | 'detail' | 'reference' | 'visualization' | 'application' | 'material' | 'structure' }
+export type ProductImage = { file: string; kind: 'photograph' | 'scene' | 'detail' | 'reference' | 'visualization' | 'application' | 'material' | 'structure' }
 // Accepted product visualizations go here after comparison with the catalog source.
 export const productPresentations: Record<string, string> = {
   "gusseted-foil-cake-bags": "packy/gusseted-foil-cake-bags-main.webp",
@@ -20,11 +21,13 @@ export const productPresentations: Record<string, string> = {
 }
 const detailImages = new Set(['404','405','407','446','449','450','451','495','496','497','498','534','538','539','540','541'])
 export function productImages(bag: Bag): ProductImage[] {
+  if (bag.collection==='yuanen-photos-2026') return [bag.image!,...(bag.gallery||[])].map(file=>({file,kind:'photograph'}))
   if (productPresentations[bag.slug]) return [
     {file: productPresentations[bag.slug], kind: 'visualization'},
-    {file: productDetailImage(bag.slug, 'application'), kind: 'application'},
-    {file: productDetailImage(bag.slug, 'detail'), kind: 'material'},
-    {file: productDetailImage(bag.slug, 'structure'), kind: 'structure'},
+    {file: `packy/details-v2/${bag.slug}-application-v2.webp`, kind: 'application'},
+    {file: `packy/details-v2/${bag.slug}-detail-v2.webp`, kind: 'material'},
+    {file: `packy/details-v2/${bag.slug}-structure-v2.webp`, kind: 'structure'},
+    ...(samplePhotoGalleries[bag.slug]||[]).map(file=>({file,kind:'photograph' as const})),
   ]
   const original = bag.image ? [bag.image, ...(bag.gallery || [])] : []
   const images: ProductImage[] = original.map(file => ({ file, kind: !bag.collection ? 'reference' : detailImages.has(file.split('/').pop()!.split('.')[0]) ? 'detail' : 'scene' }))
@@ -32,6 +35,7 @@ export function productImages(bag: Bag): ProductImage[] {
   return images
 }
 export function productDetailImage(slug: string, kind: 'application' | 'detail' | 'structure') {
+  if (sampleSectionPhotos[slug]) return sampleSectionPhotos[slug][kind]
   return `packy/details-v2/${slug}-${kind}-v2.webp`
 }
 export function imageSize(file: string) {
@@ -40,6 +44,7 @@ export function imageSize(file: string) {
 export const imageUrl = (file: string) => `${import.meta.env.BASE_URL}images/products/${file}`
 export function imageLabel(kind: ProductImage['kind'], lang: Lang) {
   return ({
+    photograph: tx('Sample photograph', '产品实拍', 'Fotografía de muestra'),
     scene: tx('Catalog scene', '目录场景', 'Escena de catálogo'),
     detail: tx('Construction reference', '结构参考', 'Referencia de construcción'),
     reference: tx('Design reference', '参考款', 'Diseño de referencia'),

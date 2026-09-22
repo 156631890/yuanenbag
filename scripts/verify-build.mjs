@@ -25,8 +25,12 @@ async function collect(dir) {
 }
 await collect(root)
 assert.equal(files.length,paths.length+notFoundPaths.length,'Expected every configured route and localized 404 document')
-assert.equal(catalogAudit.bags.length,13,'Publish only the selected insulated and cold-chain catalog')
-assert(catalogAudit.bags.every(b=>b.collection==='yuanen-2026'),'Unselected category published')
+const photoImport=JSON.parse(await readFile('docs/sample-photo-import-2026-09.json','utf8'))
+const photoProducts=catalogAudit.bags.filter(b=>b.collection==='yuanen-photos-2026')
+assert.equal(catalogAudit.bags.filter(b=>b.collection==='yuanen-2026').length,13,'Retain the original cold-chain catalog')
+assert.deepEqual(photoProducts.map(b=>b.slug).sort(),['compact-insulated-lunch-bags','gold-trim-insulated-cake-bags'])
+assert(catalogAudit.bags.every(b=>['yuanen-2026','yuanen-photos-2026'].includes(b.collection)),'Unselected category published')
+assert.equal(photoImport.files.filter(f=>f.selected).length,20,'Expected curated sample photographs')
 assert.equal(new Set(catalogAudit.bags.map(b=>b.slug)).size,catalogAudit.bags.length,'Duplicate product slugs')
 const {commercialProfiles,stockSpecifications}=catalogAudit
 const commercialSources=JSON.parse(await readFile('docs/commercial-sources.json','utf8'))
@@ -52,8 +56,8 @@ for (const [slug,profile] of Object.entries(commercialProfiles)) {
 }
 for (const bag of catalogAudit.bags) {
   if (bag.collection) {
-    assert.equal(bag.collection,'yuanen-2026')
-    assert(bag.catalogPage>=6 && bag.catalogPage<=10,`Missing catalog source: ${bag.slug}`)
+    if(bag.collection==='yuanen-2026') assert(bag.catalogPage>=6 && bag.catalogPage<=10,`Missing catalog source: ${bag.slug}`)
+    else for(const file of [bag.image,...bag.gallery]) assert(photoImport.files.some(f=>f.selected&&f.output===file),`Missing original photo provenance: ${file}`)
     assert(!bag.source,`Own catalog product cannot carry third-party reference attribution: ${bag.slug}`)
     for (const file of [bag.image,...bag.gallery]) await access(join(root,'images/products',file))
   }
@@ -81,10 +85,18 @@ for (const file of files) {
   if (ownProduct) {
     const product = JSON.parse(json)['@graph'].find(item=>item['@type']==='Product')
     assert(product,`Missing product schema: ${relative}`)
-    assert.equal(product.image.length,4,`Expected approved main plus three product-specific images: ${relative}`)
-    assert(product.image[0].endsWith(`/packy/${ownProduct.slug}-main.webp`),`Approved main image must stay first: ${relative}`)
-    for (const kind of ['application','detail','structure']) assert(product.image.some(url=>url.endsWith(`/packy/details-v2/${ownProduct.slug}-${kind}-v2.webp`)),`Missing product-specific ${kind}: ${relative}`)
-    for (const original of [ownProduct.image,...ownProduct.gallery]) assert(!html.includes(`/images/products/${original}`),`Rejected catalog image still displayed: ${relative}`)
+    if(ownProduct.collection==='yuanen-photos-2026') {
+      assert.equal(product.image.length,1+ownProduct.gallery.length,`Incomplete real photo gallery: ${relative}`)
+      assert(product.image[0].endsWith(ownProduct.image),`Incorrect real main photograph: ${relative}`)
+      for(const url of product.image) assert(photoImport.files.some(f=>f.selected&&url.endsWith(f.output)),`Unproven photograph: ${relative}`)
+      assert(!html.includes('AI product illustration')&&!html.includes('AI 产品示意')&&!html.includes('Ilustración con IA'),`Mislabelled real photos: ${relative}`)
+      for(const id of ['applications','materials','features','order-quantities','pricing','delivery','dimensions','export']) assert(html.includes(`id="${id}"`),`Missing buyer section ${id}: ${relative}`)
+    } else {
+      assert.equal(product.image.length,ownProduct.slug==='square-zipper-cake-cooler'?10:4,`Unexpected gallery image count: ${relative}`)
+      assert(product.image[0].endsWith(`/packy/${ownProduct.slug}-main.webp`),`Approved main image must stay first: ${relative}`)
+      for (const kind of ['application','detail','structure']) assert(product.image.some(url=>url.endsWith(`/packy/details-v2/${ownProduct.slug}-${kind}-v2.webp`)),`Missing product-specific ${kind}: ${relative}`)
+      for (const original of [ownProduct.image,...ownProduct.gallery]) assert(!html.includes(`/images/products/${original}`),`Rejected catalog image still displayed: ${relative}`)
+    }
     for (const image of product.image) { const imagePath=new URL(image).pathname; await access(join(root,imagePath)); assert(html.includes(imagePath),`Schema image absent from visible gallery: ${relative}`) }
     assert(!product.offers && !product.aggregateRating,`Unverified commercial claims: ${relative}`)
     const profile=commercialProfiles[ownProduct.slug]

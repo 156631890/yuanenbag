@@ -1,0 +1,672 @@
+{
+  "date": "2026-09-22",
+  "source": "Owner-supplied insulated-bag photography folder",
+  "processing": "EXIF orientation, proportional resize to maximum 1600px, WebP quality 86; metadata stripped; no generative edits, recolouring or shape changes",
+  "files": [
+    {
+      "filename": "DSC07841.jpg",
+      "sourceSha256": "22fda886eafa0b2893eb132180d5fa879a92403bb7dba38ffdee5ff2500ffec4",
+      "sourceBytes": 4381702,
+      "width": 3894,
+      "height": 3169,
+      "selected": true,
+      "output": "photos-2026-09/gold-trim-cake-bag-display.webp",
+      "outputSha256": "dab93e4b8acf2439d8dbeb5a57c471661090ab6d73ce49050be5a4840f9463b8",
+      "outputBytes": 96718,
+      "outputWidth": 1600,
+      "outputHeight": 1302
+    },
+    {
+      "filename": "DSC07842.jpg",
+      "sourceSha256": "2cd46c12263254cbdfff19698039e3203547b8d28d6e2ac9530b481532002473",
+      "sourceBytes": 4898241,
+      "width": 4221,
+      "height": 3323,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "DSC07844.jpg",
+      "sourceSha256": "5ae8ff0f2ad6856c5ccad77fc8a042a28717f96e2e27363f00d0842c8a291e95",
+      "sourceBytes": 5851499,
+      "width": 4038,
+      "height": 2995,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "DSC07846.jpg",
+      "sourceSha256": "a6dc788423133882e0afed84768adafea722e698b5f93e79673e3a97f9337ea2",
+      "sourceBytes": 6018567,
+      "width": 4013,
+      "height": 3475,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "DSC07847.jpg",
+      "sourceSha256": "f5631ac941287c8e387fefda4d5ae5282dd7c872faccc49aa2be9175dc81408b",
+      "sourceBytes": 5554475,
+      "width": 3868,
+      "height": 3255,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "DSC07848.jpg",
+      "sourceSha256": "0ab45f2a1422562beba6a2d11c24692b6680ec131de6b593133f4e9f06f22a9b",
+      "sourceBytes": 5436353,
+      "width": 3749,
+      "height": 3155,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "DSC07850.jpg",
+      "sourceSha256": "e2c7f0385f2d3b8feeff244454cebfe5fee93d515f7c3ea7ee5a34064cc87728",
+      "sourceBytes": 4598771,
+      "width": 3894,
+      "height": 3065,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "DSC07852.jpg",
+      "sourceSha256": "ba62b8f10183b83cad7252e785f11621b7b2d6d6b735aa082281f51029bb892b",
+      "sourceBytes": 5458059,
+      "width": 3956,
+      "height": 2995,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "DSC07853.jpg",
+      "sourceSha256": "b98e61883c9e7e41f6fd520e8dac8fe8125cafd1d8fbd8f7003cc629038310eb",
+      "sourceBytes": 5149075,
+      "width": 4005,
+      "height": 3253,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "DSC07856.jpg",
+      "sourceSha256": "b5a28eb5e2243a49f42680bccc256b409398c6bf0d34ddbb3e5c300767002c62",
+      "sourceBytes": 7948769,
+      "width": 4705,
+      "height": 4000,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "DSC07857.jpg",
+      "sourceSha256": "89e420e1a44123683139b06bf1a98d229183fc4a079d116fd00422ace595a654",
+      "sourceBytes": 6571592,
+      "width": 4087,
+      "height": 3546,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4350.JPG",
+      "sourceSha256": "58cc771ef77cb07a54559b8ca16c7d5928a8c8c46e487e44b1e1b22fc1f4929d",
+      "sourceBytes": 5060787,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4351.JPG",
+      "sourceSha256": "8d591376c768930d8da7fadf153fb76b1e63f31c7968ca3649db3f77d800b975",
+      "sourceBytes": 5068223,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4353-.jpg",
+      "sourceSha256": "e8e9a780c4ef1da1dde592ef3d2cb552481056037c37b009bbb08c998adc5592",
+      "sourceBytes": 8462159,
+      "width": 6240,
+      "height": 4160,
+      "selected": true,
+      "output": "photos-2026-09/mint-cake-bag-front.webp",
+      "outputSha256": "f541df9ad343228dbd0caf789ae9ebfcdf7ad57c6434e682d6b2ab03e743eb02",
+      "outputBytes": 63804,
+      "outputWidth": 1600,
+      "outputHeight": 1067
+    },
+    {
+      "filename": "IMG_4358.JPG",
+      "sourceSha256": "d71f5b6c27b591c593edc82734d69fdf23824cc34a61b6e3226e9f36bd95f162",
+      "sourceBytes": 5623266,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4359.JPG",
+      "sourceSha256": "3d1673efe884c0f8043368622055ff23e2a1e700343aa27a62fa1cdfd5343f72",
+      "sourceBytes": 6096999,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4360.JPG",
+      "sourceSha256": "96bfe5c33c980cabcadffcec857c59a2758f3da527705ed91a30171b9968d5f9",
+      "sourceBytes": 5440072,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4361.JPG",
+      "sourceSha256": "e0fa87170432b162406d6b71e4780d896d7308535d620f000011758891f42818",
+      "sourceBytes": 5285384,
+      "width": 6240,
+      "height": 4160,
+      "selected": true,
+      "output": "photos-2026-09/compact-lunch-bag-side.webp",
+      "outputSha256": "c717263c9fce4c920deefabdcc15a60de7b1b10a697c9294147a1a5634691834",
+      "outputBytes": 39148,
+      "outputWidth": 1600,
+      "outputHeight": 1067
+    },
+    {
+      "filename": "IMG_4362.JPG",
+      "sourceSha256": "2631ae3bda747f0ed270ca765dde881d9c1f550cdc039939816d54729c94700f",
+      "sourceBytes": 5312325,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4363.JPG",
+      "sourceSha256": "191ac25bb29f44dfe882c0b3aa651eb2fc64d0b6110fd59d9665302412b9e5dd",
+      "sourceBytes": 6104653,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4364.JPG",
+      "sourceSha256": "9138c0d00378cb87d0228b3b419269affbd616a7e4fd1a5584b19b8eb89148c9",
+      "sourceBytes": 5854722,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4368.JPG",
+      "sourceSha256": "dff823d279742ba16d92d87a94a741a529cb6f6a5ed27fc9f3eb5f2afc9466fa",
+      "sourceBytes": 6199209,
+      "width": 6240,
+      "height": 4160,
+      "selected": true,
+      "output": "photos-2026-09/compact-lunch-bag-size-comparison.webp",
+      "outputSha256": "49dbbddbe00481e16caf47dcd026eebbe31a796a8a688461057aa184d01038a6",
+      "outputBytes": 73180,
+      "outputWidth": 1600,
+      "outputHeight": 1067
+    },
+    {
+      "filename": "IMG_4372.JPG",
+      "sourceSha256": "75a18200f4fb0a8ddfe27e3759603a3423f9721eb0372a016d22c73cde165bdb",
+      "sourceBytes": 6186475,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4373.JPG",
+      "sourceSha256": "906fef685929022dcb8f0ef3092c23c0d0ab9345bbe0ff1aaa8d61d7f19d9729",
+      "sourceBytes": 6405399,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4378.JPG",
+      "sourceSha256": "a8628fbb3c4041b0fc0355778fff1af1e9e3accc354a54f34c6248472eeddf11",
+      "sourceBytes": 6309737,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4383.JPG",
+      "sourceSha256": "3d1a628e489535ac1a7155699ce3de7ad6367f6a98b8ff63f845e5908b76cad4",
+      "sourceBytes": 6721503,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4388.JPG",
+      "sourceSha256": "f46be1e4c974981a9f5112194c83e8c7e7b055f80fc4fb8bb8afa590bff2c6ee",
+      "sourceBytes": 6187179,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4389.JPG",
+      "sourceSha256": "2c05d68aaf2dfa658b634a5db3e6448ab3f7ccd665661aaf4f1445c59dac523f",
+      "sourceBytes": 5593479,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4392.jpg",
+      "sourceSha256": "0622ae9c11690ecea3f1de7f9625b106e3d0f6b4d848b77c06a71fabddec9f6d",
+      "sourceBytes": 11267380,
+      "width": 6240,
+      "height": 4160,
+      "selected": true,
+      "output": "photos-2026-09/gold-trim-cake-bag-stitching.webp",
+      "outputSha256": "982ba1f3313ee16324e14afb40f51b7eaa151ac1bdce503c0252b9ad60ce6720",
+      "outputBytes": 186464,
+      "outputWidth": 1600,
+      "outputHeight": 1067
+    },
+    {
+      "filename": "IMG_4394.JPG",
+      "sourceSha256": "eec99f216997351fe92edf3fb6bdfe4d905fd1f847477e3dcbcbd2afb31ea727",
+      "sourceBytes": 5228098,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4397.JPG",
+      "sourceSha256": "474094d3d76858163d8e86ee786fa5d6fd13ea71d33d8e43531da0f17dad406a",
+      "sourceBytes": 6107762,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4398.JPG",
+      "sourceSha256": "7f14df7131bdec58156929e26d36b10c77a8056b14a2d15f84c66d41a75f4069",
+      "sourceBytes": 5692934,
+      "width": 6240,
+      "height": 4160,
+      "selected": true,
+      "output": "photos-2026-09/mint-cake-bag-handles.webp",
+      "outputSha256": "b0076ee68bc1a181da5dbd0600d999dfa2403d9f93ebbced6a59d1bb2a288ee2",
+      "outputBytes": 68952,
+      "outputWidth": 1600,
+      "outputHeight": 1067
+    },
+    {
+      "filename": "IMG_4402.JPG",
+      "sourceSha256": "1f35743012c978d4476eb84c2c78925d55ae197488924cc075996de42caf6b07",
+      "sourceBytes": 6009907,
+      "width": 6240,
+      "height": 4160,
+      "selected": true,
+      "output": "photos-2026-09/mint-cake-bag-carrying.webp",
+      "outputSha256": "0ccde48de0042b5e984e2f668f2002e692da2786eb9dde36a3aaadc1ffaa8e5c",
+      "outputBytes": 82136,
+      "outputWidth": 1600,
+      "outputHeight": 1067
+    },
+    {
+      "filename": "IMG_4403.JPG",
+      "sourceSha256": "da60eb3311d4d8069aed52aac73d039c673e56f31cbd26b3ed09c71fa620af2a",
+      "sourceBytes": 5969520,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4407.JPG",
+      "sourceSha256": "87ed3d1d3098713477b18be756f68590586cffb2a9efbff4fe72ac25c178c5a8",
+      "sourceBytes": 5724565,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4408.JPG",
+      "sourceSha256": "d710fd85ef9054e7320bf71ed8d2986e91e0bea1cdf29f332e022c9debe384db",
+      "sourceBytes": 5673893,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4413.JPG",
+      "sourceSha256": "ea8d340a1a8edac4546987dc07a86bdc49b64a4ef02a8d3b96e614afcd62c18a",
+      "sourceBytes": 4585203,
+      "width": 6240,
+      "height": 4160,
+      "selected": true,
+      "output": "photos-2026-09/compact-lunch-bag-handles.webp",
+      "outputSha256": "86998102d52585c6533ceb08361acd4a53555413c353bfce2b7e5a7e1fb801f6",
+      "outputBytes": 47018,
+      "outputWidth": 1600,
+      "outputHeight": 1067
+    },
+    {
+      "filename": "IMG_4415.JPG",
+      "sourceSha256": "14e255c07a1312ca9934afb147e49f5089d3787f165b8cfb7ab35b937bd9b7cd",
+      "sourceBytes": 6748761,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4417.JPG",
+      "sourceSha256": "1a61ee64f02dcd60fea8c23bfb937cc95dcdbdaa21ccc73596c1f47abba9b857",
+      "sourceBytes": 6094363,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4423.JPG",
+      "sourceSha256": "7c1ec01ff2d67d394cd3cf50148572254a7a46fc6fb606d052581c63a9c19570",
+      "sourceBytes": 6195442,
+      "width": 6240,
+      "height": 4160,
+      "selected": true,
+      "output": "photos-2026-09/compact-lunch-bag-main.webp",
+      "outputSha256": "3e405ff514bd607cba07406c31f829e8092abe4832a84d96218a585c055048a7",
+      "outputBytes": 76582,
+      "outputWidth": 1600,
+      "outputHeight": 1067
+    },
+    {
+      "filename": "IMG_4424.JPG",
+      "sourceSha256": "fadfbe84f89d461782d13d3ec17987447f5fdcc0d8a94970938efcb2a9d3f48d",
+      "sourceBytes": 5592379,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4425.JPG",
+      "sourceSha256": "89587f64a1aae1fef02b16f96a6405e2ebd674a6c8c49b36f400101d9b42c7ee",
+      "sourceBytes": 5595453,
+      "width": 6240,
+      "height": 4160,
+      "selected": true,
+      "output": "photos-2026-09/compact-lunch-bag-front.webp",
+      "outputSha256": "17be1d87321eef4b3ce638452bf193ec08e6556dd2aac87c2f05fda591cacc2d",
+      "outputBytes": 63658,
+      "outputWidth": 1600,
+      "outputHeight": 1067
+    },
+    {
+      "filename": "IMG_4430.JPG",
+      "sourceSha256": "634c008e7019f6056776776b39b755cf27321aaf56b9d2c7ae88d0dbc164353b",
+      "sourceBytes": 5259098,
+      "width": 6240,
+      "height": 4160,
+      "selected": true,
+      "output": "photos-2026-09/compact-lunch-bag-carrying.webp",
+      "outputSha256": "19500e3a0f084010d9e42c1ac345dac096cf952f2366899aadb86248177eada8",
+      "outputBytes": 49092,
+      "outputWidth": 1600,
+      "outputHeight": 1067
+    },
+    {
+      "filename": "IMG_4434.JPG",
+      "sourceSha256": "683b6c44efe3c83fc2ad405482249a1fe3f736359116858047305be47832e4cc",
+      "sourceBytes": 5441661,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4435.JPG",
+      "sourceSha256": "a4407cf27f6dd92509eaf5d2fcb80d8d4dcaf4d7e7075b34099840ec59e7c429",
+      "sourceBytes": 7018381,
+      "width": 6240,
+      "height": 4160,
+      "selected": true,
+      "output": "photos-2026-09/mint-cake-bag-open.webp",
+      "outputSha256": "61833ee10b66a572cfead7955a661b58248be598d5c2944fafbf4f1cd7634e2e",
+      "outputBytes": 87946,
+      "outputWidth": 1600,
+      "outputHeight": 1067
+    },
+    {
+      "filename": "IMG_4436.JPG",
+      "sourceSha256": "35fb42181f4baed3686be8fe646910eab9bc0875b4b8acc8d2f90869207f8f7c",
+      "sourceBytes": 8857844,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4442.JPG",
+      "sourceSha256": "896590618783503e9c6e3e8f942fec97bc6d2bcda87efca7a1f05e592d7f0340",
+      "sourceBytes": 7152472,
+      "width": 6240,
+      "height": 4160,
+      "selected": true,
+      "output": "photos-2026-09/mint-cake-bag-lining.webp",
+      "outputSha256": "8d74afd3f333cba225a8f1c7aa1e18fdd47a09f0947927e52f3e89ef1ca4aa7e",
+      "outputBytes": 200006,
+      "outputWidth": 1600,
+      "outputHeight": 1067
+    },
+    {
+      "filename": "IMG_4443.JPG",
+      "sourceSha256": "c07d5fb7109794d5200e5fe1c1d1f31d318ea61c368f960f864a15cd710fc2ee",
+      "sourceBytes": 6762931,
+      "width": 6240,
+      "height": 4160,
+      "selected": true,
+      "output": "photos-2026-09/mint-cake-bag-application.webp",
+      "outputSha256": "ffe4ab96f89b01e44990fecf1a9ace509d407bc0326708c813d11243eebb0f29",
+      "outputBytes": 63114,
+      "outputWidth": 1600,
+      "outputHeight": 1067
+    },
+    {
+      "filename": "IMG_4444.JPG",
+      "sourceSha256": "d7bd0832e111a4efaba56e3dc51f40e5a5afff1637dae1375939dfa8e04e73d0",
+      "sourceBytes": 6928834,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4447.JPG",
+      "sourceSha256": "1e2a3ba286bcf2a22e1a958bd5f2adaa8e72147b398169c486545545ffeef112",
+      "sourceBytes": 6612535,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4450.JPG",
+      "sourceSha256": "0002b3ef1648f996f06decd5d63881c600b0caefbf3ea4080f738319f7d9d975",
+      "sourceBytes": 6406278,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4451.JPG",
+      "sourceSha256": "13b0259f3ba64cc0099b935d15b0b6aa88842f1fcca28a8ef5d00b39841aaa32",
+      "sourceBytes": 6218391,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4541.JPG",
+      "sourceSha256": "049b47e2f066592879d4222c646a41a04527cb1d2e0ee4d4a5f26e93886ffd17",
+      "sourceBytes": 6073632,
+      "width": 6240,
+      "height": 4160,
+      "selected": true,
+      "output": "photos-2026-09/gold-trim-cake-bag-range.webp",
+      "outputSha256": "0846ddde6de2595b51ac64ca5c7f6ac1b05942edb9723a5c3ecc93ce0461bd0d",
+      "outputBytes": 84362,
+      "outputWidth": 1600,
+      "outputHeight": 1067
+    },
+    {
+      "filename": "IMG_4560.JPG",
+      "sourceSha256": "3476560a6206a20a4427ee2030b72f82ce3ad51776f2a87a2bb3da01cb449afa",
+      "sourceBytes": 5566723,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4578.JPG",
+      "sourceSha256": "5889fae6fb9cf90da298d302cfab098e4c8497746e4417c7e343473bd97bc24a",
+      "sourceBytes": 6084068,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4648.JPG",
+      "sourceSha256": "515e19e021b580380cf14a11c9d962b2853b0c74a81c7bda52a29aa57bc04d02",
+      "sourceBytes": 5805455,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4654.JPG",
+      "sourceSha256": "b488aa500b19c03322746e36603fdc48e065f631101ae7bbb7d5452006833461",
+      "sourceBytes": 5433165,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4657.JPG",
+      "sourceSha256": "60ff27c6ab13318a6e19244d8722d00f4a7af83a8c3308a742dfc93f0f00f003",
+      "sourceBytes": 5935021,
+      "width": 6240,
+      "height": 4160,
+      "selected": true,
+      "output": "photos-2026-09/gold-trim-cake-bag-interior.webp",
+      "outputSha256": "37c0f7dd0a05b6d12b219446aea75302babf5f1e0fd746698ad8b2f6eac7bb3a",
+      "outputBytes": 104372,
+      "outputWidth": 1600,
+      "outputHeight": 1067
+    },
+    {
+      "filename": "IMG_4665.JPG",
+      "sourceSha256": "2c3ce7b1edd8b91cce80f402193635a8ac0250843469a73571533e7b0feed9a5",
+      "sourceBytes": 5975163,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4670.JPG",
+      "sourceSha256": "3726adab60ac5aed35a4a2dcf9db781d96d5ec6a98f45a16a99ccbbb4c4ecd46",
+      "sourceBytes": 6148900,
+      "width": 6240,
+      "height": 4160,
+      "selected": true,
+      "output": "photos-2026-09/gold-trim-cake-bag-loading.webp",
+      "outputSha256": "3bf90932c285f4bc9e001aba2aadec2c1d550552a9a5785a604593558e48faf8",
+      "outputBytes": 85106,
+      "outputWidth": 1600,
+      "outputHeight": 1067
+    },
+    {
+      "filename": "IMG_4677.JPG",
+      "sourceSha256": "3fa203db7224fb8c6929fcb0e940017e63deb1e64981cfaab4a6209d12f17133",
+      "sourceBytes": 5675721,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4679.JPG",
+      "sourceSha256": "490bc078f255e6c4f08adf49fa6c2fbb9a2bddc2b96e28b63d1c551ca5f211d2",
+      "sourceBytes": 5380636,
+      "width": 6240,
+      "height": 4160,
+      "selected": false,
+      "reason": "Alternate angle, repeated take or another sample format; retained in owner source folder, not published in this batch."
+    },
+    {
+      "filename": "IMG_4682.JPG",
+      "sourceSha256": "6b93ea71f0be13f1a70ddcbe72065b80919c73d060b3dec3c0b87a369c4ec5cb",
+      "sourceBytes": 5171352,
+      "width": 6240,
+      "height": 4160,
+      "selected": true,
+      "output": "photos-2026-09/gold-trim-cake-bag-zipper.webp",
+      "outputSha256": "2962ff589c526c9be1c71ec5841c1c5464d15091d797e8bdb0fcff654705e510",
+      "outputBytes": 101922,
+      "outputWidth": 1600,
+      "outputHeight": 1067
+    },
+    {
+      "filename": "IMG_4685.JPG",
+      "sourceSha256": "53c560dd3dfd7b14a3bdc4181723090322f74f4710ec7bd4f93efa9170802f84",
+      "sourceBytes": 5243496,
+      "width": 6240,
+      "height": 4160,
+      "selected": true,
+      "output": "photos-2026-09/gold-trim-cake-bag-main.webp",
+      "outputSha256": "ad94b992ab629bc97e3a8c07cb09220954917a607cbe0ab32a296f4b17c0f3f6",
+      "outputBytes": 73458,
+      "outputWidth": 1600,
+      "outputHeight": 1067
+    },
+    {
+      "filename": "IMG_4701.JPG",
+      "sourceSha256": "0202f4810961ee40a4fed95a59bde561c7ff877408b10305d0e1d98c504576d9",
+      "sourceBytes": 4984771,
+      "width": 6240,
+      "height": 4160,
+      "selected": true,
+      "output": "photos-2026-09/gold-trim-cake-bag-carrying.webp",
+      "outputSha256": "865fd19ffd405f5f5da2d2b2e4aefd6a0f72a39024bda121f960bbb54479b893",
+      "outputBytes": 71342,
+      "outputWidth": 1600,
+      "outputHeight": 1067
+    }
+  ]
+}
