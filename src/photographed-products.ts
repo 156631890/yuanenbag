@@ -51,6 +51,7 @@ export const photographedProducts:Bag[] = [
 const customCoolerFile = (name:string) => `custom-insulated-bags/${name}.jpg`
 const createCustomCooler = (slug:string, enColor:string, zhColor:string, esColor:string, image:string):Bag => ({
   slug,
+  collection:'yuanen-2026',
   name:t(`${enColor} insulated cooler bags with carry handles`,`${zhColor}保温包定制｜手提拉链款`,`Bolsas térmicas ${esColor} con asas`),
   seoTitle:t(`${enColor} Insulated Cooler Bags | YUANEN`,`${zhColor}保温包・手提拉链款 | 远恩`,`Bolsas térmicas ${esColor} | YUANEN`),
   short:t(`${enColor} cooler bags`,`${zhColor}保温包`,`Bolsas térmicas ${esColor}`),
@@ -69,7 +70,7 @@ const createCustomCooler = (slug:string, enColor:string, zhColor:string, esColor
 })
 
 export const additionalInsulatedBags:Bag[] = [
-  createCustomCooler('brown-insulated-cooler-bags','Brown','棕色','marrón','brown-insulated-cooler-bag'),
+  createCustomCooler('coffee-insulated-cooler-bags','Coffee','咖啡色','café','coffee-insulated-cooler-bag'),
   createCustomCooler('red-insulated-cooler-bags','Red','红色','rojo','red-insulated-cooler-bag'),
   createCustomCooler('pink-insulated-cooler-bags','Pink','粉色','rosa','pink-insulated-cooler-bag'),
   createCustomCooler('yellow-insulated-cooler-bags','Yellow','黄色','amarillo','yellow-insulated-cooler-bag'),
@@ -86,7 +87,7 @@ export const sampleSectionPhotos:Record<string,Record<'application'|'detail'|'st
   'compact-insulated-lunch-bags':{application:file('compact-lunch-bag-carrying'),detail:file('compact-lunch-bag-handles'),structure:file('compact-lunch-bag-size-comparison')},
   'gold-trim-insulated-cake-bags':{application:file('gold-trim-cake-bag-loading'),detail:file('gold-trim-cake-bag-stitching'),structure:file('gold-trim-cake-bag-interior')},
   'square-zipper-cake-cooler':{application:file('mint-cake-bag-application'),detail:file('mint-cake-bag-lining'),structure:file('mint-cake-bag-open')},
-  'brown-insulated-cooler-bags':{application:customCoolerFile('brown-insulated-cooler-bag'),detail:customCoolerFile('brown-insulated-cooler-bag'),structure:customCoolerFile('brown-insulated-cooler-bag')},
+  'coffee-insulated-cooler-bags':{application:customCoolerFile('coffee-insulated-cooler-bag'),detail:customCoolerFile('coffee-insulated-cooler-bag'),structure:customCoolerFile('coffee-insulated-cooler-bag')},
   'red-insulated-cooler-bags':{application:customCoolerFile('red-insulated-cooler-bag'),detail:customCoolerFile('red-insulated-cooler-bag'),structure:customCoolerFile('red-insulated-cooler-bag')},
   'pink-insulated-cooler-bags':{application:customCoolerFile('pink-insulated-cooler-bag'),detail:customCoolerFile('pink-insulated-cooler-bag'),structure:customCoolerFile('pink-insulated-cooler-bag')},
   'yellow-insulated-cooler-bags':{application:customCoolerFile('yellow-insulated-cooler-bag'),detail:customCoolerFile('yellow-insulated-cooler-bag'),structure:customCoolerFile('yellow-insulated-cooler-bag')},
