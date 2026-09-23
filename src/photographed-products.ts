@@ -74,7 +74,7 @@ export const additionalInsulatedBags:Bag[] = [
   createCustomCooler('coffee-insulated-cooler-bags','Coffee','咖啡色','café','coffee-insulated-cooler-bag'),
   createCustomCooler('red-insulated-cooler-bags','Red','红色','rojo','red-insulated-cooler-bag'),
   createCustomCooler('pink-insulated-cooler-bags','Pink','粉色','rosa','pink-insulated-cooler-bag',['pink-insulated-cooler-bag-meal','pink-insulated-cooler-bag-office','pink-insulated-cooler-bag-fresh-food','pink-insulated-cooler-bag-sandwich']),
-  createCustomCooler('yellow-insulated-cooler-bags','Yellow','黄色','amarillo','yellow-insulated-cooler-bag'),
+  createCustomCooler('yellow-insulated-cooler-bags','Yellow','黄色','amarillo','yellow-insulated-cooler-bag',['yellow-insulated-cooler-bag-meal','yellow-insulated-cooler-bag-grocery','yellow-insulated-cooler-bag-coffee','yellow-insulated-cooler-bag-bakery','yellow-insulated-cooler-bag-open']),
 ]
 
 export const samplePhotoGalleries:Record<string,string[]> = {
