@@ -27,7 +27,7 @@ const detailImages = new Set(['404','405','407','446','449','450','451','495','4
 export function productImages(bag: Bag): ProductImage[] {
   if (bag.slug==='double-film-self-absorbing-ice-packs') return [
     {file: productPresentations[bag.slug], kind: 'visualization'},
-    ...(bag.gallery||[]).map(sampleImage),
+    {file: 'packy/double-film-self-absorbing-ice-packs-secondary.png', kind: 'photograph'},
   ]
   if (bag.collection==='yuanen-photos-2026') return [bag.image!,...(bag.gallery||[])].map(sampleImage)
   if (bag.slug==='water-fill-ice-packs') return [
