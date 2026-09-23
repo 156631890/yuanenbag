@@ -75,7 +75,7 @@ export const additionalInsulatedBags:Bag[] = [
   createCustomCooler('red-insulated-cooler-bags','Red','红色','rojo','red-insulated-cooler-bag',['red-insulated-cooler-bag-meal','red-insulated-cooler-bag-bakery','red-insulated-cooler-bag-fresh-food','red-insulated-cooler-bag-drinks','red-insulated-cooler-bag-structure']),
   createCustomCooler('pink-insulated-cooler-bags','Pink','粉色','rosa','pink-insulated-cooler-bag',['pink-insulated-cooler-bag-meal','pink-insulated-cooler-bag-office','pink-insulated-cooler-bag-fresh-food','pink-insulated-cooler-bag-sandwich']),
   createCustomCooler('yellow-insulated-cooler-bags','Yellow','黄色','amarillo','yellow-insulated-cooler-bag',['yellow-insulated-cooler-bag-meal','yellow-insulated-cooler-bag-grocery','yellow-insulated-cooler-bag-coffee','yellow-insulated-cooler-bag-bakery','yellow-insulated-cooler-bag-open']),
-  createCustomCooler('lake-blue-insulated-cooler-bags','Lake Blue','湖蓝色','azul lago','lake-blue-insulated-cooler-bag'),
+  createCustomCooler('lake-blue-insulated-cooler-bags','Lake Blue','湖蓝色','azul lago','lake-blue-insulated-cooler-bag',['lake-blue-insulated-cooler-bag-produce','lake-blue-insulated-cooler-bag-meal-box','lake-blue-insulated-cooler-bag-snacks','lake-blue-insulated-cooler-bag-bakery']),
 ]
 
 export const samplePhotoGalleries:Record<string,string[]> = {
