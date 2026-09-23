@@ -19,7 +19,7 @@ export const productPresentations: Record<string, string> = {
   "square-zipper-cake-cooler": "packy/square-zipper-cake-cooler-main.webp",
   "upright-dessert-cooler": "packy/upright-dessert-cooler-main.webp",
   "upright-grocery-cooler": "packy/upright-grocery-cooler-main.webp",
-  "water-fill-ice-packs": "packy/water-fill-ice-packs-main.webp",
+  "water-fill-ice-packs": "packy/water-fill-ice-packs-main.png",
   "wide-base-meal-cooler": "packy/wide-base-meal-cooler-main.webp"
 }
 const detailImages = new Set(['404','405','407','446','449','450','451','495','496','497','498','534','538','539','540','541'])
