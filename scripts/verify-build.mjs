@@ -99,7 +99,7 @@ for (const file of files) {
       } else if (ownProduct.slug==='side-absorbing-ice-packs') {
         assert.equal(product.image.length,1+ownProduct.gallery.length,`Incomplete side-absorbing gallery: ${relative}`)
         assert(product.image[0].endsWith('/packy/side-absorbing-ice-packs-main.jpg'),`Incorrect side-absorbing main image: ${relative}`)
-        assert(product.image[1].endsWith(ownProduct.gallery[0]),`Incorrect side-absorbing second photograph: ${relative}`)
+        assert(product.image[1].endsWith('/packy/side-absorbing-ice-packs-secondary.png'),`Incorrect side-absorbing second image: ${relative}`)
         assert(product.image[2].endsWith(ownProduct.gallery[1]),`Incorrect side-absorbing third photograph: ${relative}`)
       } else {
       assert.equal(product.image.length,1+ownProduct.gallery.length,`Incomplete real photo gallery: ${relative}`)
