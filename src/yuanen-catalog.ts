@@ -470,12 +470,12 @@ export const yuanenProducts:Bag[] = [
     "slug": "self-absorbing-ice-packs",
     "name": {
       "en": "Water-absorbing ice packs for seafood shipping",
-      "zh": "海鲜冷链运输自吸冰袋｜吸水蓄冷款",
+      "zh": "海鲜冷链运输双面自吸冰袋｜吸水蓄冷款",
       "es": "Acumuladores de frío por absorción para envío de marisco"
     },
     "short": {
       "en": "Self-absorbing ice packs",
-      "zh": "自吸冰袋",
+      "zh": "双面自吸冰袋",
       "es": "Acumuladores de frío de absorción de agua"
     },
     "intro": {
