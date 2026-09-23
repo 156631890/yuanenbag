@@ -470,12 +470,12 @@ export const yuanenProducts:Bag[] = [
     "slug": "self-absorbing-ice-packs",
     "name": {
       "en": "Water-absorbing ice packs for seafood shipping",
-      "zh": "海鲜冷链运输自吸冰袋｜吸水蓄冷款",
+      "zh": "海鲜冷链运输双面自吸冰袋｜吸水蓄冷款",
       "es": "Acumuladores de frío por absorción para envío de marisco"
     },
     "short": {
       "en": "Self-absorbing ice packs",
-      "zh": "自吸冰袋",
+      "zh": "双面自吸冰袋",
       "es": "Acumuladores de frío de absorción de agua"
     },
     "intro": {
@@ -778,86 +778,6 @@ export const yuanenProducts:Bag[] = [
       "en": "Custom Insulated Cake Delivery Bags with Zipper | YUANEN",
       "zh": "蛋糕配送保温包定制・方形拉链款 | 远恩",
       "es": "Bolsas térmicas personalizadas para tartas | YUANEN"
-    }
-  },
-  {
-    "slug": "upright-dessert-cooler",
-    "name": {
-      "en": "Custom cooler tote bags for desserts & drinks",
-      "zh": "甜品饮品保温手提包定制｜立式拉链款",
-      "es": "Bolsas térmicas personalizadas para postres y bebidas"
-    },
-    "short": {
-      "en": "Upright dessert cooler tote",
-      "zh": "立式甜品保温手提包",
-      "es": "Bolsa térmica vertical para postres"
-    },
-    "intro": {
-      "en": "An upright handled cooler with a lemon print, shown in a bakery setting. The taller profile is a starting point for dessert and drink packaging; choose the handle drop and opening around the loading plan.",
-      "zh": "目录展示柠檬印花立式保温手提包，用于烘焙甜品场景。较高袋身可作为甜点与饮品选型起点，需结合装载方式选择提手高度与开口。",
-      "es": "Bolsa térmica vertical con estampado de limones, mostrada en una pastelería. El perfil alto permite estudiar envases de postres y bebidas; adapte asas y apertura a la carga."
-    },
-    "material": {
-      "en": "Non-woven exterior + EPE foam + foil lining; zip closure",
-      "zh": "无纺布外层 + 珍珠棉 + 铝箔内衬；拉链封口",
-      "es": "Exterior no tejido + espuma EPE + forro de aluminio; cremallera"
-    },
-    "use": {
-      "en": "Bakery · Meals · Grocery packing",
-      "zh": "烘焙 · 餐饮 · 商超包装",
-      "es": "Pastelería · Comidas · Supermercado"
-    },
-    "group": "delivery",
-    "color": "#163b5a",
-    "type": "cooler",
-    "category": "cooler",
-    "styles": [
-      "handle",
-      "zipper"
-    ],
-    "uses": [
-      "thermal"
-    ],
-    "image": "2026/535.webp",
-    "gallery": [
-      "2026/534.webp",
-      "2026/539.webp",
-      "2026/540.webp",
-      "2026/541.webp"
-    ],
-    "collection": "yuanen-2026",
-    "catalogPage": 10,
-    "considerations": [
-      {
-        "en": "Upright container height, handle drop and artwork placement",
-        "zh": "立式容器高度、提手高度与图案位置",
-        "es": "Altura del envase, caída de asas y posición del diseño"
-      },
-      {
-        "en": "Confirm finished dimensions, quantity and artwork before requesting the production quotation.",
-        "zh": "生产报价前确认成品尺寸、数量及印刷图稿。",
-        "es": "Confirme medidas, cantidad y diseño antes de solicitar cotización de producción."
-      },
-      {
-        "en": "Validate the complete packing system with the intended contents, route and temperature conditions.",
-        "zh": "使用实际内装物、运输路线和温度条件验证整套包装。",
-        "es": "Valide el embalaje completo con el contenido, la ruta y las temperaturas previstas."
-      }
-    ],
-    "question": {
-      "en": "What should I specify for upright dessert cooler tote?",
-      "zh": "立式甜品保温手提包询价时需要确认什么？",
-      "es": "¿Qué debo especificar para bolsa térmica vertical para postres?"
-    },
-    "answer": {
-      "en": "Start with upright container height, handle drop and artwork placement. Provide the packed product dimensions, quantity and destination. Confirm a sample and order-specific materials, closure and acceptance criteria before production.",
-      "zh": "优先确认立式容器高度、提手高度与图案位置。同时提供内装物尺寸、采购数量与交货目的地，生产前通过样品确认订单对应的材质、封口与验收标准。",
-      "es": "Empiece por: altura del envase, caída de asas y posición del diseño. Indique medidas del contenido, cantidad y destino. Antes de producir, confirme la muestra, los materiales, el cierre y los criterios de aceptación del pedido."
-    },
-    "seoTitle": {
-      "en": "Custom Cooler Tote Bags for Desserts & Drinks | YUANEN",
-      "zh": "甜品饮品保温手提包定制・立式款 | 远恩",
-      "es": "Bolsas térmicas para postres y bebidas | YUANEN"
     }
   },
   {

@@ -76,6 +76,9 @@ export const additionalInsulatedBags:Bag[] = [
   createCustomCooler('pink-insulated-cooler-bags','Pink','粉色','rosa','pink-insulated-cooler-bag',['pink-insulated-cooler-bag-meal','pink-insulated-cooler-bag-office','pink-insulated-cooler-bag-fresh-food','pink-insulated-cooler-bag-sandwich']),
   createCustomCooler('yellow-insulated-cooler-bags','Yellow','黄色','amarillo','yellow-insulated-cooler-bag',['yellow-insulated-cooler-bag-meal','yellow-insulated-cooler-bag-grocery','yellow-insulated-cooler-bag-coffee','yellow-insulated-cooler-bag-bakery','yellow-insulated-cooler-bag-open']),
   createCustomCooler('lake-blue-insulated-cooler-bags','Lake Blue','湖蓝色','azul lago','lake-blue-insulated-cooler-bag',['lake-blue-insulated-cooler-bag-produce','lake-blue-insulated-cooler-bag-meal-box','lake-blue-insulated-cooler-bag-snacks','lake-blue-insulated-cooler-bag-bakery']),
+  createCustomCooler('iridescent-orange-insulated-cooler-bags','Iridescent Orange','炫彩橙','naranja iridiscente','iridescent-orange-insulated-cooler-bag',['iridescent-orange-insulated-cooler-bag-meal','iridescent-orange-insulated-cooler-bag-fresh-food','iridescent-orange-insulated-cooler-bag-bakery','iridescent-orange-insulated-cooler-bag-snacks']),
+  createCustomCooler('iridescent-blue-insulated-cooler-bags','Iridescent Blue','炫彩蓝','azul iridiscente','iridescent-blue-insulated-cooler-bag',['iridescent-blue-insulated-cooler-bag-meal','iridescent-blue-insulated-cooler-bag-breakfast','iridescent-blue-insulated-cooler-bag-fresh-food','iridescent-blue-insulated-cooler-bag-bakery']),
+  createCustomCooler('iridescent-pink-insulated-cooler-bags','Iridescent Pink','炫彩粉','rosa iridiscente','iridescent-pink-insulated-cooler-bag',['iridescent-pink-insulated-cooler-bag-produce','iridescent-pink-insulated-cooler-bag-meal','iridescent-pink-insulated-cooler-bag-dessert','iridescent-pink-insulated-cooler-bag-salad']),
 ]
 
 export const samplePhotoGalleries:Record<string,string[]> = {

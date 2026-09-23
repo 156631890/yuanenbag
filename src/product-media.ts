@@ -18,7 +18,6 @@ export const productPresentations: Record<string, string> = {
   "self-adhesive-foil-bags": "packy/self-adhesive-foil-bags-main.webp",
   "self-seal-non-woven-delivery-bags": "packy/self-seal-non-woven-delivery-bags-main.webp",
   "square-zipper-cake-cooler": "packy/square-zipper-cake-cooler-main.webp",
-  "upright-dessert-cooler": "packy/upright-dessert-cooler-main.webp",
   "upright-grocery-cooler": "packy/upright-grocery-cooler-main.webp",
   "water-fill-ice-packs": "packy/water-fill-ice-packs-main.png",
   "wide-base-meal-cooler": "packy/wide-base-meal-cooler-main.webp"
