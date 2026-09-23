@@ -113,7 +113,7 @@ for (const file of files) {
     } else {
       const customInsulatedBag=ownProduct.slug.endsWith('-insulated-cooler-bags')
       if (customInsulatedBag) {
-        assert.equal(product.image.length,1,`Unexpected custom cooler gallery: ${relative}`)
+        assert.equal(product.image.length,1+ownProduct.gallery.length,`Unexpected custom cooler gallery: ${relative}`)
         assert(product.image[0].endsWith(`/images/products/${ownProduct.image}`),`Incorrect custom cooler main image: ${relative}`)
       } else {
       const segmentedIceSheets=ownProduct.slug==='segmented-ice-sheets'
