@@ -87,15 +87,22 @@ for (const file of files) {
   assert(json && JSON.parse(json)['@graph'].length>=3,`Missing schema graph: ${file}`)
   assert(html.includes('<main id="main">'),`Missing main content: ${file}`)
   const relative = file.slice(root.length).replaceAll('\\','/').replace(/index\.html$/,'')
-  const ownProduct = catalogAudit.bags.find(b=>b.collection && relative.endsWith(`/products/${b.slug}/`))
+    const ownProduct = catalogAudit.bags.find(b=>b.collection && relative.endsWith(`/products/${b.slug}/`))
   if (ownProduct) {
     const product = JSON.parse(json)['@graph'].find(item=>item['@type']==='Product')
     assert(product,`Missing product schema: ${relative}`)
     if(ownProduct.collection==='yuanen-photos-2026') {
+      if (ownProduct.slug==='double-film-self-absorbing-ice-packs') {
+        assert.equal(product.image.length,1+ownProduct.gallery.length,`Incomplete double-film gallery: ${relative}`)
+        assert(product.image[0].endsWith('/packy/double-film-self-absorbing-ice-packs-main.png'),`Incorrect double-film main image: ${relative}`)
+        for (const url of product.image.slice(1)) assert(photoSources.some(f=>f.selected&&url.endsWith(f.output)),`Unproven photograph: ${relative}`)
+        assert(!html.includes(`/images/products/${ownProduct.image}`),`Rejected catalog image still displayed: ${relative}`)
+      } else {
       assert.equal(product.image.length,1+ownProduct.gallery.length,`Incomplete real photo gallery: ${relative}`)
       assert(product.image[0].endsWith(ownProduct.image),`Incorrect real main photograph: ${relative}`)
       for(const url of product.image) assert(photoSources.some(f=>f.selected&&url.endsWith(f.output)),`Unproven photograph: ${relative}`)
       assert(!html.includes('AI product illustration')&&!html.includes('AI 产品示意')&&!html.includes('Ilustración con IA'),`Mislabelled real photos: ${relative}`)
+      }
       for(const id of ['applications','materials','features','order-quantities','pricing','delivery','dimensions','export']) assert(html.includes(`id="${id}"`),`Missing buyer section ${id}: ${relative}`)
     } else {
       const segmentedIceSheets=ownProduct.slug==='segmented-ice-sheets'
