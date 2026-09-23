@@ -52,6 +52,7 @@ const customCoolerFile = (name:string) => `custom-insulated-bags/${name}.jpg`
 const createCustomCooler = (slug:string, enColor:string, zhColor:string, esColor:string, image:string):Bag => ({
   slug,
   collection:'yuanen-2026',
+  catalogPage:10,
   name:t(`${enColor} insulated cooler bags with carry handles`,`${zhColor}保温包定制｜手提拉链款`,`Bolsas térmicas ${esColor} con asas`),
   seoTitle:t(`${enColor} Insulated Cooler Bags | YUANEN`,`${zhColor}保温包・手提拉链款 | 远恩`,`Bolsas térmicas ${esColor} | YUANEN`),
   short:t(`${enColor} cooler bags`,`${zhColor}保温包`,`Bolsas térmicas ${esColor}`),
