@@ -629,7 +629,7 @@ export const yuanenProducts:Bag[] = [
       "es": "Bolsas térmicas no tejidas con cierre autoadhesivo"
     },
     "intro": {
-      "en": "Custom non-woven insulated delivery bags with a convenient self-seal strip and bonded handles, designed for takeaway meals, tea and coffee. Choose printed stock sizes or a fully custom order, with artwork and production details confirmed before manufacturing.",
+      "en": "Custom non-woven insulated food delivery bags with a self-seal strip and bonded handles for takeaway meals, tea and coffee. Choose stock-size printing or a fully custom order, with artwork and production terms confirmed before ordering.",
       "zh": "自粘封口无纺布外卖保温袋，搭配热压提手，适用于餐食、奶茶与咖啡打包。可选择现有尺寸印刷或专版定制，下单前确认图稿及对应生产条件。",
       "es": "Bolsas térmicas personalizadas para reparto de comida, té y café, con tejido no tejido, cierre adhesivo y asas termoselladas. Elija impresión en medidas existentes o fabricación a medida según las condiciones del pedido."
     },
