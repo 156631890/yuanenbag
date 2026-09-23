@@ -93,9 +93,11 @@ for (const file of files) {
     assert(product,`Missing product schema: ${relative}`)
     if(ownProduct.collection==='yuanen-photos-2026') {
       if (ownProduct.slug==='double-film-self-absorbing-ice-packs') {
-        assert.equal(product.image.length,2,`Incomplete double-film gallery: ${relative}`)
+        assert.equal(product.image.length,4,`Incomplete double-film gallery: ${relative}`)
         assert(product.image[0].endsWith('/packy/double-film-self-absorbing-ice-packs-main.png'),`Incorrect double-film main image: ${relative}`)
         assert(product.image[1].endsWith('/packy/double-film-self-absorbing-ice-packs-secondary.png'),`Incorrect double-film secondary image: ${relative}`)
+        assert(product.image[2].endsWith('/packy/double-film-self-absorbing-ice-packs-product-display.jpg'),`Incorrect double-film display image: ${relative}`)
+        assert(product.image[3].endsWith('/packy/double-film-self-absorbing-ice-packs-cooler-application.jpg'),`Incorrect double-film application image: ${relative}`)
       } else if (ownProduct.slug==='side-absorbing-ice-packs') {
         assert.equal(product.image.length,1+ownProduct.gallery.length,`Incomplete side-absorbing gallery: ${relative}`)
         assert(product.image[0].endsWith('/packy/side-absorbing-ice-packs-main.jpg'),`Incorrect side-absorbing main image: ${relative}`)
