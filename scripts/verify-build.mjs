@@ -99,10 +99,12 @@ for (const file of files) {
       for(const id of ['applications','materials','features','order-quantities','pricing','delivery','dimensions','export']) assert(html.includes(`id="${id}"`),`Missing buyer section ${id}: ${relative}`)
     } else {
       const segmentedIceSheets=ownProduct.slug==='segmented-ice-sheets'
-      const expectedGalleryCount=4+(addedGalleryCounts[ownProduct.slug]||0)-(segmentedIceSheets?1:0)
-      const requiredVisualKinds=segmentedIceSheets?['application','detail']:['application','detail','structure']
+      const waterFillIcePacks=ownProduct.slug==='water-fill-ice-packs'
+      const expectedGalleryCount=4+(addedGalleryCounts[ownProduct.slug]||0)-(segmentedIceSheets?1:waterFillIcePacks?4:0)
+      const requiredVisualKinds=segmentedIceSheets?['application','detail']:waterFillIcePacks?[]:['application','detail','structure']
       assert.equal(product.image.length,expectedGalleryCount,`Unexpected gallery image count: ${relative}`)
-      assert(product.image[0].endsWith(`/packy/${ownProduct.slug}-main.webp`),`Approved main image must stay first: ${relative}`)
+      if (waterFillIcePacks) assert(product.image[0].endsWith('/images/products/photos-2026-09/water-fill-ice-pack-range.webp'),`Approved water-fill sample must stay first: ${relative}`)
+      else assert(product.image[0].endsWith(`/packy/${ownProduct.slug}-main.webp`),`Approved main image must stay first: ${relative}`)
       for (const kind of requiredVisualKinds) assert(product.image.some(url=>url.endsWith(`/packy/details-v2/${ownProduct.slug}-${kind}-v2.webp`)),`Missing product-specific ${kind}: ${relative}`)
       for (const original of [ownProduct.image,...ownProduct.gallery]) assert(!html.includes(`/images/products/${original}`),`Rejected catalog image still displayed: ${relative}`)
     }
