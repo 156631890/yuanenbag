@@ -47,6 +47,7 @@ export function productImages(bag: Bag): ProductImage[] {
     {file: productPresentations[bag.slug], kind: 'visualization'},
     {file: `packy/details-v2/${bag.slug}-application-v2.webp`, kind: 'application'},
     {file: `packy/details-v2/${bag.slug}-detail-v2.webp`, kind: 'material'},
+    {file: 'packy/segmented-ice-sheets-cooler-application.png', kind: 'application'},
   ]
   if (productPresentations[bag.slug]) return [
     {file: productPresentations[bag.slug], kind: 'visualization'},
