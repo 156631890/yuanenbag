@@ -75,6 +75,7 @@ export const additionalInsulatedBags:Bag[] = [
   createCustomCooler('red-insulated-cooler-bags','Red','红色','rojo','red-insulated-cooler-bag',['red-insulated-cooler-bag-meal','red-insulated-cooler-bag-bakery','red-insulated-cooler-bag-fresh-food','red-insulated-cooler-bag-drinks','red-insulated-cooler-bag-structure']),
   createCustomCooler('pink-insulated-cooler-bags','Pink','粉色','rosa','pink-insulated-cooler-bag',['pink-insulated-cooler-bag-meal','pink-insulated-cooler-bag-office','pink-insulated-cooler-bag-fresh-food','pink-insulated-cooler-bag-sandwich']),
   createCustomCooler('yellow-insulated-cooler-bags','Yellow','黄色','amarillo','yellow-insulated-cooler-bag',['yellow-insulated-cooler-bag-meal','yellow-insulated-cooler-bag-grocery','yellow-insulated-cooler-bag-coffee','yellow-insulated-cooler-bag-bakery','yellow-insulated-cooler-bag-open']),
+  createCustomCooler('lake-blue-insulated-cooler-bags','Lake Blue','湖蓝色','azul lago','lake-blue-insulated-cooler-bag'),
 ]
 
 export const samplePhotoGalleries:Record<string,string[]> = {
@@ -92,4 +93,5 @@ export const sampleSectionPhotos:Record<string,Record<'application'|'detail'|'st
   'red-insulated-cooler-bags':{application:customCoolerFile('red-insulated-cooler-bag'),detail:customCoolerFile('red-insulated-cooler-bag'),structure:customCoolerFile('red-insulated-cooler-bag')},
   'pink-insulated-cooler-bags':{application:customCoolerFile('pink-insulated-cooler-bag'),detail:customCoolerFile('pink-insulated-cooler-bag'),structure:customCoolerFile('pink-insulated-cooler-bag')},
   'yellow-insulated-cooler-bags':{application:customCoolerFile('yellow-insulated-cooler-bag'),detail:customCoolerFile('yellow-insulated-cooler-bag'),structure:customCoolerFile('yellow-insulated-cooler-bag')},
+  'lake-blue-insulated-cooler-bags':{application:customCoolerFile('lake-blue-insulated-cooler-bag'),detail:customCoolerFile('lake-blue-insulated-cooler-bag'),structure:customCoolerFile('lake-blue-insulated-cooler-bag')},
 }
