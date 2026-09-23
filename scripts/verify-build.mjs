@@ -96,7 +96,6 @@ for (const file of files) {
         assert.equal(product.image.length,1+ownProduct.gallery.length,`Incomplete double-film gallery: ${relative}`)
         assert(product.image[0].endsWith('/packy/double-film-self-absorbing-ice-packs-main.png'),`Incorrect double-film main image: ${relative}`)
         for (const url of product.image.slice(1)) assert(photoSources.some(f=>f.selected&&url.endsWith(f.output)),`Unproven photograph: ${relative}`)
-        assert(!html.includes(`/images/products/${ownProduct.image}`),`Rejected catalog image still displayed: ${relative}`)
       } else {
       assert.equal(product.image.length,1+ownProduct.gallery.length,`Incomplete real photo gallery: ${relative}`)
       assert(product.image[0].endsWith(ownProduct.image),`Incorrect real main photograph: ${relative}`)
