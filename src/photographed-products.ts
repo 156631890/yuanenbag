@@ -48,6 +48,33 @@ export const photographedProducts:Bag[] = [
   },
 ]
 
+const customCoolerFile = (name:string) => `custom-insulated-bags/${name}.jpg`
+const createCustomCooler = (slug:string, enColor:string, zhColor:string, esColor:string, image:string):Bag => ({
+  slug,
+  name:t(`${enColor} insulated cooler bags with carry handles`,`${zhColor}保温包定制｜手提拉链款`,`Bolsas térmicas ${esColor} con asas`),
+  seoTitle:t(`${enColor} Insulated Cooler Bags | YUANEN`,`${zhColor}保温包・手提拉链款 | 远恩`,`Bolsas térmicas ${esColor} | YUANEN`),
+  short:t(`${enColor} cooler bags`,`${zhColor}保温包`,`Bolsas térmicas ${esColor}`),
+  intro:t(`${enColor} insulated cooler bags with carry handles, a zip lid and a flat base for food, bakery and delivery packaging. Review the sample colour and confirm the loaded fit, layer structure and branding before a custom order.`,`${zhColor}保温包采用手提提手、拉链上盖与平底结构，适合食品、烘焙及配送包装。下单前请结合实物确认颜色、装载空间、复合层结构与品牌定制要求。`,`Bolsas térmicas ${esColor} con asas, tapa con cremallera y base plana para alimentos, pastelería y reparto. Revise el color y confirme ajuste, capas y personalización antes del pedido.`),
+  material:t('Outer textile, insulation, lining, zip closure and carry handles; layer composition to confirm','纺织外层、隔热层、内衬、拉链封口与提手；各层结构需确认','Textil exterior, aislamiento, forro, cremallera y asas; composición de capas por confirmar'),
+  use:t('Food delivery · Bakery packaging · Grocery and takeaway','餐饮配送 · 烘焙包装 · 商超与外卖','Reparto de alimentos · Pastelería · Supermercado y comida para llevar'),
+  group:'delivery',type:'cooler',category:'cooler',color:'#8a6a5a',styles:['handle','zipper'],uses:['thermal','promotion'],
+  image:customCoolerFile(image),gallery:[],
+  considerations:[
+    t('Measure the fully packed food or bakery box and leave clearance for the lid and handles.','测量装好食品或烘焙盒后的尺寸，并为合盖及提手预留余量。','Mida la caja de alimentos o pastelería cargada y deje holgura para tapa y asas.'),
+    t('Confirm the outer colour, lining, insulation thickness, zip access and handle attachment on a physical sample.','以实物样品确认外层颜色、内衬、隔热层厚度、拉链开口及提手连接。','Confirme color exterior, forro, espesor del aislamiento, cremallera y fijación de asas con una muestra.'),
+    t('Separate plain-colour and printed quantities in the quotation; MOQ, sample cost and lead time require written confirmation.','报价时分别列明素色与印刷数量；起订量、样品费用及交期以书面确认。','Separe cantidades lisas y personalizadas; mínimo, muestra y plazo requieren confirmación escrita.'),
+  ],
+  question:t('How do I order this insulated cooler bag?','如何采购这款保温包？','¿Cómo pedir esta bolsa térmica?'),
+  answer:t('Send the packed product or box dimensions, preferred colour, quantity and artwork. Confirm the final structure, insulation, usable space and production terms with a sample and written quotation.','请提供装载产品或外盒尺寸、目标颜色、数量及图稿，并通过样品和正式报价确认最终结构、隔热层、可用空间与生产条件。','Envíe medidas del producto o caja, color, cantidad y diseño. Confirme estructura, aislamiento, espacio útil y condiciones con una muestra y cotización escrita.'),
+})
+
+export const additionalInsulatedBags:Bag[] = [
+  createCustomCooler('brown-insulated-cooler-bags','Brown','棕色','marrón','brown-insulated-cooler-bag'),
+  createCustomCooler('red-insulated-cooler-bags','Red','红色','rojo','red-insulated-cooler-bag'),
+  createCustomCooler('pink-insulated-cooler-bags','Pink','粉色','rosa','pink-insulated-cooler-bag'),
+  createCustomCooler('yellow-insulated-cooler-bags','Yellow','黄色','amarillo','yellow-insulated-cooler-bag'),
+]
+
 export const samplePhotoGalleries:Record<string,string[]> = {
   ...icePhotoGalleries,
   ...foilPhotoGalleries,
@@ -59,4 +86,8 @@ export const sampleSectionPhotos:Record<string,Record<'application'|'detail'|'st
   'compact-insulated-lunch-bags':{application:file('compact-lunch-bag-carrying'),detail:file('compact-lunch-bag-handles'),structure:file('compact-lunch-bag-size-comparison')},
   'gold-trim-insulated-cake-bags':{application:file('gold-trim-cake-bag-loading'),detail:file('gold-trim-cake-bag-stitching'),structure:file('gold-trim-cake-bag-interior')},
   'square-zipper-cake-cooler':{application:file('mint-cake-bag-application'),detail:file('mint-cake-bag-lining'),structure:file('mint-cake-bag-open')},
+  'brown-insulated-cooler-bags':{application:customCoolerFile('brown-insulated-cooler-bag'),detail:customCoolerFile('brown-insulated-cooler-bag'),structure:customCoolerFile('brown-insulated-cooler-bag')},
+  'red-insulated-cooler-bags':{application:customCoolerFile('red-insulated-cooler-bag'),detail:customCoolerFile('red-insulated-cooler-bag'),structure:customCoolerFile('red-insulated-cooler-bag')},
+  'pink-insulated-cooler-bags':{application:customCoolerFile('pink-insulated-cooler-bag'),detail:customCoolerFile('pink-insulated-cooler-bag'),structure:customCoolerFile('pink-insulated-cooler-bag')},
+  'yellow-insulated-cooler-bags':{application:customCoolerFile('yellow-insulated-cooler-bag'),detail:customCoolerFile('yellow-insulated-cooler-bag'),structure:customCoolerFile('yellow-insulated-cooler-bag')},
 }
