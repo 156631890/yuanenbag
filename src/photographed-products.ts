@@ -49,7 +49,7 @@ export const photographedProducts:Bag[] = [
 ]
 
 const customCoolerFile = (name:string) => `custom-insulated-bags/${name}.jpg`
-const createCustomCooler = (slug:string, enColor:string, zhColor:string, esColor:string, image:string):Bag => ({
+const createCustomCooler = (slug:string, enColor:string, zhColor:string, esColor:string, image:string, gallery:string[]=[]):Bag => ({
   slug,
   collection:'yuanen-2026',
   catalogPage:10,
@@ -60,7 +60,7 @@ const createCustomCooler = (slug:string, enColor:string, zhColor:string, esColor
   material:t('Outer textile, insulation, lining, zip closure and carry handles; layer composition to confirm','纺织外层、隔热层、内衬、拉链封口与提手；各层结构需确认','Textil exterior, aislamiento, forro, cremallera y asas; composición de capas por confirmar'),
   use:t('Food delivery · Bakery packaging · Grocery and takeaway','餐饮配送 · 烘焙包装 · 商超与外卖','Reparto de alimentos · Pastelería · Supermercado y comida para llevar'),
   group:'delivery',type:'cooler',category:'cooler',color:'#8a6a5a',styles:['handle','zipper'],uses:['thermal','promotion'],
-  image:customCoolerFile(image),gallery:[],
+  image:customCoolerFile(image),gallery:gallery.map(customCoolerFile),
   considerations:[
     t('Measure the fully packed food or bakery box and leave clearance for the lid and handles.','测量装好食品或烘焙盒后的尺寸，并为合盖及提手预留余量。','Mida la caja de alimentos o pastelería cargada y deje holgura para tapa y asas.'),
     t('Confirm the outer colour, lining, insulation thickness, zip access and handle attachment on a physical sample.','以实物样品确认外层颜色、内衬、隔热层厚度、拉链开口及提手连接。','Confirme color exterior, forro, espesor del aislamiento, cremallera y fijación de asas con una muestra.'),
@@ -73,7 +73,7 @@ const createCustomCooler = (slug:string, enColor:string, zhColor:string, esColor
 export const additionalInsulatedBags:Bag[] = [
   createCustomCooler('coffee-insulated-cooler-bags','Coffee','咖啡色','café','coffee-insulated-cooler-bag'),
   createCustomCooler('red-insulated-cooler-bags','Red','红色','rojo','red-insulated-cooler-bag'),
-  createCustomCooler('pink-insulated-cooler-bags','Pink','粉色','rosa','pink-insulated-cooler-bag'),
+  createCustomCooler('pink-insulated-cooler-bags','Pink','粉色','rosa','pink-insulated-cooler-bag',['pink-insulated-cooler-bag-meal','pink-insulated-cooler-bag-office','pink-insulated-cooler-bag-fresh-food','pink-insulated-cooler-bag-sandwich']),
   createCustomCooler('yellow-insulated-cooler-bags','Yellow','黄色','amarillo','yellow-insulated-cooler-bag'),
 ]
 
