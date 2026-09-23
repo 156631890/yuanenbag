@@ -100,10 +100,11 @@ for (const file of files) {
     } else {
       const segmentedIceSheets=ownProduct.slug==='segmented-ice-sheets'
       const waterFillIcePacks=ownProduct.slug==='water-fill-ice-packs'
-      const expectedGalleryCount=4+(addedGalleryCounts[ownProduct.slug]||0)-(segmentedIceSheets?1:waterFillIcePacks?4:0)
-      const requiredVisualKinds=segmentedIceSheets?['application','detail']:waterFillIcePacks?[]:['application','detail','structure']
+      const selfAbsorbingIcePacks=ownProduct.slug==='self-absorbing-ice-packs'
+      const expectedGalleryCount=4+(addedGalleryCounts[ownProduct.slug]||0)-(segmentedIceSheets?1:waterFillIcePacks?4:selfAbsorbingIcePacks?3:0)
+      const requiredVisualKinds=segmentedIceSheets?['application','detail']:waterFillIcePacks||selfAbsorbingIcePacks?[]:['application','detail','structure']
       assert.equal(product.image.length,expectedGalleryCount,`Unexpected gallery image count: ${relative}`)
-      const mainImageSuffix=waterFillIcePacks?`/packy/${ownProduct.slug}-main.png`:`/packy/${ownProduct.slug}-main.webp`
+      const mainImageSuffix=waterFillIcePacks||selfAbsorbingIcePacks?`/packy/${ownProduct.slug}-main.png`:`/packy/${ownProduct.slug}-main.webp`
       assert(product.image[0].endsWith(mainImageSuffix),`Approved main image must stay first: ${relative}`)
       for (const kind of requiredVisualKinds) assert(product.image.some(url=>url.endsWith(`/packy/details-v2/${ownProduct.slug}-${kind}-v2.webp`)),`Missing product-specific ${kind}: ${relative}`)
       for (const original of [ownProduct.image,...ownProduct.gallery]) assert(!html.includes(`/images/products/${original}`),`Rejected catalog image still displayed: ${relative}`)
