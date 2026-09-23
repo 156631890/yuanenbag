@@ -29,6 +29,7 @@ export function productImages(bag: Bag): ProductImage[] {
     {file: productPresentations[bag.slug], kind: 'visualization'},
     {file: 'packy/double-film-self-absorbing-ice-packs-secondary.png', kind: 'photograph'},
   ]
+  if (bag.slug==='side-absorbing-ice-packs') return [bag.image!, ...(bag.gallery||[]).slice(1)].map(sampleImage)
   if (bag.collection==='yuanen-photos-2026') return [bag.image!,...(bag.gallery||[])].map(sampleImage)
   if (bag.slug==='water-fill-ice-packs') return [
     {file: productPresentations[bag.slug], kind: 'visualization'},
