@@ -98,9 +98,12 @@ for (const file of files) {
       assert(!html.includes('AI product illustration')&&!html.includes('AI 产品示意')&&!html.includes('Ilustración con IA'),`Mislabelled real photos: ${relative}`)
       for(const id of ['applications','materials','features','order-quantities','pricing','delivery','dimensions','export']) assert(html.includes(`id="${id}"`),`Missing buyer section ${id}: ${relative}`)
     } else {
-      assert.equal(product.image.length,4+(addedGalleryCounts[ownProduct.slug]||0),`Unexpected gallery image count: ${relative}`)
+      const segmentedIceSheets=ownProduct.slug==='segmented-ice-sheets'
+      const expectedGalleryCount=4+(addedGalleryCounts[ownProduct.slug]||0)-(segmentedIceSheets?1:0)
+      const requiredVisualKinds=segmentedIceSheets?['application','detail']:['application','detail','structure']
+      assert.equal(product.image.length,expectedGalleryCount,`Unexpected gallery image count: ${relative}`)
       assert(product.image[0].endsWith(`/packy/${ownProduct.slug}-main.webp`),`Approved main image must stay first: ${relative}`)
-      for (const kind of ['application','detail','structure']) assert(product.image.some(url=>url.endsWith(`/packy/details-v2/${ownProduct.slug}-${kind}-v2.webp`)),`Missing product-specific ${kind}: ${relative}`)
+      for (const kind of requiredVisualKinds) assert(product.image.some(url=>url.endsWith(`/packy/details-v2/${ownProduct.slug}-${kind}-v2.webp`)),`Missing product-specific ${kind}: ${relative}`)
       for (const original of [ownProduct.image,...ownProduct.gallery]) assert(!html.includes(`/images/products/${original}`),`Rejected catalog image still displayed: ${relative}`)
     }
     for (const image of product.image) { const imagePath=new URL(image).pathname; await access(join(root,imagePath)); assert(html.includes(imagePath),`Schema image absent from visible gallery: ${relative}`) }
