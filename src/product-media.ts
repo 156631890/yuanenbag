@@ -13,7 +13,7 @@ export const productPresentations: Record<string, string> = {
   "machine-formed-gusseted-foil-bags": "packy/machine-formed-gusseted-foil-bags-main.webp",
   "open-top-foil-bags": "packy/open-top-foil-bags-main.webp",
   "segmented-ice-sheets": "packy/segmented-ice-sheets-main.webp",
-  "self-absorbing-ice-packs": "packy/self-absorbing-ice-packs-main.webp",
+  "self-absorbing-ice-packs": "packy/self-absorbing-ice-packs-main.png",
   "self-adhesive-foil-bags": "packy/self-adhesive-foil-bags-main.webp",
   "self-seal-non-woven-delivery-bags": "packy/self-seal-non-woven-delivery-bags-main.webp",
   "square-zipper-cake-cooler": "packy/square-zipper-cake-cooler-main.webp",
@@ -28,6 +28,10 @@ export function productImages(bag: Bag): ProductImage[] {
   if (bag.slug==='water-fill-ice-packs') return [
     {file: productPresentations[bag.slug], kind: 'visualization'},
     ...(samplePhotoGalleries[bag.slug]||[]).slice(1).map(sampleImage),
+  ]
+  if (bag.slug==='self-absorbing-ice-packs') return [
+    {file: productPresentations[bag.slug], kind: 'visualization'},
+    ...(samplePhotoGalleries[bag.slug]||[]).map(sampleImage),
   ]
   if (bag.slug==='segmented-ice-sheets') return [
     {file: productPresentations[bag.slug], kind: 'visualization'},
