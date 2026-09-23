@@ -112,7 +112,7 @@ for (const file of files) {
       const segmentedIceSheets=ownProduct.slug==='segmented-ice-sheets'
       const waterFillIcePacks=ownProduct.slug==='water-fill-ice-packs'
       const selfAbsorbingIcePacks=ownProduct.slug==='self-absorbing-ice-packs'
-      const expectedGalleryCount=4+(addedGalleryCounts[ownProduct.slug]||0)-(segmentedIceSheets?1:waterFillIcePacks?4:selfAbsorbingIcePacks?3:0)
+      const expectedGalleryCount=4+(addedGalleryCounts[ownProduct.slug]||0)-(segmentedIceSheets?0:waterFillIcePacks?4:selfAbsorbingIcePacks?3:0)
       const requiredVisualKinds=segmentedIceSheets?['application','detail']:waterFillIcePacks||selfAbsorbingIcePacks?[]:['application','detail','structure']
       assert.equal(product.image.length,expectedGalleryCount,`Unexpected gallery image count: ${relative}`)
       const mainImageSuffix=waterFillIcePacks||selfAbsorbingIcePacks?`/packy/${ownProduct.slug}-main.png`:`/packy/${ownProduct.slug}-main.webp`
