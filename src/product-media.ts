@@ -45,6 +45,7 @@ export function productImages(bag: Bag): ProductImage[] {
   if (bag.slug==='self-absorbing-ice-packs') return [
     {file: productPresentations[bag.slug], kind: 'visualization'},
     ...(samplePhotoGalleries[bag.slug]||[]).map(sampleImage),
+    {file: 'packy/self-absorbing-ice-packs-cooler-application.jpg', kind: 'photograph'},
   ]
   if (bag.slug==='segmented-ice-sheets') return [
     {file: productPresentations[bag.slug], kind: 'visualization'},
