@@ -28,6 +28,8 @@ export function productImages(bag: Bag): ProductImage[] {
   if (bag.slug==='double-film-self-absorbing-ice-packs') return [
     {file: productPresentations[bag.slug], kind: 'visualization'},
     {file: 'packy/double-film-self-absorbing-ice-packs-secondary.png', kind: 'photograph'},
+    {file: 'packy/double-film-self-absorbing-ice-packs-product-display.jpg', kind: 'photograph'},
+    {file: 'packy/double-film-self-absorbing-ice-packs-cooler-application.jpg', kind: 'photograph'},
   ]
   if (bag.slug==='side-absorbing-ice-packs') return [
     {file: 'packy/side-absorbing-ice-packs-main.jpg', kind: 'visualization'},
