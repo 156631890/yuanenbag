@@ -97,4 +97,7 @@ export const sampleSectionPhotos:Record<string,Record<'application'|'detail'|'st
   'pink-insulated-cooler-bags':{application:customCoolerFile('pink-insulated-cooler-bag'),detail:customCoolerFile('pink-insulated-cooler-bag'),structure:customCoolerFile('pink-insulated-cooler-bag')},
   'yellow-insulated-cooler-bags':{application:customCoolerFile('yellow-insulated-cooler-bag'),detail:customCoolerFile('yellow-insulated-cooler-bag'),structure:customCoolerFile('yellow-insulated-cooler-bag')},
   'lake-blue-insulated-cooler-bags':{application:customCoolerFile('lake-blue-insulated-cooler-bag'),detail:customCoolerFile('lake-blue-insulated-cooler-bag'),structure:customCoolerFile('lake-blue-insulated-cooler-bag')},
+  'iridescent-orange-insulated-cooler-bags':{application:customCoolerFile('iridescent-orange-insulated-cooler-bag'),detail:customCoolerFile('iridescent-orange-insulated-cooler-bag'),structure:customCoolerFile('iridescent-orange-insulated-cooler-bag')},
+  'iridescent-blue-insulated-cooler-bags':{application:customCoolerFile('iridescent-blue-insulated-cooler-bag'),detail:customCoolerFile('iridescent-blue-insulated-cooler-bag'),structure:customCoolerFile('iridescent-blue-insulated-cooler-bag')},
+  'iridescent-pink-insulated-cooler-bags':{application:customCoolerFile('iridescent-pink-insulated-cooler-bag'),detail:customCoolerFile('iridescent-pink-insulated-cooler-bag'),structure:customCoolerFile('iridescent-pink-insulated-cooler-bag')},
 }
