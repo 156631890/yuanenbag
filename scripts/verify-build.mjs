@@ -98,7 +98,7 @@ for (const file of files) {
         assert(product.image[1].endsWith('/packy/double-film-self-absorbing-ice-packs-secondary.png'),`Incorrect double-film secondary image: ${relative}`)
       } else if (ownProduct.slug==='side-absorbing-ice-packs') {
         assert.equal(product.image.length,2,`Incomplete side-absorbing gallery: ${relative}`)
-        assert(product.image[0].endsWith(ownProduct.image),`Incorrect side-absorbing main photograph: ${relative}`)
+        assert(product.image[0].endsWith('/packy/side-absorbing-ice-packs-main.jpg'),`Incorrect side-absorbing main image: ${relative}`)
         assert(product.image[1].endsWith(ownProduct.gallery[1]),`Incorrect side-absorbing second photograph: ${relative}`)
       } else {
       assert.equal(product.image.length,1+ownProduct.gallery.length,`Incomplete real photo gallery: ${relative}`)
