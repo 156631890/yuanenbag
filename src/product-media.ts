@@ -38,6 +38,7 @@ export function productImages(bag: Bag): ProductImage[] {
   if (bag.slug==='water-fill-ice-packs') return [
     {file: productPresentations[bag.slug], kind: 'visualization'},
     ...(samplePhotoGalleries[bag.slug]||[]).slice(1).map(sampleImage),
+    {file: 'packy/water-fill-ice-packs-cooler-application.png', kind: 'photograph'},
   ]
   if (bag.slug==='self-absorbing-ice-packs') return [
     {file: productPresentations[bag.slug], kind: 'visualization'},
