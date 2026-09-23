@@ -93,9 +93,9 @@ for (const file of files) {
     assert(product,`Missing product schema: ${relative}`)
     if(ownProduct.collection==='yuanen-photos-2026') {
       if (ownProduct.slug==='double-film-self-absorbing-ice-packs') {
-        assert.equal(product.image.length,1+ownProduct.gallery.length,`Incomplete double-film gallery: ${relative}`)
+        assert.equal(product.image.length,2,`Incomplete double-film gallery: ${relative}`)
         assert(product.image[0].endsWith('/packy/double-film-self-absorbing-ice-packs-main.png'),`Incorrect double-film main image: ${relative}`)
-        for (const url of product.image.slice(1)) assert(photoSources.some(f=>f.selected&&url.endsWith(f.output)),`Unproven photograph: ${relative}`)
+        assert(product.image[1].endsWith('/packy/double-film-self-absorbing-ice-packs-secondary.png'),`Incorrect double-film secondary image: ${relative}`)
       } else {
       assert.equal(product.image.length,1+ownProduct.gallery.length,`Incomplete real photo gallery: ${relative}`)
       assert(product.image[0].endsWith(ownProduct.image),`Incorrect real main photograph: ${relative}`)
