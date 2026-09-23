@@ -25,6 +25,7 @@ export const productPresentations: Record<string, string> = {
 const detailImages = new Set(['404','405','407','446','449','450','451','495','496','497','498','534','538','539','540','541'])
 export function productImages(bag: Bag): ProductImage[] {
   if (bag.collection==='yuanen-photos-2026') return [bag.image!,...(bag.gallery||[])].map(sampleImage)
+  if (bag.slug==='water-fill-ice-packs') return (samplePhotoGalleries[bag.slug]||[]).map(sampleImage)
   if (bag.slug==='segmented-ice-sheets') return [
     {file: productPresentations[bag.slug], kind: 'visualization'},
     {file: `packy/details-v2/${bag.slug}-application-v2.webp`, kind: 'application'},
