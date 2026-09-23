@@ -31,7 +31,7 @@ export function productImages(bag: Bag): ProductImage[] {
   ]
   if (bag.slug==='side-absorbing-ice-packs') return [
     {file: 'packy/side-absorbing-ice-packs-main.jpg', kind: 'visualization'},
-    ...(bag.gallery||[]).slice(1).map(sampleImage),
+    ...(bag.gallery||[]).map(sampleImage),
   ]
   if (bag.collection==='yuanen-photos-2026') return [bag.image!,...(bag.gallery||[])].map(sampleImage)
   if (bag.slug==='water-fill-ice-packs') return [
