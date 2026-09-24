@@ -120,12 +120,6 @@ for (const file of files) {
       const newNonwovenVariant=['self-seal-non-woven-bakery-bags','self-seal-non-woven-milk-tea-bags','self-seal-non-woven-cake-bags'].includes(ownProduct.slug)
       if (selfSealNonWoven) {
         const expectedImages=[
-          '/images/products/packy/self-seal-non-woven-delivery-bags-new/main.jpg',
-          '/images/products/packy/self-seal-non-woven-delivery-bags-new/colors.jpg',
-          '/images/products/packy/self-seal-non-woven-delivery-bags-new/food-service.png',
-          '/images/products/packy/self-seal-non-woven-delivery-bags-new/meal-delivery.png',
-          '/images/products/packy/self-seal-non-woven-delivery-bags-new/bakery.png',
-          '/images/products/packy/self-seal-non-woven-delivery-bags-new/meal-scenes.jpg',
           '/images/products/packy/self-seal-non-woven-delivery-bags-new/dining-colors.jpg',
           '/images/products/packy/self-seal-non-woven-delivery-bags-new/dining-meals.jpg',
           '/images/products/packy/self-seal-non-woven-delivery-bags-new/dining-group.jpg',

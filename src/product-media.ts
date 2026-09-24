@@ -16,7 +16,7 @@ export const productPresentations: Record<string, string> = {
   "double-film-self-absorbing-ice-packs": "packy/double-film-self-absorbing-ice-packs-main.png",
   "self-absorbing-ice-packs": "packy/self-absorbing-ice-packs-main.png",
   "self-adhesive-foil-bags": "packy/self-adhesive-foil-bags-main.webp",
-  "self-seal-non-woven-delivery-bags": "packy/self-seal-non-woven-delivery-bags-new/main.jpg",
+  "self-seal-non-woven-delivery-bags": "packy/self-seal-non-woven-delivery-bags-new/dining-colors.jpg",
   "self-seal-non-woven-bakery-bags": "packy/self-seal-non-woven-delivery-bags-new/bakery.jpg",
   "self-seal-non-woven-milk-tea-bags": "packy/self-seal-non-woven-delivery-bags-new/milk-tea.jpg",
   "self-seal-non-woven-cake-bags": "packy/self-seal-non-woven-delivery-bags-new/cake.jpg",
@@ -57,12 +57,6 @@ export function productImages(bag: Bag): ProductImage[] {
   ]
   if (bag.slug==='self-seal-non-woven-delivery-bags') return [
     {file: productPresentations[bag.slug], kind: 'photograph'},
-    {file: 'packy/self-seal-non-woven-delivery-bags-new/colors.jpg', kind: 'photograph'},
-    {file: 'packy/self-seal-non-woven-delivery-bags-new/food-service.png', kind: 'photograph'},
-    {file: 'packy/self-seal-non-woven-delivery-bags-new/meal-delivery.png', kind: 'photograph'},
-    {file: 'packy/self-seal-non-woven-delivery-bags-new/bakery.png', kind: 'photograph'},
-    {file: 'packy/self-seal-non-woven-delivery-bags-new/meal-scenes.jpg', kind: 'photograph'},
-    {file: 'packy/self-seal-non-woven-delivery-bags-new/dining-colors.jpg', kind: 'photograph'},
     {file: 'packy/self-seal-non-woven-delivery-bags-new/dining-meals.jpg', kind: 'photograph'},
     {file: 'packy/self-seal-non-woven-delivery-bags-new/dining-group.jpg', kind: 'photograph'},
     {file: 'packy/self-seal-non-woven-delivery-bags-new/dining-food.jpg', kind: 'photograph'},
