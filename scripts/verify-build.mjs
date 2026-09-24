@@ -122,12 +122,23 @@ for (const file of files) {
       const openTopFoil=ownProduct.slug==='open-top-foil-bags'
       const machineFormedFoil=ownProduct.slug==='machine-formed-gusseted-foil-bags'
       const gussetedFoilCake=ownProduct.slug==='gusseted-foil-cake-bags'
-      if (gussetedFoilCake) {
+      const handFinishedFoil=ownProduct.slug==='hand-finished-gusseted-foil-bags'
+      if (handFinishedFoil) {
+        const expectedHandFinishedFoilImages=[
+          '/images/products/packy/hand-finished-gusseted-foil-bags-new/01.webp',
+          '/images/products/packy/hand-finished-gusseted-foil-bags-new/02.webp',
+          '/images/products/packy/hand-finished-gusseted-foil-bags-new/03.webp',
+          '/images/products/packy/hand-finished-gusseted-foil-bags-new/04.webp',
+          '/images/products/photos-2026-09/foil-material-measurement-a.webp',
+        ]
+        assert.deepEqual(product.image.map(url=>new URL(url).pathname),expectedHandFinishedFoilImages,`Unexpected hand-finished foil gallery: ${relative}`)
+      } else if (gussetedFoilCake) {
         const expectedGussetedFoilCakeImages=[
           '/images/products/packy/gusseted-foil-cake-bags-new/01.webp',
           '/images/products/packy/gusseted-foil-cake-bags-new/02.webp',
           '/images/products/packy/gusseted-foil-cake-bags-new/03.webp',
           '/images/products/packy/gusseted-foil-cake-bags-new/04.webp',
+          '/images/products/packy/gusseted-foil-cake-bags-new/05.webp',
         ]
         assert.deepEqual(product.image.map(url=>new URL(url).pathname),expectedGussetedFoilCakeImages,`Unexpected gusseted foil cake gallery: ${relative}`)
       } else if (machineFormedFoil) {

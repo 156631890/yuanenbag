@@ -9,7 +9,7 @@ const sampleImage=(file:string):ProductImage=>({file,kind:isMeasurementPhoto(fil
 // Accepted product visualizations go here after comparison with the catalog source.
 export const productPresentations: Record<string, string> = {
   "gusseted-foil-cake-bags": "packy/gusseted-foil-cake-bags-new/01.webp",
-  "hand-finished-gusseted-foil-bags": "packy/hand-finished-gusseted-foil-bags-main.webp",
+  "hand-finished-gusseted-foil-bags": "packy/hand-finished-gusseted-foil-bags-new/01.webp",
   "machine-formed-gusseted-foil-bags": "packy/machine-formed-gusseted-foil-bags-new/01.webp",
   "open-top-foil-bags": "packy/open-top-foil-bags-new/01.webp",
   "segmented-ice-sheets": "packy/segmented-ice-sheets-main.webp",
@@ -120,11 +120,19 @@ export function productImages(bag: Bag): ProductImage[] {
     {file: 'packy/machine-formed-gusseted-foil-bags-new/06.webp', kind: 'photograph'},
     {file: 'packy/machine-formed-gusseted-foil-bags-new/07.webp', kind: 'photograph'},
   ]
+  if (bag.slug==='hand-finished-gusseted-foil-bags') return [
+    {file: productPresentations[bag.slug], kind: 'photograph'},
+    {file: 'packy/hand-finished-gusseted-foil-bags-new/02.webp', kind: 'photograph'},
+    {file: 'packy/hand-finished-gusseted-foil-bags-new/03.webp', kind: 'photograph'},
+    {file: 'packy/hand-finished-gusseted-foil-bags-new/04.webp', kind: 'photograph'},
+    {file: 'photos-2026-09/foil-material-measurement-a.webp', kind: 'photograph'},
+  ]
   if (bag.slug==='gusseted-foil-cake-bags') return [
     {file: productPresentations[bag.slug], kind: 'photograph'},
     {file: 'packy/gusseted-foil-cake-bags-new/02.webp', kind: 'photograph'},
     {file: 'packy/gusseted-foil-cake-bags-new/03.webp', kind: 'photograph'},
     {file: 'packy/gusseted-foil-cake-bags-new/04.webp', kind: 'photograph'},
+    {file: 'packy/gusseted-foil-cake-bags-new/05.webp', kind: 'photograph'},
   ]
   if (productPresentations[bag.slug]) return [
     {file: productPresentations[bag.slug], kind: 'visualization'},
