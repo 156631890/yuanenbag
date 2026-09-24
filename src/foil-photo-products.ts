@@ -43,7 +43,7 @@ export const foilPhotoProducts:Bag[]=[
 ]
 export const foilPhotoGalleries:Record<string,string[]>={
  'hand-finished-gusseted-foil-bags':['handmade-foil-bag-shape','gusseted-foil-open-interior','foil-material-measurement-a'].map(file),
- 'open-top-foil-bags':['flat-foil-bag-loading','flat-foil-bag-standing','foil-material-measurement-b'].map(file),
+ 'open-top-foil-bags':['foil-material-measurement-b'].map(file),
 }
 export const foilSectionPhotos:Record<string,Record<'application'|'detail'|'structure',string>>={
  'gusseted-self-seal-foil-bags':{application:file('gusseted-self-seal-foil-main'),detail:file('foil-material-measurement-a'),structure:file('gusseted-self-seal-foil-main')},

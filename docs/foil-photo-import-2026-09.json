@@ -69,17 +69,17 @@
       "outputHeight": 1068
     },
     {
-      "filename": "微信图片_20240816162617.jpg",
-      "sourceSha256": "25e88a3bd37de2a591d22c3c5e6609b711c1a390e54ea4c55b5debd2bdefb228",
-      "sourceBytes": 6324838,
-      "width": 7360,
-      "height": 4912,
+      "filename": "16123157385923bb6b5f1da56500f240.jpg",
+      "sourceSha256": "ffbe836d372d98279ae7d2a7b953456bbadfe54f32e3f80d9c95b6bd896f1a9f",
+      "sourceBytes": 110747,
+      "width": 1254,
+      "height": 1254,
       "selected": true,
       "output": "photos-2026-09/foil-box-liner-insert.webp",
-      "outputSha256": "69ace9f5921ae2df626e29be5bd08ba0405c5d8e071dadd27767eddf15826d37",
-      "outputBytes": 66512,
-      "outputWidth": 1600,
-      "outputHeight": 1068
+      "outputSha256": "80b83045becf174b4809b86ba3ccfa1be84ca4c79de86c3f379af0be2b32e65b",
+      "outputBytes": 82776,
+      "outputWidth": 1254,
+      "outputHeight": 1254
     },
     {
       "filename": "微信图片_20240820151913.jpg",
@@ -104,17 +104,17 @@
       "outputHeight": 1067
     },
     {
-      "filename": "立体带胶.jpg",
-      "sourceSha256": "f7c710786465c45d93dee194bf714a1a2421bbb490a8fa8077fe2870d012d387",
-      "sourceBytes": 287074,
-      "width": 800,
-      "height": 800,
+      "filename": "324f4fedfe565169c591c46e39a8dd8f.jpg",
+      "sourceSha256": "ce6dec720f1a2e04c98a7d109864e4ea7c87ff30b93ffc6c5c6a1587743fb0a7",
+      "sourceBytes": 179712,
+      "width": 1254,
+      "height": 1254,
       "selected": true,
       "output": "photos-2026-09/gusseted-self-seal-foil-main.webp",
-      "outputSha256": "d397e2338e52a68f60a2859fe6b79c3de9552e6e7805da6577114c207bc5ccdf",
-      "outputBytes": 41874,
-      "outputWidth": 800,
-      "outputHeight": 800
+      "outputSha256": "cdb2c7699dc4cc92b8fbf53488893198a78ff5567d41c97e837bead7d6fad5a8",
+      "outputBytes": 168734,
+      "outputWidth": 1254,
+      "outputHeight": 1254
     }
   ]
 }

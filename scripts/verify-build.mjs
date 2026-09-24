@@ -29,7 +29,7 @@ const photoImport=JSON.parse(await readFile('docs/sample-photo-import-2026-09.js
 const icePhotoImport=JSON.parse(await readFile('docs/ice-photo-import-2026-09.json','utf8'))
 const foilPhotoImport=JSON.parse(await readFile('docs/foil-photo-import-2026-09.json','utf8'))
 const photoSources=[...photoImport.files,...icePhotoImport.files,...foilPhotoImport.files]
-const addedGalleryCounts={'square-zipper-cake-cooler':6,'water-fill-ice-packs':5,'self-absorbing-ice-packs':6,'hand-finished-gusseted-foil-bags':3,'open-top-foil-bags':3}
+const addedGalleryCounts={'square-zipper-cake-cooler':6,'water-fill-ice-packs':5,'self-absorbing-ice-packs':6,'hand-finished-gusseted-foil-bags':3,'open-top-foil-bags':1}
 const photoProducts=catalogAudit.bags.filter(b=>b.collection==='yuanen-photos-2026')
 assert.equal(catalogAudit.bags.filter(b=>b.collection==='yuanen-2026').length,24,'Retain the original cold-chain catalog plus the cooler variants')
 assert.deepEqual(photoProducts.map(b=>b.slug).sort(),['compact-insulated-lunch-bags','double-film-self-absorbing-ice-packs','foil-insulated-box-liners','gold-trim-insulated-cake-bags','gusseted-self-seal-foil-bags','side-absorbing-ice-packs'])
@@ -120,7 +120,7 @@ for (const file of files) {
       const newNonwovenVariant=['self-seal-non-woven-food-service-bags','self-seal-non-woven-bakery-bags','self-seal-non-woven-milk-tea-bags','self-seal-non-woven-cake-bags'].includes(ownProduct.slug)
       if (selfSealNonWoven) {
         const expectedImages=[
-          '/images/products/packy/self-seal-non-woven-delivery-bags-new/main.jpg',
+          '/images/products/packy/self-seal-non-woven-delivery-bags-new/delivery-main.jpg',
           '/images/products/packy/self-seal-non-woven-delivery-bags-new/colors.jpg',
           '/images/products/packy/self-seal-non-woven-delivery-bags-new/food-service.png',
           '/images/products/packy/self-seal-non-woven-delivery-bags-new/meal-delivery.png',
@@ -131,7 +131,7 @@ for (const file of files) {
       } else if (newNonwovenVariant) {
         if (ownProduct.slug==='self-seal-non-woven-food-service-bags') {
           const expectedFoodServiceImages=[
-            '/images/products/packy/self-seal-non-woven-delivery-bags-new/dining-colors.jpg',
+            '/images/products/packy/self-seal-non-woven-delivery-bags-new/main.jpg',
             '/images/products/packy/self-seal-non-woven-delivery-bags-new/dining-meals.jpg',
             '/images/products/packy/self-seal-non-woven-delivery-bags-new/dining-group.jpg',
             '/images/products/packy/self-seal-non-woven-delivery-bags-new/dining-food.jpg',

@@ -345,6 +345,10 @@
     "width": 1254,
     "height": 1254
   },
+  "packy/self-seal-non-woven-delivery-bags-new/delivery-main.jpg": {
+    "width": 1280,
+    "height": 1280
+  },
   "packy/self-seal-non-woven-delivery-bags-new/bakery.jpg": {
     "width": 1254,
     "height": 1254
@@ -786,15 +790,15 @@
     "height": 1068
   },
   "photos-2026-09/foil-box-liner-insert.webp": {
-    "width": 1600,
-    "height": 1068
+    "width": 1254,
+    "height": 1254
   },
   "photos-2026-09/handmade-foil-bag-shape.webp": {
     "width": 1600,
     "height": 1067
   },
   "photos-2026-09/gusseted-self-seal-foil-main.webp": {
-    "width": 800,
-    "height": 800
+    "width": 1254,
+    "height": 1254
   }
 }
