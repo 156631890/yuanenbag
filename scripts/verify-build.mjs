@@ -118,7 +118,52 @@ for (const file of files) {
       } else {
       const selfSealNonWoven=ownProduct.slug==='self-seal-non-woven-delivery-bags'
       const newNonwovenVariant=['self-seal-non-woven-food-service-bags','self-seal-non-woven-bakery-bags','self-seal-non-woven-milk-tea-bags','self-seal-non-woven-cake-bags'].includes(ownProduct.slug)
-      if (selfSealNonWoven) {
+      const selfAdhesiveFoil=ownProduct.slug==='self-adhesive-foil-bags'
+      const openTopFoil=ownProduct.slug==='open-top-foil-bags'
+      const machineFormedFoil=ownProduct.slug==='machine-formed-gusseted-foil-bags'
+      const gussetedFoilCake=ownProduct.slug==='gusseted-foil-cake-bags'
+      if (gussetedFoilCake) {
+        const expectedGussetedFoilCakeImages=[
+          '/images/products/packy/gusseted-foil-cake-bags-new/01.webp',
+          '/images/products/packy/gusseted-foil-cake-bags-new/02.webp',
+          '/images/products/packy/gusseted-foil-cake-bags-new/03.webp',
+          '/images/products/packy/gusseted-foil-cake-bags-new/04.webp',
+        ]
+        assert.deepEqual(product.image.map(url=>new URL(url).pathname),expectedGussetedFoilCakeImages,`Unexpected gusseted foil cake gallery: ${relative}`)
+      } else if (machineFormedFoil) {
+        const expectedMachineFormedFoilImages=[
+          '/images/products/packy/machine-formed-gusseted-foil-bags-new/01.webp',
+          '/images/products/packy/machine-formed-gusseted-foil-bags-new/02.webp',
+          '/images/products/packy/machine-formed-gusseted-foil-bags-new/03.webp',
+          '/images/products/packy/machine-formed-gusseted-foil-bags-new/04.webp',
+          '/images/products/packy/machine-formed-gusseted-foil-bags-new/05.webp',
+          '/images/products/packy/machine-formed-gusseted-foil-bags-new/06.webp',
+          '/images/products/packy/machine-formed-gusseted-foil-bags-new/07.webp',
+        ]
+        assert.deepEqual(product.image.map(url=>new URL(url).pathname),expectedMachineFormedFoilImages,`Unexpected machine-formed foil gallery: ${relative}`)
+      } else if (openTopFoil) {
+        const expectedOpenTopFoilImages=[
+          '/images/products/packy/open-top-foil-bags-new/01.webp',
+          '/images/products/packy/open-top-foil-bags-new/02.webp',
+          '/images/products/packy/open-top-foil-bags-new/03.webp',
+          '/images/products/packy/open-top-foil-bags-new/04.webp',
+          '/images/products/packy/open-top-foil-bags-new/05.webp',
+          '/images/products/packy/open-top-foil-bags-new/06.webp',
+          '/images/products/packy/open-top-foil-bags-new/07.webp',
+          '/images/products/photos-2026-09/foil-material-measurement-b.webp',
+        ]
+        assert.deepEqual(product.image.map(url=>new URL(url).pathname),expectedOpenTopFoilImages,`Unexpected open-top foil gallery: ${relative}`)
+      } else if (selfAdhesiveFoil) {
+        const expectedSelfAdhesiveFoilImages=[
+          '/images/products/packy/self-adhesive-foil-bags-new/01.webp',
+          '/images/products/packy/self-adhesive-foil-bags-new/02.webp',
+          '/images/products/packy/self-adhesive-foil-bags-new/03.webp',
+          '/images/products/packy/self-adhesive-foil-bags-new/04.webp',
+          '/images/products/packy/self-adhesive-foil-bags-new/05.webp',
+          '/images/products/packy/self-adhesive-foil-bags-new/06.webp',
+        ]
+        assert.deepEqual(product.image.map(url=>new URL(url).pathname),expectedSelfAdhesiveFoilImages,`Unexpected self-adhesive foil gallery: ${relative}`)
+      } else if (selfSealNonWoven) {
         const expectedImages=[
           '/images/products/packy/self-seal-non-woven-delivery-bags-new/delivery-main.jpg',
           '/images/products/packy/self-seal-non-woven-delivery-bags-new/colors.jpg',

@@ -8,14 +8,14 @@ export const isMeasurementPhoto=(file:string)=>foilMeasurementImages.includes(fi
 const sampleImage=(file:string):ProductImage=>({file,kind:isMeasurementPhoto(file)?'measurement':'photograph'})
 // Accepted product visualizations go here after comparison with the catalog source.
 export const productPresentations: Record<string, string> = {
-  "gusseted-foil-cake-bags": "packy/gusseted-foil-cake-bags-main.webp",
+  "gusseted-foil-cake-bags": "packy/gusseted-foil-cake-bags-new/01.webp",
   "hand-finished-gusseted-foil-bags": "packy/hand-finished-gusseted-foil-bags-main.webp",
-  "machine-formed-gusseted-foil-bags": "packy/machine-formed-gusseted-foil-bags-main.webp",
-  "open-top-foil-bags": "packy/open-top-foil-bags-main.webp",
+  "machine-formed-gusseted-foil-bags": "packy/machine-formed-gusseted-foil-bags-new/01.webp",
+  "open-top-foil-bags": "packy/open-top-foil-bags-new/01.webp",
   "segmented-ice-sheets": "packy/segmented-ice-sheets-main.webp",
   "double-film-self-absorbing-ice-packs": "packy/double-film-self-absorbing-ice-packs-main.png",
   "self-absorbing-ice-packs": "packy/self-absorbing-ice-packs-main.png",
-  "self-adhesive-foil-bags": "packy/self-adhesive-foil-bags-main.webp",
+  "self-adhesive-foil-bags": "packy/self-adhesive-foil-bags-new/01.webp",
   "self-seal-non-woven-delivery-bags": "packy/self-seal-non-woven-delivery-bags-new/delivery-main.jpg",
   "self-seal-non-woven-food-service-bags": "packy/self-seal-non-woven-delivery-bags-new/main.jpg",
   "self-seal-non-woven-bakery-bags": "packy/self-seal-non-woven-delivery-bags-new/bakery.jpg",
@@ -92,6 +92,39 @@ export function productImages(bag: Bag): ProductImage[] {
     {file: 'packy/self-seal-non-woven-delivery-bags-new/milk-tea-scene.jpg', kind: 'photograph'},
     {file: 'packy/self-seal-non-woven-delivery-bags-new/milk-tea-display.jpg', kind: 'photograph'},
     {file: 'packy/self-seal-non-woven-delivery-bags-new/milk-tea-catering.jpg', kind: 'photograph'},
+  ]
+  if (bag.slug==='self-adhesive-foil-bags') return [
+    {file: productPresentations[bag.slug], kind: 'photograph'},
+    {file: 'packy/self-adhesive-foil-bags-new/02.webp', kind: 'photograph'},
+    {file: 'packy/self-adhesive-foil-bags-new/03.webp', kind: 'photograph'},
+    {file: 'packy/self-adhesive-foil-bags-new/04.webp', kind: 'photograph'},
+    {file: 'packy/self-adhesive-foil-bags-new/05.webp', kind: 'photograph'},
+    {file: 'packy/self-adhesive-foil-bags-new/06.webp', kind: 'photograph'},
+  ]
+  if (bag.slug==='open-top-foil-bags') return [
+    {file: productPresentations[bag.slug], kind: 'photograph'},
+    {file: 'packy/open-top-foil-bags-new/02.webp', kind: 'photograph'},
+    {file: 'packy/open-top-foil-bags-new/03.webp', kind: 'photograph'},
+    {file: 'packy/open-top-foil-bags-new/04.webp', kind: 'photograph'},
+    {file: 'packy/open-top-foil-bags-new/05.webp', kind: 'photograph'},
+    {file: 'packy/open-top-foil-bags-new/06.webp', kind: 'photograph'},
+    {file: 'packy/open-top-foil-bags-new/07.webp', kind: 'photograph'},
+    {file: 'photos-2026-09/foil-material-measurement-b.webp', kind: 'measurement'},
+  ]
+  if (bag.slug==='machine-formed-gusseted-foil-bags') return [
+    {file: productPresentations[bag.slug], kind: 'photograph'},
+    {file: 'packy/machine-formed-gusseted-foil-bags-new/02.webp', kind: 'photograph'},
+    {file: 'packy/machine-formed-gusseted-foil-bags-new/03.webp', kind: 'photograph'},
+    {file: 'packy/machine-formed-gusseted-foil-bags-new/04.webp', kind: 'photograph'},
+    {file: 'packy/machine-formed-gusseted-foil-bags-new/05.webp', kind: 'photograph'},
+    {file: 'packy/machine-formed-gusseted-foil-bags-new/06.webp', kind: 'photograph'},
+    {file: 'packy/machine-formed-gusseted-foil-bags-new/07.webp', kind: 'photograph'},
+  ]
+  if (bag.slug==='gusseted-foil-cake-bags') return [
+    {file: productPresentations[bag.slug], kind: 'photograph'},
+    {file: 'packy/gusseted-foil-cake-bags-new/02.webp', kind: 'photograph'},
+    {file: 'packy/gusseted-foil-cake-bags-new/03.webp', kind: 'photograph'},
+    {file: 'packy/gusseted-foil-cake-bags-new/04.webp', kind: 'photograph'},
   ]
   if (productPresentations[bag.slug]) return [
     {file: productPresentations[bag.slug], kind: 'visualization'},

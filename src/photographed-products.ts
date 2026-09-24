@@ -112,6 +112,10 @@ export const samplePhotoGalleries:Record<string,string[]> = {
 export const sampleSectionPhotos:Record<string,Record<'application'|'detail'|'structure',string>> = {
   ...iceSectionPhotos,
   ...foilSectionPhotos,
+  'self-adhesive-foil-bags':{application:'packy/self-adhesive-foil-bags-new/03.webp',detail:'packy/self-adhesive-foil-bags-new/04.webp',structure:'packy/self-adhesive-foil-bags-new/06.webp'},
+  'open-top-foil-bags':{application:'packy/open-top-foil-bags-new/02.webp',detail:'packy/open-top-foil-bags-new/03.webp',structure:'packy/open-top-foil-bags-new/05.webp'},
+  'machine-formed-gusseted-foil-bags':{application:'packy/machine-formed-gusseted-foil-bags-new/03.webp',detail:'packy/machine-formed-gusseted-foil-bags-new/04.webp',structure:'packy/machine-formed-gusseted-foil-bags-new/07.webp'},
+  'gusseted-foil-cake-bags':{application:'packy/gusseted-foil-cake-bags-new/02.webp',detail:'packy/gusseted-foil-cake-bags-new/03.webp',structure:'packy/gusseted-foil-cake-bags-new/04.webp'},
   'compact-insulated-lunch-bags':{application:file('compact-lunch-bag-carrying'),detail:file('compact-lunch-bag-handles'),structure:file('compact-lunch-bag-size-comparison')},
   'gold-trim-insulated-cake-bags':{application:file('gold-trim-cake-bag-loading'),detail:file('gold-trim-cake-bag-stitching'),structure:file('gold-trim-cake-bag-interior')},
   'square-zipper-cake-cooler':{application:file('mint-cake-bag-application'),detail:file('mint-cake-bag-lining'),structure:file('mint-cake-bag-open')},
