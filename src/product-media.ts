@@ -100,6 +100,7 @@ export function productImages(bag: Bag): ProductImage[] {
     {file: 'packy/self-adhesive-foil-bags-new/04.webp', kind: 'photograph'},
     {file: 'packy/self-adhesive-foil-bags-new/05.webp', kind: 'photograph'},
     {file: 'packy/self-adhesive-foil-bags-new/06.webp', kind: 'photograph'},
+    {file: 'packy/self-adhesive-foil-bags-new/07.webp', kind: 'photograph'},
   ]
   if (bag.slug==='open-top-foil-bags') return [
     {file: productPresentations[bag.slug], kind: 'photograph'},

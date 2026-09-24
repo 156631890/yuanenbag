@@ -172,6 +172,7 @@ for (const file of files) {
           '/images/products/packy/self-adhesive-foil-bags-new/04.webp',
           '/images/products/packy/self-adhesive-foil-bags-new/05.webp',
           '/images/products/packy/self-adhesive-foil-bags-new/06.webp',
+          '/images/products/packy/self-adhesive-foil-bags-new/07.webp',
         ]
         assert.deepEqual(product.image.map(url=>new URL(url).pathname),expectedSelfAdhesiveFoilImages,`Unexpected self-adhesive foil gallery: ${relative}`)
       } else if (selfSealNonWoven) {
