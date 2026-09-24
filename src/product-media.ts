@@ -13,85 +13,85 @@ export const productPresentations: Record<string, string> = {
   "machine-formed-gusseted-foil-bags": "packy/machine-formed-gusseted-foil-bags-new/01.webp",
   "open-top-foil-bags": "packy/open-top-foil-bags-new/01.webp",
   "segmented-ice-sheets": "packy/segmented-ice-sheets-main.webp",
-  "double-film-self-absorbing-ice-packs": "packy/double-film-self-absorbing-ice-packs-main.png",
-  "self-absorbing-ice-packs": "packy/self-absorbing-ice-packs-main.png",
+  "double-film-self-absorbing-ice-packs": "packy/double-film-self-absorbing-ice-packs-main.webp",
+  "self-absorbing-ice-packs": "packy/self-absorbing-ice-packs-main.webp",
   "self-adhesive-foil-bags": "packy/self-adhesive-foil-bags-new/01.webp",
-  "self-seal-non-woven-delivery-bags": "packy/self-seal-non-woven-delivery-bags-new/delivery-main.jpg",
-  "self-seal-non-woven-food-service-bags": "packy/self-seal-non-woven-delivery-bags-new/main.jpg",
-  "self-seal-non-woven-bakery-bags": "packy/self-seal-non-woven-delivery-bags-new/bakery.jpg",
-  "self-seal-non-woven-milk-tea-bags": "packy/self-seal-non-woven-delivery-bags-new/milk-tea.jpg",
-  "self-seal-non-woven-cake-bags": "packy/self-seal-non-woven-delivery-bags-new/cake.jpg",
+  "self-seal-non-woven-delivery-bags": "packy/self-seal-non-woven-delivery-bags-new/delivery-main.webp",
+  "self-seal-non-woven-food-service-bags": "packy/self-seal-non-woven-delivery-bags-new/main.webp",
+  "self-seal-non-woven-bakery-bags": "packy/self-seal-non-woven-delivery-bags-new/bakery-from-jpg.webp",
+  "self-seal-non-woven-milk-tea-bags": "packy/self-seal-non-woven-delivery-bags-new/milk-tea.webp",
+  "self-seal-non-woven-cake-bags": "packy/self-seal-non-woven-delivery-bags-new/cake.webp",
   "square-zipper-cake-cooler": "packy/square-zipper-cake-cooler-main.webp",
   "upright-grocery-cooler": "packy/upright-grocery-cooler-main.webp",
-  "water-fill-ice-packs": "packy/water-fill-ice-packs-main.png",
+  "water-fill-ice-packs": "packy/water-fill-ice-packs-main.webp",
   "wide-base-meal-cooler": "packy/wide-base-meal-cooler-main.webp"
 }
 const detailImages = new Set(['404','405','407','446','449','450','451','495','496','497','498','534','538','539','540','541'])
 export function productImages(bag: Bag): ProductImage[] {
   if (bag.slug==='double-film-self-absorbing-ice-packs') return [
     {file: productPresentations[bag.slug], kind: 'visualization'},
-    {file: 'packy/double-film-self-absorbing-ice-packs-secondary.png', kind: 'photograph'},
-    {file: 'packy/double-film-self-absorbing-ice-packs-product-display.jpg', kind: 'photograph'},
-    {file: 'packy/double-film-self-absorbing-ice-packs-cooler-application.jpg', kind: 'photograph'},
+    {file: 'packy/double-film-self-absorbing-ice-packs-secondary.webp', kind: 'photograph'},
+    {file: 'packy/double-film-self-absorbing-ice-packs-product-display.webp', kind: 'photograph'},
+    {file: 'packy/double-film-self-absorbing-ice-packs-cooler-application.webp', kind: 'photograph'},
   ]
   if (bag.slug==='side-absorbing-ice-packs') return [
-    {file: 'packy/side-absorbing-ice-packs-main.jpg', kind: 'visualization'},
-    {file: 'packy/side-absorbing-ice-packs-secondary.png', kind: 'photograph'},
+    {file: 'packy/side-absorbing-ice-packs-main.webp', kind: 'visualization'},
+    {file: 'packy/side-absorbing-ice-packs-secondary.webp', kind: 'photograph'},
     ...(bag.gallery||[]).slice(1).map(sampleImage),
   ]
   if (bag.collection==='yuanen-photos-2026') return [bag.image!,...(bag.gallery||[])].map(sampleImage)
   if (bag.slug==='water-fill-ice-packs') return [
     {file: productPresentations[bag.slug], kind: 'visualization'},
     ...(samplePhotoGalleries[bag.slug]||[]).slice(1).map(sampleImage),
-    {file: 'packy/water-fill-ice-packs-cooler-application.png', kind: 'photograph'},
+    {file: 'packy/water-fill-ice-packs-cooler-application.webp', kind: 'photograph'},
   ]
   if (bag.slug==='self-absorbing-ice-packs') return [
     {file: productPresentations[bag.slug], kind: 'visualization'},
     ...(samplePhotoGalleries[bag.slug]||[]).map(sampleImage),
-    {file: 'packy/self-absorbing-ice-packs-cooler-application.jpg', kind: 'photograph'},
+    {file: 'packy/self-absorbing-ice-packs-cooler-application.webp', kind: 'photograph'},
   ]
   if (bag.slug==='segmented-ice-sheets') return [
     {file: productPresentations[bag.slug], kind: 'visualization'},
     {file: `packy/details-v2/${bag.slug}-application-v2.webp`, kind: 'application'},
     {file: `packy/details-v2/${bag.slug}-detail-v2.webp`, kind: 'material'},
-    {file: 'packy/segmented-ice-sheets-cooler-application.png', kind: 'application'},
+    {file: 'packy/segmented-ice-sheets-cooler-application.webp', kind: 'application'},
   ]
   if (bag.slug==='self-seal-non-woven-delivery-bags') return [
     {file: productPresentations[bag.slug], kind: 'photograph'},
-    {file: 'packy/self-seal-non-woven-delivery-bags-new/colors.jpg', kind: 'photograph'},
-    {file: 'packy/self-seal-non-woven-delivery-bags-new/food-service.png', kind: 'photograph'},
-    {file: 'packy/self-seal-non-woven-delivery-bags-new/meal-delivery.png', kind: 'photograph'},
-    {file: 'packy/self-seal-non-woven-delivery-bags-new/bakery.png', kind: 'photograph'},
-    {file: 'packy/self-seal-non-woven-delivery-bags-new/meal-scenes.jpg', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/colors.webp', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/food-service.webp', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/meal-delivery.webp', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/bakery-from-png.webp', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/meal-scenes.webp', kind: 'photograph'},
   ]
   if (bag.slug==='self-seal-non-woven-food-service-bags') return [
     {file: productPresentations[bag.slug], kind: 'photograph'},
-    {file: 'packy/self-seal-non-woven-delivery-bags-new/dining-meals.jpg', kind: 'photograph'},
-    {file: 'packy/self-seal-non-woven-delivery-bags-new/dining-group.jpg', kind: 'photograph'},
-    {file: 'packy/self-seal-non-woven-delivery-bags-new/dining-food.jpg', kind: 'photograph'},
-    {file: 'packy/self-seal-non-woven-delivery-bags-new/dining-catering.jpg', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/dining-meals.webp', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/dining-group.webp', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/dining-food.webp', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/dining-catering.webp', kind: 'photograph'},
   ]
   if (bag.slug==='self-seal-non-woven-cake-bags') return [
     {file: productPresentations[bag.slug], kind: 'photograph'},
-    {file: 'packy/self-seal-non-woven-delivery-bags-new/cake-colors.jpg', kind: 'photograph'},
-    {file: 'packy/self-seal-non-woven-delivery-bags-new/cake-desserts.jpg', kind: 'photograph'},
-    {file: 'packy/self-seal-non-woven-delivery-bags-new/cake-display.jpg', kind: 'photograph'},
-    {file: 'packy/self-seal-non-woven-delivery-bags-new/cake-celebration.jpg', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/cake-colors.webp', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/cake-desserts.webp', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/cake-display.webp', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/cake-celebration.webp', kind: 'photograph'},
   ]
   if (bag.slug==='self-seal-non-woven-bakery-bags') return [
     {file: productPresentations[bag.slug], kind: 'photograph'},
-    {file: 'packy/self-seal-non-woven-delivery-bags-new/bakery-colors.png', kind: 'photograph'},
-    {file: 'packy/self-seal-non-woven-delivery-bags-new/bakery-display.jpg', kind: 'photograph'},
-    {file: 'packy/self-seal-non-woven-delivery-bags-new/bakery-products.jpg', kind: 'photograph'},
-    {file: 'packy/self-seal-non-woven-delivery-bags-new/bakery-scene.jpg', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/bakery-colors.webp', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/bakery-display.webp', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/bakery-products.webp', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/bakery-scene.webp', kind: 'photograph'},
   ]
   if (bag.slug==='self-seal-non-woven-milk-tea-bags') return [
     {file: productPresentations[bag.slug], kind: 'photograph'},
-    {file: 'packy/self-seal-non-woven-delivery-bags-new/milk-tea-colors.png', kind: 'photograph'},
-    {file: 'packy/self-seal-non-woven-delivery-bags-new/milk-tea-drinks.jpg', kind: 'photograph'},
-    {file: 'packy/self-seal-non-woven-delivery-bags-new/milk-tea-scene.jpg', kind: 'photograph'},
-    {file: 'packy/self-seal-non-woven-delivery-bags-new/milk-tea-display.jpg', kind: 'photograph'},
-    {file: 'packy/self-seal-non-woven-delivery-bags-new/milk-tea-catering.jpg', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/milk-tea-colors.webp', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/milk-tea-drinks.webp', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/milk-tea-scene.webp', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/milk-tea-display.webp', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/milk-tea-catering.webp', kind: 'photograph'},
   ]
   if (bag.slug==='self-adhesive-foil-bags') return [
     {file: productPresentations[bag.slug], kind: 'photograph'},

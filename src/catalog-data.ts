@@ -30,9 +30,9 @@ export const usageOptions = [
 
 // These are development/selection directions, not validated performance claims.
 export const catalogDetails:Record<string,Partial<Bag>> = {
-  'zipper-insulated-bags':{category:'cooler',styles:['handle','zipper','basket'],uses:['thermal','supermarket','shopping'],image:'zipper-insulated-bags.jpg',source:'non-woven-cooler-bag-with-bottom-but-no-gusset.html'},
+  'zipper-insulated-bags':{category:'cooler',styles:['handle','zipper','basket'],uses:['thermal','supermarket','shopping'],image:'zipper-insulated-bags.webp',source:'non-woven-cooler-bag-with-bottom-but-no-gusset.html'},
   'hook-loop-insulated-bags':{category:'cooler',styles:['handle','other'],uses:['thermal','supermarket']},
-  'non-woven-bags':{category:'non-woven',styles:['handle','foldable','ultrasonic','drawstring','garment'],uses:['shopping','promotion','supermarket','shoe','suit'],image:'non-woven-bags.jpg',source:'non-woven-bag-111.html'},
+  'non-woven-bags':{category:'non-woven',styles:['handle','foldable','ultrasonic','drawstring','garment'],uses:['shopping','promotion','supermarket','shoe','suit'],image:'non-woven-bags.webp',source:'non-woven-bag-111.html'},
   'foil-insulated-bags':{category:'cooler',styles:['handle','zipper'],uses:['thermal','supermarket']},
   'epe-foam-insulated-bags':{category:'cooler',styles:['other'],uses:['thermal']},
   'ice-packs':{category:'cooler',styles:['other'],uses:['thermal']},
@@ -157,5 +157,5 @@ const entries:Entry[] = [
 export const extraBags:Bag[] = entries.map(e=>({
   slug:e.slug,category:e.category,name:e.name,short:e.name,intro:e.intro,material:e.material,use:e.use,
   group:'shopping',color:'#617b8c',type:'box',styles:e.styles,uses:e.uses,considerations:e.points,question:e.q,answer:e.a,
-  ...(e.source?{source:e.source,image:`${e.slug}.jpg`}:{}),
+  ...(e.source?{source:e.source,image:`${e.slug}.webp`}:{}),
 }))

@@ -48,7 +48,7 @@ export const photographedProducts:Bag[] = [
   },
 ]
 
-const customCoolerFile = (name:string) => `custom-insulated-bags/${name}.jpg`
+const customCoolerFile = (name:string) => `custom-insulated-bags/${name}.webp`
 const nonwovenDeliveryFile = (name:string) => `packy/self-seal-non-woven-delivery-bags-new/${name}`
 const createCustomCooler = (slug:string, enColor:string, zhColor:string, esColor:string, image:string, gallery:string[]=[]):Bag => ({
   slug,
@@ -98,10 +98,10 @@ export const additionalInsulatedBags:Bag[] = [
   createCustomCooler('iridescent-orange-insulated-cooler-bags','Iridescent Orange','炫彩橙','naranja iridiscente','iridescent-orange-insulated-cooler-bag',['iridescent-orange-insulated-cooler-bag-meal','iridescent-orange-insulated-cooler-bag-fresh-food','iridescent-orange-insulated-cooler-bag-bakery','iridescent-orange-insulated-cooler-bag-snacks']),
   createCustomCooler('iridescent-blue-insulated-cooler-bags','Iridescent Blue','炫彩蓝','azul iridiscente','iridescent-blue-insulated-cooler-bag',['iridescent-blue-insulated-cooler-bag-meal','iridescent-blue-insulated-cooler-bag-breakfast','iridescent-blue-insulated-cooler-bag-fresh-food','iridescent-blue-insulated-cooler-bag-bakery']),
   createCustomCooler('iridescent-pink-insulated-cooler-bags','Iridescent Pink','炫彩粉','rosa iridiscente','iridescent-pink-insulated-cooler-bag',['iridescent-pink-insulated-cooler-bag-produce','iridescent-pink-insulated-cooler-bag-meal','iridescent-pink-insulated-cooler-bag-dessert','iridescent-pink-insulated-cooler-bag-salad']),
-  createNonwovenDelivery('self-seal-non-woven-bakery-bags','Bakery','烘焙袋','bakery','bakery.jpg'),
-  createNonwovenDelivery('self-seal-non-woven-milk-tea-bags','Milk Tea','奶茶袋','milk tea','milk-tea.jpg'),
-  createNonwovenDelivery('self-seal-non-woven-cake-bags','Cake','蛋糕袋','cakes','cake.jpg'),
-  createNonwovenDelivery('self-seal-non-woven-food-service-bags','Food Service','餐饮袋','food service','dining-colors.jpg'),
+  createNonwovenDelivery('self-seal-non-woven-bakery-bags','Bakery','烘焙袋','bakery','bakery-from-jpg.webp'),
+  createNonwovenDelivery('self-seal-non-woven-milk-tea-bags','Milk Tea','奶茶袋','milk tea','milk-tea.webp'),
+  createNonwovenDelivery('self-seal-non-woven-cake-bags','Cake','蛋糕袋','cakes','cake.webp'),
+  createNonwovenDelivery('self-seal-non-woven-food-service-bags','Food Service','餐饮袋','food service','dining-colors.webp'),
 ]
 
 export const samplePhotoGalleries:Record<string,string[]> = {
@@ -127,9 +127,9 @@ export const sampleSectionPhotos:Record<string,Record<'application'|'detail'|'st
   'iridescent-orange-insulated-cooler-bags':{application:customCoolerFile('iridescent-orange-insulated-cooler-bag'),detail:customCoolerFile('iridescent-orange-insulated-cooler-bag'),structure:customCoolerFile('iridescent-orange-insulated-cooler-bag')},
   'iridescent-blue-insulated-cooler-bags':{application:customCoolerFile('iridescent-blue-insulated-cooler-bag'),detail:customCoolerFile('iridescent-blue-insulated-cooler-bag'),structure:customCoolerFile('iridescent-blue-insulated-cooler-bag')},
   'iridescent-pink-insulated-cooler-bags':{application:customCoolerFile('iridescent-pink-insulated-cooler-bag'),detail:customCoolerFile('iridescent-pink-insulated-cooler-bag'),structure:customCoolerFile('iridescent-pink-insulated-cooler-bag')},
-  'self-seal-non-woven-delivery-bags':{application:'packy/self-seal-non-woven-delivery-bags-new/food-service.png',detail:'packy/self-seal-non-woven-delivery-bags-new/meal-scenes.jpg',structure:'packy/self-seal-non-woven-delivery-bags-new/colors.jpg'},
-  'self-seal-non-woven-food-service-bags':{application:nonwovenDeliveryFile('dining-meals.jpg'),detail:nonwovenDeliveryFile('dining-food.jpg'),structure:nonwovenDeliveryFile('dining-colors.jpg')},
-  'self-seal-non-woven-bakery-bags':{application:nonwovenDeliveryFile('bakery-products.jpg'),detail:nonwovenDeliveryFile('bakery-display.jpg'),structure:nonwovenDeliveryFile('bakery-colors.png')},
-  'self-seal-non-woven-milk-tea-bags':{application:nonwovenDeliveryFile('milk-tea-drinks.jpg'),detail:nonwovenDeliveryFile('milk-tea-display.jpg'),structure:nonwovenDeliveryFile('milk-tea-colors.png')},
-  'self-seal-non-woven-cake-bags':{application:nonwovenDeliveryFile('cake-desserts.jpg'),detail:nonwovenDeliveryFile('cake-display.jpg'),structure:nonwovenDeliveryFile('cake-colors.jpg')},
+  'self-seal-non-woven-delivery-bags':{application:'packy/self-seal-non-woven-delivery-bags-new/food-service.webp',detail:'packy/self-seal-non-woven-delivery-bags-new/meal-scenes.webp',structure:'packy/self-seal-non-woven-delivery-bags-new/colors.webp'},
+  'self-seal-non-woven-food-service-bags':{application:nonwovenDeliveryFile('dining-meals.webp'),detail:nonwovenDeliveryFile('dining-food.webp'),structure:nonwovenDeliveryFile('dining-colors.webp')},
+  'self-seal-non-woven-bakery-bags':{application:nonwovenDeliveryFile('bakery-products.webp'),detail:nonwovenDeliveryFile('bakery-display.webp'),structure:nonwovenDeliveryFile('bakery-colors.webp')},
+  'self-seal-non-woven-milk-tea-bags':{application:nonwovenDeliveryFile('milk-tea-drinks.webp'),detail:nonwovenDeliveryFile('milk-tea-display.webp'),structure:nonwovenDeliveryFile('milk-tea-colors.webp')},
+  'self-seal-non-woven-cake-bags':{application:nonwovenDeliveryFile('cake-desserts.webp'),detail:nonwovenDeliveryFile('cake-display.webp'),structure:nonwovenDeliveryFile('cake-colors.webp')},
 }

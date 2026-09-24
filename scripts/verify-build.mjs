@@ -94,14 +94,14 @@ for (const file of files) {
     if(ownProduct.collection==='yuanen-photos-2026') {
       if (ownProduct.slug==='double-film-self-absorbing-ice-packs') {
         assert.equal(product.image.length,4,`Incomplete double-film gallery: ${relative}`)
-        assert(product.image[0].endsWith('/packy/double-film-self-absorbing-ice-packs-main.png'),`Incorrect double-film main image: ${relative}`)
-        assert(product.image[1].endsWith('/packy/double-film-self-absorbing-ice-packs-secondary.png'),`Incorrect double-film secondary image: ${relative}`)
-        assert(product.image[2].endsWith('/packy/double-film-self-absorbing-ice-packs-product-display.jpg'),`Incorrect double-film display image: ${relative}`)
-        assert(product.image[3].endsWith('/packy/double-film-self-absorbing-ice-packs-cooler-application.jpg'),`Incorrect double-film application image: ${relative}`)
+        assert(product.image[0].endsWith('/packy/double-film-self-absorbing-ice-packs-main.webp'),`Incorrect double-film main image: ${relative}`)
+        assert(product.image[1].endsWith('/packy/double-film-self-absorbing-ice-packs-secondary.webp'),`Incorrect double-film secondary image: ${relative}`)
+        assert(product.image[2].endsWith('/packy/double-film-self-absorbing-ice-packs-product-display.webp'),`Incorrect double-film display image: ${relative}`)
+        assert(product.image[3].endsWith('/packy/double-film-self-absorbing-ice-packs-cooler-application.webp'),`Incorrect double-film application image: ${relative}`)
       } else if (ownProduct.slug==='side-absorbing-ice-packs') {
         assert.equal(product.image.length,1+ownProduct.gallery.length,`Incomplete side-absorbing gallery: ${relative}`)
-        assert(product.image[0].endsWith('/packy/side-absorbing-ice-packs-main.jpg'),`Incorrect side-absorbing main image: ${relative}`)
-        assert(product.image[1].endsWith('/packy/side-absorbing-ice-packs-secondary.png'),`Incorrect side-absorbing second image: ${relative}`)
+        assert(product.image[0].endsWith('/packy/side-absorbing-ice-packs-main.webp'),`Incorrect side-absorbing main image: ${relative}`)
+        assert(product.image[1].endsWith('/packy/side-absorbing-ice-packs-secondary.webp'),`Incorrect side-absorbing second image: ${relative}`)
         assert(product.image[2].endsWith(ownProduct.gallery[1]),`Incorrect side-absorbing third photograph: ${relative}`)
       } else {
       assert.equal(product.image.length,1+ownProduct.gallery.length,`Incomplete real photo gallery: ${relative}`)
@@ -177,50 +177,50 @@ for (const file of files) {
         assert.deepEqual(product.image.map(url=>new URL(url).pathname),expectedSelfAdhesiveFoilImages,`Unexpected self-adhesive foil gallery: ${relative}`)
       } else if (selfSealNonWoven) {
         const expectedImages=[
-          '/images/products/packy/self-seal-non-woven-delivery-bags-new/delivery-main.jpg',
-          '/images/products/packy/self-seal-non-woven-delivery-bags-new/colors.jpg',
-          '/images/products/packy/self-seal-non-woven-delivery-bags-new/food-service.png',
-          '/images/products/packy/self-seal-non-woven-delivery-bags-new/meal-delivery.png',
-          '/images/products/packy/self-seal-non-woven-delivery-bags-new/bakery.png',
-          '/images/products/packy/self-seal-non-woven-delivery-bags-new/meal-scenes.jpg',
+          '/images/products/packy/self-seal-non-woven-delivery-bags-new/delivery-main.webp',
+          '/images/products/packy/self-seal-non-woven-delivery-bags-new/colors.webp',
+          '/images/products/packy/self-seal-non-woven-delivery-bags-new/food-service.webp',
+          '/images/products/packy/self-seal-non-woven-delivery-bags-new/meal-delivery.webp',
+          '/images/products/packy/self-seal-non-woven-delivery-bags-new/bakery-from-png.webp',
+          '/images/products/packy/self-seal-non-woven-delivery-bags-new/meal-scenes.webp',
         ]
         assert.deepEqual(product.image.map(url=>new URL(url).pathname),expectedImages,`Unexpected self-seal non-woven gallery: ${relative}`)
       } else if (newNonwovenVariant) {
         if (ownProduct.slug==='self-seal-non-woven-food-service-bags') {
           const expectedFoodServiceImages=[
-            '/images/products/packy/self-seal-non-woven-delivery-bags-new/main.jpg',
-            '/images/products/packy/self-seal-non-woven-delivery-bags-new/dining-meals.jpg',
-            '/images/products/packy/self-seal-non-woven-delivery-bags-new/dining-group.jpg',
-            '/images/products/packy/self-seal-non-woven-delivery-bags-new/dining-food.jpg',
-            '/images/products/packy/self-seal-non-woven-delivery-bags-new/dining-catering.jpg',
+            '/images/products/packy/self-seal-non-woven-delivery-bags-new/main.webp',
+            '/images/products/packy/self-seal-non-woven-delivery-bags-new/dining-meals.webp',
+            '/images/products/packy/self-seal-non-woven-delivery-bags-new/dining-group.webp',
+            '/images/products/packy/self-seal-non-woven-delivery-bags-new/dining-food.webp',
+            '/images/products/packy/self-seal-non-woven-delivery-bags-new/dining-catering.webp',
           ]
           assert.deepEqual(product.image.map(url=>new URL(url).pathname),expectedFoodServiceImages,`Unexpected food service bag gallery: ${relative}`)
         } else if (ownProduct.slug==='self-seal-non-woven-cake-bags') {
           const expectedCakeImages=[
-            '/images/products/packy/self-seal-non-woven-delivery-bags-new/cake.jpg',
-            '/images/products/packy/self-seal-non-woven-delivery-bags-new/cake-colors.jpg',
-            '/images/products/packy/self-seal-non-woven-delivery-bags-new/cake-desserts.jpg',
-            '/images/products/packy/self-seal-non-woven-delivery-bags-new/cake-display.jpg',
-            '/images/products/packy/self-seal-non-woven-delivery-bags-new/cake-celebration.jpg',
+            '/images/products/packy/self-seal-non-woven-delivery-bags-new/cake.webp',
+            '/images/products/packy/self-seal-non-woven-delivery-bags-new/cake-colors.webp',
+            '/images/products/packy/self-seal-non-woven-delivery-bags-new/cake-desserts.webp',
+            '/images/products/packy/self-seal-non-woven-delivery-bags-new/cake-display.webp',
+            '/images/products/packy/self-seal-non-woven-delivery-bags-new/cake-celebration.webp',
           ]
           assert.deepEqual(product.image.map(url=>new URL(url).pathname),expectedCakeImages,`Unexpected cake bag gallery: ${relative}`)
         } else if (ownProduct.slug==='self-seal-non-woven-bakery-bags') {
           const expectedBakeryImages=[
-            '/images/products/packy/self-seal-non-woven-delivery-bags-new/bakery.jpg',
-            '/images/products/packy/self-seal-non-woven-delivery-bags-new/bakery-colors.png',
-            '/images/products/packy/self-seal-non-woven-delivery-bags-new/bakery-display.jpg',
-            '/images/products/packy/self-seal-non-woven-delivery-bags-new/bakery-products.jpg',
-            '/images/products/packy/self-seal-non-woven-delivery-bags-new/bakery-scene.jpg',
+            '/images/products/packy/self-seal-non-woven-delivery-bags-new/bakery-from-jpg.webp',
+            '/images/products/packy/self-seal-non-woven-delivery-bags-new/bakery-colors.webp',
+            '/images/products/packy/self-seal-non-woven-delivery-bags-new/bakery-display.webp',
+            '/images/products/packy/self-seal-non-woven-delivery-bags-new/bakery-products.webp',
+            '/images/products/packy/self-seal-non-woven-delivery-bags-new/bakery-scene.webp',
           ]
           assert.deepEqual(product.image.map(url=>new URL(url).pathname),expectedBakeryImages,`Unexpected bakery bag gallery: ${relative}`)
         } else if (ownProduct.slug==='self-seal-non-woven-milk-tea-bags') {
           const expectedMilkTeaImages=[
-            '/images/products/packy/self-seal-non-woven-delivery-bags-new/milk-tea.jpg',
-            '/images/products/packy/self-seal-non-woven-delivery-bags-new/milk-tea-colors.png',
-            '/images/products/packy/self-seal-non-woven-delivery-bags-new/milk-tea-drinks.jpg',
-            '/images/products/packy/self-seal-non-woven-delivery-bags-new/milk-tea-scene.jpg',
-            '/images/products/packy/self-seal-non-woven-delivery-bags-new/milk-tea-display.jpg',
-            '/images/products/packy/self-seal-non-woven-delivery-bags-new/milk-tea-catering.jpg',
+            '/images/products/packy/self-seal-non-woven-delivery-bags-new/milk-tea.webp',
+            '/images/products/packy/self-seal-non-woven-delivery-bags-new/milk-tea-colors.webp',
+            '/images/products/packy/self-seal-non-woven-delivery-bags-new/milk-tea-drinks.webp',
+            '/images/products/packy/self-seal-non-woven-delivery-bags-new/milk-tea-scene.webp',
+            '/images/products/packy/self-seal-non-woven-delivery-bags-new/milk-tea-display.webp',
+            '/images/products/packy/self-seal-non-woven-delivery-bags-new/milk-tea-catering.webp',
           ]
           assert.deepEqual(product.image.map(url=>new URL(url).pathname),expectedMilkTeaImages,`Unexpected milk tea bag gallery: ${relative}`)
         } else {
@@ -234,7 +234,7 @@ for (const file of files) {
       const expectedGalleryCount=4+(addedGalleryCounts[ownProduct.slug]||0)-(segmentedIceSheets?0:waterFillIcePacks?4:selfAbsorbingIcePacks?3:0)
       const requiredVisualKinds=segmentedIceSheets?['application','detail']:waterFillIcePacks||selfAbsorbingIcePacks?[]:['application','detail','structure']
       assert.equal(product.image.length,expectedGalleryCount,`Unexpected gallery image count: ${relative}`)
-      const mainImageSuffix=waterFillIcePacks||selfAbsorbingIcePacks?`/packy/${ownProduct.slug}-main.png`:`/packy/${ownProduct.slug}-main.webp`
+      const mainImageSuffix=`/packy/${ownProduct.slug}-main.webp`
       assert(product.image[0].endsWith(mainImageSuffix),`Approved main image must stay first: ${relative}`)
       for (const kind of requiredVisualKinds) assert(product.image.some(url=>url.endsWith(`/packy/details-v2/${ownProduct.slug}-${kind}-v2.webp`)),`Missing product-specific ${kind}: ${relative}`)
       for (const original of [ownProduct.image,...ownProduct.gallery]) assert(!html.includes(`/images/products/${original}`),`Rejected catalog image still displayed: ${relative}`)
