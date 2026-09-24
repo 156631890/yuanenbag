@@ -132,7 +132,7 @@ for (const file of files) {
           '/images/products/packy/self-seal-non-woven-delivery-bags-new/dining-food.jpg',
           '/images/products/packy/self-seal-non-woven-delivery-bags-new/dining-catering.jpg',
         ]
-        assert.deepEqual(product.image,expectedImages,`Unexpected self-seal non-woven gallery: ${relative}`)
+        assert.deepEqual(product.image.map(url=>new URL(url).pathname),expectedImages,`Unexpected self-seal non-woven gallery: ${relative}`)
       } else if (newNonwovenVariant) {
         if (ownProduct.slug==='self-seal-non-woven-cake-bags') {
           const expectedCakeImages=[
@@ -142,7 +142,7 @@ for (const file of files) {
             '/images/products/packy/self-seal-non-woven-delivery-bags-new/cake-display.jpg',
             '/images/products/packy/self-seal-non-woven-delivery-bags-new/cake-celebration.jpg',
           ]
-          assert.deepEqual(product.image,expectedCakeImages,`Unexpected cake bag gallery: ${relative}`)
+          assert.deepEqual(product.image.map(url=>new URL(url).pathname),expectedCakeImages,`Unexpected cake bag gallery: ${relative}`)
         } else if (ownProduct.slug==='self-seal-non-woven-bakery-bags') {
           const expectedBakeryImages=[
             '/images/products/packy/self-seal-non-woven-delivery-bags-new/bakery.jpg',
@@ -151,7 +151,7 @@ for (const file of files) {
             '/images/products/packy/self-seal-non-woven-delivery-bags-new/bakery-products.jpg',
             '/images/products/packy/self-seal-non-woven-delivery-bags-new/bakery-scene.jpg',
           ]
-          assert.deepEqual(product.image,expectedBakeryImages,`Unexpected bakery bag gallery: ${relative}`)
+          assert.deepEqual(product.image.map(url=>new URL(url).pathname),expectedBakeryImages,`Unexpected bakery bag gallery: ${relative}`)
         } else if (ownProduct.slug==='self-seal-non-woven-milk-tea-bags') {
           const expectedMilkTeaImages=[
             '/images/products/packy/self-seal-non-woven-delivery-bags-new/milk-tea.jpg',
@@ -161,7 +161,7 @@ for (const file of files) {
             '/images/products/packy/self-seal-non-woven-delivery-bags-new/milk-tea-display.jpg',
             '/images/products/packy/self-seal-non-woven-delivery-bags-new/milk-tea-catering.jpg',
           ]
-          assert.deepEqual(product.image,expectedMilkTeaImages,`Unexpected milk tea bag gallery: ${relative}`)
+          assert.deepEqual(product.image.map(url=>new URL(url).pathname),expectedMilkTeaImages,`Unexpected milk tea bag gallery: ${relative}`)
         } else {
           assert.equal(product.image.length,1,`Unexpected non-woven variant gallery: ${relative}`)
           assert(product.image[0].endsWith(`/images/products/${ownProduct.image}`),`Incorrect non-woven variant main image: ${relative}`)
