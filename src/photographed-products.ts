@@ -49,6 +49,7 @@ export const photographedProducts:Bag[] = [
 ]
 
 const customCoolerFile = (name:string) => `custom-insulated-bags/${name}.jpg`
+const nonwovenDeliveryFile = (name:string) => `packy/self-seal-non-woven-delivery-bags-new/${name}`
 const createCustomCooler = (slug:string, enColor:string, zhColor:string, esColor:string, image:string, gallery:string[]=[]):Bag => ({
   slug,
   collection:'yuanen-2026',
@@ -69,6 +70,24 @@ const createCustomCooler = (slug:string, enColor:string, zhColor:string, esColor
   question:t('How do I order this insulated cooler bag?','如何采购这款保温包？','¿Cómo pedir esta bolsa térmica?'),
   answer:t('Send the packed product or box dimensions, preferred colour, quantity and artwork. Confirm the final structure, insulation, usable space and production terms with a sample and written quotation.','请提供装载产品或外盒尺寸、目标颜色、数量及图稿，并通过样品和正式报价确认最终结构、隔热层、可用空间与生产条件。','Envíe medidas del producto o caja, color, cantidad y diseño. Confirme estructura, aislamiento, espacio útil y condiciones con una muestra y cotización escrita.'),
 })
+const createNonwovenDelivery = (slug:string, enName:string, zhName:string, esName:string, image:string):Bag => ({
+  slug, collection:'yuanen-2026', catalogPage:10,
+  name:t(`${enName} self-seal non-woven insulated bags`,`自粘封口无纺布保温${zhName}`,`Bolsas térmicas no tejidas para ${esName} con cierre adhesivo`),
+  seoTitle:t(`${enName} Self-Seal Non-Woven Insulated Bags | YUANEN`,`自粘封口无纺布保温${zhName} | 远恩`,`Bolsas térmicas no tejidas para ${esName} | YUANEN`),
+  short:t(`${enName} self-seal insulated bags`,`自粘封口无纺布保温${zhName}`,`Bolsas térmicas para ${esName}`),
+  intro:t(`Self-seal non-woven insulated bags for ${esName}, with bonded handles and a gusseted shape for takeaway packaging. Confirm the loaded fit, material layers and artwork before ordering.`,`自粘封口无纺布保温${zhName}，搭配热压提手与立体侧褶结构，适合餐饮包装。下单前请确认装载空间、材料层结构与图稿。`,`Bolsas térmicas no tejidas con cierre adhesivo para ${esName}, asas termoselladas y fuelle lateral. Confirme ajuste, capas y diseño antes de pedir.`),
+  material:t('Laminated non-woven exterior, insulation, lining, self-seal flap and bonded handles','覆膜无纺布外层、隔热层、内衬、自粘封口与热压提手','Exterior no tejido laminado, aislamiento, forro, solapa adhesiva y asas termoselladas'),
+  use:t(`${enName} delivery · Takeaway · Branded packaging`,`${zhName}配送 · 外卖 · 品牌包装`,`Reparto de ${esName} · Comida para llevar · Embalaje de marca`),
+  group:'delivery',type:'cooler',category:'non-woven',color:'#d8d1bd',styles:['handle','ultrasonic'],uses:['thermal','promotion'],
+  image:nonwovenDeliveryFile(image),gallery:[],
+  considerations:[
+    t('Measure the packed product and confirm clearance for the flap, handles and side gusset.','测量装载后的产品尺寸，并确认封口、提手及侧褶的余量。','Mida el producto embalado y confirme holgura para solapa, asas y fuelle lateral.'),
+    t('Review the handle attachment, self-seal closure, lining and print area on a physical sample.','以实物样品核对提手连接、自粘封口、内衬与印刷区域。','Revise asas, cierre adhesivo, forro y área de impresión con una muestra física.'),
+    t('Confirm MOQ, sample cost, artwork and lead time in the written quotation.','在书面报价中确认起订量、样品费用、图稿与交期。','Confirme mínimo, muestra, diseño y plazo en la cotización escrita.'),
+  ],
+  question:t(`How do I order ${esName} self-seal insulated bags?`,`如何采购自粘封口无纺布保温${zhName}？`,`¿Cómo pedir bolsas térmicas para ${esName}?`),
+  answer:t('Send the packed product dimensions, quantity, preferred colour and artwork. Confirm the final size, structure and production terms with a sample and written quotation.','请提供装载产品尺寸、数量、目标颜色与图稿，并通过样品和书面报价确认最终尺寸、结构与生产条件。','Envíe medidas, cantidad, color y diseño. Confirme tamaño, estructura y condiciones con una muestra y cotización escrita.'),
+})
 
 export const additionalInsulatedBags:Bag[] = [
   createCustomCooler('coffee-insulated-cooler-bags','Coffee','咖啡色','café','coffee-insulated-cooler-bag',['coffee-insulated-cooler-bag-produce','coffee-insulated-cooler-bag-meal-box','coffee-insulated-cooler-bag-drinks','coffee-insulated-cooler-bag-picnic']),
@@ -79,6 +98,9 @@ export const additionalInsulatedBags:Bag[] = [
   createCustomCooler('iridescent-orange-insulated-cooler-bags','Iridescent Orange','炫彩橙','naranja iridiscente','iridescent-orange-insulated-cooler-bag',['iridescent-orange-insulated-cooler-bag-meal','iridescent-orange-insulated-cooler-bag-fresh-food','iridescent-orange-insulated-cooler-bag-bakery','iridescent-orange-insulated-cooler-bag-snacks']),
   createCustomCooler('iridescent-blue-insulated-cooler-bags','Iridescent Blue','炫彩蓝','azul iridiscente','iridescent-blue-insulated-cooler-bag',['iridescent-blue-insulated-cooler-bag-meal','iridescent-blue-insulated-cooler-bag-breakfast','iridescent-blue-insulated-cooler-bag-fresh-food','iridescent-blue-insulated-cooler-bag-bakery']),
   createCustomCooler('iridescent-pink-insulated-cooler-bags','Iridescent Pink','炫彩粉','rosa iridiscente','iridescent-pink-insulated-cooler-bag',['iridescent-pink-insulated-cooler-bag-produce','iridescent-pink-insulated-cooler-bag-meal','iridescent-pink-insulated-cooler-bag-dessert','iridescent-pink-insulated-cooler-bag-salad']),
+  createNonwovenDelivery('self-seal-non-woven-bakery-bags','Bakery','烘焙袋','bakery','bakery.jpg'),
+  createNonwovenDelivery('self-seal-non-woven-milk-tea-bags','Milk Tea','奶茶袋','milk tea','milk-tea.jpg'),
+  createNonwovenDelivery('self-seal-non-woven-cake-bags','Cake','蛋糕袋','cakes','cake.jpg'),
 ]
 
 export const samplePhotoGalleries:Record<string,string[]> = {
@@ -100,4 +122,8 @@ export const sampleSectionPhotos:Record<string,Record<'application'|'detail'|'st
   'iridescent-orange-insulated-cooler-bags':{application:customCoolerFile('iridescent-orange-insulated-cooler-bag'),detail:customCoolerFile('iridescent-orange-insulated-cooler-bag'),structure:customCoolerFile('iridescent-orange-insulated-cooler-bag')},
   'iridescent-blue-insulated-cooler-bags':{application:customCoolerFile('iridescent-blue-insulated-cooler-bag'),detail:customCoolerFile('iridescent-blue-insulated-cooler-bag'),structure:customCoolerFile('iridescent-blue-insulated-cooler-bag')},
   'iridescent-pink-insulated-cooler-bags':{application:customCoolerFile('iridescent-pink-insulated-cooler-bag'),detail:customCoolerFile('iridescent-pink-insulated-cooler-bag'),structure:customCoolerFile('iridescent-pink-insulated-cooler-bag')},
+  'self-seal-non-woven-delivery-bags':{application:'packy/self-seal-non-woven-delivery-bags-new/dining-meals.jpg',detail:'packy/self-seal-non-woven-delivery-bags-new/dining-food.jpg',structure:'packy/self-seal-non-woven-delivery-bags-new/dining-colors.jpg'},
+  'self-seal-non-woven-bakery-bags':{application:nonwovenDeliveryFile('bakery-products.jpg'),detail:nonwovenDeliveryFile('bakery-display.jpg'),structure:nonwovenDeliveryFile('bakery-colors.png')},
+  'self-seal-non-woven-milk-tea-bags':{application:nonwovenDeliveryFile('milk-tea-drinks.jpg'),detail:nonwovenDeliveryFile('milk-tea-display.jpg'),structure:nonwovenDeliveryFile('milk-tea-colors.png')},
+  'self-seal-non-woven-cake-bags':{application:nonwovenDeliveryFile('cake-desserts.jpg'),detail:nonwovenDeliveryFile('cake-display.jpg'),structure:nonwovenDeliveryFile('cake-colors.jpg')},
 }

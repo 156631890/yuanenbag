@@ -16,7 +16,10 @@ export const productPresentations: Record<string, string> = {
   "double-film-self-absorbing-ice-packs": "packy/double-film-self-absorbing-ice-packs-main.png",
   "self-absorbing-ice-packs": "packy/self-absorbing-ice-packs-main.png",
   "self-adhesive-foil-bags": "packy/self-adhesive-foil-bags-main.webp",
-  "self-seal-non-woven-delivery-bags": "packy/self-seal-non-woven-delivery-bags-main.webp",
+  "self-seal-non-woven-delivery-bags": "packy/self-seal-non-woven-delivery-bags-new/main.jpg",
+  "self-seal-non-woven-bakery-bags": "packy/self-seal-non-woven-delivery-bags-new/bakery.jpg",
+  "self-seal-non-woven-milk-tea-bags": "packy/self-seal-non-woven-delivery-bags-new/milk-tea.jpg",
+  "self-seal-non-woven-cake-bags": "packy/self-seal-non-woven-delivery-bags-new/cake.jpg",
   "square-zipper-cake-cooler": "packy/square-zipper-cake-cooler-main.webp",
   "upright-grocery-cooler": "packy/upright-grocery-cooler-main.webp",
   "water-fill-ice-packs": "packy/water-fill-ice-packs-main.png",
@@ -51,6 +54,41 @@ export function productImages(bag: Bag): ProductImage[] {
     {file: `packy/details-v2/${bag.slug}-application-v2.webp`, kind: 'application'},
     {file: `packy/details-v2/${bag.slug}-detail-v2.webp`, kind: 'material'},
     {file: 'packy/segmented-ice-sheets-cooler-application.png', kind: 'application'},
+  ]
+  if (bag.slug==='self-seal-non-woven-delivery-bags') return [
+    {file: productPresentations[bag.slug], kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/colors.jpg', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/food-service.png', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/meal-delivery.png', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/bakery.png', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/meal-scenes.jpg', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/dining-colors.jpg', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/dining-meals.jpg', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/dining-group.jpg', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/dining-food.jpg', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/dining-catering.jpg', kind: 'photograph'},
+  ]
+  if (bag.slug==='self-seal-non-woven-cake-bags') return [
+    {file: productPresentations[bag.slug], kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/cake-colors.jpg', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/cake-desserts.jpg', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/cake-display.jpg', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/cake-celebration.jpg', kind: 'photograph'},
+  ]
+  if (bag.slug==='self-seal-non-woven-bakery-bags') return [
+    {file: productPresentations[bag.slug], kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/bakery-colors.png', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/bakery-display.jpg', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/bakery-products.jpg', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/bakery-scene.jpg', kind: 'photograph'},
+  ]
+  if (bag.slug==='self-seal-non-woven-milk-tea-bags') return [
+    {file: productPresentations[bag.slug], kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/milk-tea-colors.png', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/milk-tea-drinks.jpg', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/milk-tea-scene.jpg', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/milk-tea-display.jpg', kind: 'photograph'},
+    {file: 'packy/self-seal-non-woven-delivery-bags-new/milk-tea-catering.jpg', kind: 'photograph'},
   ]
   if (productPresentations[bag.slug]) return [
     {file: productPresentations[bag.slug], kind: 'visualization'},
