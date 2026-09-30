@@ -2,7 +2,7 @@ import { collections, collectionFor, collectionProducts } from './collections'
 import { renderToString } from 'react-dom/server'
 import App from './App'
 import { productImages } from './product-media'
-import { commercialFAQ, commercialProfiles, stockSpecifications } from './commercial-data'
+import { commercialFAQ, productEnquiryFAQ, commercialProfiles, stockSpecifications } from './commercial-data'
 import { bags, brand, faq, guides, tx, languages, locales, type Lang } from './data'
 import { pages, href, resolveRoute } from './routes'
 import { materialCategories, styleOptions, usageOptions } from './catalog-data'
@@ -32,7 +32,7 @@ export function render(path = '/', indexable = false) {
   }
   if (page.type === 'home' || page.type === 'bag') {
     const bag = bags.find(b=>b.slug===page.slug)
-    const questions = bag ? [{q:bag.question,a:bag.answer},faq[2],commercialFAQ(bag.slug)||faq[3]] : faq
+    const questions = bag ? [{q:bag.question,a:bag.answer},productEnquiryFAQ(bag.slug)||faq[2],commercialFAQ(bag.slug)||faq[3]] : faq
     graph.push({'@type':'FAQPage',mainEntity:questions.map(item=>({'@type':'Question',name:item.q[lang],acceptedAnswer:{'@type':'Answer',text:item.a[lang]}}))})
   }
   if (page.type === 'guide') graph.push({'@type':'Article',headline:page.title[lang].split(' | ')[0],description:page.description[lang],inLanguage:locales[lang].tag,dateModified:'2026-09-22',author:{'@id':organization['@id']},publisher:{'@id':organization['@id']},mainEntityOfPage:{'@id':`${url}#webpage`}})

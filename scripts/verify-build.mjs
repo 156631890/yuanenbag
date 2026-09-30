@@ -253,6 +253,12 @@ for (const file of files) {
       for (const spec of stockSpecifications.filter(s=>s.group===profile.stocks)) assert(table.includes(spec.dimensions),`Missing stock dimension ${spec.dimensions}: ${relative}`)
       const faq=JSON.parse(json)['@graph'].find(item=>item['@type']==='FAQPage')
       for (const item of faq.mainEntity) assert(plain.includes(item.name) && plain.includes(item.acceptedAnswer.text),`FAQ schema differs from page: ${relative}`)
+      if (ownProduct.slug==='water-fill-ice-packs') {
+        const expectedQuestion={en:'What information is needed for a water-fill ice pack enquiry?',zh:'注水冰袋询盘需要提供哪些信息？',es:'¿Qué información se necesita para consultar sobre acumuladores rellenables?'}
+        const sizeRestriction={en:'customization is limited to printing, with no size changes',zh:'定制仅限印刷，不可更改尺寸',es:'la personalización se limita a la impresión, sin cambios de medidas'}
+        assert.equal(faq.mainEntity[1].name,expectedQuestion[language],`Water-fill enquiry FAQ must be product-specific: ${relative}`)
+        assert(faq.mainEntity[1].acceptedAnswer.text.includes(sizeRestriction[language]),`Water-fill enquiry FAQ must preserve fixed-size restriction: ${relative}`)
+      }
     }
   }
   const lang = relative.startsWith('/zh/')?'zh-CN':relative.startsWith('/es/')?'es':'en'
