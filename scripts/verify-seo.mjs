@@ -20,6 +20,14 @@ for(const lang of ['en','zh','es']){
    const expected=catalogAudit.bags.filter(b=>b.type===c.type&&(c.type!=='cooler'||b.category!=='non-woven'))
    const list=graph.find(v=>v['@type']==='CollectionPage').mainEntity
    assert.equal(list.numberOfItems,expected.length,`Wrong range count: ${path}`)
+   const enquiryBrief=visible.match(/<p class="foil-enquiry-brief">([\s\S]*?)<\/p>/)?.[1]
+   if(c.slug==='foil-insulated-packaging'){
+    assert(enquiryBrief,`Missing foil enquiry brief: ${path}`)
+    assert(enquiryBrief.includes(`href="${prefix}/guides/custom-bag-order-checklist/"`),`Wrong foil checklist language: ${path}`)
+    const text=decode(enquiryBrief.replace(/<[^>]+>/g,'')).replace(/\s+/g,' ')
+    const required={en:['order quantity','printing requirements','delivery destination','required arrival date','apply only to the products named there'],zh:['订单数量','印刷要求','交货目的地','要求到货日期','仅适用于清单中列明的产品'],es:['la cantidad','requisitos de impresión','destino de entrega','fecha de llegada requerida','solo a los productos indicados allí']}
+    for(const term of required[lang]) assert(text.includes(term),`Missing foil enquiry requirement ${term}: ${path}`)
+   } else assert(!enquiryBrief,`Foil enquiry brief leaked into another collection: ${path}`)
    assert.deepEqual(list.itemListElement.map(v=>v.url),expected.map(b=>`https://yuanenbag.com${prefix}/products/${b.slug}/`))
    assert(visible.includes('<table')&&visible.includes(decode(c.answer[lang]).replaceAll('&','&amp;')),`Missing range answer/comparison: ${path}`)
    for(const b of expected){

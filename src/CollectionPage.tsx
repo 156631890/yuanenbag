@@ -24,6 +24,10 @@ export default function CollectionPage({collection:c,lang}:{collection:Collectio
       <h2>{isEnglishCooler ? 'Prepare your custom cooler bag enquiry' : tx('Prepare your bulk order specification','准备批量采购规格','Prepare la especificación de compra')[lang]}</h2>
       {isEnglishCooler && <p>Choose a bag format above and send the dimensions of the items you plan to pack. Include the full cake box, meal container or grocery load, plus any coolant packs.</p>}
       <ol className="seo-checks">{checks.map(check=><li key={check}>{check}</li>)}</ol>
+      {c.slug==='foil-insulated-packaging' && <p className="foil-enquiry-brief">
+        {tx('For a bulk enquiry, send the selected format, usable dimensions, order quantity, printing requirements and delivery destination. Include artwork if printing is needed, and state your required arrival date.','批量询盘请提供所选袋型、可用尺寸、订单数量、印刷要求和交货目的地。需要印刷时请提供图稿，并说明要求到货日期。','Para una consulta de compra al por mayor, indique el formato elegido, las medidas útiles, la cantidad, los requisitos de impresión y el destino de entrega. Si necesita impresión, envíe el diseño e indique la fecha de llegada requerida.')[lang]}{' '}
+        {tx('Use the','请参照','Consulte la')[lang]}{' '}<a href={href('/guides/custom-bag-order-checklist/',lang)}>{tx('custom bag order checklist','定制袋采购清单','lista de compra de bolsas a medida')[lang]}</a>{tx(' to prepare the details; its quantity and lead-time examples apply only to the products named there.','准备资料；其中的数量和交期示例仅适用于清单中列明的产品。',' para preparar los detalles; los ejemplos de cantidades y plazos se aplican solo a los productos indicados allí.')[lang]}
+      </p>}
       {isEnglishCooler && <p>MOQ and timing depend on the selected bag and specification. The <a href={href('/guides/custom-bag-order-checklist/',lang)}>custom bag order checklist</a> explains what to prepare; its published quantity and lead-time examples apply only to the products named there.</p>}
       <div className="related-links">
         <a href={href(`/guides/${guide.slug}/`,lang)}>{guide.title[lang]} ↗</a>
