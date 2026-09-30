@@ -873,7 +873,7 @@ export const yuanenProducts:Bag[] = [
       "es": "Bolsa térmica vertical para supermercado"
     },
     "intro": {
-      "en": "Custom insulated grocery bags with a zipper, upright shape and carry handles for fresh-food and seafood packing. Specify logo printing and confirm product placement, coolant space and the finished sample before a bulk order.",
+      "en": "Custom insulated grocery bags with a zipper and carry handles for fresh-food and seafood packing. The upright design combines a non-woven exterior, EPE foam and foil lining. Send your packed dimensions and logo requirements, then confirm product fit, coolant space and handle attachment on a finished sample before placing a bulk order.",
       "zh": "立式拉链保温购物袋，适用于商超生鲜及包装海鲜。可按品牌沟通印刷，批量订购前确认商品摆放、冰源空间、提手结构与成品样品。",
       "es": "Bolsas térmicas personalizadas para la compra, con cremallera, formato vertical y asas. Para alimentos frescos y marisco envasado: confirme impresión, espacio para refrigerantes y muestra antes del pedido al por mayor."
     },
@@ -926,12 +926,12 @@ export const yuanenProducts:Bag[] = [
       }
     ],
     "question": {
-      "en": "What should I specify for upright grocery cooler tote?",
+      "en": "What measurements should I send for an upright grocery cooler bag?",
       "zh": "立式商超保温购物包询价时需要确认什么？",
       "es": "¿Qué debo especificar para bolsa térmica vertical para supermercado?"
     },
     "answer": {
-      "en": "Start with product placement, coolant space and handle attachment. Provide the packed product dimensions, quantity and destination. Confirm a sample and order-specific materials, closure and acceptance criteria before production.",
+      "en": "Measure the length, width and total height of the contents as they will sit inside the bag, including any outer packaging. Send the coolant pack dimensions and show where you plan to place them. Add the total packed weight and a photo or sketch of the layout so the bag dimensions, zipper opening and handle attachment can be reviewed on a sample.",
       "zh": "优先确认商品摆放、冰源空间与提手连接。同时提供内装物尺寸、采购数量与交货目的地，生产前通过样品确认订单对应的材质、封口与验收标准。",
       "es": "Empiece por: colocación del producto, espacio de frío y fijación de asas. Indique medidas del contenido, cantidad y destino. Antes de producir, confirme la muestra, los materiales, el cierre y los criterios de aceptación del pedido."
     },
