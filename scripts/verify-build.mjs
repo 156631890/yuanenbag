@@ -259,6 +259,19 @@ for (const file of files) {
         assert.equal(faq.mainEntity[1].name,expectedQuestion[language],`Water-fill enquiry FAQ must be product-specific: ${relative}`)
         assert(faq.mainEntity[1].acceptedAnswer.text.includes(sizeRestriction[language]),`Water-fill enquiry FAQ must preserve fixed-size restriction: ${relative}`)
       }
+      if (['self-absorbing-ice-packs','segmented-ice-sheets'].includes(ownProduct.slug)) {
+        const absorbing=ownProduct.slug==='self-absorbing-ice-packs'
+        const expectedQuestion=absorbing
+          ? {en:'What information is needed for a self-absorbing ice pack enquiry?',zh:'自吸水冰袋询盘需要提供哪些信息？',es:'¿Qué información se necesita para consultar sobre acumuladores autoabsorbentes?'}
+          : {en:'What information is needed for a segmented ice sheet enquiry?',zh:'分格冰片询盘需要提供哪些信息？',es:'¿Qué información se necesita para consultar sobre láminas de frío por celdas?'}
+        assert.equal(faq.mainEntity[1].name,expectedQuestion[language],`Ice enquiry FAQ must be product-specific: ${relative}`)
+        const answer=faq.mainEntity[1].acceptedAnswer.text.toLowerCase()
+        const common={en:['existing','order quantity','delivery destination','printing requirements','customization is limited to printing, with no size changes','sample pack-out test'],zh:['现有','订单数量','交货目的地','印刷要求','定制仅限印刷，不可更改尺寸','样品装箱测试'],es:['existente','cantidad del pedido','destino de entrega','requisitos de impresión','la personalización se limita a la impresión, sin cambios de medidas','ensayo de embalaje con muestras']}
+        const specific=absorbing
+          ? {en:['artwork','soaking, draining and freezing','filled pack dimensions'],zh:['图稿','吸水、沥水和冷冻','充盈后的冰袋尺寸'],es:['diseño','absorción, escurrido y congelación','medidas del acumulador lleno']}
+          : {en:['cell layout','sheet placement','approved cutting lines','do not open a filled cell'],zh:['分格布局','摆放冰片的位置','裁切线','不得切开已充盈的蓄冷格'],es:['distribución de celdas','colocación prevista','líneas de corte aprobadas','no abra una celda llena']}
+        for (const term of [...common[language],...specific[language]]) assert(answer.includes(term),`Missing ice enquiry requirement ${term}: ${relative}`)
+      }
     }
   }
   const lang = relative.startsWith('/zh/')?'zh-CN':relative.startsWith('/es/')?'es':'en'
