@@ -26,14 +26,14 @@ export function ReferenceNote({bag,lang}:{bag:Bag;lang:Lang}) {
 }
 
 export function ProductColourComparison({bag,lang}:{bag:Bag;lang:Lang}) {
-  const slugs=['red-insulated-cooler-bags','pink-insulated-cooler-bags']
+  const slugs=['coffee-insulated-cooler-bags','red-insulated-cooler-bags','pink-insulated-cooler-bags','yellow-insulated-cooler-bags','lake-blue-insulated-cooler-bags','iridescent-orange-insulated-cooler-bags','iridescent-blue-insulated-cooler-bags','iridescent-pink-insulated-cooler-bags']
   if(!slugs.includes(bag.slug))return null
   const designs=bags.filter(b=>slugs.includes(b.slug))
-  const title=tx('Compare red and pink designs','比较红色与粉色款','Compare los diseños rojo y rosa')[lang]
+  const title=tx('Compare photographed colour designs','比较实拍配色款','Compare diseños de color fotografiados')[lang]
   return <section className="product-colour-comparison" aria-labelledby="colour-comparison-title">
     <h2 id="colour-comparison-title">{title}</h2>
     <nav aria-label={title}>{designs.map(design=><a key={design.slug} href={href(`/products/${design.slug}/`,lang)} aria-current={design.slug===bag.slug?'page':undefined}>
-      <span>{design.short[lang]}<ArrowUpRight size={16} aria-hidden="true"/></span>
+      <span>{(design.colourName||design.short)[lang]}<ArrowUpRight size={16} aria-hidden="true"/></span>
       <small>{design.slug===bag.slug?tx('Current design','当前款式','Diseño actual')[lang]:tx('View design','查看款式','Ver diseño')[lang]}</small>
     </a>)}</nav>
     <p>{tx('Compare the catalogue images, then confirm dimensions, materials and order terms for your chosen design.','比较目录图片后，请按所选款式确认尺寸、材料和订购条件。','Compare las imágenes del catálogo y confirme las medidas, los materiales y las condiciones del diseño elegido.')[lang]}</p>

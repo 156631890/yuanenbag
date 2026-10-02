@@ -4,8 +4,29 @@ import { faq, guides, steps, tx, type Lang } from './data'
 import { href } from './routes'
 
 type Props = { lang: Lang }
+type Guide = (typeof guides)[number]
 const asset = (path: string) => `${import.meta.env.BASE_URL}images/${path}`
 const processIcons = ['select', 'specify', 'sample', 'produce', 'dispatch', 'support']
+
+export function GuideMeta({ lang, guide }: Props & { guide: Guide }) {
+  const date = new Intl.DateTimeFormat({ en: 'en-GB', zh: 'zh-CN', es: 'es' }[lang], {
+    year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC',
+  }).format(new Date(`${guide.dateModified}T00:00:00Z`))
+  return <p className="article-meta"><a href={href('/about/', lang)}>{tx('By YUANEN', '远恩编写', 'Por YUANEN')[lang]}</a> · {tx('Updated', '更新于', 'Actualizado')[lang]} <time dateTime={guide.dateModified}>{date}</time> · {tx('Buyer reference', '采购参考', 'Referencia de compra')[lang]}</p>
+}
+
+export function GuideSources({ lang }: Props) {
+  return <section className="guide-sources" aria-labelledby="guide-sources-title">
+    <h2 id="guide-sources-title">{tx('About this guide and its sources', '编写主体与资料来源', 'Autoría y fuentes de la guía')[lang]}</h2>
+    <p>{tx('YUANEN publishes this purchasing reference using its product catalogue, sample photographs and specification information. Confirm the construction and order terms for your selected product; this guide does not establish a tested cooling duration or certify a shipment.', '本采购参考由远恩根据产品目录、样品照片及规格资料整理。所选产品的结构和订购条件应另行确认；本文不能证明保冷时长，也不构成运输方案认证。', 'YUANEN publica esta referencia a partir de su catálogo, fotografías de muestras e información de especificaciones. Confirme la estructura y condiciones del producto elegido; la guía no acredita una duración de frío ni certifica un envío.')[lang]}</p>
+    <div className="related-links">
+      <a href={href('/about/', lang)}>{tx('About YUANEN', '了解远恩', 'Acerca de YUANEN')[lang]}<ArrowUpRight size={16}/></a>
+      <a href={href('/products/', lang)}>{tx('Product catalogue and sample photos', '产品目录与样品照片', 'Catálogo y fotos de muestras')[lang]}<ArrowUpRight size={16}/></a>
+      <a href={href('/quality/', lang)}>{tx('Document holders, dates and scope', '文件主体、日期与范围', 'Titulares, fechas y alcance de documentos')[lang]}<ArrowUpRight size={16}/></a>
+      <a href={href('/customization/', lang)}>{tx('Specification and sample approval', '规格与样品确认', 'Especificación y aprobación de muestras')[lang]}<ArrowUpRight size={16}/></a>
+    </div>
+  </section>
+}
 
 export function Process({ lang }: Props) {
   const t = (en: string, zh: string, es: string) => tx(en, zh, es)[lang]

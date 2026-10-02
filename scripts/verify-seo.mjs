@@ -40,8 +40,12 @@ for(const lang of ['en','zh','es']){
   }
   if(page.type==='bag') assert(visible.includes('seo-buying-links'),`Missing purchasing links: ${path}`)
   if(page.type==='guide'){
-   assert.equal(graph.find(v=>v['@type']==='Article').dateModified,'2026-09-22')
-   assert(visible.includes('2026')&&visible.includes('22'),`Missing visible update date: ${path}`)
+   const guide=seoAudit.guides.find(g=>g.slug===page.slug)
+   const article=graph.find(v=>v['@type']==='Article')
+   assert.equal(article.dateModified,guide.dateModified)
+   assert(visible.includes(`datetime="${guide.dateModified}"`),`Missing visible update date: ${path}`)
+   assert.equal(article.author['@id'],'https://yuanenbag.com/#organization')
+   assert(visible.includes('guide-sources')&&visible.includes(`href="${prefix}/about/"`),`Missing author/source context: ${path}`)
   }
   if(['catalog','home'].includes(page.type)) for(const c of seoAudit.collections) assert(visible.includes(`href="${prefix}/collections/${c.slug}/"`),`Missing crawlable category: ${path}`)
   const preview=render(path,false)

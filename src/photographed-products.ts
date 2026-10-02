@@ -52,6 +52,7 @@ const customCoolerFile = (name:string) => `custom-insulated-bags/${name}.webp`
 const nonwovenDeliveryFile = (name:string) => `packy/self-seal-non-woven-delivery-bags-new/${name}`
 const createCustomCooler = (slug:string, enColor:string, zhColor:string, esColor:string, image:string, gallery:string[]=[]):Bag => ({
   slug,
+  colourName:t(enColor,zhColor,esColor),
   collection:'yuanen-2026',
   catalogPage:10,
   name:t(`${enColor} bakery cooler bags with carry handles`,`${zhColor}烘焙保温包定制｜手提拉链款`,`Bolsas térmicas ${esColor} para pastelería con asas`),

@@ -26,7 +26,7 @@
 /* Crawlable range navigation and purchasing comparisons. */
 .product-colour-comparison{margin:28px 0;padding:22px;background:#f3f6f7;color:var(--navy)}
 .product-colour-comparison h2{font-size:20px;line-height:1.4;font-weight:550;margin:0 0 14px}
-.product-colour-comparison nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.product-colour-comparison nav{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
 .product-colour-comparison a{display:flex;flex-direction:column;justify-content:space-between;gap:8px;min-width:0;min-height:84px;padding:13px;border:1px solid #c5d5dd;text-decoration:none}
 .product-colour-comparison a>span{display:flex;justify-content:space-between;align-items:start;gap:8px;font-size:14px;line-height:1.5}
 .product-colour-comparison svg{flex-shrink:0;margin-top:2px}
@@ -35,7 +35,14 @@
 .product-colour-comparison a:hover{border-color:#36596d;background:#fff}
 .product-colour-comparison a:focus-visible{outline:2px solid #36596d;outline-offset:3px}
 .product-colour-comparison p{font-size:13px;line-height:1.8;margin:15px 0 0;color:#526b79}
-@media(max-width:650px){.product-colour-comparison{padding:18px}.product-colour-comparison nav{grid-template-columns:1fr}.product-colour-comparison a{min-height:72px}}
+@media(max-width:900px){.product-colour-comparison nav{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.product-colour-comparison{padding:18px}.product-colour-comparison a{min-height:72px}}
+.article-meta a{text-decoration:underline;text-underline-offset:3px}
+.guide-sources{margin:40px 0;padding:26px;background:var(--pale);border-left:3px solid var(--blue)}
+.guide-sources h2{font-size:24px;margin:0 0 16px}
+.guide-sources p{font-size:14px;line-height:1.8}
+.guide-sources .related-links{margin-bottom:0}
+@media(max-width:650px){.guide-sources{padding:22px 18px}}
 .seo-collection-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:28px 0 36px}
 .seo-collection-links a{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:20px 22px;border:1px solid #d7e0df;background:#f4f7f6;color:#163b3a;font-weight:600;line-height:1.5;text-decoration:none}
 .seo-collection-links a:hover{background:#e8f0ed;border-color:#789c8e}
