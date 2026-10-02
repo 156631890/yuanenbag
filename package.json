@@ -7,7 +7,7 @@
     "dev": "vite --host 127.0.0.1",
     "build": "node scripts/prepare-responsive-images.mjs && tsc --noEmit && vite build && vite build --ssr src/entry-server.tsx --outDir .ssr && node scripts/prerender.mjs",
     "preview": "node scripts/serve.mjs",
-    "verify": "node scripts/verify-build.mjs && node scripts/verify-seo.mjs && node --experimental-strip-types scripts/verify-analytics.mjs && node scripts/verify-responsive-images.mjs",
+    "verify": "node scripts/verify-build.mjs && node scripts/verify-seo.mjs && node --experimental-strip-types scripts/verify-analytics.mjs && node scripts/verify-responsive-images.mjs && node scripts/verify-critical-css.mjs",
     "typecheck": "tsc --noEmit",
     "images:responsive": "node scripts/prepare-responsive-images.mjs"
   },
@@ -33,6 +33,7 @@
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^6.1.1",
+    "beasties": "0.5.4",
     "sharp": "^0.35.4",
     "typescript": "^7.0.2",
     "vite": "^8.3.0"

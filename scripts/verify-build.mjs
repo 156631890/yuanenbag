@@ -302,7 +302,7 @@ for (const file of files) {
     const canonical = html.match(/rel="canonical" href="([^"]+)"/)?.[1]
     assert(canonical && !canonicals.has(canonical),`Missing or duplicate canonical: ${file}`)
     canonicals.add(canonical)
-    assert.equal((html.match(/hreflang=/g)||[]).length,4,`Missing language alternates: ${file}`)
+    assert.equal((html.match(/<link\b[^>]*\bhreflang=/g)||[]).length,4,`Missing language alternates: ${file}`)
     assert.equal(canonical,`https://yuanenbag.com${base}${relative}`,`Incorrect canonical: ${file}`)
     const route = relative.replace(/^\/(zh|es)(?=\/)/,'')
     for (const [tag,prefix] of [['en',''],['zh-CN','/zh'],['es','/es'],['x-default','']]) {

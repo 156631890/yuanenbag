@@ -43,3 +43,11 @@ Baseline: https://pagespeed.web.dev/analysis/https-yuanenbag-com/s5k7bewkxj?form
 All 138 sitemap URLs were checked with HTTP 200, unique titles and descriptions, one H1, self canonicals, and no noindex. Search Console inspection identified two discovered but unindexed ice-pack pages. The June 29–September 29 query/page result contained only three low-volume impressions, insufficient evidence to merge product variants for keyword cannibalization. Reinspect after Google recrawls; do not promise immediate indexing or rankings.
 
 Legacy category routes retain their existing language-specific destinations and change from temporary 307 to permanent 308. Verify these on Vercel after deployment; the local preview server does not emulate Vercel routes.
+
+## Initial styles
+
+Prerendering uses the pinned build-only Beasties dependency to inline styles matched by each page's HTML, including responsive rules. The complete shared stylesheet loads with `media="print"` and switches to `all` on load. A normal stylesheet inside `noscript` preserves styling when JavaScript is disabled. The shared stylesheet is not pruned.
+
+Always include client-rendered analytics consent styles and every `:has()` rule. The extractor does not reliably match these relational selectors; dropping them changed product-card padding and image heights during slow stylesheet delivery. Preserve their cascade order with the other extracted rules.
+
+`verify-critical-css.mjs` checks all 141 documents for initial header, consent and relational image styles, asynchronous loading and an existing no-JavaScript fallback. Browser acceptance should compare layout with the complete stylesheet blocked and loaded, then exercise mobile navigation and product galleries. Inline CSS increases HTML size, so confirm the net effect with a live mobile PageSpeed test after deployment. Field Core Web Vitals still require real-user data.
