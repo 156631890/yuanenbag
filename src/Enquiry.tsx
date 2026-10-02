@@ -5,9 +5,8 @@ import { href } from './routes'
 import { styleOptions, usageOptions } from './catalog-data'
 import { trackEnquiry } from './analytics'
 
-export default function Enquiry({lang}:{lang:Lang}) {
+export default function Enquiry({lang,bag,onBagChange}:{lang:Lang;bag:string;onBagChange:(value:string)=>void}) {
   const t=(en:string,zh:string,es?:string)=>tx(en,zh,es)[lang]
-  const [bag,setBag]=useState('')
   const [brief,setBrief]=useState('')
   const dialog=useRef<HTMLDialogElement>(null)
   const selectedBag=bags.find(item=>item.slug===bag)
@@ -19,7 +18,6 @@ export default function Enquiry({lang}:{lang:Lang}) {
   const dimensionExample=selectedBag?.type==='ice'
     ? t('e.g. W 15 × H 20 cm (empty)','例如 宽 15 × 高 20 cm（空袋）','p. ej. ancho 15 × alto 20 cm (vacío)')
     : t('e.g. W 380 × D 100 × H 400 mm (external)','例如 宽 380 × 深 100 × 高 400 mm（外尺寸）','p. ej. ancho 380 × fondo 100 × alto 400 mm (exterior)')
-  useEffect(()=>{const selected=new URLSearchParams(window.location.search).get('bag');if(selected&&bags.some(b=>b.slug===selected))setBag(selected)},[])
   useEffect(()=>{if(brief)dialog.current?.showModal()},[brief])
   function prepare(event:FormEvent<HTMLFormElement>) {
     event.preventDefault()
@@ -47,7 +45,7 @@ export default function Enquiry({lang}:{lang:Lang}) {
       <div className="field-row"><label>{t('Your name *','姓名 *')}<input name="name" autoComplete="name" required maxLength={80}/></label><label>{t('Work email *','工作邮箱 *')}<input name="email" type="email" autoComplete="email" required maxLength={160}/></label></div>
       <label>{t('Company','公司')}<input name="company" autoComplete="organization" maxLength={140}/></label>
       <div className="form-heading spaced"><span>02 — {t('YOUR PROJECT','项目需求')}</span></div>
-      <div className="field-row"><label>{t('Bag format *','袋型 *')}<select name="bag" value={bag} onChange={e=>setBag(e.target.value)} required><option value="">{t('Select a bag format','请选择袋型')}</option>{bags.map(b=><option key={b.slug} value={b.slug}>{b.short[lang]}</option>)}<option value="custom">{t('Other / help me choose','其他 / 需要选型建议')}</option></select></label><label>{t('Estimated quantity (pieces) *','预计数量（件）*')}<input name="quantity" type="number" min="1" step="1" max="100000000" required placeholder={t('e.g. 3000','例如 3000')}/></label></div>
+      <div className="field-row"><label>{t('Bag format *','袋型 *')}<select name="bag" value={bag} onChange={e=>onBagChange(e.target.value)} required><option value="">{t('Select a bag format','请选择袋型')}</option>{bags.map(b=><option key={b.slug} value={b.slug}>{b.short[lang]}</option>)}<option value="custom">{t('Other / help me choose','其他 / 需要选型建议')}</option></select></label><label>{t('Estimated quantity (pieces) *','预计数量（件）*')}<input name="quantity" type="number" min="1" step="1" max="100000000" required placeholder={t('e.g. 3000','例如 3000')}/></label></div>
       <div className="field-row"><label>{t('Requested style','期望袋型','Formato solicitado')}<select name="style"><option value="">{t('To discuss','待讨论')}</option>{styleOptions.map(([id,label])=><option key={id} value={id}>{label[lang]}</option>)}</select></label><label>{t('Intended use','预期用途','Uso previsto')}<select name="usage"><option value="">{t('To discuss','待讨论')}</option>{usageOptions.map(([id,label])=><option key={id} value={id}>{label[lang]}</option>)}</select></label></div>
       <div className="field-row"><label>{dimensionLabel}<input name="dimensions" maxLength={100} placeholder={dimensionExample}/></label><label>{t('Delivery country / region *','交货国家 / 地区 *')}<input name="destination" autoComplete="country-name" required maxLength={100}/></label></div>
       <label>{t('Tell us about your project *','详细需求 *')}<textarea name="details" rows={5} required minLength={10} maxLength={3000} placeholder={t('Materials, printing, intended use, target delivery date and any testing requirements…','材质、印刷、用途、目标交期及测试要求……')}/></label>
