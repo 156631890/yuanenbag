@@ -25,6 +25,21 @@ export function ReferenceNote({bag,lang}:{bag:Bag;lang:Lang}) {
   return <p className="reference-note">{tx('Design reference from TryingMePack. This is not a YUANEN production sample. Materials, branding and finished specifications are confirmed for your project.','图片为 TryingMePack 选款参考，并非远恩生产样品。材质、品牌图案及成品规格需按您的项目重新确认。','Diseño de referencia de TryingMePack; no es una muestra fabricada por YUANEN. Materiales, marca y especificaciones finales se confirman para su proyecto.')[lang]} <a href={`https://www.tryingmepack.com/products/${bag.source}`} target="_blank" rel="noreferrer">{tx('View reference','查看参考来源','Ver referencia')[lang]} ↗</a></p>
 }
 
+export function ProductColourComparison({bag,lang}:{bag:Bag;lang:Lang}) {
+  const slugs=['red-insulated-cooler-bags','pink-insulated-cooler-bags']
+  if(!slugs.includes(bag.slug))return null
+  const designs=bags.filter(b=>slugs.includes(b.slug))
+  const title=tx('Compare red and pink designs','比较红色与粉色款','Compare los diseños rojo y rosa')[lang]
+  return <section className="product-colour-comparison" aria-labelledby="colour-comparison-title">
+    <h2 id="colour-comparison-title">{title}</h2>
+    <nav aria-label={title}>{designs.map(design=><a key={design.slug} href={href(`/products/${design.slug}/`,lang)} aria-current={design.slug===bag.slug?'page':undefined}>
+      <span>{design.short[lang]}<ArrowUpRight size={16} aria-hidden="true"/></span>
+      <small>{design.slug===bag.slug?tx('Current design','当前款式','Diseño actual')[lang]:tx('View design','查看款式','Ver diseño')[lang]}</small>
+    </a>)}</nav>
+    <p>{tx('Compare the catalogue images, then confirm dimensions, materials and order terms for your chosen design.','比较目录图片后，请按所选款式确认尺寸、材料和订购条件。','Compare las imágenes del catálogo y confirme las medidas, los materiales y las condiciones del diseño elegido.')[lang]}</p>
+  </section>
+}
+
 export function SelectionDetails({bag,lang}:{bag:Bag;lang:Lang}) {
   return <div className="selection-details"><h2>{tx('Design directions to discuss','可沟通的开发方向','Opciones de diseño para consultar')[lang]}</h2><p>{tx('Use these options to prepare a brief. Material suitability, tooling and finished performance are reviewed during sampling.','以下方向用于准备需求；材料适配、工艺条件和成品表现需在打样时评估。','Use estas opciones para preparar el proyecto. La idoneidad del material, el proceso y las prestaciones se revisan con muestras.')[lang]}</p><div><strong>{tx('Formats','袋型','Formatos')[lang]}</strong><span>{styleOptions.filter(([id])=>bag.styles?.includes(id)).map(([,label])=>label[lang]).join(' · ')}</span></div><div><strong>{tx('Applications','用途','Aplicaciones')[lang]}</strong><span>{usageOptions.filter(([id])=>bag.uses?.includes(id)).map(([,label])=>label[lang]).join(' · ')}</span></div><a className="text-link" href={href('/guides/bag-material-comparison/',lang)}>{tx('Compare bag materials','比较包装袋材质','Comparar materiales de bolsas')[lang]} <ArrowUpRight size={16}/></a></div>
 }

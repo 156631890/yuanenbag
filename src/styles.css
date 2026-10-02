@@ -23,6 +23,18 @@
 @media(max-width:650px){.catalog-layout{grid-template-columns:1fr;gap:24px}.material-buttons{grid-template-columns:repeat(2,minmax(0,1fr));max-height:215px;overflow-y:auto;border-bottom:1px solid var(--line)}.material-buttons button{padding:10px 8px;font-size:11px;min-height:44px}.material-sidebar h2{font-size:16px;padding-bottom:12px}.catalog-filters{gap:12px}.catalog-results .product-grid{gap:12px}.catalog-results .bag-visual{height:170px}.catalog-results .bag-info{padding:13px 11px}.catalog-results .bag-info h3{font-size:14px}.material-label{font-size:8px}.product-reference{max-width:100%}.selection-details{padding:23px 20px}.selection-details>div{grid-template-columns:1fr;gap:5px}.reference-note{font-size:10px}.catalog-guide{padding:20px}.catalog-guide strong{font-size:20px}.material-index{padding-top:30px}}
 
 /* Crawlable range navigation and purchasing comparisons. */
+.product-colour-comparison{margin:28px 0;padding:22px;background:#f3f6f7;color:var(--navy)}
+.product-colour-comparison h2{font-size:20px;line-height:1.4;font-weight:550;margin:0 0 14px}
+.product-colour-comparison nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.product-colour-comparison a{display:flex;flex-direction:column;justify-content:space-between;gap:8px;min-width:0;min-height:84px;padding:13px;border:1px solid #c5d5dd;text-decoration:none}
+.product-colour-comparison a>span{display:flex;justify-content:space-between;align-items:start;gap:8px;font-size:14px;line-height:1.5}
+.product-colour-comparison svg{flex-shrink:0;margin-top:2px}
+.product-colour-comparison small{font-size:11px;line-height:1.5;color:#526b79}
+.product-colour-comparison a[aria-current="page"]{border-color:#36596d;background:#fff}
+.product-colour-comparison a:hover{border-color:#36596d;background:#fff}
+.product-colour-comparison a:focus-visible{outline:2px solid #36596d;outline-offset:3px}
+.product-colour-comparison p{font-size:13px;line-height:1.8;margin:15px 0 0;color:#526b79}
+@media(max-width:650px){.product-colour-comparison{padding:18px}.product-colour-comparison nav{grid-template-columns:1fr}.product-colour-comparison a{min-height:72px}}
 .seo-collection-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:28px 0 36px}
 .seo-collection-links a{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:20px 22px;border:1px solid #d7e0df;background:#f4f7f6;color:#163b3a;font-weight:600;line-height:1.5;text-decoration:none}
 .seo-collection-links a:hover{background:#e8f0ed;border-color:#789c8e}
