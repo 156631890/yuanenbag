@@ -10,21 +10,21 @@
       "headers": {
         "Location": "/products/"
       },
-      "status": 307
+      "status": 308
     },
     {
       "src": "/zh/products/(?:zipper-insulated-bags|hook-loop-insulated-bags|non-woven-bags|foil-insulated-bags|epe-foam-insulated-bags|ice-packs|pp-woven-bags|rpet-non-woven-bags|rpet-polyester-bags|polyester-bags|cotton-canvas-bags|reflective-bags|felt-bags|paper-washable-paper-bags|glitter-metallic-bags|tyvek-bags|pvc-tpu-bags|mesh-bags|jute-bags|bamboo-fiber-bags|leather-bags|other-custom-bags)/?",
       "headers": {
         "Location": "/zh/products/"
       },
-      "status": 307
+      "status": 308
     },
     {
       "src": "/es/products/(?:zipper-insulated-bags|hook-loop-insulated-bags|non-woven-bags|foil-insulated-bags|epe-foam-insulated-bags|ice-packs|pp-woven-bags|rpet-non-woven-bags|rpet-polyester-bags|polyester-bags|cotton-canvas-bags|reflective-bags|felt-bags|paper-washable-paper-bags|glitter-metallic-bags|tyvek-bags|pvc-tpu-bags|mesh-bags|jute-bags|bamboo-fiber-bags|leather-bags|other-custom-bags)/?",
       "headers": {
         "Location": "/es/products/"
       },
-      "status": 307
+      "status": 308
     },
     {
       "handle": "filesystem"

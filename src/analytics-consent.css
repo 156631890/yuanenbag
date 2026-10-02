@@ -1,0 +1,7 @@
+.analytics-consent{position:fixed;z-index:60;bottom:20px;left:20px;right:20px;max-width:720px;margin-inline:auto;padding:20px;background:white;border:1px solid var(--line);box-shadow:0 8px 30px #102f4c26;color:var(--navy)}
+.analytics-consent p{font-size:13px;margin:0 0 14px;line-height:1.65}
+.analytics-actions{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.analytics-actions .button{font-size:12px;min-height:44px;padding:11px 16px}
+.analytics-actions a{font-size:12px;text-decoration:underline}
+.analytics-settings{padding-bottom:20px}
+@media(max-width:650px){.analytics-consent{left:12px;right:12px;bottom:12px;padding:16px}.analytics-actions{gap:10px}}

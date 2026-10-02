@@ -1,0 +1,172 @@
+{
+  "images/products/packy/cold-chain-range.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "file": "images/responsive/e33219981ec0-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/e33219981ec0-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/e33219981ec0-1280.webp",
+        "width": 1280
+      },
+      {
+        "file": "images/products/packy/cold-chain-range.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "images/products/packy/segmented-ice-sheets-main.webp": {
+    "width": 1097,
+    "height": 1437,
+    "variants": [
+      {
+        "file": "images/responsive/4a1cb06b971f-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/4a1cb06b971f-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/packy/segmented-ice-sheets-main.webp",
+        "width": 1097
+      }
+    ]
+  },
+  "images/products/packy/self-adhesive-foil-bags-new/01.webp": {
+    "width": 1254,
+    "height": 1254,
+    "variants": [
+      {
+        "file": "images/responsive/3bc6e8eb26e2-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/3bc6e8eb26e2-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/packy/self-adhesive-foil-bags-new/01.webp",
+        "width": 1254
+      }
+    ]
+  },
+  "images/products/packy/upright-grocery-cooler-main.webp": {
+    "width": 1024,
+    "height": 1024,
+    "variants": [
+      {
+        "file": "images/responsive/2a04399bd4df-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/2a04399bd4df-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/packy/upright-grocery-cooler-main.webp",
+        "width": 1024
+      }
+    ]
+  },
+  "images/products/packy/square-zipper-cake-cooler-main.webp": {
+    "width": 1024,
+    "height": 1024,
+    "variants": [
+      {
+        "file": "images/responsive/49ac1ddd44d6-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/49ac1ddd44d6-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/packy/square-zipper-cake-cooler-main.webp",
+        "width": 1024
+      }
+    ]
+  },
+  "images/products/packy/wide-base-meal-cooler-main.webp": {
+    "width": 1024,
+    "height": 1024,
+    "variants": [
+      {
+        "file": "images/responsive/b9df747ae7b8-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/b9df747ae7b8-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/packy/wide-base-meal-cooler-main.webp",
+        "width": 1024
+      }
+    ]
+  },
+  "images/products/packy/self-seal-non-woven-delivery-bags-new/delivery-main.webp": {
+    "width": 1280,
+    "height": 1280,
+    "variants": [
+      {
+        "file": "images/responsive/d563f8a31ec6-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/d563f8a31ec6-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/packy/self-seal-non-woven-delivery-bags-new/delivery-main.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "images/products/packy/self-absorbing-ice-packs-main.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/d2c1804641de-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/d2c1804641de-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/packy/self-absorbing-ice-packs-main.webp",
+        "width": 800
+      }
+    ]
+  },
+  "images/factory/2026/longgang-production.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "file": "images/responsive/59557d3578b1-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/59557d3578b1-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/59557d3578b1-1280.webp",
+        "width": 1280
+      },
+      {
+        "file": "images/factory/2026/longgang-production.webp",
+        "width": 1672
+      }
+    ]
+  }
+}

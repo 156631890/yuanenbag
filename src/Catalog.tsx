@@ -3,11 +3,12 @@ import { bags, tx, type Bag, type Lang } from './data'
 import { materialCategories, styleOptions, usageOptions } from './catalog-data'
 import { href } from './routes'
 import BagDrawing from './BagDrawing'
+import { responsiveImage } from './responsive-images'
 
 import { productImages, imageSize, imageUrl, imageLabel, productPresentations } from './product-media'
 export function ProductMedia({bag,lang,detail=false}:{bag:Bag;lang:Lang;detail?:boolean}) {
   const photo=productImages(bag)[0]
-  return <>{photo ? <img className={`product-reference ${bag.collection?'own-product':''} ${photo.kind==='visualization'?'generated-product':''}`} src={imageUrl(photo.file)} alt={`${bag.short[lang]} — ${imageLabel(photo.kind,lang)}`} loading={detail?'eager':'lazy'} {...imageSize(photo.file)}/> : <BagDrawing bag={bag} lang={lang} dimensions={detail}/>}</>
+  return <>{photo ? <img className={`product-reference ${bag.collection?'own-product':''} ${photo.kind==='visualization'?'generated-product':''}`} src={imageUrl(photo.file)} alt={`${bag.short[lang]} — ${imageLabel(photo.kind,lang)}`} loading={detail?'eager':'lazy'} {...imageSize(photo.file)} {...responsiveImage(`images/products/${photo.file}`,detail?'(max-width:960px) calc(100vw - 36px), 50vw':'(max-width:650px) calc((100vw - 50px)/2), (max-width:960px) calc((100vw - 72px)/2), 400px')}/> : <BagDrawing bag={bag} lang={lang} dimensions={detail}/>}</>
 }
 export function ProductCard({bag,lang}:{bag:Bag;lang:Lang;index:number}) {
   const photo=productImages(bag)[0]

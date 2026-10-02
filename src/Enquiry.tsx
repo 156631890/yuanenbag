@@ -3,6 +3,7 @@ import { ArrowUpRight, Check, Download, Mail, X } from 'lucide-react'
 import { bags, brand, tx, type Lang } from './data'
 import { href } from './routes'
 import { styleOptions, usageOptions } from './catalog-data'
+import { trackEnquiry } from './analytics'
 
 export default function Enquiry({lang}:{lang:Lang}) {
   const t=(en:string,zh:string,es?:string)=>tx(en,zh,es)[lang]
@@ -24,6 +25,7 @@ export default function Enquiry({lang}:{lang:Lang}) {
     event.preventDefault()
     const data=new FormData(event.currentTarget)
     const labels:Record<string,string>={name:t('Name','姓名'),email:t('Email','邮箱'),company:t('Company','公司'),bag:t('Bag format','袋型'),style:t('Requested style','期望袋型','Formato solicitado'),usage:t('Intended use','预期用途','Uso previsto'),quantity:t('Quantity','数量'),dimensions:dimensionLabel,destination:t('Destination','目的地'),details:t('Project details','详细需求')}
+    trackEnquiry('enquiry_draft_prepared')
     const lines=Object.entries(labels).map(([key,label])=>{
       let value=String(data.get(key)||'').trim()
       if(key==='style')value=styleOptions.find(([id])=>id===value)?.[1][lang]||t('To discuss','待讨论')
@@ -34,6 +36,7 @@ export default function Enquiry({lang}:{lang:Lang}) {
     setBrief(`YUANEN — ${t('CUSTOM BAG ENQUIRY','包装袋定制需求单')}\n\n${lines.join('\n\n')}\n\n${t('Draft only. This file has not been sent. Final specifications, pricing and availability require confirmation.','仅为需求草稿，尚未发送。最终规格、报价与供应情况需要确认。')}`)
   }
   function download() {
+    trackEnquiry('enquiry_brief_download')
     const url=URL.createObjectURL(new Blob(['\uFEFF'+brief],{type:'text/plain;charset=utf-8'}))
     const a=document.createElement('a');a.href=url;a.download=`yuanen-enquiry-${lang}.txt`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)
   }
@@ -52,6 +55,6 @@ export default function Enquiry({lang}:{lang:Lang}) {
       <button className="button primary" type="submit">{t('Prepare my enquiry','生成询价需求单')}<ArrowUpRight size={18}/></button>
       <p className="form-note">{brand.email?t('Review your brief before opening your email app. Nothing is sent automatically.','核对需求后可打开邮件应用，网站不会自动发送。'):t('Downloadable enquiry brief. Online delivery is not available yet; your details stay in this page.','当前支持下载需求单，在线发送尚未启用；填写的信息仅保留在当前页面。')}</p>
     </form>
-    <dialog ref={dialog} className="brief-dialog" onClose={()=>setBrief('')} aria-labelledby="brief-title"><button className="icon-button close-dialog" onClick={()=>dialog.current?.close()} aria-label={t('Close','关闭')}><X/></button><div className="success-icon"><Check/></div><h2 id="brief-title">{t('Your brief is ready.','需求单已生成。')}</h2><p>{t('Review and save your draft. It has not been sent.','请核对并保存草稿。需求单尚未发送。')}</p><textarea aria-label={t('Enquiry draft','询价草稿')} value={brief} readOnly rows={13}/><div className="button-row"><button className="button primary" onClick={download}><Download size={18}/>{t('Download brief','下载需求单')}</button>{brand.email&&<a className="button outline" href={`mailto:${brand.email}?subject=${encodeURIComponent(t('Custom bag enquiry — YUANEN','包装袋定制询价 — 远恩'))}&body=${encodeURIComponent(brief)}`}><Mail size={18}/>{t('Open email app','打开邮件应用')}</a>}</div></dialog>
+    <dialog ref={dialog} className="brief-dialog" onClose={()=>setBrief('')} aria-labelledby="brief-title"><button className="icon-button close-dialog" onClick={()=>dialog.current?.close()} aria-label={t('Close','关闭')}><X/></button><div className="success-icon"><Check/></div><h2 id="brief-title">{t('Your brief is ready.','需求单已生成。')}</h2><p>{t('Review and save your draft. It has not been sent.','请核对并保存草稿。需求单尚未发送。')}</p><textarea aria-label={t('Enquiry draft','询价草稿')} value={brief} readOnly rows={13}/><div className="button-row"><button className="button primary" onClick={download}><Download size={18}/>{t('Download brief','下载需求单')}</button>{brand.email&&<a className="button outline" onClick={()=>trackEnquiry('enquiry_email_open')} href={`mailto:${brand.email}?subject=${encodeURIComponent(t('Custom bag enquiry — YUANEN','包装袋定制询价 — 远恩'))}&body=${encodeURIComponent(brief)}`}><Mail size={18}/>{t('Open email app','打开邮件应用')}</a>}</div></dialog>
   </div>
 }

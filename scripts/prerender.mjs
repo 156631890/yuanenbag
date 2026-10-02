@@ -3,12 +3,14 @@ import { resolve, dirname } from 'node:path'
 import { render, paths, notFoundPaths } from '../.ssr/entry-server.js'
 import { loadEnv } from 'vite'
 import { isIndexable } from './indexing.mjs'
+import { analyticsMeasurementId } from './analytics-config.mjs'
 
 const template = await readFile(new URL('../dist/index.html', import.meta.url), 'utf8')
 if (!template.includes('<!--app-html-->')) throw new Error('Missing prerender placeholder')
 if (!template.includes('<!--page-head-->')) throw new Error('Missing metadata placeholder')
 const env = {...loadEnv('production',process.cwd(),'SITE_'),...process.env}
 const indexable = isIndexable(env)
+const measurementId = analyticsMeasurementId(env)
 const base = (env.SITE_BASE_PATH || '/').replace(/\/$/, '')
 const urls = []
 for (const path of [...paths, ...notFoundPaths]) {
@@ -17,7 +19,7 @@ for (const path of [...paths, ...notFoundPaths]) {
   const isNotFound = notFoundPaths.includes(path)
   const target = isNotFound ? resolve('dist', `.${relative.replace(/404\/$/,'404.html')}`) : resolve('dist', `.${relative}`, 'index.html')
   await mkdir(dirname(target), {recursive:true})
-  await writeFile(target, template.replace('lang="en"', `lang="${result.lang}"`).replace('<!--page-head-->', result.head).replace('<!--app-html-->', result.html))
+  await writeFile(target, template.replace('lang="en"', `lang="${result.lang}"`).replace('<!--page-head-->', result.head + (!isNotFound && measurementId ? `\n    <meta name="ga4-measurement-id" content="${measurementId}" />` : '')).replace('<!--app-html-->', result.html))
   if (!isNotFound) urls.push(result.url)
 }
 const site = new URL(urls[0]).origin
