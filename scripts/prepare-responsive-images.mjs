@@ -9,6 +9,7 @@ for (const { source, file, left, top, width, height } of Object.values(crops)) {
 }
 const standardized = JSON.parse(await readFile('src/standardized-product-images.json', 'utf8'))
 const sources = [...new Set([
+  'images/brand/yuanen-logo.png',
   'images/products/packy/cold-chain-range.webp',
   'images/products/packy/segmented-ice-sheets-main.webp',
   'images/products/packy/self-adhesive-foil-bags-new/01.webp',
@@ -46,7 +47,7 @@ await mkdir('public/images/responsive', { recursive: true })
 for (const source of sources) {
   const input = await readFile(`public/${source}`)
   const { width, height } = await sharp(input).metadata()
-  const quality = source.startsWith('images/documents/') ? 88 : source.startsWith('images/factory/') ? 80 : 82
+  const quality = source.startsWith('images/brand/') ? 90 : source.startsWith('images/documents/') ? 88 : source.startsWith('images/factory/') ? 80 : 82
   const variants = []
   for (const size of [...[96, 192, 384, 640, 768, 960, 1280, 1600].filter(size => size < width), width]) {
     const output = await sharp(input).resize({ width: size, withoutEnlargement: true }).webp({ quality }).toBuffer()

@@ -1,4 +1,30 @@
 {
+  "images/brand/yuanen-logo.png": {
+    "width": 768,
+    "height": 159,
+    "variants": [
+      {
+        "file": "images/responsive/462bce8164aa-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/f63d02aad1ff-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/dd4cc268c1b7-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/03f4191796ed-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/c4205d4844f6-768.webp",
+        "width": 768
+      }
+    ]
+  },
   "images/products/packy/cold-chain-range.webp": {
     "width": 1536,
     "height": 1024,
