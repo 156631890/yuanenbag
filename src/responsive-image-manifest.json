@@ -4,23 +4,35 @@
     "height": 1024,
     "variants": [
       {
-        "file": "images/responsive/e33219981ec0-96.webp",
+        "file": "images/responsive/74a8d539f0cf-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/e33219981ec0-384.webp",
+        "file": "images/responsive/de9da8a6131a-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/81c1602cf227-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/e33219981ec0-768.webp",
+        "file": "images/responsive/4d5581a6d952-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/3c296feaac89-768.webp",
         "width": 768
       },
       {
-        "file": "images/responsive/e33219981ec0-1280.webp",
+        "file": "images/responsive/f052e56d0c3b-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/09615298cf55-1280.webp",
         "width": 1280
       },
       {
-        "file": "images/products/packy/cold-chain-range.webp",
+        "file": "images/responsive/e08605421033-1536.webp",
         "width": 1536
       }
     ]
@@ -30,19 +42,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/584c583e2d2d-96.webp",
+        "file": "images/responsive/3625134e007a-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/584c583e2d2d-384.webp",
+        "file": "images/responsive/eb52f8c46887-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/8989e1dce9a2-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/584c583e2d2d-768.webp",
+        "file": "images/responsive/d81a72b4407a-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/5ad9a36e9636-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/segmented-ice-sheets-main.webp",
+        "file": "images/responsive/a9b810e450aa-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/5aeb4b3b7f97-1200.webp",
         "width": 1200
       }
     ]
@@ -52,19 +76,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/67739ca14d0a-96.webp",
+        "file": "images/responsive/3ad3ad269ddf-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/67739ca14d0a-384.webp",
+        "file": "images/responsive/86425581422d-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/e18914df3430-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/67739ca14d0a-768.webp",
+        "file": "images/responsive/30abdc1c0848-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/a29d3d466d93-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-adhesive-foil-bags-new/01.webp",
+        "file": "images/responsive/8cf22f77bee0-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/c60ac34d12b9-1200.webp",
         "width": 1200
       }
     ]
@@ -74,19 +110,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/ff59802a021f-96.webp",
+        "file": "images/responsive/f70498badd1a-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/ff59802a021f-384.webp",
+        "file": "images/responsive/a3eb3014e289-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/57c0f8d90a26-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/ff59802a021f-768.webp",
+        "file": "images/responsive/a6f60db41f42-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/208058fb1679-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/upright-grocery-cooler-main.webp",
+        "file": "images/responsive/344af4be4b8b-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/857205c0c824-1200.webp",
         "width": 1200
       }
     ]
@@ -96,19 +144,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/c78bdd098580-96.webp",
+        "file": "images/responsive/f672586d8bee-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/c78bdd098580-384.webp",
+        "file": "images/responsive/f396850038ff-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/56e3f4377bfc-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/c78bdd098580-768.webp",
+        "file": "images/responsive/35e162861dbc-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/8e0433f094e0-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/square-zipper-cake-cooler-main.webp",
+        "file": "images/responsive/0cdbc76c8d80-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/8b25703c5c13-1200.webp",
         "width": 1200
       }
     ]
@@ -118,19 +178,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/f51ec2d851b3-96.webp",
+        "file": "images/responsive/37ed7dbf964d-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/f51ec2d851b3-384.webp",
+        "file": "images/responsive/86ac435faaaf-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/a9c057edfc1b-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/f51ec2d851b3-768.webp",
+        "file": "images/responsive/a33020e74816-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/4b5dac13792e-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/wide-base-meal-cooler-main.webp",
+        "file": "images/responsive/87128eea0447-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/81502e9cf66b-1200.webp",
         "width": 1200
       }
     ]
@@ -140,19 +212,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/e26270d93d58-96.webp",
+        "file": "images/responsive/f8fe131f1eed-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/e26270d93d58-384.webp",
+        "file": "images/responsive/e9a48827d6cc-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/5f253df1304e-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/e26270d93d58-768.webp",
+        "file": "images/responsive/9cf460736791-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/ffdda419b0cb-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/delivery-main.webp",
+        "file": "images/responsive/16426f324019-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/be29bae3e579-1200.webp",
         "width": 1200
       }
     ]
@@ -162,19 +246,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/639cffa59a1e-96.webp",
+        "file": "images/responsive/6e8cdc9f5a76-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/639cffa59a1e-384.webp",
+        "file": "images/responsive/5c261d45cc6b-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/74fb0dd51a71-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/639cffa59a1e-768.webp",
+        "file": "images/responsive/aeb437a5c00a-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/aa82692bad31-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-absorbing-ice-packs-main.webp",
+        "file": "images/responsive/62a4d35a4b31-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/c43201e5dceb-1200.webp",
         "width": 1200
       }
     ]
@@ -184,23 +280,39 @@
     "height": 941,
     "variants": [
       {
-        "file": "images/responsive/59557d3578b1-96.webp",
+        "file": "images/responsive/248e19ecb39f-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/59557d3578b1-384.webp",
+        "file": "images/responsive/4574503f4211-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/d341df19a0a6-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/59557d3578b1-768.webp",
+        "file": "images/responsive/1ab4ee7e4d59-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/b9f90c533e50-768.webp",
         "width": 768
       },
       {
-        "file": "images/responsive/59557d3578b1-1280.webp",
+        "file": "images/responsive/d5bd2bef11a3-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/8f0b8e001e73-1280.webp",
         "width": 1280
       },
       {
-        "file": "images/factory/2026/longgang-production.webp",
+        "file": "images/responsive/5cbeffa896de-1600.webp",
+        "width": 1600
+      },
+      {
+        "file": "images/responsive/86e41fdcd4f1-1672.webp",
         "width": 1672
       }
     ]
@@ -210,24 +322,766 @@
     "height": 1350,
     "variants": [
       {
-        "file": "images/responsive/822eab143f73-96.webp",
+        "file": "images/responsive/897ab88a6fce-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/822eab143f73-384.webp",
+        "file": "images/responsive/3ada20851978-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/91a1dc7e2b62-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/822eab143f73-768.webp",
+        "file": "images/responsive/0f46c7af50eb-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/afb366894895-768.webp",
         "width": 768
       },
       {
-        "file": "images/responsive/822eab143f73-1280.webp",
+        "file": "images/responsive/27d957390aa2-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/734aa9077ada-1280.webp",
         "width": 1280
       },
       {
-        "file": "images/factory/2026/customization-insulation-processing.webp",
+        "file": "images/responsive/4f082e01a4a9-1600.webp",
+        "width": 1600
+      },
+      {
+        "file": "images/responsive/34e634504365-1800.webp",
         "width": 1800
+      }
+    ]
+  },
+  "images/factory/2026/longgang-converting.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "file": "images/responsive/a5bc28c72773-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/b0ef8263e3b5-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/fa2644c627b1-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/d9a88dacbfb1-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/f007744da10f-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/4758c3fca9cb-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/5251a81314f6-1280.webp",
+        "width": 1280
+      },
+      {
+        "file": "images/responsive/f58760b1a129-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "images/factory/2026/longgang-machinery.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "file": "images/responsive/8ec8cedf3946-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/e3f3cef5fe26-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/6463171654a9-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/eae8e5f7563b-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/a361cd2fc9e4-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/57e259c337d3-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/09cae61da0c3-1280.webp",
+        "width": 1280
+      },
+      {
+        "file": "images/responsive/8999ec5e3da0-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "images/factory/2026/longgang-quality.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "file": "images/responsive/d52eeb8528b4-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/d97bf4585ed8-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/11c14c010175-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/7541126f9ebe-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/262662b6c218-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/a298c9e588d5-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/96ad98248adc-1280.webp",
+        "width": 1280
+      },
+      {
+        "file": "images/responsive/d459bd2d6807-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "images/factory/2026/longgang-warehouse.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "file": "images/responsive/a6f8ff65876e-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/3ce9e4551a89-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/701efb6a4a31-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/db906a315d40-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/7bdf49a483fe-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/a40cd272c850-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/91997f145794-1280.webp",
+        "width": 1280
+      },
+      {
+        "file": "images/responsive/6af13c00d3ac-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "images/factory/2026/taizhou-materials.webp": {
+    "width": 1800,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/0681bd3cac6d-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/ac84e24a7fc2-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/21023e7da421-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/a6002a8fbfac-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/1cf0b345121d-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/e9d8af4a4363-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/f6cacbe3fb3c-1280.webp",
+        "width": 1280
+      },
+      {
+        "file": "images/responsive/4ec8972615c2-1600.webp",
+        "width": 1600
+      },
+      {
+        "file": "images/responsive/ae0ce9375542-1800.webp",
+        "width": 1800
+      }
+    ]
+  },
+  "images/factory/2026/taizhou-production.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "file": "images/responsive/e828767e52c1-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/042d3f7354a8-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/c752650b8de8-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/1f91d775202d-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/c35b84a42f10-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/2a123309a7ad-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/434a5ade9352-1280.webp",
+        "width": 1280
+      },
+      {
+        "file": "images/responsive/d6159ed7f3c6-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "images/factory/2026/taizhou-storage.webp": {
+    "width": 1800,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/3947ce01cf56-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/bf7df92da716-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/6e242336b25e-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/904de293b661-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/a0d763618441-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/e45f1e7ca22e-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/85bef092fdc7-1280.webp",
+        "width": 1280
+      },
+      {
+        "file": "images/responsive/82f928b4bf63-1600.webp",
+        "width": 1600
+      },
+      {
+        "file": "images/responsive/4e6968d08d02-1800.webp",
+        "width": 1800
+      }
+    ]
+  },
+  "images/products/packy/delivery-application.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "file": "images/responsive/bb10adf81d78-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/60af8b941232-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/668edb25ab85-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/4d475190a8ee-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/4dd4dfa7af78-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/400f303cb70f-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/7805020d5dce-1280.webp",
+        "width": 1280
+      },
+      {
+        "file": "images/responsive/26f6e2133b06-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "images/products/packy/bakery-application.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "file": "images/responsive/df0b44c7321e-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/d075c316daf8-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/846ba49c7971-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/49cfba6f8b4b-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/b3d0732d3901-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/788c805eba40-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/7def4f64b718-1280.webp",
+        "width": 1280
+      },
+      {
+        "file": "images/responsive/f8cf2f53f34c-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "images/ui/packy/guide-materials.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/7eab878469cf-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/1a1f0d38bf24-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/ea1e94180aec-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/a64ba5ff18b5-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/619d04d61f2a-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/b3468ebeff69-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/12e195f6a1e4-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/ui/packy/guide-specification.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/456e6dc8b60a-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/4a9e8eb28b19-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/9282bee41d62-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/c46e5a04f474-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/10ac3c456b5a-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/9dee49dbc45e-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/c7a07d014eb8-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/ui/packy/guide-order.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/971a050d14f2-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/0515fcf3b3d7-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/f4e69f19f32c-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/d7531c6f3009-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/ac2e40677f65-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/a9d1b909e1ba-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/aaa99567db8d-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/ui/packy/faq-support.webp": {
+    "width": 600,
+    "height": 400,
+    "variants": [
+      {
+        "file": "images/responsive/54199564c352-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/6bcf8acbe614-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/cc645295c313-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/3ee5bb1be079-600.webp",
+        "width": 600
+      }
+    ]
+  },
+  "images/documents/bsci-factory-audit.webp": {
+    "width": 1200,
+    "height": 1697,
+    "variants": [
+      {
+        "file": "images/responsive/bcff292a658a-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/59a53d0c612a-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/8025ac8dae3a-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/17eeb16618f4-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/a49c155a199a-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/8dfd6bcb5107-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/518dbbcec2eb-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/documents/cotton-linen-lead.webp": {
+    "width": 1200,
+    "height": 1697,
+    "variants": [
+      {
+        "file": "images/responsive/8c05b124602e-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/9560ca6254da-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/d4a99843c48c-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/e7546bc917bc-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/278ee33ca490-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/c978d6b32b9e-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/2efa6854a570-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/documents/nonwoven-heavy-metals.webp": {
+    "width": 1200,
+    "height": 1697,
+    "variants": [
+      {
+        "file": "images/responsive/a4fafd54331b-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/417e63e60427-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/0ed195b227f6-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/e1ac20bd745e-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/b391d4565d74-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/68ae53fb6570-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/4f7ea92fecd0-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/documents/oeko-tex-cotton-fabric.webp": {
+    "width": 1200,
+    "height": 1697,
+    "variants": [
+      {
+        "file": "images/responsive/581392870b9b-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/6cf07454bc7d-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/5ff9f2aadc0f-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/11418ff232b5-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/1ca60d6de413-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/a66bcb181979-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/8b7caa84edd9-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/documents/polyester-heavy-metals.webp": {
+    "width": 1200,
+    "height": 1697,
+    "variants": [
+      {
+        "file": "images/responsive/c783e6809fe1-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/14ff778ff545-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/8b492bd45c61-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/87b5b2719964-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/28a6b7ca8eef-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/0c2d4ad0d943-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/954082173ff6-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/documents/rpet-heavy-metals.webp": {
+    "width": 1200,
+    "height": 1697,
+    "variants": [
+      {
+        "file": "images/responsive/6064256dd3f9-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/e87886200e7a-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/31ec0c8fd8c2-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/31abcd795536-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/ac9348c89d47-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/ff5743396f8f-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/febd3d08c039-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/factory/building-crop.webp": {
+    "width": 940,
+    "height": 701,
+    "variants": [
+      {
+        "file": "images/responsive/7e95f1d09c2a-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/fd1464398f3e-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/66ff265d6fbf-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/90b746be51ae-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/159658689456-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/639b5c27270d-940.webp",
+        "width": 940
+      }
+    ]
+  },
+  "images/factory/sewing-crop.webp": {
+    "width": 347,
+    "height": 349,
+    "variants": [
+      {
+        "file": "images/responsive/fb9f6d33ec90-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/5dd86004a160-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/f1aec64ddf99-347.webp",
+        "width": 347
       }
     ]
   },
@@ -236,19 +1090,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/db8ee0eeb94e-96.webp",
+        "file": "images/responsive/6f23b3dfa8a7-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/db8ee0eeb94e-384.webp",
+        "file": "images/responsive/fd93b27eb4f7-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/9f558168d59b-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/db8ee0eeb94e-768.webp",
+        "file": "images/responsive/c1ba0cf6ead7-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/cb6d98b8dbbc-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/gusseted-self-seal-foil-main.webp",
+        "file": "images/responsive/09d95166e964-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/3a7ad7d922b9-1200.webp",
         "width": 1200
       }
     ]
@@ -258,19 +1124,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/7f92ac847704-96.webp",
+        "file": "images/responsive/da70e2f1ba30-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/7f92ac847704-384.webp",
+        "file": "images/responsive/efc840ea84e7-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/831dc67ab0e6-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/7f92ac847704-768.webp",
+        "file": "images/responsive/b28dc0a55b7b-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/e66cabee36ac-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/foil-material-measurement-a.webp",
+        "file": "images/responsive/fe3adf5d415b-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/3fdb78c61526-1200.webp",
         "width": 1200
       }
     ]
@@ -280,19 +1158,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/0b31da327414-96.webp",
+        "file": "images/responsive/62a0f65840d9-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/0b31da327414-384.webp",
+        "file": "images/responsive/cca9bf9811ab-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/0f9682941644-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/0b31da327414-768.webp",
+        "file": "images/responsive/c4a15d5eb1bf-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/312c77327016-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/foil-material-measurement-b.webp",
+        "file": "images/responsive/cc5b0a45bc97-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/635d08c82f9d-1200.webp",
         "width": 1200
       }
     ]
@@ -302,19 +1192,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/7e082b6995d4-96.webp",
+        "file": "images/responsive/b09e835d02d9-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/7e082b6995d4-384.webp",
+        "file": "images/responsive/f974420f86b7-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/75eb6847e8ea-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/7e082b6995d4-768.webp",
+        "file": "images/responsive/e825b1e2842f-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/e0f3b6a00e30-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/foil-box-liner-insert.webp",
+        "file": "images/responsive/3eb769f6cbce-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/80cdf26e384d-1200.webp",
         "width": 1200
       }
     ]
@@ -324,19 +1226,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/19d3b47d0da0-96.webp",
+        "file": "images/responsive/c645c07db005-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/19d3b47d0da0-384.webp",
+        "file": "images/responsive/cab2215ea97f-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/fc76a164fbe6-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/19d3b47d0da0-768.webp",
+        "file": "images/responsive/02d504dbad57-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/5dd8d4c9fd8e-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/side-absorbing-ice-packs-main.webp",
+        "file": "images/responsive/e644189c3aa1-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/0f5ef269e0ab-1200.webp",
         "width": 1200
       }
     ]
@@ -346,19 +1260,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/b32e91791369-96.webp",
+        "file": "images/responsive/6c509aa12c4b-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/b32e91791369-384.webp",
+        "file": "images/responsive/36d3f1ffdb51-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/217ed398f12b-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/b32e91791369-768.webp",
+        "file": "images/responsive/fc37b414021d-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/ca69e3906c91-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/side-absorbing-ice-packs-secondary.webp",
+        "file": "images/responsive/dafe7186a392-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/850dd8945ffa-1200.webp",
         "width": 1200
       }
     ]
@@ -368,19 +1294,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/e82279705e10-96.webp",
+        "file": "images/responsive/4f2271caa81f-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/e82279705e10-384.webp",
+        "file": "images/responsive/eae3421c61e3-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/7b318d4e98b3-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/e82279705e10-768.webp",
+        "file": "images/responsive/c0fa7df5f81a-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/f85490df38de-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/side-absorbing-ice-pack-seams.webp",
+        "file": "images/responsive/cb15e52fe686-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/b97adceb5862-1200.webp",
         "width": 1200
       }
     ]
@@ -390,19 +1328,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/f291915d551a-96.webp",
+        "file": "images/responsive/17309855393e-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/f291915d551a-384.webp",
+        "file": "images/responsive/791ed95aa4f6-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/0040285f691e-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/f291915d551a-768.webp",
+        "file": "images/responsive/28792e0b9a28-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/e049ce505388-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/double-film-self-absorbing-ice-packs-main.webp",
+        "file": "images/responsive/f99e4fca70b9-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/3ce1c57b53e1-1200.webp",
         "width": 1200
       }
     ]
@@ -412,19 +1362,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/b472e6e757a8-96.webp",
+        "file": "images/responsive/bf93bc5e5c25-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/b472e6e757a8-384.webp",
+        "file": "images/responsive/a5f7e48a1a3b-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/3f0a1653380f-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/b472e6e757a8-768.webp",
+        "file": "images/responsive/6cee390e2bb3-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/1e166c69907d-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/double-film-self-absorbing-ice-packs-secondary.webp",
+        "file": "images/responsive/62fadfae509c-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/155490f68f82-1200.webp",
         "width": 1200
       }
     ]
@@ -434,19 +1396,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/5804aa0fc4cc-96.webp",
+        "file": "images/responsive/fe12a992e82a-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/5804aa0fc4cc-384.webp",
+        "file": "images/responsive/566703311db0-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/c2f10b2de96a-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/5804aa0fc4cc-768.webp",
+        "file": "images/responsive/8e5a986f1610-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/e34862f01eb3-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/double-film-self-absorbing-ice-packs-product-display.webp",
+        "file": "images/responsive/5edc70bef4ec-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/7d5daf0c4b4e-1200.webp",
         "width": 1200
       }
     ]
@@ -456,19 +1430,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/a2b0dd0b4d24-96.webp",
+        "file": "images/responsive/7965870b8d84-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/a2b0dd0b4d24-384.webp",
+        "file": "images/responsive/94ab98195090-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/1a6a6a2978d5-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/a2b0dd0b4d24-768.webp",
+        "file": "images/responsive/e636e2bd71db-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/a3f58aabf427-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/double-film-self-absorbing-ice-packs-cooler-application.webp",
+        "file": "images/responsive/2ba4d864b468-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/ddd9f87ff874-1200.webp",
         "width": 1200
       }
     ]
@@ -478,19 +1464,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/2defffab25d4-96.webp",
+        "file": "images/responsive/1f1bccf847c1-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/2defffab25d4-384.webp",
+        "file": "images/responsive/b15f08996923-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/47b301650824-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/2defffab25d4-768.webp",
+        "file": "images/responsive/22731e534157-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/590aca7e2dfd-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/compact-lunch-bag-main.webp",
+        "file": "images/responsive/059008bec9b4-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/7a79f245d624-1200.webp",
         "width": 1200
       }
     ]
@@ -500,19 +1498,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/a6566d3f1c6b-96.webp",
+        "file": "images/responsive/692dfabe34e4-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/a6566d3f1c6b-384.webp",
+        "file": "images/responsive/46a3624fef6d-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/ef94dd293979-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/a6566d3f1c6b-768.webp",
+        "file": "images/responsive/5daf6a7eab34-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/83e90e46e0a5-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/compact-lunch-bag-front.webp",
+        "file": "images/responsive/6ebe64db9a33-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/881a38158c99-1200.webp",
         "width": 1200
       }
     ]
@@ -522,19 +1532,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/de504c6e837a-96.webp",
+        "file": "images/responsive/751ae016eb9a-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/de504c6e837a-384.webp",
+        "file": "images/responsive/64e164c00e68-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/54890695a720-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/de504c6e837a-768.webp",
+        "file": "images/responsive/ba47d1a376a5-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/20ec4b6d01bf-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/compact-lunch-bag-handles.webp",
+        "file": "images/responsive/b7fba3086c75-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/0717b3980658-1200.webp",
         "width": 1200
       }
     ]
@@ -544,19 +1566,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/8fd949dc11a7-96.webp",
+        "file": "images/responsive/4a63492baebf-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/8fd949dc11a7-384.webp",
+        "file": "images/responsive/5ea975b0e5a8-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/e5efbae2e913-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/8fd949dc11a7-768.webp",
+        "file": "images/responsive/5638f5b1410a-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/95f15489c1cb-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/compact-lunch-bag-size-comparison.webp",
+        "file": "images/responsive/c351732b63d7-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/1e2262a26636-1200.webp",
         "width": 1200
       }
     ]
@@ -566,19 +1600,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/59a3af51f534-96.webp",
+        "file": "images/responsive/39d25a5164cd-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/59a3af51f534-384.webp",
+        "file": "images/responsive/40c69517abb8-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/f1ad211274a6-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/59a3af51f534-768.webp",
+        "file": "images/responsive/48074a9e9916-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/d3ae0f5a902d-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/compact-lunch-bag-carrying.webp",
+        "file": "images/responsive/48c8dc626956-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/f1c54377c657-1200.webp",
         "width": 1200
       }
     ]
@@ -588,19 +1634,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/061d8ddd6892-96.webp",
+        "file": "images/responsive/2a944ae5ec0b-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/061d8ddd6892-384.webp",
+        "file": "images/responsive/39a2fc506101-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/afbb2a375883-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/061d8ddd6892-768.webp",
+        "file": "images/responsive/86208265e212-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/5c288385383a-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/compact-lunch-bag-side.webp",
+        "file": "images/responsive/b8fcab7e8650-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/c869dc649c4d-1200.webp",
         "width": 1200
       }
     ]
@@ -610,19 +1668,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/cfc6096c51d7-96.webp",
+        "file": "images/responsive/f19baa2d3707-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/cfc6096c51d7-384.webp",
+        "file": "images/responsive/343e2f39c502-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/0e94caeb06ad-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/cfc6096c51d7-768.webp",
+        "file": "images/responsive/a19f80f3f57b-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/430d4d0ceefe-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/gold-trim-cake-bag-main.webp",
+        "file": "images/responsive/5be6c985646f-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/7e8998495463-1200.webp",
         "width": 1200
       }
     ]
@@ -632,19 +1702,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/17fb17ebae17-96.webp",
+        "file": "images/responsive/d8d09ab31b95-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/17fb17ebae17-384.webp",
+        "file": "images/responsive/9b9ae7cde169-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/3dd2041429d1-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/17fb17ebae17-768.webp",
+        "file": "images/responsive/42ad9dbd01f2-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/2272c0b30bb1-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/gold-trim-cake-bag-interior.webp",
+        "file": "images/responsive/d20d868d12e5-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/70ac6c5bb852-1200.webp",
         "width": 1200
       }
     ]
@@ -654,19 +1736,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/682ef50fdacf-96.webp",
+        "file": "images/responsive/5bc341e34042-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/682ef50fdacf-384.webp",
+        "file": "images/responsive/03812964df80-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/094ea2334bd7-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/682ef50fdacf-768.webp",
+        "file": "images/responsive/307962388bbf-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/8833d5fe5ae7-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/gold-trim-cake-bag-stitching.webp",
+        "file": "images/responsive/7f49c4c7b8b6-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/bb752f5f06f3-1200.webp",
         "width": 1200
       }
     ]
@@ -676,19 +1770,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/f69d4c64c227-96.webp",
+        "file": "images/responsive/9f83682c9f7f-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/f69d4c64c227-384.webp",
+        "file": "images/responsive/d61486caf277-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/253e6bd6550c-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/f69d4c64c227-768.webp",
+        "file": "images/responsive/179254e1d805-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/337381800d70-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/gold-trim-cake-bag-loading.webp",
+        "file": "images/responsive/b1c5cc602573-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/aafd0bc85d16-1200.webp",
         "width": 1200
       }
     ]
@@ -698,19 +1804,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/875d63e8c2c8-96.webp",
+        "file": "images/responsive/7be51e5cdab5-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/875d63e8c2c8-384.webp",
+        "file": "images/responsive/8e723c6e9ad4-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/6baefe2fca03-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/875d63e8c2c8-768.webp",
+        "file": "images/responsive/ec1097565183-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/4b8f99b3d88e-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/gold-trim-cake-bag-range.webp",
+        "file": "images/responsive/5ed0c2f28332-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/777bb84e2f16-1200.webp",
         "width": 1200
       }
     ]
@@ -720,19 +1838,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/2e24edd7bcbc-96.webp",
+        "file": "images/responsive/69a57a9d6f5e-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/2e24edd7bcbc-384.webp",
+        "file": "images/responsive/cbac451dfecf-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/0319bdb77ca8-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/2e24edd7bcbc-768.webp",
+        "file": "images/responsive/8af22a2e8648-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/2546bef561f1-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/gold-trim-cake-bag-display.webp",
+        "file": "images/responsive/61a26478cb40-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/dc809b2f92fd-1200.webp",
         "width": 1200
       }
     ]
@@ -742,19 +1872,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/6a4e4261a18c-96.webp",
+        "file": "images/responsive/865f7953255e-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/6a4e4261a18c-384.webp",
+        "file": "images/responsive/97f86e23a43c-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/37eee5ef9658-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/6a4e4261a18c-768.webp",
+        "file": "images/responsive/f4defa86ae44-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/24f02d0b9b6f-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/gold-trim-cake-bag-zipper.webp",
+        "file": "images/responsive/465f1d5007af-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/36ecdfcd3a89-1200.webp",
         "width": 1200
       }
     ]
@@ -764,19 +1906,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/f77070375299-96.webp",
+        "file": "images/responsive/2a1b7a05c58f-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/f77070375299-384.webp",
+        "file": "images/responsive/7928d0625992-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/17d04b73313b-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/f77070375299-768.webp",
+        "file": "images/responsive/c34ba2384e8c-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/d1fc46392c33-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/gold-trim-cake-bag-carrying.webp",
+        "file": "images/responsive/11f12472f087-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/80b72d44b47c-1200.webp",
         "width": 1200
       }
     ]
@@ -786,19 +1940,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/d057a2494b35-96.webp",
+        "file": "images/responsive/d9b3323d662a-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/d057a2494b35-384.webp",
+        "file": "images/responsive/6e7809af2bf1-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/928a3fabc43a-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/d057a2494b35-768.webp",
+        "file": "images/responsive/4e114a110c0e-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/5d20fc73f6e9-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/coffee-insulated-cooler-bag.webp",
+        "file": "images/responsive/52c222e42726-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/233c92e1ff55-1200.webp",
         "width": 1200
       }
     ]
@@ -808,19 +1974,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/675ae8f3728e-96.webp",
+        "file": "images/responsive/9df78b124728-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/675ae8f3728e-384.webp",
+        "file": "images/responsive/3004a86f914f-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/f3dded834cc6-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/675ae8f3728e-768.webp",
+        "file": "images/responsive/57df9fd7ea74-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/5f3cf5ff4ef8-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/coffee-insulated-cooler-bag-produce.webp",
+        "file": "images/responsive/9784faf5bf8c-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/6c772ec5c3d9-1200.webp",
         "width": 1200
       }
     ]
@@ -830,19 +2008,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/571b271a3b4b-96.webp",
+        "file": "images/responsive/f338fda882ff-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/571b271a3b4b-384.webp",
+        "file": "images/responsive/c0477bde399e-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/fb180d7c914f-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/571b271a3b4b-768.webp",
+        "file": "images/responsive/57d58bd103ca-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/0e27522d5535-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/coffee-insulated-cooler-bag-meal-box.webp",
+        "file": "images/responsive/172b8c4523b0-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/ad83ea0b21bb-1200.webp",
         "width": 1200
       }
     ]
@@ -852,19 +2042,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/de3a2e369720-96.webp",
+        "file": "images/responsive/a9081ab0d01c-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/de3a2e369720-384.webp",
+        "file": "images/responsive/f3a42c3c7fd5-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/8004d96034ca-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/de3a2e369720-768.webp",
+        "file": "images/responsive/d47fd15e08a4-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/cd81c09462cc-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/coffee-insulated-cooler-bag-drinks.webp",
+        "file": "images/responsive/0a46d482c4f9-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/67afa4b13280-1200.webp",
         "width": 1200
       }
     ]
@@ -874,19 +2076,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/e0a5db6b61f6-96.webp",
+        "file": "images/responsive/56ee325e9573-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/e0a5db6b61f6-384.webp",
+        "file": "images/responsive/abfedaa7f75a-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/e060bc9b5ad3-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/e0a5db6b61f6-768.webp",
+        "file": "images/responsive/244ec456cdca-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/8bf4d7e16d8f-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/coffee-insulated-cooler-bag-picnic.webp",
+        "file": "images/responsive/eccfb7846c1f-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/0da447b42d44-1200.webp",
         "width": 1200
       }
     ]
@@ -896,19 +2110,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/3f08d521ca69-96.webp",
+        "file": "images/responsive/136d3383de2f-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/3f08d521ca69-384.webp",
+        "file": "images/responsive/7f1cd74e8154-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/1cc0dec901a6-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/3f08d521ca69-768.webp",
+        "file": "images/responsive/db2384d8fa33-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/fac388e4f1d5-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/red-insulated-cooler-bag.webp",
+        "file": "images/responsive/2287cc65e2c7-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/a6a22f8c1e10-1200.webp",
         "width": 1200
       }
     ]
@@ -918,19 +2144,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/68727f5a6225-96.webp",
+        "file": "images/responsive/0e2ec9ee9d68-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/68727f5a6225-384.webp",
+        "file": "images/responsive/16ea4edbf0a7-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/b6bd975979d6-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/68727f5a6225-768.webp",
+        "file": "images/responsive/fe4c3466ca55-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/11066c551a36-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/red-insulated-cooler-bag-meal.webp",
+        "file": "images/responsive/99fdfa25a675-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/820c84d67c6c-1200.webp",
         "width": 1200
       }
     ]
@@ -940,19 +2178,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/e465f4ecce31-96.webp",
+        "file": "images/responsive/f7b43d9f14b1-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/e465f4ecce31-384.webp",
+        "file": "images/responsive/e047c1dd8e9f-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/442caaef165e-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/e465f4ecce31-768.webp",
+        "file": "images/responsive/00e96dab496b-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/c66f6c8a9e30-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/red-insulated-cooler-bag-bakery.webp",
+        "file": "images/responsive/17c5c5161f33-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/78489b091edc-1200.webp",
         "width": 1200
       }
     ]
@@ -962,19 +2212,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/e8b2248fc5b2-96.webp",
+        "file": "images/responsive/f8633d2c2121-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/e8b2248fc5b2-384.webp",
+        "file": "images/responsive/fbdc836436d6-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/330d2dfb1e70-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/e8b2248fc5b2-768.webp",
+        "file": "images/responsive/4a77f81548d2-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/639971743993-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/red-insulated-cooler-bag-fresh-food.webp",
+        "file": "images/responsive/ed387d57f7ee-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/52c47565ca51-1200.webp",
         "width": 1200
       }
     ]
@@ -984,19 +2246,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/d4c8e2201dfa-96.webp",
+        "file": "images/responsive/839121251031-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/d4c8e2201dfa-384.webp",
+        "file": "images/responsive/60fffad34fe4-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/e20a6a11243a-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/d4c8e2201dfa-768.webp",
+        "file": "images/responsive/62f4c9c9ae8c-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/6fe4d55af808-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/red-insulated-cooler-bag-drinks.webp",
+        "file": "images/responsive/afa92e983423-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/b74f635cb96a-1200.webp",
         "width": 1200
       }
     ]
@@ -1006,19 +2280,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/c2e83a4d1b7e-96.webp",
+        "file": "images/responsive/90efe95ecb15-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/c2e83a4d1b7e-384.webp",
+        "file": "images/responsive/8a6d974f758c-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/b1f5f586abb1-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/c2e83a4d1b7e-768.webp",
+        "file": "images/responsive/8c31bf975758-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/75b7d975fc28-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/red-insulated-cooler-bag-structure.webp",
+        "file": "images/responsive/acc0e15d1333-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/460db33fe1a2-1200.webp",
         "width": 1200
       }
     ]
@@ -1028,19 +2314,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/65336b912e20-96.webp",
+        "file": "images/responsive/a5b95d33c095-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/65336b912e20-384.webp",
+        "file": "images/responsive/17493b2be0c2-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/b560b6b5baed-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/65336b912e20-768.webp",
+        "file": "images/responsive/6e70b3bb6064-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/392a66a10b0c-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/pink-insulated-cooler-bag.webp",
+        "file": "images/responsive/ebee424b5ee6-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/d51924cb93c1-1200.webp",
         "width": 1200
       }
     ]
@@ -1050,19 +2348,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/ce26f10b991b-96.webp",
+        "file": "images/responsive/86df46473dde-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/ce26f10b991b-384.webp",
+        "file": "images/responsive/6570c33a9de1-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/e99fbbec5ffe-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/ce26f10b991b-768.webp",
+        "file": "images/responsive/974c498db059-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/c7b3a808325a-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/pink-insulated-cooler-bag-meal.webp",
+        "file": "images/responsive/7049fa58bcb0-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/e450953c3fa6-1200.webp",
         "width": 1200
       }
     ]
@@ -1072,19 +2382,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/07d744ac7e56-96.webp",
+        "file": "images/responsive/46bd846a8617-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/07d744ac7e56-384.webp",
+        "file": "images/responsive/ce3433d5b034-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/443581a152db-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/07d744ac7e56-768.webp",
+        "file": "images/responsive/f12760955418-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/9d702937069e-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/pink-insulated-cooler-bag-office.webp",
+        "file": "images/responsive/36f56da3f991-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/f6f2469f894f-1200.webp",
         "width": 1200
       }
     ]
@@ -1094,19 +2416,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/3e86239204e2-96.webp",
+        "file": "images/responsive/a7259bf9317c-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/3e86239204e2-384.webp",
+        "file": "images/responsive/3ef63f19bb5c-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/8ce9f638e1fe-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/3e86239204e2-768.webp",
+        "file": "images/responsive/8ed70a9a6370-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/ea8add69b2c1-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/pink-insulated-cooler-bag-fresh-food.webp",
+        "file": "images/responsive/52893cee7696-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/4b230f1dc9e3-1200.webp",
         "width": 1200
       }
     ]
@@ -1116,19 +2450,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/ef1e5f992891-96.webp",
+        "file": "images/responsive/39375fc01553-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/ef1e5f992891-384.webp",
+        "file": "images/responsive/ce716f693db4-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/847400acdae7-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/ef1e5f992891-768.webp",
+        "file": "images/responsive/73be20b722d3-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/392a4c63cd0e-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/pink-insulated-cooler-bag-sandwich.webp",
+        "file": "images/responsive/8962c3290a3a-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/7b8d81ac29b8-1200.webp",
         "width": 1200
       }
     ]
@@ -1138,19 +2484,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/bb4275c6ac00-96.webp",
+        "file": "images/responsive/4bb8f7d21acf-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/bb4275c6ac00-384.webp",
+        "file": "images/responsive/9b5da2382112-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/e96ab9707621-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/bb4275c6ac00-768.webp",
+        "file": "images/responsive/4c8694b4dfbc-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/4a9487530be8-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/yellow-insulated-cooler-bag.webp",
+        "file": "images/responsive/e774f44578dd-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/940ab733f113-1200.webp",
         "width": 1200
       }
     ]
@@ -1160,19 +2518,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/7a96ea806dd8-96.webp",
+        "file": "images/responsive/d687c4065074-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/7a96ea806dd8-384.webp",
+        "file": "images/responsive/b02808109d4f-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/da991767bd34-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/7a96ea806dd8-768.webp",
+        "file": "images/responsive/2048f2c023fb-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/13ee267738d1-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/yellow-insulated-cooler-bag-meal.webp",
+        "file": "images/responsive/36dbd791534a-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/367dc299904b-1200.webp",
         "width": 1200
       }
     ]
@@ -1182,19 +2552,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/4846828396c2-96.webp",
+        "file": "images/responsive/8ae46dd5fa07-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/4846828396c2-384.webp",
+        "file": "images/responsive/ffa3f4c0327e-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/5d09d2e5bf3d-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/4846828396c2-768.webp",
+        "file": "images/responsive/ee2634985817-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/e6afe9bf2bc6-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/yellow-insulated-cooler-bag-grocery.webp",
+        "file": "images/responsive/129c76fd2519-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/37c7dc6e0df6-1200.webp",
         "width": 1200
       }
     ]
@@ -1204,19 +2586,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/2b6357c89274-96.webp",
+        "file": "images/responsive/618d7ff25f99-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/2b6357c89274-384.webp",
+        "file": "images/responsive/6b6626144514-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/d87b580322d3-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/2b6357c89274-768.webp",
+        "file": "images/responsive/bf1c6806f3b9-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/4bf0c1d87a05-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/yellow-insulated-cooler-bag-coffee.webp",
+        "file": "images/responsive/1362ca213ec2-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/99e6118e29b6-1200.webp",
         "width": 1200
       }
     ]
@@ -1226,19 +2620,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/cbbc3ee37799-96.webp",
+        "file": "images/responsive/b89575090d7b-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/cbbc3ee37799-384.webp",
+        "file": "images/responsive/7cc9f6d56255-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/5699a66d40c9-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/cbbc3ee37799-768.webp",
+        "file": "images/responsive/792d59fd4910-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/7b7b7a077307-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/yellow-insulated-cooler-bag-bakery.webp",
+        "file": "images/responsive/6fadd38aa854-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/0a11e02d9592-1200.webp",
         "width": 1200
       }
     ]
@@ -1248,19 +2654,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/e45a17b127f9-96.webp",
+        "file": "images/responsive/d20d91a0110d-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/e45a17b127f9-384.webp",
+        "file": "images/responsive/3021d9ac1c1b-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/2b9b9879a7f3-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/e45a17b127f9-768.webp",
+        "file": "images/responsive/66b4bef0dcf7-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/31c51aff99eb-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/yellow-insulated-cooler-bag-open.webp",
+        "file": "images/responsive/08acb07f079d-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/d98782851302-1200.webp",
         "width": 1200
       }
     ]
@@ -1270,19 +2688,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/ebabe27b1d9b-96.webp",
+        "file": "images/responsive/2f9f50978dee-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/ebabe27b1d9b-384.webp",
+        "file": "images/responsive/13e636895924-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/5680062102a0-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/ebabe27b1d9b-768.webp",
+        "file": "images/responsive/f84d12662cc3-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/2ec5650bb182-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/lake-blue-insulated-cooler-bag.webp",
+        "file": "images/responsive/cdc60559c155-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/65abb6a67730-1200.webp",
         "width": 1200
       }
     ]
@@ -1292,19 +2722,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/a02e8f523cc1-96.webp",
+        "file": "images/responsive/4c139ac92c59-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/a02e8f523cc1-384.webp",
+        "file": "images/responsive/6ca4f3e422af-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/5354e6754409-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/a02e8f523cc1-768.webp",
+        "file": "images/responsive/97aeec90ce37-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/a0d8a6f5e31a-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/lake-blue-insulated-cooler-bag-produce.webp",
+        "file": "images/responsive/2aeaaf1de60f-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/b408e8f64fee-1200.webp",
         "width": 1200
       }
     ]
@@ -1314,19 +2756,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/fc2239374614-96.webp",
+        "file": "images/responsive/42351c4bd04e-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/fc2239374614-384.webp",
+        "file": "images/responsive/c8129efad855-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/2fd9c89a4ca4-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/fc2239374614-768.webp",
+        "file": "images/responsive/5269894bc9ff-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/b1dad0edb2c7-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/lake-blue-insulated-cooler-bag-meal-box.webp",
+        "file": "images/responsive/2acd4b0f4ce1-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/084e05f4d7ee-1200.webp",
         "width": 1200
       }
     ]
@@ -1336,19 +2790,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/2eac99b16903-96.webp",
+        "file": "images/responsive/cf598f078629-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/2eac99b16903-384.webp",
+        "file": "images/responsive/6833b8ea867d-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/169d944b7b12-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/2eac99b16903-768.webp",
+        "file": "images/responsive/9b333c44dde5-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/626946af7291-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/lake-blue-insulated-cooler-bag-snacks.webp",
+        "file": "images/responsive/6a94ff703414-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/392fd6212a1c-1200.webp",
         "width": 1200
       }
     ]
@@ -1358,19 +2824,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/1a7c556b7092-96.webp",
+        "file": "images/responsive/08bc2582f25f-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/1a7c556b7092-384.webp",
+        "file": "images/responsive/3cd87c1c196e-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/3439bf69dc04-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/1a7c556b7092-768.webp",
+        "file": "images/responsive/9deb4ccd17be-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/5b46b21881a0-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/lake-blue-insulated-cooler-bag-bakery.webp",
+        "file": "images/responsive/e55f0847620d-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/4e110ff1ad0a-1200.webp",
         "width": 1200
       }
     ]
@@ -1380,19 +2858,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/34dfd9d0d11a-96.webp",
+        "file": "images/responsive/db18c6e6b64e-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/34dfd9d0d11a-384.webp",
+        "file": "images/responsive/0bdb75368e66-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/5375febef13e-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/34dfd9d0d11a-768.webp",
+        "file": "images/responsive/d1888ce66f82-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/89f02ddd3f57-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/iridescent-orange-insulated-cooler-bag.webp",
+        "file": "images/responsive/61e5e43f82d3-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/d8d696b691ba-1200.webp",
         "width": 1200
       }
     ]
@@ -1402,19 +2892,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/f921ef02162f-96.webp",
+        "file": "images/responsive/ff917acdb2a6-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/f921ef02162f-384.webp",
+        "file": "images/responsive/e10d2170e682-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/c7be09cb8438-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/f921ef02162f-768.webp",
+        "file": "images/responsive/dfd045768c61-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/7948262e5769-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/iridescent-orange-insulated-cooler-bag-meal.webp",
+        "file": "images/responsive/53f32404eaa9-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/a74047b37ab2-1200.webp",
         "width": 1200
       }
     ]
@@ -1424,19 +2926,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/689ce2bca2af-96.webp",
+        "file": "images/responsive/9835cbed3fd1-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/689ce2bca2af-384.webp",
+        "file": "images/responsive/1118428b0bdc-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/1c9fbd9c8b8a-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/689ce2bca2af-768.webp",
+        "file": "images/responsive/042f9ddf9190-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/b83ff61755cb-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/iridescent-orange-insulated-cooler-bag-fresh-food.webp",
+        "file": "images/responsive/df800c195c06-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/7d87fc6025df-1200.webp",
         "width": 1200
       }
     ]
@@ -1446,19 +2960,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/8e16539538e3-96.webp",
+        "file": "images/responsive/a93bd990ec01-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/8e16539538e3-384.webp",
+        "file": "images/responsive/9084e38a4d53-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/ed063be4662f-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/8e16539538e3-768.webp",
+        "file": "images/responsive/ce3cd198072b-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/1e69c90800c7-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/iridescent-orange-insulated-cooler-bag-bakery.webp",
+        "file": "images/responsive/47728b3178b2-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/a2107f17270f-1200.webp",
         "width": 1200
       }
     ]
@@ -1468,19 +2994,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/7e6b0a84d61b-96.webp",
+        "file": "images/responsive/c998dd1f3b8d-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/7e6b0a84d61b-384.webp",
+        "file": "images/responsive/0d0d9517b623-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/2a5782eb81da-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/7e6b0a84d61b-768.webp",
+        "file": "images/responsive/416456f88091-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/39fc187d60d7-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/iridescent-orange-insulated-cooler-bag-snacks.webp",
+        "file": "images/responsive/a7e908dafbd7-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/3e4bf85259e1-1200.webp",
         "width": 1200
       }
     ]
@@ -1490,19 +3028,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/9189d3865014-96.webp",
+        "file": "images/responsive/5fc279d58809-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/9189d3865014-384.webp",
+        "file": "images/responsive/e2142577fa05-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/ef0cbfec2332-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/9189d3865014-768.webp",
+        "file": "images/responsive/eaa5e8f54495-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/94a827eab921-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/iridescent-blue-insulated-cooler-bag.webp",
+        "file": "images/responsive/bf9878ea1b09-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/7f8f40a00044-1200.webp",
         "width": 1200
       }
     ]
@@ -1512,19 +3062,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/1ef6eb914cb2-96.webp",
+        "file": "images/responsive/0eb0dcc78ab3-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/1ef6eb914cb2-384.webp",
+        "file": "images/responsive/25c24429fdc2-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/f0637501433d-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/1ef6eb914cb2-768.webp",
+        "file": "images/responsive/007ba30b861c-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/da9dd35edb7d-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/iridescent-blue-insulated-cooler-bag-meal.webp",
+        "file": "images/responsive/874a5b4c1685-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/1ba261423b26-1200.webp",
         "width": 1200
       }
     ]
@@ -1534,19 +3096,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/1bbd3f0d9024-96.webp",
+        "file": "images/responsive/bfef883299c0-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/1bbd3f0d9024-384.webp",
+        "file": "images/responsive/858f84b2b402-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/81b6a60e0e08-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/1bbd3f0d9024-768.webp",
+        "file": "images/responsive/57169e0423d5-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/24d07abcaf25-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/iridescent-blue-insulated-cooler-bag-breakfast.webp",
+        "file": "images/responsive/8d9a05063f58-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/66076df99bf2-1200.webp",
         "width": 1200
       }
     ]
@@ -1556,19 +3130,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/19aa4577333d-96.webp",
+        "file": "images/responsive/a21e6d5727b0-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/19aa4577333d-384.webp",
+        "file": "images/responsive/0dea61903a7b-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/8ce09f35439c-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/19aa4577333d-768.webp",
+        "file": "images/responsive/a4f748543cb1-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/24b6a1bc29c6-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/iridescent-blue-insulated-cooler-bag-fresh-food.webp",
+        "file": "images/responsive/fa3681532220-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/46df3401508d-1200.webp",
         "width": 1200
       }
     ]
@@ -1578,19 +3164,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/dde3fef4695f-96.webp",
+        "file": "images/responsive/d48c1786a0f0-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/dde3fef4695f-384.webp",
+        "file": "images/responsive/5575d4cb83b4-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/def08b7b3af0-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/dde3fef4695f-768.webp",
+        "file": "images/responsive/7609d8bed3c3-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/504c89299033-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/iridescent-blue-insulated-cooler-bag-bakery.webp",
+        "file": "images/responsive/2b594cce78c4-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/c82210e5a995-1200.webp",
         "width": 1200
       }
     ]
@@ -1600,19 +3198,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/2915341beef4-96.webp",
+        "file": "images/responsive/6a431848885e-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/2915341beef4-384.webp",
+        "file": "images/responsive/c312fd209a11-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/ba3797d8d040-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/2915341beef4-768.webp",
+        "file": "images/responsive/418cbf141dc9-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/44ff4541a99a-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/iridescent-pink-insulated-cooler-bag.webp",
+        "file": "images/responsive/65775f3d09a7-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/8225eee8a283-1200.webp",
         "width": 1200
       }
     ]
@@ -1622,19 +3232,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/7e4e8dceb603-96.webp",
+        "file": "images/responsive/2353aa84af7b-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/7e4e8dceb603-384.webp",
+        "file": "images/responsive/bdd3a3f62f86-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/4ea5197d936c-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/7e4e8dceb603-768.webp",
+        "file": "images/responsive/3587fbccd076-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/4552c9b510dc-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/iridescent-pink-insulated-cooler-bag-produce.webp",
+        "file": "images/responsive/51a356910f4e-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/3b41b200ad62-1200.webp",
         "width": 1200
       }
     ]
@@ -1644,19 +3266,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/bf5ee1a43005-96.webp",
+        "file": "images/responsive/a3ae171deebd-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/bf5ee1a43005-384.webp",
+        "file": "images/responsive/5bdda9a53164-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/9b400b8bc6ab-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/bf5ee1a43005-768.webp",
+        "file": "images/responsive/b29ccf0e644d-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/d730d1055412-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/iridescent-pink-insulated-cooler-bag-meal.webp",
+        "file": "images/responsive/07471c28443d-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/8bb5a6714ffe-1200.webp",
         "width": 1200
       }
     ]
@@ -1666,19 +3300,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/c7b8b6317776-96.webp",
+        "file": "images/responsive/290051064d53-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/c7b8b6317776-384.webp",
+        "file": "images/responsive/4e7864804022-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/b92eca3a9cc6-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/c7b8b6317776-768.webp",
+        "file": "images/responsive/e8f7df508322-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/b6b4d08a3495-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/iridescent-pink-insulated-cooler-bag-dessert.webp",
+        "file": "images/responsive/72a19892c289-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/155e7e230fc1-1200.webp",
         "width": 1200
       }
     ]
@@ -1688,19 +3334,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/74bc4a0ae64f-96.webp",
+        "file": "images/responsive/ec2915e52564-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/74bc4a0ae64f-384.webp",
+        "file": "images/responsive/8e0c8e051ec0-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/47f0ba481da5-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/74bc4a0ae64f-768.webp",
+        "file": "images/responsive/c5d52e1c4fc7-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/5ee19832818e-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/custom-insulated-bags/iridescent-pink-insulated-cooler-bag-salad.webp",
+        "file": "images/responsive/260ef1122a7e-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/9e198d340692-1200.webp",
         "width": 1200
       }
     ]
@@ -1710,19 +3368,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/584a2c88b7df-96.webp",
+        "file": "images/responsive/2ae625ff848c-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/584a2c88b7df-384.webp",
+        "file": "images/responsive/e39a260ca89b-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/574ec651ae37-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/584a2c88b7df-768.webp",
+        "file": "images/responsive/55e6760973ed-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/c52c7f04adf0-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/bakery-from-jpg.webp",
+        "file": "images/responsive/8833da781be9-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/05d28122c1a0-1200.webp",
         "width": 1200
       }
     ]
@@ -1732,19 +3402,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/fa8b0c6908c9-96.webp",
+        "file": "images/responsive/3fa9f26c983f-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/fa8b0c6908c9-384.webp",
+        "file": "images/responsive/ca03bca7695a-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/e657e4485fe9-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/fa8b0c6908c9-768.webp",
+        "file": "images/responsive/67e22fe50a5c-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/64d5845250cb-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/bakery-colors.webp",
+        "file": "images/responsive/55d9e5e83a7a-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/04c3f34d8ebd-1200.webp",
         "width": 1200
       }
     ]
@@ -1754,19 +3436,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/cb9b0c227198-96.webp",
+        "file": "images/responsive/2d580d5030f0-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/cb9b0c227198-384.webp",
+        "file": "images/responsive/70e514a85289-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/1582c3935906-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/cb9b0c227198-768.webp",
+        "file": "images/responsive/6fc0c2218ce2-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/99be46d78933-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/bakery-display.webp",
+        "file": "images/responsive/1708d1a84bee-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/4cdf4295d618-1200.webp",
         "width": 1200
       }
     ]
@@ -1776,19 +3470,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/7c2339b50113-96.webp",
+        "file": "images/responsive/c63e2a4fd53c-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/7c2339b50113-384.webp",
+        "file": "images/responsive/b56eb817f0da-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/72cc97017e86-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/7c2339b50113-768.webp",
+        "file": "images/responsive/4f356154f883-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/26e3f2804e9c-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/bakery-products.webp",
+        "file": "images/responsive/b0962de67162-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/cdd9d571efb5-1200.webp",
         "width": 1200
       }
     ]
@@ -1798,19 +3504,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/0268bb6e03fe-96.webp",
+        "file": "images/responsive/a30422875096-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/0268bb6e03fe-384.webp",
+        "file": "images/responsive/f8a89e5ee878-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/e4fcca8c9dcb-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/0268bb6e03fe-768.webp",
+        "file": "images/responsive/d7f58c6e1385-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/5d2fa6b8670c-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/bakery-scene.webp",
+        "file": "images/responsive/24993e6b24cb-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/72c2ff9f2d25-1200.webp",
         "width": 1200
       }
     ]
@@ -1820,19 +3538,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/349c0d5c0c13-96.webp",
+        "file": "images/responsive/232b2baeba03-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/349c0d5c0c13-384.webp",
+        "file": "images/responsive/5b5784cff060-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/38c30765fa6a-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/349c0d5c0c13-768.webp",
+        "file": "images/responsive/c5e2d929762b-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/de0fdb19ca29-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/milk-tea.webp",
+        "file": "images/responsive/3b9600caed58-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/747400661261-1200.webp",
         "width": 1200
       }
     ]
@@ -1842,19 +3572,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/c747d1aaa6a1-96.webp",
+        "file": "images/responsive/08f61be976b1-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/c747d1aaa6a1-384.webp",
+        "file": "images/responsive/db0e2f7dc435-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/56c32a732a59-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/c747d1aaa6a1-768.webp",
+        "file": "images/responsive/a30a4d539ad7-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/49ce1065b846-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/milk-tea-colors.webp",
+        "file": "images/responsive/2e8070e217cd-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/232fb7ec9d09-1200.webp",
         "width": 1200
       }
     ]
@@ -1864,19 +3606,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/9484ac7e4b61-96.webp",
+        "file": "images/responsive/9aace89717f9-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/9484ac7e4b61-384.webp",
+        "file": "images/responsive/aa882ab4ed77-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/22ea3421a66b-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/9484ac7e4b61-768.webp",
+        "file": "images/responsive/1953d43aed3d-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/b124ad28a666-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/milk-tea-drinks.webp",
+        "file": "images/responsive/ffee10520b6c-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/6a1f0b1f5259-1200.webp",
         "width": 1200
       }
     ]
@@ -1886,19 +3640,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/467d956df190-96.webp",
+        "file": "images/responsive/f4b63c74dbdf-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/467d956df190-384.webp",
+        "file": "images/responsive/7b457de8b9ac-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/3dc2969c7e24-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/467d956df190-768.webp",
+        "file": "images/responsive/648281c98638-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/cddedece6744-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/milk-tea-scene.webp",
+        "file": "images/responsive/7522650cb7d5-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/854fd957feb8-1200.webp",
         "width": 1200
       }
     ]
@@ -1908,19 +3674,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/0aded10def39-96.webp",
+        "file": "images/responsive/d87d2d034115-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/0aded10def39-384.webp",
+        "file": "images/responsive/87c20ca9deff-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/e756472e85bf-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/0aded10def39-768.webp",
+        "file": "images/responsive/b24c3882935e-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/0d21fee3b511-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/milk-tea-display.webp",
+        "file": "images/responsive/8a9f352de8af-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/12a22fdeae49-1200.webp",
         "width": 1200
       }
     ]
@@ -1930,19 +3708,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/c932f4ce5279-96.webp",
+        "file": "images/responsive/36f46cab5220-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/c932f4ce5279-384.webp",
+        "file": "images/responsive/f56371b0f0b9-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/95c88ed1398a-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/c932f4ce5279-768.webp",
+        "file": "images/responsive/58d9375c7590-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/2926a71eb8ba-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/milk-tea-catering.webp",
+        "file": "images/responsive/c51a09e0ee97-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/bec78b27b388-1200.webp",
         "width": 1200
       }
     ]
@@ -1952,19 +3742,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/a12a2c0517bc-96.webp",
+        "file": "images/responsive/3053e9a8beb2-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/a12a2c0517bc-384.webp",
+        "file": "images/responsive/5a598e1ba073-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/79e30cdb993f-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/a12a2c0517bc-768.webp",
+        "file": "images/responsive/6fe0a78df8a2-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/79c5c0c6e15a-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/cake.webp",
+        "file": "images/responsive/172866388abd-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/6cf0d62c47a4-1200.webp",
         "width": 1200
       }
     ]
@@ -1974,19 +3776,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/e8286130d11d-96.webp",
+        "file": "images/responsive/202f590f68cb-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/e8286130d11d-384.webp",
+        "file": "images/responsive/678d90c9b703-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/e003217a800c-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/e8286130d11d-768.webp",
+        "file": "images/responsive/0115053a7ed1-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/b7f2b50f5626-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/cake-colors.webp",
+        "file": "images/responsive/9e88edda911e-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/ee76e1a28964-1200.webp",
         "width": 1200
       }
     ]
@@ -1996,19 +3810,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/c51314de8b52-96.webp",
+        "file": "images/responsive/28f0b6252bf2-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/c51314de8b52-384.webp",
+        "file": "images/responsive/6fcb400f7b38-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/d9e9f3de499d-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/c51314de8b52-768.webp",
+        "file": "images/responsive/673ed2940fb4-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/f8f1d60d71d8-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/cake-desserts.webp",
+        "file": "images/responsive/2021eea48bb6-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/9dedc3210112-1200.webp",
         "width": 1200
       }
     ]
@@ -2018,19 +3844,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/6ba13e0867ab-96.webp",
+        "file": "images/responsive/c4fab294f414-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/6ba13e0867ab-384.webp",
+        "file": "images/responsive/6a3cd2bcaa53-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/c5d245d2bf17-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/6ba13e0867ab-768.webp",
+        "file": "images/responsive/7e4bb7ce81cc-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/a1e0044ac381-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/cake-display.webp",
+        "file": "images/responsive/32c9451bb74c-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/2ffa0c4b38d9-1200.webp",
         "width": 1200
       }
     ]
@@ -2040,19 +3878,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/0fb4e6af4ce5-96.webp",
+        "file": "images/responsive/8cf6ebfbc94b-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/0fb4e6af4ce5-384.webp",
+        "file": "images/responsive/da9b0de96d94-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/6595ee1b4b71-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/0fb4e6af4ce5-768.webp",
+        "file": "images/responsive/d95c63bc8be2-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/26e5404d3bff-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/cake-celebration.webp",
+        "file": "images/responsive/e866ab5d4d18-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/2fdbf8cc00eb-1200.webp",
         "width": 1200
       }
     ]
@@ -2062,19 +3912,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/729e22b8fa04-96.webp",
+        "file": "images/responsive/ab88dacd04a6-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/729e22b8fa04-384.webp",
+        "file": "images/responsive/14ea397a7645-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/0ffda095699f-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/729e22b8fa04-768.webp",
+        "file": "images/responsive/2696b1b2c457-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/0a30c9986bd9-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/main.webp",
+        "file": "images/responsive/c31abaaff629-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/c4a52816f1fc-1200.webp",
         "width": 1200
       }
     ]
@@ -2084,19 +3946,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/5cf5a8186f70-96.webp",
+        "file": "images/responsive/dccd6771c249-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/5cf5a8186f70-384.webp",
+        "file": "images/responsive/91fecbd6a616-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/a69167eda5bf-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/5cf5a8186f70-768.webp",
+        "file": "images/responsive/efb42339955e-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/03a3ab63a8e4-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/dining-meals.webp",
+        "file": "images/responsive/4af6e559ef6d-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/2a261223108e-1200.webp",
         "width": 1200
       }
     ]
@@ -2106,19 +3980,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/16507eb0febe-96.webp",
+        "file": "images/responsive/d05d38d460f7-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/16507eb0febe-384.webp",
+        "file": "images/responsive/316f1165cf2e-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/216825a85bad-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/16507eb0febe-768.webp",
+        "file": "images/responsive/908f22c27a25-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/566b1a36bc70-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/dining-group.webp",
+        "file": "images/responsive/75c733b4bf0f-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/8f8207822a75-1200.webp",
         "width": 1200
       }
     ]
@@ -2128,19 +4014,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/0ee2989777ff-96.webp",
+        "file": "images/responsive/bdabcf1222d6-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/0ee2989777ff-384.webp",
+        "file": "images/responsive/c71bf3476121-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/144736fb8e60-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/0ee2989777ff-768.webp",
+        "file": "images/responsive/355d89c34b45-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/8f8828a500ec-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/dining-food.webp",
+        "file": "images/responsive/b7d2093ba2d3-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/adf1cca46012-1200.webp",
         "width": 1200
       }
     ]
@@ -2150,19 +4048,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/879b2d58f058-96.webp",
+        "file": "images/responsive/5952268cf31b-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/879b2d58f058-384.webp",
+        "file": "images/responsive/6a5fc115fbc7-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/533d11fec1b9-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/879b2d58f058-768.webp",
+        "file": "images/responsive/fa513f307f32-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/0cacbdd09fe9-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/dining-catering.webp",
+        "file": "images/responsive/441893a6eab3-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/ad94fda2c453-1200.webp",
         "width": 1200
       }
     ]
@@ -2172,19 +4082,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/4bff3eba57bd-96.webp",
+        "file": "images/responsive/8e8d76868c9e-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/4bff3eba57bd-384.webp",
+        "file": "images/responsive/daef6a989ec0-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/65da330f5cd9-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/4bff3eba57bd-768.webp",
+        "file": "images/responsive/8f21a803e923-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/e3f6dd1a89ac-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-adhesive-foil-bags-new/02.webp",
+        "file": "images/responsive/58144118d122-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/e591dfd24faa-1200.webp",
         "width": 1200
       }
     ]
@@ -2194,19 +4116,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/618cba49fb1a-96.webp",
+        "file": "images/responsive/e49af8af6194-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/618cba49fb1a-384.webp",
+        "file": "images/responsive/cf74981d48eb-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/47b9df72296f-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/618cba49fb1a-768.webp",
+        "file": "images/responsive/a0bb57f7c9f0-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/957c0b913e2e-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-adhesive-foil-bags-new/03.webp",
+        "file": "images/responsive/7eb8f9f2d90d-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/006ebe70b442-1200.webp",
         "width": 1200
       }
     ]
@@ -2216,19 +4150,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/ab3d1d8a0bfd-96.webp",
+        "file": "images/responsive/9d726914d8b1-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/ab3d1d8a0bfd-384.webp",
+        "file": "images/responsive/9e18c430659e-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/a5f90029d22a-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/ab3d1d8a0bfd-768.webp",
+        "file": "images/responsive/a02c312bac72-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/fc588698ddfd-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-adhesive-foil-bags-new/04.webp",
+        "file": "images/responsive/cce3e2596d2f-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/5ef4267da818-1200.webp",
         "width": 1200
       }
     ]
@@ -2238,19 +4184,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/e3fc447cf185-96.webp",
+        "file": "images/responsive/abf15ee93e18-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/e3fc447cf185-384.webp",
+        "file": "images/responsive/652b80435297-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/59888508644e-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/e3fc447cf185-768.webp",
+        "file": "images/responsive/f67cf1a550c3-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/70d6d0d5cb53-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-adhesive-foil-bags-new/05.webp",
+        "file": "images/responsive/79c6f728383b-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/1535ecce5c68-1200.webp",
         "width": 1200
       }
     ]
@@ -2260,19 +4218,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/cc67fa725ba5-96.webp",
+        "file": "images/responsive/09eeb628b2eb-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/cc67fa725ba5-384.webp",
+        "file": "images/responsive/da12d4a59b80-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/f0fb0eec4792-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/cc67fa725ba5-768.webp",
+        "file": "images/responsive/c4455ed6b555-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/3be74aa18765-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-adhesive-foil-bags-new/06.webp",
+        "file": "images/responsive/3506c38ba2ec-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/4b94bc23f3c7-1200.webp",
         "width": 1200
       }
     ]
@@ -2282,19 +4252,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/3047241c8292-96.webp",
+        "file": "images/responsive/370aaecbc3b7-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/3047241c8292-384.webp",
+        "file": "images/responsive/8fbd5ce1d392-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/c0cbc3e2e193-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/3047241c8292-768.webp",
+        "file": "images/responsive/5b902a173033-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/80b32bd955e1-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-adhesive-foil-bags-new/07.webp",
+        "file": "images/responsive/a38a838897dd-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/d7b8a3418be0-1200.webp",
         "width": 1200
       }
     ]
@@ -2304,19 +4286,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/87513b9aa4ae-96.webp",
+        "file": "images/responsive/1af9484d0733-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/87513b9aa4ae-384.webp",
+        "file": "images/responsive/26abbe2c189d-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/e46e73687f39-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/87513b9aa4ae-768.webp",
+        "file": "images/responsive/89ba47aa2d37-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/4019099c81c5-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/open-top-foil-bags-new/01.webp",
+        "file": "images/responsive/06b99fa9386d-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/4f71b0194306-1200.webp",
         "width": 1200
       }
     ]
@@ -2326,19 +4320,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/f9f5c8bda967-96.webp",
+        "file": "images/responsive/c7b524d6c7d2-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/f9f5c8bda967-384.webp",
+        "file": "images/responsive/7700e058ea94-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/2d0b02776a70-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/f9f5c8bda967-768.webp",
+        "file": "images/responsive/c065e69c3a2a-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/14169089c075-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/open-top-foil-bags-new/02.webp",
+        "file": "images/responsive/8ec94405f658-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/80169cbbc999-1200.webp",
         "width": 1200
       }
     ]
@@ -2348,19 +4354,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/124af6ad7ae8-96.webp",
+        "file": "images/responsive/a145b4f0971b-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/124af6ad7ae8-384.webp",
+        "file": "images/responsive/6d742a7cce51-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/4775452615a9-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/124af6ad7ae8-768.webp",
+        "file": "images/responsive/a1b4b05195eb-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/81d497b9eb6b-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/open-top-foil-bags-new/03.webp",
+        "file": "images/responsive/d3c8295ba4fe-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/52511cb887be-1200.webp",
         "width": 1200
       }
     ]
@@ -2370,19 +4388,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/5aa8581b213d-96.webp",
+        "file": "images/responsive/3fef7a5e094d-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/5aa8581b213d-384.webp",
+        "file": "images/responsive/b8a0bf249290-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/56e29f654f8a-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/5aa8581b213d-768.webp",
+        "file": "images/responsive/e056cea8cfbe-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/66961335f8ea-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/open-top-foil-bags-new/04.webp",
+        "file": "images/responsive/e7dfbccb8aa2-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/9cb2c8907985-1200.webp",
         "width": 1200
       }
     ]
@@ -2392,19 +4422,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/b07d8685b20a-96.webp",
+        "file": "images/responsive/b6738c98454d-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/b07d8685b20a-384.webp",
+        "file": "images/responsive/00f6cff9eeb0-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/1eb073ea97b9-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/b07d8685b20a-768.webp",
+        "file": "images/responsive/c5c0c03f7696-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/2ebe17c56cf9-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/open-top-foil-bags-new/05.webp",
+        "file": "images/responsive/9f98ea7a21c3-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/2decba5de00c-1200.webp",
         "width": 1200
       }
     ]
@@ -2414,19 +4456,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/0c9ecf84e3c0-96.webp",
+        "file": "images/responsive/0cd4999f4b42-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/0c9ecf84e3c0-384.webp",
+        "file": "images/responsive/196e6e01c339-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/8b466fd98e4e-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/0c9ecf84e3c0-768.webp",
+        "file": "images/responsive/a06f93fae396-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/f2f7ad2b9119-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/open-top-foil-bags-new/06.webp",
+        "file": "images/responsive/68c471373853-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/30eeb36203bf-1200.webp",
         "width": 1200
       }
     ]
@@ -2436,19 +4490,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/efbc84103314-96.webp",
+        "file": "images/responsive/acb8e290f073-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/efbc84103314-384.webp",
+        "file": "images/responsive/0e3ed379eef9-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/4e21ca591b64-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/efbc84103314-768.webp",
+        "file": "images/responsive/9d521be04c78-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/77baf3881541-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/open-top-foil-bags-new/07.webp",
+        "file": "images/responsive/e2ca643aa0af-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/1b037b822207-1200.webp",
         "width": 1200
       }
     ]
@@ -2458,19 +4524,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/22308a975bce-96.webp",
+        "file": "images/responsive/6bb1c800bdad-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/22308a975bce-384.webp",
+        "file": "images/responsive/4b4e6f5ab67f-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/a4abc7670379-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/22308a975bce-768.webp",
+        "file": "images/responsive/45c852d3b212-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/14a1f47dde6b-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/hand-finished-gusseted-foil-bags-new/01.webp",
+        "file": "images/responsive/cc495f5a3ec7-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/b98194062f93-1200.webp",
         "width": 1200
       }
     ]
@@ -2480,19 +4558,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/14c049c4dc57-96.webp",
+        "file": "images/responsive/e527ff9e6866-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/14c049c4dc57-384.webp",
+        "file": "images/responsive/8b87c9b8c09c-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/59c872c69c61-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/14c049c4dc57-768.webp",
+        "file": "images/responsive/22bbdf1cea54-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/128d6102ccfa-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/hand-finished-gusseted-foil-bags-new/02.webp",
+        "file": "images/responsive/fba7c2b707bd-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/977f3662b159-1200.webp",
         "width": 1200
       }
     ]
@@ -2502,19 +4592,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/b22350eab38c-96.webp",
+        "file": "images/responsive/a6ee68b4fb07-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/b22350eab38c-384.webp",
+        "file": "images/responsive/40cafc2ce689-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/52d9fcfb64f0-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/b22350eab38c-768.webp",
+        "file": "images/responsive/bc73626f6aca-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/1ea13b59e863-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/hand-finished-gusseted-foil-bags-new/03.webp",
+        "file": "images/responsive/264055a98a53-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/3c8b644b343d-1200.webp",
         "width": 1200
       }
     ]
@@ -2524,19 +4626,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/2bda4204aa62-96.webp",
+        "file": "images/responsive/3c9ad15f3e27-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/2bda4204aa62-384.webp",
+        "file": "images/responsive/56b311fb2040-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/0ad55fbc5651-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/2bda4204aa62-768.webp",
+        "file": "images/responsive/5f0049a66d86-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/d050b066f165-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/hand-finished-gusseted-foil-bags-new/04.webp",
+        "file": "images/responsive/eab6ede5cf7b-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/787ddc560734-1200.webp",
         "width": 1200
       }
     ]
@@ -2546,19 +4660,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/99a4b7d268cf-96.webp",
+        "file": "images/responsive/1252ea90c117-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/99a4b7d268cf-384.webp",
+        "file": "images/responsive/e5302e13b7ad-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/b7edd264ab97-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/99a4b7d268cf-768.webp",
+        "file": "images/responsive/da5c30b0d59a-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/72fc7bb37f20-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/machine-formed-gusseted-foil-bags-new/01.webp",
+        "file": "images/responsive/f6e7e67720c0-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/c654b1f232bd-1200.webp",
         "width": 1200
       }
     ]
@@ -2568,19 +4694,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/08822ddf1996-96.webp",
+        "file": "images/responsive/d0574a243767-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/08822ddf1996-384.webp",
+        "file": "images/responsive/cac0946f340a-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/1eff724b1df6-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/08822ddf1996-768.webp",
+        "file": "images/responsive/b6ae398d00db-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/ed0472594436-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/machine-formed-gusseted-foil-bags-new/02.webp",
+        "file": "images/responsive/f13b771db10c-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/69299780e0f3-1200.webp",
         "width": 1200
       }
     ]
@@ -2590,19 +4728,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/5192fd5fe96e-96.webp",
+        "file": "images/responsive/3e85fa55b96f-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/5192fd5fe96e-384.webp",
+        "file": "images/responsive/15af7124684a-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/9fafcba6ff0c-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/5192fd5fe96e-768.webp",
+        "file": "images/responsive/e991e821c7e0-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/3f17f41663d7-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/machine-formed-gusseted-foil-bags-new/03.webp",
+        "file": "images/responsive/060bf8bbb91a-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/605c1b76e32f-1200.webp",
         "width": 1200
       }
     ]
@@ -2612,19 +4762,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/d02c96c17a07-96.webp",
+        "file": "images/responsive/909d83adf9a4-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/d02c96c17a07-384.webp",
+        "file": "images/responsive/2fbc6cd46171-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/2a44118f215b-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/d02c96c17a07-768.webp",
+        "file": "images/responsive/5cc172866c13-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/7a8c7effda98-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/machine-formed-gusseted-foil-bags-new/04.webp",
+        "file": "images/responsive/ae1bb4cae065-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/4d472a530e97-1200.webp",
         "width": 1200
       }
     ]
@@ -2634,19 +4796,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/361331d52497-96.webp",
+        "file": "images/responsive/bbb15ea6448b-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/361331d52497-384.webp",
+        "file": "images/responsive/68e1fa0a952a-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/09d31d45fa10-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/361331d52497-768.webp",
+        "file": "images/responsive/3bead1410d9b-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/ad45881af9d4-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/machine-formed-gusseted-foil-bags-new/05.webp",
+        "file": "images/responsive/7cb020b5049b-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/abd2ab3f1bb2-1200.webp",
         "width": 1200
       }
     ]
@@ -2656,19 +4830,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/05dfbaa7a272-96.webp",
+        "file": "images/responsive/1e01b8aa133a-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/05dfbaa7a272-384.webp",
+        "file": "images/responsive/450198185203-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/da953c909d09-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/05dfbaa7a272-768.webp",
+        "file": "images/responsive/7cfaffa63638-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/242511599223-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/machine-formed-gusseted-foil-bags-new/06.webp",
+        "file": "images/responsive/248022c52e6d-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/eea2019b6d3d-1200.webp",
         "width": 1200
       }
     ]
@@ -2678,19 +4864,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/d629fc087016-96.webp",
+        "file": "images/responsive/9233e36356b1-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/d629fc087016-384.webp",
+        "file": "images/responsive/a3a54fdf655b-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/7305ca6ddd41-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/d629fc087016-768.webp",
+        "file": "images/responsive/f4b564dcd87c-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/983107bb3298-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/machine-formed-gusseted-foil-bags-new/07.webp",
+        "file": "images/responsive/4088207ff97d-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/22dc05842988-1200.webp",
         "width": 1200
       }
     ]
@@ -2700,19 +4898,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/b09c5e600cea-96.webp",
+        "file": "images/responsive/074cb2a1a9df-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/b09c5e600cea-384.webp",
+        "file": "images/responsive/357c78bd9f66-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/ebf4380a419e-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/b09c5e600cea-768.webp",
+        "file": "images/responsive/cf6c37817609-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/34cbc006567e-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/gusseted-foil-cake-bags-new/01.webp",
+        "file": "images/responsive/7226f6d9130d-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/c193d5a12daa-1200.webp",
         "width": 1200
       }
     ]
@@ -2722,19 +4932,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/72125ae34d66-96.webp",
+        "file": "images/responsive/8a6232e2e6b7-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/72125ae34d66-384.webp",
+        "file": "images/responsive/5fb2fbfd0204-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/91d413de803d-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/72125ae34d66-768.webp",
+        "file": "images/responsive/87737aea1933-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/3660bb3ef4d9-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/gusseted-foil-cake-bags-new/02.webp",
+        "file": "images/responsive/d42660f5ec1d-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/2d1c264a95e3-1200.webp",
         "width": 1200
       }
     ]
@@ -2744,19 +4966,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/9c60ab53fed2-96.webp",
+        "file": "images/responsive/f8dc797ded9e-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/9c60ab53fed2-384.webp",
+        "file": "images/responsive/7a18bdff7f42-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/05e24b8e0177-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/9c60ab53fed2-768.webp",
+        "file": "images/responsive/a22567cf2dc7-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/e9a87173c3a0-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/gusseted-foil-cake-bags-new/03.webp",
+        "file": "images/responsive/9df3781e4dfa-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/da3961715d0d-1200.webp",
         "width": 1200
       }
     ]
@@ -2766,19 +5000,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/ee76eff886e0-96.webp",
+        "file": "images/responsive/fabd04ef42a3-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/ee76eff886e0-384.webp",
+        "file": "images/responsive/5f7a1c59cd40-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/eaef3ea9164a-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/ee76eff886e0-768.webp",
+        "file": "images/responsive/2b8ddce6eb09-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/fee01e61ab34-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/gusseted-foil-cake-bags-new/04.webp",
+        "file": "images/responsive/e5724eec1fdb-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/a1463835ff27-1200.webp",
         "width": 1200
       }
     ]
@@ -2788,19 +5034,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/88d6f3c7e742-96.webp",
+        "file": "images/responsive/1f2bdc26724f-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/88d6f3c7e742-384.webp",
+        "file": "images/responsive/5f4af2129db4-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/aca60e2d2c75-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/88d6f3c7e742-768.webp",
+        "file": "images/responsive/0db8524e6892-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/1b6bd1a91659-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/gusseted-foil-cake-bags-new/05.webp",
+        "file": "images/responsive/3f27e11a19e2-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/ba4e48a6fe9f-1200.webp",
         "width": 1200
       }
     ]
@@ -2810,19 +5068,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/e466a8b40420-96.webp",
+        "file": "images/responsive/4b38697aecf1-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/e466a8b40420-384.webp",
+        "file": "images/responsive/14480a380a6d-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/2289dce9c027-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/e466a8b40420-768.webp",
+        "file": "images/responsive/55298661a1ae-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/690c63d34da2-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/water-fill-ice-packs-main.webp",
+        "file": "images/responsive/b6d7c7c64449-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/6c103c0960b3-1200.webp",
         "width": 1200
       }
     ]
@@ -2832,19 +5102,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/9c44a9c83fe4-96.webp",
+        "file": "images/responsive/3b92a3c2027b-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/9c44a9c83fe4-384.webp",
+        "file": "images/responsive/6987f346c669-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/b129b7a346fe-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/9c44a9c83fe4-768.webp",
+        "file": "images/responsive/032585e8b594-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/5d9dfdc62d24-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/water-fill-ice-pack-sizes.webp",
+        "file": "images/responsive/67c8d52c630f-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/406368dcc7da-1200.webp",
         "width": 1200
       }
     ]
@@ -2854,19 +5136,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/3e861638bfa0-96.webp",
+        "file": "images/responsive/8b4960d3c09d-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/3e861638bfa0-384.webp",
+        "file": "images/responsive/523173802264-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/154dbe9ba91e-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/3e861638bfa0-768.webp",
+        "file": "images/responsive/ec14f1b4d38d-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/3d2dce986855-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/water-fill-ice-pack-stacked.webp",
+        "file": "images/responsive/857d44976432-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/25779728b2a2-1200.webp",
         "width": 1200
       }
     ]
@@ -2876,19 +5170,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/4947021df1bf-96.webp",
+        "file": "images/responsive/91da0e0401d9-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/4947021df1bf-384.webp",
+        "file": "images/responsive/d27c71a66852-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/98ec6f0d7cc4-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/4947021df1bf-768.webp",
+        "file": "images/responsive/64fa46eab104-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/afc3bdd8ba29-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/water-fill-ice-pack-closure.webp",
+        "file": "images/responsive/27967eef74cb-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/3d93f2c96f35-1200.webp",
         "width": 1200
       }
     ]
@@ -2898,19 +5204,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/11208f16cf8d-96.webp",
+        "file": "images/responsive/1a91c6589803-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/11208f16cf8d-384.webp",
+        "file": "images/responsive/3785555a8bd4-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/d918f9094664-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/11208f16cf8d-768.webp",
+        "file": "images/responsive/1ab52e93e361-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/2f9665945f22-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/water-fill-ice-packs-cooler-application.webp",
+        "file": "images/responsive/1dfeb6fd36e2-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/900b4692cd05-1200.webp",
         "width": 1200
       }
     ]
@@ -2920,19 +5238,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/dd746cda5659-96.webp",
+        "file": "images/responsive/cc3b5640ccc1-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/dd746cda5659-384.webp",
+        "file": "images/responsive/cfaf3c8c0b60-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/fc0bda594dfa-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/dd746cda5659-768.webp",
+        "file": "images/responsive/13453f5ad779-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/2dff1b8913c5-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/absorbing-ice-pack-range.webp",
+        "file": "images/responsive/970eec2f16ee-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/118119a0c668-1200.webp",
         "width": 1200
       }
     ]
@@ -2942,19 +5272,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/7b16f6c60481-96.webp",
+        "file": "images/responsive/11983ced26e3-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/7b16f6c60481-384.webp",
+        "file": "images/responsive/637ed5befd77-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/5af95699cff2-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/7b16f6c60481-768.webp",
+        "file": "images/responsive/8a867d807cba-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/62ebfec52ec3-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/absorbing-ice-pack-flat.webp",
+        "file": "images/responsive/acc6c19acbc2-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/67540b7c254e-1200.webp",
         "width": 1200
       }
     ]
@@ -2964,19 +5306,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/712aa4d1786e-96.webp",
+        "file": "images/responsive/6aba15eef07c-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/712aa4d1786e-384.webp",
+        "file": "images/responsive/92dc3af69031-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/598d62b6fb09-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/712aa4d1786e-768.webp",
+        "file": "images/responsive/96fb953c71d9-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/440171e76c5d-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/absorbing-ice-pack-reverse.webp",
+        "file": "images/responsive/0e651435243b-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/874ca64492ba-1200.webp",
         "width": 1200
       }
     ]
@@ -2986,19 +5340,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/2b767b04d913-96.webp",
+        "file": "images/responsive/9e5e5956e393-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/2b767b04d913-384.webp",
+        "file": "images/responsive/cf092643f5e2-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/bba8e3ff9d31-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/2b767b04d913-768.webp",
+        "file": "images/responsive/4af1cc0c77ab-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/58ac95539fbd-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/absorbing-ice-pack-hand.webp",
+        "file": "images/responsive/a455b633162e-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/7b3fec7fe9d9-1200.webp",
         "width": 1200
       }
     ]
@@ -3008,19 +5374,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/cf1da6dc3a85-96.webp",
+        "file": "images/responsive/c61278c2fd8d-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/cf1da6dc3a85-384.webp",
+        "file": "images/responsive/7cd3e188c488-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/0785c7398f7b-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/cf1da6dc3a85-768.webp",
+        "file": "images/responsive/fd5efbd72b88-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/07db1a9428f0-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/absorbing-ice-pack-front-back.webp",
+        "file": "images/responsive/0534441009c5-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/e2217ea56c3a-1200.webp",
         "width": 1200
       }
     ]
@@ -3030,19 +5408,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/c2e04da8a93e-96.webp",
+        "file": "images/responsive/67355272abd2-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/c2e04da8a93e-384.webp",
+        "file": "images/responsive/f622b1d0662e-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/7dcf9d6f1e7b-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/c2e04da8a93e-768.webp",
+        "file": "images/responsive/25079c0dc22a-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/f2b86d3707d7-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-absorbing-ice-packs-cooler-application.webp",
+        "file": "images/responsive/a595be06b36a-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/f7c03c1fdc37-1200.webp",
         "width": 1200
       }
     ]
@@ -3052,19 +5442,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/2b419b57b076-96.webp",
+        "file": "images/responsive/71965549745d-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/2b419b57b076-384.webp",
+        "file": "images/responsive/41e719cedaac-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/8c7f9e732921-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/2b419b57b076-768.webp",
+        "file": "images/responsive/09c9f5861d78-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/765113c09557-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/details-v2/segmented-ice-sheets-application-v2.webp",
+        "file": "images/responsive/b7647744a59b-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/88e7c9063a65-1200.webp",
         "width": 1200
       }
     ]
@@ -3074,19 +5476,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/38037bac4665-96.webp",
+        "file": "images/responsive/9499c2eb570d-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/38037bac4665-384.webp",
+        "file": "images/responsive/b36d2c5e48e5-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/eb56039e26be-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/38037bac4665-768.webp",
+        "file": "images/responsive/5a7c0a5fcf62-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/8b029beebcc7-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/details-v2/segmented-ice-sheets-detail-v2.webp",
+        "file": "images/responsive/0e1fc4d90f38-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/e77ed7404da7-1200.webp",
         "width": 1200
       }
     ]
@@ -3096,19 +5510,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/8f33b6de242b-96.webp",
+        "file": "images/responsive/d6544c13cc96-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/8f33b6de242b-384.webp",
+        "file": "images/responsive/341be1c71125-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/5c52e215965b-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/8f33b6de242b-768.webp",
+        "file": "images/responsive/96b032613bac-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/bbf94c538630-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/segmented-ice-sheets-cooler-application.webp",
+        "file": "images/responsive/9af48592861d-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/242ec228a825-1200.webp",
         "width": 1200
       }
     ]
@@ -3118,19 +5544,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/d398a926e2fb-96.webp",
+        "file": "images/responsive/79fedd86a633-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/d398a926e2fb-384.webp",
+        "file": "images/responsive/1247f996ab5b-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/cc425db9bbf4-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/d398a926e2fb-768.webp",
+        "file": "images/responsive/c6eb74e1c23f-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/5b4667befdb5-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/colors.webp",
+        "file": "images/responsive/27eaf73d428a-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/a98256f12146-1200.webp",
         "width": 1200
       }
     ]
@@ -3140,19 +5578,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/27d074c13159-96.webp",
+        "file": "images/responsive/44a49c20ef31-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/27d074c13159-384.webp",
+        "file": "images/responsive/763abd293936-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/203b98db1a20-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/27d074c13159-768.webp",
+        "file": "images/responsive/b8ace770dc20-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/b82c881f5d91-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/food-service.webp",
+        "file": "images/responsive/7e00cbcbef49-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/6b7589c480e5-1200.webp",
         "width": 1200
       }
     ]
@@ -3162,19 +5612,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/717f8e291cd1-96.webp",
+        "file": "images/responsive/0cedb6fce25c-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/717f8e291cd1-384.webp",
+        "file": "images/responsive/50f0a3579acc-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/90bb97129efa-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/717f8e291cd1-768.webp",
+        "file": "images/responsive/1e88781d8d11-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/68c42b57c304-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/meal-delivery.webp",
+        "file": "images/responsive/4b6a094cd331-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/b1b6c3e0d492-1200.webp",
         "width": 1200
       }
     ]
@@ -3184,19 +5646,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/b75fabff9742-96.webp",
+        "file": "images/responsive/3f738e3fb8ed-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/b75fabff9742-384.webp",
+        "file": "images/responsive/a5dd5f4f80c4-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/20e5c5a9399b-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/b75fabff9742-768.webp",
+        "file": "images/responsive/d8ffac42c2c4-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/1d6553167e56-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/bakery-from-png.webp",
+        "file": "images/responsive/f7517a1d1087-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/e0bab7411de7-1200.webp",
         "width": 1200
       }
     ]
@@ -3206,19 +5680,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/a6e5d4af0aa7-96.webp",
+        "file": "images/responsive/16fb4edf1baf-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/a6e5d4af0aa7-384.webp",
+        "file": "images/responsive/8b9ca6cae084-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/987a6a0d3a77-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/a6e5d4af0aa7-768.webp",
+        "file": "images/responsive/4e82ed1a3203-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/1daa7745889f-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/meal-scenes.webp",
+        "file": "images/responsive/9c4428b98265-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/1b5f430c6d09-1200.webp",
         "width": 1200
       }
     ]
@@ -3228,19 +5714,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/e305fb0e16ef-96.webp",
+        "file": "images/responsive/b033a1ac3288-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/e305fb0e16ef-384.webp",
+        "file": "images/responsive/b0ae2d6853e0-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/482376fcc083-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/e305fb0e16ef-768.webp",
+        "file": "images/responsive/1911e15b811b-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/ac29279d575f-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/details-v2/square-zipper-cake-cooler-application-v2.webp",
+        "file": "images/responsive/3bcbdd73e61c-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/95fbcb093046-1200.webp",
         "width": 1200
       }
     ]
@@ -3250,19 +5748,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/6d5049c12c68-96.webp",
+        "file": "images/responsive/b4f307ed311c-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/6d5049c12c68-384.webp",
+        "file": "images/responsive/3045892c4014-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/b21d186a6598-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/6d5049c12c68-768.webp",
+        "file": "images/responsive/af2f8ee5aa47-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/aa1b96f16359-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/details-v2/square-zipper-cake-cooler-detail-v2.webp",
+        "file": "images/responsive/495ac235b29e-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/eca35a1c576e-1200.webp",
         "width": 1200
       }
     ]
@@ -3272,19 +5782,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/8ee8b9bfd071-96.webp",
+        "file": "images/responsive/e0495b06181b-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/8ee8b9bfd071-384.webp",
+        "file": "images/responsive/4165b7dd1931-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/7be67975bf51-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/8ee8b9bfd071-768.webp",
+        "file": "images/responsive/395dc82cdb20-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/407afae1957a-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/details-v2/square-zipper-cake-cooler-structure-v2.webp",
+        "file": "images/responsive/28c3f2770126-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/0173bff24110-1200.webp",
         "width": 1200
       }
     ]
@@ -3294,19 +5816,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/9e7119588e09-96.webp",
+        "file": "images/responsive/75d824e454a6-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/9e7119588e09-384.webp",
+        "file": "images/responsive/5ffad8e683c7-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/b185dd4a760f-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/9e7119588e09-768.webp",
+        "file": "images/responsive/a357d69d4590-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/bc00eac53c00-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/mint-cake-bag-front.webp",
+        "file": "images/responsive/c51f1123d28b-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/8530e6fa0a7a-1200.webp",
         "width": 1200
       }
     ]
@@ -3316,19 +5850,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/456d6aa44393-96.webp",
+        "file": "images/responsive/d73af27e5ea0-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/456d6aa44393-384.webp",
+        "file": "images/responsive/33cb2e35e5c5-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/200ba4cd844f-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/456d6aa44393-768.webp",
+        "file": "images/responsive/eb1136fd02cb-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/707a7da18e03-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/mint-cake-bag-application.webp",
+        "file": "images/responsive/e46eb3295482-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/efd4c5695ed8-1200.webp",
         "width": 1200
       }
     ]
@@ -3338,19 +5884,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/faac33757017-96.webp",
+        "file": "images/responsive/cd45833ee429-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/faac33757017-384.webp",
+        "file": "images/responsive/eb650f5c0569-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/6f3c3a1089dd-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/faac33757017-768.webp",
+        "file": "images/responsive/889110e3f708-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/53412b9dee9d-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/mint-cake-bag-lining.webp",
+        "file": "images/responsive/4701f71e7eb5-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/b5847dcdc48d-1200.webp",
         "width": 1200
       }
     ]
@@ -3360,19 +5918,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/01b00a9845cd-96.webp",
+        "file": "images/responsive/2e5521b6823b-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/01b00a9845cd-384.webp",
+        "file": "images/responsive/8828255db1bc-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/08da512ceece-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/01b00a9845cd-768.webp",
+        "file": "images/responsive/b4c510287fdf-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/edc782c7f49c-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/mint-cake-bag-open.webp",
+        "file": "images/responsive/457fe206c12d-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/f35d4bdbfb73-1200.webp",
         "width": 1200
       }
     ]
@@ -3382,19 +5952,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/4b612809eb7b-96.webp",
+        "file": "images/responsive/07a88d2ab255-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/4b612809eb7b-384.webp",
+        "file": "images/responsive/e0b61b6a2ff6-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/eb4149502b7e-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/4b612809eb7b-768.webp",
+        "file": "images/responsive/5ddd367345b7-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/3d94d6bba58c-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/mint-cake-bag-handles.webp",
+        "file": "images/responsive/44a1d9bc6bec-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/aa64939175e4-1200.webp",
         "width": 1200
       }
     ]
@@ -3404,19 +5986,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/b3f9bb8f9e29-96.webp",
+        "file": "images/responsive/e2175c37756f-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/b3f9bb8f9e29-384.webp",
+        "file": "images/responsive/a01ed030d8ba-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/412204dc5afa-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/b3f9bb8f9e29-768.webp",
+        "file": "images/responsive/323d55bcf34c-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/5bc813be41c5-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/mint-cake-bag-carrying.webp",
+        "file": "images/responsive/170276d7098e-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/e38eaf940569-1200.webp",
         "width": 1200
       }
     ]
@@ -3426,19 +6020,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/cc9f173016da-96.webp",
+        "file": "images/responsive/50c4a3cd5339-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/cc9f173016da-384.webp",
+        "file": "images/responsive/fd0c9bedd9f2-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/50e0556d94dd-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/cc9f173016da-768.webp",
+        "file": "images/responsive/6ab8c800ab49-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/2eeca3a29159-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/details-v2/wide-base-meal-cooler-application-v2.webp",
+        "file": "images/responsive/0d0371f337c9-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/8e2e0b6be922-1200.webp",
         "width": 1200
       }
     ]
@@ -3448,19 +6054,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/d43e0e005d32-96.webp",
+        "file": "images/responsive/ff3c6db1b277-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/d43e0e005d32-384.webp",
+        "file": "images/responsive/b0d9c11b885a-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/b1c9754fcef9-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/d43e0e005d32-768.webp",
+        "file": "images/responsive/6a237dbb0daa-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/b8f806d51dc0-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/details-v2/wide-base-meal-cooler-detail-v2.webp",
+        "file": "images/responsive/5a74760c7fda-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/eff79fbc9a67-1200.webp",
         "width": 1200
       }
     ]
@@ -3470,19 +6088,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/f61440c543dd-96.webp",
+        "file": "images/responsive/5ba7b1c3b082-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/f61440c543dd-384.webp",
+        "file": "images/responsive/e77fa96f53cb-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/7de55e7392c3-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/f61440c543dd-768.webp",
+        "file": "images/responsive/3e82886c965c-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/bede467fc8c1-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/details-v2/wide-base-meal-cooler-structure-v2.webp",
+        "file": "images/responsive/9aad2f928a67-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/8c7d88dbcf7a-1200.webp",
         "width": 1200
       }
     ]
@@ -3492,19 +6122,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/914304e71397-96.webp",
+        "file": "images/responsive/d35fad3541b2-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/914304e71397-384.webp",
+        "file": "images/responsive/0af1d85cff7c-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/d4dbd4d6eaed-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/914304e71397-768.webp",
+        "file": "images/responsive/2c6085996908-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/34570cb6e6a8-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/details-v2/upright-grocery-cooler-application-v2.webp",
+        "file": "images/responsive/d34c93c57a92-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/d0709ad4b1fa-1200.webp",
         "width": 1200
       }
     ]
@@ -3514,19 +6156,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/71b14994f8bb-96.webp",
+        "file": "images/responsive/2a8336d73f50-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/71b14994f8bb-384.webp",
+        "file": "images/responsive/dd3178a7ae55-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/8d2e2c22e8e6-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/71b14994f8bb-768.webp",
+        "file": "images/responsive/ad7f83aef956-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/66f547d2bb3e-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/details-v2/upright-grocery-cooler-detail-v2.webp",
+        "file": "images/responsive/9fb1e2c68444-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/a03fd167e172-1200.webp",
         "width": 1200
       }
     ]
@@ -3536,19 +6190,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/987596d18ee6-96.webp",
+        "file": "images/responsive/93a8906b9bc2-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/987596d18ee6-384.webp",
+        "file": "images/responsive/ea899bd2036e-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/05d0bf7a828e-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/987596d18ee6-768.webp",
+        "file": "images/responsive/bd58b6e62e6d-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/0c7a0d9ced21-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/details-v2/upright-grocery-cooler-structure-v2.webp",
+        "file": "images/responsive/3dcca7f096f8-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/b4b1f8964da2-1200.webp",
         "width": 1200
       }
     ]
@@ -3558,19 +6224,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/d5b7dbc8e2df-96.webp",
+        "file": "images/responsive/70bb05cae31a-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/d5b7dbc8e2df-384.webp",
+        "file": "images/responsive/89b4b7e72508-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/8a9323b5ed9a-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/d5b7dbc8e2df-768.webp",
+        "file": "images/responsive/dc9abc2ebdd3-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/6ccd003851d5-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/double-film-ice-pack-back.webp",
+        "file": "images/responsive/5a31df10b549-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/f6e26d83377e-1200.webp",
         "width": 1200
       }
     ]
@@ -3580,19 +6258,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/797e9911d400-96.webp",
+        "file": "images/responsive/883a9ae38fec-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/797e9911d400-384.webp",
+        "file": "images/responsive/2272bf4b1a41-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/b5e7af710745-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/797e9911d400-768.webp",
+        "file": "images/responsive/04f8574c906c-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/31955c475ba7-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/double-film-ice-pack-front.webp",
+        "file": "images/responsive/133a8553aa8b-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/67058e2c26d3-1200.webp",
         "width": 1200
       }
     ]
@@ -3602,19 +6292,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/f64892e0da5c-96.webp",
+        "file": "images/responsive/77156cca9c6a-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/f64892e0da5c-384.webp",
+        "file": "images/responsive/e11019a4e29b-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/6e63b0438ae8-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/f64892e0da5c-768.webp",
+        "file": "images/responsive/429ad42bdd23-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/e4f31949e0d3-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/side-absorbing-ice-pack-front.webp",
+        "file": "images/responsive/b6d5c235a706-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/388ddb307907-1200.webp",
         "width": 1200
       }
     ]
@@ -3624,19 +6326,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/d9695846a846-96.webp",
+        "file": "images/responsive/5fcbd71791d6-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/d9695846a846-384.webp",
+        "file": "images/responsive/a03ef4c52ed5-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/54709e227409-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/d9695846a846-768.webp",
+        "file": "images/responsive/8f2e7d3fafaa-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/0f7c97f4a7a3-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/side-absorbing-ice-pack-back.webp",
+        "file": "images/responsive/dcac564ce993-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/8526a4066201-1200.webp",
         "width": 1200
       }
     ]
@@ -3646,19 +6360,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/d21322976070-96.webp",
+        "file": "images/responsive/7f6b2cfec04f-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/d21322976070-384.webp",
+        "file": "images/responsive/891d8301326d-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/8afed2fb1fba-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/d21322976070-768.webp",
+        "file": "images/responsive/648a5142f8f9-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/4b4cd95591f6-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/gusseted-foil-open-interior.webp",
+        "file": "images/responsive/b18187fac3a6-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/0de8e986a9be-1200.webp",
         "width": 1200
       }
     ]
@@ -3668,19 +6394,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/b28a7b0f9378-96.webp",
+        "file": "images/responsive/b8d950f1fd6e-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/b28a7b0f9378-384.webp",
+        "file": "images/responsive/334dcd596e1e-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/cd7b919da6dc-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/b28a7b0f9378-768.webp",
+        "file": "images/responsive/c1daef255765-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/dd173fa6bffc-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/handmade-foil-bag-shape.webp",
+        "file": "images/responsive/62682a5563da-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/ef011f136ac2-1200.webp",
         "width": 1200
       }
     ]
@@ -3690,19 +6428,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/9ddd2f5e8d3a-96.webp",
+        "file": "images/responsive/a096c54b0889-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/9ddd2f5e8d3a-384.webp",
+        "file": "images/responsive/9dda32d0f048-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/2092cddd968c-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/9ddd2f5e8d3a-768.webp",
+        "file": "images/responsive/190d6ef44c87-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/16d5ea13573e-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/details-v2/segmented-ice-sheets-structure-v2.webp",
+        "file": "images/responsive/4a6259cf78c8-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/56c37abbe019-1200.webp",
         "width": 1200
       }
     ]
@@ -3712,19 +6462,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/645944db0298-96.webp",
+        "file": "images/responsive/a7b53e583f81-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/645944db0298-384.webp",
+        "file": "images/responsive/59acaa23b7e1-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/1df0ba487565-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/645944db0298-768.webp",
+        "file": "images/responsive/ad93753ef255-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/4be918045027-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/dining-colors.webp",
+        "file": "images/responsive/6409350d6f0c-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/12a69bc83a9b-1200.webp",
         "width": 1200
       }
     ]
@@ -3734,19 +6496,31 @@
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/faa815466e56-96.webp",
+        "file": "images/responsive/b7195277e681-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/faa815466e56-384.webp",
+        "file": "images/responsive/5c065d448ed4-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/1b326d2eaf44-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/faa815466e56-768.webp",
+        "file": "images/responsive/72ed86c52080-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/7f13cb24e9cc-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/standardized/photos-2026-09/water-fill-ice-pack-range.webp",
+        "file": "images/responsive/cae87b86b3c1-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/b20d860fa7d5-1200.webp",
         "width": 1200
       }
     ]

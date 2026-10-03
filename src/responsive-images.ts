@@ -8,6 +8,7 @@ export function responsiveImage(source: string, sizes: string) {
   const image = images[source]
   if (!image) return {}
   return {
+    decoding: 'async' as const,
     srcSet: image.variants.map(item => `${import.meta.env.BASE_URL}${item.file} ${item.width}w`).join(', '),
     sizes,
     width: image.width,

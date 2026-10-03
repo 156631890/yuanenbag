@@ -23,7 +23,7 @@
 .buyer-resources-section{background:#edf2f4;border-block:1px solid #e2eaed}
 .buyer-heading-aside{max-width:330px;flex-shrink:0}
 .buyer-heading-aside p{font-size:14px;line-height:1.8;color:#5b6e7b;margin:0 0 10px}
-.buyer-guides{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);gap:24px}
+.buyer-guides{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:1fr;gap:24px}
 .buyer-guide{display:grid;grid-template-columns:minmax(0,.72fr) minmax(0,1fr);min-width:0;background:#fff;color:var(--navy)}
 .buyer-guide-featured{grid-row:span 2;grid-template-columns:1fr}
 .buyer-guide-photo{position:relative;overflow:hidden;min-height:180px;background:#dce5e9}
@@ -75,7 +75,7 @@
  .buyer-heading-link{font-size:12px}.buyer-heading-aside p{font-size:13px}
  .process-factory{grid-template-columns:1fr}.process-factory>img{height:200px;min-height:0}.process-factory figcaption{padding:23px}.process-factory strong{font-size:24px}.process-location{margin-top:14px}
  .buyer-steps{grid-template-columns:1fr;padding:6px 23px}.buyer-steps li{padding:21px 0;gap:17px}.buyer-steps li:nth-last-child(2){border-bottom:1px solid #d3dee3}.buyer-steps h3{font-size:18px;margin:3px 0 8px}.buyer-steps p{font-size:13px}.buyer-step-visual,.buyer-step-visual img{width:64px}.buyer-step-visual img{height:64px}
- .buyer-guide,.buyer-guide-featured{grid-template-columns:1fr}.buyer-guide-photo,.buyer-guide-featured .buyer-guide-photo{height:190px;min-height:0}.buyer-guide-copy{padding:23px}.buyer-guide h3,.buyer-guide-featured h3{font-size:24px}.buyer-guide p{margin-bottom:20px}
+ .buyer-guide,.buyer-guide-featured{grid-template-columns:1fr}.buyer-guide-photo,.buyer-guide-featured .buyer-guide-photo{height:auto;aspect-ratio:3/2;min-height:0}.buyer-guide-copy{padding:23px}.buyer-guide h3,.buyer-guide-featured h3{font-size:24px}.buyer-guide p{margin-bottom:20px}
  .buyer-faq summary{grid-template-columns:18px 1fr 28px;gap:11px;padding:20px 10px;font-size:15px;line-height:1.6}.faq-toggle{width:28px;height:28px}.faq-answer{padding:0 20px 23px 39px}.faq-answer p{font-size:13px}.buyer-faq-intro>p{font-size:13px;margin-top:18px}
 }
 @media(prefers-reduced-motion:reduce){.buyer-heading-link svg,.buyer-guide-link svg,.buyer-guide-photo img,.faq-toggle svg{transition:none}}

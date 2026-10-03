@@ -1,5 +1,6 @@
 import { tx, type Lang } from './data'
 import { responsiveImage } from './responsive-images'
+import crops from './factory-photo-crops.json'
 export const factoryPhotos = {
   building: {file:'company-profile',box:'827 506 940 701',width:1920,height:1232,title:tx('YUANEN factory building','远恩工厂外观')},
   production: {file:'production-workshops',box:'252 250 905 508',width:1920,height:762,title:tx('Insulated packaging production workshop','保温包装生产车间')},
@@ -19,9 +20,13 @@ const currentPhotos:Partial<Record<keyof typeof factoryPhotos,{file:string;title
 }
 for(const [key,value] of Object.entries(currentPhotos))factoryPhotos[key as keyof typeof factoryPhotos].title=value.title
 
-export default function FactoryPhoto({photo,lang,className=''}:{photo:keyof typeof factoryPhotos;lang:Lang;className?:string}) {
+export default function FactoryPhoto({photo,lang,className='',sizes='(max-width:650px) calc(100vw - 36px), (max-width:1150px) 50vw, 650px'}:{photo:keyof typeof factoryPhotos;lang:Lang;className?:string;sizes?:string}) {
   const current=currentPhotos[photo]
-  if(current)return <img className={`factory-photo ${className}`} src={`${import.meta.env.BASE_URL}images/factory/2026/${current.file}.webp`} alt={current.title[lang]} width="1800" height="1200" {...responsiveImage(`images/factory/2026/${current.file}.webp`,'(max-width:960px) calc(100vw - 36px), 50vw')} loading="lazy"/>
+  const crop=crops[photo as keyof typeof crops]
+  if(current||crop) {
+    const source=current ? `images/factory/2026/${current.file}.webp` : crop.file
+    return <img className={`factory-photo ${className}`} src={`${import.meta.env.BASE_URL}${source}`} alt={(current?.title||factoryPhotos[photo].title)[lang]} {...responsiveImage(source,sizes)} loading="lazy"/>
+  }
   const p=factoryPhotos[photo]
   return <svg className={`factory-photo ${className}`} viewBox={p.box} role="img" aria-label={p.title[lang]} preserveAspectRatio="xMidYMid slice"><title>{p.title[lang]}</title><image href={`${import.meta.env.BASE_URL}images/factory/${p.file}.webp`} width={p.width} height={p.height}/></svg>
 }

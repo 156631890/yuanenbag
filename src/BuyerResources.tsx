@@ -2,6 +2,7 @@ import { useId } from 'react'
 import { ArrowUpRight, Plus } from 'lucide-react'
 import { faq, guides, steps, tx, type Lang } from './data'
 import { href } from './routes'
+import { responsiveImage } from './responsive-images'
 
 type Props = { lang: Lang }
 type Guide = (typeof guides)[number]
@@ -32,7 +33,7 @@ export function Process({ lang }: Props) {
   const t = (en: string, zh: string, es: string) => tx(en, zh, es)[lang]
   return <div className="buyer-process">
     <figure className="process-factory">
-      <img src={asset('factory/2026/longgang-converting.webp')} width="1536" height="1024" loading="lazy" alt={t('Material processing at the Longgang factory', '龙港新厂材料加工现场', 'Procesamiento de materiales en Longgang')} />
+      <img src={asset('factory/2026/longgang-converting.webp')} {...responsiveImage('images/factory/2026/longgang-converting.webp','(max-width:520px) calc(100vw - 36px), (max-width:800px) 50vw, (max-width:1150px) 35vw, 467px')} loading="lazy" alt={t('Material processing at the Longgang factory', '龙港新厂材料加工现场', 'Procesamiento de materiales en Longgang')} />
       <figcaption>
         <span className="eyebrow">{t('FROM OUR FACTORY', '从工厂到交付', 'DESDE NUESTRA FÁBRICA')}</span>
         <strong>{t('Your specification.\nOur shared starting point.', '以您的规格，\n作为生产的起点。', 'Su especificación.\nNuestro punto de partida.')}</strong>
@@ -60,7 +61,7 @@ const guidePhotos:Record<string,string> = {'bag-material-comparison':'guide-mate
 
 export function GuideCards({ lang }: Props) {
   return <div className="buyer-guides">{guides.map((guide, i) => <a key={guide.slug} className={`buyer-guide ${guides.length === 3 && i === 0 ? 'buyer-guide-featured' : ''}`} href={href(`/guides/${guide.slug}/`, lang)}>
-    <div className="buyer-guide-photo"><img src={asset(`ui/packy/${guidePhotos[guide.slug]}.webp`)} width="1200" height="800" loading="lazy" alt="" /><span>{tx('AI-assisted illustration', 'AI 场景示意', 'Ilustración asistida por IA')[lang]}</span></div>
+    <div className="buyer-guide-photo"><img src={asset(`ui/packy/${guidePhotos[guide.slug]}.webp`)} {...responsiveImage(`images/ui/packy/${guidePhotos[guide.slug]}.webp`,'(max-width:520px) calc(100vw - 36px), (max-width:800px) 42vw, (max-width:1150px) 21vw, 288px')} loading="lazy" alt="" /><span>{tx('AI-assisted illustration', 'AI 场景示意', 'Ilustración asistida por IA')[lang]}</span></div>
     <div className="buyer-guide-copy">
       <span className="eyebrow">{guide.label[lang]}</span>
       <h3>{guide.title[lang]}</h3><p>{guide.summary[lang]}</p>
@@ -90,7 +91,7 @@ export function FAQ({ lang, items = faq }: Props & { items?: typeof faq }) {
 export function FAQSection({ lang }: Props) {
   return <section className="section container buyer-faq-section" id="manufacturer-faq">
     <div className="buyer-faq-intro"><span className="eyebrow">{tx('FREQUENTLY ASKED QUESTIONS', '采购常见问题')[lang]}</span><h2>{tx('Manufacturer & Product FAQ', '工厂与产品常见问题')[lang]}</h2><p>{tx('Clear specifications are the foundation of a successful packaging project.', '清晰的规格，是做好包装项目的基础。')[lang]}</p>
-      <div className="buyer-faq-contact"><img className="buyer-support-image" src={asset('ui/packy/faq-support.webp')} width="600" height="400" loading="lazy" alt="" /><span>{tx('Have a project in mind?', '已有具体项目需求？', '¿Tiene un proyecto en mente?')[lang]}</span><a className="buyer-heading-link" href={href('/contact/', lang)}>{tx('Talk to our team', '与我们沟通', 'Hable con nuestro equipo')[lang]}<ArrowUpRight size={19} /></a></div>
+      <div className="buyer-faq-contact"><img className="buyer-support-image" src={asset('ui/packy/faq-support.webp')} {...responsiveImage('images/ui/packy/faq-support.webp','210px')} loading="lazy" alt="" /><span>{tx('Have a project in mind?', '已有具体项目需求？', '¿Tiene un proyecto en mente?')[lang]}</span><a className="buyer-heading-link" href={href('/contact/', lang)}>{tx('Talk to our team', '与我们沟通', 'Hable con nuestro equipo')[lang]}<ArrowUpRight size={19} /></a></div>
     </div>
     <FAQ lang={lang} />
   </section>

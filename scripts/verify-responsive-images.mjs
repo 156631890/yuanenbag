@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict'
+import { createHash } from 'node:crypto'
 import { access, readFile } from 'node:fs/promises'
 import sharp from 'sharp'
 import { loadEnv } from 'vite'
@@ -16,6 +17,8 @@ for (const [source, image] of Object.entries(manifest)) {
     assert(actual.width <= original.width)
     assert(Math.abs(actual.height - original.height * actual.width / original.width) <= 1)
     await access(`dist/${variant.file}`)
+    const digest = createHash('sha256').update(await readFile(`public/${variant.file}`)).digest('hex').slice(0,12)
+    assert.equal(variant.file, `images/responsive/${digest}-${variant.width}.webp`, 'Immutable image filenames must match the delivered content.')
   }
 }
 const env = { ...loadEnv('production', process.cwd(), 'SITE_'), ...process.env }
@@ -24,6 +27,21 @@ for (const path of paths) {
   const html = await readFile(`dist${path}index.html`, 'utf8')
   assert.equal(html.includes('name="ga4-measurement-id"'), !!measurementId, `Incorrect analytics build gate: ${path}`)
   if (measurementId) assert(html.includes(`content="${measurementId}"`))
+  for (const match of html.matchAll(/<img\b[^>]*>/gi)) {
+    const tag = match[0]
+    const source = tag.match(/src="\/([^"]+)"/)?.[1]
+    if (!source?.startsWith('images/')) continue
+    if (manifest[source]) {
+      assert(/srcset=/i.test(tag), `Missing responsive candidates: ${source} on ${path}`)
+      assert(/sizes=/i.test(tag), `Missing display size: ${source} on ${path}`)
+      assert(/width="/i.test(tag) && /height="/i.test(tag), `Missing intrinsic dimensions: ${source}`)
+    } else {
+      const data = await readFile(`public/${source}`)
+      const metadata = await sharp(data).metadata()
+      assert(metadata.width <= 160 && data.length < 8000, `Unoptimized displayed image: ${source} on ${path}`)
+    }
+  }
+  assert(!/<image\b[^>]*href="\/images\/factory\//i.test(html), `Factory montage should use an exported crop: ${path}`)
   for (const match of html.matchAll(/srcset="([^"]+)"/gi)) {
     for (const variant of match[1].split(',')) {
       const file = variant.trim().split(' ')[0]
