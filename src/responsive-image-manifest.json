@@ -205,6 +205,32 @@
       }
     ]
   },
+  "images/factory/2026/customization-insulation-processing.webp": {
+    "width": 1800,
+    "height": 1350,
+    "variants": [
+      {
+        "file": "images/responsive/822eab143f73-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/822eab143f73-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/822eab143f73-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/822eab143f73-1280.webp",
+        "width": 1280
+      },
+      {
+        "file": "images/factory/2026/customization-insulation-processing.webp",
+        "width": 1800
+      }
+    ]
+  },
   "images/products/standardized/photos-2026-09/gusseted-self-seal-foil-main.webp": {
     "width": 1200,
     "height": 1200,

@@ -14,6 +14,7 @@ const sources = [...new Set([
   'images/products/packy/self-seal-non-woven-delivery-bags-new/delivery-main.webp',
   'images/products/packy/self-absorbing-ice-packs-main.webp',
   'images/factory/2026/longgang-production.webp',
+  'images/factory/2026/customization-insulation-processing.webp',
   ...Object.values(standardized).map(file => `images/products/${file}`),
 ].map(source => standardized[source.replace(/^images\/products\//, '')] ? `images/products/${standardized[source.replace(/^images\/products\//, '')]}` : source))]
 const manifest = {}
