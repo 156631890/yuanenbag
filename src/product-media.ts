@@ -1,4 +1,5 @@
 import sizes from './product-image-sizes.json'
+import standardized from './standardized-product-images.json'
 import { tx, type Bag, type Lang } from './data'
 import { samplePhotoGalleries, sampleSectionPhotos } from './photographed-products'
 import { foilMeasurementImages } from './foil-photo-products'
@@ -152,9 +153,11 @@ export function productDetailImage(slug: string, kind: 'application' | 'detail' 
   return `packy/details-v2/${slug}-${kind}-v2.webp`
 }
 export function imageSize(file: string) {
+  if (file in standardized) return {width:1200,height:1200}
   return (sizes as Record<string, {width:number;height:number}>)[file] || {width:1200,height:1200}
 }
-export const imageUrl = (file: string) => `${import.meta.env.BASE_URL}images/products/${file}`
+export const productImageFile = (file: string) => (standardized as Record<string,string>)[file] || file
+export const imageUrl = (file: string) => `${import.meta.env.BASE_URL}images/products/${productImageFile(file)}`
 export function imageLabel(kind: ProductImage['kind'], lang: Lang) {
   return ({
     measurement: tx('Material measurement reference', '材料测厚参考', 'Referencia de medición del material'),

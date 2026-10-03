@@ -4,6 +4,10 @@
     "height": 1024,
     "variants": [
       {
+        "file": "images/responsive/e33219981ec0-96.webp",
+        "width": 96
+      },
+      {
         "file": "images/responsive/e33219981ec0-384.webp",
         "width": 384
       },
@@ -21,129 +25,157 @@
       }
     ]
   },
-  "images/products/packy/segmented-ice-sheets-main.webp": {
-    "width": 1097,
-    "height": 1437,
+  "images/products/standardized/packy/segmented-ice-sheets-main.webp": {
+    "width": 1200,
+    "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/4a1cb06b971f-384.webp",
+        "file": "images/responsive/584c583e2d2d-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/584c583e2d2d-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/4a1cb06b971f-768.webp",
+        "file": "images/responsive/584c583e2d2d-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/packy/segmented-ice-sheets-main.webp",
-        "width": 1097
+        "file": "images/products/standardized/packy/segmented-ice-sheets-main.webp",
+        "width": 1200
       }
     ]
   },
-  "images/products/packy/self-adhesive-foil-bags-new/01.webp": {
-    "width": 1254,
-    "height": 1254,
+  "images/products/standardized/packy/self-adhesive-foil-bags-new/01.webp": {
+    "width": 1200,
+    "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/3bc6e8eb26e2-384.webp",
+        "file": "images/responsive/67739ca14d0a-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/67739ca14d0a-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/3bc6e8eb26e2-768.webp",
+        "file": "images/responsive/67739ca14d0a-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/packy/self-adhesive-foil-bags-new/01.webp",
-        "width": 1254
+        "file": "images/products/standardized/packy/self-adhesive-foil-bags-new/01.webp",
+        "width": 1200
       }
     ]
   },
-  "images/products/packy/upright-grocery-cooler-main.webp": {
-    "width": 1024,
-    "height": 1024,
+  "images/products/standardized/packy/upright-grocery-cooler-main.webp": {
+    "width": 1200,
+    "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/2a04399bd4df-384.webp",
+        "file": "images/responsive/ff59802a021f-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/ff59802a021f-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/2a04399bd4df-768.webp",
+        "file": "images/responsive/ff59802a021f-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/packy/upright-grocery-cooler-main.webp",
-        "width": 1024
+        "file": "images/products/standardized/packy/upright-grocery-cooler-main.webp",
+        "width": 1200
       }
     ]
   },
-  "images/products/packy/square-zipper-cake-cooler-main.webp": {
-    "width": 1024,
-    "height": 1024,
+  "images/products/standardized/packy/square-zipper-cake-cooler-main.webp": {
+    "width": 1200,
+    "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/49ac1ddd44d6-384.webp",
+        "file": "images/responsive/c78bdd098580-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/c78bdd098580-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/49ac1ddd44d6-768.webp",
+        "file": "images/responsive/c78bdd098580-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/packy/square-zipper-cake-cooler-main.webp",
-        "width": 1024
+        "file": "images/products/standardized/packy/square-zipper-cake-cooler-main.webp",
+        "width": 1200
       }
     ]
   },
-  "images/products/packy/wide-base-meal-cooler-main.webp": {
-    "width": 1024,
-    "height": 1024,
+  "images/products/standardized/packy/wide-base-meal-cooler-main.webp": {
+    "width": 1200,
+    "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/b9df747ae7b8-384.webp",
+        "file": "images/responsive/f51ec2d851b3-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/f51ec2d851b3-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/b9df747ae7b8-768.webp",
+        "file": "images/responsive/f51ec2d851b3-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/packy/wide-base-meal-cooler-main.webp",
-        "width": 1024
+        "file": "images/products/standardized/packy/wide-base-meal-cooler-main.webp",
+        "width": 1200
       }
     ]
   },
-  "images/products/packy/self-seal-non-woven-delivery-bags-new/delivery-main.webp": {
-    "width": 1280,
-    "height": 1280,
+  "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/delivery-main.webp": {
+    "width": 1200,
+    "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/d563f8a31ec6-384.webp",
+        "file": "images/responsive/e26270d93d58-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/e26270d93d58-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/d563f8a31ec6-768.webp",
+        "file": "images/responsive/e26270d93d58-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/packy/self-seal-non-woven-delivery-bags-new/delivery-main.webp",
-        "width": 1280
+        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/delivery-main.webp",
+        "width": 1200
       }
     ]
   },
-  "images/products/packy/self-absorbing-ice-packs-main.webp": {
-    "width": 800,
-    "height": 800,
+  "images/products/standardized/packy/self-absorbing-ice-packs-main.webp": {
+    "width": 1200,
+    "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/d2c1804641de-384.webp",
+        "file": "images/responsive/639cffa59a1e-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/639cffa59a1e-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/d2c1804641de-768.webp",
+        "file": "images/responsive/639cffa59a1e-768.webp",
         "width": 768
       },
       {
-        "file": "images/products/packy/self-absorbing-ice-packs-main.webp",
-        "width": 800
+        "file": "images/products/standardized/packy/self-absorbing-ice-packs-main.webp",
+        "width": 1200
       }
     ]
   },
@@ -151,6 +183,10 @@
     "width": 1672,
     "height": 941,
     "variants": [
+      {
+        "file": "images/responsive/59557d3578b1-96.webp",
+        "width": 96
+      },
       {
         "file": "images/responsive/59557d3578b1-384.webp",
         "width": 384
@@ -166,6 +202,3526 @@
       {
         "file": "images/factory/2026/longgang-production.webp",
         "width": 1672
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/gusseted-self-seal-foil-main.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/db8ee0eeb94e-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/db8ee0eeb94e-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/db8ee0eeb94e-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/gusseted-self-seal-foil-main.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/foil-material-measurement-a.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/53178edd5c51-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/53178edd5c51-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/53178edd5c51-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/foil-material-measurement-a.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/foil-material-measurement-b.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/6c81e7897cfe-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/6c81e7897cfe-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/6c81e7897cfe-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/foil-material-measurement-b.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/foil-box-liner-insert.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/7e082b6995d4-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/7e082b6995d4-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/7e082b6995d4-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/foil-box-liner-insert.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/side-absorbing-ice-packs-main.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/19d3b47d0da0-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/19d3b47d0da0-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/19d3b47d0da0-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/side-absorbing-ice-packs-main.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/side-absorbing-ice-packs-secondary.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/b32e91791369-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/b32e91791369-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/b32e91791369-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/side-absorbing-ice-packs-secondary.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/side-absorbing-ice-pack-seams.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/e82279705e10-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/e82279705e10-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/e82279705e10-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/side-absorbing-ice-pack-seams.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/double-film-self-absorbing-ice-packs-main.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/f291915d551a-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/f291915d551a-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/f291915d551a-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/double-film-self-absorbing-ice-packs-main.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/double-film-self-absorbing-ice-packs-secondary.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/b472e6e757a8-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/b472e6e757a8-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/b472e6e757a8-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/double-film-self-absorbing-ice-packs-secondary.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/double-film-self-absorbing-ice-packs-product-display.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/5804aa0fc4cc-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/5804aa0fc4cc-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/5804aa0fc4cc-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/double-film-self-absorbing-ice-packs-product-display.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/double-film-self-absorbing-ice-packs-cooler-application.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/639df52719a5-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/639df52719a5-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/639df52719a5-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/double-film-self-absorbing-ice-packs-cooler-application.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/compact-lunch-bag-main.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/2defffab25d4-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/2defffab25d4-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/2defffab25d4-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/compact-lunch-bag-main.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/compact-lunch-bag-front.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/a6566d3f1c6b-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/a6566d3f1c6b-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/a6566d3f1c6b-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/compact-lunch-bag-front.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/compact-lunch-bag-handles.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/fa8a7f8715e3-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/fa8a7f8715e3-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/fa8a7f8715e3-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/compact-lunch-bag-handles.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/compact-lunch-bag-size-comparison.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/8fd949dc11a7-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/8fd949dc11a7-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/8fd949dc11a7-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/compact-lunch-bag-size-comparison.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/compact-lunch-bag-carrying.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/59a3af51f534-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/59a3af51f534-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/59a3af51f534-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/compact-lunch-bag-carrying.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/compact-lunch-bag-side.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/061d8ddd6892-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/061d8ddd6892-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/061d8ddd6892-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/compact-lunch-bag-side.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/gold-trim-cake-bag-main.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/cfc6096c51d7-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/cfc6096c51d7-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/cfc6096c51d7-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/gold-trim-cake-bag-main.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/gold-trim-cake-bag-interior.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/17fb17ebae17-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/17fb17ebae17-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/17fb17ebae17-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/gold-trim-cake-bag-interior.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/gold-trim-cake-bag-stitching.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/1fcdbd08c989-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/1fcdbd08c989-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/1fcdbd08c989-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/gold-trim-cake-bag-stitching.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/gold-trim-cake-bag-loading.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/f69d4c64c227-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/f69d4c64c227-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/f69d4c64c227-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/gold-trim-cake-bag-loading.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/gold-trim-cake-bag-range.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/875d63e8c2c8-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/875d63e8c2c8-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/875d63e8c2c8-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/gold-trim-cake-bag-range.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/gold-trim-cake-bag-display.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/2e24edd7bcbc-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/2e24edd7bcbc-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/2e24edd7bcbc-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/gold-trim-cake-bag-display.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/gold-trim-cake-bag-zipper.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/ad9b87264997-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/ad9b87264997-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/ad9b87264997-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/gold-trim-cake-bag-zipper.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/gold-trim-cake-bag-carrying.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/f77070375299-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/f77070375299-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/f77070375299-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/gold-trim-cake-bag-carrying.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/coffee-insulated-cooler-bag.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/d057a2494b35-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/d057a2494b35-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/d057a2494b35-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/coffee-insulated-cooler-bag.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/coffee-insulated-cooler-bag-produce.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/675ae8f3728e-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/675ae8f3728e-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/675ae8f3728e-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/coffee-insulated-cooler-bag-produce.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/coffee-insulated-cooler-bag-meal-box.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/571b271a3b4b-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/571b271a3b4b-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/571b271a3b4b-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/coffee-insulated-cooler-bag-meal-box.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/coffee-insulated-cooler-bag-drinks.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/de3a2e369720-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/de3a2e369720-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/de3a2e369720-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/coffee-insulated-cooler-bag-drinks.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/coffee-insulated-cooler-bag-picnic.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/e0a5db6b61f6-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/e0a5db6b61f6-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/e0a5db6b61f6-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/coffee-insulated-cooler-bag-picnic.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/red-insulated-cooler-bag.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/3f08d521ca69-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/3f08d521ca69-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/3f08d521ca69-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/red-insulated-cooler-bag.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/red-insulated-cooler-bag-meal.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/68727f5a6225-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/68727f5a6225-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/68727f5a6225-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/red-insulated-cooler-bag-meal.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/red-insulated-cooler-bag-bakery.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/e465f4ecce31-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/e465f4ecce31-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/e465f4ecce31-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/red-insulated-cooler-bag-bakery.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/red-insulated-cooler-bag-fresh-food.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/e8b2248fc5b2-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/e8b2248fc5b2-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/e8b2248fc5b2-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/red-insulated-cooler-bag-fresh-food.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/red-insulated-cooler-bag-drinks.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/d4c8e2201dfa-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/d4c8e2201dfa-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/d4c8e2201dfa-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/red-insulated-cooler-bag-drinks.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/red-insulated-cooler-bag-structure.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/c2e83a4d1b7e-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/c2e83a4d1b7e-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/c2e83a4d1b7e-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/red-insulated-cooler-bag-structure.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/pink-insulated-cooler-bag.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/65336b912e20-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/65336b912e20-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/65336b912e20-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/pink-insulated-cooler-bag.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/pink-insulated-cooler-bag-meal.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/ce26f10b991b-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/ce26f10b991b-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/ce26f10b991b-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/pink-insulated-cooler-bag-meal.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/pink-insulated-cooler-bag-office.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/07d744ac7e56-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/07d744ac7e56-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/07d744ac7e56-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/pink-insulated-cooler-bag-office.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/pink-insulated-cooler-bag-fresh-food.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/3e86239204e2-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/3e86239204e2-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/3e86239204e2-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/pink-insulated-cooler-bag-fresh-food.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/pink-insulated-cooler-bag-sandwich.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/ef1e5f992891-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/ef1e5f992891-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/ef1e5f992891-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/pink-insulated-cooler-bag-sandwich.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/yellow-insulated-cooler-bag.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/bb4275c6ac00-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/bb4275c6ac00-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/bb4275c6ac00-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/yellow-insulated-cooler-bag.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/yellow-insulated-cooler-bag-meal.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/7a96ea806dd8-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/7a96ea806dd8-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/7a96ea806dd8-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/yellow-insulated-cooler-bag-meal.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/yellow-insulated-cooler-bag-grocery.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/4846828396c2-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/4846828396c2-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/4846828396c2-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/yellow-insulated-cooler-bag-grocery.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/yellow-insulated-cooler-bag-coffee.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/2b6357c89274-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/2b6357c89274-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/2b6357c89274-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/yellow-insulated-cooler-bag-coffee.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/yellow-insulated-cooler-bag-bakery.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/cbbc3ee37799-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/cbbc3ee37799-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/cbbc3ee37799-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/yellow-insulated-cooler-bag-bakery.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/yellow-insulated-cooler-bag-open.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/e45a17b127f9-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/e45a17b127f9-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/e45a17b127f9-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/yellow-insulated-cooler-bag-open.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/lake-blue-insulated-cooler-bag.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/ebabe27b1d9b-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/ebabe27b1d9b-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/ebabe27b1d9b-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/lake-blue-insulated-cooler-bag.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/lake-blue-insulated-cooler-bag-produce.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/a02e8f523cc1-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/a02e8f523cc1-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/a02e8f523cc1-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/lake-blue-insulated-cooler-bag-produce.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/lake-blue-insulated-cooler-bag-meal-box.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/fc2239374614-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/fc2239374614-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/fc2239374614-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/lake-blue-insulated-cooler-bag-meal-box.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/lake-blue-insulated-cooler-bag-snacks.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/2eac99b16903-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/2eac99b16903-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/2eac99b16903-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/lake-blue-insulated-cooler-bag-snacks.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/lake-blue-insulated-cooler-bag-bakery.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/1a7c556b7092-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/1a7c556b7092-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/1a7c556b7092-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/lake-blue-insulated-cooler-bag-bakery.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/iridescent-orange-insulated-cooler-bag.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/34dfd9d0d11a-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/34dfd9d0d11a-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/34dfd9d0d11a-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/iridescent-orange-insulated-cooler-bag.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/iridescent-orange-insulated-cooler-bag-meal.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/f921ef02162f-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/f921ef02162f-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/f921ef02162f-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/iridescent-orange-insulated-cooler-bag-meal.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/iridescent-orange-insulated-cooler-bag-fresh-food.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/689ce2bca2af-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/689ce2bca2af-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/689ce2bca2af-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/iridescent-orange-insulated-cooler-bag-fresh-food.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/iridescent-orange-insulated-cooler-bag-bakery.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/8e16539538e3-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/8e16539538e3-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/8e16539538e3-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/iridescent-orange-insulated-cooler-bag-bakery.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/iridescent-orange-insulated-cooler-bag-snacks.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/7e6b0a84d61b-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/7e6b0a84d61b-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/7e6b0a84d61b-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/iridescent-orange-insulated-cooler-bag-snacks.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/iridescent-blue-insulated-cooler-bag.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/9189d3865014-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/9189d3865014-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/9189d3865014-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/iridescent-blue-insulated-cooler-bag.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/iridescent-blue-insulated-cooler-bag-meal.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/1ef6eb914cb2-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/1ef6eb914cb2-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/1ef6eb914cb2-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/iridescent-blue-insulated-cooler-bag-meal.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/iridescent-blue-insulated-cooler-bag-breakfast.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/1bbd3f0d9024-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/1bbd3f0d9024-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/1bbd3f0d9024-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/iridescent-blue-insulated-cooler-bag-breakfast.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/iridescent-blue-insulated-cooler-bag-fresh-food.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/19aa4577333d-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/19aa4577333d-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/19aa4577333d-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/iridescent-blue-insulated-cooler-bag-fresh-food.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/iridescent-blue-insulated-cooler-bag-bakery.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/dde3fef4695f-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/dde3fef4695f-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/dde3fef4695f-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/iridescent-blue-insulated-cooler-bag-bakery.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/iridescent-pink-insulated-cooler-bag.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/2915341beef4-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/2915341beef4-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/2915341beef4-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/iridescent-pink-insulated-cooler-bag.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/iridescent-pink-insulated-cooler-bag-produce.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/7e4e8dceb603-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/7e4e8dceb603-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/7e4e8dceb603-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/iridescent-pink-insulated-cooler-bag-produce.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/iridescent-pink-insulated-cooler-bag-meal.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/bf5ee1a43005-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/bf5ee1a43005-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/bf5ee1a43005-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/iridescent-pink-insulated-cooler-bag-meal.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/iridescent-pink-insulated-cooler-bag-dessert.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/c7b8b6317776-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/c7b8b6317776-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/c7b8b6317776-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/iridescent-pink-insulated-cooler-bag-dessert.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/custom-insulated-bags/iridescent-pink-insulated-cooler-bag-salad.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/74bc4a0ae64f-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/74bc4a0ae64f-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/74bc4a0ae64f-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/custom-insulated-bags/iridescent-pink-insulated-cooler-bag-salad.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/bakery-from-jpg.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/584a2c88b7df-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/584a2c88b7df-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/584a2c88b7df-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/bakery-from-jpg.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/bakery-colors.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/fa8b0c6908c9-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/fa8b0c6908c9-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/fa8b0c6908c9-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/bakery-colors.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/bakery-display.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/cb9b0c227198-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/cb9b0c227198-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/cb9b0c227198-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/bakery-display.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/bakery-products.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/7c2339b50113-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/7c2339b50113-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/7c2339b50113-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/bakery-products.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/bakery-scene.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/0268bb6e03fe-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/0268bb6e03fe-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/0268bb6e03fe-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/bakery-scene.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/milk-tea.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/349c0d5c0c13-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/349c0d5c0c13-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/349c0d5c0c13-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/milk-tea.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/milk-tea-colors.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/c747d1aaa6a1-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/c747d1aaa6a1-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/c747d1aaa6a1-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/milk-tea-colors.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/milk-tea-drinks.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/9484ac7e4b61-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/9484ac7e4b61-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/9484ac7e4b61-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/milk-tea-drinks.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/milk-tea-scene.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/467d956df190-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/467d956df190-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/467d956df190-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/milk-tea-scene.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/milk-tea-display.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/0aded10def39-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/0aded10def39-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/0aded10def39-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/milk-tea-display.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/milk-tea-catering.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/c932f4ce5279-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/c932f4ce5279-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/c932f4ce5279-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/milk-tea-catering.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/cake.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/a12a2c0517bc-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/a12a2c0517bc-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/a12a2c0517bc-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/cake.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/cake-colors.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/e8286130d11d-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/e8286130d11d-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/e8286130d11d-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/cake-colors.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/cake-desserts.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/c51314de8b52-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/c51314de8b52-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/c51314de8b52-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/cake-desserts.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/cake-display.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/6ba13e0867ab-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/6ba13e0867ab-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/6ba13e0867ab-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/cake-display.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/cake-celebration.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/0fb4e6af4ce5-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/0fb4e6af4ce5-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/0fb4e6af4ce5-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/cake-celebration.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/main.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/729e22b8fa04-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/729e22b8fa04-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/729e22b8fa04-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/main.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/dining-meals.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/5cf5a8186f70-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/5cf5a8186f70-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/5cf5a8186f70-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/dining-meals.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/dining-group.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/16507eb0febe-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/16507eb0febe-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/16507eb0febe-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/dining-group.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/dining-food.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/0ee2989777ff-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/0ee2989777ff-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/0ee2989777ff-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/dining-food.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/dining-catering.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/879b2d58f058-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/879b2d58f058-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/879b2d58f058-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/dining-catering.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-adhesive-foil-bags-new/02.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/4bff3eba57bd-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/4bff3eba57bd-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/4bff3eba57bd-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-adhesive-foil-bags-new/02.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-adhesive-foil-bags-new/03.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/618cba49fb1a-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/618cba49fb1a-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/618cba49fb1a-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-adhesive-foil-bags-new/03.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-adhesive-foil-bags-new/04.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/ab3d1d8a0bfd-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/ab3d1d8a0bfd-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/ab3d1d8a0bfd-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-adhesive-foil-bags-new/04.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-adhesive-foil-bags-new/05.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/e3fc447cf185-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/e3fc447cf185-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/e3fc447cf185-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-adhesive-foil-bags-new/05.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-adhesive-foil-bags-new/06.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/18a73aef23d6-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/18a73aef23d6-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/18a73aef23d6-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-adhesive-foil-bags-new/06.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-adhesive-foil-bags-new/07.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/3047241c8292-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/3047241c8292-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/3047241c8292-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-adhesive-foil-bags-new/07.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/open-top-foil-bags-new/01.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/87513b9aa4ae-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/87513b9aa4ae-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/87513b9aa4ae-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/open-top-foil-bags-new/01.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/open-top-foil-bags-new/02.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/f9f5c8bda967-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/f9f5c8bda967-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/f9f5c8bda967-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/open-top-foil-bags-new/02.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/open-top-foil-bags-new/03.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/124af6ad7ae8-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/124af6ad7ae8-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/124af6ad7ae8-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/open-top-foil-bags-new/03.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/open-top-foil-bags-new/04.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/5aa8581b213d-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/5aa8581b213d-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/5aa8581b213d-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/open-top-foil-bags-new/04.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/open-top-foil-bags-new/05.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/b07d8685b20a-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/b07d8685b20a-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/b07d8685b20a-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/open-top-foil-bags-new/05.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/open-top-foil-bags-new/06.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/0c9ecf84e3c0-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/0c9ecf84e3c0-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/0c9ecf84e3c0-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/open-top-foil-bags-new/06.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/open-top-foil-bags-new/07.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/efbc84103314-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/efbc84103314-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/efbc84103314-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/open-top-foil-bags-new/07.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/hand-finished-gusseted-foil-bags-new/01.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/22308a975bce-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/22308a975bce-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/22308a975bce-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/hand-finished-gusseted-foil-bags-new/01.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/hand-finished-gusseted-foil-bags-new/02.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/2baa7528b43f-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/2baa7528b43f-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/2baa7528b43f-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/hand-finished-gusseted-foil-bags-new/02.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/hand-finished-gusseted-foil-bags-new/03.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/b22350eab38c-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/b22350eab38c-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/b22350eab38c-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/hand-finished-gusseted-foil-bags-new/03.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/hand-finished-gusseted-foil-bags-new/04.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/2bda4204aa62-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/2bda4204aa62-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/2bda4204aa62-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/hand-finished-gusseted-foil-bags-new/04.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/machine-formed-gusseted-foil-bags-new/01.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/99a4b7d268cf-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/99a4b7d268cf-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/99a4b7d268cf-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/machine-formed-gusseted-foil-bags-new/01.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/machine-formed-gusseted-foil-bags-new/02.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/08822ddf1996-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/08822ddf1996-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/08822ddf1996-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/machine-formed-gusseted-foil-bags-new/02.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/machine-formed-gusseted-foil-bags-new/03.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/5192fd5fe96e-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/5192fd5fe96e-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/5192fd5fe96e-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/machine-formed-gusseted-foil-bags-new/03.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/machine-formed-gusseted-foil-bags-new/04.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/d02c96c17a07-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/d02c96c17a07-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/d02c96c17a07-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/machine-formed-gusseted-foil-bags-new/04.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/machine-formed-gusseted-foil-bags-new/05.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/361331d52497-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/361331d52497-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/361331d52497-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/machine-formed-gusseted-foil-bags-new/05.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/machine-formed-gusseted-foil-bags-new/06.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/05dfbaa7a272-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/05dfbaa7a272-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/05dfbaa7a272-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/machine-formed-gusseted-foil-bags-new/06.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/machine-formed-gusseted-foil-bags-new/07.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/d629fc087016-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/d629fc087016-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/d629fc087016-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/machine-formed-gusseted-foil-bags-new/07.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/gusseted-foil-cake-bags-new/01.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/b09c5e600cea-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/b09c5e600cea-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/b09c5e600cea-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/gusseted-foil-cake-bags-new/01.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/gusseted-foil-cake-bags-new/02.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/72125ae34d66-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/72125ae34d66-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/72125ae34d66-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/gusseted-foil-cake-bags-new/02.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/gusseted-foil-cake-bags-new/03.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/5287d4c5f163-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/5287d4c5f163-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/5287d4c5f163-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/gusseted-foil-cake-bags-new/03.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/gusseted-foil-cake-bags-new/04.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/ee76eff886e0-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/ee76eff886e0-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/ee76eff886e0-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/gusseted-foil-cake-bags-new/04.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/gusseted-foil-cake-bags-new/05.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/88d6f3c7e742-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/88d6f3c7e742-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/88d6f3c7e742-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/gusseted-foil-cake-bags-new/05.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/water-fill-ice-packs-main.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/e466a8b40420-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/e466a8b40420-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/e466a8b40420-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/water-fill-ice-packs-main.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/water-fill-ice-pack-sizes.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/9c44a9c83fe4-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/9c44a9c83fe4-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/9c44a9c83fe4-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/water-fill-ice-pack-sizes.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/water-fill-ice-pack-stacked.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/3e861638bfa0-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/3e861638bfa0-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/3e861638bfa0-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/water-fill-ice-pack-stacked.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/water-fill-ice-pack-closure.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/4947021df1bf-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/4947021df1bf-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/4947021df1bf-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/water-fill-ice-pack-closure.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/water-fill-ice-packs-cooler-application.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/13cd51e6f3b2-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/13cd51e6f3b2-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/13cd51e6f3b2-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/water-fill-ice-packs-cooler-application.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/absorbing-ice-pack-range.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/dd746cda5659-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/dd746cda5659-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/dd746cda5659-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/absorbing-ice-pack-range.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/absorbing-ice-pack-flat.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/7b16f6c60481-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/7b16f6c60481-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/7b16f6c60481-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/absorbing-ice-pack-flat.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/absorbing-ice-pack-reverse.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/712aa4d1786e-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/712aa4d1786e-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/712aa4d1786e-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/absorbing-ice-pack-reverse.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/absorbing-ice-pack-hand.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/2b767b04d913-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/2b767b04d913-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/2b767b04d913-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/absorbing-ice-pack-hand.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/absorbing-ice-pack-front-back.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/cf1da6dc3a85-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/cf1da6dc3a85-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/cf1da6dc3a85-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/absorbing-ice-pack-front-back.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-absorbing-ice-packs-cooler-application.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/fac813389f6b-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/fac813389f6b-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/fac813389f6b-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-absorbing-ice-packs-cooler-application.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/details-v2/segmented-ice-sheets-application-v2.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/2b419b57b076-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/2b419b57b076-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/2b419b57b076-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/details-v2/segmented-ice-sheets-application-v2.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/details-v2/segmented-ice-sheets-detail-v2.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/38037bac4665-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/38037bac4665-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/38037bac4665-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/details-v2/segmented-ice-sheets-detail-v2.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/segmented-ice-sheets-cooler-application.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/073c3b7a22f6-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/073c3b7a22f6-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/073c3b7a22f6-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/segmented-ice-sheets-cooler-application.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/colors.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/d398a926e2fb-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/d398a926e2fb-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/d398a926e2fb-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/colors.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/food-service.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/27d074c13159-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/27d074c13159-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/27d074c13159-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/food-service.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/meal-delivery.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/717f8e291cd1-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/717f8e291cd1-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/717f8e291cd1-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/meal-delivery.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/bakery-from-png.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/b75fabff9742-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/b75fabff9742-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/b75fabff9742-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/bakery-from-png.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/meal-scenes.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/a6e5d4af0aa7-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/a6e5d4af0aa7-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/a6e5d4af0aa7-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/meal-scenes.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/details-v2/square-zipper-cake-cooler-application-v2.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/e305fb0e16ef-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/e305fb0e16ef-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/e305fb0e16ef-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/details-v2/square-zipper-cake-cooler-application-v2.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/details-v2/square-zipper-cake-cooler-detail-v2.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/5b77c10b6ae2-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/5b77c10b6ae2-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/5b77c10b6ae2-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/details-v2/square-zipper-cake-cooler-detail-v2.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/details-v2/square-zipper-cake-cooler-structure-v2.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/8ee8b9bfd071-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/8ee8b9bfd071-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/8ee8b9bfd071-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/details-v2/square-zipper-cake-cooler-structure-v2.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/mint-cake-bag-front.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/9e7119588e09-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/9e7119588e09-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/9e7119588e09-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/mint-cake-bag-front.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/mint-cake-bag-application.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/456d6aa44393-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/456d6aa44393-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/456d6aa44393-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/mint-cake-bag-application.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/mint-cake-bag-lining.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/896c84dfa96f-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/896c84dfa96f-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/896c84dfa96f-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/mint-cake-bag-lining.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/mint-cake-bag-open.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/01b00a9845cd-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/01b00a9845cd-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/01b00a9845cd-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/mint-cake-bag-open.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/mint-cake-bag-handles.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/25720196888f-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/25720196888f-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/25720196888f-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/mint-cake-bag-handles.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/mint-cake-bag-carrying.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/07fd75f62336-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/07fd75f62336-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/07fd75f62336-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/mint-cake-bag-carrying.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/details-v2/wide-base-meal-cooler-application-v2.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/cc9f173016da-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/cc9f173016da-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/cc9f173016da-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/details-v2/wide-base-meal-cooler-application-v2.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/details-v2/wide-base-meal-cooler-detail-v2.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/cf12911b4883-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/cf12911b4883-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/cf12911b4883-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/details-v2/wide-base-meal-cooler-detail-v2.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/details-v2/wide-base-meal-cooler-structure-v2.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/f61440c543dd-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/f61440c543dd-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/f61440c543dd-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/details-v2/wide-base-meal-cooler-structure-v2.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/details-v2/upright-grocery-cooler-application-v2.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/914304e71397-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/914304e71397-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/914304e71397-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/details-v2/upright-grocery-cooler-application-v2.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/details-v2/upright-grocery-cooler-detail-v2.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/6c5b4b730a73-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/6c5b4b730a73-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/6c5b4b730a73-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/details-v2/upright-grocery-cooler-detail-v2.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/details-v2/upright-grocery-cooler-structure-v2.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/987596d18ee6-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/987596d18ee6-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/987596d18ee6-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/details-v2/upright-grocery-cooler-structure-v2.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/double-film-ice-pack-back.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/d5b7dbc8e2df-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/d5b7dbc8e2df-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/d5b7dbc8e2df-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/double-film-ice-pack-back.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/double-film-ice-pack-front.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/797e9911d400-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/797e9911d400-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/797e9911d400-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/double-film-ice-pack-front.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/side-absorbing-ice-pack-front.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/f64892e0da5c-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/f64892e0da5c-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/f64892e0da5c-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/side-absorbing-ice-pack-front.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/side-absorbing-ice-pack-back.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/d9695846a846-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/d9695846a846-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/d9695846a846-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/side-absorbing-ice-pack-back.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/gusseted-foil-open-interior.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/d21322976070-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/d21322976070-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/d21322976070-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/gusseted-foil-open-interior.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/handmade-foil-bag-shape.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/b28a7b0f9378-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/b28a7b0f9378-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/b28a7b0f9378-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/handmade-foil-bag-shape.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/details-v2/segmented-ice-sheets-structure-v2.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/9ddd2f5e8d3a-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/9ddd2f5e8d3a-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/9ddd2f5e8d3a-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/details-v2/segmented-ice-sheets-structure-v2.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/dining-colors.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/645944db0298-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/645944db0298-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/645944db0298-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/dining-colors.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/photos-2026-09/water-fill-ice-pack-range.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/faa815466e56-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/faa815466e56-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/faa815466e56-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/products/standardized/photos-2026-09/water-fill-ice-pack-range.webp",
+        "width": 1200
       }
     ]
   }
