@@ -57,11 +57,16 @@ export function ProcessSection({ lang }: Props) {
   </section>
 }
 
-const guidePhotos:Record<string,string> = {'bag-material-comparison':'guide-materials','insulated-bag-materials':'guide-specification','custom-bag-order-checklist':'guide-order','ice-pack-selection':'guide-specification'}
+const guidePhotos: Record<string, string> = {
+  'bag-material-comparison': 'ui/packy/guide-materials.webp',
+  'insulated-bag-materials': 'ui/packy/guide-specification.webp',
+  'custom-bag-order-checklist': 'ui/packy/guide-order.webp',
+  'ice-pack-selection': 'products/standardized/packy/water-fill-ice-packs-cooler-application.webp',
+}
 
 export function GuideCards({ lang }: Props) {
   return <div className="buyer-guides">{guides.map((guide, i) => <a key={guide.slug} className={`buyer-guide ${guides.length === 3 && i === 0 ? 'buyer-guide-featured' : ''}`} href={href(`/guides/${guide.slug}/`, lang)}>
-    <div className="buyer-guide-photo"><img src={asset(`ui/packy/${guidePhotos[guide.slug]}.webp`)} {...responsiveImage(`images/ui/packy/${guidePhotos[guide.slug]}.webp`,'(max-width:520px) calc(100vw - 36px), (max-width:800px) 42vw, (max-width:1150px) 21vw, 288px')} loading="lazy" alt="" /><span>{tx('AI-assisted illustration', 'AI 场景示意', 'Ilustración asistida por IA')[lang]}</span></div>
+    <div className="buyer-guide-photo"><img src={asset(guidePhotos[guide.slug])} {...responsiveImage(`images/${guidePhotos[guide.slug]}`,'(max-width:520px) calc(100vw - 36px), (max-width:800px) 42vw, (max-width:1150px) 21vw, 288px')} loading="lazy" alt="" /><span>{tx('AI-assisted illustration', 'AI 场景示意', 'Ilustración asistida por IA')[lang]}</span></div>
     <div className="buyer-guide-copy">
       <span className="eyebrow">{guide.label[lang]}</span>
       <h3>{guide.title[lang]}</h3><p>{guide.summary[lang]}</p>
