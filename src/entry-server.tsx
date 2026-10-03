@@ -55,5 +55,8 @@ export function render(path = '/', indexable = false) {
     `<meta property="og:image" content="${escape(absolute(href('/', 'en')+shareImage))}" />`,
     `<script type="application/ld+json">${JSON.stringify({'@context':'https://schema.org','@graph':graph}).replace(/</g,'\\u003c')}</script>`,
   ].join('\n    ')
-  return {html:renderToString(<App path={path}/>),head,lang:locales[lang].tag,url}
+  const clientModules: Record<string,string> = {catalog:'src/CatalogBrowser.tsx',bag:'src/ProductSections.tsx',contact:'src/Enquiry.tsx'}
+  const clientModule = page.type==='guide'&&['bag-material-comparison','ice-pack-selection'].includes(page.slug!)
+    ? 'src/SelectionGuide.tsx' : clientModules[page.type]
+  return {html:renderToString(<App path={path}/>),head,lang:locales[lang].tag,url,clientModule}
 }

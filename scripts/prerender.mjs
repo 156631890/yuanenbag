@@ -7,6 +7,7 @@ import { analyticsMeasurementId } from './analytics-config.mjs'
 import Beasties from 'beasties'
 
 const template = await readFile(new URL('../dist/index.html', import.meta.url), 'utf8')
+const clientManifest = JSON.parse(await readFile(new URL('../dist/.vite/manifest.json', import.meta.url), 'utf8'))
 if (!template.includes('<!--app-html-->')) throw new Error('Missing prerender placeholder')
 if (!template.includes('<!--page-head-->')) throw new Error('Missing metadata placeholder')
 const env = {...loadEnv('production',process.cwd(),'SITE_'),...process.env}
@@ -31,7 +32,17 @@ for (const path of [...paths, ...notFoundPaths]) {
   const isNotFound = notFoundPaths.includes(path)
   const target = isNotFound ? resolve('dist', `.${relative.replace(/404\/$/,'404.html')}`) : resolve('dist', `.${relative}`, 'index.html')
   await mkdir(dirname(target), {recursive:true})
-  const html = template.replace('lang="en"', `lang="${result.lang}"`).replace('<!--page-head-->', result.head + (!isNotFound && measurementId ? `\n    <meta name="ga4-measurement-id" content="${measurementId}" />` : '')).replace('<!--app-html-->', result.html)
+  const preloadFiles = new Set()
+  function preloadModule(key) {
+    const module = clientManifest[key]
+    if (!module) throw new Error(`Missing client module: ${key}`)
+    if (preloadFiles.has(module.file)) return
+    preloadFiles.add(module.file)
+    for (const dependency of module.imports || []) preloadModule(dependency)
+  }
+  if (result.clientModule) preloadModule(result.clientModule)
+  const modulePreloads = [...preloadFiles].map(file=>`\n    <link rel="modulepreload" crossorigin href="${base}/${file}" />`).join('')
+  const html = template.replace('lang="en"', `lang="${result.lang}"`).replace('<!--page-head-->', result.head + modulePreloads + (!isNotFound && measurementId ? `\n    <meta name="ga4-measurement-id" content="${measurementId}" />` : '')).replace('<!--app-html-->', result.html)
   await writeFile(target, await criticalStyles.process(html))
   if (!isNotFound) urls.push(result.url)
 }

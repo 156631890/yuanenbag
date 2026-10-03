@@ -44,7 +44,6 @@ export function SelectionDetails({bag,lang}:{bag:Bag;lang:Lang}) {
   return <div className="selection-details"><h2>{tx('Design directions to discuss','可沟通的开发方向','Opciones de diseño para consultar')[lang]}</h2><p>{tx('Use these options to prepare a brief. Material suitability, tooling and finished performance are reviewed during sampling.','以下方向用于准备需求；材料适配、工艺条件和成品表现需在打样时评估。','Use estas opciones para preparar el proyecto. La idoneidad del material, el proceso y las prestaciones se revisan con muestras.')[lang]}</p><div><strong>{tx('Formats','袋型','Formatos')[lang]}</strong><span>{styleOptions.filter(([id])=>bag.styles?.includes(id)).map(([,label])=>label[lang]).join(' · ')}</span></div><div><strong>{tx('Applications','用途','Aplicaciones')[lang]}</strong><span>{usageOptions.filter(([id])=>bag.uses?.includes(id)).map(([,label])=>label[lang]).join(' · ')}</span></div><a className="text-link" href={href('/guides/bag-material-comparison/',lang)}>{tx('Compare bag materials','比较包装袋材质','Comparar materiales de bolsas')[lang]} <ArrowUpRight size={16}/></a></div>
 }
 
-export { default } from './CatalogBrowser'
 
 export function MaterialComparison({lang}:{lang:Lang}) {
   const t=(en:string,zh:string,es:string)=>tx(en,zh,es)[lang]
