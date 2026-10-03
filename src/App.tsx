@@ -23,7 +23,6 @@ const l=(lang:Lang,en:string,zh:string)=>tx(en,zh)[lang]
 function Logo({lang}:{lang:Lang}) {
   return <a className="logo" href={href('/',lang)} aria-label={l(lang,'YUANEN home','远恩首页')}>
     <img className="brand-logo" src={`${import.meta.env.BASE_URL}${brand.logo.file}`} alt={tx('YUANEN logo','远恩 YUANEN 品牌标志','Logotipo de YUANEN')[lang]} loading="eager" {...responsiveImage(brand.logo.file,'(max-width:360px) 146px, (max-width:650px) 168px, 216px')} />
-    <small className="logo-tagline">{l(lang,'INSULATED PACKAGING','远恩 · 保温包装制造')}</small>
   </a>
 }
 function Header({lang,path,enquiryBag}:{lang:Lang;path:string;enquiryBag:string}) {
