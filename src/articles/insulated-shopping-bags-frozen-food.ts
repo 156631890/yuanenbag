@@ -105,6 +105,20 @@ const article: EditorialArticle = {
     url: 'https://yuanenbag.com/products/upright-grocery-cooler/',
   }],
   relatedProducts: ['upright-grocery-cooler', 'water-fill-ice-packs'],
+  image: {
+    file: 'images/products/standardized/packy/upright-grocery-cooler-main.webp',
+    alt: {
+      en: 'Blue upright insulated grocery bag with gold carry handles',
+      zh: '蓝色立式保温购物袋，配金色提手',
+      es: 'Bolsa térmica vertical azul con asas doradas',
+    },
+    caption: {
+      en: 'YUANEN upright grocery cooler product presentation; no packed order or temperature test is shown.',
+      zh: '远恩立式商超保温购物包产品展示；画面不代表实际装载或温控测试。',
+      es: 'Presentación de la bolsa térmica vertical de YUANEN; no muestra una carga real ni una prueba de temperatura.',
+    },
+    kind: 'illustration',
+  },
 }
 
 export default article

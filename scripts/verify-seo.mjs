@@ -59,14 +59,20 @@ for(const lang of ['en','zh','es']){
    for(const source of article.sources) assert(visible.includes(`href="${source.url.replaceAll('&','&amp;')}"`),`Missing article source: ${path}`)
    for(const slug of article.relatedProducts) assert(visible.includes(`href="${prefix}/products/${slug}/"`),`Missing related product: ${path}`)
    if(article.kind==='industry') assert(visible.includes(`datetime="${article.eventDate}"`)&&visible.includes(article.market[lang]),`Missing event date or market: ${path}`)
-   if(article.image) await access(`dist/${article.image.file}`)
+   assert(article.image,`Missing article image: ${path}`)
+   assert.equal(schema.image,`https://yuanenbag.com/${article.image.file}`,`Wrong article image schema: ${path}`)
+   assert(visible.includes(`src="/${article.image.file}"`)&&visible.includes(`alt="${article.image.alt[lang]}"`),`Missing visible article image or alt: ${path}`)
+   await access(`dist/${article.image.file}`)
   }
   if(page.type==='industryArchive'||page.type==='guideArchive'){
    const kind=page.type==='industryArchive'?'industry':'guide'
    const articles=seoAudit.editorialArticles.filter(article=>article.kind===kind).slice(((page.pageNumber||1)-1)*12,(page.pageNumber||1)*12)
    const list=graph.find(item=>item['@type']==='CollectionPage')?.mainEntity
    assert.equal(list?.numberOfItems,articles.length,`Wrong article archive count: ${path}`)
-   for(const article of articles) assert(visible.includes(`href="${prefix}/${kind==='guide'?'guides':'industry-news'}/${article.slug}/"`),`Article missing from archive: ${path}`)
+   for(const article of articles){
+    assert(visible.includes(`href="${prefix}/${kind==='guide'?'guides':'industry-news'}/${article.slug}/"`),`Article missing from archive: ${path}`)
+    assert(visible.includes(`src="/${article.image.file}"`)&&visible.includes(`alt="${article.image.alt[lang]}"`),`Article image missing from archive: ${path}`)
+   }
   }
   if(['catalog','home'].includes(page.type)) for(const c of seoAudit.collections) assert(visible.includes(`href="${prefix}/collections/${c.slug}/"`),`Missing crawlable category: ${path}`)
   const preview=render(path,false)

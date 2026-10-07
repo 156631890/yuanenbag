@@ -13,7 +13,7 @@ export type EditorialArticle = {
   sections: { heading: Text; paragraphs: Text[]; bullets?: Text[] }[]
   sources: { title: Text; url: string; publishedAt?: string }[]
   relatedProducts: string[]
-  image?: { file: string; alt: Text; caption: Text; kind: 'product' | 'illustration' }
+  image: { file: string; alt: Text; caption: Text; kind: 'product' | 'illustration' }
 }
 
 // Only published articles belong in articles/. Keep drafts outside this directory.
@@ -46,11 +46,10 @@ for (const article of editorialArticles) {
     if (!source.url.startsWith('https://') || (source.publishedAt && (!validDate(source.publishedAt) || source.publishedAt > article.publishedAt))) throw new Error(`Invalid source: ${article.slug}`)
   }
   for (const slug of article.relatedProducts || []) if (!bags.some(bag => bag.slug === slug)) throw new Error(`Unknown related product ${slug}: ${article.slug}`)
-  if (article.image) {
-    requireText(article.image.alt, `image alt: ${article.slug}`)
-    requireText(article.image.caption, `image caption: ${article.slug}`)
-    if (!article.image.file.startsWith('images/') || article.image.file.includes('..')) throw new Error(`Invalid image path: ${article.slug}`)
-  }
+  if (!article.image) throw new Error(`Missing article image: ${article.slug}`)
+  requireText(article.image.alt, `image alt: ${article.slug}`)
+  requireText(article.image.caption, `image caption: ${article.slug}`)
+  if (!article.image.file.startsWith('images/') || article.image.file.includes('..')) throw new Error(`Invalid image path: ${article.slug}`)
 }
 
 export const guideArticles = editorialArticles.filter(article => article.kind === 'guide')
