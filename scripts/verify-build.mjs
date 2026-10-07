@@ -90,6 +90,8 @@ for (const file of files) {
   assert(json && JSON.parse(json)['@graph'].length>=3,`Missing schema graph: ${file}`)
   assert(html.includes('<main id="main">'),`Missing main content: ${file}`)
   const relative = file.slice(root.length).replaceAll('\\','/').replace(/index\.html$/,'')
+  if (!relative.startsWith('/zh/') && !relative.startsWith('/es/')) assert(html.includes('<span class="footer-label">FIND US</span><p>Wenzhou Yuanen Crafts Co., Ltd.</p>'),`English footer company name: ${file}`)
+  if (relative.startsWith('/zh/')) assert(html.includes('<span class="footer-label">联系我们</span><p>温州远恩工艺品有限公司</p>'),`Chinese footer company name: ${file}`)
     const ownProduct = catalogAudit.bags.find(b=>b.collection && relative.endsWith(`/products/${b.slug}/`))
   if (ownProduct) {
     const product = JSON.parse(json)['@graph'].find(item=>item['@type']==='Product')
