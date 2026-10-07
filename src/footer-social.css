@@ -1,0 +1,5 @@
+.footer-social{display:flex;align-items:center;margin-top:18px}
+.footer-facebook{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;background:#1877f2;color:#fff;transition:background-color .2s ease,transform .2s ease}
+.footer-facebook svg{display:block;fill:currentColor}
+.footer-facebook:hover{background:#0d59b4;transform:translateY(-2px)}
+.footer-facebook:focus-visible{outline:2px solid var(--navy);outline-offset:3px}

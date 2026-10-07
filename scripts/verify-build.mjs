@@ -80,6 +80,7 @@ const base = (env.SITE_BASE_PATH || '/').replace(/\/$/, '')
 for (const path of paths) await access(resolve(root,`.${path.slice(base.length)}`,'index.html'))
 for (const file of files) {
   const html = await readFile(file,'utf8')
+  assert(/class="footer-facebook"[^>]*href="https:\/\/www\.facebook\.com\/yuanenbag"[^>]*aria-label="[^"]+"/.test(html),`Missing accessible Facebook footer link: ${file}`)
   const title = html.match(/<title>(.*?)<\/title>/)?.[1]
   assert(title && !titles.has(title),`Missing or duplicate title: ${file}`)
   titles.add(title)
