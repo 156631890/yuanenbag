@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict'
-import { readFile, writeFile } from 'node:fs/promises'
+import { access, readFile, writeFile } from 'node:fs/promises'
 import { seoAudit, catalogAudit, render } from '../.ssr/entry-server.js'
 
 const decode=s=>s.replaceAll('&amp;','&').replaceAll('&quot;','"').replaceAll('&#x27;',"'").replaceAll('&#39;',"'").replaceAll('&lt;','<').replaceAll('&gt;','>')
@@ -46,6 +46,27 @@ for(const lang of ['en','zh','es']){
    assert(visible.includes(`datetime="${guide.dateModified}"`),`Missing visible update date: ${path}`)
    assert.equal(article.author['@id'],'https://yuanenbag.com/#organization')
    assert(visible.includes('guide-sources')&&visible.includes(`href="${prefix}/about/"`),`Missing author/source context: ${path}`)
+  }
+  if(page.type==='editorialArticle'){
+   const article=seoAudit.editorialArticles.find(item=>item.slug===page.slug)
+   assert(article,`Article data missing: ${path}`)
+   assert.equal(path,`${prefix}/${article.kind==='guide'?'guides':'industry-news'}/${article.slug}/`)
+   const schema=graph.find(item=>item['@type']==='Article')
+   assert(schema&&schema.datePublished===article.publishedAt&&schema.dateModified===(article.updatedAt||article.publishedAt),`Wrong article dates: ${path}`)
+   assert.equal(schema.headline,article.title[lang],`Wrong article headline: ${path}`)
+   assert(visible.includes(`datetime="${article.publishedAt}"`)&&visible.includes('guide-sources'),`Missing visible dates or source context: ${path}`)
+   assert(visible.includes(`href="${prefix}/${article.kind==='guide'?'guides':'industry-news'}/"`),`Missing archive link: ${path}`)
+   for(const source of article.sources) assert(visible.includes(`href="${source.url.replaceAll('&','&amp;')}"`),`Missing article source: ${path}`)
+   for(const slug of article.relatedProducts) assert(visible.includes(`href="${prefix}/products/${slug}/"`),`Missing related product: ${path}`)
+   if(article.kind==='industry') assert(visible.includes(`datetime="${article.eventDate}"`)&&visible.includes(article.market[lang]),`Missing event date or market: ${path}`)
+   if(article.image) await access(`dist/${article.image.file}`)
+  }
+  if(page.type==='industryArchive'||page.type==='guideArchive'){
+   const kind=page.type==='industryArchive'?'industry':'guide'
+   const articles=seoAudit.editorialArticles.filter(article=>article.kind===kind).slice(((page.pageNumber||1)-1)*12,(page.pageNumber||1)*12)
+   const list=graph.find(item=>item['@type']==='CollectionPage')?.mainEntity
+   assert.equal(list?.numberOfItems,articles.length,`Wrong article archive count: ${path}`)
+   for(const article of articles) assert(visible.includes(`href="${prefix}/${kind==='guide'?'guides':'industry-news'}/${article.slug}/"`),`Article missing from archive: ${path}`)
   }
   if(['catalog','home'].includes(page.type)) for(const c of seoAudit.collections) assert(visible.includes(`href="${prefix}/collections/${c.slug}/"`),`Missing crawlable category: ${path}`)
   const preview=render(path,false)

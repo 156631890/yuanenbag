@@ -7,10 +7,11 @@ import { bags, brand, faq, guides, tx, languages, locales, type Lang } from './d
 import { pages, href, resolveRoute } from './routes'
 import { materialCategories, styleOptions, usageOptions } from './catalog-data'
 import {qualityDocuments} from './documentation-data'
+import { archivePath, articlePath, articlesOnPage, editorialArticles } from './editorial'
 
 export const notFoundPaths = languages.map(lang=>href('/404/',lang))
 export const paths = languages.flatMap(lang => pages.map(page => href(page.path, lang)))
-export const seoAudit = {pages, collections, guides}
+export const seoAudit = {pages, collections, guides, editorialArticles}
 export const catalogAudit = {bags,materialCategories,styleOptions,usageOptions,commercialProfiles,stockSpecifications}
 export const documentationAudit = qualityDocuments
 const escape = (value: string) => value.replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]!))
@@ -27,6 +28,12 @@ export function render(path = '/', indexable = false) {
     const collection=current?collectionFor(current):undefined
     if(collection) crumbs.push({name:collection.name[lang],item:absolute(href(`/collections/${collection.slug}/`,lang))})
     if (page.type === 'guide') crumbs.push({name:tx('Resources','采购指南')[lang],item:absolute(href('/guides/',lang))})
+    if (page.type === 'editorialArticle') {
+      const article = editorialArticles.find(item => item.slug === page.slug)!
+      crumbs.push({name:article.kind === 'guide' ? tx('Buying guides','采购指南','Guías de compra')[lang] : tx('Industry news','行业动态','Actualidad del sector')[lang],item:absolute(href(archivePath(article.kind),lang))})
+    }
+    if (page.type === 'industryArchive' && page.pageNumber && page.pageNumber > 1) crumbs.push({name:tx('Industry news','行业动态','Actualidad del sector')[lang],item:absolute(href('/industry-news/',lang))})
+    if (page.type === 'guideArchive') crumbs.push({name:tx('Buying guides','采购指南','Guías de compra')[lang],item:absolute(href('/guides/',lang))})
     crumbs.push({name:page.title[lang].split(' | ')[0],item:url})
     graph.push({'@type':'BreadcrumbList',itemListElement:crumbs.map((item,i)=>({'@type':'ListItem',position:i+1,...item}))})
   }
@@ -36,11 +43,18 @@ export function render(path = '/', indexable = false) {
     graph.push({'@type':'FAQPage',mainEntity:questions.map(item=>({'@type':'Question',name:item.q[lang],acceptedAnswer:{'@type':'Answer',text:item.a[lang]}}))})
   }
   if (page.type === 'guide') graph.push({'@type':'Article',headline:page.title[lang].split(' | ')[0],description:page.description[lang],inLanguage:locales[lang].tag,dateModified:guides.find(guide=>guide.slug===page.slug)!.dateModified,author:{'@id':organization['@id']},publisher:{'@id':organization['@id']},mainEntityOfPage:{'@id':`${url}#webpage`}})
+  const editorialArticle = page.type === 'editorialArticle' ? editorialArticles.find(article => article.slug === page.slug)! : undefined
+  if (editorialArticle) graph.push({'@type':'Article',headline:editorialArticle.title[lang],description:editorialArticle.description[lang],inLanguage:locales[lang].tag,datePublished:editorialArticle.publishedAt,dateModified:editorialArticle.updatedAt || editorialArticle.publishedAt,author:{'@id':organization['@id']},publisher:{'@id':organization['@id']},mainEntityOfPage:{'@id':`${url}#webpage`},...(editorialArticle.image ? {image:absolute(href('/', 'en')+editorialArticle.image.file)} : {})})
+  if (page.type === 'industryArchive' || page.type === 'guideArchive') {
+    const kind = page.type === 'industryArchive' ? 'industry' : 'guide'
+    const listed = articlesOnPage(kind, page.pageNumber || 1)
+    graph.push({'@type':'CollectionPage',url,name:page.title[lang],mainEntity:{'@type':'ItemList',numberOfItems:listed.length,itemListElement:listed.map((article,index)=>({'@type':'ListItem',position:index+1,name:article.title[lang],url:absolute(href(articlePath(article),lang))}))}})
+  }
   if (page.type === 'quality') graph.push({'@type':'CollectionPage',name:page.title[lang],url,inLanguage:locales[lang].tag,mainEntity:{'@type':'ItemList',numberOfItems:qualityDocuments.length,itemListElement:qualityDocuments.map((d,i)=>({'@type':'ListItem',position:i+1,url:`${url}#${d.id}`,name:`${d.title[lang]} · ${d.number}`}))}})
   if (page.type === 'catalog') graph.push({'@type':'CollectionPage','@id':`${url}#collection`,name:page.title[lang],url,inLanguage:locales[lang].tag,mainEntity:{'@type':'ItemList',numberOfItems:bags.length,itemListElement:bags.map((bag,i)=>({'@type':'ListItem',position:i+1,name:bag.name[lang],url:absolute(href(`/products/${bag.slug}/`,lang))}))}})
   if(page.type==='collection'){const c=collections.find(c=>c.slug===page.slug)!;const members=collectionProducts(c);graph.push({'@type':'CollectionPage','@id':`${url}#collection`,name:c.name[lang],url,inLanguage:locales[lang].tag,mainEntity:{'@type':'ItemList',numberOfItems:members.length,itemListElement:members.map((b,i)=>({'@type':'ListItem',position:i+1,name:b.name[lang],url:absolute(href(`/products/${b.slug}/`,lang))}))}})}
   const currentBag = bags.find(b=>b.slug===page.slug)
-  const shareImage = currentBag?.image ? `images/products/${productImageFile(productImages(currentBag)[0].file)}` : 'images/factory/2026/longgang-production.webp'
+  const shareImage = editorialArticle?.image?.file || (currentBag?.image ? `images/products/${productImageFile(productImages(currentBag)[0].file)}` : 'images/factory/2026/longgang-production.webp')
   if (page.type === 'bag' && currentBag?.collection) graph.push({'@type':'Product','@id':`${url}#product`,name:currentBag.name[lang],description:currentBag.intro[lang],url,image:productImages(currentBag).map(({file})=>absolute(href('/', 'en')+`images/products/${productImageFile(file)}`)),brand:{'@type':'Brand',name:brand.name},manufacturer:{'@id':organization['@id']},material:currentBag.material[lang],category:currentBag.use[lang]})
   const head = [
     `<title>${escape(page.title[lang])}</title>`,
@@ -50,7 +64,7 @@ export function render(path = '/', indexable = false) {
     `<meta property="og:title" content="${escape(page.title[lang])}" />`,
     `<meta property="og:description" content="${escape(page.description[lang])}" />`,
     `<meta property="og:url" content="${escape(url)}" />`,
-    `<meta property="og:type" content="${page.type==='guide'?'article':'website'}" />`,
+    `<meta property="og:type" content="${page.type==='guide'||page.type==='editorialArticle'?'article':'website'}" />`,
     `<meta property="og:locale" content="${locales[lang].og}" />`,
     `<meta property="og:image" content="${escape(absolute(href('/', 'en')+shareImage))}" />`,
     `<script type="application/ld+json">${JSON.stringify({'@context':'https://schema.org','@graph':graph}).replace(/</g,'\\u003c')}</script>`,
