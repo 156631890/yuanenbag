@@ -1063,6 +1063,74 @@
       }
     ]
   },
+  "images/editorial/2026-10-07/frozen-food-bag-packing-checks.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/e3fd0ab7bc1c-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/f829dff7f0e6-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/163192f73f28-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/78431c48c766-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/17141b7cb522-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/feff10897671-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/81d9d20f2b6e-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-10-07/cold-chain-equipment-vs-handoff-packaging.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/f86f0137cd85-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/4d1f24c388c8-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/3c56f45d78be-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/11d451e4425b-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/9a016a31615e-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/0ae764327940-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/6e2a485c9958-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
   "images/factory/building-crop.webp": {
     "width": 940,
     "height": 701,

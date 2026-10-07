@@ -104,16 +104,16 @@ const article: EditorialArticle = {
   }],
   relatedProducts: ['water-fill-ice-packs', 'upright-grocery-cooler'],
   image: {
-    file: 'images/products/standardized/photos-2026-09/water-fill-ice-pack-range.webp',
+    file: 'images/editorial/2026-10-07/cold-chain-equipment-vs-handoff-packaging.webp',
     alt: {
-      en: 'Three YUANEN water-fill ice packs in different stock sizes on a plain background',
-      zh: '浅色背景上的三款不同现有尺寸远恩注水冰袋',
-      es: 'Tres acumuladores de frío rellenables de YUANEN de diferentes medidas sobre fondo claro',
+      en: 'Illustration separating a cold-storage room and refrigerated truck from an insulated hand-off bag',
+      zh: '示意图将冷库和冷藏车与交付用保温袋分开展示',
+      es: 'Ilustración que separa una cámara y un camión frigoríficos de una bolsa térmica de entrega',
     },
     caption: {
-      en: 'YUANEN water-fill ice pack product illustration. It does not show a USDA-funded purchase or a temperature test.',
-      zh: '远恩注水冰袋产品示意图；画面不代表 USDA 资助采购或温控测试。',
-      es: 'Ilustración de acumuladores rellenables de YUANEN. No muestra una compra financiada por el USDA ni una prueba térmica.',
+      en: 'Cold-chain equipment and the recipient hand-off pack require separate checks. This does not depict a funded project or an approved product.',
+      zh: '冷链设备和交付包装需要分别核对。画面不代表已获资助的项目或获批产品。',
+      es: 'El equipo frigorífico y el embalaje de entrega requieren comprobaciones distintas. No representa un proyecto subvencionado ni un producto aprobado.',
     },
     kind: 'illustration',
   },

@@ -61,7 +61,10 @@ for(const lang of ['en','zh','es']){
    if(article.kind==='industry') assert(visible.includes(`datetime="${article.eventDate}"`)&&visible.includes(article.market[lang]),`Missing event date or market: ${path}`)
    assert(article.image,`Missing article image: ${path}`)
    assert.equal(schema.image,`https://yuanenbag.com/${article.image.file}`,`Wrong article image schema: ${path}`)
+   assert(html.includes(`<meta property="og:image" content="https://yuanenbag.com/${article.image.file}"`),`Wrong article share image: ${path}`)
    assert(visible.includes(`src="/${article.image.file}"`)&&visible.includes(`alt="${article.image.alt[lang]}"`),`Missing visible article image or alt: ${path}`)
+   assert(visible.includes(article.image.caption[lang]),`Missing translated image caption: ${path}`)
+   if(article.image.kind==='illustration') assert(visible.includes({en:'AI-generated illustration',zh:'AI 生成示意图',es:'Ilustración generada con IA'}[lang]),`Missing generated-image disclosure: ${path}`)
    await access(`dist/${article.image.file}`)
   }
   if(page.type==='industryArchive'||page.type==='guideArchive'){

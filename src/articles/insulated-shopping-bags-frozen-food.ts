@@ -106,16 +106,16 @@ const article: EditorialArticle = {
   }],
   relatedProducts: ['upright-grocery-cooler', 'water-fill-ice-packs'],
   image: {
-    file: 'images/products/standardized/packy/upright-grocery-cooler-main.webp',
+    file: 'images/editorial/2026-10-07/frozen-food-bag-packing-checks.webp',
     alt: {
-      en: 'Blue upright insulated grocery bag with gold carry handles',
-      zh: '蓝色立式保温购物袋，配金色提手',
-      es: 'Bolsa térmica vertical azul con asas doradas',
+      en: 'Illustrated open insulated tote with food cartons, a coolant pack and space below the zipper',
+      zh: '打开的保温袋示意图，内有食品包装、冰源和拉链下方余量',
+      es: 'Bolsa térmica abierta ilustrada con cajas de alimentos, un acumulador y espacio bajo la cremallera',
     },
     caption: {
-      en: 'YUANEN upright grocery cooler product presentation; no packed order or temperature test is shown.',
-      zh: '远恩立式商超保温购物包产品展示；画面不代表实际装载或温控测试。',
-      es: 'Presentación de la bolsa térmica vertical de YUANEN; no muestra una carga real ni una prueba de temperatura.',
+      en: 'Packing example with food cartons and a coolant pack in a generic insulated tote. Check actual fit with a finished sample.',
+      zh: '通用保温袋内摆放食品包装和冰源的装载示例。实际装载空间需用成品样品核对。',
+      es: 'Ejemplo de cajas y un acumulador dentro de una bolsa térmica genérica. Compruebe el espacio real con una muestra terminada.',
     },
     kind: 'illustration',
   },
