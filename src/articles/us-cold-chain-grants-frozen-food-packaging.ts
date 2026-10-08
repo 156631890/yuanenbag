@@ -104,16 +104,16 @@ const article: EditorialArticle = {
   }],
   relatedProducts: ['water-fill-ice-packs', 'upright-grocery-cooler'],
   image: {
-    file: 'images/editorial/2026-10-07/cold-chain-equipment-vs-handoff-packaging.webp',
+    file: 'images/editorial/2026-10-08/cold-chain-equipment-vs-handoff-packaging.webp',
     alt: {
-      en: 'Illustration separating a cold-storage room and refrigerated truck from an insulated hand-off bag',
-      zh: '示意图将冷库和冷藏车与交付用保温袋分开展示',
-      es: 'Ilustración que separa una cámara y un camión frigoríficos de una bolsa térmica de entrega',
+      en: 'Generic refrigerated delivery truck at a loading dock with pallets of cartons',
+      zh: '通用冷藏配送车辆停在装卸区，前景有成托纸箱',
+      es: 'Camión frigorífico genérico en un muelle de carga con palés de cajas',
     },
     caption: {
-      en: 'Cold-chain equipment and the recipient hand-off pack require separate checks. This does not depict a funded project or an approved product.',
-      zh: '冷链设备和交付包装需要分别核对。画面不代表已获资助的项目或获批产品。',
-      es: 'El equipo frigorífico y el embalaje de entrega requieren comprobaciones distintas. No representa un proyecto subvencionado ni un producto aprobado.',
+      en: 'Generic refrigerated distribution scene; it does not depict a funded project or an approved product.',
+      zh: '通用冷藏配送场景；画面不代表已获资助的项目或获批产品。',
+      es: 'Escena genérica de distribución refrigerada; no representa un proyecto subvencionado ni un producto aprobado.',
     },
     kind: 'illustration',
   },

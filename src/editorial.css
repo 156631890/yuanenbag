@@ -12,7 +12,7 @@
 .editorial-pagination a[aria-current]{background:var(--navy);color:#fff}
 .editorial-crosslink{margin-top:36px;border-top:1px solid var(--line);padding-top:25px}
 .editorial-image{margin:0 0 34px}
-.editorial-image img{display:block;width:auto;height:auto;max-width:100%;max-height:600px;margin:0 auto}
+.editorial-image img{display:block;width:100%;height:auto}
 .editorial-image figcaption{margin-top:9px;font-size:12px;color:var(--muted);text-align:center}
 .editorial-body-section{margin-top:38px}
 .editorial-body-section h2{font-size:28px}

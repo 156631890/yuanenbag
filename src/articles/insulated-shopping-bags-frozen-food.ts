@@ -106,16 +106,16 @@ const article: EditorialArticle = {
   }],
   relatedProducts: ['upright-grocery-cooler', 'water-fill-ice-packs'],
   image: {
-    file: 'images/editorial/2026-10-07/frozen-food-bag-packing-checks.webp',
+    file: 'images/editorial/2026-10-08/frozen-food-bag-packing-checks.webp',
     alt: {
-      en: 'Illustrated open insulated tote with food cartons, a coolant pack and space below the zipper',
-      zh: '打开的保温袋示意图，内有食品包装、冰源和拉链下方余量',
-      es: 'Bolsa térmica abierta ilustrada con cajas de alimentos, un acumulador y espacio bajo la cremallera',
+      en: 'Generic navy insulated shopping bag on a wooden table',
+      zh: '木桌上的通用款深蓝色保温购物袋',
+      es: 'Bolsa térmica genérica azul marino sobre una mesa de madera',
     },
     caption: {
-      en: 'Packing example with food cartons and a coolant pack in a generic insulated tote. Check actual fit with a finished sample.',
-      zh: '通用保温袋内摆放食品包装和冰源的装载示例。实际装载空间需用成品样品核对。',
-      es: 'Ejemplo de cajas y un acumulador dentro de una bolsa térmica genérica. Compruebe el espacio real con una muestra terminada.',
+      en: 'Generic insulated shopping bag. Confirm the actual packed fit with a finished sample.',
+      zh: '通用保温购物袋。实际装载适配仍需用成品样品核对。',
+      es: 'Bolsa térmica genérica. Compruebe el espacio real con una muestra terminada.',
     },
     kind: 'illustration',
   },
