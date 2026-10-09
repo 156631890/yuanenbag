@@ -52,11 +52,11 @@ try {
   assert.equal(config.allow_google_signals, false)
   f.analytics.startAnalytics()
   assert.equal(f.commands().filter(command => command[1] === 'page_view').length, 1)
-  for (const action of ['enquiry_draft_prepared', 'enquiry_brief_download', 'enquiry_email_open']) {
+  for (const action of ['enquiry_sent', 'enquiry_draft_prepared', 'enquiry_brief_download', 'enquiry_email_open']) {
     f.analytics.trackEnquiry(action, { name: 'Private Test', email: 'private@example.test', details: 'private project text' })
   }
   f.analytics.trackEnquiry('generate_lead')
-  assert.equal(f.commands().filter(command => command[0] === 'event').length, 4)
+  assert.equal(f.commands().filter(command => command[0] === 'event').length, 5)
   assert(!JSON.stringify(f.commands()).includes('private'))
   const eventCount = f.commands().filter(command => command[0] === 'event').length
   f.analytics.setAnalyticsChoice('denied')
