@@ -72,5 +72,8 @@ export function render(path = '/', indexable = false) {
   const clientModules: Record<string,string> = {catalog:'src/CatalogBrowser.tsx',bag:'src/ProductSections.tsx',contact:'src/Enquiry.tsx'}
   const clientModule = page.type==='guide'&&['bag-material-comparison','ice-pack-selection'].includes(page.slug!)
     ? 'src/SelectionGuide.tsx' : clientModules[page.type]
-  return {html:renderToString(<App path={path}/>),head,lang:locales[lang].tag,url,clientModule}
+  const editorialModules = page.type === 'editorialArticle'
+    ? ['src/EditorialArticlePage.tsx', 'src/EditorialPages.tsx', `src/articles/${page.slug}.ts`]
+    : ['guides', 'guideArchive', 'industryArchive'].includes(page.type) ? ['src/EditorialPages.tsx'] : []
+  return {html:renderToString(<App path={path}/>),head,lang:locales[lang].tag,url,clientModule,clientModules:editorialModules.length ? editorialModules : clientModule ? [clientModule] : []}
 }

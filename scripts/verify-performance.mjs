@@ -1,12 +1,20 @@
 import assert from 'node:assert/strict'
 import { readFile, access } from 'node:fs/promises'
 import { gzipSync } from 'node:zlib'
-import { paths, notFoundPaths } from '../.ssr/entry-server.js'
+import { paths, notFoundPaths, seoAudit } from '../.ssr/entry-server.js'
 
 const manifest = JSON.parse(await readFile('dist/.vite/manifest.json', 'utf8'))
 const imageManifest = JSON.parse(await readFile('src/responsive-image-manifest.json', 'utf8'))
 const imageCandidates = Object.values(imageManifest).flatMap(image=>image.variants.map(variant=>variant.file))
 const entry = await readFile(`dist/${manifest['index.html'].file}`, 'utf8')
+const editorialIndex = JSON.parse(await readFile('src/editorial-index.json', 'utf8'))
+assert.equal(editorialIndex.length, seoAudit.editorialArticles.length, 'Editorial metadata index is stale.')
+for (const article of seoAudit.editorialArticles) {
+  const { kind, slug, publishedAt, updatedAt, title, description, image } = article
+  assert.deepEqual(editorialIndex.find(item => item.slug === slug), { kind, slug, publishedAt, ...(updatedAt ? { updatedAt } : {}), title, description, image })
+  assert(manifest[`src/articles/${slug}.ts`]?.isDynamicEntry, `Article body must have its own dynamic module: ${slug}`)
+  assert(!entry.includes(article.sections[0].paragraphs[0].en), `Article body leaked into the initial script: ${slug}`)
+}
 for (const file of imageCandidates) {
   assert(!entry.includes(file), 'The initial script must reuse page image attributes instead of embedding the global image manifest.')
 }
@@ -36,6 +44,11 @@ for (const path of [...paths,...notFoundPaths]) {
   assert(bytes <= 700_000, `Initial scripts exceed the 700 kB budget: ${path} (${bytes})`)
   assert(gzipBytes <= 210_000, `Compressed initial scripts exceed the 210 kB budget: ${path}`)
   assert(!html.includes('<!--$!-->'), `Static page content suspended during rendering: ${path}`)
+  const article = seoAudit.editorialArticles.find(article => path.endsWith(`/${article.kind === 'guide' ? 'guides' : 'industry-news'}/${article.slug}/`))
+  for (const candidate of seoAudit.editorialArticles) {
+    const bodyModule = manifest[`src/articles/${candidate.slug}.ts`].file
+    assert.equal([...initialScripts].some(source => source.endsWith(`/${bodyModule}`)), candidate === article, `Incorrect article body preload: ${path} (${candidate.slug})`)
+  }
   const needed = path.endsWith('/products/') ? 'src/CatalogBrowser.tsx'
     : path.includes('/products/') && !path.includes('/collections/') ? 'src/ProductSections.tsx'
     : path.endsWith('/contact/') ? 'src/Enquiry.tsx'

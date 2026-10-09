@@ -1,7 +1,7 @@
 import { productDescriptions } from './seo-descriptions'
 import { collections } from './collections'
 import { bags, guides, tx, type Lang, type Text } from './data'
-import { archivePageCount, archivePath, articlePath, editorialArticles, industryArticles } from './editorial'
+import { archivePageCount, archivePath, articlePath, editorialArticles, industryArticles } from './editorial-index'
 export type Page = { path: string; type: string; title: Text; description: Text; slug?: string; pageNumber?: number }
 export const pages: Page[] = [
   {path:'/quality/',type:'quality',title:tx('Factory Audits & Material Test Reports | YUANEN','关联工厂审核与材料检测资料 | 远恩','Auditorías de fábrica e informes de materiales | YUANEN'),description:tx('Review affiliated-factory BSCI audit records, CTT sample test reports and an OEKO-TEX fabric certificate, with named holders, dates and scope.','查阅关联工厂的 BSCI 审核、CTT 样品检测报告及 OEKO-TEX 面料证书，核对文件主体、日期与适用范围。','Consulte auditorías BSCI de fábricas vinculadas, informes CTT de muestras y un certificado OEKO-TEX de tejido, con titulares, fechas y alcance.')},

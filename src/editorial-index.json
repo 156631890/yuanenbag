@@ -1,0 +1,89 @@
+[
+  {
+    "kind": "guide",
+    "slug": "insulated-shopping-bags-frozen-food",
+    "publishedAt": "2026-10-07",
+    "title": {
+      "en": "Insulated Shopping Bags for Frozen Food: Buyer Checks",
+      "zh": "冷冻食品保温购物袋：采购前要核对什么",
+      "es": "Bolsas térmicas para alimentos congelados: qué comprobar antes de comprar"
+    },
+    "description": {
+      "en": "Check packed dimensions, coolant space, zipper clearance and a route-specific sample test before ordering custom insulated shopping bags for frozen food.",
+      "zh": "采购冷冻食品保温购物袋前，核对实际装载尺寸、冰源空间、拉链余量，并按配送路线进行样品测试。",
+      "es": "Compruebe medidas con la carga, espacio para refrigerantes, cierre y una prueba de la ruta antes de pedir bolsas térmicas para congelados."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-08/frozen-food-bag-packing-checks.webp",
+      "alt": {
+        "en": "Generic navy insulated shopping bag on a wooden table",
+        "zh": "木桌上的通用款深蓝色保温购物袋",
+        "es": "Bolsa térmica genérica azul marino sobre una mesa de madera"
+      },
+      "caption": {
+        "en": "Generic insulated shopping bag. Confirm the actual packed fit with a finished sample.",
+        "zh": "通用保温购物袋。实际装载适配仍需用成品样品核对。",
+        "es": "Bolsa térmica genérica. Compruebe el espacio real con una muestra terminada."
+      },
+      "kind": "illustration"
+    }
+  },
+  {
+    "kind": "guide",
+    "slug": "self-seal-foil-bag-size-flap-fit",
+    "publishedAt": "2026-10-09",
+    "title": {
+      "en": "Self-Seal Foil Bag Sizes: Bag Body, Flap and Packed Fit",
+      "zh": "自粘铝箔保温袋尺寸：袋身、折口与餐盒适配",
+      "es": "Medidas de bolsas térmicas autoadhesivas: cuerpo, solapa y ajuste"
+    },
+    "description": {
+      "en": "Read YUANEN’s width × body height + flap notation, then check the usable opening and closure with your takeaway box before ordering foil insulated bags.",
+      "zh": "读懂远恩铝箔保温袋的宽×袋身高＋折口标注，再用实际餐盒核对可用开口和封口，减少选尺寸时的误解。",
+      "es": "Interprete ancho × altura del cuerpo + solapa y compruebe la apertura útil y el cierre con su envase antes de pedir bolsas térmicas de aluminio."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-09/self-seal-foil-pouches.webp",
+      "alt": {
+        "en": "Two generic silver foil-faced flat pouches with sealed edges on a wooden bench",
+        "zh": "木桌上两只带封合边的通用银色铝箔面层平袋",
+        "es": "Dos bolsas planas genéricas de superficie plateada y bordes sellados sobre una mesa de madera"
+      },
+      "caption": {
+        "en": "Generic foil-faced pouches on a wooden bench. The cover does not show a measured or approved sample.",
+        "zh": "木桌上的通用铝箔面层平袋。封面没有展示经过测量或确认的订单样品。",
+        "es": "Bolsas genéricas sobre una mesa de madera. La portada no muestra una muestra medida ni aprobada."
+      },
+      "kind": "illustration"
+    }
+  },
+  {
+    "kind": "industry",
+    "slug": "us-cold-chain-grants-frozen-food-packaging",
+    "publishedAt": "2026-10-07",
+    "title": {
+      "en": "US Cold-Chain Grants and Frozen Food Packaging: What Buyers Should Separate",
+      "zh": "美国冷链资助计划与冷冻食品包装：采购时要分清的两件事",
+      "es": "Subvenciones de cadena de frío en EE. UU. y embalaje de congelados: dos decisiones distintas"
+    },
+    "description": {
+      "en": "The USDA announced a cold-chain equipment grant, not a packaging approval. For frozen food packaging, check grant eligibility separately from the bag, coolant and route trial.",
+      "zh": "USDA 公布了冷链设备资助计划，并非对包装的批准。采购冷冻食品包装时，应将资助资格与保温袋、冰源和路线测试分别核对。",
+      "es": "El USDA anunció ayudas para equipos de cadena de frío, no una aprobación de embalajes. Verifique por separado la elegibilidad, la bolsa, el refrigerante y la ruta."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-08/cold-chain-equipment-vs-handoff-packaging.webp",
+      "alt": {
+        "en": "Generic refrigerated delivery truck at a loading dock with pallets of cartons",
+        "zh": "通用冷藏配送车辆停在装卸区，前景有成托纸箱",
+        "es": "Camión frigorífico genérico en un muelle de carga con palés de cajas"
+      },
+      "caption": {
+        "en": "Generic refrigerated distribution scene; it does not depict a funded project or an approved product.",
+        "zh": "通用冷藏配送场景；画面不代表已获资助的项目或获批产品。",
+        "es": "Escena genérica de distribución refrigerada; no representa un proyecto subvencionado ni un producto aprobado."
+      },
+      "kind": "illustration"
+    }
+  }
+]

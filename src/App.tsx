@@ -2,7 +2,7 @@ import OrderReference from './OrderReference'
 import CollectionPage, { CollectionLinks, ProductBuyingLinks } from './CollectionPage'
 import { collections, collectionFor } from './collections'
 import { Suspense, useEffect, useRef, useState } from 'react'
-import { CatalogPage, Enquiry, ProductSections, SelectionGuide } from '#page-components'
+import { CatalogPage, Enquiry, ProductSections, SelectionGuide, EditorialArticlePage, GuidesArchive, IndustryArchive } from '#page-components'
 import { ArrowRight, ArrowUpRight, Check, ChevronDown, Globe2, Layers3, MapPin, Menu, PackageCheck, Plus, Ruler, ShieldCheck, Snowflake, X } from 'lucide-react'
 import { bags, brand, faq, guides, locations, tx, languages, locales, type Bag, type Lang } from './data'
 import { href, resolveRoute } from './routes'
@@ -17,8 +17,6 @@ import HomeHero from './HomeHero'
 import Quality, { DocumentationLink } from './Quality'
 import { commercialProfile, commercialFAQ, productEnquiryFAQ } from './commercial-data'
 import { Process, ProcessSection, GuidesSection, GuideMeta, GuideSources, FAQ, FAQSection } from './BuyerResources'
-import { editorialArticles } from './editorial'
-import { EditorialDetail, GuidesArchive, IndustryArchive } from './EditorialPages'
 
 type Props={lang:Lang}
 const l=(lang:Lang,en:string,zh:string)=>tx(en,zh)[lang]
@@ -112,7 +110,7 @@ export default function App({path='/'}:{path?:string}){
   case'guides':case'guideArchive':content=<GuidesArchive lang={lang} page={page.pageNumber}/>;break
   case'guide':content=['bag-material-comparison','ice-pack-selection'].includes(page.slug!)?<SelectionGuide lang={lang} slug={page.slug!}/>:<Guide lang={lang} slug={page.slug!}/>;break
   case'industryArchive':content=<IndustryArchive lang={lang} page={page.pageNumber}/>;break
-  case'editorialArticle':content=<EditorialDetail lang={lang} article={editorialArticles.find(article=>article.slug===page.slug)!}/>;break
+  case'editorialArticle':content=<EditorialArticlePage lang={lang} slug={page.slug!}/>;break
   case'applications':content=<Applications lang={lang}/>;break
   case'contact':content=<section className="container page-section"><Breadcrumbs lang={lang} items={[{text:l(lang,'Enquiry','询价')}]}/><Enquiry lang={lang} bag={enquiryBag} onBagChange={setEnquiryBag}/></section>;break
   case'privacy':content=<Privacy lang={lang}/>;break

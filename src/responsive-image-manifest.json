@@ -1131,6 +1131,40 @@
       }
     ]
   },
+  "images/editorial/2026-10-09/self-seal-foil-pouches.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/06eed697f349-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/614a2af861bd-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/61c5b0441b92-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/7b95b644c5a4-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/42b590375633-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/33050148f06f-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/e7872051bc7d-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
   "images/factory/building-crop.webp": {
     "width": 940,
     "height": 701,
