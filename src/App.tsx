@@ -39,8 +39,11 @@ function Footer({ lang }: Props) {
         <Logo lang={lang} />
         <p>{l(lang, 'Packaging that carries your brand.\nExpertise that carries your business.', '让包装承载品牌，\n让专业支持业务。')}</p>
         <div className="footer-social">
-          <a className="footer-facebook" href="https://www.facebook.com/yuanenbag" target="_blank" rel="noopener noreferrer" aria-label={tx('YUANEN on Facebook', '远恩 Facebook 主页', 'YUANEN en Facebook')[lang]}>
+          <a className="footer-social-link" href="https://www.facebook.com/yuanenbag" target="_blank" rel="noopener noreferrer" aria-label={tx('YUANEN on Facebook', '远恩 Facebook 主页', 'YUANEN en Facebook')[lang]}>
             <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M13.7 20v-7h2.4l.4-2.8h-2.8V8.5c0-.8.3-1.3 1.4-1.3h1.5V4.7c-.3 0-1.2-.1-2.2-.1-2.3 0-3.8 1.4-3.8 3.9v1.7H8V13h2.6v7h3.1Z" /></svg>
+          </a>
+          <a className="footer-social-link" href="https://www.instagram.com/yuanenbag/" target="_blank" rel="noopener noreferrer" aria-label={tx('YUANEN on Instagram', '远恩 Instagram 主页', 'YUANEN en Instagram')[lang]}>
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" strokeWidth="1.8" /><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" strokeWidth="1.8" /><circle cx="17.5" cy="6.5" r="1" /></svg>
           </a>
         </div>
       </div>
