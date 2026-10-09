@@ -1,4 +1,5 @@
 import OrderReference from './OrderReference'
+import ContentPolicy from './ContentPolicy'
 import CustomizationOrderOptions from './CustomizationOrderOptions'
 import CollectionPage, { CollectionLinks, ProductBuyingLinks } from './CollectionPage'
 import { collections, collectionFor } from './collections'
@@ -118,6 +119,7 @@ export default function App({path='/'}:{path?:string}){
   case'applications':content=<Applications lang={lang}/>;break
   case'contact':content=<section className="container page-section"><Breadcrumbs lang={lang} items={[{text:l(lang,'Enquiry','询价')}]}/><Enquiry lang={lang} bag={enquiryBag} onBagChange={setEnquiryBag}/></section>;break
   case'privacy':content=<Privacy lang={lang}/>;break
+  case'contentPolicy':content=<ContentPolicy lang={lang}/>;break
   default:content=<section className="container not-found"><span className="eyebrow">404</span><h1>{l(lang,'This page has moved out of the bag.','这个页面暂时找不到了。')}</h1><a className="button primary" href={href('/',lang)}>{l(lang,'Back to home','返回首页')}<ArrowRight size={18}/></a></section>
  }
  return <><a className="skip-link" href="#main">{l(lang,'Skip to content','跳转到正文')}</a><Header lang={lang} path={page.type==='404'?'/':page.path} enquiryBag={enquiryBag}/><main id="main"><Suspense fallback={null}>{content}</Suspense></main><Footer lang={lang}/><AnalyticsConsent lang={lang} showSettings={page.type==='privacy'}/></>
