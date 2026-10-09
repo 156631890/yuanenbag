@@ -40,6 +40,8 @@ for(const lang of ['en','zh','es']){
   }
   if(page.type==='bag') assert(visible.includes('seo-buying-links'),`Missing purchasing links: ${path}`)
   if(page.type==='guide'){
+   assert(visible.includes(`href="${prefix}/content-policy/"`),`Missing legacy guide content information link: ${path}`)
+   assert(!/AI-assisted illustration|AI 场景示意|Ilustración asistida por IA/.test(visible),`Old guide AI label: ${path}`)
    const guide=seoAudit.guides.find(g=>g.slug===page.slug)
    const article=graph.find(v=>v['@type']==='Article')
    assert.equal(article.dateModified,guide.dateModified)
