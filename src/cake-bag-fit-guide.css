@@ -1,0 +1,21 @@
+.cake-fit-guide {
+  max-width: 850px;
+}
+.cake-fit-guide p,
+.cake-fit-guide li {
+  font-size: 14px;
+  line-height: 1.8;
+}
+.cake-fit-guide ul {
+  padding-left: 22px;
+  margin: 18px 0 24px;
+}
+.cake-fit-guide li {
+  margin: 10px 0;
+}
+.cake-fit-guide a {
+  color: var(--blue);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  overflow-wrap: anywhere;
+}
