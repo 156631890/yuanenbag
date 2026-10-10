@@ -2,40 +2,98 @@
   "directionId": "NP07",
   "productId": "insulated-catering-bags",
   "approvedOn": "2026-10-10",
-  "approval": "可以发布。",
-  "scope": "Current NP07 preview, all three languages, seven v1 illustrations and ten detail sections.",
-  "imageRevision": "v1",
+  "approval": "可以发布",
+  "scope": "User approved reviewed NP07 v2 front-opening navy design, all three languages, seven v2 illustrations and ten detail sections.",
+  "imageRevision": "v2",
   "background": "#F6F6F4",
   "imageBoxRatio": 1,
   "commercialBoundary": "Custom design; trays and food are props. Fit, capacity, load and thermal performance require sample approval. No fixed stock claims.",
   "images": [
     {
-      "file": "public/images/products/standardized/insulated-catering-bags/covered-tray-v1.webp",
-      "sha256": "bafa8356df62a4da193b56d6481864795612044e41559bd82807c4cc2034c055"
+      "file": "public/images/products/standardized/insulated-catering-bags/front-loading-v2.webp",
+      "sha256": "7816fa05dfe4079ec0f0483f3d41e7bcd48f1ed2e2ce595cdbf04bd1c5a8fe5c"
     },
     {
-      "file": "public/images/products/standardized/insulated-catering-bags/catering-application-v1.webp",
-      "sha256": "9ba4f5913c53dc9f12207a8642eae036bfbc6ccf959eed22e1478e353964f7fa"
+      "file": "public/images/products/standardized/insulated-catering-bags/catering-application-v2.webp",
+      "sha256": "9c66d5701a286e07178116e8f5d9c67355b43da6a6a28c0a23f4aedb9266da67"
     },
     {
-      "file": "public/images/products/standardized/insulated-catering-bags/closed-exterior-v1.webp",
-      "sha256": "7b756ca26d58d923a84c8b5e1f3979b10376f2778dce757bbf70174f2cc2aaff"
+      "file": "public/images/products/standardized/insulated-catering-bags/closed-exterior-v2.webp",
+      "sha256": "c7156705753badcb9d69ab5185ca1486be4e56c9bc2f2d2265c4b5ef79b959df"
     },
     {
-      "file": "public/images/products/standardized/insulated-catering-bags/tray-loading-v1.webp",
-      "sha256": "3bd9c2bd6040be3b4052254753603af4f1848cd72a955dfe9a40987039870092"
+      "file": "public/images/products/standardized/insulated-catering-bags/tray-access-v2.webp",
+      "sha256": "cefe15e69ec1149a49ae399710ba8a6f02da4ad3e468e7e170dcbcc6b77c44a3"
     },
     {
-      "file": "public/images/products/standardized/insulated-catering-bags/zipper-lining-v1.webp",
-      "sha256": "e3e3ae63cb0d6e1ceeb27df7ef24aee8e5a21484bdc0a9f0563eb9c0ed75d371"
+      "file": "public/images/products/standardized/insulated-catering-bags/zipper-lining-v2.webp",
+      "sha256": "bcd143da6494212c5760b33fcf25fb910f80d86b1bd8682e92f5e5e574ab0f02"
     },
     {
-      "file": "public/images/products/standardized/insulated-catering-bags/handle-attachment-v1.webp",
-      "sha256": "4cb020aecad17f9344290dfe060c8d92a881b05cbbec49c01e2719b9dc33851a"
+      "file": "public/images/products/standardized/insulated-catering-bags/side-carry-v2.webp",
+      "sha256": "a7cc321443fffece398b98a3f7c034fee283cf64cae19d8e739bd46c82fa70af"
     },
     {
-      "file": "public/images/products/standardized/insulated-catering-bags/empty-interior-v1.webp",
-      "sha256": "250d88bff8a6c17ea9971e5a1c1f836753cc7cab326dada8feac418d36bf2382"
+      "file": "public/images/products/standardized/insulated-catering-bags/empty-interior-v2.webp",
+      "sha256": "238767050e646cd168daa2bde94ae46117331614d4fe7a50e0218595f0a093e3"
+    }
+  ],
+  "design": {
+    "palette": "深海军蓝＋黑色包边和底围",
+    "silhouette": "横向前开式箱形软包",
+    "opening": "前幅三面拉链、底边连接、向前翻下",
+    "carrying": "左右短侧提手双手水平搬运",
+    "material": "拟定织物外层＋隔热层＋银色内衬；以打样确认",
+    "relationshipToReference": "借鉴现有保温包缝制与复合结构，开口、织物和搬运结构为新的拟定方案",
+    "notClaims": [
+      "不承诺标准餐盘适配",
+      "不以图中两盘声称额定容量",
+      "无已验证承重/保温时长",
+      "不默认分隔仓或硬质货架"
+    ]
+  },
+  "visualRulesVersion": "2026-10-10-product-specific-v3",
+  "previousPublications": [
+    {
+      "directionId": "NP07",
+      "productId": "insulated-catering-bags",
+      "approvedOn": "2026-10-10",
+      "approval": "可以发布。",
+      "scope": "Current NP07 preview, all three languages, seven v1 illustrations and ten detail sections.",
+      "imageRevision": "v1",
+      "background": "#F6F6F4",
+      "imageBoxRatio": 1,
+      "commercialBoundary": "Custom design; trays and food are props. Fit, capacity, load and thermal performance require sample approval. No fixed stock claims.",
+      "images": [
+        {
+          "file": "public/images/products/standardized/insulated-catering-bags/covered-tray-v1.webp",
+          "sha256": "bafa8356df62a4da193b56d6481864795612044e41559bd82807c4cc2034c055"
+        },
+        {
+          "file": "public/images/products/standardized/insulated-catering-bags/catering-application-v1.webp",
+          "sha256": "9ba4f5913c53dc9f12207a8642eae036bfbc6ccf959eed22e1478e353964f7fa"
+        },
+        {
+          "file": "public/images/products/standardized/insulated-catering-bags/closed-exterior-v1.webp",
+          "sha256": "7b756ca26d58d923a84c8b5e1f3979b10376f2778dce757bbf70174f2cc2aaff"
+        },
+        {
+          "file": "public/images/products/standardized/insulated-catering-bags/tray-loading-v1.webp",
+          "sha256": "3bd9c2bd6040be3b4052254753603af4f1848cd72a955dfe9a40987039870092"
+        },
+        {
+          "file": "public/images/products/standardized/insulated-catering-bags/zipper-lining-v1.webp",
+          "sha256": "e3e3ae63cb0d6e1ceeb27df7ef24aee8e5a21484bdc0a9f0563eb9c0ed75d371"
+        },
+        {
+          "file": "public/images/products/standardized/insulated-catering-bags/handle-attachment-v1.webp",
+          "sha256": "4cb020aecad17f9344290dfe060c8d92a881b05cbbec49c01e2719b9dc33851a"
+        },
+        {
+          "file": "public/images/products/standardized/insulated-catering-bags/empty-interior-v1.webp",
+          "sha256": "250d88bff8a6c17ea9971e5a1c1f836753cc7cab326dada8feac418d36bf2382"
+        }
+      ]
     }
   ]
 }

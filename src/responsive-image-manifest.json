@@ -6925,240 +6925,240 @@
       }
     ]
   },
-  "images/products/standardized/insulated-catering-bags/covered-tray-v1.webp": {
+  "images/products/standardized/insulated-catering-bags/front-loading-v2.webp": {
     "width": 1200,
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/11d67d8362d7-96.webp",
+        "file": "images/responsive/af3c63e3d457-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/7fc1ca4091a6-192.webp",
+        "file": "images/responsive/5b10f1c64a8c-192.webp",
         "width": 192
       },
       {
-        "file": "images/responsive/2d12d06ace69-384.webp",
+        "file": "images/responsive/02254ea51a4d-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/994570e75242-640.webp",
+        "file": "images/responsive/49b861c9fa13-640.webp",
         "width": 640
       },
       {
-        "file": "images/responsive/6d489a809c99-768.webp",
+        "file": "images/responsive/556decf423f9-768.webp",
         "width": 768
       },
       {
-        "file": "images/responsive/8c3c73b2a08a-960.webp",
+        "file": "images/responsive/f38592780920-960.webp",
         "width": 960
       },
       {
-        "file": "images/responsive/27ec1f3d102d-1200.webp",
+        "file": "images/responsive/c96192c463f8-1200.webp",
         "width": 1200
       }
     ]
   },
-  "images/products/standardized/insulated-catering-bags/catering-application-v1.webp": {
+  "images/products/standardized/insulated-catering-bags/catering-application-v2.webp": {
     "width": 1200,
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/e9bc3316c013-96.webp",
+        "file": "images/responsive/c197ef6e17fe-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/0a6cf3a74c96-192.webp",
+        "file": "images/responsive/53ae66dab70c-192.webp",
         "width": 192
       },
       {
-        "file": "images/responsive/f91c86cb1e29-384.webp",
+        "file": "images/responsive/da692e034612-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/7869924155dc-640.webp",
+        "file": "images/responsive/8461c0d65706-640.webp",
         "width": 640
       },
       {
-        "file": "images/responsive/316219caf974-768.webp",
+        "file": "images/responsive/f4d515375f4a-768.webp",
         "width": 768
       },
       {
-        "file": "images/responsive/bcf02edb5456-960.webp",
+        "file": "images/responsive/5aa70e0e6235-960.webp",
         "width": 960
       },
       {
-        "file": "images/responsive/5134dd63a0cf-1200.webp",
+        "file": "images/responsive/d30432f92c0c-1200.webp",
         "width": 1200
       }
     ]
   },
-  "images/products/standardized/insulated-catering-bags/closed-exterior-v1.webp": {
+  "images/products/standardized/insulated-catering-bags/closed-exterior-v2.webp": {
     "width": 1200,
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/09c64e67d4c0-96.webp",
+        "file": "images/responsive/98ed8d06027b-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/1fac0e4a7447-192.webp",
+        "file": "images/responsive/679423c703b8-192.webp",
         "width": 192
       },
       {
-        "file": "images/responsive/1966d7011c1e-384.webp",
+        "file": "images/responsive/f35a86b406dd-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/5dedabc40a8e-640.webp",
+        "file": "images/responsive/2fbda8ac1392-640.webp",
         "width": 640
       },
       {
-        "file": "images/responsive/5809527d0bac-768.webp",
+        "file": "images/responsive/d63afac43e6f-768.webp",
         "width": 768
       },
       {
-        "file": "images/responsive/983d0f0970b8-960.webp",
+        "file": "images/responsive/9ad2caa3e89d-960.webp",
         "width": 960
       },
       {
-        "file": "images/responsive/ad9b13082912-1200.webp",
+        "file": "images/responsive/43aa01e01402-1200.webp",
         "width": 1200
       }
     ]
   },
-  "images/products/standardized/insulated-catering-bags/tray-loading-v1.webp": {
+  "images/products/standardized/insulated-catering-bags/tray-access-v2.webp": {
     "width": 1200,
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/afea0e6cb6d9-96.webp",
+        "file": "images/responsive/d0d86dc1d625-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/ccd354b76291-192.webp",
+        "file": "images/responsive/90aa558c767d-192.webp",
         "width": 192
       },
       {
-        "file": "images/responsive/9c13b7bf0aa0-384.webp",
+        "file": "images/responsive/3e71bdbec158-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/1d655269bdf4-640.webp",
+        "file": "images/responsive/a8b085c213ed-640.webp",
         "width": 640
       },
       {
-        "file": "images/responsive/cdd95f55f8a4-768.webp",
+        "file": "images/responsive/f1009be41adf-768.webp",
         "width": 768
       },
       {
-        "file": "images/responsive/50379058f55f-960.webp",
+        "file": "images/responsive/dc626ce8a063-960.webp",
         "width": 960
       },
       {
-        "file": "images/responsive/c194ab22ce61-1200.webp",
+        "file": "images/responsive/853495d2f040-1200.webp",
         "width": 1200
       }
     ]
   },
-  "images/products/standardized/insulated-catering-bags/zipper-lining-v1.webp": {
+  "images/products/standardized/insulated-catering-bags/zipper-lining-v2.webp": {
     "width": 1200,
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/c888fe322481-96.webp",
+        "file": "images/responsive/313d7c8c1151-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/b754b12ddb0f-192.webp",
+        "file": "images/responsive/a08d4757b2e5-192.webp",
         "width": 192
       },
       {
-        "file": "images/responsive/6d7525ba19a6-384.webp",
+        "file": "images/responsive/14eb772704fa-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/d51cf6ad2e24-640.webp",
+        "file": "images/responsive/837005487646-640.webp",
         "width": 640
       },
       {
-        "file": "images/responsive/c44f8cc9e7cf-768.webp",
+        "file": "images/responsive/32700e130267-768.webp",
         "width": 768
       },
       {
-        "file": "images/responsive/87baeaaa02e7-960.webp",
+        "file": "images/responsive/f684fa3e90a2-960.webp",
         "width": 960
       },
       {
-        "file": "images/responsive/aecde18d7cc4-1200.webp",
+        "file": "images/responsive/db6749e3ec1a-1200.webp",
         "width": 1200
       }
     ]
   },
-  "images/products/standardized/insulated-catering-bags/handle-attachment-v1.webp": {
+  "images/products/standardized/insulated-catering-bags/side-carry-v2.webp": {
     "width": 1200,
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/c90479b160c9-96.webp",
+        "file": "images/responsive/0ee22d900fca-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/5f8f3e436498-192.webp",
+        "file": "images/responsive/e11296c1e0c4-192.webp",
         "width": 192
       },
       {
-        "file": "images/responsive/bd53255b8ce3-384.webp",
+        "file": "images/responsive/591ed2a1d874-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/3734d6ca0e8a-640.webp",
+        "file": "images/responsive/5570d3f4a62f-640.webp",
         "width": 640
       },
       {
-        "file": "images/responsive/05198e53bcef-768.webp",
+        "file": "images/responsive/11908dce6b5c-768.webp",
         "width": 768
       },
       {
-        "file": "images/responsive/3dcd01e6fab1-960.webp",
+        "file": "images/responsive/ba4cb6b6e091-960.webp",
         "width": 960
       },
       {
-        "file": "images/responsive/578f01a0d529-1200.webp",
+        "file": "images/responsive/d25852d95d50-1200.webp",
         "width": 1200
       }
     ]
   },
-  "images/products/standardized/insulated-catering-bags/empty-interior-v1.webp": {
+  "images/products/standardized/insulated-catering-bags/empty-interior-v2.webp": {
     "width": 1200,
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/5b5d3b1e9e16-96.webp",
+        "file": "images/responsive/6edddce3945d-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/7a860d30f590-192.webp",
+        "file": "images/responsive/8130321b3d8b-192.webp",
         "width": 192
       },
       {
-        "file": "images/responsive/04c653c2fa87-384.webp",
+        "file": "images/responsive/4d60bdbe74b9-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/f15abab1f5dd-640.webp",
+        "file": "images/responsive/43884c93bfc1-640.webp",
         "width": 640
       },
       {
-        "file": "images/responsive/4fdce3894023-768.webp",
+        "file": "images/responsive/34d07a5ebc30-768.webp",
         "width": 768
       },
       {
-        "file": "images/responsive/eaf7750c9dae-960.webp",
+        "file": "images/responsive/86b4bd132e47-960.webp",
         "width": 960
       },
       {
-        "file": "images/responsive/f5d46c7bb58f-1200.webp",
+        "file": "images/responsive/5eb071e415ba-1200.webp",
         "width": 1200
       }
     ]

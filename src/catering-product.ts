@@ -2,7 +2,7 @@ import type { Bag } from './data'
 import type { ProductImage } from './product-media'
 export const cateringBag:Bag = {
   "group": "delivery",
-  "color": "#b84032",
+  "color": "#26364f",
   "type": "cooler",
   "category": "cooler",
   "styles": [
@@ -23,14 +23,14 @@ export const cateringBag:Bag = {
     "es": "Bolsa para bandejas de catering"
   },
   "intro": {
-    "en": "A taller, top-opening insulated bag planned around lidded catering trays. Specify tray rims, loaded height and handling clearance, then confirm the carrying arrangement with a sample.",
-    "zh": "围绕带盖餐盘设计较高的翻盖保温包，适用于团餐、宴会备餐与餐饮配送。按盘沿、装载高度和取放空间确定规格，样品确认提携与闭合效果。",
-    "es": "Bolsa térmica alta con apertura superior, diseñada según las bandejas de catering con tapa. Defina bordes, altura cargada y holgura de acceso y confirme el transporte con una muestra."
+    "en": "A proposed navy, front-opening insulated carrier for lidded catering trays. The front panel folds down for level access, while short side grips support two-handed handling. Confirm tray clearance, base support and carrying loads with a sample.",
+    "zh": "面向带盖餐盘的深蓝色前开式保温配送方案。前幅向下展开，方便餐盘水平装取；两侧短提手用于双手搬运。开口余量、底部支撑和提携负载均需通过样品确认。",
+    "es": "Propuesta de bolsa térmica azul marino con apertura frontal para bandejas con tapa. El panel se abate para acceder en horizontal y las asas laterales permiten sujetarla con ambas manos. Confirme holguras, base y carga con una muestra."
   },
   "material": {
-    "en": "Proposed outer fabric + EPE insulation + foil-facing liner; specification by sample",
-    "zh": "拟定外层面料 + EPE + 铝箔面内衬，规格按样品确认",
-    "es": "Tejido exterior propuesto + EPE + forro aluminizado; especificación según muestra"
+    "en": "Proposed woven outer fabric + insulation + silver liner; specification by sample",
+    "zh": "拟定织物外层 + 隔热层 + 银色内衬，规格按样品确认",
+    "es": "Tejido exterior propuesto + aislamiento + forro plateado; confirmar muestra"
   },
   "use": {
     "en": "Catering teams · event meal service · prepared-food delivery",
@@ -71,28 +71,28 @@ export const cateringBag:Bag = {
     "zh": "餐盘配送保温包定制方案 | 远恩",
     "es": "Bolsas térmicas de catering | YUANEN"
   },
-  "image": "insulated-catering-bags/covered-tray-v1.webp",
+  "image": "insulated-catering-bags/front-loading-v2.webp",
   "gallery": [
-    "insulated-catering-bags/catering-application-v1.webp",
-    "insulated-catering-bags/closed-exterior-v1.webp",
-    "insulated-catering-bags/tray-loading-v1.webp",
-    "insulated-catering-bags/zipper-lining-v1.webp",
-    "insulated-catering-bags/handle-attachment-v1.webp",
-    "insulated-catering-bags/empty-interior-v1.webp"
+    "insulated-catering-bags/catering-application-v2.webp",
+    "insulated-catering-bags/closed-exterior-v2.webp",
+    "insulated-catering-bags/tray-access-v2.webp",
+    "insulated-catering-bags/zipper-lining-v2.webp",
+    "insulated-catering-bags/side-carry-v2.webp",
+    "insulated-catering-bags/empty-interior-v2.webp"
   ]
 }
 export const cateringImages:ProductImage[] = [
   {
-    "file": "insulated-catering-bags/covered-tray-v1.webp",
+    "file": "insulated-catering-bags/front-loading-v2.webp",
     "kind": "visualization",
     "label": {
-      "en": "Covered tray loading",
-      "zh": "带盖餐盘装载",
-      "es": "Bandeja con tapa"
+      "en": "Front-opening tray loading",
+      "zh": "前开式餐盘装载",
+      "es": "Carga por apertura frontal"
     }
   },
   {
-    "file": "insulated-catering-bags/catering-application-v1.webp",
+    "file": "insulated-catering-bags/catering-application-v2.webp",
     "kind": "visualization",
     "label": {
       "en": "Catering application",
@@ -101,7 +101,7 @@ export const cateringImages:ProductImage[] = [
     }
   },
   {
-    "file": "insulated-catering-bags/closed-exterior-v1.webp",
+    "file": "insulated-catering-bags/closed-exterior-v2.webp",
     "kind": "visualization",
     "label": {
       "en": "Closed exterior",
@@ -110,7 +110,7 @@ export const cateringImages:ProductImage[] = [
     }
   },
   {
-    "file": "insulated-catering-bags/tray-loading-v1.webp",
+    "file": "insulated-catering-bags/tray-access-v2.webp",
     "kind": "visualization",
     "label": {
       "en": "Level tray access",
@@ -119,7 +119,7 @@ export const cateringImages:ProductImage[] = [
     }
   },
   {
-    "file": "insulated-catering-bags/zipper-lining-v1.webp",
+    "file": "insulated-catering-bags/zipper-lining-v2.webp",
     "kind": "visualization",
     "label": {
       "en": "Zipper & lining",
@@ -128,16 +128,16 @@ export const cateringImages:ProductImage[] = [
     }
   },
   {
-    "file": "insulated-catering-bags/handle-attachment-v1.webp",
+    "file": "insulated-catering-bags/side-carry-v2.webp",
     "kind": "visualization",
     "label": {
-      "en": "Handle attachment",
-      "zh": "提手固定",
-      "es": "Fijación de asas"
+      "en": "Two-handed side carrying",
+      "zh": "两侧提手搬运",
+      "es": "Transporte con ambas manos"
     }
   },
   {
-    "file": "insulated-catering-bags/empty-interior-v1.webp",
+    "file": "insulated-catering-bags/empty-interior-v2.webp",
     "kind": "visualization",
     "label": {
       "en": "Empty interior",

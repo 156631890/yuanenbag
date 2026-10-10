@@ -100,8 +100,8 @@ for (const file of files) {
     assert(product,`Missing product schema: ${relative}`)
     if(ownProduct.collection==='custom-designs-2026') {
       if(ownProduct.slug==='insulated-catering-bags'){
-        const views=["covered-tray","catering-application","closed-exterior","tray-loading","zipper-lining","handle-attachment","empty-interior"]
-        assert.deepEqual(product.image.map(url=>new URL(url).pathname),views.map(v=>'/images/products/standardized/insulated-catering-bags/'+v+'-v1.webp'),'Approved catering gallery and order')
+        const views=["front-loading","catering-application","closed-exterior","tray-access","zipper-lining","side-carry","empty-interior"]
+        assert.deepEqual(product.image.map(url=>new URL(url).pathname),views.map(v=>'/images/products/standardized/insulated-catering-bags/'+v+'-v2.webp'),'Approved catering gallery and order')
         for(const id of ['applications','materials','features','order-quantities','pricing','delivery','dimensions','export','catering-tray-fit','catering-questions']) assert(html.includes('id="'+id+'"'),'Missing catering section '+id)
         assert(html.includes('?bag=insulated-catering-bags'),'Catering-specific enquiry required')
         assert(/AI-assisted|AI 辅助|asistida por IA/.test(html),'Catering AI disclosure')
