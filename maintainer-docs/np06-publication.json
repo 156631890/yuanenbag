@@ -7,8 +7,9 @@
   "imageSource": "Approved NP06 v3 AI-assisted illustrations; no photographs or tested performance claims.",
   "imageRevision": "v3",
   "composition": {
-    "galleryImageBoxRatio": 0.86,
-    "bodyPadding": "7%"
+    "galleryImageBoxRatio": 1,
+    "bodyPadding": "0",
+    "correction": "Use the existing catalog image frame. Preserve whitespace within the artwork instead of exposing a contrasting CSS border around it. Corrected after user feedback on 2026-10-10."
   },
   "commercialBoundary": "Custom design; dimensions, capacity, materials, MOQ, price and lead time confirmed by sample and quotation. Passive insulation, no electric heating or fixed retention claim.",
   "images": [
