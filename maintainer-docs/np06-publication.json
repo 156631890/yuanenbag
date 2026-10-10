@@ -1,0 +1,44 @@
+{
+  "productId": "insulated-pizza-delivery-bags",
+  "directionId": "NP06",
+  "approvedOn": "2026-10-10",
+  "approvalScope": "User explicitly approved publication of the reviewed NP06 product only.",
+  "referenceProduct": "wide-base-meal-cooler",
+  "imageSource": "Approved NP06 v3 AI-assisted illustrations; no photographs or tested performance claims.",
+  "imageRevision": "v3",
+  "composition": {
+    "galleryImageBoxRatio": 0.86,
+    "bodyPadding": "7%"
+  },
+  "commercialBoundary": "Custom design; dimensions, capacity, materials, MOQ, price and lead time confirmed by sample and quotation. Passive insulation, no electric heating or fixed retention claim.",
+  "images": [
+    {
+      "file": "public/images/products/standardized/insulated-pizza-delivery-bags/base-seams.webp",
+      "sha256": "aca2e5696483be65aebb59028e3460b42d905539ac7bbd0b29f999a76b8e58bb"
+    },
+    {
+      "file": "public/images/products/standardized/insulated-pizza-delivery-bags/closed-exterior.webp",
+      "sha256": "6ff11b14d62ce87bcf29d8c86abbd50615d6f9f23ecc0483d1d7253b0c97d6d5"
+    },
+    {
+      "file": "public/images/products/standardized/insulated-pizza-delivery-bags/hand-carry.webp",
+      "sha256": "80221d7e5ee9880d2a1752a87f33cf3d92d532351711fcd30483ca743668fb91"
+    },
+    {
+      "file": "public/images/products/standardized/insulated-pizza-delivery-bags/handle-attachment.webp",
+      "sha256": "4e66e225f92007a7685d9356d620048a33e19f4593802c20bb376ead78c93d9b"
+    },
+    {
+      "file": "public/images/products/standardized/insulated-pizza-delivery-bags/open-bag-boxes.webp",
+      "sha256": "58344a08ba9b6199954b393330291641d619a5ea5b85cfb214af7051ac5fc6d3"
+    },
+    {
+      "file": "public/images/products/standardized/insulated-pizza-delivery-bags/pizza-takeaway.webp",
+      "sha256": "7ea346c9482db1fb56bd79b134d7711bafeb05f01f5b8292ad5e27ad6f26ce25"
+    },
+    {
+      "file": "public/images/products/standardized/insulated-pizza-delivery-bags/zipper-lining.webp",
+      "sha256": "2bb824b1f30c91dc0b00ec85218de9e4b2ada21cee509d54f7dde299c76b740e"
+    }
+  ]
+}

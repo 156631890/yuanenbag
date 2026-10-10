@@ -1,14 +1,16 @@
+import { pizzaDeliveryBag, pizzaDeliveryImages, pizzaDeliverySectionImages } from './pizza-delivery-product'
 import sizes from './product-image-sizes.json'
 import standardized from './standardized-product-images.json'
-import { tx, type Bag, type Lang } from './data'
+import { tx, type Bag, type Lang, type Text } from './data'
 import { samplePhotoGalleries, sampleSectionPhotos } from './photographed-products'
 import { foilMeasurementImages } from './foil-photo-products'
 
-export type ProductImage = { file: string; kind: 'measurement' | 'photograph' | 'scene' | 'detail' | 'reference' | 'visualization' | 'application' | 'material' | 'structure' }
+export type ProductImage = { file: string; label?: Text; kind: 'measurement' | 'photograph' | 'scene' | 'detail' | 'reference' | 'visualization' | 'application' | 'material' | 'structure' }
 export const isMeasurementPhoto=(file:string)=>foilMeasurementImages.includes(file)
 const sampleImage=(file:string):ProductImage=>({file,kind:isMeasurementPhoto(file)?'measurement':'photograph'})
 // Accepted product visualizations go here after comparison with the catalog source.
 export const productPresentations: Record<string, string> = {
+  [pizzaDeliveryBag.slug]: pizzaDeliveryImages[0].file,
   "gusseted-foil-cake-bags": "packy/gusseted-foil-cake-bags-new/01.webp",
   "hand-finished-gusseted-foil-bags": "packy/hand-finished-gusseted-foil-bags-new/01.webp",
   "machine-formed-gusseted-foil-bags": "packy/machine-formed-gusseted-foil-bags-new/01.webp",
@@ -29,6 +31,7 @@ export const productPresentations: Record<string, string> = {
 }
 const detailImages = new Set(['404','405','407','446','449','450','451','495','496','497','498','534','538','539','540','541'])
 export function productImages(bag: Bag): ProductImage[] {
+  if (bag.slug === pizzaDeliveryBag.slug) return pizzaDeliveryImages
   if (bag.slug==='double-film-self-absorbing-ice-packs') return [
     {file: productPresentations[bag.slug], kind: 'visualization'},
     {file: 'packy/double-film-self-absorbing-ice-packs-secondary.webp', kind: 'photograph'},
@@ -149,6 +152,7 @@ export function productImages(bag: Bag): ProductImage[] {
   return images
 }
 export function productDetailImage(slug: string, kind: 'application' | 'detail' | 'structure') {
+  if (slug === pizzaDeliveryBag.slug) return pizzaDeliverySectionImages[kind]
   if (sampleSectionPhotos[slug]) return sampleSectionPhotos[slug][kind]
   return `packy/details-v2/${slug}-${kind}-v2.webp`
 }

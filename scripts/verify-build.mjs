@@ -35,7 +35,8 @@ const addedGalleryCounts={'square-zipper-cake-cooler':6,'water-fill-ice-packs':5
 const photoProducts=catalogAudit.bags.filter(b=>b.collection==='yuanen-photos-2026')
 assert.equal(catalogAudit.bags.filter(b=>b.collection==='yuanen-2026').length,24,'Retain the original cold-chain catalog plus the cooler variants')
 assert.deepEqual(photoProducts.map(b=>b.slug).sort(),['compact-insulated-lunch-bags','double-film-self-absorbing-ice-packs','foil-insulated-box-liners','gold-trim-insulated-cake-bags','gusseted-self-seal-foil-bags','side-absorbing-ice-packs'])
-assert(catalogAudit.bags.every(b=>['yuanen-2026','yuanen-photos-2026'].includes(b.collection)),'Unselected category published')
+assert.deepEqual(catalogAudit.bags.filter(b=>b.collection==='custom-designs-2026').map(b=>b.slug),['insulated-pizza-delivery-bags'],'Only the approved pizza design may publish')
+assert(catalogAudit.bags.every(b=>['yuanen-2026','yuanen-photos-2026','custom-designs-2026'].includes(b.collection)),'Unselected category published')
 assert.equal(photoImport.files.filter(f=>f.selected).length,20,'Expected curated sample photographs')
 assert.equal(icePhotoImport.files.filter(f=>f.selected).length,14,'Expected curated ice-pack photographs')
 assert.equal(foilPhotoImport.files.filter(f=>f.selected).length,8,'Expected curated foil-packaging photographs')
@@ -65,9 +66,9 @@ for (const [slug,profile] of Object.entries(commercialProfiles)) {
 for (const bag of catalogAudit.bags) {
   if (bag.collection) {
     if(bag.collection==='yuanen-2026') assert(bag.catalogPage>=6 && bag.catalogPage<=10,`Missing catalog source: ${bag.slug}`)
-    else for(const file of [bag.image,...bag.gallery]) assert(photoSources.some(f=>f.selected&&f.output===file),`Missing original photo provenance: ${file}`)
+    else if(bag.collection==='yuanen-photos-2026') for(const file of [bag.image,...bag.gallery]) assert(photoSources.some(f=>f.selected&&f.output===file),`Missing original photo provenance: ${file}`)
     assert(!bag.source,`Own catalog product cannot carry third-party reference attribution: ${bag.slug}`)
-    for (const file of [bag.image,...bag.gallery]) await access(join(root,'images/products',file))
+    for (const file of [bag.image,...bag.gallery]) await access(join(root,'images/products',bag.collection==='custom-designs-2026'?standardizedImages[file]:file))
   }
   assert(catalogAudit.materialCategories.some(([id])=>id===bag.category),`Invalid category ${bag.slug}`)
   for (const [field,options] of [['styles',catalogAudit.styleOptions],['uses',catalogAudit.usageOptions]]) for (const value of bag[field]) assert(options.some(([id])=>id===value),`Invalid ${field} ${value}`)
@@ -97,7 +98,14 @@ for (const file of files) {
   if (ownProduct) {
     const product = JSON.parse(json)['@graph'].find(item=>item['@type']==='Product')
     assert(product,`Missing product schema: ${relative}`)
-    if(ownProduct.collection==='yuanen-photos-2026') {
+    if(ownProduct.collection==='custom-designs-2026') {
+      const views=['open-bag-boxes','pizza-takeaway','closed-exterior','hand-carry','zipper-lining','handle-attachment','base-seams']
+      assert.deepEqual(product.image.map(url=>new URL(url).pathname),views.map(view=>'/images/products/standardized/insulated-pizza-delivery-bags/'+view+'.webp'),'Approved pizza design gallery and order')
+      assert(/AI-assisted|AI 辅助|asistida por IA/.test(html),'Custom design illustrations must be disclosed')
+      for(const id of ['applications','materials','features','order-quantities','pricing','delivery','dimensions','export']) assert(html.includes('id="'+id+'"'),'Missing pizza buyer section '+id)
+      assert(html.includes('?bag=insulated-pizza-delivery-bags'),'Pizza-specific enquiry required')
+      assert(!html.includes('/review/product-batch/'),'Draft review links must not publish')
+    } else if(ownProduct.collection==='yuanen-photos-2026') {
       if (ownProduct.slug==='double-film-self-absorbing-ice-packs') {
         assert.equal(product.image.length,4,`Incomplete double-film gallery: ${relative}`)
         assert(product.image[0].endsWith('/packy/double-film-self-absorbing-ice-packs-main.webp'),`Incorrect double-film main image: ${relative}`)

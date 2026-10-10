@@ -17,3 +17,9 @@
 
 /* Standardized exports already include the catalogue's 10% subject margin. */
 .bag-visual:has(.product-reference){padding:0;background:#f6f6f4}.bag-visual .product-reference,.collection-image .product-reference{width:100%;height:100%;object-fit:contain;mix-blend-mode:normal}.collection-image{background:#f6f6f4}
+
+/* Keep the approved pizza-bag composition comfortably inside its frame. */
+.product-gallery:has(img[src*="/insulated-pizza-delivery-bags/"]) .gallery-main>img{width:86%;height:86%;max-width:86%;max-height:86%;object-fit:contain}
+.product-gallery:has(img[src*="/insulated-pizza-delivery-bags/"]) .gallery-thumbnails button{padding:6px}
+.product-gallery:has(img[src*="/insulated-pizza-delivery-bags/"]) .lightbox-stage{padding:clamp(24px,5vw,56px)}
+.product-editorial-figure>img[src*="/insulated-pizza-delivery-bags/"]{padding:7%;box-sizing:border-box}
