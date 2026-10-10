@@ -1,0 +1,68 @@
+{
+  "en": {
+    "sections": [
+      {
+        "title": "Include rims, lids and handling space",
+        "body": "Measure the tray at its widest rim, including the lid. Decide whether trays sit side by side or in a stack, then check the loaded layout against usable bag dimensions and the opening. Nominal tray names are not enough for a fit check."
+      },
+      {
+        "title": "Review the loaded construction",
+        "body": "The reference delivery bag combines a non-woven exterior, EPE insulation, foil lining and a zipper. Review base support and handle balance with the intended load. Dividers, reinforcing panels or additional handles require a separate design decision."
+      },
+      {
+        "title": "Plan access and cleaning",
+        "body": "Describe how trays enter and leave the bag during service. Check access without forcing the lid or tilting the tray. Agree the cleaning method for the selected lining and seams; the lining material alone does not establish that the complete bag is leakproof."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Are compartments included?",
+        "answer": "No compartment layout is specified in this proposal. If the order needs separators, agree their purpose, dimensions and attachment during the design review."
+      }
+    ]
+  },
+  "zh": {
+    "sections": [
+      {
+        "title": "把盘沿、盖子和取放空间算进去",
+        "body": "测量餐盘最宽的盘沿和盖子，明确并排或叠放方式，再按袋体可用尺寸和开口核对整组装载。仅提供餐盘名称或标称尺寸，不能代替实际适配检查。"
+      },
+      {
+        "title": "按实际装载检查结构",
+        "body": "参考配送包为无纺布外层、EPE隔热层、铝箔内衬和拉链结构。按预期装载检查底部支撑和提手平衡；隔板、加固片或附加提手属于需单独确定的设计项。"
+      },
+      {
+        "title": "规划取餐与清洁方式",
+        "body": "按配送服务流程说明餐盘如何放入和取出，检查是否会挤压盘盖或迫使餐盘倾斜。清洁方式应与选定内衬及接缝相匹配，不能仅凭内衬材料就认定整袋防漏。"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "默认带有分隔仓吗？",
+        "answer": "本方案未默认配置分隔仓。需要隔板时，在设计确认中明确用途、尺寸及固定方式。"
+      }
+    ]
+  },
+  "es": {
+    "sections": [
+      {
+        "title": "Incluya bordes, tapas y espacio de manipulación",
+        "body": "Mida el borde más ancho de la bandeja y su tapa. Defina si las bandejas irán juntas o apiladas y compare la carga con las medidas útiles y la apertura. El nombre nominal de la bandeja no basta para comprobar el ajuste."
+      },
+      {
+        "title": "Revise la estructura con carga",
+        "body": "La bolsa de referencia combina exterior no tejido, aislamiento EPE, forro de aluminio y cremallera. Revise base y equilibrio de asas con la carga prevista. Separadores, paneles de refuerzo o asas adicionales requieren una decisión de diseño específica."
+      },
+      {
+        "title": "Planifique acceso y limpieza",
+        "body": "Describa la entrada y salida de las bandejas durante el servicio. Compruebe el acceso sin forzar la tapa ni inclinar la bandeja. Acuerde la limpieza según forro y costuras; el material del forro no garantiza por sí solo una bolsa estanca."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Incluye compartimentos?",
+        "answer": "Esta propuesta no define compartimentos. Si necesita separadores, acuerde su función, medidas y fijación durante la revisión del diseño."
+      }
+    ]
+  }
+}

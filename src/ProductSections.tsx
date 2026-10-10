@@ -1,3 +1,4 @@
+import CateringDetails from './CateringDetails'
 import { ArrowUpRight, Package, Layers3, Snowflake, Ruler, FileText, Clock3 } from 'lucide-react'
 import { tx, type Bag, type Lang } from './data'
 import { href } from './routes'
@@ -51,5 +52,6 @@ export default function ProductSections({bag,lang}:{bag:Bag;lang:Lang}){
  [t('Material & product specification','材质与产品规格资料','Especificación de material y producto'),t('Layer composition, dimensions and approved sample reference','复合层成分、尺寸与确认样品编号','Composición, medidas y referencia de muestra')],
  [t('Applicable test documentation','适用检测资料','Documentación de ensayos aplicable'),t('Match the report scope to the material, intended use and destination','按材料、用途与目的地核对报告范围','Verificar alcance según material, uso y destino')],
  [t('Coolant information, where applicable','冰源资料（适用时）','Información del refrigerante, si corresponde'),t('Composition, handling and relevant safety documentation','成分、操作说明及相关安全文件','Composición, manipulación y documentación de seguridad')]].map(([title,body])=><div key={title}><FileText size={24}/><h3>{title}</h3><p>{body}</p><span>{t('Confirm for your order','按订单核对提供','Confirmar para su pedido')}</span></div>)}</div><DocumentationLink lang={lang}/><a className="text-link" href={contact}>{t('Discuss your export requirements','沟通出口资料要求','Consultar requisitos de exportación')}<ArrowUpRight size={17}/></a></section>
+ {bag.slug==='insulated-catering-bags'&&<CateringDetails lang={lang}/>}
  </div>
 }

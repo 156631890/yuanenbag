@@ -33,15 +33,17 @@ for (const path of [...paths, ...notFoundPaths]) {
   const target = isNotFound ? resolve('dist', `.${relative.replace(/404\/$/,'404.html')}`) : resolve('dist', `.${relative}`, 'index.html')
   await mkdir(dirname(target), {recursive:true})
   const preloadFiles = new Set()
+  const preloadStyles = new Set()
   function preloadModule(key) {
     const module = clientManifest[key]
     if (!module) throw new Error(`Missing client module: ${key}`)
     if (preloadFiles.has(module.file)) return
     preloadFiles.add(module.file)
+    for (const file of module.css || []) preloadStyles.add(file)
     for (const dependency of module.imports || []) preloadModule(dependency)
   }
   for (const key of result.clientModules) preloadModule(key)
-  const modulePreloads = [...preloadFiles].map(file=>`\n    <link rel="modulepreload" crossorigin href="${base}/${file}" />`).join('')
+  const modulePreloads = [...preloadFiles].map(file=>`\n    <link rel="modulepreload" crossorigin href="${base}/${file}" />`).join('') + [...preloadStyles].map(file=>`\n    <link rel="stylesheet" href="${base}/${file}" />`).join('')
   const html = template.replace('lang="en"', `lang="${result.lang}"`).replace('<!--page-head-->', result.head + modulePreloads + (!isNotFound && measurementId ? `\n    <meta name="ga4-measurement-id" content="${measurementId}" />` : '')).replace('<!--app-html-->', result.html)
   await writeFile(target, await criticalStyles.process(html))
   if (!isNotFound) urls.push(result.url)

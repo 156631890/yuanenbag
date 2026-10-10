@@ -35,7 +35,7 @@ const addedGalleryCounts={'square-zipper-cake-cooler':6,'water-fill-ice-packs':5
 const photoProducts=catalogAudit.bags.filter(b=>b.collection==='yuanen-photos-2026')
 assert.equal(catalogAudit.bags.filter(b=>b.collection==='yuanen-2026').length,24,'Retain the original cold-chain catalog plus the cooler variants')
 assert.deepEqual(photoProducts.map(b=>b.slug).sort(),['compact-insulated-lunch-bags','double-film-self-absorbing-ice-packs','foil-insulated-box-liners','gold-trim-insulated-cake-bags','gusseted-self-seal-foil-bags','side-absorbing-ice-packs'])
-assert.deepEqual(catalogAudit.bags.filter(b=>b.collection==='custom-designs-2026').map(b=>b.slug),['insulated-pizza-delivery-bags'],'Only the approved pizza design may publish')
+assert.deepEqual(catalogAudit.bags.filter(b=>b.collection==='custom-designs-2026').map(b=>b.slug),['insulated-pizza-delivery-bags','insulated-catering-bags'],'Only the two user-approved custom designs may publish')
 assert(catalogAudit.bags.every(b=>['yuanen-2026','yuanen-photos-2026','custom-designs-2026'].includes(b.collection)),'Unselected category published')
 assert.equal(photoImport.files.filter(f=>f.selected).length,20,'Expected curated sample photographs')
 assert.equal(icePhotoImport.files.filter(f=>f.selected).length,14,'Expected curated ice-pack photographs')
@@ -99,12 +99,21 @@ for (const file of files) {
     const product = JSON.parse(json)['@graph'].find(item=>item['@type']==='Product')
     assert(product,`Missing product schema: ${relative}`)
     if(ownProduct.collection==='custom-designs-2026') {
+      if(ownProduct.slug==='insulated-catering-bags'){
+        const views=["covered-tray","catering-application","closed-exterior","tray-loading","zipper-lining","handle-attachment","empty-interior"]
+        assert.deepEqual(product.image.map(url=>new URL(url).pathname),views.map(v=>'/images/products/standardized/insulated-catering-bags/'+v+'-v1.webp'),'Approved catering gallery and order')
+        for(const id of ['applications','materials','features','order-quantities','pricing','delivery','dimensions','export','catering-tray-fit','catering-questions']) assert(html.includes('id="'+id+'"'),'Missing catering section '+id)
+        assert(html.includes('?bag=insulated-catering-bags'),'Catering-specific enquiry required')
+        assert(/AI-assisted|AI 辅助|asistida por IA/.test(html),'Catering AI disclosure')
+        assert(!html.includes('/review/product-batch/'),'No preview links in catering page')
+      }else{
       const views=['open-bag-boxes','pizza-takeaway','closed-exterior','hand-carry','zipper-lining','handle-attachment','base-seams']
       assert.deepEqual(product.image.map(url=>new URL(url).pathname),views.map(view=>'/images/products/standardized/insulated-pizza-delivery-bags/'+view+'-bg-v4.webp'),'Approved pizza design gallery and order')
       assert(/AI-assisted|AI 辅助|asistida por IA/.test(html),'Custom design illustrations must be disclosed')
       for(const id of ['applications','materials','features','order-quantities','pricing','delivery','dimensions','export']) assert(html.includes('id="'+id+'"'),'Missing pizza buyer section '+id)
       assert(html.includes('?bag=insulated-pizza-delivery-bags'),'Pizza-specific enquiry required')
       assert(!html.includes('/review/product-batch/'),'Draft review links must not publish')
+      }
     } else if(ownProduct.collection==='yuanen-photos-2026') {
       if (ownProduct.slug==='double-film-self-absorbing-ice-packs') {
         assert.equal(product.image.length,4,`Incomplete double-film gallery: ${relative}`)
