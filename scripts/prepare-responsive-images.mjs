@@ -42,6 +42,7 @@ const sources = [...new Set([
   'images/editorial/2026-10-08/frozen-food-bag-packing-checks.webp',
   'images/editorial/2026-10-08/cold-chain-equipment-vs-handoff-packaging.webp',
   'images/editorial/2026-10-09/self-seal-foil-pouches.webp',
+  'images/editorial/2026-10-10/insulated-packaging-carton-workbench.webp',
   ...Object.values(crops).map(crop => crop.file),
   ...Object.values(standardized).map(file => `images/products/${file}`),
 ].map(source => standardized[source.replace(/^images\/products\//, '')] ? `images/products/${standardized[source.replace(/^images\/products\//, '')]}` : source))]

@@ -1165,6 +1165,40 @@
       }
     ]
   },
+  "images/editorial/2026-10-10/insulated-packaging-carton-workbench.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/7d5c53f01c3c-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/2aa4d84ce5b3-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/e03c84b25371-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/76c2bef04381-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/5cc7060aac87-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/552f7bf87423-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/389f19ce45ed-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
   "images/factory/building-crop.webp": {
     "width": 940,
     "height": 701,

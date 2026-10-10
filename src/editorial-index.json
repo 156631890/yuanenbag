@@ -1,5 +1,34 @@
 [
   {
+    "kind": "industry",
+    "slug": "eu-packaging-rules-insulated-bag-buyers",
+    "publishedAt": "2026-10-10",
+    "title": {
+      "en": "EU Packaging Rules: What Insulated Bag Buyers Should Request",
+      "zh": "欧盟包装新规：保温包装采购需要核对哪些资料",
+      "es": "Normas de envases de la UE: qué solicitar al comprar embalaje térmico"
+    },
+    "description": {
+      "en": "EU packaging rules began applying on 12 August 2026. Request a layer-by-layer specification for insulated liners and carriers before making compliance claims.",
+      "zh": "欧盟包装新规于 2026 年 8 月 12 日开始适用。采购保温内衬和携带袋时，先逐层明确规格与用途，再核对适用要求及相关资料。",
+      "es": "Las nuevas normas de envases de la UE comenzaron a aplicarse el 12 de agosto de 2026. Solicite especificaciones por capa para revestimientos y bolsas térmicas."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-10/insulated-packaging-carton-workbench.webp",
+      "alt": {
+        "en": "An open cardboard carton with a crinkled silver liner on a wooden packing bench",
+        "zh": "木质打包台上放着一个带褶皱银色内衬的敞口纸箱",
+        "es": "Caja de cartón abierta con un revestimiento plateado arrugado sobre una mesa de embalaje de madera"
+      },
+      "caption": {
+        "en": "A generic lined carton on a packing bench. It does not depict a verified YUANEN order or a compliance test.",
+        "zh": "打包台上的通用内衬纸箱，不代表已核验的远恩订单或合规测试。",
+        "es": "Caja genérica con revestimiento sobre una mesa de embalaje. No representa un pedido verificado de YUANEN ni un ensayo de conformidad."
+      },
+      "kind": "illustration"
+    }
+  },
+  {
     "kind": "guide",
     "slug": "insulated-shopping-bags-frozen-food",
     "publishedAt": "2026-10-07",
