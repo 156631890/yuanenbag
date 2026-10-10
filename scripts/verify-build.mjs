@@ -100,7 +100,7 @@ for (const file of files) {
     assert(product,`Missing product schema: ${relative}`)
     if(ownProduct.collection==='custom-designs-2026') {
       const views=['open-bag-boxes','pizza-takeaway','closed-exterior','hand-carry','zipper-lining','handle-attachment','base-seams']
-      assert.deepEqual(product.image.map(url=>new URL(url).pathname),views.map(view=>'/images/products/standardized/insulated-pizza-delivery-bags/'+view+'.webp'),'Approved pizza design gallery and order')
+      assert.deepEqual(product.image.map(url=>new URL(url).pathname),views.map(view=>'/images/products/standardized/insulated-pizza-delivery-bags/'+view+'-bg-v4.webp'),'Approved pizza design gallery and order')
       assert(/AI-assisted|AI 辅助|asistida por IA/.test(html),'Custom design illustrations must be disclosed')
       for(const id of ['applications','materials','features','order-quantities','pricing','delivery','dimensions','export']) assert(html.includes('id="'+id+'"'),'Missing pizza buyer section '+id)
       assert(html.includes('?bag=insulated-pizza-delivery-bags'),'Pizza-specific enquiry required')

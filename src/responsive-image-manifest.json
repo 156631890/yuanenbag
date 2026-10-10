@@ -6653,240 +6653,240 @@
       }
     ]
   },
-  "images/products/standardized/insulated-pizza-delivery-bags/open-bag-boxes.webp": {
+  "images/products/standardized/insulated-pizza-delivery-bags/open-bag-boxes-bg-v4.webp": {
     "width": 1200,
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/10f0c917f612-96.webp",
+        "file": "images/responsive/9d6880879922-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/951fea3708cc-192.webp",
+        "file": "images/responsive/4c0a4678e0dd-192.webp",
         "width": 192
       },
       {
-        "file": "images/responsive/a9b60072a7b8-384.webp",
+        "file": "images/responsive/0258e40e0238-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/ef8a4aaab4c0-640.webp",
+        "file": "images/responsive/18c1940e74a0-640.webp",
         "width": 640
       },
       {
-        "file": "images/responsive/b818d95ef673-768.webp",
+        "file": "images/responsive/4a81c009ac4a-768.webp",
         "width": 768
       },
       {
-        "file": "images/responsive/9f9d675584a8-960.webp",
+        "file": "images/responsive/890c55006425-960.webp",
         "width": 960
       },
       {
-        "file": "images/responsive/a43a8aed30f1-1200.webp",
+        "file": "images/responsive/e5021bd7677c-1200.webp",
         "width": 1200
       }
     ]
   },
-  "images/products/standardized/insulated-pizza-delivery-bags/pizza-takeaway.webp": {
+  "images/products/standardized/insulated-pizza-delivery-bags/pizza-takeaway-bg-v4.webp": {
     "width": 1200,
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/b4f7fd1f498a-96.webp",
+        "file": "images/responsive/9cae15646a33-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/4f82495339d0-192.webp",
+        "file": "images/responsive/d23a94219efd-192.webp",
         "width": 192
       },
       {
-        "file": "images/responsive/8fae6de97b69-384.webp",
+        "file": "images/responsive/3f835653b54c-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/b4d9b836b020-640.webp",
+        "file": "images/responsive/6de735afddfd-640.webp",
         "width": 640
       },
       {
-        "file": "images/responsive/75c109bb93a0-768.webp",
+        "file": "images/responsive/77a741366961-768.webp",
         "width": 768
       },
       {
-        "file": "images/responsive/21042336a234-960.webp",
+        "file": "images/responsive/5e4aab0230aa-960.webp",
         "width": 960
       },
       {
-        "file": "images/responsive/195ffab5a63b-1200.webp",
+        "file": "images/responsive/b1a0a4077847-1200.webp",
         "width": 1200
       }
     ]
   },
-  "images/products/standardized/insulated-pizza-delivery-bags/closed-exterior.webp": {
+  "images/products/standardized/insulated-pizza-delivery-bags/closed-exterior-bg-v4.webp": {
     "width": 1200,
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/7f8e252bbb35-96.webp",
+        "file": "images/responsive/e2ce4d18432c-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/350a347aa646-192.webp",
+        "file": "images/responsive/5f42836086d4-192.webp",
         "width": 192
       },
       {
-        "file": "images/responsive/f3c52635c318-384.webp",
+        "file": "images/responsive/f92a08d02625-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/aeebaaaf77e2-640.webp",
+        "file": "images/responsive/7d4bddb55c55-640.webp",
         "width": 640
       },
       {
-        "file": "images/responsive/83947193ab58-768.webp",
+        "file": "images/responsive/5f9b90039b87-768.webp",
         "width": 768
       },
       {
-        "file": "images/responsive/3b8a1aabd3f9-960.webp",
+        "file": "images/responsive/286593aedfec-960.webp",
         "width": 960
       },
       {
-        "file": "images/responsive/b34690992f0f-1200.webp",
+        "file": "images/responsive/8e7bda17c37a-1200.webp",
         "width": 1200
       }
     ]
   },
-  "images/products/standardized/insulated-pizza-delivery-bags/hand-carry.webp": {
+  "images/products/standardized/insulated-pizza-delivery-bags/hand-carry-bg-v4.webp": {
     "width": 1200,
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/667eab8a2c1a-96.webp",
+        "file": "images/responsive/c082af391195-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/4b39c758d6f4-192.webp",
+        "file": "images/responsive/64a6e12f1347-192.webp",
         "width": 192
       },
       {
-        "file": "images/responsive/82bcca1910aa-384.webp",
+        "file": "images/responsive/70e20be27e6b-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/516a17166af6-640.webp",
+        "file": "images/responsive/c5163aa7f618-640.webp",
         "width": 640
       },
       {
-        "file": "images/responsive/38994baf253d-768.webp",
+        "file": "images/responsive/aa26bed415c0-768.webp",
         "width": 768
       },
       {
-        "file": "images/responsive/30605c02df56-960.webp",
+        "file": "images/responsive/09c88fbc05ad-960.webp",
         "width": 960
       },
       {
-        "file": "images/responsive/78c24d050f37-1200.webp",
+        "file": "images/responsive/826e7778b070-1200.webp",
         "width": 1200
       }
     ]
   },
-  "images/products/standardized/insulated-pizza-delivery-bags/zipper-lining.webp": {
+  "images/products/standardized/insulated-pizza-delivery-bags/zipper-lining-bg-v4.webp": {
     "width": 1200,
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/c6f23b5125ed-96.webp",
+        "file": "images/responsive/0ec47707c259-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/29f0500e0bc7-192.webp",
+        "file": "images/responsive/26e009830d94-192.webp",
         "width": 192
       },
       {
-        "file": "images/responsive/54f6ef233fc7-384.webp",
+        "file": "images/responsive/3e1ee87cf440-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/c3247e535d80-640.webp",
+        "file": "images/responsive/09280a2a2835-640.webp",
         "width": 640
       },
       {
-        "file": "images/responsive/d07c4e840476-768.webp",
+        "file": "images/responsive/b6b8e9708f9b-768.webp",
         "width": 768
       },
       {
-        "file": "images/responsive/131f8f0191f6-960.webp",
+        "file": "images/responsive/769112ac6c84-960.webp",
         "width": 960
       },
       {
-        "file": "images/responsive/f57aa190e881-1200.webp",
+        "file": "images/responsive/307b8b2778d2-1200.webp",
         "width": 1200
       }
     ]
   },
-  "images/products/standardized/insulated-pizza-delivery-bags/handle-attachment.webp": {
+  "images/products/standardized/insulated-pizza-delivery-bags/handle-attachment-bg-v4.webp": {
     "width": 1200,
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/9aebf7cc25bd-96.webp",
+        "file": "images/responsive/d1dca3bf98ba-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/664b061bdf50-192.webp",
+        "file": "images/responsive/1faae8218f2d-192.webp",
         "width": 192
       },
       {
-        "file": "images/responsive/01915611f3cf-384.webp",
+        "file": "images/responsive/23546343758a-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/824d537075f2-640.webp",
+        "file": "images/responsive/cde553be2ef3-640.webp",
         "width": 640
       },
       {
-        "file": "images/responsive/7c32d729c506-768.webp",
+        "file": "images/responsive/b918f5f25ea4-768.webp",
         "width": 768
       },
       {
-        "file": "images/responsive/01d4635463fa-960.webp",
+        "file": "images/responsive/9f833a581d93-960.webp",
         "width": 960
       },
       {
-        "file": "images/responsive/ba43057a7f24-1200.webp",
+        "file": "images/responsive/3df60188f33c-1200.webp",
         "width": 1200
       }
     ]
   },
-  "images/products/standardized/insulated-pizza-delivery-bags/base-seams.webp": {
+  "images/products/standardized/insulated-pizza-delivery-bags/base-seams-bg-v4.webp": {
     "width": 1200,
     "height": 1200,
     "variants": [
       {
-        "file": "images/responsive/6f587d7b2830-96.webp",
+        "file": "images/responsive/cdba42ce60e1-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/89edde0ba2c9-192.webp",
+        "file": "images/responsive/2d01add1c9b1-192.webp",
         "width": 192
       },
       {
-        "file": "images/responsive/df51f9b4d8cc-384.webp",
+        "file": "images/responsive/da190a4c042c-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/2ab1aba83a9e-640.webp",
+        "file": "images/responsive/e8b27cb0b0f2-640.webp",
         "width": 640
       },
       {
-        "file": "images/responsive/a41a9ce05e78-768.webp",
+        "file": "images/responsive/74d13fef1b93-768.webp",
         "width": 768
       },
       {
-        "file": "images/responsive/7123ff048b83-960.webp",
+        "file": "images/responsive/429202365ab9-960.webp",
         "width": 960
       },
       {
-        "file": "images/responsive/1cd4fb81f75f-1200.webp",
+        "file": "images/responsive/572e59728626-1200.webp",
         "width": 1200
       }
     ]

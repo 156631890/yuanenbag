@@ -4,8 +4,8 @@
   "approvedOn": "2026-10-10",
   "approvalScope": "User explicitly approved publication of the reviewed NP06 product only.",
   "referenceProduct": "wide-base-meal-cooler",
-  "imageSource": "Approved NP06 v3 AI-assisted illustrations; no photographs or tested performance claims.",
-  "imageRevision": "v3",
+  "imageSource": "NP06 v4 AI-assisted illustrations, background matched to existing catalog following user request on 2026-10-10.",
+  "imageRevision": "v4",
   "composition": {
     "galleryImageBoxRatio": 1,
     "bodyPadding": "0",
@@ -13,6 +13,36 @@
   },
   "commercialBoundary": "Custom design; dimensions, capacity, materials, MOQ, price and lead time confirmed by sample and quotation. Passive insulation, no electric heating or fixed retention claim.",
   "images": [
+    {
+      "file": "public/images/products/standardized/insulated-pizza-delivery-bags/open-bag-boxes-bg-v4.webp",
+      "sha256": "255731c52fff86818e3a962df81cdbcc6e244a4c6e66a06b04ef5c2b670ff33b"
+    },
+    {
+      "file": "public/images/products/standardized/insulated-pizza-delivery-bags/pizza-takeaway-bg-v4.webp",
+      "sha256": "b1e50562564ffd2c2916db9e02f6006755d6e55bf0d8e9e09ef85659bac5142d"
+    },
+    {
+      "file": "public/images/products/standardized/insulated-pizza-delivery-bags/closed-exterior-bg-v4.webp",
+      "sha256": "851c4bc29b6956f1bd46e511ec6966fcd8b54c723dbb11111e8b905be21ad22b"
+    },
+    {
+      "file": "public/images/products/standardized/insulated-pizza-delivery-bags/hand-carry-bg-v4.webp",
+      "sha256": "8d2492c5182f01b34b9b138a58cfb2f52e263310d1bca057eab1e819436f745d"
+    },
+    {
+      "file": "public/images/products/standardized/insulated-pizza-delivery-bags/zipper-lining-bg-v4.webp",
+      "sha256": "b11a82b86740aa70ceeca70a4bad64aa3c4935cd4d4207142a958a2aca1d891c"
+    },
+    {
+      "file": "public/images/products/standardized/insulated-pizza-delivery-bags/handle-attachment-bg-v4.webp",
+      "sha256": "240803097f773807a8db34333f7558e20a68cf29f875bbf6e9c43d1ad02aa899"
+    },
+    {
+      "file": "public/images/products/standardized/insulated-pizza-delivery-bags/base-seams-bg-v4.webp",
+      "sha256": "bac085621cc8649816b4d1086db961b2d7830a5b07376dc61271e58f56f5b4ba"
+    }
+  ],
+  "previousImages": [
     {
       "file": "public/images/products/standardized/insulated-pizza-delivery-bags/base-seams.webp",
       "sha256": "aca2e5696483be65aebb59028e3460b42d905539ac7bbd0b29f999a76b8e58bb"
@@ -41,5 +71,11 @@
       "file": "public/images/products/standardized/insulated-pizza-delivery-bags/zipper-lining.webp",
       "sha256": "2bb824b1f30c91dc0b00ec85218de9e4b2ada21cee509d54f7dde299c76b740e"
     }
-  ]
+  ],
+  "background": {
+    "target": "#F6F6F4",
+    "reference": "packy/square-zipper-cake-cooler-main.webp",
+    "tool": "built-in image_gen",
+    "scope": "Seven gallery images, product card and detail section derivatives"
+  }
 }
