@@ -1,5 +1,34 @@
 [
   {
+    "kind": "guide",
+    "slug": "catering-bag-front-opening-tray-fit",
+    "publishedAt": "2026-10-12",
+    "title": {
+      "en": "Insulated Catering Bags: Check Front-Opening Tray Fit",
+      "zh": "餐盘配送保温包：前开口与水平取放怎么验收",
+      "es": "Bolsas térmicas de catering: ajuste de bandejas en la abertura frontal"
+    },
+    "description": {
+      "en": "Check lidded tray rims, horizontal entry, finger clearance and loaded support before ordering a front-opening insulated catering bag.",
+      "zh": "按含盖盘沿、水平装入路径、手部取放空间和满载底部支撑验收前开式餐盘配送保温包，不用标称盘型代替实际试装。",
+      "es": "Revise bordes con tapa, entrada horizontal, espacio para las manos y apoyo con carga antes de pedir una bolsa de catering con apertura frontal."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-12/navy-front-opening-tray-carrier.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "Navy fabric carrier with an open fold-down front, silver lining, side grips and a lidded aluminium tray on a grey counter",
+        "zh": "灰色台面上的深蓝织物包，前幅下折打开，可见银色内衬、侧提手和带盖铝制餐盘",
+        "es": "Bolsa de tejido azul marino con panel frontal abatido, forro plateado, asas laterales y bandeja de aluminio con tapa sobre una mesa gris"
+      },
+      "caption": {
+        "en": "A generic front-opening tray carrier. Tray fit and supporting construction require sample confirmation.",
+        "zh": "通用前开式餐盘配送包。餐盘适配和支撑结构需要样品确认。",
+        "es": "Bolsa genérica de apertura frontal. El ajuste y la estructura de apoyo requieren confirmación con una muestra."
+      }
+    }
+  },
+  {
     "kind": "industry",
     "slug": "eu-packaging-rules-insulated-bag-buyers",
     "publishedAt": "2026-10-10",

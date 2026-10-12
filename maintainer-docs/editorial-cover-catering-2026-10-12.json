@@ -1,0 +1,18 @@
+{
+  "name": "navy-front-opening-tray-carrier",
+  "source": "C:/Users/Administrator/.codex/generated_images/01a0c806-5c48-7793-814b-5d33d8e4c624/exec-05bdd3e9-c83f-489b-bcd6-87428469ef46.png",
+  "prompt": "Use case: photorealistic-natural editorial cover illustration, 3:2 landscape 1536x1024. Subject: a generic deep navy non-woven spunbond fabric front-opening box-shaped catering bag on a continuous grey kitchen worktop, front zipped panel folded fully down, one empty lidded rectangular aluminum catering tray visible horizontally inside. Bag has short low side-mounted grips, no top handle, no straps, shelves or dividers. Composition: close three-quarter eye-level view; bag fills 80% width, complete silhouette and grips within frame, tray rim and front opening physically plausible. Soft side daylight, fine non-woven fiber texture and light random bonded dot pattern, absolutely no visible woven grid, canvas or nylon weave, modest creases, slightly uneven silver liner, subdued neutral colours, believable contact shadows; not glossy CGI. A coherent single scene with naturally defocused kitchen background, no split panels, no blank margin, no extra objects or pasted shapes. No logo, writing, labels, numbers, certificates, measurement graphics, people or hands. This is a generic editorial illustration, not a photo of a real YUANEN product, factory or test.",
+  "tool": "image_gen built-in",
+  "generatedOn": "2026-10-12",
+  "kind": "illustration",
+  "rights": "Output use under applicable OpenAI terms. Ownership/similarity limits checked 2026-10-12: https://openai.com/policies/terms-of-use/ ; no brand logos, source-image copying or exclusive-rights guarantee",
+  "visualCheck": "Generated image viewed; coherent background, clear subject, plausible shape; material-specific cover regenerated after remote product correction, not a physical sample. Actual responsive page checks recorded separately.",
+  "humanApproval": false,
+  "optimized": {
+    "file": "images/editorial/2026-10-12/navy-front-opening-tray-carrier.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 129968,
+    "operation": "same-aspect resize and WebP encoding only"
+  }
+}

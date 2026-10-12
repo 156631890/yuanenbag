@@ -1233,6 +1233,40 @@
       }
     ]
   },
+  "images/editorial/2026-10-12/navy-front-opening-tray-carrier.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/b10054993e40-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/e85fb4d2a605-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/f37cf84d56a5-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/d398f0feb326-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/d123454b9b23-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/5818bfa136fa-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/e312e4231c98-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
   "images/factory/building-crop.webp": {
     "width": 940,
     "height": 701,
