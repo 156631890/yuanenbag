@@ -1335,6 +1335,40 @@
       }
     ]
   },
+  "images/editorial/2026-10-12/thermal-carton-warehouse-handoff.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/9352432cf13c-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/6f2cfef216b3-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/b8a1434c9762-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/31d89e0f95ee-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/02ed573deed9-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/ae888c313753-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/3e8f5661d511-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
   "images/factory/building-crop.webp": {
     "width": 940,
     "height": 701,

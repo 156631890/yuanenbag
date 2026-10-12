@@ -1,0 +1,18 @@
+{
+  "name": "thermal-carton-warehouse-handoff",
+  "source": "C:/Users/Administrator/.codex/generated_images/01a0c806-5c48-7793-814b-5d33d8e4c624/exec-046fa379-0a42-4121-a258-a3455070b439.png",
+  "prompt": "Use case: photorealistic-natural editorial cover illustration, 3:2 landscape 1536x1024. Generic refrigerated-food dispatch environment, not any named company: foreground a partly closed corrugated shipping carton with crinkled silver thermal liner folded over its rim, next to two closed plain cartons on a waist-high grey packing bench. Background out of focus: a simple insulated warehouse doorway and ordinary pallet rack with packaged cartons. Natural restrained grey and kraft-brown palette, low-angle side daylight, subtle texture wear, corrugated cardboard fibers, realistic silver liner folds and cohesive shadows. Framing close and horizontal, cartons and bench occupy the foreground broadly, not miniature structures or a product collage; no trucks or bag pasted beside a building. No people, text, logos, signage, certification, customs badges, country flags, thermometers or official documents. Generic editorial atmosphere illustration, not Lineage Murcia, a bonded warehouse approval photograph, a company partnership or validated cold-chain test.",
+  "tool": "image_gen built-in",
+  "generatedOn": "2026-10-12",
+  "kind": "illustration",
+  "rights": "Output use under applicable OpenAI terms. Ownership/similarity limits checked 2026-10-12: https://openai.com/policies/terms-of-use/ ; no brand logos, source-image copying or exclusive-rights guarantee",
+  "visualCheck": "Generated image viewed; coherent background, clear subject, plausible shape; material-specific cover regenerated after remote product correction, not a physical sample. Actual responsive page checks recorded separately.",
+  "humanApproval": false,
+  "optimized": {
+    "file": "images/editorial/2026-10-12/thermal-carton-warehouse-handoff.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 84554,
+    "operation": "same-aspect resize and WebP encoding only"
+  }
+}

@@ -204,6 +204,35 @@
   },
   {
     "kind": "industry",
+    "slug": "spain-bonded-cold-storage-packaging-handoff",
+    "publishedAt": "2026-10-12",
+    "title": {
+      "en": "Spain’s Bonded Cold Storage Update: Check the Packaging Handoff",
+      "zh": "西班牙冷链保税仓公告：出仓后的包装交接仍需核对",
+      "es": "Almacenamiento frigorífico aduanero en España: revise el embalaje al salir"
+    },
+    "description": {
+      "en": "Lineage’s September Murcia authorization announcement concerns customs-controlled cold storage. Buyers still need a separate downstream packing and handoff plan.",
+      "zh": "Lineage于9月公告穆尔西亚设施获海关保税仓授权。这涉及海关监管温控储存，不代替出仓后保温内衬、冰源与交接等待的装载验证。",
+      "es": "El anuncio de septiembre de Lineage sobre Murcia trata del almacenamiento frigorífico bajo control aduanero. El embalaje y la entrega posterior requieren un plan propio."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-12/thermal-carton-warehouse-handoff.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "Open carton with a folded silver thermal liner beside two closed cartons on a dispatch bench with a warehouse doorway behind",
+        "zh": "发货台上的打开纸箱与折过箱沿的银色保温内衬，旁边有两只闭合纸箱，后方可见仓库门",
+        "es": "Caja abierta con forro térmico plateado plegado sobre el borde junto a dos cajas cerradas, con una puerta de almacén al fondo"
+      },
+      "caption": {
+        "en": "Generic packing and dispatch scene. It does not show Lineage’s Murcia facility or a customs-approved project.",
+        "zh": "通用打包和发货场景，不展示Lineage穆尔西亚设施或海关批准项目。",
+        "es": "Escena genérica de embalado y despacho; no representa la instalación de Murcia ni un proyecto aprobado por aduanas."
+      }
+    }
+  },
+  {
+    "kind": "industry",
     "slug": "us-cold-chain-grants-frozen-food-packaging",
     "publishedAt": "2026-10-07",
     "title": {
