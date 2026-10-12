@@ -1,0 +1,19 @@
+{
+  "tool": "built-in image_gen",
+  "generatedOn": "2026-10-12",
+  "source": "C:/Users/Administrator/.codex/generated_images/01a0c806-5c48-7793-814b-5d33d8e4c624/exec-9a40f9e1-b305-42ab-8fb7-0a4208060c87.png",
+  "prompt": "Use case: photorealistic editorial illustration. Asset type: newly generated landscape cover for a B2B pizza delivery bag buying guide, 3:2 composition. Primary request: one generic low-profile wide insulated pizza carrier in muted charcoal-red woven fabric on a single natural light-grey packing workbench, at a subtle three-quarter top view. Bag unzipped with its fabric top folded back naturally, two plain unbranded closed kraft pizza cartons resting flat inside, silver textured lining visible at the sides. Short black webbing carrying handles with believable stitched attachment points, ordinary zipper track around the top edge; no heater, wires, backpack straps or dividers. The bag and cartons fill most of the horizontal frame with modest breathing room and intact edges, one coherent environment extending to the frame edges. Soft daylight, subdued colours, honest woven fabric, small natural wrinkles, fine stitching, matte cardboard, subtle uneven contact shadows; candid editorial photography aesthetic rather than glossy CGI. This is a generic category illustration, not a real YUANEN product, factory, trial or certified capacity. No people, labels, logos, words, numbers, measurement tools, watermarks, diagram dividers, split scene, excess empty border, plastic-smooth textures, floating parts or exaggerated padding. Generate an original image; do not reuse earlier images.",
+  "rightsBasis": "OpenAI Terms of Use, content ownership, https://openai.com/policies/terms-of-use/ checked 2026-10-12. Original generated output, no external input image or third-party logos. Output may not be unique; not a guarantee of statutory copyright.",
+  "review": {
+    "visual": "Viewed generated image: coherent grey workbench and daylight, full carrier outline, believable fabric/zipper/carry handle, two closed cartons, no split scene or border. Generic category illustration only.",
+    "claims": "Carton count does not establish capacity. Not a measured or approved YUANEN sample.",
+    "humanApproval": false
+  },
+  "optimized": {
+    "file": "images/editorial/2026-10-12/pizza-carrier-kraft-cartons.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 113226,
+    "operation": "resize and WebP encoding only; no image content editing"
+  }
+}

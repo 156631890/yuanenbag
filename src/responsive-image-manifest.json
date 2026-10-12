@@ -1199,6 +1199,40 @@
       }
     ]
   },
+  "images/editorial/2026-10-12/pizza-carrier-kraft-cartons.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/042772b89ba5-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/1a7ff9d0f156-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/1639db3b5e0f-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/88d98f424bda-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/5f67b16d9cf7-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/c0a54a632f58-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/b463b6273296-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
   "images/factory/building-crop.webp": {
     "width": 940,
     "height": 701,

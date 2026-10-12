@@ -59,6 +59,35 @@
   },
   {
     "kind": "guide",
+    "slug": "pizza-delivery-bag-packout-checklist",
+    "publishedAt": "2026-10-12",
+    "title": {
+      "en": "Insulated Pizza Delivery Bags: A Sample Pack-Out Checklist",
+      "zh": "披萨配送保温包：装盒与样品验收清单",
+      "es": "Bolsas térmicas para pizza: lista de comprobación de la muestra"
+    },
+    "description": {
+      "en": "Check closed pizza boxes, stack height, zipper clearance and loaded handling with a repeatable sample record before ordering insulated pizza delivery bags.",
+      "zh": "订购披萨配送保温包前，用可填写的样品记录核对闭盒外尺寸、叠放高度、拉链空间和满载搬运，区分装得下与经过验证的配送性能。",
+      "es": "Antes de pedir bolsas térmicas para pizza, registre las cajas cerradas, el apilado, el cierre y el manejo con carga en una prueba de muestra repetible."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-12/pizza-carrier-kraft-cartons.webp",
+      "alt": {
+        "en": "Open red fabric insulated carrier with silver lining and two closed kraft pizza cartons on a grey workbench",
+        "zh": "灰色工作台上打开的红色织物保温包，银色内衬内放着两只闭合牛皮纸披萨盒",
+        "es": "Bolsa térmica roja abierta, con forro plateado y dos cajas de pizza de cartón kraft cerradas sobre una mesa gris"
+      },
+      "caption": {
+        "en": "A generic pizza carrier with closed cartons. The illustrated box count is not a rated capacity or a tested YUANEN sample.",
+        "zh": "装有闭合纸盒的通用披萨配送包。图中盒数不是额定容量，也不是已测试的远恩样品。",
+        "es": "Bolsa genérica con cajas cerradas. La cantidad ilustrada no indica capacidad nominal ni una muestra probada de YUANEN."
+      },
+      "kind": "illustration"
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "self-seal-foil-bag-size-flap-fit",
     "publishedAt": "2026-10-09",
     "title": {
