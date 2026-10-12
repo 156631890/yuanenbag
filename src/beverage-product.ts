@@ -23,10 +23,10 @@ export const beverageBag: Bag = {
     "es": "Propuesta de bolsa verde azulado con apertura superior, asas en el cuerpo y separador acolchado extraíble para vasos. Defina la distribución según vasos llenos y tapas; confirme carga, cierre y equilibrio con una muestra."
   },
   "material": {
-    "en": "Proposed woven shell, insulation, silver liner and textile divider; confirm sample",
-    "zh": "拟定织物外层、隔热层、银色内衬及织物分隔，按样品确认",
-    "es": "Tejido exterior, aislamiento, forro plateado y separador textil propuestos; confirmar muestra"
-  },
+  "en": "Non-woven outer fabric and aluminum foil lining; insulation specification and thickness confirmed by sample",
+  "zh": "无纺布外层与铝箔内衬；隔热层规格及厚度按样品确认",
+  "es": "Exterior de tela no tejida y forro de papel de aluminio; aislamiento y espesor según muestra"
+},
   "use": {
     "en": "Coffee shops · takeaway drinks · organised multi-cup delivery",
     "zh": "咖啡门店 · 杯装饮品 · 多杯配送",
@@ -55,9 +55,9 @@ export const beverageBag: Bag = {
     "es": "¿Es igual que una bolsa ligera para bebidas?"
   },
   "answer": {
-    "en": "No. This proposal uses a fabric tote and a removable cup-cell insert for organised multi-cup delivery. The existing lightweight self-seal drink bag is a different packaging format. Choose according to cup layout, carrying conditions and whether repeated use is required.",
-    "zh": "本方案为织物提包搭配拟定可拆杯位分隔，面向多杯组织和重复配送；现有轻型自粘奶茶包装袋属于另一种包装形式。根据杯型排列、提携条件及是否需要重复使用来选型。",
-    "es": "No. Esta propuesta combina una bolsa de tejido con un inserto extraíble para organizar varios vasos y repartos repetidos. La bolsa ligera autoadhesiva del catálogo es otro formato. Elija según distribución, transporte y necesidad de reutilización."
+    "en": "No. This proposal uses a non-woven tote and a removable cup-cell insert for organised multi-cup delivery. The existing lightweight self-seal drink bag is a different packaging format. Choose according to cup layout, carrying conditions and whether repeated use is required.",
+    "zh": "本方案为无纺布提包搭配拟定可拆杯位分隔，面向多杯组织和重复配送；现有轻型自粘奶茶包装袋属于另一种包装形式。根据杯型排列、提携条件及是否需要重复使用来选型。",
+    "es": "No. Esta propuesta combina una bolsa de tela no tejida con un inserto extraíble para organizar varios vasos y repartos repetidos. La bolsa ligera autoadhesiva del catálogo es otro formato. Elija según distribución, transporte y necesidad de reutilización."
   },
   "group": "delivery",
   "color": "#2A696D",
@@ -71,19 +71,19 @@ export const beverageBag: Bag = {
     "thermal"
   ],
   "collection": "custom-designs-2026",
-  "image": "insulated-beverage-delivery-bags/cup-layout-v1.webp",
+  "image": "insulated-beverage-delivery-bags/material-corrected-20261012-01.webp",
   "gallery": [
-    "insulated-beverage-delivery-bags/cold-drink-packing-v1.webp",
-    "insulated-beverage-delivery-bags/closed-exterior-v1.webp",
-    "insulated-beverage-delivery-bags/cup-access-v1.webp",
-    "insulated-beverage-delivery-bags/removable-divider-v1.webp",
-    "insulated-beverage-delivery-bags/hand-carry-v1.webp",
-    "insulated-beverage-delivery-bags/zipper-divider-detail-v1.webp"
+    "insulated-beverage-delivery-bags/material-corrected-20261012-02.webp",
+    "insulated-beverage-delivery-bags/material-corrected-20261012-03.webp",
+    "insulated-beverage-delivery-bags/material-corrected-20261012-04.webp",
+    "insulated-beverage-delivery-bags/material-corrected-20261012-05.webp",
+    "insulated-beverage-delivery-bags/material-corrected-20261012-06.webp",
+    "insulated-beverage-delivery-bags/material-corrected-20261012-07.webp"
   ]
 }
 export const beverageImages: ProductImage[] = [
   {
-    "file": "insulated-beverage-delivery-bags/cup-layout-v1.webp",
+    "file": "insulated-beverage-delivery-bags/material-corrected-20261012-01.webp",
     "kind": "visualization",
     "label": {
       "en": "Cup layout proposal",
@@ -92,7 +92,7 @@ export const beverageImages: ProductImage[] = [
     }
   },
   {
-    "file": "insulated-beverage-delivery-bags/cold-drink-packing-v1.webp",
+    "file": "insulated-beverage-delivery-bags/material-corrected-20261012-02.webp",
     "kind": "visualization",
     "label": {
       "en": "Cold-drink packing",
@@ -101,7 +101,7 @@ export const beverageImages: ProductImage[] = [
     }
   },
   {
-    "file": "insulated-beverage-delivery-bags/closed-exterior-v1.webp",
+    "file": "insulated-beverage-delivery-bags/material-corrected-20261012-03.webp",
     "kind": "visualization",
     "label": {
       "en": "Closed exterior",
@@ -110,7 +110,7 @@ export const beverageImages: ProductImage[] = [
     }
   },
   {
-    "file": "insulated-beverage-delivery-bags/cup-access-v1.webp",
+    "file": "insulated-beverage-delivery-bags/material-corrected-20261012-04.webp",
     "kind": "visualization",
     "label": {
       "en": "Vertical cup access",
@@ -119,7 +119,7 @@ export const beverageImages: ProductImage[] = [
     }
   },
   {
-    "file": "insulated-beverage-delivery-bags/removable-divider-v1.webp",
+    "file": "insulated-beverage-delivery-bags/material-corrected-20261012-05.webp",
     "kind": "visualization",
     "label": {
       "en": "Removable divider proposal",
@@ -128,7 +128,7 @@ export const beverageImages: ProductImage[] = [
     }
   },
   {
-    "file": "insulated-beverage-delivery-bags/hand-carry-v1.webp",
+    "file": "insulated-beverage-delivery-bags/material-corrected-20261012-06.webp",
     "kind": "visualization",
     "label": {
       "en": "Upright hand carrying",
@@ -137,7 +137,7 @@ export const beverageImages: ProductImage[] = [
     }
   },
   {
-    "file": "insulated-beverage-delivery-bags/zipper-divider-detail-v1.webp",
+    "file": "insulated-beverage-delivery-bags/material-corrected-20261012-07.webp",
     "kind": "visualization",
     "label": {
       "en": "Zipper, liner and divider detail",

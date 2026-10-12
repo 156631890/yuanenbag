@@ -28,10 +28,10 @@ export const cateringBag:Bag = {
     "es": "Propuesta de bolsa térmica azul marino con apertura frontal para bandejas con tapa. El panel se abate para acceder en horizontal y las asas laterales permiten sujetarla con ambas manos. Confirme holguras, base y carga con una muestra."
   },
   "material": {
-    "en": "Proposed woven outer fabric + insulation + silver liner; specification by sample",
-    "zh": "拟定织物外层 + 隔热层 + 银色内衬，规格按样品确认",
-    "es": "Tejido exterior propuesto + aislamiento + forro plateado; confirmar muestra"
-  },
+  "en": "Non-woven outer fabric and aluminum foil lining; insulation specification and thickness confirmed by sample",
+  "zh": "无纺布外层与铝箔内衬；隔热层规格及厚度按样品确认",
+  "es": "Exterior de tela no tejida y forro de papel de aluminio; aislamiento y espesor según muestra"
+},
   "use": {
     "en": "Catering teams · event meal service · prepared-food delivery",
     "zh": "团餐配送 · 宴会备餐 · 餐饮门店配送",
@@ -71,19 +71,19 @@ export const cateringBag:Bag = {
     "zh": "餐盘配送保温包定制方案 | 远恩",
     "es": "Bolsas térmicas de catering | YUANEN"
   },
-  "image": "insulated-catering-bags/front-loading-v2.webp",
+  "image": "insulated-catering-bags/material-corrected-20261012-01.webp",
   "gallery": [
-    "insulated-catering-bags/catering-application-v2.webp",
-    "insulated-catering-bags/closed-exterior-v2.webp",
-    "insulated-catering-bags/tray-access-v2.webp",
-    "insulated-catering-bags/zipper-lining-v2.webp",
-    "insulated-catering-bags/side-carry-v2.webp",
-    "insulated-catering-bags/empty-interior-v2.webp"
+    "insulated-catering-bags/material-corrected-20261012-02.webp",
+    "insulated-catering-bags/material-corrected-20261012-03.webp",
+    "insulated-catering-bags/material-corrected-20261012-04.webp",
+    "insulated-catering-bags/material-corrected-20261012-05.webp",
+    "insulated-catering-bags/material-corrected-20261012-06.webp",
+    "insulated-catering-bags/material-corrected-20261012-07.webp"
   ]
 }
 export const cateringImages:ProductImage[] = [
   {
-    "file": "insulated-catering-bags/front-loading-v2.webp",
+    "file": "insulated-catering-bags/material-corrected-20261012-01.webp",
     "kind": "visualization",
     "label": {
       "en": "Front-opening tray loading",
@@ -92,7 +92,7 @@ export const cateringImages:ProductImage[] = [
     }
   },
   {
-    "file": "insulated-catering-bags/catering-application-v2.webp",
+    "file": "insulated-catering-bags/material-corrected-20261012-02.webp",
     "kind": "visualization",
     "label": {
       "en": "Catering application",
@@ -101,7 +101,7 @@ export const cateringImages:ProductImage[] = [
     }
   },
   {
-    "file": "insulated-catering-bags/closed-exterior-v2.webp",
+    "file": "insulated-catering-bags/material-corrected-20261012-03.webp",
     "kind": "visualization",
     "label": {
       "en": "Closed exterior",
@@ -110,7 +110,7 @@ export const cateringImages:ProductImage[] = [
     }
   },
   {
-    "file": "insulated-catering-bags/tray-access-v2.webp",
+    "file": "insulated-catering-bags/material-corrected-20261012-04.webp",
     "kind": "visualization",
     "label": {
       "en": "Level tray access",
@@ -119,7 +119,7 @@ export const cateringImages:ProductImage[] = [
     }
   },
   {
-    "file": "insulated-catering-bags/zipper-lining-v2.webp",
+    "file": "insulated-catering-bags/material-corrected-20261012-05.webp",
     "kind": "visualization",
     "label": {
       "en": "Zipper & lining",
@@ -128,7 +128,7 @@ export const cateringImages:ProductImage[] = [
     }
   },
   {
-    "file": "insulated-catering-bags/side-carry-v2.webp",
+    "file": "insulated-catering-bags/material-corrected-20261012-06.webp",
     "kind": "visualization",
     "label": {
       "en": "Two-handed side carrying",
@@ -137,7 +137,7 @@ export const cateringImages:ProductImage[] = [
     }
   },
   {
-    "file": "insulated-catering-bags/empty-interior-v2.webp",
+    "file": "insulated-catering-bags/material-corrected-20261012-07.webp",
     "kind": "visualization",
     "label": {
       "en": "Empty interior",

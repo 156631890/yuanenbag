@@ -23,10 +23,10 @@ export const iceCreamBag: Bag = {
     "es": "Propuesta de bolsa cilíndrica morada con tapa circular de cremallera y dos asas en el cuerpo. Defina el espacio según la tarrina cerrada y el refrigerante elegido por separado; confirme carga, cierre y transporte con muestra."
   },
   "material": {
-    "en": "Proposed woven exterior, insulation and silver lining; confirm with sample",
-    "zh": "拟定织物外层、隔热层及银色内衬，按样品确认",
-    "es": "Exterior tejido, aislamiento y forro plateado propuestos; confirmar con muestra"
-  },
+  "en": "Non-woven outer fabric and aluminum foil lining; insulation specification and thickness confirmed by sample",
+  "zh": "无纺布外层与铝箔内衬；隔热层规格及厚度按样品确认",
+  "es": "Exterior de tela no tejida y forro de papel de aluminio; aislamiento y espesor según muestra"
+},
   "use": {
     "en": "Ice cream shops · closed tub takeaway · planned last-mile pack-outs",
     "zh": "冰淇淋门店 · 封盖桶装外带 · 末端配送包装",
@@ -71,19 +71,19 @@ export const iceCreamBag: Bag = {
     "thermal"
   ],
   "collection": "custom-designs-2026",
-  "image": "insulated-ice-cream-delivery-bags/tub-packout-v1.webp",
+  "image": "insulated-ice-cream-delivery-bags/material-corrected-20261012-01.webp",
   "gallery": [
-    "insulated-ice-cream-delivery-bags/packing-application-v1.webp",
-    "insulated-ice-cream-delivery-bags/closed-exterior-v1.webp",
-    "insulated-ice-cream-delivery-bags/tub-loading-v1.webp",
-    "insulated-ice-cream-delivery-bags/empty-interior-v1.webp",
-    "insulated-ice-cream-delivery-bags/hand-carry-v1.webp",
-    "insulated-ice-cream-delivery-bags/zipper-lining-v1.webp"
+    "insulated-ice-cream-delivery-bags/material-corrected-20261012-02.webp",
+    "insulated-ice-cream-delivery-bags/material-corrected-20261012-03.webp",
+    "insulated-ice-cream-delivery-bags/material-corrected-20261012-04.webp",
+    "insulated-ice-cream-delivery-bags/material-corrected-20261012-05.webp",
+    "insulated-ice-cream-delivery-bags/material-corrected-20261012-06.webp",
+    "insulated-ice-cream-delivery-bags/material-corrected-20261012-07.webp"
   ]
 }
 export const iceCreamImages: ProductImage[] = [
   {
-    "file": "insulated-ice-cream-delivery-bags/tub-packout-v1.webp",
+    "file": "insulated-ice-cream-delivery-bags/material-corrected-20261012-01.webp",
     "kind": "visualization",
     "label": {
       "en": "Tub pack-out proposal",
@@ -92,7 +92,7 @@ export const iceCreamImages: ProductImage[] = [
     }
   },
   {
-    "file": "insulated-ice-cream-delivery-bags/packing-application-v1.webp",
+    "file": "insulated-ice-cream-delivery-bags/material-corrected-20261012-02.webp",
     "kind": "visualization",
     "label": {
       "en": "Tub and refrigerant planning",
@@ -101,7 +101,7 @@ export const iceCreamImages: ProductImage[] = [
     }
   },
   {
-    "file": "insulated-ice-cream-delivery-bags/closed-exterior-v1.webp",
+    "file": "insulated-ice-cream-delivery-bags/material-corrected-20261012-03.webp",
     "kind": "visualization",
     "label": {
       "en": "Closed exterior",
@@ -110,7 +110,7 @@ export const iceCreamImages: ProductImage[] = [
     }
   },
   {
-    "file": "insulated-ice-cream-delivery-bags/tub-loading-v1.webp",
+    "file": "insulated-ice-cream-delivery-bags/material-corrected-20261012-04.webp",
     "kind": "visualization",
     "label": {
       "en": "Vertical tub loading",
@@ -119,7 +119,7 @@ export const iceCreamImages: ProductImage[] = [
     }
   },
   {
-    "file": "insulated-ice-cream-delivery-bags/empty-interior-v1.webp",
+    "file": "insulated-ice-cream-delivery-bags/material-corrected-20261012-05.webp",
     "kind": "visualization",
     "label": {
       "en": "Empty round compartment",
@@ -128,7 +128,7 @@ export const iceCreamImages: ProductImage[] = [
     }
   },
   {
-    "file": "insulated-ice-cream-delivery-bags/hand-carry-v1.webp",
+    "file": "insulated-ice-cream-delivery-bags/material-corrected-20261012-06.webp",
     "kind": "visualization",
     "label": {
       "en": "Upright hand carrying",
@@ -137,7 +137,7 @@ export const iceCreamImages: ProductImage[] = [
     }
   },
   {
-    "file": "insulated-ice-cream-delivery-bags/zipper-lining-v1.webp",
+    "file": "insulated-ice-cream-delivery-bags/material-corrected-20261012-07.webp",
     "kind": "visualization",
     "label": {
       "en": "Zipper, lining and handle detail",

@@ -25,10 +25,10 @@ export const pizzaDeliveryBag: Bag = {
     "es": "Bolsa baja y ancha con cremallera, definida según las cajas de pizza cerradas. Mida la base y la altura apilada y revise holgura, equilibrio de asas y aislamiento con una muestra. La propuesta adapta el formato de reparto de base ancha existente."
   },
   "material": {
-    "en": "Proposed exterior fabric + EPE insulation + foil-facing liner; final layers and thickness by sample",
-    "zh": "拟定面料 + EPE + 铝箔面内衬，规格按样品确认",
-    "es": "Tejido exterior propuesto + aislamiento EPE + forro aluminizado; capas y espesor según muestra"
-  },
+  "en": "Non-woven outer fabric and aluminum foil lining; insulation specification and thickness confirmed by sample",
+  "zh": "无纺布外层与铝箔内衬；隔热层规格及厚度按样品确认",
+  "es": "Exterior de tela no tejida y forro de papel de aluminio; aislamiento y espesor según muestra"
+},
   "use": {
     "en": "Pizza shops · takeaway collection · local food delivery",
     "zh": "披萨门店 · 外卖取餐 · 同城餐饮配送",
@@ -45,14 +45,14 @@ export const pizzaDeliveryBag: Bag = {
   "uses": [
     "thermal"
   ],
-  "image": "insulated-pizza-delivery-bags/open-bag-boxes-bg-v4.webp",
+  "image": "insulated-pizza-delivery-bags/material-corrected-20261012-01.webp",
   "gallery": [
-    "insulated-pizza-delivery-bags/pizza-takeaway-bg-v4.webp",
-    "insulated-pizza-delivery-bags/closed-exterior-bg-v4.webp",
-    "insulated-pizza-delivery-bags/hand-carry-bg-v4.webp",
-    "insulated-pizza-delivery-bags/zipper-lining-bg-v4.webp",
-    "insulated-pizza-delivery-bags/handle-attachment-bg-v4.webp",
-    "insulated-pizza-delivery-bags/base-seams-bg-v4.webp"
+    "insulated-pizza-delivery-bags/material-corrected-20261012-02.webp",
+    "insulated-pizza-delivery-bags/material-corrected-20261012-03.webp",
+    "insulated-pizza-delivery-bags/material-corrected-20261012-04.webp",
+    "insulated-pizza-delivery-bags/material-corrected-20261012-05.webp",
+    "insulated-pizza-delivery-bags/material-corrected-20261012-06.webp",
+    "insulated-pizza-delivery-bags/material-corrected-20261012-07.webp"
   ],
   "considerations": [
     {
@@ -85,7 +85,7 @@ export const pizzaDeliveryBag: Bag = {
 
 export const pizzaDeliveryImages: ProductImage[] = [
   {
-    "file": "insulated-pizza-delivery-bags/open-bag-boxes-bg-v4.webp",
+    "file": "insulated-pizza-delivery-bags/material-corrected-20261012-01.webp",
     "kind": "visualization",
     "label": {
       "en": "Open bag & boxes",
@@ -94,7 +94,7 @@ export const pizzaDeliveryImages: ProductImage[] = [
     }
   },
   {
-    "file": "insulated-pizza-delivery-bags/pizza-takeaway-bg-v4.webp",
+    "file": "insulated-pizza-delivery-bags/material-corrected-20261012-02.webp",
     "kind": "visualization",
     "label": {
       "en": "Pizza takeaway",
@@ -103,7 +103,7 @@ export const pizzaDeliveryImages: ProductImage[] = [
     }
   },
   {
-    "file": "insulated-pizza-delivery-bags/closed-exterior-bg-v4.webp",
+    "file": "insulated-pizza-delivery-bags/material-corrected-20261012-03.webp",
     "kind": "visualization",
     "label": {
       "en": "Closed exterior",
@@ -112,7 +112,7 @@ export const pizzaDeliveryImages: ProductImage[] = [
     }
   },
   {
-    "file": "insulated-pizza-delivery-bags/hand-carry-bg-v4.webp",
+    "file": "insulated-pizza-delivery-bags/material-corrected-20261012-04.webp",
     "kind": "visualization",
     "label": {
       "en": "Hand carry",
@@ -121,7 +121,7 @@ export const pizzaDeliveryImages: ProductImage[] = [
     }
   },
   {
-    "file": "insulated-pizza-delivery-bags/zipper-lining-bg-v4.webp",
+    "file": "insulated-pizza-delivery-bags/material-corrected-20261012-05.webp",
     "kind": "visualization",
     "label": {
       "en": "Zipper & lining",
@@ -130,7 +130,7 @@ export const pizzaDeliveryImages: ProductImage[] = [
     }
   },
   {
-    "file": "insulated-pizza-delivery-bags/handle-attachment-bg-v4.webp",
+    "file": "insulated-pizza-delivery-bags/material-corrected-20261012-06.webp",
     "kind": "visualization",
     "label": {
       "en": "Handle attachment",
@@ -139,7 +139,7 @@ export const pizzaDeliveryImages: ProductImage[] = [
     }
   },
   {
-    "file": "insulated-pizza-delivery-bags/base-seams-bg-v4.webp",
+    "file": "insulated-pizza-delivery-bags/material-corrected-20261012-07.webp",
     "kind": "visualization",
     "label": {
       "en": "Base & seams",

@@ -101,7 +101,7 @@ for (const file of files) {
     if(ownProduct.collection==='custom-designs-2026') {
       if(ownProduct.slug==='insulated-catering-bags'){
         const views=["front-loading","catering-application","closed-exterior","tray-access","zipper-lining","side-carry","empty-interior"]
-        assert.deepEqual(product.image.map(url=>new URL(url).pathname),views.map(v=>'/images/products/standardized/insulated-catering-bags/'+v+'-v2.webp'),'Approved catering gallery and order')
+        assert.deepEqual(product.image.map(url=>new URL(url).pathname),views.map((_,i)=>'/images/products/standardized/insulated-catering-bags/material-corrected-20261012-'+String(i+1).padStart(2,'0')+'.webp'),'Approved catering gallery and order')
         for(const id of ['applications','materials','features','order-quantities','pricing','delivery','dimensions','export','catering-tray-fit','catering-questions']) assert(html.includes('id="'+id+'"'),'Missing catering section '+id)
         assert(html.includes('?bag=insulated-catering-bags'),'Catering-specific enquiry required')
         assert(/AI-assisted|AI 辅助|asistida por IA/.test(html),'Catering AI disclosure')
@@ -115,20 +115,20 @@ for (const file of files) {
         assert(!html.includes('/review/product-batch/'),'No draft review links in meal prep page')
       }else if(ownProduct.slug==='insulated-ice-cream-delivery-bags'){
         const views=['tub-packout','packing-application','closed-exterior','tub-loading','empty-interior','hand-carry','zipper-lining']
-        assert.deepEqual(product.image.map(url=>new URL(url).pathname),views.map(v=>'/images/products/standardized/insulated-ice-cream-delivery-bags/'+v+'-v1.webp'))
+        assert.deepEqual(product.image.map(url=>new URL(url).pathname),views.map((_,i)=>'/images/products/standardized/insulated-ice-cream-delivery-bags/material-corrected-20261012-'+String(i+1).padStart(2,'0')+'.webp'))
         for(const id of ['applications','materials','features','order-quantities','pricing','delivery','dimensions','export','ice-cream-packout','ice-cream-questions','ice-cream-quote']) assert(html.includes('id="'+id+'"'))
         assert(html.includes('?bag=insulated-ice-cream-delivery-bags'))
         assert(/AI-assisted|AI 定制|Propuesta con IA/.test(html))
       }else if(ownProduct.slug==='insulated-beverage-delivery-bags'){
         const views=["cup-layout","cold-drink-packing","closed-exterior","cup-access","removable-divider","hand-carry","zipper-divider-detail"]
-        assert.deepEqual(product.image.map(url=>new URL(url).pathname),views.map(v=>'/images/products/standardized/insulated-beverage-delivery-bags/'+v+'-v1.webp'),'Approved beverage gallery and order')
+        assert.deepEqual(product.image.map(url=>new URL(url).pathname),views.map((_,i)=>'/images/products/standardized/insulated-beverage-delivery-bags/material-corrected-20261012-'+String(i+1).padStart(2,'0')+'.webp'),'Approved beverage gallery and order')
         for(const id of ['applications','materials','features','order-quantities','pricing','delivery','dimensions','export','beverage-cup-layout','beverage-questions','beverage-quote']) assert(html.includes('id="'+id+'"'),'Missing beverage section '+id)
         assert(html.includes('?bag=insulated-beverage-delivery-bags'),'Beverage-specific enquiry required')
         assert(/AI-assisted|AI 定制|Propuesta con IA/.test(html),'Beverage design disclosure')
         assert(!html.includes('/review/product-batch/'),'No draft review links in beverage page')
       }else{
       const views=['open-bag-boxes','pizza-takeaway','closed-exterior','hand-carry','zipper-lining','handle-attachment','base-seams']
-      assert.deepEqual(product.image.map(url=>new URL(url).pathname),views.map(view=>'/images/products/standardized/insulated-pizza-delivery-bags/'+view+'-bg-v4.webp'),'Approved pizza design gallery and order')
+      assert.deepEqual(product.image.map(url=>new URL(url).pathname),views.map((_,i)=>'/images/products/standardized/insulated-pizza-delivery-bags/material-corrected-20261012-'+String(i+1).padStart(2,'0')+'.webp'),'Approved pizza design gallery and order')
       assert(/AI-assisted|AI 辅助|asistida por IA/.test(html),'Custom design illustrations must be disclosed')
       for(const id of ['applications','materials','features','order-quantities','pricing','delivery','dimensions','export']) assert(html.includes('id="'+id+'"'),'Missing pizza buyer section '+id)
       assert(html.includes('?bag=insulated-pizza-delivery-bags'),'Pizza-specific enquiry required')
@@ -380,3 +380,4 @@ assert((await readFile(join(root,'404.html'),'utf8')).includes('noindex, follow'
 console.log(`Verified ${files.length} HTML documents: distinct titles, H1, language, canonical, alternates, schema, local links/assets, sitemap and 404.`)
 console.log(`Verified commercial terms for ${Object.keys(commercialProfiles).length} products in three languages, ${stockSpecifications.length} stock rows from ${sourceRows.length} source rows, and matching visible FAQ/schema.`)
 console.log('Verified six document records, original holders, provenance, stated validity, scope limitations, cover assets and document-specific enquiry links in three languages.')
+
