@@ -87,6 +87,35 @@
     }
   },
   {
+    "kind": "industry",
+    "slug": "fda-traceability-meeting-insulated-packaging-records",
+    "publishedAt": "2026-10-12",
+    "title": {
+      "en": "FDA Announces Traceability Meeting: Keep Food and Packaging Records Distinct",
+      "zh": "FDA宣布食品批次追溯会议：食品记录与包装验收分开管理",
+      "es": "La FDA anuncia una reunión de trazabilidad: diferencie registros de alimentos y embalaje"
+    },
+    "description": {
+      "en": "An October FDA meeting notice concerns food lot-level tracking. For insulated packaging buyers, distinguish food identities, packing records and sample approvals.",
+      "zh": "FDA于10月发布食品批次追溯会议通知。保温包装采购应区分食品批次、打包关联记录和包装样品版本，不将会议通知当作包装认证。",
+      "es": "Un aviso de octubre de la FDA trata el seguimiento de lotes. Distinga identidad del alimento, registro de embalado y aprobación de muestras térmicas."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-12/food-dispatch-cartons-labels.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "Closed kraft cartons with blank white labels, a folded silver pouch and a blank clipboard on a packing bench",
+        "zh": "打包台上的闭合牛皮纸箱和空白白色标签，旁边放着折叠银色袋与空白夹板",
+        "es": "Cajas kraft cerradas con etiquetas blancas, bolsa plateada plegada y portapapeles vacío sobre una mesa de embalado"
+      },
+      "caption": {
+        "en": "Generic food-dispatch packaging. Blank labels are visual props, not an official record or required label format.",
+        "zh": "通用食品发货包装场景。空白标签是展示道具，不是官方记录或法定标签格式。",
+        "es": "Escena genérica de despacho. Las etiquetas vacías son accesorios visuales, no un registro oficial ni un formato obligatorio."
+      }
+    }
+  },
+  {
     "kind": "guide",
     "slug": "insulated-shopping-bags-frozen-food",
     "publishedAt": "2026-10-07",

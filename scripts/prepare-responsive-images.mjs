@@ -46,6 +46,7 @@ const sources = [...new Set([
   'images/editorial/2026-10-12/pizza-carrier-kraft-cartons.webp',
   'images/editorial/2026-10-12/navy-front-opening-tray-carrier.webp',
   'images/editorial/2026-10-12/teal-beverage-tote-cup-dividers.webp',
+  'images/editorial/2026-10-12/food-dispatch-cartons-labels.webp',
   ...Object.values(crops).map(crop => crop.file),
   ...Object.values(standardized).map(file => `images/products/${file}`),
 ].map(source => standardized[source.replace(/^images\/products\//, '')] ? `images/products/${standardized[source.replace(/^images\/products\//, '')]}` : source))]

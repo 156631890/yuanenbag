@@ -1301,6 +1301,40 @@
       }
     ]
   },
+  "images/editorial/2026-10-12/food-dispatch-cartons-labels.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/d1a35e1f5088-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/665e68589a1a-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/d3e4eb2c2af0-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/0f30c79f4497-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/9ed29bb41c6e-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/aaca3a433e49-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/da63f38652f5-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
   "images/factory/building-crop.webp": {
     "width": 940,
     "height": 701,

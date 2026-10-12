@@ -1,0 +1,18 @@
+{
+  "name": "food-dispatch-cartons-labels",
+  "source": "C:/Users/Administrator/.codex/generated_images/01a0c806-5c48-7793-814b-5d33d8e4c624/exec-80e0fd35-4ca7-4180-95a8-de10634bee77.png",
+  "prompt": "Use case: photorealistic-natural editorial cover illustration, 3:2 landscape 1536x1024. A quiet generic food dispatch workbench: several closed plain kraft cartons grouped naturally beside a folded silver thermal pouch, with two small blank white label stickers attached to the carton surfaces and an unbranded closed clipboard resting nearby. Close tabletop oblique composition with cartons across most of the horizontal frame; visible corrugated cardboard and restrained matte metallic wrinkles. Coherent neutral packing room, soft daylight, continuous grey bench and blurred shelves behind, no readable text, barcodes, serial numbers, official logos, stamps, screens or people. No infographic, split panels, floating objects, excessive empty space or glossy CGI. This illustration evokes packaging identification in food dispatch without representing an FDA event, specific facility, mandatory label format or actual traceability record.",
+  "tool": "image_gen built-in",
+  "generatedOn": "2026-10-12",
+  "kind": "illustration",
+  "rights": "Output use under applicable OpenAI terms. Ownership/similarity limits checked 2026-10-12: https://openai.com/policies/terms-of-use/ ; no brand logos, source-image copying or exclusive-rights guarantee",
+  "visualCheck": "Generated image viewed; coherent background, clear subject, plausible shape; material-specific cover regenerated after remote product correction, not a physical sample. Actual responsive page checks recorded separately.",
+  "humanApproval": false,
+  "optimized": {
+    "file": "images/editorial/2026-10-12/food-dispatch-cartons-labels.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 96446,
+    "operation": "same-aspect resize and WebP encoding only"
+  }
+}
