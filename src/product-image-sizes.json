@@ -935,5 +935,12 @@
   "insulated-meal-prep-bags/handle-attachment-v1.webp": {"width": 1200, "height": 1200},
   "standardized/insulated-meal-prep-bags/handle-attachment-v1.webp": {"width": 1200, "height": 1200},
   "insulated-meal-prep-bags/empty-interior-v1.webp": {"width": 1200, "height": 1200},
-  "standardized/insulated-meal-prep-bags/empty-interior-v1.webp": {"width": 1200, "height": 1200}
+  "standardized/insulated-meal-prep-bags/empty-interior-v1.webp": {"width": 1200, "height": 1200},
+  "insulated-beverage-delivery-bags/cup-layout-v1.webp": {"width":1200,"height":1200},
+  "insulated-beverage-delivery-bags/cold-drink-packing-v1.webp": {"width":1200,"height":1200},
+  "insulated-beverage-delivery-bags/closed-exterior-v1.webp": {"width":1200,"height":1200},
+  "insulated-beverage-delivery-bags/cup-access-v1.webp": {"width":1200,"height":1200},
+  "insulated-beverage-delivery-bags/removable-divider-v1.webp": {"width":1200,"height":1200},
+  "insulated-beverage-delivery-bags/hand-carry-v1.webp": {"width":1200,"height":1200},
+  "insulated-beverage-delivery-bags/zipper-divider-detail-v1.webp": {"width":1200,"height":1200}
 }

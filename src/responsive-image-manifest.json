@@ -7400,5 +7400,243 @@
         "width": 1200
       }
     ]
+  },
+  "images/products/standardized/insulated-beverage-delivery-bags/cup-layout-v1.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/c54fad7bff65-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/e28a722a6fd0-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/0d92bfb6a5c4-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/6a7a141d3bd3-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/af655054a4b8-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/2cc92c22de90-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/580eeb475df4-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-beverage-delivery-bags/cold-drink-packing-v1.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/3cf8b06d72c2-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/1e6e5f4084fd-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/036668b38b2d-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/5ce008c4e628-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/b669c1e56004-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/efee38d4b432-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/336ae2a7616b-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-beverage-delivery-bags/closed-exterior-v1.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/e791e4ad1de5-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/3272b0e7d53e-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/56935677efae-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/a1c697b91fa7-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/18117f239658-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/fc312bda5128-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/eae9f893e04a-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-beverage-delivery-bags/cup-access-v1.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/3931d773ced6-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/308cdb1cd90c-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/8f4c8da5d157-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/8d8ed110fdf2-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/c914ff33093a-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/ee10fb8d7963-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/338fb59be0ff-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-beverage-delivery-bags/removable-divider-v1.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/33de81710de9-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/a0c32f379c03-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/73a567cfd434-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/a239d4348128-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/77a07216d3a2-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/318d84a8afc8-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/72d629c21941-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-beverage-delivery-bags/hand-carry-v1.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/d10b3bb5d448-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/2d252bc54d1a-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/65417f354606-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/e9e748fd12ee-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/be42e1b9ac19-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/5c0fd87b3101-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/a382d465e93d-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-beverage-delivery-bags/zipper-divider-detail-v1.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/6fa6eb61ad76-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/feac10c38336-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/780ab99e4b7c-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/9a80cfc2ed02-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/422c28d809cd-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/1b58d82a885a-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/5d121a03b1c8-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

@@ -35,7 +35,7 @@ const addedGalleryCounts={'square-zipper-cake-cooler':6,'water-fill-ice-packs':5
 const photoProducts=catalogAudit.bags.filter(b=>b.collection==='yuanen-photos-2026')
 assert.equal(catalogAudit.bags.filter(b=>b.collection==='yuanen-2026').length,24,'Retain the original cold-chain catalog plus the cooler variants')
 assert.deepEqual(photoProducts.map(b=>b.slug).sort(),['compact-insulated-lunch-bags','double-film-self-absorbing-ice-packs','foil-insulated-box-liners','gold-trim-insulated-cake-bags','gusseted-self-seal-foil-bags','side-absorbing-ice-packs'])
-assert.deepEqual(catalogAudit.bags.filter(b=>b.collection==='custom-designs-2026').map(b=>b.slug),['insulated-pizza-delivery-bags','insulated-catering-bags','insulated-meal-prep-bags'],'Only the three user-approved custom designs may publish')
+assert.deepEqual(catalogAudit.bags.filter(b=>b.collection==='custom-designs-2026').map(b=>b.slug),['insulated-pizza-delivery-bags','insulated-catering-bags','insulated-meal-prep-bags','insulated-beverage-delivery-bags'],'Only the four user-approved custom designs may publish')
 assert(catalogAudit.bags.every(b=>['yuanen-2026','yuanen-photos-2026','custom-designs-2026'].includes(b.collection)),'Unselected category published')
 assert.equal(photoImport.files.filter(f=>f.selected).length,20,'Expected curated sample photographs')
 assert.equal(icePhotoImport.files.filter(f=>f.selected).length,14,'Expected curated ice-pack photographs')
@@ -113,6 +113,13 @@ for (const file of files) {
         assert(html.includes('?bag=insulated-meal-prep-bags'),'Meal prep-specific enquiry required')
         assert(/AI-assisted|AI 辅助|asistida por IA/.test(html),'Meal prep AI disclosure')
         assert(!html.includes('/review/product-batch/'),'No draft review links in meal prep page')
+      }else if(ownProduct.slug==='insulated-beverage-delivery-bags'){
+        const views=["cup-layout","cold-drink-packing","closed-exterior","cup-access","removable-divider","hand-carry","zipper-divider-detail"]
+        assert.deepEqual(product.image.map(url=>new URL(url).pathname),views.map(v=>'/images/products/standardized/insulated-beverage-delivery-bags/'+v+'-v1.webp'),'Approved beverage gallery and order')
+        for(const id of ['applications','materials','features','order-quantities','pricing','delivery','dimensions','export','beverage-cup-layout','beverage-questions','beverage-quote']) assert(html.includes('id="'+id+'"'),'Missing beverage section '+id)
+        assert(html.includes('?bag=insulated-beverage-delivery-bags'),'Beverage-specific enquiry required')
+        assert(/AI-assisted|AI 定制|Propuesta con IA/.test(html),'Beverage design disclosure')
+        assert(!html.includes('/review/product-batch/'),'No draft review links in beverage page')
       }else{
       const views=['open-bag-boxes','pizza-takeaway','closed-exterior','hand-carry','zipper-lining','handle-attachment','base-seams']
       assert.deepEqual(product.image.map(url=>new URL(url).pathname),views.map(view=>'/images/products/standardized/insulated-pizza-delivery-bags/'+view+'-bg-v4.webp'),'Approved pizza design gallery and order')

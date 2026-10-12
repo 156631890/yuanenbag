@@ -15,3 +15,6 @@ export const CustomizationOrderOptions = lazy(() => import('./CustomizationOrder
 export const MealPrepDetails = lazy(() => import('./MealPrepDetails'))
 export const MailerDetails = lazy(() => import('./MailerDetails'))
 export const CateringDetails = lazy(() => import('./CateringDetails'))
+
+export const ReferenceNote = lazy(() => import('./ReferenceNote'))
+export const BeverageDetails = lazy(() => import('./BeverageDetails'))

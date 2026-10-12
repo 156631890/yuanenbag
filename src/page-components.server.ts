@@ -12,3 +12,6 @@ export {default as CustomizationOrderOptions} from './CustomizationOrderOptions'
 export {default as MealPrepDetails} from './MealPrepDetails'
 export {default as MailerDetails} from './MailerDetails'
 export {default as CateringDetails} from './CateringDetails'
+
+export {default as ReferenceNote} from './ReferenceNote'
+export {default as BeverageDetails} from './BeverageDetails'
