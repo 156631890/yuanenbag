@@ -17,3 +17,48 @@
 
 /* Standardized exports already include the catalogue's 10% subject margin. */
 .bag-visual:has(.product-reference){padding:0;background:#f6f6f4}.bag-visual .product-reference,.collection-image .product-reference{width:100%;height:100%;object-fit:contain;mix-blend-mode:normal}.collection-image{background:#f6f6f4}
+
+/* Keep short buyer copy and square photographs in one balanced reading row. */
+.product-specification,
+.detail-block { max-width: 1240px; margin-inline: auto; }
+#applications .detail-block-heading,
+#materials .detail-block-heading,
+#features .detail-block-heading,
+#applications .detail-columns,
+#materials .detail-columns,
+#features .product-function-layout {
+  max-width: 1240px;
+  margin-inline: auto;
+}
+#applications .detail-columns,
+#materials .detail-columns {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 440px);
+  gap: 48px;
+  align-items: center;
+}
+.product-editorial-figure { max-width: 440px; }
+#applications .application-visual { justify-self: end; width: 100%; }
+#materials .product-editorial-figure { justify-self: end; }
+#features .product-function-layout {
+  grid-template-columns: minmax(0, 440px) minmax(0, 1fr);
+  gap: 28px 48px;
+  align-items: center;
+}
+#features .function-grid { min-height: 440px; }
+#features .function-grid > div { display: flex; flex-direction: column; justify-content: center; }
+#features .function-grid h3 { margin: 0 0 12px; }
+#features .technical-note { margin: 0; }
+@media (max-width: 960px) {
+  #applications .detail-columns,
+  #materials .detail-columns { grid-template-columns: 1.1fr 1fr; gap: 28px; }
+  #features .product-function-layout { grid-template-columns: 1fr 1.1fr; gap: 24px 28px; }
+  #features .function-grid { min-height: 0; }
+}
+@media (max-width: 650px) {
+  #applications .detail-columns,
+  #materials .detail-columns,
+  #features .product-function-layout { grid-template-columns: 1fr; gap: 24px; }
+  .product-editorial-figure,
+  #applications .application-visual,
+  #materials .product-editorial-figure { justify-self: center; margin-inline: auto; }
+}
