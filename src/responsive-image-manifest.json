@@ -7638,5 +7638,243 @@
         "width": 1200
       }
     ]
+  },
+  "images/products/standardized/insulated-ice-cream-delivery-bags/tub-packout-v1.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/7098b709929d-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/7ceb2adf0638-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/f24f79e595b2-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/c1df52133273-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/4d9b9564aa0a-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/a35be1467d94-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/5aeb5647e033-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-ice-cream-delivery-bags/packing-application-v1.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/f1843b05833f-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/65eccf68c861-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/678ea6797c7b-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/75d1873bcf91-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/5537ff10ecfc-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/b68140781f75-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/1aad26f79d70-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-ice-cream-delivery-bags/closed-exterior-v1.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/29b2222c49a5-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/2744ed11fc33-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/b9189e960eb1-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/785caba20ca9-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/e08def126e37-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/da4d490a9b28-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/73678e440a08-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-ice-cream-delivery-bags/tub-loading-v1.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/9b480447e03e-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/8fa73e4f0fce-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/11de50d966e0-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/114f646d529a-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/332098f2e19c-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/6c72b0c68562-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/fa6625ae1c6f-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-ice-cream-delivery-bags/empty-interior-v1.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/3cc58f8b63fb-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/e1e9483bf32f-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/57186b290480-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/7c274d8219ed-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/8155340b63a4-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/e32359a561f8-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/73112590c7ac-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-ice-cream-delivery-bags/hand-carry-v1.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/bb56e5805cd6-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/208baabd53f9-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/b6b1d4e913d6-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/6cb2da8a26bb-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/a480ad80a361-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/8f4ad860231f-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/a456f743db96-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-ice-cream-delivery-bags/zipper-lining-v1.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/e055e49ff3c8-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/f4800f3f4a79-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/4f1f11068288-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/c899b206a1b6-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/4c0dc415f2c9-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/7f47187a18e1-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/a9a0e9949a79-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

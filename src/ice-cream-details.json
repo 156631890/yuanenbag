@@ -1,0 +1,110 @@
+{
+  "en": {
+    "sections": [
+      {
+        "title": "Fit the closed tub",
+        "body": "Use the outside diameter at the widest rim and the total height with the lid fitted. Check that fingers can reach the tub without forcing the lid or rubbing the zipper."
+      },
+      {
+        "title": "Allocate refrigerant space",
+        "body": "Specify refrigerant separately for the required frozen temperature range. Check its conditioned dimensions, placement and separation from the tub. The illustration does not specify a refrigerant or its quantity."
+      },
+      {
+        "title": "Verify the complete delivery arrangement",
+        "body": "Test the selected carrier, closed tub and refrigerant together under the intended route conditions. Record product temperature and opening events; approve the sample against your acceptance criteria."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is the round carrier a stocked, tested model?",
+        "answer": "It is a custom design proposal informed by the existing fabric cooler range. The cylindrical body and round lid require sample confirmation. Images do not establish stock availability, load rating or thermal performance."
+      },
+      {
+        "question": "Are the tub and refrigerant included?",
+        "answer": "They are display props. Confirm any supplied refrigerant or container separately in the written quotation; the illustrated tub does not define rated capacity."
+      },
+      {
+        "question": "Can it carry several cups instead of a tub?",
+        "answer": "Share the filled cup and lid dimensions and the intended arrangement. A multi-cup layout needs its own sample fit and handling review. This illustration has one undivided compartment and does not establish cup separation or spill resistance."
+      },
+      {
+        "question": "How are size, branding and order terms determined?",
+        "answer": "Agree the pack-out and sample construction first, including usable diameter, height, closure clearance and handle position. Colour, print area, quantity, price and lead time are then confirmed by written quotation."
+      }
+    ],
+    "order": "For a sample enquiry, send the closed tub dimensions, filled weight, required temperature range, refrigerant proposal, delivery conditions and branding artwork. If the pack-out is undecided, use the sample stage to compare arrangements before fixing order specifications.",
+    "performance": "Insulation slows heat exchange; it does not supply refrigeration. No dry-ice suitability, food-contact certification or fixed cold-holding claim is made for this proposed construction."
+  },
+  "zh": {
+    "sections": [
+      {
+        "title": "先确认封盖桶体",
+        "body": "以桶体最宽外径和封盖后的总高度为依据，核对手部能否取放桶体，避免挤压桶盖或摩擦拉链。"
+      },
+      {
+        "title": "预留冰源位置",
+        "body": "根据目标冷冻温度范围另行确定冰源，核对预处理后的尺寸、位置及与桶体的隔离方式。示意图不规定冰源类型或用量。"
+      },
+      {
+        "title": "验证完整配送装载",
+        "body": "在计划配送条件下测试选定包体、封盖桶体和冰源的组合。记录产品温度及开盖情况，按项目验收标准确认样品。"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "圆筒包是已备货、已测试的款式吗？",
+        "answer": "这是参考现有织物保温包形成的定制方案，圆筒袋身与圆形上盖需打样确认。图片不代表现货、额定承重或已验证的保冷性能。"
+      },
+      {
+        "question": "桶体和冰源会随包提供吗？",
+        "answer": "它们为展示道具。若需要配套冰源或容器，请在正式报价中单独确认；示意桶体不定义额定容量。"
+      },
+      {
+        "question": "可以装多杯小杯冰淇淋吗？",
+        "answer": "请提供装好后的杯体、杯盖尺寸及计划排列。多杯布局需要另行试装与搬运核对；本图为单仓方案，不表示具备杯位分隔或防漏能力。"
+      },
+      {
+        "question": "尺寸、品牌及订购条件如何确定？",
+        "answer": "先确认装载方案和样品结构，包括可用直径、高度、封口余量与提手位置。颜色、印刷区域、数量、价格及交期再通过正式报价确认。"
+      }
+    ],
+    "order": "样品询价请提供封盖桶体尺寸、装载重量、目标温度范围、冰源方案、配送条件及品牌图稿。装载方式尚未确定时，先通过样品比较组合，再确定订单规格。",
+    "performance": "隔热结构减缓热交换，不提供制冷。本拟定结构不声明适用干冰、具备食品接触认证或固定保冷效果。"
+  },
+  "es": {
+    "sections": [
+      {
+        "title": "Ajustar la tarrina cerrada",
+        "body": "Tome el diámetro exterior máximo y la altura con tapa. Compruebe acceso para los dedos sin presionar la tapa ni rozar la cremallera."
+      },
+      {
+        "title": "Reservar espacio para refrigerante",
+        "body": "Especifique aparte el refrigerante para el rango congelado requerido. Revise dimensiones acondicionadas, posición y separación de la tarrina. La ilustración no prescribe tipo ni cantidad."
+      },
+      {
+        "title": "Verificar el conjunto de reparto",
+        "body": "Pruebe bolsa, tarrina cerrada y refrigerante juntos en las condiciones previstas. Registre temperatura del producto y aperturas; apruebe la muestra según sus criterios."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Es un modelo disponible y ensayado?",
+        "answer": "Es una propuesta basada en la gama de bolsas térmicas de tejido. El cuerpo y la tapa circulares requieren muestra. Las imágenes no acreditan existencias, carga nominal ni prestaciones térmicas."
+      },
+      {
+        "question": "¿Incluye tarrina y refrigerante?",
+        "answer": "Son accesorios ilustrativos. Confirme recipientes o refrigerantes por separado en la cotización; la tarrina mostrada no define capacidad nominal."
+      },
+      {
+        "question": "¿Puede llevar varios vasos en lugar de una tarrina?",
+        "answer": "Facilite medidas de vasos llenos, tapas y distribución. Varios vasos requieren revisión de ajuste y transporte. La ilustración tiene un solo compartimento; no acredita separación ni resistencia a derrames."
+      },
+      {
+        "question": "¿Cómo se definen medidas, marca y pedido?",
+        "answer": "Acuerde primero embalaje y muestra: diámetro útil, altura, holgura de cierre y asas. Color, impresión, cantidad, precio y plazo se confirman después por cotización."
+      }
+    ],
+    "order": "Para solicitar muestra, indique medidas de tarrina cerrada, peso lleno, rango térmico, refrigerante, condiciones de reparto y diseño de marca. Si el embalaje no está definido, compare opciones con muestras antes de fijar el pedido.",
+    "performance": "El aislamiento reduce el intercambio térmico, pero no genera frío. Esta propuesta no declara aptitud para hielo seco, certificación de contacto alimentario ni autonomía térmica fija."
+  }
+}

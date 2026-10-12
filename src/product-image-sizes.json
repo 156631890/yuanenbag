@@ -942,5 +942,12 @@
   "insulated-beverage-delivery-bags/cup-access-v1.webp": {"width":1200,"height":1200},
   "insulated-beverage-delivery-bags/removable-divider-v1.webp": {"width":1200,"height":1200},
   "insulated-beverage-delivery-bags/hand-carry-v1.webp": {"width":1200,"height":1200},
-  "insulated-beverage-delivery-bags/zipper-divider-detail-v1.webp": {"width":1200,"height":1200}
+  "insulated-beverage-delivery-bags/zipper-divider-detail-v1.webp": {"width":1200,"height":1200},
+  "insulated-ice-cream-delivery-bags/tub-packout-v1.webp": {"width": 1200, "height": 1200},
+  "insulated-ice-cream-delivery-bags/packing-application-v1.webp": {"width": 1200, "height": 1200},
+  "insulated-ice-cream-delivery-bags/closed-exterior-v1.webp": {"width": 1200, "height": 1200},
+  "insulated-ice-cream-delivery-bags/tub-loading-v1.webp": {"width": 1200, "height": 1200},
+  "insulated-ice-cream-delivery-bags/empty-interior-v1.webp": {"width": 1200, "height": 1200},
+  "insulated-ice-cream-delivery-bags/hand-carry-v1.webp": {"width": 1200, "height": 1200},
+  "insulated-ice-cream-delivery-bags/zipper-lining-v1.webp": {"width": 1200, "height": 1200}
 }

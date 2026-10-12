@@ -1,3 +1,4 @@
+import { iceCreamBag, iceCreamImages, iceCreamSectionImages } from './ice-cream-product'
 import { beverageBag, beverageImages, beverageSectionImages } from './beverage-product'
 import { mealPrepBag, mealPrepImages, mealPrepSectionImages } from './meal-prep-product'
 import { pizzaDeliveryBag, pizzaDeliveryImages, pizzaDeliverySectionImages } from './pizza-delivery-product'
@@ -13,6 +14,7 @@ export const isMeasurementPhoto=(file:string)=>foilMeasurementImages.includes(fi
 const sampleImage=(file:string):ProductImage=>({file,kind:isMeasurementPhoto(file)?'measurement':'photograph'})
 // Accepted product visualizations go here after comparison with the catalog source.
 export const productPresentations: Record<string, string> = {
+  [iceCreamBag.slug]: iceCreamImages[0].file,
   [beverageBag.slug]: beverageImages[0].file,
   [mealPrepBag.slug]: mealPrepImages[0].file,
   [cateringBag.slug]: cateringImages[0].file,
@@ -37,6 +39,7 @@ export const productPresentations: Record<string, string> = {
 }
 const detailImages = new Set(['404','405','407','446','449','450','451','495','496','497','498','534','538','539','540','541'])
 export function productImages(bag: Bag): ProductImage[] {
+  if (bag.slug === iceCreamBag.slug) return iceCreamImages
   if (bag.slug === beverageBag.slug) return beverageImages
   if (bag.slug === mealPrepBag.slug) return mealPrepImages
   if (bag.slug === cateringBag.slug) return cateringImages
@@ -161,6 +164,7 @@ export function productImages(bag: Bag): ProductImage[] {
   return images
 }
 export function productDetailImage(slug: string, kind: 'application' | 'detail' | 'structure') {
+  if (slug === iceCreamBag.slug) return iceCreamSectionImages[kind]
   if (slug === beverageBag.slug) return beverageSectionImages[kind]
   if (slug === mealPrepBag.slug) return mealPrepSectionImages[kind]
   if (slug === cateringBag.slug) return cateringSectionImages[kind]
