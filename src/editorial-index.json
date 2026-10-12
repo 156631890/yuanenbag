@@ -1,6 +1,35 @@
 [
   {
     "kind": "guide",
+    "slug": "beverage-delivery-bag-cup-divider-fit",
+    "publishedAt": "2026-10-12",
+    "title": {
+      "en": "Cup Dividers for Beverage Delivery Bags: A Fit Checklist",
+      "zh": "饮品配送包杯位分隔：杯盖间距与少量装载怎么检查",
+      "es": "Separadores para bolsas de reparto de bebidas: comprobación del ajuste"
+    },
+    "description": {
+      "en": "Compare cup bases, lid widths, hand access and partial loads before confirming a removable divider for an insulated beverage delivery bag.",
+      "zh": "确认饮品配送保温包可拆分隔前，比较杯底、杯盖最大宽度、手部取杯空间和部分杯位装载，不把示意杯数当作额定容量。",
+      "es": "Compare bases, anchura de tapas, acceso para las manos y cargas parciales antes de confirmar un separador extraíble para una bolsa térmica de bebidas."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-12/teal-beverage-tote-cup-dividers.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "Open teal fabric tote with silver lining, soft dividers and three kraft cups with black lids on a wooden counter",
+        "zh": "木质台面上打开的深青织物提包，银色内衬和软质分隔内放着三只黑盖牛皮纸杯",
+        "es": "Bolsa de tejido verde azulado abierta con forro plateado, separadores blandos y tres vasos kraft con tapas negras sobre una mesa de madera"
+      },
+      "caption": {
+        "en": "A generic divided beverage tote. The cup count and divider arrangement are illustrative, not a confirmed capacity.",
+        "zh": "通用带分隔饮品提包。杯数及分隔排列为展示示意，不是已确认的容量。",
+        "es": "Bolsa genérica con separadores. Número de vasos y disposición ilustrativos, sin capacidad confirmada."
+      }
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "catering-bag-front-opening-tray-fit",
     "publishedAt": "2026-10-12",
     "title": {

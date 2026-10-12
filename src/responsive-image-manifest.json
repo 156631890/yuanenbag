@@ -1267,6 +1267,40 @@
       }
     ]
   },
+  "images/editorial/2026-10-12/teal-beverage-tote-cup-dividers.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/0d3ecd52d517-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/02fcf2f1d4c1-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/548bd54ae7d7-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/8717469efd5a-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/ce6ddd4a5bc8-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/8e583e765581-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/1202f112ac45-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
   "images/factory/building-crop.webp": {
     "width": 940,
     "height": 701,

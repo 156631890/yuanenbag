@@ -1,0 +1,18 @@
+{
+  "name": "teal-beverage-tote-cup-dividers",
+  "source": "C:/Users/Administrator/.codex/generated_images/01a0c806-5c48-7793-814b-5d33d8e4c624/exec-440cb451-2f9a-4561-9634-e36ed6ff5132.png",
+  "prompt": "Use case: photorealistic-natural editorial cover illustration, 3:2 landscape 1536x1024. A generic muted petrol-teal non-woven spunbond insulated beverage tote on a continuous light oak cafe counter, top zipper lid hinged backward; short webbing handles attached to the body, silver crinkled inner lining and soft textile divider cells. Show three unbranded kraft paper takeaway cups with fitted matte black lids seated upright in separate cells; one nearby divider cell visibly empty. Cup lids distinct with plausible snug geometry, no straws, spills or exaggerated condensation. Close high three-quarter view, entire bag including handles fills approximately 80% frame width, enough space to read its construction. Natural morning window light, fine random non-woven fibers and bonded-dot texture, not woven cloth or canvas, small ordinary wrinkles, restrained colour, subtle contact shadows and soft defocused cafe backdrop. Do not use plastic shine, CGI rendering, isolated-white product staging, montage, two backgrounds, diagram, text, logo, printed cup markings, humans or props unrelated to the tote. Generic editorial illustration, not documentary evidence or verified product capacity.",
+  "tool": "image_gen built-in",
+  "generatedOn": "2026-10-12",
+  "kind": "illustration",
+  "rights": "Output use under applicable OpenAI terms. Ownership/similarity limits checked 2026-10-12: https://openai.com/policies/terms-of-use/ ; no brand logos, source-image copying or exclusive-rights guarantee",
+  "visualCheck": "Generated image viewed; coherent background, clear subject, plausible shape; material-specific cover regenerated after remote product correction, not a physical sample. Actual responsive page checks recorded separately.",
+  "humanApproval": false,
+  "optimized": {
+    "file": "images/editorial/2026-10-12/teal-beverage-tote-cup-dividers.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 166496,
+    "operation": "same-aspect resize and WebP encoding only"
+  }
+}
