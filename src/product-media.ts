@@ -1,3 +1,4 @@
+import { mealPrepBag, mealPrepImages, mealPrepSectionImages } from './meal-prep-product'
 import { pizzaDeliveryBag, pizzaDeliveryImages, pizzaDeliverySectionImages } from './pizza-delivery-product'
 import { cateringBag, cateringImages, cateringSectionImages } from './catering-product'
 import sizes from './product-image-sizes.json'
@@ -11,6 +12,7 @@ export const isMeasurementPhoto=(file:string)=>foilMeasurementImages.includes(fi
 const sampleImage=(file:string):ProductImage=>({file,kind:isMeasurementPhoto(file)?'measurement':'photograph'})
 // Accepted product visualizations go here after comparison with the catalog source.
 export const productPresentations: Record<string, string> = {
+  [mealPrepBag.slug]: mealPrepImages[0].file,
   [cateringBag.slug]: cateringImages[0].file,
   [pizzaDeliveryBag.slug]: pizzaDeliveryImages[0].file,
   "gusseted-foil-cake-bags": "packy/gusseted-foil-cake-bags-new/01.webp",
@@ -33,6 +35,7 @@ export const productPresentations: Record<string, string> = {
 }
 const detailImages = new Set(['404','405','407','446','449','450','451','495','496','497','498','534','538','539','540','541'])
 export function productImages(bag: Bag): ProductImage[] {
+  if (bag.slug === mealPrepBag.slug) return mealPrepImages
   if (bag.slug === cateringBag.slug) return cateringImages
   if (bag.slug === pizzaDeliveryBag.slug) return pizzaDeliveryImages
   if (bag.slug==='double-film-self-absorbing-ice-packs') return [
@@ -155,6 +158,7 @@ export function productImages(bag: Bag): ProductImage[] {
   return images
 }
 export function productDetailImage(slug: string, kind: 'application' | 'detail' | 'structure') {
+  if (slug === mealPrepBag.slug) return mealPrepSectionImages[kind]
   if (slug === cateringBag.slug) return cateringSectionImages[kind]
   if (slug === pizzaDeliveryBag.slug) return pizzaDeliverySectionImages[kind]
   if (sampleSectionPhotos[slug]) return sampleSectionPhotos[slug][kind]

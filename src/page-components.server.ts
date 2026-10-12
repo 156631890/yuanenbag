@@ -8,3 +8,7 @@ export { GuidesArchive, IndustryArchive } from './EditorialPages'
 export {default as OrderReference} from './OrderReference'
 export {default as ContentPolicy} from './ContentPolicy'
 export {default as CustomizationOrderOptions} from './CustomizationOrderOptions'
+
+export {default as MealPrepDetails} from './MealPrepDetails'
+export {default as MailerDetails} from './MailerDetails'
+export {default as CateringDetails} from './CateringDetails'

@@ -1,0 +1,80 @@
+{
+  "en": {
+    "sections": [
+      {
+        "title": "Lay out the containers first",
+        "body": "Measure filled containers with their lids and clips. Arrange the planned meals in the intended carrying position, including any separately specified cold packs. Check the opening as well as the internal width, depth and height."
+      },
+      {
+        "title": "Choose the carrying format",
+        "body": "The proposed top opening lets containers be lowered horizontally into one undivided chamber. Review the body-mounted handles and filled weight together. A shoulder strap, backpack system or separate compartment would change the construction and needs a separate design review."
+      },
+      {
+        "title": "Define the bag and accessories separately",
+        "body": "Specify whether the enquiry covers the bag only or also asks about containers and cold packs. Review the usable artwork area and print method on the selected fabric. Agree cleaning expectations for the final lining and seams."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Are meal containers and cold packs included?",
+        "answer": "They are not included by default in this bag proposal. List the requested items separately so the quotation can state its exact scope."
+      },
+      {
+        "question": "Can I use the same size as a lunch bag?",
+        "answer": "Only if the actual packed layout fits. Several containers and cold packs may change usable space and handle balance. Check the complete load in a sample before agreeing the dimensions."
+      }
+    ]
+  },
+  "zh": {
+    "sections": [
+      {
+        "title": "先排餐盒，再定袋体",
+        "body": "测量装好后的餐盒，包括盖子和锁扣。按计划携带的姿态排列餐盒，并计入另配冰源的空间。除内部宽、深、高之外，还要检查开口是否便于装取。"
+      },
+      {
+        "title": "确定提携方式",
+        "body": "拟定上开口便于餐盒保持水平放入单仓；应结合装载重量核对袋身提手与提携平衡。肩带、背负系统或独立分仓会改变结构，需要另行设计确认。"
+      },
+      {
+        "title": "分别确认袋体与配件",
+        "body": "询价时区分仅采购袋体，或同时咨询餐盒和冰袋。结合选定面料核对可用印刷区域和印刷工艺，并按最终内衬与接缝确定清洁要求。"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "包含餐盒和冰袋吗？",
+        "answer": "本袋体方案不默认包含餐盒和冰袋；需要时分别列出，以便报价明确范围。"
+      },
+      {
+        "question": "直接沿用普通午餐包尺寸可以吗？",
+        "answer": "只有实际装载方案能够适配时才可沿用。多餐盒与冰源会影响可用空间及提手平衡，应完整装载样品后再确认尺寸。"
+      }
+    ]
+  },
+  "es": {
+    "sections": [
+      {
+        "title": "Distribuya primero los recipientes",
+        "body": "Mida los recipientes llenos con tapas y cierres. Distribuya las comidas en la posición de transporte prevista e incluya los refrigerantes especificados por separado. Compruebe la apertura y el ancho, fondo y alto interiores."
+      },
+      {
+        "title": "Elija la forma de transporte",
+        "body": "La apertura superior propuesta permite introducir los recipientes en horizontal en un compartimento único. Revise las asas fijadas al cuerpo con el peso cargado. Una correa, sistema de mochila o compartimento separado requiere una revisión de diseño adicional."
+      },
+      {
+        "title": "Defina bolsa y accesorios por separado",
+        "body": "Aclare si la consulta cubre solo la bolsa o también recipientes y refrigerantes. Revise el área de impresión y el proceso según el tejido elegido. Acuerde la limpieza para el forro y las costuras finales."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Incluye recipientes y refrigerantes?",
+        "answer": "No se incluyen por defecto en esta propuesta de bolsa. Enumere los artículos solicitados para definir el alcance exacto de la cotización."
+      },
+      {
+        "question": "¿Puedo utilizar el tamaño de una bolsa de almuerzo?",
+        "answer": "Solo si cabe la configuración real. Varios recipientes y refrigerantes pueden cambiar el espacio útil y el equilibrio de las asas. Compruebe la carga completa en una muestra."
+      }
+    ]
+  }
+}

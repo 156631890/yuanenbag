@@ -4,7 +4,22 @@ import { fileURLToPath } from 'node:url'
 
 export default defineConfig(({ mode, isSsrBuild }) => ({
   plugins: [react()],
-  build: { manifest: true },
+  build: {
+    manifest: true,
+    ...(!isSsrBuild && {
+      rolldownOptions: {
+        output: {
+          codeSplitting: {
+            groups: [{
+              name: 'app-core',
+              test: /node_modules[\\/](?:react|react-dom|scheduler)[\\/]|src[\\/](?:App|main)\.tsx$/,
+              includeDependenciesRecursively: true,
+            }],
+          },
+        },
+      },
+    }),
+  },
   resolve: {
     alias: { '#page-components': fileURLToPath(new URL(isSsrBuild ? './src/page-components.server.ts' : './src/page-components.ts', import.meta.url)) },
   },

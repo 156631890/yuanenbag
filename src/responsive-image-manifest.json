@@ -7162,5 +7162,243 @@
         "width": 1200
       }
     ]
+  },
+  "images/products/standardized/insulated-meal-prep-bags/open-packout-v1.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/97b80c98bc13-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/800c350dc24b-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/59dbbac7cc75-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/c6bedcd1418b-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/be3e242880d9-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/8733ce774579-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/e7c2682c225f-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-meal-prep-bags/meal-application-v1.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/e1fbc75e207b-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/d6bd0eccc281-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/3285d66f9a02-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/f0c55c9893da-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/47ab8e6a2fa5-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/90fc2bb8e638-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/81e32add558e-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-meal-prep-bags/closed-exterior-v1.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/29b1fabece0b-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/12bf81b0c23f-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/8fb334484f12-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/a2d1a8dc88de-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/4d890c6b73a5-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/cc6f22cf633b-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/155788db303f-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-meal-prep-bags/container-loading-v1.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/4afcc7e4cbae-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/0820e7d49680-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/20efec6bbaef-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/834c3ac64b49-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/d67d202f8ebe-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/9553492ffb12-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/90991baaa870-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-meal-prep-bags/zipper-lining-v1.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/3fc87b57da17-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/163b86c67cf0-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/dbc80d8d4162-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/a2ef5d809074-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/c972aaf149f6-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/1ebc01ee9ae3-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/3b8805253474-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-meal-prep-bags/handle-attachment-v1.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/84383e4ba155-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/5145e973520f-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/afe29e55015c-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/a11a8103410d-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/2b0f933f153f-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/8d367cab0619-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/ad45025da9d5-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-meal-prep-bags/empty-interior-v1.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/2184536339dc-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/98b454e40f91-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/6e78887ebc2a-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/2bffb3c123db-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/140c65eddefe-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/06d9c26a10e6-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/7a9c8ed185a3-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

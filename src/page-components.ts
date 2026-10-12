@@ -11,3 +11,7 @@ export const IndustryArchive = lazy(() => import('./EditorialPages').then(module
 export const OrderReference = lazy(() => import('./OrderReference'))
 export const ContentPolicy = lazy(() => import('./ContentPolicy'))
 export const CustomizationOrderOptions = lazy(() => import('./CustomizationOrderOptions'))
+
+export const MealPrepDetails = lazy(() => import('./MealPrepDetails'))
+export const MailerDetails = lazy(() => import('./MailerDetails'))
+export const CateringDetails = lazy(() => import('./CateringDetails'))

@@ -921,5 +921,19 @@
   "packy/self-adhesive-foil-bags-new/07.webp": {
     "width": 1254,
     "height": 1254
-  }
+  },
+  "insulated-meal-prep-bags/open-packout-v1.webp": {"width": 1200, "height": 1200},
+  "standardized/insulated-meal-prep-bags/open-packout-v1.webp": {"width": 1200, "height": 1200},
+  "insulated-meal-prep-bags/meal-application-v1.webp": {"width": 1200, "height": 1200},
+  "standardized/insulated-meal-prep-bags/meal-application-v1.webp": {"width": 1200, "height": 1200},
+  "insulated-meal-prep-bags/closed-exterior-v1.webp": {"width": 1200, "height": 1200},
+  "standardized/insulated-meal-prep-bags/closed-exterior-v1.webp": {"width": 1200, "height": 1200},
+  "insulated-meal-prep-bags/container-loading-v1.webp": {"width": 1200, "height": 1200},
+  "standardized/insulated-meal-prep-bags/container-loading-v1.webp": {"width": 1200, "height": 1200},
+  "insulated-meal-prep-bags/zipper-lining-v1.webp": {"width": 1200, "height": 1200},
+  "standardized/insulated-meal-prep-bags/zipper-lining-v1.webp": {"width": 1200, "height": 1200},
+  "insulated-meal-prep-bags/handle-attachment-v1.webp": {"width": 1200, "height": 1200},
+  "standardized/insulated-meal-prep-bags/handle-attachment-v1.webp": {"width": 1200, "height": 1200},
+  "insulated-meal-prep-bags/empty-interior-v1.webp": {"width": 1200, "height": 1200},
+  "standardized/insulated-meal-prep-bags/empty-interior-v1.webp": {"width": 1200, "height": 1200}
 }
