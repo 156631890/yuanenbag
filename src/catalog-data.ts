@@ -154,7 +154,7 @@ const entries:Entry[] = [
   },
 ]
 
-export const extraBags:Bag[] = entries.map(e=>({
+export const extraBags:Bag[] = /* @__PURE__ */ entries.map(e=>({
   slug:e.slug,category:e.category,name:e.name,short:e.name,intro:e.intro,material:e.material,use:e.use,
   group:'shopping',color:'#617b8c',type:'box',styles:e.styles,uses:e.uses,considerations:e.points,question:e.q,answer:e.a,
   ...(e.source?{source:e.source,image:`${e.slug}.webp`}:{}),

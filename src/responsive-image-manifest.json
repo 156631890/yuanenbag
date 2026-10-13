@@ -8148,5 +8148,141 @@
         "width": 1254
       }
     ]
+  },
+  "images/products/standardized/packy/upright-dessert-cooler-main.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/8bb4077fcc60-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/1f79ce4057cf-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/472088e1f4c0-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/ad21769663e8-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/9e9c9850f73f-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/877b8dfba97b-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/3021db1cb473-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/details-v2/upright-dessert-cooler-application-v2.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/cb0f05e0fea4-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/e44fb89a88e2-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/3334d7d61a63-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/87c9b33d7f37-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/f81c922e9872-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/b30fd798b93c-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/876aef7da98d-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/details-v2/upright-dessert-cooler-detail-v2.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/9170ad01c771-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/58a5b247c477-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/58a87a84f4c5-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/aeeba437ed20-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/d5ce62061379-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/98ccc3261d61-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/b20fc6072ac5-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/packy/details-v2/upright-dessert-cooler-structure-v2.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/e15ca779fa89-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/a8613ea65178-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/eaddf7857a62-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/a70aeb2a4e9c-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/f476bbf040e1-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/83d45fcb8f3d-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/25faea213887-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

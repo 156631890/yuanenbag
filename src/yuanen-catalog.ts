@@ -781,6 +781,86 @@ export const yuanenProducts:Bag[] = [
     }
   },
   {
+    "slug": "upright-dessert-cooler",
+    "name": {
+      "en": "Upright insulated dessert tote bags",
+      "zh": "立式甜品保温手提包定制｜拉链款",
+      "es": "Bolsas térmicas verticales para postres"
+    },
+    "short": {
+      "en": "Upright dessert cooler tote",
+      "zh": "立式甜品保温手提包",
+      "es": "Bolsa térmica vertical para postres"
+    },
+    "intro": {
+      "en": "An upright tote for boxed desserts and takeaway drinks, with a white body, yellow gussets and black handles. Match the tall compartment and top zipper opening to your closed containers, allowing space for separately specified coolant.",
+      "zh": "白色袋身搭配黄色侧片与包边、黑色提手，适用于盒装甜品和外带饮品。立式空间与顶部拉链需按封好的容器核对装取余量，并为另配冰源预留位置。",
+      "es": "Bolsa vertical para postres en caja y bebidas para llevar, con cuerpo blanco, fuelles amarillos y asas negras. Ajuste el espacio interior y la abertura con cremallera a sus envases cerrados, reservando sitio para refrigerante aparte."
+    },
+    "material": {
+      "en": "Non-woven exterior, EPE foam and foil lining; top zipper and sewn handles",
+      "zh": "无纺布外层、EPE 珍珠棉及铝箔内衬；顶部拉链与缝制提手",
+      "es": "Exterior de tejido no tejido, espuma EPE y forro de aluminio; cremallera superior y asas cosidas"
+    },
+    "use": {
+      "en": "Dessert shops · Bakery pickup · Takeaway drinks",
+      "zh": "甜品门店 · 烘焙自提 · 外带饮品",
+      "es": "Tiendas de postres · Recogida en pastelería · Bebidas para llevar"
+    },
+    "group": "delivery",
+    "color": "#eebc2e",
+    "type": "cooler",
+    "category": "cooler",
+    "styles": [
+      "handle",
+      "zipper"
+    ],
+    "uses": [
+      "thermal"
+    ],
+    "image": "2026/535.webp",
+    "gallery": [
+      "2026/534.webp",
+      "2026/539.webp",
+      "2026/540.webp",
+      "2026/541.webp"
+    ],
+    "collection": "yuanen-2026",
+    "catalogPage": 10,
+    "considerations": [
+      {
+        "en": "Measure the packed container at its widest point, including the lid. Check base fit, usable height and clearance below the closed zipper with a sample.",
+        "zh": "按装好后容器最宽处测量，包含盒盖或杯盖；用样品核对底部匹配、可用高度及拉链闭合后的顶部余量。",
+        "es": "Mida el recipiente lleno en su parte más ancha, incluida la tapa. Compruebe base, altura útil y espacio bajo la cremallera cerrada con una muestra."
+      },
+      {
+        "en": "Confirm the non-woven outer texture, foam specification, foil lining, yellow edging, handle attachment and print area together. Final colours and details follow the approved sample.",
+        "zh": "一并确认无纺布外层纹理、泡棉规格、铝箔内衬、黄色包边、提手固定与印刷区域；最终颜色及细节以确认样品为准。",
+        "es": "Confirme textura del tejido no tejido, espuma, forro de aluminio, ribetes amarillos, fijación de asas y área de impresión. Los colores y detalles finales se aprueban mediante muestra."
+      },
+      {
+        "en": "Test the complete pack-out with the intended food containers, route and coolant. Images illustrate the format, not a rated cup count, load capacity or insulation duration.",
+        "zh": "使用实际食品容器、路线及冰源测试整套装载方案。图片用于说明袋型，不代表额定杯数、承重或保温时长。",
+        "es": "Ensaye el embalaje completo con los envases, la ruta y el refrigerante previstos. Las imágenes ilustran el formato, no una cantidad de vasos, carga o duración térmica garantizada."
+      }
+    ],
+    "question": {
+      "en": "How should I specify an upright dessert cooler tote?",
+      "zh": "定制立式甜品保温包，需要确认哪些内容？",
+      "es": "¿Cómo especificar una bolsa térmica vertical para postres?"
+    },
+    "answer": {
+      "en": "Provide the width, depth and height of the closed dessert box or lidded cup, plus any coolant allowance. A sample should let the container pass through without tilting and close without pressing on the lid. Specify cup holders or separators separately, and check carrying balance with the intended load.",
+      "zh": "提供封好后的甜品盒或带盖杯体的宽、深、高，并说明冰源余量。用样品确认容器无需倾斜即可通过开口，拉链闭合后不挤压盖体。如需杯托或分隔，请另行说明，并按实际装载检查提携平衡。",
+      "es": "Indique ancho, fondo y alto del envase cerrado y la reserva para refrigerante. Compruebe con una muestra que entra sin inclinarse y que la cremallera cierra sin presionar la tapa. Especifique portavasos o separadores aparte y revise el equilibrio con la carga prevista."
+    },
+    "seoTitle": {
+      "en": "Upright Dessert Cooler Tote Bags | YUANEN",
+      "zh": "立式甜品保温手提包定制｜YUANEN 远恩",
+      "es": "Bolsas térmicas verticales para postres | YUANEN"
+    }
+  },
+  {
     "slug": "wide-base-meal-cooler",
     "name": {
       "en": "Insulated food delivery bags with wide base & zipper",
