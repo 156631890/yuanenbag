@@ -1471,6 +1471,40 @@
       }
     ]
   },
+  "images/editorial/2026-10-13/cold-chain-tray-dispatch.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/1ba294fd8dec-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/e8375c220088-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/d0d324bbabc3-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/40c9e234cbe8-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/de6685d5efe5-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/6248a9e91736-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/6a8f236cb10b-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
   "images/factory/building-crop.webp": {
     "width": 940,
     "height": 701,

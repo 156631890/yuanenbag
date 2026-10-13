@@ -1,0 +1,23 @@
+{
+  "tool": "image_gen.imagegen",
+  "source": "C:/Users/Administrator/.codex/generated_images/01a0c806-5c48-7793-814b-5d33d8e4c624/exec-d5b54bfb-e514-4f52-bcbc-3236948348f1.png",
+  "generatedOn": "2026-10-13",
+  "prompt": "Use case: photorealistic-natural. Create one landscape 3:2 editorial cover illustration for a cold-chain industry news article. A generic food dispatch preparation area with a stainless steel service trolley carrying a small stack of plain stainless catering pans with properly fitted closed lids, near a cool-room doorway. The trolley and trays are the clear visual focus and occupy most of the horizontal frame. One continuous coherent room, softly blurred warehouse background, restrained neutral colors and soft natural side light. Realistic brushed metal, small everyday scuffs and fingerprints, convincing lid rims and contact shadows. Eye-level three-quarter view, photographic texture, no glossy CGI, no collage or split scene, no extra background border, no excessive empty space. No people, logos, signs, readable text, numbers, thermometer, badges or certificates. This is a fictional generic editorial illustration, not a photograph of a real GCCA event, venue, YUANEN facility, confirmed product sample or tested operation. Show the entire trolley load with safe balanced framing; no impossible floating or intersecting objects.",
+  "rightsBasis": "Original output in user session; OpenAI Terms of Use effective 2026-01-01 assign output rights to user to extent allowed by law; no external assets/logos; not guaranteed exclusive copyright.",
+  "rightsSource": "https://openai.com/policies/terms-of-use/",
+  "visualInspection": {
+    "singleBackground": true,
+    "naturalLight": true,
+    "actualGccaEventClaim": false,
+    "actualYuanenFacilityClaim": false,
+    "humanApproval": false
+  },
+  "file": "images/editorial/2026-10-13/cold-chain-tray-dispatch.webp",
+  "optimized": {
+    "width": 1200,
+    "height": 800,
+    "bytes": 83498,
+    "operation": "same-aspect resizing and WebP encoding only"
+  }
+}
+

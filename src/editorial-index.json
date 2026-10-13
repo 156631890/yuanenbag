@@ -145,6 +145,35 @@
     }
   },
   {
+    "kind": "industry",
+    "slug": "gcca-philadelphia-cold-chain-packaging-handoff",
+    "publishedAt": "2026-10-13",
+    "title": {
+      "en": "GCCA Philadelphia Cold Chain Meeting Is Scheduled for 14–15 October",
+      "zh": "GCCA费城冷链会议将于10月14日至15日举行",
+      "es": "La reunión de cadena de frío de GCCA en Filadelfia está prevista para el 14 y 15 de octubre"
+    },
+    "description": {
+      "en": "Preview the current GCCA Philadelphia programme and prepare a role-based packaging sample brief. The meeting has not taken place and its agenda may change.",
+      "zh": "核对GCCA费城活动现行议程，为不同交接岗位准备包装样品需求。会议尚未举行，议程可能调整，不把前瞻写成会议结论。",
+      "es": "Consulte el programa vigente de GCCA en Filadelfia y prepare un informe de muestra por función. La reunión aún no se ha celebrado y el programa puede cambiar."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-13/cold-chain-tray-dispatch.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "Closed stainless catering pans on a metal trolley beside an open cold-room doorway",
+        "zh": "打开的冷库门旁，金属推车上摆放着带盖不锈钢餐盘",
+        "es": "Bandejas de catering de acero cerradas sobre un carro metálico junto a una puerta de cámara frigorífica abierta"
+      },
+      "caption": {
+        "en": "Generic food-dispatch scene. It does not show the GCCA meeting, a YUANEN facility or a tested delivery arrangement.",
+        "zh": "通用食品发货场景，不展示GCCA会议、远恩设施或经过测试的配送配置。",
+        "es": "Escena genérica de despacho de alimentos; no muestra la reunión GCCA, instalaciones de YUANEN ni una configuración de reparto ensayada."
+      }
+    }
+  },
+  {
     "kind": "guide",
     "slug": "icecream-tub-refrigerant-fit",
     "publishedAt": "2026-10-13",
