@@ -8353,74 +8353,6 @@
       }
     ]
   },
-  "images/products/standardized/liner-applications-2026/chocolate.webp": {
-    "width": 1254,
-    "height": 1254,
-    "variants": [
-      {
-        "file": "images/responsive/b624966029be-96.webp",
-        "width": 96
-      },
-      {
-        "file": "images/responsive/714fe88ff2be-192.webp",
-        "width": 192
-      },
-      {
-        "file": "images/responsive/da7507bba7af-384.webp",
-        "width": 384
-      },
-      {
-        "file": "images/responsive/6608e5a06ccd-640.webp",
-        "width": 640
-      },
-      {
-        "file": "images/responsive/15f124458227-768.webp",
-        "width": 768
-      },
-      {
-        "file": "images/responsive/f20d03d2ec05-960.webp",
-        "width": 960
-      },
-      {
-        "file": "images/responsive/3296b217e7ac-1254.webp",
-        "width": 1254
-      }
-    ]
-  },
-  "images/products/standardized/liner-applications-2026/meal-kit.webp": {
-    "width": 1254,
-    "height": 1254,
-    "variants": [
-      {
-        "file": "images/responsive/4db5176b0be6-96.webp",
-        "width": 96
-      },
-      {
-        "file": "images/responsive/76e55ec8b214-192.webp",
-        "width": 192
-      },
-      {
-        "file": "images/responsive/9f08e1087399-384.webp",
-        "width": 384
-      },
-      {
-        "file": "images/responsive/05c4cd4508ad-640.webp",
-        "width": 640
-      },
-      {
-        "file": "images/responsive/de249477b744-768.webp",
-        "width": 768
-      },
-      {
-        "file": "images/responsive/b181f861e60e-960.webp",
-        "width": 960
-      },
-      {
-        "file": "images/responsive/ce88e10bff98-1254.webp",
-        "width": 1254
-      }
-    ]
-  },
   "images/products/standardized/liner-applications-2026/seafood.webp": {
     "width": 1254,
     "height": 1254,
@@ -8451,6 +8383,74 @@
       },
       {
         "file": "images/responsive/94e1fe50036a-1254.webp",
+        "width": 1254
+      }
+    ]
+  },
+  "images/products/standardized/liner-applications-2026/chocolate-foam-v2.webp": {
+    "width": 1254,
+    "height": 1254,
+    "variants": [
+      {
+        "file": "images/responsive/5e1129a24d3d-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/035deaaa1fa3-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/46bf84199f4c-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/5d4088b4166f-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/143451fe7569-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/20421e93e78c-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/da7ac4058327-1254.webp",
+        "width": 1254
+      }
+    ]
+  },
+  "images/products/standardized/liner-applications-2026/meal-kit-foam-v2.webp": {
+    "width": 1254,
+    "height": 1254,
+    "variants": [
+      {
+        "file": "images/responsive/6829a3a70390-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/9c11b738bd6c-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/e299c601e316-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/0008c9110a5c-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/e8104d909524-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/3fc65093d0e1-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/bdb8e923a60b-1254.webp",
         "width": 1254
       }
     ]
