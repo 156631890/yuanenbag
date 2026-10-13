@@ -117,6 +117,35 @@
   },
   {
     "kind": "guide",
+    "slug": "icecream-tub-refrigerant-fit",
+    "publishedAt": "2026-10-13",
+    "title": {
+      "en": "Ice Cream Delivery Bag Fit: Closed Tub, Refrigerant and Removal Space",
+      "zh": "冰淇淋配送包适配：桶盖外径、冰源空间与取放检查",
+      "es": "Ajuste de una bolsa para helado: tarrina, refrigerante y extracción"
+    },
+    "description": {
+      "en": "Compare a closed ice cream tub, conditioned refrigerant and the usable round opening in a sample. Keep dimensional approval separate from frozen-delivery testing.",
+      "zh": "用样品核对封盖冰淇淋桶、预处理后冰源与圆形开口，记录装载和取出条件，把尺寸确认与冷冻配送测试分开。",
+      "es": "Compruebe la tarrina cerrada, el refrigerante acondicionado y la apertura circular con una muestra. Separe el ajuste de las pruebas de reparto congelado."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-13/cylindrical-tub-carrier.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "An open purple cylindrical carrier with metallic lining and two handles beside a closed white tub on a stone worktop",
+        "zh": "石质台面上，一只带金属内衬和两侧提手的紫色圆筒包打开上盖，旁边放着封盖白色桶",
+        "es": "Bolsa cilíndrica morada abierta con forro metálico y dos asas junto a una tarrina blanca cerrada sobre una encimera"
+      },
+      "caption": {
+        "en": "Generic cylindrical carrier and closed tub. This is not a measured sample or a tested refrigerant arrangement.",
+        "zh": "通用圆筒包与封盖桶体，未展示经过测量的样品或测试后的冰源布局。",
+        "es": "Bolsa cilíndrica y tarrina genéricas; no muestran una muestra medida ni una configuración de refrigerante ensayada."
+      }
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "insulated-shopping-bags-frozen-food",
     "publishedAt": "2026-10-07",
     "title": {
