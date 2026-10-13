@@ -25,7 +25,6 @@ function Breadcrumbs({ lang, items }: { lang: Lang; items: { label: string; path
 function ArticleCards({ lang, articles }: { lang: Lang; articles: EditorialSummary[] }) {
   return <div className="editorial-grid">{articles.map(article => <a className="editorial-card" href={href(articlePath(article), lang)} key={article.slug}>
     <img className="editorial-card-image" src={`${import.meta.env.BASE_URL}${article.image.file}`} alt={article.image.alt[lang]} {...responsiveImage(article.image.file, '(max-width:650px) calc(100vw - 80px), (max-width:1150px) 40vw, 480px')} loading="lazy" />
-    {article.image.kind === 'illustration' && <span className="editorial-card-image-note">{tx('Illustration', '示意图', 'Ilustración')[lang]}</span>}
     <span className="eyebrow">{labels[article.kind][lang]} · <time dateTime={article.publishedAt}>{dateLabel(article.publishedAt, lang)}</time></span>
     <h3>{article.title[lang]}</h3>
     <p>{article.description[lang]}</p>

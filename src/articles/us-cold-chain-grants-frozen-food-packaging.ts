@@ -11,9 +11,9 @@ const article: EditorialArticle = {
     es: 'Estados Unidos',
   },
   title: {
-    en: 'US Cold-Chain Grants and Frozen Food Packaging: What Buyers Should Separate',
-    zh: '美国冷链资助计划与冷冻食品包装：采购时要分清的两件事',
-    es: 'Subvenciones de cadena de frío en EE. UU. y embalaje de congelados: dos decisiones distintas',
+    en: 'USDA Announces Cold-Chain Grants for Emergency Food Assistance',
+    zh: '美国农业部公布紧急食品援助冷链资助计划',
+    es: 'El USDA anuncia ayudas de cadena de frío para asistencia alimentaria de emergencia',
   },
   description: {
     en: 'The USDA announced a cold-chain equipment grant, not a packaging approval. For frozen food packaging, check grant eligibility separately from the bag, coolant and route trial.',

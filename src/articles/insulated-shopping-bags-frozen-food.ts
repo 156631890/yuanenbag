@@ -5,9 +5,9 @@ const article: EditorialArticle = {
   slug: 'insulated-shopping-bags-frozen-food',
   publishedAt: '2026-10-07',
   title: {
-    en: 'Insulated Shopping Bags for Frozen Food: Buyer Checks',
-    zh: '冷冻食品保温购物袋：采购前要核对什么',
-    es: 'Bolsas térmicas para alimentos congelados: qué comprobar antes de comprar',
+    en: 'Choosing an Insulated Shopping Bag for Frozen Food Pickup',
+    zh: '冷冻食品自提时，保温购物袋该怎么选',
+    es: 'Elegir una bolsa térmica para recoger alimentos congelados',
   },
   description: {
     en: 'Check packed dimensions, coolant space, zipper clearance and a route-specific sample test before ordering custom insulated shopping bags for frozen food.',

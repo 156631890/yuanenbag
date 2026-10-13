@@ -5,9 +5,9 @@ const article: EditorialArticle = {
   slug: 'self-seal-foil-bag-size-flap-fit',
   publishedAt: '2026-10-09',
   title: {
-    en: 'Self-Seal Foil Bag Sizes: Bag Body, Flap and Packed Fit',
-    zh: '自粘铝箔保温袋尺寸：袋身、折口与餐盒适配',
-    es: 'Medidas de bolsas térmicas autoadhesivas: cuerpo, solapa y ajuste',
+    en: 'Read Self-Seal Foil Bag Dimensions Before Packing a Food Box',
+    zh: '餐盒选袋前，先分清自粘铝箔袋的袋身和折口尺寸',
+    es: 'Lea las medidas de la bolsa térmica autoadhesiva antes de introducir el recipiente',
   },
   description: {
     en: 'Read YUANEN’s width × body height + flap notation, then check the usable opening and closure with your takeaway box before ordering foil insulated bags.',

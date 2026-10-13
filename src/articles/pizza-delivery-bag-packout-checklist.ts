@@ -5,7 +5,7 @@ const article: EditorialArticle = {
   kind: 'guide',
   slug: 'pizza-delivery-bag-packout-checklist',
   publishedAt: '2026-10-12',
-  title: t('Insulated Pizza Delivery Bags: A Sample Pack-Out Checklist', '披萨配送保温包：装盒与样品验收清单', 'Bolsas térmicas para pizza: lista de comprobación de la muestra'),
+  title: t('What to Check After Loading Pizza Boxes into an Insulated Delivery Bag', '披萨盒装进配送保温包后，样品要检查什么', 'Qué comprobar después de cargar cajas de pizza en una bolsa térmica de reparto'),
   description: t('Check closed pizza boxes, stack height, zipper clearance and loaded handling with a repeatable sample record before ordering insulated pizza delivery bags.', '订购披萨配送保温包前，用可填写的样品记录核对闭盒外尺寸、叠放高度、拉链空间和满载搬运，区分装得下与经过验证的配送性能。', 'Antes de pedir bolsas térmicas para pizza, registre las cajas cerradas, el apilado, el cierre y el manejo con carga en una prueba de muestra repetible.'),
   intro: t('Choose the carrier around the closed box, not the pizza diameter. YUANEN’s pizza delivery proposal uses a low, wide zippered format with passive insulation. Its box count and final construction still require sample confirmation. The checklist below turns those requirements into a record you can send with an enquiry and repeat after a sample revision.', '先按盖好后的披萨盒选包，不要只看披萨直径。远恩披萨配送包采用低矮宽底、拉链闭合的被动隔热方案；装盒数量和最终结构仍需样品确认。以下清单将这些要求变成可随询盘发送、样品修改后可重复核对的记录。', 'Elija la bolsa según la caja cerrada, no según el diámetro de la pizza. La propuesta de YUANEN es baja y ancha, con cremallera y aislamiento pasivo. La cantidad de cajas y la construcción final deben confirmarse con una muestra. Esta lista permite enviar un registro con la consulta y repetirlo tras una revisión.'),
   sections: [

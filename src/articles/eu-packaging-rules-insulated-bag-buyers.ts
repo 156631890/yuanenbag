@@ -8,7 +8,7 @@ const article: EditorialArticle = {
   publishedAt: '2026-10-10',
   eventDate: '2026-08-12',
   market: t('European Union', '欧盟', 'Unión Europea'),
-  title: t('EU Packaging Rules: What Insulated Bag Buyers Should Request', '欧盟包装新规：保温包装采购需要核对哪些资料', 'Normas de envases de la UE: qué solicitar al comprar embalaje térmico'),
+  title: t('EU Packaging Regulation Begins Applying on 12 August 2026', '欧盟包装法规于2026年8月12日开始适用', 'El Reglamento de envases de la UE comienza a aplicarse el 12 de agosto de 2026'),
   description: t(
     'EU packaging rules began applying on 12 August 2026. Request a layer-by-layer specification for insulated liners and carriers before making compliance claims.',
     '欧盟包装新规于 2026 年 8 月 12 日开始适用。采购保温内衬和携带袋时，先逐层明确规格与用途，再核对适用要求及相关资料。',
