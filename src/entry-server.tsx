@@ -55,7 +55,11 @@ export function render(path = '/', indexable = false) {
   if(page.type==='collection'){const c=collections.find(c=>c.slug===page.slug)!;const members=collectionProducts(c);graph.push({'@type':'CollectionPage','@id':`${url}#collection`,name:c.name[lang],url,inLanguage:locales[lang].tag,mainEntity:{'@type':'ItemList',numberOfItems:members.length,itemListElement:members.map((b,i)=>({'@type':'ListItem',position:i+1,name:b.name[lang],url:absolute(href(`/products/${b.slug}/`,lang))}))}})}
   const currentBag = bags.find(b=>b.slug===page.slug)
   const shareImage = editorialArticle?.image?.file || (currentBag?.image ? `images/products/${productImageFile(productImages(currentBag)[0].file)}` : 'images/factory/2026/longgang-production.webp')
-  if (page.type === 'bag' && currentBag?.collection) graph.push({'@type':'Product','@id':`${url}#product`,name:currentBag.name[lang],description:currentBag.intro[lang],url,image:productImages(currentBag).map(({file})=>absolute(href('/', 'en')+`images/products/${productImageFile(file)}`)),brand:{'@type':'Brand',name:brand.name},manufacturer:{'@id':organization['@id']},material:currentBag.material[lang],category:currentBag.use[lang]})
+  // Quote-only pages have no public offer or reviews; retain their gallery on WebPage.
+  if (page.type === 'bag' && currentBag?.collection) {
+    const webPage = graph.find(item=>item['@type']==='WebPage')!
+    webPage.image = productImages(currentBag).map(({file})=>absolute(href('/', 'en')+`images/products/${productImageFile(file)}`))
+  }
   const head = [
     `<title>${escape(page.title[lang])}</title>`,
     `<meta name="description" content="${escape(page.description[lang])}" />`,

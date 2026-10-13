@@ -102,39 +102,41 @@ for (const file of files) {
   if (relative.startsWith('/zh/')) assert(html.includes('<span class="footer-label">联系我们</span><p>温州远恩工艺品有限公司</p>'),`Chinese footer company name: ${file}`)
     const ownProduct = catalogAudit.bags.find(b=>b.collection && relative.endsWith(`/products/${b.slug}/`))
   if (ownProduct) {
-    const product = JSON.parse(json)['@graph'].find(item=>item['@type']==='Product')
-    assert(product,`Missing product schema: ${relative}`)
+    const graph = JSON.parse(json)['@graph']
+    assert(!graph.some(item=>[].concat(item['@type']).includes('Product')), `Quote-only pages must not emit Product rich-result markup: ${relative}`)
+    const pageSchema = graph.find(item=>item['@type']==='WebPage')
+    assert(pageSchema && Array.isArray(pageSchema.image),`Missing WebPage gallery schema: ${relative}`)
     if(ownProduct.collection==='custom-designs-2026') {
       if(ownProduct.slug==='insulated-catering-bags'){
         const views=["front-loading","catering-application","closed-exterior","tray-access","zipper-lining","side-carry","empty-interior"]
-        assert.deepEqual(product.image.map(url=>new URL(url).pathname),views.map((_,i)=>'/images/products/standardized/insulated-catering-bags/material-corrected-20261012-'+String(i+1).padStart(2,'0')+'.webp'),'Approved catering gallery and order')
+        assert.deepEqual(pageSchema.image.map(url=>new URL(url).pathname),views.map((_,i)=>'/images/products/standardized/insulated-catering-bags/material-corrected-20261012-'+String(i+1).padStart(2,'0')+'.webp'),'Approved catering gallery and order')
         for(const id of ['applications','materials','features','order-quantities','pricing','delivery','dimensions','export','catering-tray-fit','catering-questions']) assert(html.includes('id="'+id+'"'),'Missing catering section '+id)
         assert(html.includes('?bag=insulated-catering-bags'),'Catering-specific enquiry required')
         assert(/AI-assisted|AI 辅助|asistida por IA/.test(html),'Catering AI disclosure')
         assert(!html.includes('/review/product-batch/'),'No preview links in catering page')
       }else if(ownProduct.slug==='insulated-meal-prep-bags'){
         const views=['open-packout','meal-application','closed-exterior','container-loading','zipper-lining','handle-attachment','empty-interior']
-        assert.deepEqual(product.image.map(url=>new URL(url).pathname),views.map(v=>'/images/products/standardized/insulated-meal-prep-bags/'+v+'-v1.webp'),'Approved meal prep gallery and order')
+        assert.deepEqual(pageSchema.image.map(url=>new URL(url).pathname),views.map(v=>'/images/products/standardized/insulated-meal-prep-bags/'+v+'-v1.webp'),'Approved meal prep gallery and order')
         for(const id of ['applications','materials','features','order-quantities','pricing','delivery','dimensions','export','meal-prep-layout','meal-prep-questions']) assert(html.includes('id="'+id+'"'),'Missing meal prep section '+id)
         assert(html.includes('?bag=insulated-meal-prep-bags'),'Meal prep-specific enquiry required')
         assert(/AI-assisted|AI 辅助|asistida por IA/.test(html),'Meal prep AI disclosure')
         assert(!html.includes('/review/product-batch/'),'No draft review links in meal prep page')
       }else if(ownProduct.slug==='insulated-ice-cream-delivery-bags'){
         const views=['tub-packout','packing-application','closed-exterior','tub-loading','empty-interior','hand-carry','zipper-lining']
-        assert.deepEqual(product.image.map(url=>new URL(url).pathname),views.map((_,i)=>'/images/products/standardized/insulated-ice-cream-delivery-bags/material-corrected-20261012-'+String(i+1).padStart(2,'0')+'.webp'))
+        assert.deepEqual(pageSchema.image.map(url=>new URL(url).pathname),views.map((_,i)=>'/images/products/standardized/insulated-ice-cream-delivery-bags/material-corrected-20261012-'+String(i+1).padStart(2,'0')+'.webp'))
         for(const id of ['applications','materials','features','order-quantities','pricing','delivery','dimensions','export','ice-cream-packout','ice-cream-questions','ice-cream-quote']) assert(html.includes('id="'+id+'"'))
         assert(html.includes('?bag=insulated-ice-cream-delivery-bags'))
         assert(/AI-assisted|AI 定制|Propuesta con IA/.test(html))
       }else if(ownProduct.slug==='insulated-beverage-delivery-bags'){
         const views=["cup-layout","cold-drink-packing","closed-exterior","cup-access","removable-divider","hand-carry","zipper-divider-detail"]
-        assert.deepEqual(product.image.map(url=>new URL(url).pathname),views.map((_,i)=>'/images/products/standardized/insulated-beverage-delivery-bags/material-corrected-20261012-'+String(i+1).padStart(2,'0')+'.webp'),'Approved beverage gallery and order')
+        assert.deepEqual(pageSchema.image.map(url=>new URL(url).pathname),views.map((_,i)=>'/images/products/standardized/insulated-beverage-delivery-bags/material-corrected-20261012-'+String(i+1).padStart(2,'0')+'.webp'),'Approved beverage gallery and order')
         for(const id of ['applications','materials','features','order-quantities','pricing','delivery','dimensions','export','beverage-cup-layout','beverage-questions','beverage-quote']) assert(html.includes('id="'+id+'"'),'Missing beverage section '+id)
         assert(html.includes('?bag=insulated-beverage-delivery-bags'),'Beverage-specific enquiry required')
         assert(/AI-assisted|AI 定制|Propuesta con IA/.test(html),'Beverage design disclosure')
         assert(!html.includes('/review/product-batch/'),'No draft review links in beverage page')
       }else{
       const views=['open-bag-boxes','pizza-takeaway','closed-exterior','hand-carry','zipper-lining','handle-attachment','base-seams']
-      assert.deepEqual(product.image.map(url=>new URL(url).pathname),views.map((_,i)=>'/images/products/standardized/insulated-pizza-delivery-bags/material-corrected-20261012-'+String(i+1).padStart(2,'0')+'.webp'),'Approved pizza design gallery and order')
+      assert.deepEqual(pageSchema.image.map(url=>new URL(url).pathname),views.map((_,i)=>'/images/products/standardized/insulated-pizza-delivery-bags/material-corrected-20261012-'+String(i+1).padStart(2,'0')+'.webp'),'Approved pizza design gallery and order')
       assert(/AI-assisted|AI 辅助|asistida por IA/.test(html),'Custom design illustrations must be disclosed')
       for(const id of ['applications','materials','features','order-quantities','pricing','delivery','dimensions','export']) assert(html.includes('id="'+id+'"'),'Missing pizza buyer section '+id)
       assert(html.includes('?bag=insulated-pizza-delivery-bags'),'Pizza-specific enquiry required')
@@ -142,28 +144,28 @@ for (const file of files) {
       }
     } else if(ownProduct.collection==='yuanen-photos-2026') {
       if (ownProduct.slug==='double-film-self-absorbing-ice-packs') {
-        assert.equal(product.image.length,4,`Incomplete double-film gallery: ${relative}`)
-        assert(product.image[0].endsWith('/packy/double-film-self-absorbing-ice-packs-main.webp'),`Incorrect double-film main image: ${relative}`)
-        assert(product.image[1].endsWith('/packy/double-film-self-absorbing-ice-packs-secondary.webp'),`Incorrect double-film secondary image: ${relative}`)
-        assert(product.image[2].endsWith('/packy/double-film-self-absorbing-ice-packs-product-display.webp'),`Incorrect double-film display image: ${relative}`)
-        assert(product.image[3].endsWith('/packy/double-film-self-absorbing-ice-packs-cooler-application.webp'),`Incorrect double-film application image: ${relative}`)
+        assert.equal(pageSchema.image.length,4,`Incomplete double-film gallery: ${relative}`)
+        assert(pageSchema.image[0].endsWith('/packy/double-film-self-absorbing-ice-packs-main.webp'),`Incorrect double-film main image: ${relative}`)
+        assert(pageSchema.image[1].endsWith('/packy/double-film-self-absorbing-ice-packs-secondary.webp'),`Incorrect double-film secondary image: ${relative}`)
+        assert(pageSchema.image[2].endsWith('/packy/double-film-self-absorbing-ice-packs-product-display.webp'),`Incorrect double-film display image: ${relative}`)
+        assert(pageSchema.image[3].endsWith('/packy/double-film-self-absorbing-ice-packs-cooler-application.webp'),`Incorrect double-film application image: ${relative}`)
       } else if (ownProduct.slug==='side-absorbing-ice-packs') {
-        assert.equal(product.image.length,1+ownProduct.gallery.length,`Incomplete side-absorbing gallery: ${relative}`)
-        assert(product.image[0].endsWith('/packy/side-absorbing-ice-packs-main.webp'),`Incorrect side-absorbing main image: ${relative}`)
-        assert(product.image[1].endsWith('/packy/side-absorbing-ice-packs-secondary.webp'),`Incorrect side-absorbing second image: ${relative}`)
-        assert(product.image[2].endsWith(ownProduct.gallery[1]),`Incorrect side-absorbing third photograph: ${relative}`)
+        assert.equal(pageSchema.image.length,1+ownProduct.gallery.length,`Incomplete side-absorbing gallery: ${relative}`)
+        assert(pageSchema.image[0].endsWith('/packy/side-absorbing-ice-packs-main.webp'),`Incorrect side-absorbing main image: ${relative}`)
+        assert(pageSchema.image[1].endsWith('/packy/side-absorbing-ice-packs-secondary.webp'),`Incorrect side-absorbing second image: ${relative}`)
+        assert(pageSchema.image[2].endsWith(ownProduct.gallery[1]),`Incorrect side-absorbing third photograph: ${relative}`)
       } else {
-      assert.equal(product.image.length,1+ownProduct.gallery.length,`Incomplete real photo gallery: ${relative}`)
-      assert(product.image[0].endsWith(ownProduct.image),`Incorrect real main photograph: ${relative}`)
-      for(const url of product.image) assert(photoSources.some(f=>f.selected&&url.endsWith(f.output)),`Unproven photograph: ${relative}`)
+      assert.equal(pageSchema.image.length,1+ownProduct.gallery.length,`Incomplete real photo gallery: ${relative}`)
+      assert(pageSchema.image[0].endsWith(ownProduct.image),`Incorrect real main photograph: ${relative}`)
+      for(const url of pageSchema.image) assert(photoSources.some(f=>f.selected&&url.endsWith(f.output)),`Unproven photograph: ${relative}`)
       assert(!html.includes('AI product illustration')&&!html.includes('AI 产品示意')&&!html.includes('Ilustración con IA'),`Mislabelled real photos: ${relative}`)
       }
       for(const id of ['applications','materials','features','order-quantities','pricing','delivery','dimensions','export']) assert(html.includes(`id="${id}"`),`Missing buyer section ${id}: ${relative}`)
     } else {
       const customInsulatedBag=ownProduct.slug.endsWith('-insulated-cooler-bags')
       if (customInsulatedBag) {
-        assert.equal(product.image.length,1+ownProduct.gallery.length,`Unexpected custom cooler gallery: ${relative}`)
-        assert(product.image[0].endsWith(`/images/products/standardized/${ownProduct.image}`),`Incorrect custom cooler main image: ${relative}`)
+        assert.equal(pageSchema.image.length,1+ownProduct.gallery.length,`Unexpected custom cooler gallery: ${relative}`)
+        assert(pageSchema.image[0].endsWith(`/images/products/standardized/${ownProduct.image}`),`Incorrect custom cooler main image: ${relative}`)
       } else {
       const selfSealNonWoven=ownProduct.slug==='self-seal-non-woven-delivery-bags'
       const newNonwovenVariant=['self-seal-non-woven-food-service-bags','self-seal-non-woven-bakery-bags','self-seal-non-woven-milk-tea-bags','self-seal-non-woven-cake-bags'].includes(ownProduct.slug)
@@ -180,7 +182,7 @@ for (const file of files) {
           '/images/products/packy/hand-finished-gusseted-foil-bags-new/04.webp',
           '/images/products/photos-2026-09/foil-material-measurement-a.webp',
         ]
-        assert.deepEqual(product.image.map(sourceImagePath),expectedHandFinishedFoilImages,`Unexpected hand-finished foil gallery: ${relative}`)
+        assert.deepEqual(pageSchema.image.map(sourceImagePath),expectedHandFinishedFoilImages,`Unexpected hand-finished foil gallery: ${relative}`)
       } else if (gussetedFoilCake) {
         const expectedGussetedFoilCakeImages=[
           '/images/products/packy/gusseted-foil-cake-bags-new/01.webp',
@@ -189,7 +191,7 @@ for (const file of files) {
           '/images/products/packy/gusseted-foil-cake-bags-new/04.webp',
           '/images/products/packy/gusseted-foil-cake-bags-new/05.webp',
         ]
-        assert.deepEqual(product.image.map(sourceImagePath),expectedGussetedFoilCakeImages,`Unexpected gusseted foil cake gallery: ${relative}`)
+        assert.deepEqual(pageSchema.image.map(sourceImagePath),expectedGussetedFoilCakeImages,`Unexpected gusseted foil cake gallery: ${relative}`)
       } else if (machineFormedFoil) {
         const expectedMachineFormedFoilImages=[
           '/images/products/packy/machine-formed-gusseted-foil-bags-new/01.webp',
@@ -200,7 +202,7 @@ for (const file of files) {
           '/images/products/packy/machine-formed-gusseted-foil-bags-new/06.webp',
           '/images/products/packy/machine-formed-gusseted-foil-bags-new/07.webp',
         ]
-        assert.deepEqual(product.image.map(sourceImagePath),expectedMachineFormedFoilImages,`Unexpected machine-formed foil gallery: ${relative}`)
+        assert.deepEqual(pageSchema.image.map(sourceImagePath),expectedMachineFormedFoilImages,`Unexpected machine-formed foil gallery: ${relative}`)
       } else if (openTopFoil) {
         const expectedOpenTopFoilImages=[
           '/images/products/packy/open-top-foil-bags-new/01.webp',
@@ -212,7 +214,7 @@ for (const file of files) {
           '/images/products/packy/open-top-foil-bags-new/07.webp',
           '/images/products/photos-2026-09/foil-material-measurement-b.webp',
         ]
-        assert.deepEqual(product.image.map(sourceImagePath),expectedOpenTopFoilImages,`Unexpected open-top foil gallery: ${relative}`)
+        assert.deepEqual(pageSchema.image.map(sourceImagePath),expectedOpenTopFoilImages,`Unexpected open-top foil gallery: ${relative}`)
       } else if (selfAdhesiveFoil) {
         const expectedSelfAdhesiveFoilImages=[
           '/images/products/packy/self-adhesive-foil-bags-new/01.webp',
@@ -223,7 +225,7 @@ for (const file of files) {
           '/images/products/packy/self-adhesive-foil-bags-new/06.webp',
           '/images/products/packy/self-adhesive-foil-bags-new/07.webp',
         ]
-        assert.deepEqual(product.image.map(sourceImagePath),expectedSelfAdhesiveFoilImages,`Unexpected self-adhesive foil gallery: ${relative}`)
+        assert.deepEqual(pageSchema.image.map(sourceImagePath),expectedSelfAdhesiveFoilImages,`Unexpected self-adhesive foil gallery: ${relative}`)
       } else if (selfSealNonWoven) {
         const expectedImages=[
           '/images/products/packy/self-seal-non-woven-delivery-bags-new/delivery-main.webp',
@@ -233,7 +235,7 @@ for (const file of files) {
           '/images/products/packy/self-seal-non-woven-delivery-bags-new/bakery-from-png.webp',
           '/images/products/packy/self-seal-non-woven-delivery-bags-new/meal-scenes.webp',
         ]
-        assert.deepEqual(product.image.map(sourceImagePath),expectedImages,`Unexpected self-seal non-woven gallery: ${relative}`)
+        assert.deepEqual(pageSchema.image.map(sourceImagePath),expectedImages,`Unexpected self-seal non-woven gallery: ${relative}`)
       } else if (newNonwovenVariant) {
         if (ownProduct.slug==='self-seal-non-woven-food-service-bags') {
           const expectedFoodServiceImages=[
@@ -243,7 +245,7 @@ for (const file of files) {
             '/images/products/packy/self-seal-non-woven-delivery-bags-new/dining-food.webp',
             '/images/products/packy/self-seal-non-woven-delivery-bags-new/dining-catering.webp',
           ]
-          assert.deepEqual(product.image.map(sourceImagePath),expectedFoodServiceImages,`Unexpected food service bag gallery: ${relative}`)
+          assert.deepEqual(pageSchema.image.map(sourceImagePath),expectedFoodServiceImages,`Unexpected food service bag gallery: ${relative}`)
         } else if (ownProduct.slug==='self-seal-non-woven-cake-bags') {
           const expectedCakeImages=[
             '/images/products/packy/self-seal-non-woven-delivery-bags-new/cake.webp',
@@ -252,7 +254,7 @@ for (const file of files) {
             '/images/products/packy/self-seal-non-woven-delivery-bags-new/cake-display.webp',
             '/images/products/packy/self-seal-non-woven-delivery-bags-new/cake-celebration.webp',
           ]
-          assert.deepEqual(product.image.map(sourceImagePath),expectedCakeImages,`Unexpected cake bag gallery: ${relative}`)
+          assert.deepEqual(pageSchema.image.map(sourceImagePath),expectedCakeImages,`Unexpected cake bag gallery: ${relative}`)
         } else if (ownProduct.slug==='self-seal-non-woven-bakery-bags') {
           const expectedBakeryImages=[
             '/images/products/packy/self-seal-non-woven-delivery-bags-new/bakery-from-jpg.webp',
@@ -261,7 +263,7 @@ for (const file of files) {
             '/images/products/packy/self-seal-non-woven-delivery-bags-new/bakery-products.webp',
             '/images/products/packy/self-seal-non-woven-delivery-bags-new/bakery-scene.webp',
           ]
-          assert.deepEqual(product.image.map(sourceImagePath),expectedBakeryImages,`Unexpected bakery bag gallery: ${relative}`)
+          assert.deepEqual(pageSchema.image.map(sourceImagePath),expectedBakeryImages,`Unexpected bakery bag gallery: ${relative}`)
         } else if (ownProduct.slug==='self-seal-non-woven-milk-tea-bags') {
           const expectedMilkTeaImages=[
             '/images/products/packy/self-seal-non-woven-delivery-bags-new/milk-tea.webp',
@@ -271,10 +273,10 @@ for (const file of files) {
             '/images/products/packy/self-seal-non-woven-delivery-bags-new/milk-tea-display.webp',
             '/images/products/packy/self-seal-non-woven-delivery-bags-new/milk-tea-catering.webp',
           ]
-          assert.deepEqual(product.image.map(sourceImagePath),expectedMilkTeaImages,`Unexpected milk tea bag gallery: ${relative}`)
+          assert.deepEqual(pageSchema.image.map(sourceImagePath),expectedMilkTeaImages,`Unexpected milk tea bag gallery: ${relative}`)
         } else {
-          assert.equal(product.image.length,1,`Unexpected non-woven variant gallery: ${relative}`)
-          assert(product.image[0].endsWith(`/images/products/standardized/${ownProduct.image}`),`Incorrect non-woven variant main image: ${relative}`)
+          assert.equal(pageSchema.image.length,1,`Unexpected non-woven variant gallery: ${relative}`)
+          assert(pageSchema.image[0].endsWith(`/images/products/standardized/${ownProduct.image}`),`Incorrect non-woven variant main image: ${relative}`)
         }
       } else {
       const segmentedIceSheets=ownProduct.slug==='segmented-ice-sheets'
@@ -282,15 +284,15 @@ for (const file of files) {
       const selfAbsorbingIcePacks=ownProduct.slug==='self-absorbing-ice-packs'
       const expectedGalleryCount=4+(addedGalleryCounts[ownProduct.slug]||0)-(segmentedIceSheets?0:waterFillIcePacks?4:selfAbsorbingIcePacks?3:0)
       const requiredVisualKinds=segmentedIceSheets?['application','detail']:waterFillIcePacks||selfAbsorbingIcePacks?[]:['application','detail','structure']
-      assert.equal(product.image.length,expectedGalleryCount,`Unexpected gallery image count: ${relative}`)
+      assert.equal(pageSchema.image.length,expectedGalleryCount,`Unexpected gallery image count: ${relative}`)
       const mainImageSuffix=`/packy/${ownProduct.slug}-main.webp`
-      assert(product.image[0].endsWith(mainImageSuffix),`Approved main image must stay first: ${relative}`)
-      for (const kind of requiredVisualKinds) assert(product.image.some(url=>url.endsWith(`/packy/details-v2/${ownProduct.slug}-${kind}-v2.webp`)),`Missing product-specific ${kind}: ${relative}`)
+      assert(pageSchema.image[0].endsWith(mainImageSuffix),`Approved main image must stay first: ${relative}`)
+      for (const kind of requiredVisualKinds) assert(pageSchema.image.some(url=>url.endsWith(`/packy/details-v2/${ownProduct.slug}-${kind}-v2.webp`)),`Missing product-specific ${kind}: ${relative}`)
       for (const original of [ownProduct.image,...ownProduct.gallery]) assert(!html.includes(`/images/products/${original}`),`Rejected catalog image still displayed: ${relative}`)
       }
       }
       }
-    for (const image of product.image) {
+    for (const image of pageSchema.image) {
       const imagePath=new URL(image).pathname
       const original=sourceImagePath(image).replace('/images/products/','')
       assert.equal(imagePath,`/images/products/${standardizedImages[original]}`,`Unstandardized or mismatched schema image: ${relative}`)
@@ -301,7 +303,7 @@ for (const file of files) {
       assert(match[1].startsWith('/images/products/standardized/'),`Unstandardized gallery or body image: ${relative}`)
       await access(join(root,match[1]))
     }
-    assert(!product.offers && !product.aggregateRating,`Unverified commercial claims: ${relative}`)
+    assert(!pageSchema.offers && !pageSchema.aggregateRating && !pageSchema.review,`Unverified commercial claims: ${relative}`)
     const profile=commercialProfiles[ownProduct.slug]
     if (profile) {
       const language=relative.startsWith('/zh/')?'zh':relative.startsWith('/es/')?'es':'en'
