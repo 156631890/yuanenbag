@@ -146,6 +146,35 @@
   },
   {
     "kind": "industry",
+    "slug": "fpf-ppwr-recycled-content-evidence",
+    "publishedAt": "2026-10-13",
+    "title": {
+      "en": "Food Packaging Forum Submits Comments on EU Recycling and Recycled Content",
+      "zh": "Food Packaging Forum就欧盟包装回收与再生含量提交意见",
+      "es": "Food Packaging Forum presenta observaciones sobre reciclaje y contenido reciclado en envases de la UE"
+    },
+    "description": {
+      "en": "A recent consultation submission prompts a practical procurement check: identify the material layer, the scope of a recycled-content statement and the supporting sample records.",
+      "zh": "近期征询意见引出具体采购核对：明确材料层、再生含量声明的对象，以及供应文件与样品版本的对应关系，不推定已有环保认证。",
+      "es": "Una aportación reciente a una consulta plantea una comprobación de compra: identificar la capa, el alcance de la declaración de contenido reciclado y la documentación de muestra."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-13/foil-nonwoven-material-workbench-v2.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "Wrinkled silver foil sheet folded over a dark non-woven fabric sample on a workshop bench",
+        "zh": "工作台上，带褶皱的银色铝箔片折叠覆盖在深色无纺布样片上",
+        "es": "Lámina plateada arrugada plegada sobre una muestra de tejido no tejido oscuro en una mesa de taller"
+      },
+      "caption": {
+        "en": "Generic packaging-material scene. The materials do not demonstrate recycled content, food-contact suitability or certification.",
+        "zh": "通用包装材料场景，画面不能证明再生含量、食品接触适用性或认证。",
+        "es": "Escena genérica de materiales de embalaje; no demuestra contenido reciclado, aptitud para contacto alimentario ni certificación."
+      }
+    }
+  },
+  {
+    "kind": "industry",
     "slug": "gcca-philadelphia-cold-chain-packaging-handoff",
     "publishedAt": "2026-10-13",
     "title": {

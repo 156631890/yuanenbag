@@ -1505,6 +1505,40 @@
       }
     ]
   },
+  "images/editorial/2026-10-13/foil-nonwoven-material-workbench-v2.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/5fce016f9c34-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/c4813234eedd-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/3bc4b9cfaf92-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/38d090a626f9-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/f9b097dbbcee-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/51bd2935f833-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/5937b217b330-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
   "images/factory/building-crop.webp": {
     "width": 940,
     "height": 701,

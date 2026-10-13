@@ -1,0 +1,25 @@
+{
+  "tool": "image_gen.imagegen",
+  "source": "C:/Users/Administrator/.codex/generated_images/01a0c806-5c48-7793-814b-5d33d8e4c624/exec-a2e8610e-19fe-4be3-9650-ded504dc9d21.png",
+  "initialSource": "C:/Users/Administrator/.codex/generated_images/01a0c806-5c48-7793-814b-5d33d8e4c624/exec-df927c67-885a-46a8-8205-f1a657bfa815.png",
+  "revisionReason": "Initial foreground appeared woven; regenerated only the dark sample with matte irregular bonded fibers.",
+  "revisionPrompt": "Edit this generic packaging workshop illustration. Change only the foreground dark fabric sample: remove all woven/knitted ribs, braided threads, herringbone patterns and warp/weft grids. Make it convincingly matte black NON-WOVEN bonded fibers with an irregular short-fiber surface and tiny restrained bonding dots, like a non-woven packaging sample, not canvas or knit. Keep its same position, size, folded edge and dark color. Preserve the silver foil sheet and realistic irregular wrinkles, entire workbench, background shelves and rolls, window, lighting, shadows, camera angle, landscape 3:2 composition and photographic texture exactly. No text, logos, symbols, badges or certificates. Do not add objects, do not create split panels or a background border, avoid CGI polish. This remains a generic fictional material scene, not a production sample, recycled-content proof, test or laboratory.",
+  "generatedOn": "2026-10-13",
+  "prompt": "Use case: photorealistic-natural. Generate a new landscape 3:2 industry editorial cover. A close, candid view of a plain packaging materials workbench in a generic small workshop: a softly wrinkled silver foil-lined packaging sheet partly folded over a dark matte non-woven fabric sample, with a few unbranded packaging rolls naturally out of focus on shelves behind. Focus on tactile material texture, imperfect cut edges and ordinary creases, not diagrams or product comparisons. One continuous room and worktop, soft window light and natural shadows. The foreground materials fill most of the frame with no blank border or large unused background. Realistic photographic-quality illustration, understated colors, no glossy CGI, no collage, no split panels, no staged certificate or paperwork. No people, labels, logos, recycling symbols, text, numbers, seals or badges. Do not depict a real company, laboratory, certification test or Food Packaging Forum facility. The image is a generic fictional visual and cannot prove recycled content, recyclability, food-contact suitability or an approved sample. Keep material geometry and perspective plausible.",
+  "rightsBasis": "Original output in user session; OpenAI Terms of Use effective 2026-01-01 assign output rights to user to extent allowed by law; no external assets/logos; not guaranteed exclusive copyright.",
+  "rightsSource": "https://openai.com/policies/terms-of-use/",
+  "visualInspection": {
+    "singleBackground": true,
+    "naturalLight": true,
+    "recycledContentClaim": false,
+    "actualLabClaim": false,
+    "humanApproval": false
+  },
+  "file": "images/editorial/2026-10-13/foil-nonwoven-material-workbench-v2.webp",
+  "optimized": {
+    "width": 1200,
+    "height": 800,
+    "bytes": 113436,
+    "operation": "same-aspect resizing and WebP encoding only"
+  }
+}
