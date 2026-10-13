@@ -1437,6 +1437,40 @@
       }
     ]
   },
+  "images/editorial/2026-10-13/foil-pouch-shipping-carton.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/c664b8a746b1-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/3448ae1887b0-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/dcbc6a8e356c-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/643672546e25-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/03481203aa2c-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/220215a342f2-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/98df6cbb65cb-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
   "images/factory/building-crop.webp": {
     "width": 940,
     "height": 701,

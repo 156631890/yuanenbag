@@ -117,6 +117,35 @@
   },
   {
     "kind": "guide",
+    "slug": "foil-mailer-outer-carton-checklist",
+    "publishedAt": "2026-10-13",
+    "title": {
+      "en": "Foil Insulated Mailers: Outer-Carton and Receipt Checklist",
+      "zh": "铝箔保温邮寄袋：外箱保护与收货检查清单",
+      "es": "Bolsas térmicas de aluminio: revisión de caja exterior y recepción"
+    },
+    "description": {
+      "en": "Review a self-seal foil pouch inside its actual shipping carton. Record closure, movement, edge contact and receipt observations without assuming parcel protection.",
+      "zh": "把自粘铝箔袋与实际运输外箱一起检查，记录封口、移位、边角接触及收货状态，不把袋面材质当作运输保护证明。",
+      "es": "Revise la bolsa autoadhesiva dentro de su caja de envío real. Registre cierre, movimiento, contacto con bordes y recepción sin presuponer protección del paquete."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-13/foil-pouch-shipping-carton.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "A silver flat pouch with folded flap inside an open brown carton on a wooden packing bench",
+        "zh": "木质打包台上，打开的牛皮色纸箱内放着一只带翻折口的银色平袋",
+        "es": "Bolsa plana plateada con solapa doblada dentro de una caja marrón abierta sobre una mesa de embalaje"
+      },
+      "caption": {
+        "en": "Generic foil-faced pouch and outer carton. The illustration does not demonstrate parcel or thermal test results.",
+        "zh": "通用铝箔面层平袋与外箱，画面不展示包裹保护或温控测试结果。",
+        "es": "Bolsa de superficie de aluminio y caja genéricas; la ilustración no muestra resultados de protección ni ensayos térmicos."
+      }
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "icecream-tub-refrigerant-fit",
     "publishedAt": "2026-10-13",
     "title": {
