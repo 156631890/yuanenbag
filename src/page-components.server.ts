@@ -20,3 +20,5 @@ export {default as IceCreamDetails} from './IceCreamDetails'
 export {default as HomeHero} from './HomeHero'
 export {default as CollectionShowcase} from './CollectionShowcase'
 export {default as Quality} from './Quality'
+
+export {default as BoxLinerApplications} from './BoxLinerApplications'

@@ -23,3 +23,5 @@ export const IceCreamDetails = lazy(() => import('./IceCreamDetails'))
 export const HomeHero = lazy(() => import('./HomeHero'))
 export const CollectionShowcase = lazy(() => import('./CollectionShowcase'))
 export const Quality = lazy(() => import('./Quality'))
+
+export const BoxLinerApplications = lazy(() => import('./BoxLinerApplications'))

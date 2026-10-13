@@ -8352,5 +8352,107 @@
         "width": 1200
       }
     ]
+  },
+  "images/products/standardized/liner-applications-2026/chocolate.webp": {
+    "width": 1254,
+    "height": 1254,
+    "variants": [
+      {
+        "file": "images/responsive/b624966029be-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/714fe88ff2be-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/da7507bba7af-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/6608e5a06ccd-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/15f124458227-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/f20d03d2ec05-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/3296b217e7ac-1254.webp",
+        "width": 1254
+      }
+    ]
+  },
+  "images/products/standardized/liner-applications-2026/meal-kit.webp": {
+    "width": 1254,
+    "height": 1254,
+    "variants": [
+      {
+        "file": "images/responsive/4db5176b0be6-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/76e55ec8b214-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/9f08e1087399-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/05c4cd4508ad-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/de249477b744-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/b181f861e60e-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/ce88e10bff98-1254.webp",
+        "width": 1254
+      }
+    ]
+  },
+  "images/products/standardized/liner-applications-2026/seafood.webp": {
+    "width": 1254,
+    "height": 1254,
+    "variants": [
+      {
+        "file": "images/responsive/5fd9a4b9e07c-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/db1864ca327c-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/9975fd2550be-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/5c1eaabea47a-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/c9803baf6f1b-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/34c0ec34a4bf-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/94e1fe50036a-1254.webp",
+        "width": 1254
+      }
+    ]
   }
 }

@@ -19,7 +19,11 @@ export default function ProductSections({bag,lang}:{bag:Bag;lang:Lang}){
  ['pricing',t('MOQ & pricing','起订量与价格','Pedido mínimo y precio')],
  ['delivery',t('Lead time','交货时间','Plazos')],
  ['dimensions',t('Dimensions','产品尺寸','Medidas')],
- ['export',t('Export documentation','出口资料','Documentación de exportación')]]
+ ['export',t('Export documentation','出口资料','Documentación de exportación')],
+ ...(bag.slug==='foil-insulated-box-liners'?[
+ ['chocolate-packaging',t('Chocolate packing','巧克力包装','Embalaje de chocolate')],
+ ['meal-kit-packaging',t('Meal-kit packing','食材包装箱','Embalaje de kits de comida')],
+ ['seafood-packaging',t('Seafood packing','海鲜装箱','Embalaje de pescado y marisco')]]:[])]
  const heading=(i:number,icon:React.ReactNode)=><div className="detail-block-heading"><span>{String(i+1).padStart(2,'0')}</span><h2>{sections[i][1]}</h2>{icon}</div>
  const contact=`${href('/contact/',lang)}?bag=${bag.slug}`
  const visual=(kind:'application'|'detail'|'structure',label:string)=>{
