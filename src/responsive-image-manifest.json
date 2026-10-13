@@ -1403,6 +1403,40 @@
       }
     ]
   },
+  "images/editorial/2026-10-13/meal-container-tote.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/ceff4298832b-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/36196ec93ae7-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/77a108f13235-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/dde3ccfa9b3d-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/280fbaf917ec-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/a1e5a07bb3a9-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/8936a1e42e7e-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
   "images/factory/building-crop.webp": {
     "width": 940,
     "height": 701,

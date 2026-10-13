@@ -175,6 +175,35 @@
   },
   {
     "kind": "guide",
+    "slug": "meal-prep-container-stack-fit",
+    "publishedAt": "2026-10-13",
+    "title": {
+      "en": "Meal Prep Bag Fit: Container Stacks, Lid Clips and Top Access",
+      "zh": "备餐包适配：餐盒堆叠、盖沿扣件与上开口取放",
+      "es": "Ajuste de bolsa para comidas: apilado, cierres y acceso superior"
+    },
+    "description": {
+      "en": "Compare lidded meal-container combinations in an undivided top-opening bag. Record clips, stack height, refrigerant space and removal order before sampling.",
+      "zh": "在单仓上开式备餐包中比较带盖餐盒组合，记录扣件、堆叠高度、冰源空间与取出顺序，减少仅凭外尺寸选包的误差。",
+      "es": "Compare conjuntos de recipientes con tapa en una bolsa de apertura superior y cámara única. Registre cierres, altura, refrigerante y orden de extracción."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-13/meal-container-tote.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "An open olive-green silver-lined bag beside two closed rectangular meal containers on a wooden kitchen counter",
+        "zh": "厨房木质台面上，一只银色内衬橄榄绿包打开上盖，旁边放着两只封盖长方形餐盒",
+        "es": "Bolsa verde oliva abierta con forro plateado junto a dos recipientes rectangulares cerrados sobre una encimera de madera"
+      },
+      "caption": {
+        "en": "Generic bag and container props. Their number does not establish capacity or included accessories.",
+        "zh": "通用包体与餐盒道具，画面中的餐盒数量不代表额定容量或随包配件。",
+        "es": "Bolsa y recipientes genéricos; su número no establece capacidad ni accesorios incluidos."
+      }
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "pizza-delivery-bag-packout-checklist",
     "publishedAt": "2026-10-12",
     "title": {
