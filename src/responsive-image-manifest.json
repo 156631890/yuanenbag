@@ -1641,6 +1641,40 @@
       }
     ]
   },
+  "images/editorial/2026-10-14/sealed-food-pouches-foil-lined-foam-box.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/76aaf1ee44cf-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/6efdb79ea31e-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/ae71ec4fd041-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/6f27fac61a12-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/fe9ef16d491c-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/55989dfc7d84-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/186ed1bb0fbe-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
   "images/factory/building-crop.webp": {
     "width": 940,
     "height": 701,

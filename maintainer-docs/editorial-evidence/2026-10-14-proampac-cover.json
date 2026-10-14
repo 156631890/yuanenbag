@@ -1,0 +1,19 @@
+{
+  "file": "images/editorial/2026-10-14/sealed-food-pouches-foil-lined-foam-box.webp",
+  "source": "C:/Users/Administrator/.codex/generated_images/01a0c806-5c48-7793-814b-5d33d8e4c624/exec-1e5f1e07-0920-4ff3-8b52-ba18d3442462.png",
+  "tool": "image_gen built-in",
+  "generatedAt": "2026-10-14",
+  "prompt": "Use case: photorealistic-natural. Asset: landscape editorial cover, 3:2 about 1200x800. Create a NEW photographic-quality illustration of a generic food dispatch workbench. Reference image is only a material and geometry reference for white bead-textured foam box with thin crinkled silver foil insulating liner, not an edit target or reused cover. Foreground: open rectangular white foam box, true thin flexible foil liner draped inside without cartoon seams, two plain opaque sealed food pouches nestled upright with natural weight, one plain lidded food container beside the box. A continuous light warm grey packing counter fills the background naturally, softly blurred utilitarian shelves far behind. Focus on the contrast of sealed inner packs and surrounding flexible liner, entire box stays visible with small breathing room and dominates the wide frame, no huge blank margins. Natural window light, realistic silver fold highlights, matte bead foam texture, subtle pouch creases. No poster, exhibition stand, announcement, logo, trademark, readable text, labels, people, test equipment, thermometer or collage. Not ProAmpac products, not SIAL venue, not a Yuanen factory or documented event. Do not add ice packs or bare food. Beautiful grounded commercial editorial photography aesthetic, no CGI gloss, no split backgrounds, no decorative outer frame.",
+  "reference": "public/images/products/standardized/photos-2026-09/foil-box-liner-insert.webp",
+  "referenceRole": "Geometry and material only; inspected before generation; new scene",
+  "rightsBasis": "New image generated using built-in OpenAI image tool at user's request for their site; no external cover artwork reused. Subject to service terms, not a claim of exclusive copyright.",
+  "visualCheck": {
+    "passed": true,
+    "referenceFoamAndFoil": true,
+    "backgroundContinuous": true,
+    "textureNatural": true,
+    "noText": true,
+    "scope": "Generic scene, no actual event or manufacturer identification"
+  },
+  "disclosure": "Trilingual content-policy; normal caption, no independent type label"
+}

@@ -377,6 +377,35 @@
     }
   },
   {
+    "kind": "industry",
+    "slug": "proampac-sial-food-packaging-preview",
+    "publishedAt": "2026-10-14",
+    "title": {
+      "en": "ProAmpac Announces Its Food Packaging Plans for SIAL Paris",
+      "zh": "ProAmpac公布SIAL Paris食品包装展示计划",
+      "es": "ProAmpac anuncia sus planes de envases alimentarios para SIAL París"
+    },
+    "description": {
+      "en": "ProAmpac has announced its SIAL Paris plans. For buyers of insulated box liners, the useful distinction is the inner food pack and its shipping-pack interface.",
+      "zh": "ProAmpac公布巴黎食品包装展示计划。采购箱内保温内衬时，要分别明确食品内包装的要求与外层装箱接口。",
+      "es": "ProAmpac anuncia sus planes para SIAL París. Al comprar forros térmicos, conviene definir el envase alimentario y su encaje en el embalaje de transporte."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-14/sealed-food-pouches-foil-lined-foam-box.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "Two white sealed pouches inside a silver-lined foam box on a packing counter, with a lidded container beside it",
+        "zh": "打包台上，银色内衬泡沫箱内放着两只白色封口平袋，旁边有一个带盖容器",
+        "es": "Dos bolsas blancas selladas en una caja de espuma con forro plateado sobre una mesa, con un recipiente con tapa al lado"
+      },
+      "caption": {
+        "en": "Generic inner packs and a lined foam box. The scene does not show ProAmpac products or the SIAL exhibition.",
+        "zh": "通用内包装与带内衬泡沫箱，画面不展示ProAmpac产品或SIAL展会现场。",
+        "es": "Envases interiores y caja de espuma forrada genéricos. La escena no muestra productos ProAmpac ni la feria SIAL."
+      }
+    }
+  },
+  {
     "kind": "guide",
     "slug": "seafood-packout-leak-containment",
     "publishedAt": "2026-10-14",
