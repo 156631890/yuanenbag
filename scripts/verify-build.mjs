@@ -84,7 +84,7 @@ for (const file of files) {
   assert(!html.includes('class="editorial-card-image-note"'),`Article cards must not repeat illustration labels: ${file}`)
   if (html.includes('class="container page-section article editorial-article"')) {
     const caption = html.match(/<figcaption>([\s\S]*?)<\/figcaption>/)?.[1].replace(/<!--.*?-->/g,'')
-    assert(caption && / · (Illustration|示意图|Ilustración)$/.test(caption),`Keep the editorial detail illustration caption: ${file}`)
+    assert(caption && !/ · (Illustration|示意图|Ilustración)$/.test(caption),`Keep descriptive captions without repeated image-type labels: ${file}`)
     assert(/href="\/(?:zh\/|es\/)?content-policy\/"/.test(html),`Keep the editorial content-policy link: ${file}`)
   }
   assert(/class="footer-social-link"[^>]*href="https:\/\/www\.facebook\.com\/yuanenbag"[^>]*aria-label="[^"]+"/.test(html),`Missing accessible Facebook footer link: ${file}`)
@@ -112,32 +112,32 @@ for (const file of files) {
         assert.deepEqual(pageSchema.image.map(url=>new URL(url).pathname),views.map((_,i)=>'/images/products/standardized/insulated-catering-bags/material-corrected-20261012-'+String(i+1).padStart(2,'0')+'.webp'),'Approved catering gallery and order')
         for(const id of ['applications','materials','features','order-quantities','pricing','delivery','dimensions','export','catering-tray-fit','catering-questions']) assert(html.includes('id="'+id+'"'),'Missing catering section '+id)
         assert(html.includes('?bag=insulated-catering-bags'),'Catering-specific enquiry required')
-        assert(/AI-assisted|AI 辅助|asistida por IA/.test(html),'Catering AI disclosure')
+        assert(/sample|样品|muestra/.test(html),'Keep sample confirmation guidance')
         assert(!html.includes('/review/product-batch/'),'No preview links in catering page')
       }else if(ownProduct.slug==='insulated-meal-prep-bags'){
         const views=['open-packout','meal-application','closed-exterior','container-loading','zipper-lining','handle-attachment','empty-interior']
         assert.deepEqual(pageSchema.image.map(url=>new URL(url).pathname),views.map(v=>'/images/products/standardized/insulated-meal-prep-bags/'+v+'-v1.webp'),'Approved meal prep gallery and order')
         for(const id of ['applications','materials','features','order-quantities','pricing','delivery','dimensions','export','meal-prep-layout','meal-prep-questions']) assert(html.includes('id="'+id+'"'),'Missing meal prep section '+id)
         assert(html.includes('?bag=insulated-meal-prep-bags'),'Meal prep-specific enquiry required')
-        assert(/AI-assisted|AI 辅助|asistida por IA/.test(html),'Meal prep AI disclosure')
+        assert(/sample|样品|muestra/.test(html),'Keep sample confirmation guidance')
         assert(!html.includes('/review/product-batch/'),'No draft review links in meal prep page')
       }else if(ownProduct.slug==='insulated-ice-cream-delivery-bags'){
         const views=['tub-packout','packing-application','closed-exterior','tub-loading','empty-interior','hand-carry','zipper-lining']
         assert.deepEqual(pageSchema.image.map(url=>new URL(url).pathname),views.map((_,i)=>'/images/products/standardized/insulated-ice-cream-delivery-bags/material-corrected-20261012-'+String(i+1).padStart(2,'0')+'.webp'))
         for(const id of ['applications','materials','features','order-quantities','pricing','delivery','dimensions','export','ice-cream-packout','ice-cream-questions','ice-cream-quote']) assert(html.includes('id="'+id+'"'))
         assert(html.includes('?bag=insulated-ice-cream-delivery-bags'))
-        assert(/AI-assisted|AI 定制|Propuesta con IA/.test(html))
+        assert(/sample|样品|muestra/.test(html),'Keep sample confirmation guidance')
       }else if(ownProduct.slug==='insulated-beverage-delivery-bags'){
         const views=["cup-layout","cold-drink-packing","closed-exterior","cup-access","removable-divider","hand-carry","zipper-divider-detail"]
         assert.deepEqual(pageSchema.image.map(url=>new URL(url).pathname),views.map((_,i)=>'/images/products/standardized/insulated-beverage-delivery-bags/material-corrected-20261012-'+String(i+1).padStart(2,'0')+'.webp'),'Approved beverage gallery and order')
         for(const id of ['applications','materials','features','order-quantities','pricing','delivery','dimensions','export','beverage-cup-layout','beverage-questions','beverage-quote']) assert(html.includes('id="'+id+'"'),'Missing beverage section '+id)
         assert(html.includes('?bag=insulated-beverage-delivery-bags'),'Beverage-specific enquiry required')
-        assert(/AI-assisted|AI 定制|Propuesta con IA/.test(html),'Beverage design disclosure')
+        assert(/sample|样品|muestra/.test(html),'Keep sample confirmation guidance')
         assert(!html.includes('/review/product-batch/'),'No draft review links in beverage page')
       }else{
       const views=['open-bag-boxes','pizza-takeaway','closed-exterior','hand-carry','zipper-lining','handle-attachment','base-seams']
       assert.deepEqual(pageSchema.image.map(url=>new URL(url).pathname),views.map((_,i)=>'/images/products/standardized/insulated-pizza-delivery-bags/material-corrected-20261012-'+String(i+1).padStart(2,'0')+'.webp'),'Approved pizza design gallery and order')
-      assert(/AI-assisted|AI 辅助|asistida por IA/.test(html),'Custom design illustrations must be disclosed')
+      assert(/sample|样品|muestra/.test(html),'Keep sample confirmation guidance')
       for(const id of ['applications','materials','features','order-quantities','pricing','delivery','dimensions','export']) assert(html.includes('id="'+id+'"'),'Missing pizza buyer section '+id)
       assert(html.includes('?bag=insulated-pizza-delivery-bags'),'Pizza-specific enquiry required')
       assert(!html.includes('/review/product-batch/'),'Draft review links must not publish')

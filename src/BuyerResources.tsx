@@ -67,7 +67,7 @@ const guidePhotos: Record<string, string> = {
 
 export function GuideCards({ lang }: Props) {
   return <div className="buyer-guides">{guides.map((guide, i) => <a key={guide.slug} className={`buyer-guide ${guides.length === 3 && i === 0 ? 'buyer-guide-featured' : ''}`} href={href(`/guides/${guide.slug}/`, lang)}>
-    <div className="buyer-guide-photo"><img src={asset(guidePhotos[guide.slug])} {...responsiveImage(`images/${guidePhotos[guide.slug]}`,'(max-width:520px) calc(100vw - 36px), (max-width:800px) 42vw, (max-width:1150px) 21vw, 288px')} loading="lazy" alt="" /><span>{tx('Illustration', '示意图', 'Ilustración')[lang]}</span></div>
+    <div className="buyer-guide-photo"><img src={asset(guidePhotos[guide.slug])} {...responsiveImage(`images/${guidePhotos[guide.slug]}`,'(max-width:520px) calc(100vw - 36px), (max-width:800px) 42vw, (max-width:1150px) 21vw, 288px')} loading="lazy" alt="" /></div>
     <div className="buyer-guide-copy">
       <span className="eyebrow">{guide.label[lang]}</span>
       <h3>{guide.title[lang]}</h3><p>{guide.summary[lang]}</p>

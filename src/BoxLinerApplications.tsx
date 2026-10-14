@@ -51,7 +51,7 @@ export default function BoxLinerApplications({ lang }: { lang: Lang }) {
         <div className="liner-application-layout">
           <figure className="product-editorial-figure">
             <img src={`${import.meta.env.BASE_URL}${image}`} alt={item.title[lang]} loading="lazy" {...responsiveImage(image, '(max-width:650px) 90vw, 440px')} />
-            <figcaption>{t('AI packing illustration. Contents, foam outer box and coolant are props; confirm the supplied items in the quotation.', 'AI装载示意。内装物、泡沫外箱与冰源为道具，供货范围以报价确认为准。', 'Ilustración de embalaje generada con IA. Contenido, caja de espuma y refrigerante son elementos demostrativos; confirme el suministro en la cotización.')}</figcaption>
+            <figcaption>{t('Contents, foam outer box and coolant are props; confirm the supplied items in the quotation.', '内装物、泡沫外箱与冰源为道具，供货范围以报价确认为准。', 'Contenido, caja de espuma y refrigerante son elementos demostrativos; confirme el suministro en la cotización.')}</figcaption>
           </figure>
           <div><p>{item.intro[lang]}</p><ul className="detail-list">{item.checks.map(check => <li key={check.en}>{check[lang]}</li>)}</ul>
             <div className="liner-enquiry"><h3>{t('Send these details for a quotation', '询价时请提供', 'Datos para solicitar una cotización')}</h3><p>{item.brief[lang]}</p>

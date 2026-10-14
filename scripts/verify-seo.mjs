@@ -66,7 +66,7 @@ for(const lang of ['en','zh','es']){
    assert(html.includes(`<meta property="og:image" content="https://yuanenbag.com/${article.image.file}"`),`Wrong article share image: ${path}`)
    assert(visible.includes(`src="/${article.image.file}"`)&&visible.includes(`alt="${article.image.alt[lang]}"`),`Missing visible article image or alt: ${path}`)
    assert(visible.includes(article.image.caption[lang]),`Missing translated image caption: ${path}`)
-   if(article.image.kind==='illustration') assert(visible.includes({en:'Illustration',zh:'示意图',es:'Ilustración'}[lang]),`Missing illustration label: ${path}`)
+   assert(!/ · (Illustration|示意图|Ilustración)<\/figcaption>/.test(visible),`Repeated image-type label: ${path}`)
    assert(visible.includes(`href="${prefix}/content-policy/"`),`Missing content information link: ${path}`)
    assert(!visible.includes('AI-generated illustration')&&!visible.includes('AI 生成示意图')&&!visible.includes('Ilustración generada con IA'),`Repeated AI image label: ${path}`)
    await access(`dist/${article.image.file}`)
