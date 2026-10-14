@@ -1539,6 +1539,40 @@
       }
     ]
   },
+  "images/editorial/2026-10-14/foam-box-foil-liner-lid.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/1d91a918e554-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/9c7cf0c33e1e-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/7c913c3069f0-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/9b6850e2344e-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/c802892a76bf-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/3fbc75355c9a-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/2b57df7e6050-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
   "images/factory/building-crop.webp": {
     "width": 940,
     "height": 701,
@@ -8353,40 +8387,6 @@
       }
     ]
   },
-  "images/products/standardized/liner-applications-2026/seafood.webp": {
-    "width": 1254,
-    "height": 1254,
-    "variants": [
-      {
-        "file": "images/responsive/5fd9a4b9e07c-96.webp",
-        "width": 96
-      },
-      {
-        "file": "images/responsive/db1864ca327c-192.webp",
-        "width": 192
-      },
-      {
-        "file": "images/responsive/9975fd2550be-384.webp",
-        "width": 384
-      },
-      {
-        "file": "images/responsive/5c1eaabea47a-640.webp",
-        "width": 640
-      },
-      {
-        "file": "images/responsive/c9803baf6f1b-768.webp",
-        "width": 768
-      },
-      {
-        "file": "images/responsive/34c0ec34a4bf-960.webp",
-        "width": 960
-      },
-      {
-        "file": "images/responsive/94e1fe50036a-1254.webp",
-        "width": 1254
-      }
-    ]
-  },
   "images/products/standardized/liner-applications-2026/chocolate-foam-v2.webp": {
     "width": 1254,
     "height": 1254,
@@ -8451,6 +8451,40 @@
       },
       {
         "file": "images/responsive/bdb8e923a60b-1254.webp",
+        "width": 1254
+      }
+    ]
+  },
+  "images/products/standardized/liner-applications-2026/seafood.webp": {
+    "width": 1254,
+    "height": 1254,
+    "variants": [
+      {
+        "file": "images/responsive/5fd9a4b9e07c-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/db1864ca327c-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/9975fd2550be-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/5c1eaabea47a-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/c9803baf6f1b-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/34c0ec34a4bf-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/94e1fe50036a-1254.webp",
         "width": 1254
       }
     ]

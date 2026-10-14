@@ -117,6 +117,35 @@
   },
   {
     "kind": "guide",
+    "slug": "foam-box-liner-closure-clearance",
+    "publishedAt": "2026-10-14",
+    "title": {
+      "en": "Check That Your Foam Box Lid Closes After Adding the Insulated Liner",
+      "zh": "装入保温内衬后，先检查泡沫箱盖能否闭合",
+      "es": "Compruebe el cierre de la caja de espuma después de colocar el forro aislante"
+    },
+    "description": {
+      "en": "Compare an empty foam box, its foil liner and the complete load. Locate folded material or coolant that interferes with lid seating before confirming a sample.",
+      "zh": "依次比较空泡沫箱、装入铝箔内衬及完整装载后的闭合，定位折合材料或冰源与箱盖的干涉，再确认样品。",
+      "es": "Compare la caja vacía, el forro y la carga completa. Localice pliegues o refrigerante que impidan asentar la tapa antes de aceptar la muestra."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-14/foam-box-foil-liner-lid.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "An empty white foam box with a silver liner and separate foam lid on a grey packing bench",
+        "zh": "灰色打包台上，白色空泡沫箱内铺着银色内衬，旁边立着独立箱盖",
+        "es": "Caja de espuma blanca vacía con forro plateado y tapa separada sobre una mesa gris de embalaje"
+      },
+      "caption": {
+        "en": "Generic foam box, silver liner and separate lid. The image does not show a verified closure or thermal test.",
+        "zh": "通用泡沫箱、银色内衬及独立箱盖，画面不展示已验证的闭合或温控试验。",
+        "es": "Caja de espuma, forro plateado y tapa genéricos. La imagen no muestra un cierre verificado ni un ensayo térmico."
+      }
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "foil-mailer-outer-carton-checklist",
     "publishedAt": "2026-10-13",
     "title": {

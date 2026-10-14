@@ -1,0 +1,24 @@
+{
+  "tool": "built-in image_gen",
+  "referenceContext": {"file":"public/images/products/photos-2026-09/foil-box-liner-insert.webp","use":"Real sample photograph viewed before prompting for foam-box and foil-liner construction; not copied or reused as a cover, not supplied as input pixels."},
+  "generatedAt": "2026-10-14",
+  "source": "C:/Users/Administrator/.codex/generated_images/01a0c806-5c48-7793-814b-5d33d8e4c624/exec-4d74df91-ec93-45b3-934d-7556875f3585.png",
+  "file": "images/editorial/2026-10-14/foam-box-foil-liner-lid.webp",
+  "prompt": "Use case: photorealistic-natural. Asset type: purchasing guide cover, generic packing illustration, not actual YUANEN product or a test. Create a 3:2 landscape photograph-quality editorial illustration of a white bead-textured foam shipping box on a light warm-grey packing workbench. Its silver foil-faced flexible liner has natural fine embossing and wrinkles and softly folded top flaps sitting below the rim. A separate matching foam lid leans upright next to the box with its underside seating step visible; no unrealistic hinges. Three-quarter elevated viewpoint, entire box and lid occupy most of the frame with only modest margins. One continuous softly lit neutral packing-room background, natural daylight, believable contact shadows, tactile foam and foil. Empty liner, no food, coolant, instruments or hands. No text, numbers, logos, watermark, collage, diagram, certification seals or glossy CGI. This image illustrates packaging shape only, not closure approval, watertightness or thermal performance.",
+  "rights": {
+    "source": "https://openai.com/policies/terms-of-use/",
+    "checkedAt": "2026-10-14",
+    "basis": "OpenAI assigns output rights to the user to the extent permitted by law; output may not be unique. No third-party asset or logo used; not an exclusive copyright guarantee."
+  },
+  "visualCheck": {
+    "checker": "AI-assisted visual inspection, not human approval",
+    "passed": true,
+    "observations": "Single natural packing room and daylight, complete foam box and separate lid, tactile silver liner and foam bead texture, no text or logo. Generic empty package, not a tested closure or physical YUANEN sample."
+  },
+  "optimized": {
+    "width": 1200,
+    "height": 800,
+    "bytes": 131806,
+    "operation": "same-aspect resizing and WebP encoding only"
+  }
+}
