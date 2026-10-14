@@ -1607,6 +1607,40 @@
       }
     ]
   },
+  "images/editorial/2026-10-14/seafood-pouches-secondary-container.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/66a13a83c71a-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/b3f3f5f07e33-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/4780b74d48e9-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/5daa22e6f947-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/d6853e80d079-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/5cd7a1d78879-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/d7af8f7a5d47-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
   "images/factory/building-crop.webp": {
     "width": 940,
     "height": 701,

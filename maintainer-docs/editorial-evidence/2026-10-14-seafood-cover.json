@@ -1,0 +1,33 @@
+{
+  "tool": "built-in image_gen",
+  "generatedAt": "2026-10-14",
+  "source": "C:/Users/Administrator/.codex/generated_images/01a0c806-5c48-7793-814b-5d33d8e4c624/exec-259183f7-d3bf-45eb-b03b-979ddb1dd1ac.png",
+  "file": "images/editorial/2026-10-14/seafood-pouches-secondary-container.webp",
+  "prompt": "Use case: photorealistic-natural. Asset: completely new 3:2 landscape editorial cover for a seafood-packaging purchasing guide. The supplied image is a REAL white foam box and silver foil liner construction reference only, not an edit target or final cover. Create a refined natural commercial-photography scene of an open white bead-textured foam shipping box with a thin flexible embossed silver foil liner on a light-grey packing bench. Inside is one clear rectangular rigid secondary container holding two individual closed transparent food pouches containing orange fish portions. One simple silver refrigerant pouch is beside the secondary container inside the outer box. The transparent secondary lid is resting to one side, plausible matching geometry, no hinges. The contents are packaging props only, no claim of food-contact certification, vacuum process, approved leak containment, frozen state or transport temperature. Entire foam box and packing layers clearly visible in a slightly elevated three-quarter view; subject fills most of the 3:2 frame, modest safe margins. One continuous understated clean packing-room background, soft side daylight and realistic shadows; natural foil wrinkles, foam bead detail, clear plastic edges with subdued reflections. No loose ice, water, spills, uncovered seafood touching foil, people, labels, words, numbers, logos, test instruments, CGI gloss, excessive props or collage. New viewpoint and composition, do not copy the supplied reference photograph.",
+  "references": [
+    {
+      "file": "public/images/products/photos-2026-09/foil-box-liner-insert.webp",
+      "role": "Real foam-box and foil-liner construction photograph; viewed then supplied as image reference, not reused cover"
+    },
+    {
+      "file": "public/images/products/standardized/liner-applications-2026/seafood.webp",
+      "role": "Current AI application viewed for scope; not an actual food shipment or supplied as cover"
+    }
+  ],
+  "rights": {
+    "source": "https://openai.com/policies/terms-of-use/",
+    "checkedAt": "2026-10-14",
+    "basis": "Output belongs to user to extent law permits and may not be unique; not an exclusive copyright guarantee. Own YUANEN sample reference, no external photo or logo."
+  },
+  "visualCheck": {
+    "passed": true,
+    "checker": "AI-assisted visual inspection, no human approval",
+    "observations": "Complete foam box with foil liner, two individually enclosed orange fish portions inside one clear secondary container, separate clear lid and silver pouch. Single natural packing-room light, believable contact shadows, tactile foam and foil. No loose liquid or exposed fish against foil; no test/food-contact/temperature/capacity evidence."
+  },
+  "optimized": {
+    "width": 1200,
+    "height": 800,
+    "bytes": 109010,
+    "operation": "same-aspect resizing and WebP encoding only"
+  }
+}

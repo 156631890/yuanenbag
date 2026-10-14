@@ -378,6 +378,35 @@
   },
   {
     "kind": "guide",
+    "slug": "seafood-packout-leak-containment",
+    "publishedAt": "2026-10-14",
+    "title": {
+      "en": "Which Layer Should Contain Leaks in a Seafood Shipping Box?",
+      "zh": "海鲜运输箱中，哪一层负责防漏？",
+      "es": "¿Qué capa debe contener las fugas en una caja de transporte de pescado y marisco?"
+    },
+    "description": {
+      "en": "Specify the sealed seafood package, secondary leak containment and foil box liner separately. Record layer condition and loaded fit without assuming watertight seams.",
+      "zh": "分别确认密封海鲜内包装、第二层防漏容器与铝箔箱内衬，记录各层状态及装载适配，不将隔热接缝当作水密证明。",
+      "es": "Defina por separado envase sellado, contención secundaria y forro de aluminio. Registre estado y ajuste sin presuponer uniones estancas."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-14/seafood-pouches-secondary-container.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "Two individually packed orange fish portions in a clear container inside a foil-lined foam box, beside a silver pouch and separate clear lid",
+        "zh": "银色内衬泡沫箱内，透明容器中放着两份独立包装的橙色鱼肉，旁边有银色平袋及独立透明盖",
+        "es": "Dos porciones de pescado naranja en bolsas individuales dentro de un recipiente transparente en una caja de espuma forrada, junto a una bolsa plateada y tapa separada"
+      },
+      "caption": {
+        "en": "Generic individually packed fish, secondary container and lined foam box. The view does not establish leak containment, food-contact suitability or temperature performance.",
+        "zh": "通用独立包装鱼肉、第二层容器与带内衬泡沫箱，画面不证明防漏、食品接触适用性或温控性能。",
+        "es": "Pescado envasado, recipiente secundario y caja forrada genéricos. La imagen no acredita contención, aptitud para contacto alimentario ni comportamiento térmico."
+      }
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "self-seal-foil-bag-size-flap-fit",
     "publishedAt": "2026-10-09",
     "title": {
