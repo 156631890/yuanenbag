@@ -1,0 +1,33 @@
+{
+  "tool": "built-in image_gen",
+  "generatedAt": "2026-10-14",
+  "source": "C:/Users/Administrator/.codex/generated_images/01a0c806-5c48-7793-814b-5d33d8e4c624/exec-d7cfbe47-9e32-458a-9bb5-a28428cb4f58.png",
+  "file": "images/editorial/2026-10-14/chocolate-gift-box-foil-liner.webp",
+  "prompt": "Use case: photorealistic-natural. Asset: a completely new 3:2 landscape purchasing-guide editorial cover, generic packaging illustration. Image 1 is a real foam-box and foil-liner construction reference ONLY, not an edit target or the final cover. Create a new natural photography-quality scene on a warm grey packing bench: a shallow white bead-textured foam shipping box lined with flexible finely embossed silver foil, holding one closed ivory chocolate gift box with a simple brown ribbon. A plain silver flat refrigerant pouch lies along the front inside edge, with a modest plain white separator between it and the gift box. The separator is a proposed packing prop, not a certified moisture barrier. No exposed chocolates, no text or logos. Elevated three-quarter close view, whole foam box and gift box visible, filling most of the wide frame with comfortable small margins. Soft window daylight and believable contact shadows; tactile paper, fine wrinkles of thin foil and foam beads. One continuous understated packing-room background, no split panels or outer border. Make the scene elegant but practical, no waxy rendering, exaggerated reflections, thick mirror metal, extra equipment, testing instruments, condensation-effects or claim graphics. Do not depict a tested cooling arrangement or actual YUANEN production sample. New composition and image, do not reuse/copy the supplied reference picture.",
+  "references": [
+    {
+      "file": "public/images/products/photos-2026-09/foil-box-liner-insert.webp",
+      "role": "Real sample construction reference, viewed and supplied as input pixels; not reused cover"
+    },
+    {
+      "file": "public/images/products/standardized/liner-applications-2026/chocolate-foam-v2.webp",
+      "role": "Viewed existing AI application for scope/props only, not supplied or copied as cover"
+    }
+  ],
+  "rights": {
+    "source": "https://openai.com/policies/terms-of-use/",
+    "checkedAt": "2026-10-14",
+    "basis": "User owns output to extent law permits; may not be unique, not an exclusive copyright guarantee. YUANEN-provided own real sample used as reference; no external asset or trademark."
+  },
+  "visualCheck": {
+    "passed": true,
+    "checker": "AI-assisted inspection, no human approval",
+    "observations": "Single natural packing setting, shallow white foam with bead texture, thin foil wrinkles, closed ribbon gift box, separate silver flat pouch and white separator; full outline and believable daylight. No labels or performance evidence."
+  },
+  "optimized": {
+    "width": 1200,
+    "height": 800,
+    "bytes": 101840,
+    "operation": "same-aspect resizing and WebP encoding only"
+  }
+}

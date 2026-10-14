@@ -58,6 +58,35 @@
     }
   },
   {
+    "kind": "guide",
+    "slug": "chocolate-gift-box-coolant-separation",
+    "publishedAt": "2026-10-14",
+    "title": {
+      "en": "Keep Chocolate Gift Packaging in the Coolant Separation Brief",
+      "zh": "巧克力运输冰源方案也要考虑礼盒表面保护",
+      "es": "Incluya la protección de la caja de chocolate al definir la separación del refrigerante"
+    },
+    "description": {
+      "en": "Document a chocolate gift box, coolant and proposed separator inside a foil-lined foam box. Check presentation and moisture observations apart from thermal results.",
+      "zh": "记录巧克力礼盒、冰源及拟定隔离材料在铝箔内衬泡沫箱中的布局，把外观和受潮观察与温控结果分开检查。",
+      "es": "Documente caja de regalo, refrigerante y separador en una caja de espuma forrada. Revise presentación y humedad por separado de los resultados térmicos."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-14/chocolate-gift-box-foil-liner.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "A ribboned ivory gift box, silver flat pouch and white separator inside a foil-lined foam box",
+        "zh": "铺有银色内衬的泡沫箱中，放着带装饰带的米白礼盒、银色平袋和白色隔片",
+        "es": "Caja de regalo marfil con cinta, bolsa plana plateada y separador blanco dentro de una caja de espuma forrada"
+      },
+      "caption": {
+        "en": "Generic gift box, pouch and separator in a foam box. The arrangement does not demonstrate moisture or temperature performance.",
+        "zh": "泡沫箱中的通用礼盒、平袋及隔片，布局不证明防潮或温控性能。",
+        "es": "Caja de regalo, bolsa y separador genéricos en una caja de espuma. La disposición no acredita protección contra humedad ni prestaciones térmicas."
+      }
+    }
+  },
+  {
     "kind": "industry",
     "slug": "eu-packaging-rules-insulated-bag-buyers",
     "publishedAt": "2026-10-10",
