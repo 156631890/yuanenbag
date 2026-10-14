@@ -406,6 +406,35 @@
     }
   },
   {
+    "kind": "industry",
+    "slug": "promach-pack-expo-connected-line-preview",
+    "publishedAt": "2026-10-14",
+    "title": {
+      "en": "ProMach Plans Production-Stage Displays at PACK EXPO",
+      "zh": "ProMach将在PACK EXPO呈现包装产线各环节",
+      "es": "ProMach prepara áreas de exposición por etapas para PACK EXPO"
+    },
+    "description": {
+      "en": "An exhibition preview prompts a separate packing check: pass finished-pack dimensions and handling requirements to the team selecting a shipping-box liner.",
+      "zh": "展会前瞻提出另一项装箱核对：将完成包装后的外形尺寸与取放要求，交给运输箱内衬选型人员。",
+      "es": "Una próxima exposición plantea una comprobación de embalaje: entregar las medidas y necesidades de manipulación del envase terminado a quien selecciona el forro térmico."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-14/lidded-meal-trays-roller-conveyor.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "Three black trays with clear lids on a stainless roller conveyor beside a counter with white containers",
+        "zh": "不锈钢辊筒输送台上有三只透明盖黑色餐盒，旁边台面放着白色容器",
+        "es": "Tres bandejas negras con tapas transparentes sobre un transportador de rodillos junto a una mesa con recipientes blancos"
+      },
+      "caption": {
+        "en": "Generic packing handoff scene. It does not depict ProMach equipment, PACK EXPO or a YUANEN production line.",
+        "zh": "通用包装交接场景，不展示ProMach设备、PACK EXPO现场或远恩产线。",
+        "es": "Escena genérica de entrega de envases. No representa equipos ProMach, PACK EXPO ni una línea YUANEN."
+      }
+    }
+  },
+  {
     "kind": "guide",
     "slug": "seafood-packout-leak-containment",
     "publishedAt": "2026-10-14",

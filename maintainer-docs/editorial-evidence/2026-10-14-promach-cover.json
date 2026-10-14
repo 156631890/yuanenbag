@@ -1,0 +1,19 @@
+{
+  "file": "images/editorial/2026-10-14/lidded-meal-trays-roller-conveyor.webp",
+  "source": "C:/Users/Administrator/.codex/generated_images/01a0c806-5c48-7793-814b-5d33d8e4c624/exec-232918e1-442a-4514-bc7f-9463ba5222e0.png",
+  "tool": "image_gen built-in",
+  "generatedAt": "2026-10-14",
+  "prompt": "Use case: photorealistic-natural. Asset: landscape 3:2 editorial cover about 1200x800. NEW beautiful commercial editorial photography-style image of a generic modest food packaging handoff area. Low three-quarter view along a short stainless steel roller conveyor that leads naturally to a packing counter. The visual focus is a small group of plain dark shallow rectangular meal trays with tightly fitted clear lids on the foreground rollers, realistic lid overhangs and seams; muted indistinct contents only. Conveyor rails are continuous and straight, rollers mechanically credible, not futuristic. A few closed white containers on the counter beyond, softly defocused industrial room with natural daylight. Product groups and conveyor dominate frame with no large blank area. Soft real light, restrained stainless reflection and slight surface wear, natural plastics, clean but not waxy. Do NOT show any branded machinery, exhibition, show booth, screens, text, labels, numbers, logos, people or companies. Not a depiction of ProMach equipment, PACK EXPO or YUANEN production, no certification/testing props, no robotics added, no foil boxes or bags, no collage or different-color border. A coherent restrained process atmosphere, single background, realistic proportions and contact shadows.",
+  "referenceRole": "Generic process atmosphere, no pictured YUANEN product or specific machinery; related YUANEN product reference separately viewed for copy checks.",
+  "rightsBasis": "New generated image via built-in OpenAI image tool for user's website, no external artwork or trademarks reused, subject to service terms, no exclusive-copyright assertion.",
+  "visualCheck": {
+    "passed": true,
+    "threeTrays": true,
+    "continuousBackground": true,
+    "credibleRollers": true,
+    "noText": true,
+    "realisticContactShadows": true,
+    "noSpecificMachineClaims": true
+  },
+  "disclosure": "Trilingual content-policy, normal descriptive caption, no independent type label."
+}

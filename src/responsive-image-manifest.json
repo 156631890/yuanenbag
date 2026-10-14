@@ -1675,6 +1675,40 @@
       }
     ]
   },
+  "images/editorial/2026-10-14/lidded-meal-trays-roller-conveyor.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/76ae494804c7-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/e1d710017afc-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/a20ccfb139fc-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/798fd19d66d1-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/284ecc088c4e-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/dc83e9248b06-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/048d60c7e78a-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
   "images/factory/building-crop.webp": {
     "width": 940,
     "height": 701,
