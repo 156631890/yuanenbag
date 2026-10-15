@@ -1,0 +1,27 @@
+{
+  "tool": "image_gen",
+  "generatedAt": "2026-10-15T08:02:43.681Z",
+  "source": "C:/Users/Administrator/.codex/generated_images/01a0c806-5c48-7793-814b-5d33d8e4c624/exec-cf1cf575-2749-40ac-bff8-46b4413ef6b7.png",
+  "file": "images/editorial/2026-10-15/molded-fiber-trays-separate-lid.webp",
+  "prompt": "Generate a single polished commercial editorial photograph-style image, horizontal 3:2, target 1200x800. A modest stack of unbranded empty rectangular molded-fiber food trays in warm natural ivory, plus one matching plain fiber lid resting flat separately beside them, on a clean light stone-grey food-packing counter. One coherent product category, not a collage. Show delicate pressed plant-fiber texture, smooth but not plastic interior, realistic thin molded rims and slightly rounded corners, nested tray profiles and a separate lid with plausible matching rectangular outline. The stack and lid have complete silhouettes and a natural safety margin, spread comfortably across the horizontal image; not too small, no excessive blank space. Soft window illumination, subtle believable contact shadows, restrained natural colors, commercial product photography, crisp tactile material details, no waxy CGI, no oversharpening or artificial glossy highlights. Background softly out of focus, a quiet generic clean packing room with neutral surfaces, same perspective and light; no equipment, workers, food, bag, labels or extra props. No text, trademarks, numbers, packaging claims, certificates or logos. This is generic packaging context for news of molded-fiber capacity, NOT a Dart product image, NOT the Lancaster facility, NOT proof of a real event, environmental properties or heating performance. Avoid compartment dividers, hinges or invented elaborate structure. No border, inset image or collage seams. Output just the image.",
+  "usageRightsBasis": "Original image generated using the available OpenAI image generation tool for this user-authorized website publication; no external stock, trademarks or copied Dart product photograph. Generic packaging scene, not actual factory/production proof.",
+  "referencesInspected": [
+    "public/images/products/standardized/insulated-catering-bags/material-corrected-20261012-01.webp"
+  ],
+  "referenceRole": "Current verified front-loading bag configuration inspected for article facts only; no bag or actual product copied into this generic packaging image.",
+  "visualCheck": {
+    "passed": true,
+    "texture": "Natural fine pressed-fiber texture, no glossy plastic or silver textile",
+    "structure": "Plausibly nested rectangular trays and separate plain lid; image does not prove fit",
+    "light": "Unified soft window light and grounded contact shadows",
+    "composition": "Complete tray and lid outlines inside horizontal frame, simple background, safe mobile/list crop",
+    "truthfulness": "Not Dart/Lancaster photography or tested/compostable/food-contact/oven-compatible product evidence"
+  },
+  "humanReview": false,
+  "optimized": {
+    "width": 1200,
+    "height": 800,
+    "bytes": 63056,
+    "operation": "same-aspect resizing and WebP encoding only"
+  }
+}

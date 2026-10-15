@@ -117,6 +117,35 @@
   },
   {
     "kind": "industry",
+    "slug": "dart-lancaster-molded-fiber-capacity",
+    "publishedAt": "2026-10-15",
+    "title": {
+      "en": "Dart Expands Molded-Fiber Packaging Capacity in Lancaster",
+      "zh": "Dart扩展兰开斯特模塑纤维包装产能",
+      "es": "Dart amplía su capacidad de envases de fibra moldeada en Lancaster"
+    },
+    "description": {
+      "en": "Dart’s Pennsylvania announcement prompts a container-change review: confirm the tray-and-lid pair and filled sample before approving a catering-bag loading plan.",
+      "zh": "Dart的宾夕法尼亚州产能公告带来餐盒更换核对：先明确餐盒与盒盖的配对和装载样品，再确认配送保温包的装载方案。",
+      "es": "El anuncio de Dart en Pensilvania invita a comprobar recipiente, tapa y muestra cargada antes de aprobar su disposición en una bolsa térmica de catering."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-15/molded-fiber-trays-separate-lid.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "Nested ivory fiber trays with a separate rectangular lid on a grey counter",
+        "zh": "灰色台面上套叠的米白纤维餐盒与独立长方形盒盖",
+        "es": "Bandejas de fibra color marfil anidadas y una tapa rectangular separada sobre una encimera gris"
+      },
+      "caption": {
+        "en": "Empty fiber trays and a separate lid on a packing counter.",
+        "zh": "装箱台面上的空纤维餐盒与独立盒盖。",
+        "es": "Bandejas de fibra vacías y una tapa separada sobre una encimera de embalaje."
+      }
+    }
+  },
+  {
+    "kind": "industry",
     "slug": "eu-packaging-rules-insulated-bag-buyers",
     "publishedAt": "2026-10-10",
     "title": {
