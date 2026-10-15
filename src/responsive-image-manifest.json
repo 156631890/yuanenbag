@@ -1,4 +1,38 @@
 {
+  "images/editorial/2026-10-15/blue-gold-grocery-tote-blank-card.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/771233d54362-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/c93f8191ae76-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/c6ce2f65f0cd-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/afc44d5c7e68-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/72bb05b335b6-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/010ff6fde661-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/eb9c53a12fae-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
   "images/editorial/2026-10-15/open-catering-bag-folded-cloth.webp": {
     "width": 1200,
     "height": 800,

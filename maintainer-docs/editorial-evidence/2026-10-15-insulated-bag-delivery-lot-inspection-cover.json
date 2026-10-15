@@ -1,0 +1,24 @@
+{
+  "file": "images/editorial/2026-10-15/blue-gold-grocery-tote-blank-card.webp",
+  "source": "C:/Users/Administrator/.codex/generated_images/01a0c806-5c48-7793-814b-5d33d8e4c624/exec-8b86d808-632f-4fdd-a5c9-f517156bc903.png",
+  "tool": "image_gen built-in",
+  "generatedAt": "2026-10-15",
+  "prompt": "New product-mockup editorial cover, photorealistic commercial studio photograph style. Faithfully use the reference blue metallic embossed-square upright grocery insulated tote with gold binding and gold short paired loop handles, flexible creased laminate, top zipper and side gusset. Show ONE tote standing on seamless #F6F6F4 light gray background with natural contact shadow, fully visible handles and bottom, about 10 percent vertical safe space above highest handle. Landscape 3:2. Attractive soft daylight, genuine imperfect flexible surface, no hard shell, no stylized CGI. Place only one small blank white folded paper at lower right. Remove all measuring tools, rulers, measuring tapes, pencils and other props: absolutely NO digits, text, logos or symbols anywhere. Subject fully unfolded and prominent, no split background, no border, no foods or people. The visual is not evidence of production or an inspection. Preserve actual reference identity and proportions; the background and viewpoint are new.",
+  "references": [
+    "Supplied product photograph public/images/products/packy/upright-grocery-cooler-main.webp"
+  ],
+  "rightsBasis": "User-authorized output using supplied company product photo reference; applicable OpenAI service output terms, no third-party stock or trademark; no exclusivity claim.",
+  "review": {
+    "identity": "Blue embossed upright tote and gold handles/binding consistent with supplied photo; not navy tray carrier",
+    "composition": "Full handle and base, single gray background, no text or numbers; blank card only",
+    "iterations": "First candidate handle too close to edge; second tape had numbers; third removed tape and checked clear contour",
+    "limits": "Not an inspection scene or production proof",
+    "reviewer": "AI visual self-check, not human approval"
+  },
+  "optimized": {
+    "width": 1200,
+    "height": 800,
+    "bytes": 84620,
+    "operation": "same-aspect resizing and WebP encoding only"
+  }
+}

@@ -320,6 +320,35 @@
   },
   {
     "kind": "guide",
+    "slug": "insulated-bag-delivery-lot-inspection",
+    "publishedAt": "2026-10-15",
+    "title": {
+      "en": "Record Delivered Insulated Bags Against the Agreed Sample",
+      "zh": "保温袋到货后，怎样记录与确认样品的差异",
+      "es": "Registre las diferencias entre las bolsas recibidas y la muestra acordada"
+    },
+    "description": {
+      "en": "Link cartons and lot references to a sample revision, document observed differences and agree a disposition before releasing the affected bags.",
+      "zh": "将箱号、批次与样品版号关联，记录到货差异和照片，并在放行相关袋子前确认处置结果。",
+      "es": "Vincule cajas y lotes con la revisión de muestra, documente diferencias y acuerde su disposición antes de liberar las bolsas afectadas."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-15/blue-gold-grocery-tote-blank-card.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "Upright blue insulated tote with gold-colour handles and binding beside a blank folded card",
+        "zh": "蓝色立式保温购物袋，搭配金色提手和包边，旁边放着空白折卡",
+        "es": "Bolsa térmica vertical azul con asas y ribetes dorados junto a una tarjeta doblada en blanco"
+      },
+      "caption": {
+        "en": "The tote’s handles, side gusset and edge binding are visible beside a blank card.",
+        "zh": "图中可见购物袋的提手、侧褶和包边，旁边为一张空白折卡。",
+        "es": "Se ven las asas, el fuelle lateral y los ribetes de la bolsa junto a una tarjeta en blanco."
+      }
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "insulated-shopping-bags-frozen-food",
     "publishedAt": "2026-10-07",
     "title": {
