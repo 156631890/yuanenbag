@@ -1,0 +1,28 @@
+{
+  "tool": "image_gen",
+  "generatedAt": "2026-10-15T07:36:26.514Z",
+  "source": "C:/Users/Administrator/.codex/generated_images/01a0c806-5c48-7793-814b-5d33d8e4c624/exec-9bec5eda-4f20-444c-b96f-c2a7152cfccf.png",
+  "file": "images/editorial/2026-10-15/neutral-packaging-paper-roll.webp",
+  "prompt": "Create one refined commercial editorial photograph-style image, landscape 3:2, 1200 x 800 target. Subject: an unbranded roll of warm off-white packaging paper resting horizontally on a clean pale-grey material inspection bench, a short loose paper end curling gently forward onto the bench. One single roll, tactile fine paper fibers, believable layered cut edge and cardboard core, realistic soft creases, matte paper, no metallic foil, no visible coating diagram. Quiet softly blurred generic packaging workshop background, consistent diffuse window light from left, natural contact shadows, restrained neutral color palette, sharp credible material detail, sophisticated actual commercial photography aesthetic, not glossy CGI. Roll fills most of the horizontal frame with the entire silhouette and loose end safely inside the crop, central visual focus, no large empty region, no border or inset panel. This is a generic material context for a news article about paper barrier pilot manufacturing; it must NOT depict Nfinite's actual product, proprietary equipment, facility, verified trial or test, certification, or a YUANEN product. No brands, logos, labels, text, numbers, people, lab instruments, foam box, food or other props. Do not imply the paper's barrier performance can be seen. Output only the image.",
+  "usageRightsBasis": "Original image generated using the available OpenAI image generation tool for this user-authorized website publication; no external stock, brand marks or third-party reference image copied into the cover. Subject is generic, not Nfinite's product/facility or a test photograph.",
+  "referencesInspected": [
+    "public/images/products/photos-2026-09/foil-box-liner-insert.webp",
+    "public/images/products/standardized/liner-applications-2026/meal-kit-foam-v2.webp"
+  ],
+  "referenceRole": "Checked actual foil liner folds and white foam outer box for factual analysis only; not placed into this generic paper cover. No claim that paper replaces the liner.",
+  "visualCheck": {
+    "passed": true,
+    "subject": "Single paper roll with loose end on light grey bench",
+    "texture": "Fine matte fibers, plausible roll layers/core and resting loose sheet",
+    "light": "Consistent window light and contact shadows",
+    "composition": "Full silhouette, central subject, 3:2 safe margin; no labels, frame, equipment or invented event evidence",
+    "truthfulness": "Generic generated material scene; no barrier, recycling, thermal or supply-performance proof"
+  },
+  "humanReview": false,
+  "optimized": {
+    "width": 1200,
+    "height": 800,
+    "bytes": 51244,
+    "operation": "same-aspect resizing and WebP encoding only"
+  }
+}

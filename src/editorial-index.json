@@ -406,6 +406,35 @@
     }
   },
   {
+    "kind": "industry",
+    "slug": "nfinite-paper-barrier-pilot-run",
+    "publishedAt": "2026-10-15",
+    "title": {
+      "en": "Nfinite Reports a Roll-to-Roll Pilot Run for Barrier Paper",
+      "zh": "Nfinite公布阻隔纸卷对卷中试进展",
+      "es": "Nfinite anuncia una prueba piloto de papel barrera de bobina a bobina"
+    },
+    "description": {
+      "en": "A Canadian pilot announcement raises a practical sourcing question: which material, production and complete-pack evidence is needed before changing an insulated shipping pack?",
+      "zh": "加拿大企业的中试公告带来一个采购问题：调整保温运输包装前，需要分别取得哪些材料、生产和整包装验证资料？",
+      "es": "Un anuncio piloto en Canadá plantea qué documentos del material, la producción y el embalaje completo pedir antes de cambiar un envío térmico."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-15/neutral-packaging-paper-roll.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "An off-white paper roll with a loose end resting on a pale-grey bench",
+        "zh": "浅灰工作台上的米白纸卷及展开的纸端",
+        "es": "Bobina de papel blanco cálido con un extremo extendido sobre una mesa gris clara"
+      },
+      "caption": {
+        "en": "A paper roll and loose sheet on a material workbench.",
+        "zh": "材料工作台上的纸卷与展开纸片。",
+        "es": "Una bobina de papel con una hoja extendida sobre una mesa de materiales."
+      }
+    }
+  },
+  {
     "kind": "guide",
     "slug": "pizza-delivery-bag-packout-checklist",
     "publishedAt": "2026-10-12",

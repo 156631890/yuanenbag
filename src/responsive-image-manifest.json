@@ -1,4 +1,38 @@
 {
+  "images/editorial/2026-10-15/neutral-packaging-paper-roll.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/28c38eb8a549-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/45d02cd2f0ee-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/ed60be7a65f8-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/677713353c1d-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/6014c10019b3-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/415705999dd4-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/2b727a485de9-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
   "images/editorial/2026-10-15/closed-navy-catering-bag-envelope.webp": {
     "width": 1200,
     "height": 800,
