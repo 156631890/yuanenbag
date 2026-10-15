@@ -494,6 +494,35 @@
   },
   {
     "kind": "guide",
+    "slug": "repeat-order-insulated-bag-change-review",
+    "publishedAt": "2026-10-15",
+    "title": {
+      "en": "Map Insulated Bag Changes to the Checks Needed Before a Repeat Order",
+      "zh": "保温袋返单前，把变更与复核项目对应起来",
+      "es": "Relacione los cambios de la bolsa térmica con las revisiones del nuevo pedido"
+    },
+    "description": {
+      "en": "Compare the previous sample with the proposed repeat order. Match material, opening, handle and delivery changes to appearance, loaded-fit or thermal reviews.",
+      "zh": "将上次确认样品与返单方案对照，把材料、开口、提手及配送条件的变化对应到外观、装载或温控复核。",
+      "es": "Compare la muestra anterior con el nuevo pedido y vincule cambios de materiales, abertura, asas y reparto con revisiones visuales, de carga o térmicas."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-15/closed-navy-catering-bag-envelope.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "Closed navy rectangular bag with a front zipper and side grips beside a plain envelope",
+        "zh": "闭合的深蓝箱形袋，带前幅拉链和侧提手，旁边放着素色信封",
+        "es": "Bolsa rectangular azul marino cerrada con cremallera frontal y asas laterales junto a un sobre liso"
+      },
+      "caption": {
+        "en": "The closed front panel, zipper path and short side grips are visible, with a plain envelope beside the bag.",
+        "zh": "图中可见闭合前幅、拉链路径和短侧提手，袋旁为素色信封。",
+        "es": "Se ven el panel frontal cerrado, el recorrido de la cremallera y las asas laterales cortas; hay un sobre liso al lado."
+      }
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "seafood-packout-leak-containment",
     "publishedAt": "2026-10-14",
     "title": {

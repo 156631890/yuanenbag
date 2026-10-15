@@ -1,0 +1,25 @@
+{
+  "file": "images/editorial/2026-10-15/closed-navy-catering-bag-envelope.webp",
+  "source": "C:/Users/Administrator/.codex/generated_images/01a0c806-5c48-7793-814b-5d33d8e4c624/exec-94b6345a-94ec-4a1b-9e5e-7d4ec3125b71.png",
+  "tool": "image_gen built-in",
+  "generatedAt": "2026-10-15",
+  "prompt": "Use case: product-mockup. Generate a NEW photorealistic commercial editorial cover for a guide about reviewing changes before repeat orders. Image1 is approved current navy front-opening catering carrier proposal and fixes design identity; image2 is an actual supplied nonwoven bag photo for subtle bonded-fiber material texture only, not shape or tan color. A single navy low rectangular soft insulated catering bag with FRONT zipper closed on its three sides, flat front panel upright in its closed position, short black grips on left and right SIDE, no top handles, no shoulder straps, no shelf/rack. Three-quarter front-right camera angle, slightly elevated, fine nonwoven navy fiber surface, subtle soft folds and realistic seams, black binding and bottom band. A small unmarked neutral sample envelope lies flat alongside but is secondary, no other props, no writing. Continuous #F6F6F4 pale warm gray tabletop/background, soft photographic light, balanced contact shadow, restrained natural color and attractive detailed product photography quality. Fully visible contour with natural margins; landscape 3:2, main bag occupies most central width without touching edges. Not hard-shell, woven canvas, leather, glossy plastic, shiny CGI or collage. Absolutely no text, numbers, logos, labels, symbols or watermarks. This is an editorial visualization of a proposal, not an actual manufactured batch, test or a new product release.",
+  "references": [
+    "Approved NP07 front-opening material-corrected-20261012-01.webp proposal design",
+    "Supplied actual nonwoven delivery-main.webp texture photograph"
+  ],
+  "rightsBasis": "User-authorized generation from supplied company references under applicable OpenAI service output terms; no stock or trademark, no exclusivity claim.",
+  "review": {
+    "design": "Closed front flap with three-side zipper and side grips consistent with open design, no extra handles/straps",
+    "material": "Soft nonwoven-like navy fiber texture and flexible seams; lining not visible so caption does not claim it is shown",
+    "composition": "Single light gray photographic scene, full contour and natural margins, plain envelope only, no text",
+    "limits": "Editorial visualization, not production or repeat-order approval proof",
+    "reviewer": "AI visual self-check, not human approval"
+  },
+  "optimized": {
+    "width": 1200,
+    "height": 800,
+    "bytes": 81902,
+    "operation": "same-aspect resizing and WebP encoding only"
+  }
+}

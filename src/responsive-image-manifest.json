@@ -1,4 +1,38 @@
 {
+  "images/editorial/2026-10-15/closed-navy-catering-bag-envelope.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/ba6350aebc1b-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/6418cfc2e8a5-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/094a7af11b5a-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/0fc6b6a0f999-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/c826dfdd8031-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/07fbe486c3e6-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/faca038ddd25-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
   "images/editorial/2026-10-15/blue-gold-grocery-tote-blank-card.webp": {
     "width": 1200,
     "height": 800,
