@@ -87,6 +87,35 @@
     }
   },
   {
+    "kind": "guide",
+    "slug": "cleaning-trial-insulated-bag-samples",
+    "publishedAt": "2026-10-15",
+    "title": {
+      "en": "Agree a Cleaning Trial Before Putting Insulated Bags into Rotation",
+      "zh": "保温袋周转使用前，先确认清洁与干燥方法",
+      "es": "Acuerde una prueba de limpieza antes de reutilizar bolsas térmicas"
+    },
+    "description": {
+      "en": "Record the sample version, supplier-approved cleaning method, drying conditions and changes at seams and closures before agreeing repeated use.",
+      "zh": "记录样品版本、供应商确认的清洁方法、干燥条件及接缝和封口变化，再确认保温袋的周转使用方案。",
+      "es": "Registre versión de muestra, método confirmado por el proveedor, secado y cambios en uniones y cierres antes de acordar su reutilización."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-15/open-catering-bag-folded-cloth.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "Empty navy front-opening bag with silver lining and a folded pale cloth beside it",
+        "zh": "空的深蓝前开式银色内衬袋，旁边放着一块折叠浅色布",
+        "es": "Bolsa azul marino vacía con apertura frontal, forro plateado y un paño claro doblado al lado"
+      },
+      "caption": {
+        "en": "An open front panel exposes the lining and lower fold; a folded cloth sits beside the empty bag.",
+        "zh": "前幅展开后可见内衬和下部折合处，空袋旁放着折叠布。",
+        "es": "El panel abierto deja ver el forro y el pliegue inferior; un paño doblado está al lado de la bolsa vacía."
+      }
+    }
+  },
+  {
     "kind": "industry",
     "slug": "eu-packaging-rules-insulated-bag-buyers",
     "publishedAt": "2026-10-10",

@@ -1,4 +1,38 @@
 {
+  "images/editorial/2026-10-15/open-catering-bag-folded-cloth.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/56fe24c8f9da-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/28da93d25730-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/4c7dac01290d-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/a95b1ce67b63-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/78750f46fc42-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/3d06019f8331-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/1a763e254afb-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
   "images/brand/yuanen-logo.png": {
     "width": 768,
     "height": 159,

@@ -1,0 +1,25 @@
+{
+  "file": "images/editorial/2026-10-15/open-catering-bag-folded-cloth.webp",
+  "source": "C:/Users/Administrator/.codex/generated_images/01a0c806-5c48-7793-814b-5d33d8e4c624/exec-1a40a8e1-631c-474f-aa20-5e62d7acf2be.png",
+  "tool": "image_gen built-in",
+  "generatedAt": "2026-10-15",
+  "prompt": "Use case: product-mockup. New editorial cover for a purchasing guide about agreeing a cleaning-and-drying trial for insulated bag samples. Input image 1 is the CURRENT approved design/shape reference, not a photograph claim; image 2 is an actual supplied nonwoven bag photograph and is a material-texture reference only, do not copy its tan color or upright tote shape. Create a new photorealistic commercial still life in landscape 3:2. One empty navy front-opening rectangular catering bag on a continuous very light warm gray #F6F6F4 studio surface and background, front zipper panel folded down naturally, short handle on each SIDE, no shoulder strap or top handles. Thin silver aluminum foil interior with fine irregular creases, plausible seams, softly textured nonwoven navy outer with subtle bonded fiber texture, soft natural wrinkles rather than woven canvas. Empty interior is visible and naturally lit. A single small folded clean pale cloth rests beside the bag without touching it, no spray bottles, no washing demonstration, no sink, no water. Three-quarter slightly elevated view with balanced full product contour and open flap, natural safety margins, subject fills most of banner. Soft side daylight, accurate contact shadows, realistic restrained silver reflections. Beautiful photographic detail, no hard CGI shell, no glossy plastic, no exaggerated checkerboard foil, no props inside, no text, logo, numbers, label or watermark. This is an editorial visualization, not a real cleaning test or proof of production.",
+  "references": [
+    "Current approved NP07 material-corrected-20261012-01.webp (generated proposal design)",
+    "Supplied nonwoven delivery-main.webp photograph (texture reference only)"
+  ],
+  "rightsBasis": "User-authorized generation with supplied website references; OpenAI output use under applicable service terms, no third-party stock or trademarks; no exclusivity claim.",
+  "review": {
+    "material": "Navy nonwoven-like soft surface; creased thin foil, not rigid metal",
+    "structure": "Front zipper flap and short side grips consistent; empty bag",
+    "composition": "Single light gray background, complete contour and margins, 3:2; no text",
+    "limits": "Not real production or a cleaning test; cloth is a visual prop",
+    "approvedBy": "AI visual self-check, not human review"
+  },
+  "optimized": {
+    "width": 1200,
+    "height": 800,
+    "bytes": 143318,
+    "operation": "same-aspect resizing and WebP encoding only"
+  }
+}
