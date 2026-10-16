@@ -1,4 +1,38 @@
 {
+  "images/editorial/2026-10-16/silver-flat-pouches-white-release-strip.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/6d56fac9a9f9-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/22268db2caf3-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/f874ba0676b3-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/604a0bb8dc75-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/4897424340d8-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/c7739ce5b21d-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/3b2fc8f1525d-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
   "images/editorial/2026-10-16/navy-front-opening-carrier-two-tray-scene.webp": {
     "width": 1200,
     "height": 800,

@@ -668,6 +668,35 @@
   },
   {
     "kind": "guide",
+    "slug": "self-seal-bag-packing-process-trial",
+    "publishedAt": "2026-10-16",
+    "title": {
+      "en": "Test the Packing Steps Before Batch-Sealing Insulated Pouches",
+      "zh": "批量封口前，先试清楚自粘保温袋的操作步骤",
+      "es": "Pruebe los pasos de embalaje antes de cerrar bolsas térmicas por lotes"
+    },
+    "description": {
+      "en": "Record the sample, operator, release-paper removal, closure steps and inspection points before scaling a self-seal foil bag packing process beyond a fit check.",
+      "zh": "尺寸试装通过后，再记录自粘铝箔袋的样品版本、操作人员、揭纸与闭合步骤、检查时点及返工情况，为批量打包保留可复核依据。",
+      "es": "Tras comprobar el ajuste, registre muestra, operario, retirada del papel protector, pasos de cierre y momentos de inspección antes de ampliar el embalaje por lotes."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-16/silver-flat-pouches-white-release-strip.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "Two silver foil-faced flat pouches on a grey bench, with a white release strip visible on the front pouch",
+        "zh": "灰色台面上的两只银色铝箔面层平袋，前袋可见白色离型纸条",
+        "es": "Dos bolsas planas plateadas sobre una mesa gris, con una tira de papel protector blanca visible en la bolsa delantera"
+      },
+      "caption": {
+        "en": "Flat pouches with heat-sealed edges and a white release strip on the open flap.",
+        "zh": "带热封边的平袋，展开的折口上可见白色离型纸条。",
+        "es": "Bolsas planas con bordes termosellados y una tira blanca de papel protector en la solapa abierta."
+      }
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "self-seal-foil-bag-size-flap-fit",
     "publishedAt": "2026-10-09",
     "title": {

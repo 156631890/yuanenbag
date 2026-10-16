@@ -1,0 +1,26 @@
+{
+  "tool": "image_gen",
+  "generatedAt": "2026-10-16T02:24:51.509Z",
+  "source": "C:/Users/Administrator/.codex/generated_images/01a0c806-5c48-7793-814b-5d33d8e4c624/exec-02a3147d-49af-4f0e-9cfb-78b0f9245f1d.png",
+  "file": "images/editorial/2026-10-16/silver-flat-pouches-white-release-strip.webp",
+  "prompt": "Use case: photorealistic-natural. Generate a NEW refined commercial editorial cover, landscape 3:2, target 1200x800. The supplied images are reference photographs, not edit targets. Image 1 is the exact product construction reference: a flat rectangular SILVER foil-faced EPE composite self-seal pouch, fine irregular embossed/creased foil texture, flat heat-sealed ribbed side and bottom edges, a white inner foam surface visible near the opening and a white release-paper strip across its fold-over adhesive flap. Image 2 is another real view of the same flat pouch and its thin flexible construction. Preserve this type, no gusseted standing bottom, no handles, no zipper, no added fabric, no rigid metal shell. Create a fresh simple scene with TWO empty pouches on one smooth light warm-grey packing bench. One pouch lies slightly diagonally in the foreground with its flap unfolded, white release-paper strip intact and the white inner surface just visible at its mouth; second similar pouch rests behind, offset so both complete contours and seals are visible. No food, no equipment, no forms, no hands, no removed paper pieces. Close three-quarter overhead camera, realistic scale and natural relaxed material undulations, subject generously fills wide frame with safe margins for mobile thumbnails. Soft natural window lighting and contact shadows, real nuanced silver reflections, beautiful fine detail, believable foil rather than shiny mirror metal or plastic, no exaggerated highlights, no overly smooth CGI, no collage or framing border. Quiet seamless neutral background and consistent light. No text, no logos, no watermark, no labels, no numbers. This is category imagery for a proposed packing-process trial, not evidence of a factory process, an approved order sample, a passed seal test or measured performance.",
+  "references": [
+    "public/images/products/packy/self-adhesive-foil-bags-new/01.webp",
+    "public/images/products/packy/self-adhesive-foil-bags-new/02.webp"
+  ],
+  "usageRightsBasis": "New built-in OpenAI image_gen output for authorized article publication using user-site existing product reference photographs; no external stock.",
+  "visualCheck": {
+    "passed": true,
+    "identity": "Flat silver foil-faced pouches with heat-sealed ribbed edges; front open flap has white release strip and visible white inner surface; no zipper, handles or standing gusset.",
+    "materials": "Fine embossed and creased reflective foil, credible white inner foam surface, not fabric or rigid metal.",
+    "composition": "Single neutral bench and consistent soft light; two clear bag contours with safe margins, no collage or text.",
+    "truthfulness": "New category image, not an actual order sample or seal-test evidence; no performance claim."
+  },
+  "humanReview": false,
+  "optimized": {
+    "width": 1200,
+    "height": 800,
+    "bytes": 195514,
+    "operation": "same-aspect resizing and WebP encoding only"
+  }
+}
