@@ -1,0 +1,26 @@
+{
+  "tool": "image_gen",
+  "generatedAt": "2026-10-16T07:22:32.216Z",
+  "source": "C:/Users/Administrator/.codex/generated_images/01a0c806-5c48-7793-814b-5d33d8e4c624/exec-ca1fd804-9b04-4e01-9987-b85b97a759d5.png",
+  "file": "images/editorial/2026-10-16/plain-parcels-dispatch-workbench.webp",
+  "prompt": "Use case: photorealistic-natural. Generate one NEW editorial cover for news about packaging supplier continuity, landscape 3:2, target 1200x800. A quiet, believable parcel packing area: two plain closed kraft shipping cartons of different realistic sizes on a grey packing bench, one further back, with a short stack of neatly folded empty corrugated cartons at the far side. Cartons and neat taped seams are the clear focus and fill the banner with natural crop-safe margins. No labels, no printing, no logos, no text, no paperwork, no people, no screens, no certificates or handshake symbols. Soft real window light, subtle cardboard fiber texture, slight natural edge wear, credible transparent tape and contact shadows. Single coherent neutral warehouse background softly out of focus, consistent perspective and light, refined commercial photographic quality, not glossy CGI, no collage or colored border, no massive blank areas. Do not depict any branded TemperPack or Cruz Foam material, a foam technology, an actual company factory or the acquisition itself; these are generic parcels and the scene must not look like documentary evidence of an event. No foil liner or foam-box application is shown; no bag product, no insulation or thermal-performance claim.",
+  "referencesViewed": [
+    "public/images/products/photos-2026-09/foil-box-liner-insert.webp",
+    "public/images/products/standardized/liner-applications-2026/chocolate-foam-v2.webp"
+  ],
+  "referenceUse": "Current product and material photographs inspected for factual boundaries only. Cover shows no liner or specific product, so it uses no product image as a generation input.",
+  "usageRightsBasis": "New built-in OpenAI image_gen output for authorized article publication, no external stock or brand artwork.",
+  "visualCheck": {
+    "passed": true,
+    "scene": "Two closed plain kraft cartons and folded corrugated cartons on one packing bench, coherent window light and contact shadows.",
+    "materials": "Credible cardboard fibers and seams, no invented bio-based foam or proprietary material.",
+    "truthfulness": "Generic dispatch environment, not TemperPack/Cruz Foam premises or acquisition evidence. No product-performance claim."
+  },
+  "humanReview": false,
+  "optimized": {
+    "width": 1200,
+    "height": 800,
+    "bytes": 69648,
+    "operation": "same-aspect resizing and WebP encoding only"
+  }
+}

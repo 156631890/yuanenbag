@@ -755,6 +755,35 @@
   },
   {
     "kind": "industry",
+    "slug": "temperpack-cruz-foam-ip-acquisition",
+    "publishedAt": "2026-10-16",
+    "title": {
+      "en": "TemperPack Acquires Cruz Foam’s Intellectual Property Portfolio",
+      "zh": "TemperPack收购Cruz Foam知识产权组合",
+      "es": "TemperPack adquiere la cartera de propiedad intelectual de Cruz Foam"
+    },
+    "description": {
+      "en": "TemperPack’s IP announcement raises a purchasing question: confirm the offered item, contracting supplier and sample records before assuming supply continuity.",
+      "zh": "TemperPack知识产权交易公告带来的采购问题：先确认所报产品、签约供货主体和样品记录，再判断原规格能否继续采购。",
+      "es": "El anuncio de TemperPack plantea una cuestión de compra: confirme producto, proveedor contratante y registros de muestra antes de asumir continuidad del suministro."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-16/plain-parcels-dispatch-workbench.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "Two plain closed cartons beside a stack of folded corrugated cartons on a packing bench",
+        "zh": "装箱台面上两只封好的无标识纸箱，旁边叠放着折平的瓦楞纸箱",
+        "es": "Dos cajas lisas cerradas junto a una pila de cajas de cartón plegadas sobre una mesa de embalaje"
+      },
+      "caption": {
+        "en": "Closed cartons and folded corrugated cartons on a packing bench.",
+        "zh": "装箱台面上的封好纸箱与折平瓦楞纸箱。",
+        "es": "Cajas cerradas y cartón plegado sobre una mesa de embalaje."
+      }
+    }
+  },
+  {
+    "kind": "industry",
     "slug": "us-cold-chain-grants-frozen-food-packaging",
     "publishedAt": "2026-10-07",
     "title": {
