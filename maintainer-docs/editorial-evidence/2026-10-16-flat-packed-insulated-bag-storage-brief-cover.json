@@ -1,0 +1,27 @@
+{
+  "tool": "image_gen",
+  "generatedAt": "2026-10-16T01:20:15.643Z",
+  "source": "C:/Users/Administrator/.codex/generated_images/01a0c806-5c48-7793-814b-5d33d8e4c624/exec-38fac778-4ed0-4f65-9abf-df53666ad520.png",
+  "file": "images/editorial/2026-10-16/upright-grocery-tote-shipping-carton.webp",
+  "prompt": "Use case: photorealistic-natural. Create a NEW landscape 3:2 editorial cover, target 1200x800, refined commercial photography quality. Image 1 is the identity reference for the upright BLUE grocery tote; preserve its tall slightly tapered rectangular body, blue lightly embossed laminated surface, gold binding at vertical edges and base, and two short gold loop handles with credible attachments. Image 2 is only a close photographic material/trim reference for natural gold webbing, seams and supple nonwoven composite behavior; do NOT change the blue tote to the white cube shown in Image 2. Scene: a clean grey receiving/packing bench, one upright closed empty blue-and-gold tote at left-center, one plain closed kraft shipping carton at right-center. Both resting on the same continuous surface with consistent perspective and light. Carton is a generic shipping prop, no assertion about actual carton size or contents; do not depict the bag folded, flattened, compressed, or inside the carton. The tote and carton together fill the landscape frame, full handle arcs and contours inside safe margins. Soft natural window light, believable contact shadows, restrained highlights, fine real material texture, natural small folds. Background is softly out-of-focus generic clean storeroom, no signage or employees. Not leather, not coarse canvas, not hard shell, not glossy CGI, no extreme metallic glare. No printed brand, text, numbers, stickers, measurement devices, food or coolant. No border, collage, split panel or inset. This is a generated conceptual packing scene, not proof of actual shipping specifications or a factory photograph.",
+  "references": [
+    "public/images/products/packy/upright-grocery-cooler-main.webp",
+    "public/images/products/photos-2026-09/gold-trim-cake-bag-stitching.webp"
+  ],
+  "usageRightsBasis": "New built-in OpenAI image_gen output for the user-authorized website. Identity and trim references are existing user-site assets; no external stock or unapproved brand used.",
+  "visualCheck": {
+    "passed": true,
+    "identity": "Upright tapered blue tote, embossed laminated surface, gold loops and bound edges match current presentation; related sample photo used for trim only",
+    "structure": "No invented folding/compression or carton quantity; shipping carton is a prop",
+    "light": "Natural unified window light and contact shadows; no collage or frame",
+    "composition": "Full handles/contours inside landscape and mobile/list safe area",
+    "truthfulness": "Generated packing concept, not a real receiving site or carton specification"
+  },
+  "humanReview": false,
+  "optimized": {
+    "width": 1200,
+    "height": 800,
+    "bytes": 116104,
+    "operation": "same-aspect resizing and WebP encoding only"
+  }
+}

@@ -1,4 +1,38 @@
 {
+  "images/editorial/2026-10-16/upright-grocery-tote-shipping-carton.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/bca4d381c431-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/79e635a9bf30-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/cedb0c2ed323-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/ba541ab04646-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/979a786d0661-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/2bb0dfad6df2-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/ad3b255c96d7-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
   "images/editorial/2026-10-15/molded-fiber-trays-separate-lid.webp": {
     "width": 1200,
     "height": 800,

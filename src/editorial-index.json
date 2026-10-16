@@ -204,6 +204,35 @@
   },
   {
     "kind": "guide",
+    "slug": "flat-packed-insulated-bag-storage-brief",
+    "publishedAt": "2026-10-16",
+    "title": {
+      "en": "Specify Empty-Bag Packing Before Ordering Insulated Totes",
+      "zh": "把空袋装箱与仓储条件写进保温袋询价",
+      "es": "Defina el embalaje de las bolsas térmicas vacías antes de pedirlas"
+    },
+    "description": {
+      "en": "Ask for the actual empty-bag packing method, carton quantity, outside dimensions and gross weight before planning receiving space for a bulk insulated-tote order.",
+      "zh": "批量采购保温袋前，先确认空袋实际包装方式、每箱数量、外箱外尺寸和毛重，再安排收货仓位与展开检查。",
+      "es": "Confirme cómo se embalan las bolsas vacías, cantidad por caja, medidas exteriores y peso bruto antes de reservar espacio de recepción para un pedido."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-16/upright-grocery-tote-shipping-carton.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "An upright blue tote with gold handles beside a closed plain carton on a grey bench",
+        "zh": "灰色工作台上的蓝色金提手直立袋与闭合素面纸箱",
+        "es": "Bolsa azul vertical con asas doradas junto a una caja lisa cerrada sobre una mesa gris"
+      },
+      "caption": {
+        "en": "A blue-and-gold tote and a plain shipping carton on a receiving bench.",
+        "zh": "收货工作台上的蓝金色手提袋与素面运输纸箱。",
+        "es": "Una bolsa azul y dorada y una caja lisa sobre una mesa de recepción."
+      }
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "foam-box-liner-closure-clearance",
     "publishedAt": "2026-10-14",
     "title": {
