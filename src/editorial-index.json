@@ -464,6 +464,35 @@
     }
   },
   {
+    "kind": "guide",
+    "slug": "multi-stop-delivery-bag-opening-trial",
+    "publishedAt": "2026-10-16",
+    "title": {
+      "en": "Include Every Stop in an Insulated Delivery-Bag Trial",
+      "zh": "逐站开袋和减载，应一起纳入配送试验",
+      "es": "Incluya cada parada en la prueba de una bolsa térmica de reparto"
+    },
+    "description": {
+      "en": "Link each opening, closure and unloading step to the remaining load in a multi-stop delivery trial, using the actual bag sample and an agreed route test plan.",
+      "zh": "多站配送试验中，把每次开袋、闭合、卸货与剩余装载关联记录，采用实际袋样和约定路线条件，不用出发满载状态代表全程。",
+      "es": "Relacione aperturas, cierres y descargas con la carga restante en una ruta con varias paradas, usando la muestra real y un plan de prueba acordado."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-16/navy-front-opening-carrier-two-tray-scene.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "A navy front-opening carrier with one lidded tray inside and another on the counter",
+        "zh": "海军蓝前开式袋内的一只带盖餐盘，以及台面上的另一只餐盘",
+        "es": "Bolsa azul marino de apertura frontal con una bandeja tapada dentro y otra sobre la mesa"
+      },
+      "caption": {
+        "en": "A front-opening carrier and lidded trays on a packing counter.",
+        "zh": "装箱台面上的前开式袋与带盖餐盘。",
+        "es": "Una bolsa de apertura frontal y bandejas tapadas sobre una mesa de embalaje."
+      }
+    }
+  },
+  {
     "kind": "industry",
     "slug": "nfinite-paper-barrier-pilot-run",
     "publishedAt": "2026-10-15",

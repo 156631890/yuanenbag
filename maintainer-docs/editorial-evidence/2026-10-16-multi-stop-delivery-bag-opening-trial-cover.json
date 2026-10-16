@@ -1,0 +1,27 @@
+{
+  "tool": "image_gen",
+  "generatedAt": "2026-10-16T01:45:09.177Z",
+  "source": "C:/Users/Administrator/.codex/generated_images/01a0c806-5c48-7793-814b-5d33d8e4c624/exec-20ae2f54-5f1e-4b65-80ab-7e71e14d3a52.png",
+  "file": "images/editorial/2026-10-16/navy-front-opening-carrier-two-tray-scene.webp",
+  "prompt": "Use case: photorealistic-natural. Create a NEW commercial editorial cover in landscape 3:2, target 1200x800. Image 1 is the current approved bag identity reference: a deep NAVY horizontal box-shaped catering carrier with FRONT zipper opening, fold-down front panel, and short BLACK SIDE handles, not top loop handles, no shoulder strap. Preserve shape, proportions and handle positions, no shelves/dividers. Image 2 is only a real nonwoven exterior texture reference; use subtle fibers and fine heat-pressed dots, soft wrinkles, NOT woven canvas, Oxford cloth or plastic. Keep navy color, not yellow. Image 3 is a real ALUMINUM FOIL lining reference: thin softly crinkled reflective foil, fine folds and credible seams, NOT silver fabric, rigid mirror metal, quilting or inflated lining. Scene: the navy front-opening bag rests squarely on a light warm-grey packing counter, front panel down, ONE closed plain aluminum food tray resting inside on the bag floor, one separate closed tray on the counter beside it. Arrange a fresh three-quarter view showing horizontal access, entire bag and full side handle contours within safe crop margins, tray rims and lids geometrically credible, no floating objects. Subject fills the frame. Soft real window light, natural contact shadows, balanced subtle foil highlights, commercially beautiful but believable material detail, no glossy CGI or oversharpening. Quiet softly blurred neutral packing-room background in consistent perspective, no identifiable YUANEN premises or actual trial. No workers, food, clock, thermometer, paper records, logos, text, labels, numbers, ice packs, border or collage. The trays are props, not a rated capacity or supplied accessory. Do not present this as an actual delivery test or temperature evidence.",
+  "references": [
+    "public/images/products/standardized/insulated-catering-bags/material-corrected-20261012-01.webp",
+    "public/images/products/photos-2026-09/compact-lunch-bag-side.webp",
+    "public/images/products/photos-2026-09/mint-cake-bag-lining.webp"
+  ],
+  "usageRightsBasis": "New built-in OpenAI image_gen output made for authorized article publication using user-site approved identity and actual material photos, not external stock.",
+  "visualCheck": {
+    "passed": true,
+    "identity": "Navy horizontal front opening, down-folding panel, short side handles and no added shelves/straps",
+    "materials": "Matte fine dotted nonwoven surface and creased silver foil consistent with actual material references",
+    "composition": "Single naturally lit counter; one tray inside and one outside, whole bag and side handle safely visible; no collage/border",
+    "truthfulness": "Trays are props, not rated capacity/supplied accessory. No actual route trial or thermal performance proof."
+  },
+  "humanReview": false,
+  "optimized": {
+    "width": 1200,
+    "height": 800,
+    "bytes": 126266,
+    "operation": "same-aspect resizing and WebP encoding only"
+  }
+}
