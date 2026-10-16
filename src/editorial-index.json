@@ -784,6 +784,35 @@
   },
   {
     "kind": "industry",
+    "slug": "tetra-pak-ice-cream-paper-wrap",
+    "publishedAt": "2026-10-16",
+    "title": {
+      "en": "Tetra Pak Plans a Phased Ice Cream Wrap Rollout from Europe",
+      "zh": "利乐计划从欧洲分阶段推出冰淇淋纸基包装",
+      "es": "Tetra Pak prevé un despliegue por fases desde Europa para Ice Cream Wrap"
+    },
+    "description": {
+      "en": "Tetra Pak’s ice cream wrapping announcement calls for a separate review of the primary wrapper, its handling surface and the complete transport pack.",
+      "zh": "利乐冰淇淋包装公告带来的采购判断：将一次包裹层、搬运时的外表面状态与整套运输包装分开核对，不把纸含量当成隔热性能。",
+      "es": "El anuncio de la envoltura de Tetra Pak requiere revisar por separado el envase primario, su superficie durante la manipulación y el embalaje de transporte completo."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-16/plain-wrapped-packs-steel-tray.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "Three plain white-wrapped rectangular packages on a stainless-steel tray",
+        "zh": "不锈钢托盘上的三件用无标识白色材料包裹的长方形包装",
+        "es": "Tres paquetes rectangulares con envoltura blanca lisa sobre una bandeja de acero inoxidable"
+      },
+      "caption": {
+        "en": "Plain wrapped packs on a stainless-steel packing counter.",
+        "zh": "不锈钢包装台面上的无标识白色包装。",
+        "es": "Paquetes con envoltura lisa sobre una mesa de embalaje de acero inoxidable."
+      }
+    }
+  },
+  {
+    "kind": "industry",
     "slug": "us-cold-chain-grants-frozen-food-packaging",
     "publishedAt": "2026-10-07",
     "title": {

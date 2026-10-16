@@ -1,0 +1,26 @@
+{
+  "tool": "image_gen",
+  "generatedAt": "2026-10-16T07:38:02.242Z",
+  "source": "C:/Users/Administrator/.codex/generated_images/01a0c806-5c48-7793-814b-5d33d8e4c624/exec-a6539c43-1c11-44b5-b0fd-80feb5aaae76.png",
+  "file": "images/editorial/2026-10-16/plain-wrapped-packs-steel-tray.webp",
+  "prompt": "Use case: photorealistic-natural. Generate a NEW landscape 3:2 editorial cover, target 1200x800, about the packaging of frozen treats. A clean, quiet cold-food packing counter in soft natural light. In the foreground three generic, unbranded rectangular frozen-treat packages in simple ivory-white PAPER-LIKE wrappers lie at slightly different angles on a small matte stainless-steel tray. Each wrapper has physically plausible small end folds and soft natural paper wrinkles, no plastic shine and no printed design. Complete package contours and tray corners safely in frame, subjects fill the horizontal frame. The packages are closed and their contents are not exposed. Very gentle cool light, real contact shadows, fine material texture, commercially refined but believable photography. A softly blurred neutral packing-room background with no identifiable premises, one consistent scene, no border, no collage, no oversized empty margins, no smooth CGI. Do not depict the actual Tetra Pak Ice Cream Wrap construction or branding, paper-content percentage, test equipment, exposed food, people, text, numbers, diagrams, labels, logos, ice crystals covering the wrappers, visible condensation test results, or a company factory. This image is only generic category imagery; it must not imply a real trial, an approved proprietary wrapper, material composition or performance.",
+  "referencesViewed": [
+    "public/images/products/photos-2026-09/foil-box-liner-insert.webp",
+    "public/images/products/standardized/liner-applications-2026/chocolate-foam-v2.webp"
+  ],
+  "referenceUse": "Current liner/foam-box references inspected for article product facts only. New cover shows generic primary packages, not that product or proprietary Tetra Pak wrapping; no product image input or reuse.",
+  "usageRightsBasis": "New built-in OpenAI image_gen output for authorized editorial publication; no external stock, proprietary design or logos.",
+  "visualCheck": {
+    "passed": true,
+    "scene": "Three plain white-wrapped rectangular packages on a stainless tray and counter, one coherent naturally lit environment.",
+    "material": "Soft paper-like wrinkles and folded ends, plausible reflections/contact shadows; package composition is not inferred.",
+    "truthfulness": "Generic category scene, no claimed Tetra Pak actual sample, company facility, condensation trial or food/thermal test."
+  },
+  "humanReview": false,
+  "optimized": {
+    "width": 1200,
+    "height": 800,
+    "bytes": 51510,
+    "operation": "same-aspect resizing and WebP encoding only"
+  }
+}
