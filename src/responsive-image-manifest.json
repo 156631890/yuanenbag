@@ -1,4 +1,38 @@
 {
+  "images/editorial/2026-10-17/open-foil-liner-white-foam-box.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/cf9a5641245d-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/f6193061263f-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/4991b3b3abdb-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/8615ba66dfd2-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/63124796a5f8-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/cb309365338a-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/2618ff02b485-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
   "images/editorial/2026-10-16/plain-wrapped-packs-steel-tray.webp": {
     "width": 1200,
     "height": 800,

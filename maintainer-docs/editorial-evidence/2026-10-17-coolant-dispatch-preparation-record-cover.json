@@ -1,0 +1,27 @@
+{
+  "tool": "image_gen built-in",
+  "generatedAt": "2026-10-17",
+  "source": "C:/Users/Administrator/.codex/generated_images/01a0c806-5c48-7793-814b-5d33d8e4c624/exec-9f68ecc2-d7f9-470e-acef-062d551b6f5f.png",
+  "file": "images/editorial/2026-10-17/open-foil-liner-white-foam-box.webp",
+  "prompt": "Use case: product-mockup. Asset type: new purchasing-guide editorial cover, landscape 3:2. Create a fresh photorealistic commercial packaging photograph, not a copy of the reference. Input image 1 is the actual construction reference: a separate thin foil-faced flexible box liner in a white foam shipping box. Match its realistic thin creased silver foil reflection and white foam granular surface, no fabric, no hard metal. Show one white foam rectangular box on a continuous pale grey #F6F6F4 surface, camera at a three-quarter slightly elevated angle. The liner sits inside with its top folds gently opened enough to see the empty inner cavity, folds supported by the box rim; no standing exaggerated stiff walls. The box is the only subject, substantially fills the frame with all corners safely inside, soft diffused daylight, natural contact shadow, restrained highlights, believable proportions and seams. Clean practical packaging atmosphere. No people, food, coolant packs, paperwork, thermometer, text, logos, labels, icons, watermark or coloured border. Do not imply a completed test or actual YUANEN shipment. Prioritize faithful materials, natural folds and photographic quality, avoid CGI gloss or collage. Target final 1200x800 landscape composition with safe crop.",
+  "references": [
+    {
+      "file": "images/products/photos-2026-09/foil-box-liner-insert.webp",
+      "role": "actual photograph; white foam exterior, separate flexible creased foil-faced liner"
+    }
+  ],
+  "rights": "Original image generated for this project via built-in image_gen; source reference belongs to the supplied YUANEN site catalogue. No external stock or third-party logo.",
+  "kind": "illustration",
+  "visualReview": {
+    "material": "Thin creased reflective foil, white cellular foam; no woven exterior",
+    "structure": "Open rectangular foam box, liner supported inside rim; no added handles or hardware",
+    "composition": "Single background and soft light; complete corners within frame",
+    "boundary": "Packaging visual only; no actual completed shipment, coolant readiness, performance, supply inclusion or test claimed"
+  },
+  "optimized": {
+    "width": 1200,
+    "height": 800,
+    "bytes": 110648,
+    "operation": "same-aspect resizing and WebP encoding only"
+  }
+}

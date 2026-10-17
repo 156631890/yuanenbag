@@ -116,6 +116,35 @@
     }
   },
   {
+    "kind": "guide",
+    "slug": "coolant-dispatch-preparation-record",
+    "publishedAt": "2026-10-17",
+    "title": {
+      "en": "Keep the Coolant Preparation Record Through Packing Handover",
+      "zh": "冰源备冷到装箱，交接记录要保留哪些信息",
+      "es": "Conserve el registro de preparación del refrigerante hasta el embalaje"
+    },
+    "description": {
+      "en": "Link the coolant batch, approved preparation instructions, preparation times and packing receipt in one handover record for an insulated box-liner pack-out.",
+      "zh": "把冰源批次、确认的备冷说明、操作时间和装箱接收关联记录，区分准备完成、待处理与异常状态，不凭外观认定适用。",
+      "es": "Relacione lote de refrigerante, instrucciones acordadas, tiempos de preparación y recepción para un embalaje con revestimiento térmico."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-17/open-foil-liner-white-foam-box.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "An empty white foam box with a creased silver foil-faced liner opened inside",
+        "zh": "白色泡沫空箱内展开的带褶皱银色铝箔面层内衬",
+        "es": "Caja blanca de espuma vacía con un revestimiento plateado de lámina de aluminio abierto y arrugado"
+      },
+      "caption": {
+        "en": "An open foil-faced liner inside a white foam box.",
+        "zh": "白色泡沫外箱内展开的铝箔面层内衬。",
+        "es": "Revestimiento de lámina de aluminio abierto dentro de una caja blanca de espuma."
+      }
+    }
+  },
+  {
     "kind": "industry",
     "slug": "dart-lancaster-molded-fiber-capacity",
     "publishedAt": "2026-10-15",
