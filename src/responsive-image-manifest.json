@@ -1,4 +1,38 @@
 {
+  "images/editorial/2026-10-17/closed-navy-carrier-loose-white-tag.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/0920cf71c767-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/26b808f94633-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/a0590e709368-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/7290d04420b0-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/233bfc644a09-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/34322b73cbcc-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/69e9fe2efc55-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
   "images/editorial/2026-10-17/open-foil-liner-white-foam-box.webp": {
     "width": 1200,
     "height": 800,

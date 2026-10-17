@@ -1,0 +1,35 @@
+{
+  "tool": "image_gen built-in",
+  "generatedAt": "2026-10-17",
+  "source": "C:/Users/Administrator/.codex/generated_images/01a0c806-5c48-7793-814b-5d33d8e4c624/exec-1a28bf08-2213-448b-bc95-1c93718337de.png",
+  "file": "images/editorial/2026-10-17/closed-navy-carrier-loose-white-tag.webp",
+  "prompt": "Use case: product-mockup. Asset type: new 3:2 purchasing-guide cover, photorealistic commercial packaging photography. Input image 1 is the current approved navy front-opening catering carrier identity reference (generated product proposal, not actual photo); keep its squat horizontal box proportions, deep navy body, black piping and bottom reinforcement, short black side grip handles, front zip panel with hinge at bottom. Input image 2 is an actual nonwoven material photograph, texture reference ONLY: use fine pressed fibre texture and soft small wrinkles, do not copy its yellow colour, upright shape, top opening or long handles. Input image 3 is an actual foil material texture reference only, not its green colour or shape. Create a fresh view with the NAVY carrier closed on one continuous light grey #F6F6F4 studio surface. Three-quarter angle showing the closed front panel and right side short grip, both handle anchors believable. Soft supported bag, not rigid luggage; subtle nonwoven fibre grain, natural seams, no woven canvas grid, Oxford weave, leather or plastic appearance. One small unmarked plain white paper tag lies loose on the surface beside the bag, not attached, no label holder or extra fittings on bag. Bag occupies most of frame with complete silhouette and natural 8-12 percent safety margins, gentle photography light from left, realistic contact shadows and restrained reflections. No humans, food, trays, scanners, text, logos, barcodes, watermarks, coloured frame, collage or glossy CGI. The tag is a prop and must not imply a supplied accessory. Target final1200x800 landscape.",
+  "references": [
+    {
+      "file": "images/products/standardized/insulated-catering-bags/material-corrected-20261012-01.webp",
+      "role": "approved generated NP07 identity, front opening and short side grip"
+    },
+    {
+      "file": "images/products/photos-2026-09/compact-lunch-bag-side.webp",
+      "role": "actual nonwoven texture only, not yellow shape or handles"
+    },
+    {
+      "file": "images/products/photos-2026-09/mint-cake-bag-lining.webp",
+      "role": "actual thin foil material only"
+    }
+  ],
+  "rights": "Original built-in image_gen creation for this site, using supplied YUANEN catalogue references. No third-party stock or marks.",
+  "kind": "illustration",
+  "visualReview": {
+    "material": "Fine pressed fibre texture, soft creases; no smooth shell or Oxford canvas",
+    "structure": "Closed navy horizontal bag, front zipper perimeter, bottom reinforcement, short side grip; no added tag window",
+    "composition": "Complete silhouette, one grey background, natural soft shadow",
+    "boundary": "Loose blank card is prop, not included accessory or completed label trial"
+  },
+  "optimized": {
+    "width": 1200,
+    "height": 800,
+    "bytes": 108910,
+    "operation": "same-aspect resizing and WebP encoding only"
+  }
+}

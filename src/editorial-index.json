@@ -174,6 +174,35 @@
     }
   },
   {
+    "kind": "guide",
+    "slug": "delivery-bag-label-placement-trial",
+    "publishedAt": "2026-10-17",
+    "title": {
+      "en": "Check Delivery-Bag Labels With the Sample Loaded",
+      "zh": "配送袋贴标位置，要在装满和提起后再确认",
+      "es": "Compruebe la posición de la etiqueta con la bolsa de reparto cargada"
+    },
+    "description": {
+      "en": "Compare proposed label positions on a loaded catering-bag sample at rest, during lifting and with the front panel open, without assuming adhesive compatibility.",
+      "zh": "用实际餐盘配送袋样件比较静置、提起及前幅打开时的标签可见性，记录位置和识别条件，固定方式与材料相容性另行确认。",
+      "es": "Compare posiciones de etiqueta con una muestra cargada en reposo, al levantarla y con el panel frontal abierto. Confirme aparte la fijación y compatibilidad."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-17/closed-navy-carrier-loose-white-tag.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "A closed navy front-opening carrier with a short side grip and a loose white card beside it",
+        "zh": "闭合的海军蓝前开式配送袋、短侧提手及旁边的白色卡片",
+        "es": "Bolsa azul marino de apertura frontal cerrada, con asa lateral corta y una tarjeta blanca suelta al lado"
+      },
+      "caption": {
+        "en": "A closed carrier and a loose blank card on a grey surface.",
+        "zh": "灰色台面上的闭合配送袋与空白卡片。",
+        "es": "Una bolsa cerrada y una tarjeta en blanco sobre una superficie gris."
+      }
+    }
+  },
+  {
     "kind": "industry",
     "slug": "eu-packaging-rules-insulated-bag-buyers",
     "publishedAt": "2026-10-10",
