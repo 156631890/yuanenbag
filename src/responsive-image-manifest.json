@@ -1,4 +1,38 @@
 {
+  "images/editorial/2026-10-17/folded-foil-liner-foam-box-separate-lid.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/fd06d31513a4-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/ff8fcf7f9a51-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/6ee14e1a3a12-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/925f84752f00-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/d136abd68e78-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/02a083eb3251-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/9be97ed278de-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
   "images/editorial/2026-10-17/closed-navy-carrier-loose-white-tag.webp": {
     "width": 1200,
     "height": 800,

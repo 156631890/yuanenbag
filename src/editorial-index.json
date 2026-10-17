@@ -465,6 +465,35 @@
   },
   {
     "kind": "guide",
+    "slug": "insulated-packaging-quote-comparison",
+    "publishedAt": "2026-10-17",
+    "title": {
+      "en": "Compare What Each Insulated-Packaging Quote Includes",
+      "zh": "保温包装报价差在哪，先把计价范围放到同一张表",
+      "es": "Compare qué incluye cada oferta de embalaje térmico"
+    },
+    "description": {
+      "en": "Build a line-by-line comparison of actual packaging quotes using one specification, counting unit and order quantity. Keep included, extra and unresolved charges separate.",
+      "zh": "按同一规格、计数单位和订单数量逐项比较实际保温包装报价，区分包含、另计与待确认项目，不把缺失费用当成零。",
+      "es": "Compare ofertas reales con la misma especificación, unidad y cantidad. Distinga conceptos incluidos, adicionales y pendientes sin convertir datos ausentes en cero."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-17/folded-foil-liner-foam-box-separate-lid.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "Overlapping silver foil liner folds inside a white foam box, with a separate foam lid behind it",
+        "zh": "白色泡沫箱内相互覆盖的银色铝箔内衬折口，以及后方分开放置的泡沫箱盖",
+        "es": "Pliegues superpuestos de revestimiento plateado dentro de una caja blanca de espuma, con tapa separada detrás"
+      },
+      "caption": {
+        "en": "A folded foil-faced liner in a foam box with its lid placed separately.",
+        "zh": "泡沫箱内折叠的铝箔面层内衬，箱盖分开放置。",
+        "es": "Revestimiento de lámina de aluminio plegado dentro de una caja de espuma, con la tapa aparte."
+      }
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "insulated-shopping-bags-frozen-food",
     "publishedAt": "2026-10-07",
     "title": {

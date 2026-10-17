@@ -1,0 +1,27 @@
+{
+  "tool": "image_gen built-in",
+  "generatedAt": "2026-10-17",
+  "source": "C:/Users/Administrator/.codex/generated_images/01a0c806-5c48-7793-814b-5d33d8e4c624/exec-d7b9dad1-b977-4c15-8611-30e4bdabb9a5.png",
+  "file": "images/editorial/2026-10-17/folded-foil-liner-foam-box-separate-lid.webp",
+  "prompt": "Use case: product-mockup. Asset type: fresh editorial purchasing-guide cover, landscape3:2, target1200x800. Input image1 is the actual YUANEN packaging construction photograph: white cellular foam outer box and separate flexible foil-faced liner folded over contents. Use it as structure and materials reference, not as an image to reuse or evidence of a finished order. Make a new photorealistic commercial photograph with one rectangular white foam box viewed from a high three-quarter angle, slightly wider than tall. Inside the box the thin foil-faced liner's overlapping top folds are laid down across the opening as in the reference, with irregular small creases and narrow white backing at a few edges; no mirror-finish metal, no silver textile, no rigid silver tray. A matching plain white foam lid rests flat on the grey surface behind the box, partly visible but separate. The liner and foam box are clearly distinct components. Continuous light grey #F6F6F4 studio backdrop, soft diffused photographic light and realistic contact shadows, refined but natural, no hard outlines or collage. Main box fills the landscape frame while complete corners and the separate lid remain within safe margins. No tape labels, lettering, marks, people, food, ice, paperwork, calculator, flags, watermarks or added handles. Do not arrange article text objects, illustrate prices or imply included accessories or tested performance. Accurate foam cell texture and thin foil wrinkles, no glossy CGI.",
+  "references": [
+    {
+      "file": "images/products/photos-2026-09/foil-box-liner-insert.webp",
+      "role": "actual catalogue photograph, thin folded foil-faced liner inside white foam outer box"
+    }
+  ],
+  "rights": "Original built-in image_gen output for YUANEN site with supplied catalogue reference; no external stock or third-party trademarks.",
+  "kind": "illustration",
+  "visualReview": {
+    "material": "Creased thin foil, white backing at edges, cellular white foam",
+    "structure": "Foil top folds overlap inside white foam outer box; separate white foam lid behind, no invented handles or accessories",
+    "composition": "One grey background, soft light and natural contact shadows; complete contour in 3:2 frame",
+    "boundary": "Box/lid props not supply inclusions; no thermal or completed order evidence"
+  },
+  "optimized": {
+    "width": 1200,
+    "height": 800,
+    "bytes": 108070,
+    "operation": "same-aspect resizing and WebP encoding only"
+  }
+}
