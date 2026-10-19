@@ -59,6 +59,35 @@
   },
   {
     "kind": "guide",
+    "slug": "catering-bag-trolley-shelf-clearance",
+    "publishedAt": "2026-10-19",
+    "title": {
+      "en": "A Catering Bag Needs Working Space on the Trolley",
+      "zh": "餐盘保温包上推车，别只量层板宽度",
+      "es": "La bolsa de catering también necesita espacio de maniobra en el carro"
+    },
+    "description": {
+      "en": "Compare a loaded catering bag with the actual trolley deck, shelf height, front-opening path and room to grasp both side handles before approving a sample.",
+      "zh": "用装载后袋体外廓对照实际推车的有效层板宽深、层间高度、前幅展开路径及双侧抓握空间，再确认样品适配。",
+      "es": "Compare la bolsa cargada con la plataforma real, la altura entre estantes, la apertura frontal y el espacio para ambas asas antes de aprobar la muestra."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-19/navy-carrier-stainless-platform-trolley.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "A closed navy catering carrier with a short black side grip resting on a stainless-steel platform trolley",
+        "zh": "带黑色短侧提手的深蓝餐盘配送包闭合放置在不锈钢平台推车上",
+        "es": "Bolsa de catering azul marino cerrada con asa lateral negra corta sobre un carro de plataforma de acero inoxidable"
+      },
+      "caption": {
+        "en": "Closed carrier on a platform trolley. Trolley is a prop; fit and handling require sample confirmation.",
+        "zh": "平台推车上的闭合配送包。推车为道具，适配与搬运需通过样品确认。",
+        "es": "Bolsa cerrada sobre un carro de plataforma. El carro es un accesorio de escena; confirme ajuste y manejo con una muestra."
+      }
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "chocolate-gift-box-coolant-separation",
     "publishedAt": "2026-10-14",
     "title": {

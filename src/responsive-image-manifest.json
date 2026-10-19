@@ -9100,5 +9100,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-19/navy-carrier-stainless-platform-trolley.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/38543a43e554-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/4f9c8ae49f39-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/abd2242581f8-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/60694e3b324a-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/fa4b2d3361c3-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/8379d924ae81-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/47beb32e62b6-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }
