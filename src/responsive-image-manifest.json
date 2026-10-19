@@ -9134,5 +9134,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-19/open-navy-carrier-lidded-aluminium-tray.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/b1ac3e34d40f-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/10e30e2ce3c4-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/b191eda1ae80-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/86cf3636f2fb-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/3e507337eaca-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/d00fed5f75c0-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/45442e5ca4c5-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

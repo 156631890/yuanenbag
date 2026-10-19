@@ -88,6 +88,35 @@
   },
   {
     "kind": "guide",
+    "slug": "catering-tray-corner-lining-contact",
+    "publishedAt": "2026-10-19",
+    "title": {
+      "en": "Inspect Where Tray Corners Meet the Foil Lining",
+      "zh": "餐盘入袋后，检查盘角与铝箔内衬的接触",
+      "es": "Revise dónde las esquinas de la bandeja tocan el forro de aluminio"
+    },
+    "description": {
+      "en": "Map tray corners, rolled rims and foil-lining contact on the actual catering-bag sample, then compare photographs before and after the agreed handling sequence.",
+      "zh": "在实际餐盘包样品上标明盘角、卷边与铝箔内衬的接触位置，按约定装取过程保留前后照片，再讨论结构调整。",
+      "es": "Localice el contacto de esquinas y bordes enrollados con el forro de la muestra y compare fotos antes y después de la manipulación acordada."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-19/open-navy-carrier-lidded-aluminium-tray.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "An open navy catering carrier with a folded-down front, silver foil lining and one lidded aluminium tray inside",
+        "zh": "前幅下折打开的深蓝餐盘配送包，银色铝箔内衬中放置一个带盖铝制餐盘",
+        "es": "Bolsa de catering azul marino abierta con panel frontal abatido, forro plateado y una bandeja de aluminio con tapa dentro"
+      },
+      "caption": {
+        "en": "Lidded tray inside an open carrier. Tray is a prop; lining construction and fit require sample confirmation.",
+        "zh": "打开的配送包内放置带盖餐盘。餐盘为道具，内衬结构与适配需通过样品确认。",
+        "es": "Bandeja con tapa dentro de la bolsa abierta. Es un accesorio de escena; confirme construcción del forro y ajuste con una muestra."
+      }
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "chocolate-gift-box-coolant-separation",
     "publishedAt": "2026-10-14",
     "title": {
