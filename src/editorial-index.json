@@ -610,6 +610,35 @@
   },
   {
     "kind": "guide",
+    "slug": "packout-temperature-sensor-position-record",
+    "publishedAt": "2026-10-19",
+    "title": {
+      "en": "Keep Sensor Positions With the Loaded-Bag Test Record",
+      "zh": "装载测试的测温位置，要随照片一起留档",
+      "es": "Guarde la posición de los sensores con el registro de ensayo de la bolsa cargada"
+    },
+    "description": {
+      "en": "Link sensor identifiers, placement photographs and loading revisions when discussing a temperature-test plan for a front-opening insulated catering bag.",
+      "zh": "为前开式餐盘配送包的温控试验记录关联传感器编号、测点照片、装载版本与时间信息，避免用一条温度曲线代替完整试验说明。",
+      "es": "Vincule identificadores de sensores, fotos de posición y versiones de carga al acordar el ensayo térmico de una bolsa de catering con apertura frontal."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-19/open-navy-carrier-empty-foil-interior.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "An empty navy carrier with its front flap folded down, a creased silver foil lining and a short black side grip",
+        "zh": "深蓝配送包的前幅下折展开，可见空置的褶皱银色铝箔内衬和黑色短侧提手",
+        "es": "Bolsa azul marino vacía con panel frontal abatido, forro plateado de aluminio arrugado y asa lateral negra corta"
+      },
+      "caption": {
+        "en": "Open front and empty foil-lined compartment. Construction and fit require sample confirmation.",
+        "zh": "展开的前幅与空置铝箔内衬仓。结构及适配需通过样品确认。",
+        "es": "Panel frontal abierto y compartimento vacío con forro de aluminio. Confirme construcción y ajuste con una muestra."
+      }
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "pizza-delivery-bag-packout-checklist",
     "publishedAt": "2026-10-12",
     "title": {

@@ -9066,5 +9066,39 @@
         "width": 1254
       }
     ]
+  },
+  "images/editorial/2026-10-19/open-navy-carrier-empty-foil-interior.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/53c0623989e6-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/ed73bbef61dd-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/56a3561e94a6-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/cd722738fed0-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/2c3747559922-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/0f4a0e347243-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/4bb7bfa85300-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }
