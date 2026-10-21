@@ -9168,5 +9168,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-21/closed-teal-beverage-carrier.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/ce9af5563844-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/54b4630f76d5-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/71f89725dc06-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/fe90440b00ae-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/ca75e8cdd544-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/f38575beeac9-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/8ad474a94825-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

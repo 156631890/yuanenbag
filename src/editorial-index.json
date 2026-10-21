@@ -261,6 +261,35 @@
     }
   },
   {
+    "kind": "guide",
+    "slug": "drink-packaging-return-workflow",
+    "publishedAt": "2026-10-21",
+    "title": {
+      "en": "Choose Drink Packaging Around the Return Workflow",
+      "zh": "按交付与回收流程选择饮品外包装",
+      "es": "Elija el embalaje de bebidas según el circuito de devolución"
+    },
+    "description": {
+      "en": "Compare self-seal milk-tea packaging and a zippered beverage carrier by who keeps the bag, returns it and prepares it for the next delivery.",
+      "zh": "比较自粘奶茶袋与拉链饮品配送包，先明确谁保留外袋、如何回收、谁检查清洁，以及怎样准备下一轮配送。",
+      "es": "Compare la bolsa autoadhesiva y la bolsa de reparto con cremallera según quién la conserva, la devuelve y la prepara para el siguiente envío."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-21/closed-teal-beverage-carrier.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "Closed teal rectangular beverage carrier with black zipper and a short black handle against a light gray background",
+        "zh": "浅灰背景上的深青色长方形饮品配送包，带黑色拉链与短黑提手，包盖闭合",
+        "es": "Bolsa rectangular verde azulada cerrada con cremallera y asa corta negras sobre fondo gris claro"
+      },
+      "caption": {
+        "en": "Closed beverage-carrier proposal. Construction and suitability for a return workflow require sample confirmation.",
+        "zh": "闭合的饮品配送包方案。结构及其与回收流程的适配需按样品确认。",
+        "es": "Propuesta de bolsa para bebidas cerrada. Confirme construcción y adecuación al circuito de retorno con una muestra."
+      }
+    }
+  },
+  {
     "kind": "industry",
     "slug": "eu-packaging-rules-insulated-bag-buyers",
     "publishedAt": "2026-10-10",
