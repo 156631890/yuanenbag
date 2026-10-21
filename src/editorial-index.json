@@ -581,6 +581,35 @@
   },
   {
     "kind": "guide",
+    "slug": "insulated-parcel-shipping-dimensions-quote",
+    "publishedAt": "2026-10-21",
+    "title": {
+      "en": "Measure the Closed Insulated Parcel Before Requesting Shipping Costs",
+      "zh": "保温包裹运费询价，先量封装后的外包装",
+      "es": "Mida el paquete térmico cerrado antes de cotizar el envío"
+    },
+    "description": {
+      "en": "Prepare a shipping-cost enquiry with the finished parcel’s outside dimensions, gross weight, route and service. Keep flat pouch size separate from the shipment record.",
+      "zh": "使用完整封装包裹的外长宽高、毛重、路线与服务询问运费，把空平袋规格和实际运输包裹记录分开。",
+      "es": "Prepare la consulta de envío con medidas exteriores, peso bruto, ruta y servicio del paquete terminado. Separe las medidas de la bolsa plana del registro de expedición."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-21/closed-silver-foil-parcel.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "Closed silver foil-faced pouch lying on a light gray surface with a folded flap and ribbed sealed edges",
+        "zh": "浅灰台面上平放的银色铝箔面层袋，折口已经闭合，边缘带条纹封边",
+        "es": "Bolsa plateada de superficie de aluminio tumbada sobre fondo gris claro con solapa cerrada y bordes sellados estriados"
+      },
+      "caption": {
+        "en": "Closed foil-pouch packing concept. The image provides no dimensions, carrier approval or transport-test result.",
+        "zh": "铝箔袋闭合装载构想。画面不提供尺寸、承运认可或运输试验结果。",
+        "es": "Concepto de embalaje con bolsa de aluminio cerrada. La imagen no aporta medidas, aprobación del transportista ni resultados de ensayo de transporte."
+      }
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "insulated-shopping-bags-frozen-food",
     "publishedAt": "2026-10-07",
     "title": {
