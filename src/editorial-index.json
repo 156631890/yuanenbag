@@ -522,6 +522,35 @@
     }
   },
   {
+    "kind": "industry",
+    "slug": "innovia-propafilm-chbm-barrier-film",
+    "publishedAt": "2026-10-21",
+    "title": {
+      "en": "Innovia Introduces Propafilm CHBM for PP-Based Barrier Packaging",
+      "zh": "Innovia 发布面向 PP 阻隔包装的 Propafilm CHBM",
+      "es": "Innovia presenta Propafilm CHBM para envases de barrera basados en PP"
+    },
+    "description": {
+      "en": "Innovia’s 14 October film announcement raises a practical sourcing question: which evidence belongs to the film, the finished pouch and the complete pack-out?",
+      "zh": "Innovia 10 月 14 日的薄膜公告带来一个采购核对问题：膜层、成品袋与完整装载各自需要哪些证据？",
+      "es": "El anuncio de Innovia del 14 de octubre plantea qué pruebas corresponden a la película, la bolsa terminada y el conjunto embalado."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-21/silver-packaging-film-roll.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "Silver flexible film roll with a brown core and a short sheet unfurled on a light gray workbench",
+        "zh": "浅灰工作台上的银色柔性膜卷，带棕色卷芯与一段展开的膜片",
+        "es": "Rollo de película flexible plateada con núcleo marrón y una hoja desplegada sobre una mesa gris clara"
+      },
+      "caption": {
+        "en": "Generic flexible-film concept. The scene does not identify a supplier’s film or document a production or test site.",
+        "zh": "通用柔性膜构想。画面不识别特定供应商膜材，也不记录生产或测试现场。",
+        "es": "Concepto genérico de película flexible; la escena no identifica la película de un proveedor ni documenta producción o ensayos."
+      }
+    }
+  },
+  {
     "kind": "guide",
     "slug": "insulated-bag-delivery-lot-inspection",
     "publishedAt": "2026-10-15",
