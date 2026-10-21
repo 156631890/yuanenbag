@@ -436,6 +436,35 @@
   },
   {
     "kind": "industry",
+    "slug": "fpa-brand-owner-council-formation",
+    "publishedAt": "2026-10-21",
+    "title": {
+      "en": "FPA Forms a Brand Owner Council With Three Inaugural Members",
+      "zh": "FPA 成立品牌商委员会，公布首批三家成员",
+      "es": "FPA crea un consejo de marcas con tres miembros fundadores"
+    },
+    "description": {
+      "en": "FPA’s new Brand Owner Council gives packaging buyers a reason to clarify the hand-off between brand requirements, supplier replies and sample approval.",
+      "zh": "FPA 新设品牌商委员会，为包装采购者带来的实际启发是：明确品牌需求、供应商回复与样品确认之间的交接。",
+      "es": "El nuevo consejo de FPA invita a aclarar el traspaso entre requisitos de marca, respuestas del proveedor y aprobación de muestras."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-21/plain-pouch-sample-review.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "Plain white stand-up pouch and a pale taupe flat pouch on a softly lit sample-review workbench",
+        "zh": "柔光样品工作台上的无印刷白色自立袋与浅灰褐色平袋",
+        "es": "Bolsa blanca de pie sin imprimir y bolsa plana de color topo claro sobre una mesa de muestras con luz suave"
+      },
+      "caption": {
+        "en": "Generic flexible-packaging sample concept. These are not identified member-company packs or a record of a council meeting.",
+        "zh": "通用柔性包装样品构想。画面不识别成员企业包装，也不记录委员会会议。",
+        "es": "Concepto genérico de muestras de envases flexibles; no identifica envases de miembros ni documenta una reunión del consejo."
+      }
+    }
+  },
+  {
+    "kind": "industry",
     "slug": "fpf-ppwr-recycled-content-evidence",
     "publishedAt": "2026-10-13",
     "title": {

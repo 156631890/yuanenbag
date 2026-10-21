@@ -9304,5 +9304,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-21/plain-pouch-sample-review.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/1ab48514dbcc-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/dd2cd69d1298-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/597a076e26c6-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/f5a9e158e5da-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/dc8168515c43-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/46d59a5740d4-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/122c4fd8b3cc-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }
