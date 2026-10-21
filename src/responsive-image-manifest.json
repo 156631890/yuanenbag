@@ -9202,5 +9202,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-21/open-red-passive-pizza-carrier.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/0dfff9a7a9f9-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/e830465b10bd-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/b6604d50fc89-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/b42cae83907b-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/796946e649a6-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/50e2faf173fc-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/b3f8d18462eb-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

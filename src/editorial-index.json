@@ -726,6 +726,35 @@
   },
   {
     "kind": "guide",
+    "slug": "pizza-bag-passive-insulation-heating-requirement",
+    "publishedAt": "2026-10-21",
+    "title": {
+      "en": "Check the Bag Specification When Delivery Requires Active Heating",
+      "zh": "需要主动加热时，先核对披萨包范围",
+      "es": "Revise la bolsa si el reparto requiere calentamiento activo"
+    },
+    "description": {
+      "en": "Separate a passive insulated pizza bag from an active-heating requirement. Record the delivery need, current bag scope and questions for the responsible equipment supplier.",
+      "zh": "把被动隔热披萨包与主动加热需求分开，记录配送要求、现款产品范围及须由设备方案方另行确认的事项。",
+      "es": "Distinga la bolsa térmica pasiva de una necesidad de calentamiento activo. Registre el servicio, el alcance de la bolsa y las consultas al proveedor del equipo."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-21/open-red-passive-pizza-carrier.webp",
+      "kind": "illustration",
+      "alt": {
+        "en": "Low wide red carrier with an open zipper lid and empty silver foil-lined interior on a light gray surface",
+        "zh": "浅灰台面上的低宽红色配送包，拉链盖打开，银色铝箔内衬中没有装载物",
+        "es": "Bolsa roja baja y ancha con tapa de cremallera abierta e interior vacío forrado de aluminio sobre una superficie gris clara"
+      },
+      "caption": {
+        "en": "Open passive-carrier proposal. Materials, loaded fit and thermal performance require sample confirmation and agreed evaluation.",
+        "zh": "打开的被动保温包方案。材料、装载适配及温控表现需通过样品与约定评估确认。",
+        "es": "Propuesta de bolsa pasiva abierta. Confirme materiales, ajuste cargado y comportamiento térmico mediante muestra y evaluación acordada."
+      }
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "pizza-delivery-bag-packout-checklist",
     "publishedAt": "2026-10-12",
     "title": {
