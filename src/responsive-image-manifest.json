@@ -9474,5 +9474,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-22/plain-retail-carton-in-corrugated-outer.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/734597b7b382-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/5adae97480d0-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/3683f1c5bed9-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/a1b5bae4e98a-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/27c4adba6070-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/660bd251fdce-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/8285675d778e-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

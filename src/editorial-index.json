@@ -162,6 +162,29 @@
   },
   {
     "kind": "industry",
+    "slug": "corona-cero-seven-bottle-packaging-case",
+    "publishedAt": "2026-10-22",
+    "title": {
+      "en": "Smurfit Westrock Details Corona Cero Seven-Bottle Packaging Project",
+      "zh": "Smurfit Westrock公布Corona Cero七瓶组合包装项目",
+      "es": "Smurfit Westrock detalla el proyecto de envase de siete botellas de Corona Cero"
+    },
+    "description": {
+      "en": "Smurfit Westrock’s Corona Cero announcement covers a seven-bottle consumer pack and transport packaging. Keep those specifications separate from a thermal brief.",
+      "zh": "Smurfit Westrock的Corona Cero公告涉及七瓶消费组合装及运输包装。采购时应把这两层规格与温度管理方案分别说明。",
+      "es": "El anuncio de Corona Cero aborda un envase comercial de siete botellas y embalaje de transporte. Separe esas especificaciones de los requisitos térmicos."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-22/plain-retail-carton-in-corrugated-outer.webp",
+      "alt": {
+        "en": "A plain closed white carton inside an open brown corrugated shipping box on a grey packing counter",
+        "zh": "灰色打包台上，敞开的棕色瓦楞运输箱内放着普通闭合白色纸盒",
+        "es": "Una caja blanca lisa cerrada dentro de una caja de transporte marrón de cartón ondulado abierta sobre una mesa gris"
+      }
+    }
+  },
+  {
+    "kind": "industry",
     "slug": "costco-orange-juice-paper-handle-case",
     "publishedAt": "2026-10-22",
     "title": {
