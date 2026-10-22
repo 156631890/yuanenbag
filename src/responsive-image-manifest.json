@@ -9372,5 +9372,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-22/closed-teal-custom-beverage-bag.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/138740964a4e-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/acf761030ad4-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/c4a1425f0bd6-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/08796b93fc70-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/200efa935c3c-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/a1bc4fa1fd8c-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/fd1ec4e35ca6-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

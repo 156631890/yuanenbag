@@ -161,6 +161,29 @@
     }
   },
   {
+    "kind": "guide",
+    "slug": "custom-insulated-bag-order-timeline-gates",
+    "publishedAt": "2026-10-22",
+    "title": {
+      "en": "Set the Start Date for a Custom Insulated-Bag Order",
+      "zh": "定制保温袋的交期，从哪个确认节点开始算",
+      "es": "Acuerde desde qué confirmación empieza el plazo de una bolsa térmica personalizada"
+    },
+    "description": {
+      "en": "Turn an arrival target into a dated confirmation record for specifications, samples, materials, production, release and transport without assuming a universal lead time.",
+      "zh": "把到仓目标转成规格、样品、材料、排产、放行和运输的日期确认记录，不套用统一交期。",
+      "es": "Convierta la llegada prevista en un registro de especificaciones, muestras, materiales, producción, liberación y transporte sin asumir un plazo universal."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-22/closed-teal-custom-beverage-bag.webp",
+      "alt": {
+        "en": "Closed deep-teal rectangular beverage bag with black zipper trim and short black handles on a light gray surface",
+        "zh": "浅灰台面上的深青色长方形饮品包，顶盖闭合，带黑色拉链包边与短黑提手",
+        "es": "Bolsa rectangular verde azulado para bebidas, cerrada, con cremallera negra y asas cortas sobre superficie gris clara"
+      }
+    }
+  },
+  {
     "kind": "industry",
     "slug": "dart-lancaster-molded-fiber-capacity",
     "publishedAt": "2026-10-15",
