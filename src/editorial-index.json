@@ -161,6 +161,29 @@
     }
   },
   {
+    "kind": "industry",
+    "slug": "costco-orange-juice-paper-handle-case",
+    "publishedAt": "2026-10-22",
+    "title": {
+      "en": "Smurfit Westrock Shares Costco Orange-Juice Paper-Handle Case",
+      "zh": "Smurfit Westrock介绍Costco橙汁组合装纸提手案例",
+      "es": "Smurfit Westrock presenta el caso del asa de papel para zumo de Costco"
+    },
+    "description": {
+      "en": "A Costco orange-juice case from Smurfit Westrock separates the retail carry handle from an insulated delivery bag. Buyers should specify both handover steps.",
+      "zh": "Smurfit Westrock介绍Costco橙汁组合装纸提手案例。采购时应分别明确零售组合装提手与保温配送包承担的交接动作。",
+      "es": "El caso de Costco presentado por Smurfit Westrock distingue el asa del paquete comercial de la bolsa térmica de reparto. Defina ambas etapas de entrega."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-22/kraft-paperboard-two-bottle-carrier.webp",
+      "alt": {
+        "en": "Two capped bottles of orange juice in a plain brown paperboard carrier on a light grey counter",
+        "zh": "浅灰台面上，普通棕色纸板提篮装着两瓶带盖橙汁",
+        "es": "Dos botellas de zumo de naranja con tapón en un portabotellas de cartón marrón liso sobre una superficie gris clara"
+      }
+    }
+  },
+  {
     "kind": "guide",
     "slug": "custom-insulated-bag-order-timeline-gates",
     "publishedAt": "2026-10-22",

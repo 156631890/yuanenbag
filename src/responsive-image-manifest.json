@@ -9440,5 +9440,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-22/kraft-paperboard-two-bottle-carrier.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/0f1b62459329-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/a7c31265b801-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/fc21c4c70519-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/16878d4ca4c8-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/8edc1d6ee336-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/5705466306bd-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/661860a2c511-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }
