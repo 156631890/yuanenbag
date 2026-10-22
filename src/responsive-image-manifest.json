@@ -9406,5 +9406,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-22/olive-meal-bag-glass-container.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/7633b7c1bc67-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/8faeb42ef696-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/b10e3be92fa8-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/da954a143b90-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/5a7e9af73db7-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/c45fede91c33-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/8e4ac1f132e1-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

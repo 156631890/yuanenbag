@@ -438,6 +438,29 @@
   },
   {
     "kind": "guide",
+    "slug": "glass-meal-container-protection-review",
+    "publishedAt": "2026-10-22",
+    "title": {
+      "en": "Glass Meal Containers Need a Separate Protection Review",
+      "zh": "玻璃餐盒装入备餐包，还需单独评估防碰撞",
+      "es": "Los recipientes de vidrio necesitan una revisión de protección aparte"
+    },
+    "description": {
+      "en": "Review container contact, base support, loaded weight and handling in a meal-prep bag without treating fit or a silver lining as proof of glass protection.",
+      "zh": "核对备餐包内玻璃餐盒的接触、底部支承、装载重量和搬运，不把尺寸适配或银色内层当作保护证明。",
+      "es": "Revise contactos, apoyo, peso cargado y manipulación sin considerar el encaje o el forro plateado como prueba de protección del vidrio."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-22/olive-meal-bag-glass-container.webp",
+      "alt": {
+        "en": "Open olive meal-prep bag with one empty silver-lined chamber and a separate lidded glass container on a light gray surface",
+        "zh": "浅灰台面上的橄榄绿备餐包，顶盖打开，银色单仓为空，旁边另放一个带盖玻璃餐盒",
+        "es": "Bolsa verde oliva abierta con una cámara plateada vacía y un recipiente de vidrio con tapa colocado aparte sobre superficie gris clara"
+      }
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "icecream-tub-refrigerant-fit",
     "publishedAt": "2026-10-13",
     "title": {
