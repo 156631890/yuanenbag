@@ -9338,5 +9338,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-22/white-foam-box-folded-foil-liner.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/d89988f335a5-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/ea98ec987ca3-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/ef6cd09159d6-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/51f403dac100-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/9338e953de16-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/7b129f05f9d5-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/e51d568d29dc-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

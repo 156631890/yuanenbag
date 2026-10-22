@@ -1,7 +1,9 @@
 import index from './editorial-index.json'
 import type { EditorialArticle } from './editorial'
 
-export type EditorialSummary = Pick<EditorialArticle, 'kind' | 'slug' | 'publishedAt' | 'updatedAt' | 'title' | 'description' | 'image'>
+export type EditorialSummary = Pick<EditorialArticle, 'kind' | 'slug' | 'publishedAt' | 'updatedAt' | 'title' | 'description'> & {
+  image: Pick<EditorialArticle['image'], 'file' | 'alt'>
+}
 export const editorialArticles = (index as EditorialSummary[]).slice().sort((a, b) => b.publishedAt.localeCompare(a.publishedAt) || a.slug.localeCompare(b.slug))
 export const guideArticles = editorialArticles.filter(article => article.kind === 'guide')
 export const industryArticles = editorialArticles.filter(article => article.kind === 'industry')

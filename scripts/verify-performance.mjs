@@ -11,7 +11,7 @@ const editorialIndex = JSON.parse(await readFile('src/editorial-index.json', 'ut
 assert.equal(editorialIndex.length, seoAudit.editorialArticles.length, 'Editorial metadata index is stale.')
 for (const article of seoAudit.editorialArticles) {
   const { kind, slug, publishedAt, updatedAt, title, description, image } = article
-  assert.deepEqual(editorialIndex.find(item => item.slug === slug), { kind, slug, publishedAt, ...(updatedAt ? { updatedAt } : {}), title, description, image })
+  assert.deepEqual(editorialIndex.find(item => item.slug === slug), { kind, slug, publishedAt, ...(updatedAt ? { updatedAt } : {}), title, description, image: { file: image.file, alt: image.alt } })
   assert(manifest[`src/articles/${slug}.ts`]?.isDynamicEntry, `Article body must have its own dynamic module: ${slug}`)
   assert(!entry.includes(article.sections[0].paragraphs[0].en), `Article body leaked into the initial script: ${slug}`)
 }
