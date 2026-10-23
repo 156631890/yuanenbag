@@ -9576,5 +9576,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-23/open-red-pizza-bag-separate-carton.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/c6e0cba2736b-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/410cec3b1870-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/f205c1cfb5d3-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/596b114ff077-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/7a320b02a6c6-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/06b6c52f20b8-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/592b96a299e6-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

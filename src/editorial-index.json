@@ -668,6 +668,29 @@
   },
   {
     "kind": "guide",
+    "slug": "insulated-packout-dimensional-range-fit",
+    "publishedAt": "2026-10-23",
+    "title": {
+      "en": "Check Pack-Out Fit Across the Agreed Dimension Ranges",
+      "zh": "用约定尺寸范围核对保温袋与内装物的适配",
+      "es": "Compruebe el ajuste con los intervalos de dimensiones acordados"
+    },
+    "description": {
+      "en": "Compare agreed bag, closed-container and prepared-coolant dimension ranges with matched samples. Separate order-size conformity from complete pack-out compatibility.",
+      "zh": "用对应样品比较袋体、闭合容器及预处理后冰源的约定尺寸范围，分别记录订单尺寸符合性与完整装载组合适配性。",
+      "es": "Compare los intervalos acordados de bolsa, recipiente cerrado y refrigerante preparado con muestras correspondientes. Separe conformidad dimensional y compatibilidad del conjunto."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-23/open-red-pizza-bag-separate-carton.webp",
+      "alt": {
+        "en": "An open low red delivery bag with silver lining beside a closed plain pizza carton on a light grey surface",
+        "zh": "浅灰表面上，一只带银色内衬的低宽红色配送包打开上盖，旁边放着闭合的普通披萨纸盒",
+        "es": "Una bolsa roja baja abierta con forro plateado junto a una caja de pizza lisa cerrada sobre una superficie gris clara"
+      }
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "insulated-parcel-shipping-dimensions-quote",
     "publishedAt": "2026-10-21",
     "title": {
