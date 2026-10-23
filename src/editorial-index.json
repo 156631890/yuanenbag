@@ -1,5 +1,28 @@
 [
   {
+    "kind": "industry",
+    "slug": "amcor-barcelona-packaging-conference-recap",
+    "publishedAt": "2026-10-23",
+    "title": {
+      "en": "Amcor Reviews Barcelona Packaging Sustainability Discussions",
+      "zh": "Amcor回顾巴塞罗那包装可持续会议讨论",
+      "es": "Amcor repasa los debates sobre sostenibilidad del embalaje en Barcelona"
+    },
+    "description": {
+      "en": "Amcor’s Barcelona conference recap connects circular design, material supply and product protection. Buyers still need evidence for their own packaging assembly.",
+      "zh": "Amcor的巴塞罗那会议回顾讨论循环设计、材料供应与产品保护。采购者仍需为自己的包装组合核实对应证据。",
+      "es": "Amcor repasa el diseño circular, el suministro de materiales y la protección. El comprador necesita pruebas correspondientes a su propio conjunto de embalaje."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-23/plain-clear-packaging-film-roll.webp",
+      "alt": {
+        "en": "An unprinted clear packaging-film roll with a loose sheet on a grey workbench",
+        "zh": "灰色工作台上的无印刷透明包装膜卷，前方垂放一段薄膜",
+        "es": "Un rollo de película transparente sin impresión con una lámina suelta sobre una mesa gris"
+      }
+    }
+  },
+  {
     "kind": "guide",
     "slug": "beverage-delivery-bag-cup-divider-fit",
     "publishedAt": "2026-10-12",

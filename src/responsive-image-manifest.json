@@ -9610,5 +9610,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-23/plain-clear-packaging-film-roll.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/578c040ab6c3-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/3e9ff8ce3c42-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/9c89077d04e0-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/234cb6440d1b-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/09e8a1e95e9c-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/69f435e569fc-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/8804fca4d7dc-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }
