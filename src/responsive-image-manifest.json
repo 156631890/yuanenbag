@@ -9542,5 +9542,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-23/silver-pouch-open-release-flap.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/c839a9268267-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/5f6e17880f9f-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/ffea61440a9c-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/898dd344d8c0-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/b3e52d435eb7-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/82a94c689a03-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/20c351355378-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

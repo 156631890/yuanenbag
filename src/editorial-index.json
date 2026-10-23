@@ -277,6 +277,29 @@
   },
   {
     "kind": "guide",
+    "slug": "design-sample-production-acceptance-scope",
+    "publishedAt": "2026-10-23",
+    "title": {
+      "en": "Define What a Design Sample Approves Before Production",
+      "zh": "量产前，写清设计样品的批准范围",
+      "es": "Defina qué aprueba una muestra de diseño antes de producir"
+    },
+    "description": {
+      "en": "Record which features a handmade design sample confirms and which machine-order details still need evidence. Use an item-by-item approval-scope record before ordering.",
+      "zh": "逐项记录手工设计样品确认了哪些内容，以及机器订单哪些细节仍需依据；下单前明确批准范围、未决项与下一确认节点。",
+      "es": "Registre qué confirma una muestra manual de diseño y qué detalles del pedido mecanizado siguen pendientes. Defina el alcance de aprobación antes de pedir."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-23/silver-pouch-open-release-flap.webp",
+      "alt": {
+        "en": "A silver foil-faced pouch with its adhesive flap open and a white release strip on a grey surface",
+        "zh": "灰色表面上，一只银色铝箔面层袋展开粘封袋口，可见白色离型纸条",
+        "es": "Una bolsa con cara plateada, solapa adhesiva abierta y tira protectora blanca sobre una superficie gris"
+      }
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "drink-packaging-return-workflow",
     "publishedAt": "2026-10-21",
     "title": {
