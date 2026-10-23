@@ -9508,5 +9508,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-23/open-foam-box-soft-silver-liner.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/967d6a520d24-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/7307de597c08-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/b65466f9a435-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/e50186349dd8-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/24bc6a6823e5-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/cf47ecb09788-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/df2a3df84adc-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

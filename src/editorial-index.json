@@ -414,6 +414,29 @@
     }
   },
   {
+    "kind": "guide",
+    "slug": "foil-metallised-lining-specification",
+    "publishedAt": "2026-10-23",
+    "title": {
+      "en": "A Silver Lining Needs a Layer Specification",
+      "zh": "银色内衬询价，要分清铝箔与镀铝膜资料",
+      "es": "Un forro plateado necesita una especificación de sus capas"
+    },
+    "description": {
+      "en": "Compare two insulated-lining quotations by layer, substrate, metal description, thickness basis, joining details and sample version instead of silver appearance.",
+      "zh": "比较银色保温内衬报价时，逐层核对基材、金属层描述、厚度口径、复合与接缝方式及样品版本，不凭外观认定材料相同。",
+      "es": "Compare ofertas de forros térmicos por capas, sustrato, descripción del metal, base del espesor, uniones y versión de muestra, sin decidir por su aspecto plateado."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-23/open-foam-box-soft-silver-liner.webp",
+      "alt": {
+        "en": "An empty white foam box with a folded silver liner and a separate white lid on a light grey surface",
+        "zh": "浅灰表面上，白泡沫箱内铺着折叠银色内衬，旁边放着独立白色箱盖",
+        "es": "Una caja de espuma blanca vacía con forro plateado plegado y una tapa blanca aparte sobre una superficie gris clara"
+      }
+    }
+  },
+  {
     "kind": "industry",
     "slug": "fpa-brand-owner-council-formation",
     "publishedAt": "2026-10-21",

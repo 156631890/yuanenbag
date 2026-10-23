@@ -10,7 +10,7 @@ export type EditorialArticle = {
   title: Text
   description: Text
   intro: Text
-  sections: { heading: Text; paragraphs: Text[]; bullets?: Text[] }[]
+  sections: { heading: Text; paragraphs: Text[]; bullets?: Text[]; table?: { caption: Text; columns: Text[]; rows: Text[][] } }[]
   sources: { title: Text; url: string; publishedAt?: string }[]
   relatedProducts: string[]
   image: { file: string; alt: Text; caption: Text; kind: 'product' | 'illustration' }
@@ -37,6 +37,15 @@ for (const article of editorialArticles) {
     if (!section.paragraphs?.length) throw new Error(`Missing section text: ${article.slug}`)
     for (const paragraph of section.paragraphs) requireText(paragraph, `paragraph: ${article.slug}`)
     for (const bullet of section.bullets || []) requireText(bullet, `bullet: ${article.slug}`)
+    if (section.table) {
+      requireText(section.table.caption, `table caption: ${article.slug}`)
+      if (section.table.columns.length < 2 || !section.table.rows.length) throw new Error(`Empty comparison table: ${article.slug}`)
+      for (const column of section.table.columns) requireText(column, `table column: ${article.slug}`)
+      for (const row of section.table.rows) {
+        if (row.length !== section.table.columns.length) throw new Error(`Mismatched table columns: ${article.slug}`)
+        for (const cell of row) requireText(cell, `table cell: ${article.slug}`)
+      }
+    }
   }
   if (!article.sources?.length) throw new Error(`Missing sources: ${article.slug}`)
   if (article.kind === 'industry' && (!article.eventDate || !validDate(article.eventDate) || article.eventDate > article.publishedAt || !article.market || !article.sources.some(source => source.publishedAt))) throw new Error(`Industry article needs a dated source, event date and market: ${article.slug}`)
