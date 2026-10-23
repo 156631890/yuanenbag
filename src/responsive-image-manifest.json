@@ -9644,5 +9644,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-23/plain-sealed-aluminium-food-tray.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/491e945b7d7f-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/1a6f79c5a53b-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/6172f1f1acd0-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/f09295970b14-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/f7c50ce3d6b9-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/8fc215c9fcb5-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/cf2e5651549a-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

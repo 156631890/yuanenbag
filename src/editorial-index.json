@@ -23,6 +23,29 @@
     }
   },
   {
+    "kind": "industry",
+    "slug": "amcor-europe-wet-pet-food-packaging-study",
+    "publishedAt": "2026-10-23",
+    "title": {
+      "en": "Amcor Publishes European Wet-Pet-Food Packaging Research",
+      "zh": "Amcor发布欧洲湿宠物食品包装研究",
+      "es": "Amcor publica un estudio europeo sobre envases de alimento húmedo para mascotas"
+    },
+    "description": {
+      "en": "Amcor reports European wet-pet-food packaging preferences. The survey does not validate shipping.",
+      "zh": "Amcor研究欧洲湿宠物食品包装偏好，调查不能代替运输验证。",
+      "es": "Amcor estudia preferencias europeas de envase para alimento húmedo, sin validar el transporte."
+    },
+    "image": {
+      "file": "images/editorial/2026-10-23/plain-sealed-aluminium-food-tray.webp",
+      "alt": {
+        "en": "Closed silver food tray with a lid tab on a grey counter",
+        "zh": "灰色台面上的银色闭合托盘，盖膜带拉片",
+        "es": "Bandeja plateada cerrada con pestaña sobre una encimera gris"
+      }
+    }
+  },
+  {
     "kind": "guide",
     "slug": "beverage-delivery-bag-cup-divider-fit",
     "publishedAt": "2026-10-12",
