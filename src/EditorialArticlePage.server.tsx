@@ -1,4 +1,4 @@
-import { EditorialDetail } from './EditorialPages'
+import { EditorialDetail } from './EditorialDetail'
 import { editorialArticles } from './editorial'
 import type { Lang } from './data'
 

@@ -3,12 +3,15 @@ import { readdir, writeFile } from 'node:fs/promises'
 // Route and archive metadata stays small; article bodies load in separate chunks.
 const directory = new URL('../src/articles/', import.meta.url)
 const articles = []
+const images = {}
 for (const file of (await readdir(directory)).filter(file => file.endsWith('.ts')).sort()) {
   const { default: article } = await import(new URL(file, directory).href)
   const { kind, slug, publishedAt, updatedAt, title, description, image } = article
   // Cards need the image file and alt text. Captions and provenance stay in the
   // complete article module instead of being downloaded again on every page.
-  articles.push({ kind, slug, publishedAt, ...(updatedAt ? { updatedAt } : {}), title, description, image: { file: image.file, alt: image.alt } })
+  articles.push({ kind, slug, publishedAt, ...(updatedAt ? { updatedAt } : {}), title, description })
+  images[slug] = { file: image.file, alt: image.alt }
 }
 await writeFile(new URL('../src/editorial-index.json', import.meta.url), JSON.stringify(articles, null, 2) + '\n')
+await writeFile(new URL('../src/editorial-images.json', import.meta.url), JSON.stringify(images, null, 2) + '\n')
 console.log(`Prepared metadata for ${articles.length} editorial articles.`)

@@ -8,10 +8,14 @@ const imageManifest = JSON.parse(await readFile('src/responsive-image-manifest.j
 const imageCandidates = Object.values(imageManifest).flatMap(image=>image.variants.map(variant=>variant.file))
 const entry = await readFile(`dist/${manifest['index.html'].file}`, 'utf8')
 const editorialIndex = JSON.parse(await readFile('src/editorial-index.json', 'utf8'))
+const editorialImages = JSON.parse(await readFile('src/editorial-images.json', 'utf8'))
 assert.equal(editorialIndex.length, seoAudit.editorialArticles.length, 'Editorial metadata index is stale.')
+assert.equal(Object.keys(editorialImages).length, editorialIndex.length, 'Editorial image index is stale.')
 for (const article of seoAudit.editorialArticles) {
   const { kind, slug, publishedAt, updatedAt, title, description, image } = article
-  assert.deepEqual(editorialIndex.find(item => item.slug === slug), { kind, slug, publishedAt, ...(updatedAt ? { updatedAt } : {}), title, description, image: { file: image.file, alt: image.alt } })
+  assert.deepEqual(editorialIndex.find(item => item.slug === slug), { kind, slug, publishedAt, ...(updatedAt ? { updatedAt } : {}), title, description })
+  assert.deepEqual(editorialImages[slug], { file: image.file, alt: image.alt })
+  assert(!entry.includes(image.file), `Card images must remain in the editorial page module: ${slug}`)
   assert(manifest[`src/articles/${slug}.ts`]?.isDynamicEntry, `Article body must have its own dynamic module: ${slug}`)
   assert(!entry.includes(article.sections[0].paragraphs[0].en), `Article body leaked into the initial script: ${slug}`)
 }

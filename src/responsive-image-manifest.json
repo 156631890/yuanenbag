@@ -9678,5 +9678,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-24/silver-pouch-postal-carton.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/3e6783010d7b-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/83339ee6d7ab-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/03637e34978e-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/cb800938403c-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/1dee203b969c-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/2927107714c3-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/11390df36dcd-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

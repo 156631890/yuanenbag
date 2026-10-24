@@ -1,5 +1,5 @@
 import { lazy } from 'react'
-import { EditorialDetail } from './EditorialPages'
+import { EditorialDetail } from './EditorialDetail'
 import type { EditorialArticle } from './editorial'
 import type { Lang } from './data'
 
