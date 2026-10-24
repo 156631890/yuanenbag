@@ -375,6 +375,14 @@
       "es": "Dos bolsas planas genéricas de superficie plateada y bordes sellados sobre una mesa de madera"
     }
   },
+  "self-seal-insulated-bag-inventory-use-window": {
+    "file": "images/editorial/2026-10-24/flat-silver-pouches-paper-band.webp",
+    "alt": {
+      "en": "A stack of flat silver pouches with a plain paper band and a separate open-flap pouch",
+      "zh": "素面纸带束着一叠银色平袋，旁边放着一只展开折口的袋子",
+      "es": "Pila de bolsas plateadas planas con una faja de papel y otra bolsa con solapa abierta"
+    }
+  },
   "spain-bonded-cold-storage-packaging-handoff": {
     "file": "images/editorial/2026-10-12/thermal-carton-warehouse-handoff.webp",
     "alt": {

@@ -9712,5 +9712,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-24/flat-silver-pouches-paper-band.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/905bb7fe878b-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/8d6ac52f0e74-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/be8d31ae1eb6-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/67eadb816fe6-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/956250049dba-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/9f768da8ea07-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/be9f5a43532b-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

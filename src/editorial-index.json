@@ -705,6 +705,21 @@
     }
   },
   {
+    "kind": "guide",
+    "slug": "self-seal-insulated-bag-inventory-use-window",
+    "publishedAt": "2026-10-24",
+    "title": {
+      "en": "Confirm the Storage and Use Window for Self-Seal Bags",
+      "zh": "分批领用自粘保温袋前，确认库存使用期限",
+      "es": "Confirme el plazo de almacenamiento y uso de las bolsas autoadhesivas"
+    },
+    "description": {
+      "en": "Link each self-seal bag batch to its date basis, storage instructions and planned use dates before buying stock for staged consumption.",
+      "zh": "采购分批领用的自粘保温袋前，将成品批次、期限起算依据、书面储存条件与计划领用日期逐项对应。",
+      "es": "Vincule cada lote de bolsas autoadhesivas con su fecha de referencia, instrucciones de almacenamiento y fechas previstas de uso."
+    }
+  },
+  {
     "kind": "industry",
     "slug": "spain-bonded-cold-storage-packaging-handoff",
     "publishedAt": "2026-10-12",
