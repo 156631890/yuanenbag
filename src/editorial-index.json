@@ -105,6 +105,21 @@
     }
   },
   {
+    "kind": "industry",
+    "slug": "cirkla-belmark-ossid-resealable-fiber-trays",
+    "publishedAt": "2026-10-24",
+    "title": {
+      "en": "Cirkla, Belmark and Ossid Announce a Resealable Fiber-Tray System",
+      "zh": "Cirkla、Belmark与Ossid公布可重封纤维托盘方案",
+      "es": "Cirkla, Belmark y Ossid anuncian un sistema de bandejas de fibra resellables"
+    },
+    "description": {
+      "en": "A fiber-tray announcement raises a separate outer-pack question: check the actual closed tray, lid clearance and loading route before choosing an insulated pouch.",
+      "zh": "纤维托盘方案变动后，外层保温包装应按真实闭合餐盒重新核对外廓、膜边余量与装取路径，不从主包装重封能力推定配送性能。",
+      "es": "Revise bandeja cerrada, espacio para el film y carga antes de elegir una bolsa térmica; el envase primario y el embalaje exterior tienen alcances distintos."
+    }
+  },
+  {
     "kind": "guide",
     "slug": "cleaning-trial-insulated-bag-samples",
     "publishedAt": "2026-10-15",

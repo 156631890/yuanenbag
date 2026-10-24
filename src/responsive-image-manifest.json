@@ -9814,5 +9814,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-24/fiber-tray-clear-loose-film.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/d1058355374b-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/6b662dc630b3-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/2dd57b8b52f4-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/d861e60ec859-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/7c92cf4d3afc-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/0b71b44fdce0-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/67717fb580f0-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }
