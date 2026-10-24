@@ -367,6 +367,14 @@
       "es": "Dos bolsas planas plateadas sobre una mesa gris, con una tira de papel protector blanca visible en la bolsa delantera"
     }
   },
+  "self-seal-closure-tamper-evidence-requirements": {
+    "file": "images/editorial/2026-10-24/plain-flat-pouch-white-top-strip.webp",
+    "alt": {
+      "en": "A flat silver pouch with a plain white strip across the top on a grey surface",
+      "zh": "灰色表面上一只银色平袋，顶部横着素白条",
+      "es": "Bolsa plateada plana con una franja blanca lisa en la parte superior sobre una superficie gris"
+    }
+  },
   "self-seal-foil-bag-size-flap-fit": {
     "file": "images/editorial/2026-10-09/self-seal-foil-pouches.webp",
     "alt": {

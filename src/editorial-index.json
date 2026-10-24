@@ -691,6 +691,21 @@
   },
   {
     "kind": "guide",
+    "slug": "self-seal-closure-tamper-evidence-requirements",
+    "publishedAt": "2026-10-24",
+    "title": {
+      "en": "Specify Self-Sealing and Opening Evidence Separately",
+      "zh": "自粘封口与开启痕迹，需要分别确认",
+      "es": "Especifique por separado el autocierre y la evidencia de apertura"
+    },
+    "description": {
+      "en": "Separate pouch closure from visible opening evidence in a purchasing brief. Confirm the mechanism, actual surface and sample review without assuming tamper protection.",
+      "zh": "询价时分开写袋口闭合与开启指示要求，按实际表面、闭合位置及样品确认，不把自粘袋自动当作防拆包装。",
+      "es": "Separe cierre y evidencia visible de apertura. Confirme mecanismo, superficie y muestra sin presumir protección contra manipulaciones."
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "self-seal-foil-bag-size-flap-fit",
     "publishedAt": "2026-10-09",
     "title": {

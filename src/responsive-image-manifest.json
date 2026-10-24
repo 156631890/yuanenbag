@@ -9746,5 +9746,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-24/plain-flat-pouch-white-top-strip.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/6fb121eef202-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/fbf674891e33-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/9e074569ca40-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/978bae05a700-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/aa0b4e79b7d0-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/912d1c665f9e-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/5b7ba063121c-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }
