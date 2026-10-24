@@ -9780,5 +9780,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-24/kraft-paper-rolls-storage.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/248eb3398767-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/44e71fdf4ba7-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/b465bf6a4529-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/b79c8d7261a2-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/ac0808fec118-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/c4232c265bec-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/2e0472663607-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

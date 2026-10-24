@@ -736,6 +736,21 @@
   },
   {
     "kind": "industry",
+    "slug": "sonoco-third-quarter-2026-packaging-costs",
+    "publishedAt": "2026-10-24",
+    "title": {
+      "en": "Sonoco Reports Cost and Volume Changes in Third-Quarter Packaging Results",
+      "zh": "Sonoco三季度公告披露包装业务成本与销量变化",
+      "es": "Sonoco informa de cambios en costes y volúmenes de embalaje en el tercer trimestre"
+    },
+    "description": {
+      "en": "Sonoco’s 21 October results provide company-specific cost context. For insulated-pouch enquiries, compare a fixed construction and written quotation scope.",
+      "zh": "Sonoco于10月21日披露企业包装业务情况。保温袋采购可据此检查报价比较口径，固定结构、数量及运费范围，不将企业公告当作全行业调价。",
+      "es": "Los resultados de Sonoco del 21 de octubre aportan contexto empresarial. Compare bolsas térmicas con construcción y alcance de oferta definidos."
+    }
+  },
+  {
+    "kind": "industry",
     "slug": "spain-bonded-cold-storage-packaging-handoff",
     "publishedAt": "2026-10-12",
     "title": {
