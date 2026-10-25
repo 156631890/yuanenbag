@@ -1,6 +1,21 @@
 [
   {
     "kind": "industry",
+    "slug": "acr-ultra-green-molded-fiber-acquisition",
+    "publishedAt": "2026-10-25",
+    "title": {
+      "en": "ACR Announces Acquisition of Molded-Fiber Supplier Ultra Green",
+      "zh": "ACR宣布收购模塑纤维包装供应商Ultra Green",
+      "es": "ACR anuncia la adquisición del proveedor de fibra moldeada Ultra Green"
+    },
+    "description": {
+      "en": "ACR’s 20 October announcement concerns molded-fiber food packaging. If a tray or lid changes, preserve the package version and recheck the proposed insulated carrier.",
+      "zh": "ACR于10月20日宣布收购模塑纤维包装供应商。餐盘或盖型变化时，应保留完整包装版本并重新核对拟用保温配送包，不从交易推定供货或性能变化。",
+      "es": "El anuncio de ACR del 20 de octubre se refiere a envases alimentarios de fibra moldeada. Si cambia bandeja o tapa, identifique la versión y revise la bolsa térmica prevista."
+    }
+  },
+  {
+    "kind": "industry",
     "slug": "amcor-barcelona-packaging-conference-recap",
     "publishedAt": "2026-10-23",
     "title": {

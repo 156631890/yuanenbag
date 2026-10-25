@@ -9984,5 +9984,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-25/empty-molded-fiber-trays.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/e3060a13a750-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/04b6dba30a86-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/c67f3e65115a-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/2d61c3a41bfa-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/6312202e3085-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/ddd9b590f21b-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/c5ca3ab0e682-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }
