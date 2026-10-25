@@ -9916,5 +9916,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-25/empty-navy-carrier-separate-tray.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/8bb0e59a4bb3-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/50839bbfd62c-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/e2fda0441f78-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/f463f341bf2b-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/612ad9d765ec-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/333d958716f9-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/2c45a54b84f9-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

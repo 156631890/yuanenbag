@@ -436,6 +436,21 @@
   },
   {
     "kind": "guide",
+    "slug": "insulated-bag-carrying-load-requirement-brief",
+    "publishedAt": "2026-10-25",
+    "title": {
+      "en": "Specify Carrying Loads Separately from Insulated-Bag Volume",
+      "zh": "保温包能装多少，要把空间与提携载荷分开确认",
+      "es": "Especifique la carga de transporte aparte del volumen de la bolsa térmica"
+    },
+    "description": {
+      "en": "Build a carrying-load enquiry from contents, containers, coolant and bag-mass scope. Link handling and mechanical evidence to the actual carrier version.",
+      "zh": "按内装物、容器、冰源和袋体质量口径形成提携载荷询价；把搬运方式、提手与底部接缝版本及机械验证依据对应。",
+      "es": "Defina la carga con contenido, recipientes, refrigerante y alcance de masa de la bolsa. Vincule manipulación y pruebas con la versión real."
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "insulated-bag-delivery-lot-inspection",
     "publishedAt": "2026-10-15",
     "title": {
