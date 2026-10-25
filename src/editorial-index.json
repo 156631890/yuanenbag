@@ -451,6 +451,21 @@
   },
   {
     "kind": "guide",
+    "slug": "insulated-bag-print-colour-reference-proof",
+    "publishedAt": "2026-10-25",
+    "title": {
+      "en": "Match Print-Colour Approval to the Bag Substrate",
+      "zh": "确认保温袋印刷颜色，要把色标与承印材料对应起来",
+      "es": "Vincule la aprobación del color impreso al material de la bolsa"
+    },
+    "description": {
+      "en": "Record the physical colour reference, bag material and actual printed sample together. Keep screen artwork, colour acceptance and production evidence distinct.",
+      "zh": "将实物色标、袋面材料和实际印样对应记录，分清屏幕印稿、颜色确认及量产依据；不从效果图推定准确色彩。",
+      "es": "Registre referencia física, material y muestra impresa. Separe diseño en pantalla, aceptación del color y evidencia de producción."
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "insulated-material-environmental-claim-evidence",
     "publishedAt": "2026-10-25",
     "title": {

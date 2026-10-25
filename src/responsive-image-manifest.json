@@ -9882,5 +9882,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-25/navy-carrier-loose-colour-cards.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/552d795ec773-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/c330a0e84c38-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/a870fefce8c0-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/c73b4b7ea944-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/abaed9db948a-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/ec2ad5135c20-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/3400d88ec7d5-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }
