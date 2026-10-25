@@ -451,6 +451,21 @@
   },
   {
     "kind": "guide",
+    "slug": "insulated-material-environmental-claim-evidence",
+    "publishedAt": "2026-10-25",
+    "title": {
+      "en": "Request Separate Evidence for Environmental Material Claims",
+      "zh": "采购保温复合材料时，把环境声明逐项索证",
+      "es": "Pida pruebas separadas para las declaraciones ambientales del material"
+    },
+    "description": {
+      "en": "Turn a general environmental claim into a procurement record: exact claim, component, material version, destination and supporting evidence for the proposed liner.",
+      "zh": "把笼统环保表述拆成明确声明、对应部件、材料版本、目的地与证据记录；复合保温内衬的一层材料不能代表整套包装。",
+      "es": "Convierta una afirmación ambiental general en un registro de declaración, componente, versión, destino y pruebas para el revestimiento propuesto."
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "insulated-packaging-contact-use-document-brief",
     "publishedAt": "2026-10-22",
     "title": {

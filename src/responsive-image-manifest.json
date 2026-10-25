@@ -9848,5 +9848,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-25/empty-foam-box-silver-liner.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/e88a0708688d-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/b32d5f55ac63-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/5da99646ff51-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/e59e947d9198-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/7327b0f1ed1f-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/a0812abaf10d-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/8f862be0e135-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }
