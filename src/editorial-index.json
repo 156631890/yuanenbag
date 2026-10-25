@@ -256,6 +256,21 @@
   },
   {
     "kind": "industry",
+    "slug": "eu-bio-based-plastic-packaging-consultation",
+    "publishedAt": "2026-10-25",
+    "title": {
+      "en": "Commission Opens Consultation on Bio-Based Feedstock in Plastic Packaging",
+      "zh": "欧委会就塑料包装中的生物基原料公开征求意见",
+      "es": "La Comisión abre una consulta sobre materias primas biológicas en envases plásticos"
+    },
+    "description": {
+      "en": "The Commission’s 21 October consultation runs until 13 January 2027. For composite insulation enquiries, keep the current specification separate from proposed material changes.",
+      "zh": "欧委会10月21日开启咨询，意见征集至2027年1月13日。复合保温包装采购应区分当前规格与拟议材料变更，不把政策讨论当作现有产品证明。",
+      "es": "La consulta del 21 de octubre estará abierta hasta el 13 de enero de 2027. Separe la especificación actual de cambios propuestos en materiales aislantes compuestos."
+    }
+  },
+  {
+    "kind": "industry",
     "slug": "eu-packaging-rules-insulated-bag-buyers",
     "publishedAt": "2026-10-10",
     "title": {
