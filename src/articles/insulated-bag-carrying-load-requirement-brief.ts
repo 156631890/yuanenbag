@@ -225,9 +225,9 @@ const article: EditorialArticle = {
     "file": "images/editorial/2026-10-25/empty-navy-carrier-separate-tray.webp",
     "kind": "illustration",
     "alt": {
-      "en": "An empty navy front-opening carrier with silver lining and a separate lidded aluminum tray",
-      "zh": "一个空的海军蓝前开式包，内衬为银色，旁边单独放着带盖铝餐盘",
-      "es": "Bolsa azul marino de apertura frontal vacía con interior plateado y una bandeja de aluminio con tapa aparte"
+      "en": "An empty navy front-opening carrier with silver lining and a separate empty aluminum tray",
+      "zh": "一个空的海军蓝前开式包，内衬为银色，旁边单独放着空铝餐盘",
+      "es": "Bolsa azul marino de apertura frontal vacía con interior plateado y una bandeja de aluminio vacía aparte"
     },
     "caption": {
       "en": "Empty carrier and separate tray prop. The image shows no load test, capacity rating or supplied-tray commitment.",
