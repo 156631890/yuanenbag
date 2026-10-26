@@ -331,6 +331,21 @@
   },
   {
     "kind": "industry",
+    "slug": "eurostat-2024-plastic-packaging-waste-data",
+    "publishedAt": "2026-10-26",
+    "title": {
+      "en": "Eurostat Publishes 2024 EU Plastic Packaging Waste Figures",
+      "zh": "Eurostat公布2024年欧盟塑料包装废弃量",
+      "es": "Eurostat publica las cifras de residuos de envases plásticos de la UE de 2024"
+    },
+    "description": {
+      "en": "Eurostat’s 22 October release reports 2024 plastic packaging waste and recycling figures. Keep the statistical scope separate from the materials and supply boundary of a quoted liner.",
+      "zh": "Eurostat于10月22日公布2024年塑料包装废弃物及回收数据；引用时应区分统计范围、材料类别与实际保温内衬的报价边界。",
+      "es": "Eurostat publica datos de residuos y reciclado de envases plásticos de 2024. Separe el alcance estadístico de materiales y componentes incluidos en una oferta de revestimiento."
+    }
+  },
+  {
+    "kind": "industry",
     "slug": "fda-traceability-meeting-insulated-packaging-records",
     "publishedAt": "2026-10-12",
     "title": {
