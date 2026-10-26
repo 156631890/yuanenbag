@@ -10120,5 +10120,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-26/pale-granules-materials-workbench.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/c56433d82ead-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/929d58e12f27-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/c99a0fc8b145-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/d4e7ae34b0b8-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/8d3446d0f268-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/2a41a53ab166-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/d461e6c8ebfa-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

@@ -60,6 +60,21 @@
     }
   },
   {
+    "kind": "industry",
+    "slug": "bio-based-europe-alliance-launch",
+    "publishedAt": "2026-10-26",
+    "title": {
+      "en": "Commission Launches Bio-Based Europe Alliance in Dublin",
+      "zh": "欧委会在都柏林启动生物基欧洲联盟",
+      "es": "La Comisión pone en marcha la Alianza Europea de Base Biológica en Dublín"
+    },
+    "description": {
+      "en": "The Commission reports the launch of a voluntary alliance linking European bio-based buyers and suppliers. For packaging enquiries, distinguish market interest from a confirmed commercial offer.",
+      "zh": "欧委会公告称，自愿性的生物基欧洲联盟于10月21日在都柏林启动。包装采购应区分需求交流、样品阶段与已确认的商业供货。",
+      "es": "La Comisión comunica el lanzamiento de una alianza voluntaria de compradores y proveedores biológicos. Distinga el interés de mercado de una oferta comercial confirmada."
+    }
+  },
+  {
     "kind": "guide",
     "slug": "catering-bag-front-opening-tray-fit",
     "publishedAt": "2026-10-12",
