@@ -87,6 +87,14 @@
       "es": "Caja blanca de espuma vacía con un revestimiento plateado de lámina de aluminio abierto y arrugado"
     }
   },
+  "coolant-disposal-instruction-product-match": {
+    "file": "images/editorial/2026-10-26/two-film-coolant-pouches-surface-view.webp",
+    "alt": {
+      "en": "Two white flexible-film pouches on a light grey surface, with a blue graphic visible on one",
+      "zh": "浅灰台面上的两只白色软膜袋，其中一只可见蓝色图案",
+      "es": "Dos bolsas blancas de película flexible sobre superficie gris clara, una con gráfico azul visible"
+    }
+  },
   "corona-cero-seven-bottle-packaging-case": {
     "file": "images/editorial/2026-10-22/plain-retail-carton-in-corrugated-outer.webp",
     "alt": {

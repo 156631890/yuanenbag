@@ -165,6 +165,21 @@
     }
   },
   {
+    "kind": "guide",
+    "slug": "coolant-disposal-instruction-product-match",
+    "publishedAt": "2026-10-26",
+    "title": {
+      "en": "Match Coolant Disposal Instructions to the Actual Product",
+      "zh": "冰袋的处理说明，要与实际配方和型号对应",
+      "es": "Vincule las instrucciones de eliminación al producto refrigerante real"
+    },
+    "description": {
+      "en": "Request product-matched coolant disposal and handling documents before purchase. Identify contents, film, instruction revision and the destination receiving party.",
+      "zh": "采购前索取与实际冰袋匹配的使用后处理资料，将内容物、袋膜、说明版本、地区与接收方对应；不套用其他厂家的凝胶处理方式。",
+      "es": "Solicite documentación de eliminación y manejo correspondiente al acumulador real, con contenido, película, revisión y receptor en destino."
+    }
+  },
+  {
     "kind": "industry",
     "slug": "corona-cero-seven-bottle-packaging-case",
     "publishedAt": "2026-10-22",
