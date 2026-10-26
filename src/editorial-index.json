@@ -825,6 +825,21 @@
     }
   },
   {
+    "kind": "guide",
+    "slug": "shipping-coolant-reuse-approval-record",
+    "publishedAt": "2026-10-26",
+    "title": {
+      "en": "Confirm Coolant Reuse Conditions Before Another Shipment",
+      "zh": "冰袋再次发货前，核对重复使用的适用条件",
+      "es": "Confirme las condiciones de reutilización antes de otro envío"
+    },
+    "description": {
+      "en": "For reusable ice packs for shipping, match supplier instructions, the exact pouch version and its use history before planning another shipment.",
+      "zh": "采购可重复运输使用的冰袋前，将厂家说明、实际袋体版本与使用历史对应；能再次冻结或外观未漏，不能代替适用依据。",
+      "es": "Para acumuladores reutilizables en envíos, relacione instrucciones, versión de bolsa e historial antes de planificar otro transporte."
+    }
+  },
+  {
     "kind": "industry",
     "slug": "sonoco-third-quarter-2026-packaging-costs",
     "publishedAt": "2026-10-24",
