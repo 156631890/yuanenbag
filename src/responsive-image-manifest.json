@@ -10086,5 +10086,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-26/flat-pouch-reverse-side-edge-strips.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/7411557feef0-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/d3547b21a624-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/a1ef37d30539-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/c9e0e2c98298-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/83082e80e583-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/314e4a045b82-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/7e261e5fdd5d-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

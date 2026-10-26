@@ -494,5 +494,13 @@
       "zh": "通用冷藏配送车辆停在装卸区，前景有成托纸箱",
       "es": "Camión frigorífico genérico en un muelle de carga con palés de cajas"
     }
+  },
+  "water-activated-pack-condensation-claim-check": {
+    "file": "images/editorial/2026-10-26/flat-pouch-reverse-side-edge-strips.webp",
+    "alt": {
+      "en": "A flat light-coloured rectangular pouch with two textured strips near its long side edges on a grey surface",
+      "zh": "灰色台面上的浅色长方形平袋，两条长侧边附近带纹理条带",
+      "es": "Bolsa plana rectangular clara sobre superficie gris con dos franjas texturadas junto a los lados largos"
+    }
   }
 }

@@ -928,5 +928,20 @@
       "zh": "USDA 公布了冷链设备资助计划，并非对包装的批准。采购冷冻食品包装时，应将资助资格与保温袋、冰源和路线测试分别核对。",
       "es": "El USDA anunció ayudas para equipos de cadena de frío, no una aprobación de embalajes. Verifique por separado la elegibilidad, la bolsa, el refrigerante y la ruta."
     }
+  },
+  {
+    "kind": "guide",
+    "slug": "water-activated-pack-condensation-claim-check",
+    "publishedAt": "2026-10-26",
+    "title": {
+      "en": "Specify Water Activation and Condensation Control Separately",
+      "zh": "把吸水准备与凝露控制分别写入冰袋要求",
+      "es": "Especifique por separado la activación con agua y el control de condensación"
+    },
+    "description": {
+      "en": "Separate a side-absorbing pack’s water-entry preparation from any condensation-control requirement. Ask for evidence tied to the actual material and loaded package.",
+      "zh": "侧吸水冰袋的进水准备，与吸收凝露属于不同需求。将准备后的尺寸、接触表面及所需功能依据分别记录，不凭名称推定防凝露。",
+      "es": "Separe la preparación por entrada de agua de cualquier control de condensación. Vincule medidas preparadas, superficies y pruebas al producto real."
+    }
   }
 ]
