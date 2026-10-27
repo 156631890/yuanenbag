@@ -5,7 +5,7 @@ const article: EditorialArticle = {
   "publishedAt": "2026-10-27",
   "title": {
     "en": "Confirm Printed Water-Fill Pack Quantities for Each Design",
-    "zh": "注水冰袋的印刷数量，要按每个设计分别确认",
+    "zh": "注水冰袋印刷数量，按设计分别确认",
     "es": "Confirme las cantidades de bolsas refrigerantes impresas por diseño"
   },
   "description": {
