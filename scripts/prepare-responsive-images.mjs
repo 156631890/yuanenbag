@@ -13,6 +13,7 @@ const sources = [...new Set([
   'images/editorial/2026-10-26/pale-granules-materials-workbench.webp',
   'images/editorial/2026-10-26/flat-pouch-reverse-side-edge-strips.webp',
   'images/editorial/2026-10-26/two-film-coolant-pouches-surface-view.webp',
+  'images/editorial/2026-10-27/white-coolant-pouches-shallow-tray.webp',
   'images/editorial/2026-10-27/plain-segmented-sheet-seal-grid.webp',
   'images/editorial/2026-10-27/plain-water-fill-pouch-reverse.webp',
   'images/editorial/2026-10-26/white-film-coolant-pouch-blue-print.webp',

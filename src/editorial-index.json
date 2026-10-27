@@ -240,6 +240,21 @@
     }
   },
   {
+    "kind": "guide",
+    "slug": "daily-shipment-coolant-preparation-capacity",
+    "publishedAt": "2026-10-27",
+    "title": {
+      "en": "Check Coolant Preparation Capacity Before Increasing Daily Shipments",
+      "zh": "日发货量增加前，先核对冰袋准备能力",
+      "es": "Revise la capacidad de preparación de refrigerantes antes de aumentar los envíos diarios"
+    },
+    "description": {
+      "en": "Compare coolant demand for each dispatch window with quantities confirmed ready under the actual pack instructions before planning higher shipment volumes.",
+      "zh": "增加发货量前，按出货窗口对比冰袋需求与按本款说明确认可用的数量，分清准备中、待复核和已分配批次。",
+      "es": "Compare la demanda de refrigerantes por ventana de despacho con las cantidades confirmadas listas según las instrucciones del producto antes de ampliar los envíos."
+    }
+  },
+  {
     "kind": "industry",
     "slug": "dart-lancaster-molded-fiber-capacity",
     "publishedAt": "2026-10-15",
