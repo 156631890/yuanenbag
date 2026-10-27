@@ -10222,5 +10222,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-27/plain-segmented-sheet-seal-grid.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/e3374e174059-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/bad15968c3ae-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/0c8e163795d9-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/064e492075bb-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/6a422bbad4b8-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/48d82c91481c-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/6141c62612b3-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

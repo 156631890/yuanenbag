@@ -481,6 +481,21 @@
   },
   {
     "kind": "guide",
+    "slug": "ice-sheet-order-unit-sheets-cells",
+    "publishedAt": "2026-10-27",
+    "title": {
+      "en": "Confirm Whether Ice-Sheet Quantities Count Sheets or Cells",
+      "zh": "多格冰片订货，确认按张还是按格",
+      "es": "Confirme si las cantidades de láminas refrigerantes cuentan láminas o celdas"
+    },
+    "description": {
+      "en": "Define the sheet, cell, inner-pack and carton quantities for segmented ice sheets, then match the quotation and receiving count to the approved specification.",
+      "zh": "明确多格冰片按张、格、内包及外箱的计量对应关系，让报价与收货数量都对应同一批准规格。",
+      "es": "Defina cantidades de láminas, celdas, paquetes interiores y cajas, y vincule cotización y recepción a la misma especificación aprobada."
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "icecream-tub-refrigerant-fit",
     "publishedAt": "2026-10-13",
     "title": {
