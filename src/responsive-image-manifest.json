@@ -10324,5 +10324,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-27/plain-metal-containers-workbench.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/3844e45afbdf-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/c8429c239b66-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/504b7229aa62-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/5d8b11601614-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/1bd724f654c4-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/dc37ee0afec0-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/48221eb6652e-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

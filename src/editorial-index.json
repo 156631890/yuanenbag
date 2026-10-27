@@ -931,6 +931,21 @@
   },
   {
     "kind": "industry",
+    "slug": "silgan-aip-trivium-proposed-packaging-combination",
+    "publishedAt": "2026-10-27",
+    "title": {
+      "en": "Silgan and AIP Propose a Packaging Combination with Trivium",
+      "zh": "Silgan与AIP公布Trivium包装业务拟议交易",
+      "es": "Silgan y AIP proponen una combinación de envases con Trivium"
+    },
+    "description": {
+      "en": "The 19 October proposal concerns metal containers and food-and-beverage closures. Trivium says the companies remain separate until closing; keep order and specification changes traceable.",
+      "zh": "10月19日拟议交易涉及金属容器及食品饮料封盖业务。Trivium说明交割前企业仍独立运营，采购应依据明确通知跟进订单主体与规格变更。",
+      "es": "La propuesta del 19 de octubre afecta a envases metálicos y cierres alimentarios. Trivium indica que siguen separados hasta el cierre; documente cambios de pedido y especificación."
+    }
+  },
+  {
+    "kind": "industry",
     "slug": "sonoco-third-quarter-2026-packaging-costs",
     "publishedAt": "2026-10-24",
     "title": {
