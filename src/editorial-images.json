@@ -518,5 +518,13 @@
       "zh": "灰色台面上的浅色长方形平袋，两条长侧边附近带纹理条带",
       "es": "Bolsa plana rectangular clara sobre superficie gris con dos franjas texturadas junto a los lados largos"
     }
+  },
+  "water-fill-coolant-order-quantity-per-design": {
+    "file": "images/editorial/2026-10-27/plain-water-fill-pouch-reverse.webp",
+    "alt": {
+      "en": "Plain white reverse of a flexible rectangular pouch on a light grey surface",
+      "zh": "浅灰表面上一只柔软长方薄膜袋的白色背面",
+      "es": "Reverso blanco liso de una bolsa rectangular flexible sobre una superficie gris clara"
+    }
   }
 }
