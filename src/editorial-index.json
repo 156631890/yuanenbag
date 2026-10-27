@@ -781,6 +781,21 @@
   },
   {
     "kind": "industry",
+    "slug": "proampac-shelf-protect-food-contact-film",
+    "publishedAt": "2026-10-27",
+    "title": {
+      "en": "ProAmpac Introduces Shelf Protect Food-Contact Films",
+      "zh": "ProAmpac推出Shelf Protect食品接触薄膜",
+      "es": "ProAmpac presenta las películas Shelf Protect para contacto alimentario"
+    },
+    "description": {
+      "en": "ProAmpac announced Shelf Protect on 19 October. Keep the food-contact film specification, application trial and outer insulated packout as separate purchasing decisions.",
+      "zh": "ProAmpac于10月19日发布Shelf Protect。采购应分别确认食品接触薄膜规格、应用试验与外部保温装箱方案，不能以材料发布代替完整包装验证。",
+      "es": "ProAmpac anunció Shelf Protect el 19 de octubre. Distinga la especificación de la película, el ensayo de aplicación y la configuración del embalaje aislante exterior."
+    }
+  },
+  {
+    "kind": "industry",
     "slug": "proampac-sial-food-packaging-preview",
     "publishedAt": "2026-10-14",
     "title": {
