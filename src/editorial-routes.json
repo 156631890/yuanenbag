@@ -505,6 +505,15 @@
   },
   {
     "kind": "industry",
+    "slug": "placon-homefresh-round-deli-lid-fit-relaunch",
+    "title": {
+      "en": "Placon Relaunches HomeFresh Round Deli",
+      "zh": "Placon重推HomeFresh餐盒",
+      "es": "Placon relanza HomeFresh Round Deli"
+    }
+  },
+  {
+    "kind": "industry",
     "slug": "proampac-shelf-protect-food-contact-film",
     "title": {
       "en": "ProAmpac Introduces Shelf Protect Food-Contact Films",

@@ -841,6 +841,21 @@
   },
   {
     "kind": "industry",
+    "slug": "placon-homefresh-round-deli-lid-fit-relaunch",
+    "publishedAt": "2026-10-28",
+    "title": {
+      "en": "Placon Relaunches HomeFresh Round Deli",
+      "zh": "Placon重推HomeFresh餐盒",
+      "es": "Placon relanza HomeFresh Round Deli"
+    },
+    "description": {
+      "en": "Keep the matched lid/base revision identifiable before assessing an external insulated liner. A range update does not establish old/new lid interchangeability.",
+      "zh": "评估外部保温内衬前，保留盖底配套版本；系列更新不代表新旧盒盖可以通用。",
+      "es": "Identifique la revisión de tapa y base antes de evaluar un revestimiento aislante exterior. Una actualización no demuestra compatibilidad entre tapas antiguas y nuevas."
+    }
+  },
+  {
+    "kind": "industry",
     "slug": "proampac-shelf-protect-food-contact-film",
     "publishedAt": "2026-10-27",
     "title": {

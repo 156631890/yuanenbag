@@ -10494,5 +10494,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-28/round-deli-containers-preparation-counter.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/a4f13f55a4c7-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/9a4502efd086-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/fd74f9e16e36-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/ce0ef757fdb4-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/7feb4dac6046-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/83cc44532a75-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/811d3bcdd591-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }
