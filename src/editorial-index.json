@@ -736,6 +736,21 @@
   },
   {
     "kind": "guide",
+    "slug": "nonwoven-basis-weight-thickness-bag-mass",
+    "publishedAt": "2026-10-28",
+    "title": {
+      "en": "Separate Nonwoven Basis Weight, Thickness and Bag Mass",
+      "zh": "区分无纺布克重、厚度与整袋重量",
+      "es": "Distinga el gramaje del no tejido, el espesor y la masa de la bolsa"
+    },
+    "description": {
+      "en": "Compare nonwoven cooler quotations by identifying each measured layer, unit and sample revision. Basis weight, thickness and finished-bag mass answer different purchasing questions.",
+      "zh": "比较无纺布保温包报价时，应明确每项数值对应的层、单位和样品版本；克重、厚度与成品袋重量回答的是不同采购问题。",
+      "es": "Compare ofertas de bolsas térmicas identificando capa medida, unidad y versión de muestra. Gramaje, espesor y masa de la bolsa responden a preguntas distintas."
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "packout-temperature-sensor-position-record",
     "publishedAt": "2026-10-19",
     "title": {

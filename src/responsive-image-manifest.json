@@ -10358,5 +10358,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-28/navy-catering-bag-material-swatch.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/c91ff04c4636-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/05c16d6dc78f-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/15d71156781d-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/5f1ef5a10747-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/78f8af707d8b-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/7098756154f6-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/c6caad7f7169-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }
