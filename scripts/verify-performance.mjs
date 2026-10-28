@@ -9,6 +9,8 @@ const imageCandidates = Object.values(imageManifest).flatMap(image=>image.varian
 const entry = await readFile(`dist/${manifest['index.html'].file}`, 'utf8')
 const editorialIndex = JSON.parse(await readFile('src/editorial-index.json', 'utf8'))
 const editorialImages = JSON.parse(await readFile('src/editorial-images.json', 'utf8'))
+const editorialRoutes = JSON.parse(await readFile('src/editorial-routes.json', 'utf8'))
+assert.deepEqual(editorialRoutes, editorialIndex.map(({ kind, slug, title }) => ({ kind, slug, title })), 'Editorial route index is stale.')
 const globalCardImageModule = manifest['src/editorial-images.json']
 assert(globalCardImageModule?.isDynamicEntry, 'Global card image index must remain an on-demand fallback.')
 assert.equal(editorialIndex.length, seoAudit.editorialArticles.length, 'Editorial metadata index is stale.')
@@ -20,6 +22,7 @@ for (const article of seoAudit.editorialArticles) {
   assert(!entry.includes(image.file), `Card images must remain in the editorial page module: ${slug}`)
   assert(manifest[`src/articles/${slug}.ts`]?.isDynamicEntry, `Article body must have its own dynamic module: ${slug}`)
   assert(!entry.includes(article.sections[0].paragraphs[0].en), `Article body leaked into the initial script: ${slug}`)
+  assert(!entry.includes(article.description.en), `Editorial descriptions leaked into the initial script: ${slug}`)
 }
 for (const file of imageCandidates) {
   assert(!entry.includes(file), 'The initial script must reuse page image attributes instead of embedding the global image manifest.')

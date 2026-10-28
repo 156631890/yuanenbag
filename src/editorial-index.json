@@ -301,6 +301,21 @@
   },
   {
     "kind": "guide",
+    "slug": "delivery-cooler-external-rain-exposure-brief",
+    "publishedAt": "2026-10-28",
+    "title": {
+      "en": "Define External Rain Exposure for Delivery Coolers",
+      "zh": "配送保温包外部雨水暴露要求",
+      "es": "Defina la exposición exterior a la lluvia para las bolsas térmicas"
+    },
+    "description": {
+      "en": "Write a rain-exposure brief for the complete delivery cooler: shelter, closure, orientation and surfaces exposed. Confirm evidence for the actual sample rather than infer waterproofing from a material or zipper name.",
+      "zh": "为整只配送保温包明确遮挡、闭合状态、放置朝向及外部受水区域，并核对实际样品证据；不从面料或拉链名称推定防水。",
+      "es": "Defina resguardo, cierre, orientación y superficies expuestas de la bolsa completa. Confirme evidencia de la muestra real sin deducir impermeabilidad del material o la cremallera."
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "design-sample-production-acceptance-scope",
     "publishedAt": "2026-10-23",
     "title": {

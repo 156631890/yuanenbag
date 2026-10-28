@@ -20,7 +20,7 @@ export function render(path = '/', indexable = false) {
   const { lang, page } = resolveRoute(path)
   const url = absolute(href(page.path, lang))
   const organization = { '@type':'Organization', '@id':`${brand.site}/#organization`, name:brand.name, legalName:brand.chineseName, url:brand.site, logo:{'@type':'ImageObject',url:absolute(href('/','en')+brand.logo.file),width:brand.logo.width,height:brand.logo.height}, telephone:brand.phones[0], address:{'@type':'PostalAddress',addressLocality:'Longgang, Wenzhou',addressRegion:'Zhejiang',addressCountry:'CN'}, ...(brand.email ? {email:brand.email} : {}) }
-  const graph: Record<string, unknown>[] = [organization, {'@type':'WebSite','@id':`${brand.site}/#website`,url:brand.site,name:brand.name,publisher:{'@id':organization['@id']},inLanguage:languages.map(language=>locales[language].tag)}, {'@type':'WebPage','@id':`${url}#webpage`,url,name:page.title[lang],description:page.description[lang],inLanguage:locales[lang].tag,isPartOf:{'@id':`${brand.site}/#website`}}]
+  const graph: Record<string, unknown>[] = [organization, {'@type':'WebSite','@id':`${brand.site}/#website`,url:brand.site,name:brand.name,publisher:{'@id':organization['@id']},inLanguage:languages.map(language=>locales[language].tag)}, {'@type':'WebPage','@id':`${url}#webpage`,url,name:page.title[lang],description:page.description![lang],inLanguage:locales[lang].tag,isPartOf:{'@id':`${brand.site}/#website`}}]
   if (page.type !== 'home' && page.type !== '404') {
     const crumbs = [{name:tx('Home','首页')[lang],item:absolute(href('/',lang))}]
     if (page.type === 'bag' || page.type === 'collection') crumbs.push({name:tx('Products','产品中心')[lang],item:absolute(href('/products/',lang))})
@@ -42,7 +42,7 @@ export function render(path = '/', indexable = false) {
     const questions = bag ? [{q:bag.question,a:bag.answer},productEnquiryFAQ(bag.slug)||faq[2],commercialFAQ(bag.slug)||faq[3]] : faq
     graph.push({'@type':'FAQPage',mainEntity:questions.map(item=>({'@type':'Question',name:item.q[lang],acceptedAnswer:{'@type':'Answer',text:item.a[lang]}}))})
   }
-  if (page.type === 'guide') graph.push({'@type':'Article',headline:page.title[lang].split(' | ')[0],description:page.description[lang],inLanguage:locales[lang].tag,dateModified:guides.find(guide=>guide.slug===page.slug)!.dateModified,author:{'@id':organization['@id']},publisher:{'@id':organization['@id']},mainEntityOfPage:{'@id':`${url}#webpage`}})
+  if (page.type === 'guide') graph.push({'@type':'Article',headline:page.title[lang].split(' | ')[0],description:page.description![lang],inLanguage:locales[lang].tag,dateModified:guides.find(guide=>guide.slug===page.slug)!.dateModified,author:{'@id':organization['@id']},publisher:{'@id':organization['@id']},mainEntityOfPage:{'@id':`${url}#webpage`}})
   const editorialArticle = page.type === 'editorialArticle' ? editorialArticles.find(article => article.slug === page.slug)! : undefined
   if (editorialArticle) graph.push({'@type':'Article',headline:editorialArticle.title[lang],description:editorialArticle.description[lang],inLanguage:locales[lang].tag,datePublished:editorialArticle.publishedAt,dateModified:editorialArticle.updatedAt || editorialArticle.publishedAt,author:{'@id':organization['@id']},publisher:{'@id':organization['@id']},mainEntityOfPage:{'@id':`${url}#webpage`},...(editorialArticle.image ? {image:absolute(href('/', 'en')+editorialArticle.image.file)} : {})})
   if (page.type === 'industryArchive' || page.type === 'guideArchive') {
@@ -62,11 +62,11 @@ export function render(path = '/', indexable = false) {
   }
   const head = [
     `<title>${escape(page.title[lang])}</title>`,
-    `<meta name="description" content="${escape(page.description[lang])}" />`,
+    `<meta name="description" content="${escape(page.description![lang])}" />`,
     `<meta name="robots" content="${indexable && page.type !== '404' ? 'index, follow' : 'noindex, follow'}" />`,
     ...(page.type === '404' ? [] : [`<link rel="canonical" href="${escape(url)}" />`, ...languages.map(language=>`<link rel="alternate" hreflang="${locales[language].tag}" href="${escape(absolute(href(page.path,language)))}" />`), `<link rel="alternate" hreflang="x-default" href="${escape(absolute(href(page.path,'en')))}" />`]),
     `<meta property="og:title" content="${escape(page.title[lang])}" />`,
-    `<meta property="og:description" content="${escape(page.description[lang])}" />`,
+    `<meta property="og:description" content="${escape(page.description![lang])}" />`,
     `<meta property="og:url" content="${escape(url)}" />`,
     `<meta property="og:type" content="${page.type==='guide'||page.type==='editorialArticle'?'article':'website'}" />`,
     `<meta property="og:locale" content="${locales[lang].og}" />`,

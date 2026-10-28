@@ -1,7 +1,7 @@
 import { ArrowUpRight } from 'lucide-react'
 import { bags, tx, type Lang } from './data'
 import type { EditorialArticle } from './editorial'
-import { archivePath } from './editorial-index'
+import { archivePath } from './editorial-route-data'
 import { responsiveImage } from './responsive-images'
 import { href } from './routes'
 import { labels, dateLabel, Breadcrumbs } from './EditorialLayout'

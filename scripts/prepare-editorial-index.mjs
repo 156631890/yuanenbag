@@ -14,4 +14,6 @@ for (const file of (await readdir(directory)).filter(file => file.endsWith('.ts'
 }
 await writeFile(new URL('../src/editorial-index.json', import.meta.url), JSON.stringify(articles, null, 2) + '\n')
 await writeFile(new URL('../src/editorial-images.json', import.meta.url), JSON.stringify(images, null, 2) + '\n')
+// The browser router needs kind, slug and titles, not every card description.
+await writeFile(new URL('../src/editorial-routes.json', import.meta.url), JSON.stringify(articles.map(({ kind, slug, title }) => ({ kind, slug, title })), null, 2) + '\n')
 console.log(`Prepared metadata for ${articles.length} editorial articles.`)
