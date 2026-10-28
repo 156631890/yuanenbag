@@ -1,7 +1,8 @@
 import { ArrowUpRight } from 'lucide-react'
 import { tx, type Lang } from './data'
 import { GuideCards } from './BuyerResources'
-import { archivePageCount, archivePath, articlePath, articlesOnPage, industryArticles, type EditorialSummary } from './editorial-index'
+import { archivePageCount, archivePath, articlePath, articlesOnPage, type EditorialSummary } from './editorial-index'
+import { industryArticles } from './editorial-route-data'
 import type { EditorialArticle } from './editorial'
 import { responsiveImage } from './responsive-images'
 import { href } from './routes'
@@ -16,7 +17,7 @@ const cardImages: Record<string, Pick<EditorialArticle['image'], 'file' | 'alt'>
   : (await import('./editorial-images.json')).default
 
 function ArticleCards({ lang, articles }: { lang: Lang; articles: EditorialSummary[] }) {
-  return <div className="editorial-grid">{articles.map(article => <a className="editorial-card" href={href(articlePath(article), lang)} key={article.slug}>
+  return <div className="editorial-grid">{articles.map(article => <a data-editorial-card={article.slug} data-editorial-kind={article.kind} className="editorial-card" href={href(articlePath(article), lang)} key={article.slug}>
     <img data-editorial-slug={article.slug} data-editorial-file={cardImages[article.slug].file} className="editorial-card-image" src={`${import.meta.env.BASE_URL}${cardImages[article.slug].file}`} alt={cardImages[article.slug].alt[lang]} {...responsiveImage(cardImages[article.slug].file, '(max-width:650px) calc(100vw - 80px), (max-width:1150px) 40vw, 480px')} loading="lazy" />
     <span className="eyebrow">{labels[article.kind][lang]} · <time dateTime={article.publishedAt}>{dateLabel(article.publishedAt, lang)}</time></span>
     <h3>{article.title[lang]}</h3>

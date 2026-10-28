@@ -10460,5 +10460,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-28/empty-rectangular-takeaway-container-worktable.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/2c4d3072f38c-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/8271eddd9cbb-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/30d14f23ccb3-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/5baa247adb50-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/b809cde357ab-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/2727d490358d-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/33bbbf049130-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

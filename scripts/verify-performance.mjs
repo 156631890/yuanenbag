@@ -11,6 +11,8 @@ const editorialIndex = JSON.parse(await readFile('src/editorial-index.json', 'ut
 const editorialImages = JSON.parse(await readFile('src/editorial-images.json', 'utf8'))
 const editorialRoutes = JSON.parse(await readFile('src/editorial-routes.json', 'utf8'))
 assert.deepEqual(editorialRoutes, editorialIndex.map(({ kind, slug, title }) => ({ kind, slug, title })), 'Editorial route index is stale.')
+const globalMetadataModule = manifest['src/editorial-index.json']
+assert(globalMetadataModule?.isDynamicEntry, 'Global archive metadata must remain an on-demand fallback.')
 const globalCardImageModule = manifest['src/editorial-images.json']
 assert(globalCardImageModule?.isDynamicEntry, 'Global card image index must remain an on-demand fallback.')
 assert.equal(editorialIndex.length, seoAudit.editorialArticles.length, 'Editorial metadata index is stale.')
@@ -41,6 +43,7 @@ for (const path of [...paths,...notFoundPaths]) {
     ...[...html.matchAll(/<link\b[^>]*rel="modulepreload"[^>]*href="([^"]+\.js)"/g)].map(match=>match[1]),
   ])
   assert(![...initialScripts].some(source => source.endsWith(`/${globalCardImageModule.file}`)), `Global card image index preloaded unnecessarily: ${path}`)
+  assert(![...initialScripts].some(source => source.endsWith(`/${globalMetadataModule.file}`)), `Global archive metadata preloaded unnecessarily: ${path}`)
   let bytes = 0, gzipBytes = 0
   for (const source of initialScripts) {
     assert(source.startsWith('/') && source.includes('/assets/'), `Unexpected script URL: ${source}`)

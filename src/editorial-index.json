@@ -556,6 +556,21 @@
   },
   {
     "kind": "industry",
+    "slug": "inline-plastics-safe-t-chef-24-ounce-lid-options",
+    "publishedAt": "2026-10-28",
+    "title": {
+      "en": "Inline Plastics Adds Two Safe-T-Chef Container Options",
+      "zh": "Inline Plastics新增两款Safe-T-Chef餐盒",
+      "es": "Inline Plastics amplía Safe-T-Chef con dos opciones de envase"
+    },
+    "description": {
+      "en": "Compare the closed height of each proposed primary pack before assessing a front-opening catering bag. Keep the supplier sample and lid choice identifiable.",
+      "zh": "评估前开式餐盘包前，分别核对拟用盒盖的闭合总高度，并保留可识别的供应方样品与盖型记录。",
+      "es": "Compare la altura cerrada de cada envase antes de evaluar una bolsa de catering frontal. Identifique la muestra del proveedor y la tapa elegida."
+    }
+  },
+  {
+    "kind": "industry",
     "slug": "innovia-propafilm-chbm-barrier-film",
     "publishedAt": "2026-10-21",
     "title": {
