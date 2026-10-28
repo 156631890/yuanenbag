@@ -20,6 +20,7 @@ export const ReferenceNote = lazy(() => import('./ReferenceNote'))
 export const BeverageDetails = lazy(() => import('./BeverageDetails'))
 
 export const IceCreamDetails = lazy(() => import('./IceCreamDetails'))
+export const PaperDeliveryDetails = lazy(() => import('./PaperDeliveryDetails'))
 export const HomeHero = lazy(() => import('./HomeHero'))
 export const CollectionShowcase = lazy(() => import('./CollectionShowcase'))
 export const Quality = lazy(() => import('./Quality'))

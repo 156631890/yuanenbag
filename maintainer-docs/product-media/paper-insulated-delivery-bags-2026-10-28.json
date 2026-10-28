@@ -1,0 +1,80 @@
+{
+  "product_slug": "paper-insulated-delivery-bags",
+  "created_date": "2026-10-28",
+  "status": "draft_awaiting_user_publication_approval",
+  "keyword_candidate": "NP12 paper insulated delivery bags",
+  "source_basis": {
+    "company_capability": "User stated on 2026-10-28 that products related to their keywords can be made; no finished sample or performance data was supplied.",
+    "company_photo_refs": [
+      "images/products/standardized/photos-2026-09/foil-box-liner-insert.webp",
+      "images/products/standardized/packy/self-seal-non-woven-delivery-bags-new/delivery-main.webp"
+    ],
+    "external_market_refs": [
+      "https://www.initigift.com/kraft-paper-insulated-lunch-bag",
+      "https://ipcpack.com/products/paper-insulated-delivery-bag/",
+      "https://zgbagglobal.com/products/insulated-cooler-bags/custom-waterproof-kraft-paper-cooler-bag/"
+    ]
+  },
+  "generation_brief": "Photorealistic neutral studio product photography on #F6F6F4, one consistent unbranded natural kraft paper exterior carrier, broad rectangular flat base, pleated side gussets, two short folded flat paper handles, silver reflective foil-facing interior, open top, no zipper or adhesive seal. Show actual construction views and restrained closed-container props with safe margins. No text, logos, certifications or implied measurements.",
+  "files": [
+    {
+      "file": "images/products/standardized/paper-insulated-delivery-bags/01.webp",
+      "sha256": "8873ab338806a111d7ae1820694b9d72fa82127ec2ce2746510181d90c38a27b",
+      "source_png": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-48895ccb-cc44-429c-b1f3-ac2d91106df4.png",
+      "scene_prompt_summary": "Three-quarter hero, open kraft paper carrier, foil-facing inside, flat folded paper handles and wide flat base",
+      "tool": "OpenAI image_gen",
+      "identity_reference": null
+    },
+    {
+      "file": "images/products/standardized/paper-insulated-delivery-bags/02.webp",
+      "sha256": "384c4e7cad1efd245990c3c7fc7c88abc74742893064d0267dca344ac139d88d",
+      "source_png": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-89f0d77f-973b-4600-821e-e906e1d61568.png",
+      "scene_prompt_summary": "Top-down open empty interior and flat base",
+      "tool": "OpenAI image_gen",
+      "identity_reference": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-48895ccb-cc44-429c-b1f3-ac2d91106df4.png"
+    },
+    {
+      "file": "images/products/standardized/paper-insulated-delivery-bags/03.webp",
+      "sha256": "b9b6f36376bb141750c863773bc99cfee3b0170d6811f0be418fb7783ebcbced",
+      "source_png": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-e89ea66f-e1c3-47a9-b4a1-d929231053b5.png",
+      "scene_prompt_summary": "Closed takeaway carton loading with open mouth and visible reflective lining",
+      "tool": "OpenAI image_gen",
+      "identity_reference": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-48895ccb-cc44-429c-b1f3-ac2d91106df4.png"
+    },
+    {
+      "file": "images/products/standardized/paper-insulated-delivery-bags/04.webp",
+      "sha256": "a3cfeaeb498456c0962d3783928fa3b7e74aab100b063b9f05621d1504e2025b",
+      "source_png": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-aacad3fe-3c7f-4d74-9a27-478d41c7f22a.png",
+      "scene_prompt_summary": "Macro of paper handle attachment and silver lining edge",
+      "tool": "OpenAI image_gen",
+      "identity_reference": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-48895ccb-cc44-429c-b1f3-ac2d91106df4.png"
+    },
+    {
+      "file": "images/products/standardized/paper-insulated-delivery-bags/05.webp",
+      "sha256": "9780f821696010ebf06c114a33e84f2802ed2207d3dd33cb8bf0a3a981a22cc8",
+      "source_png": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-92389034-77d4-4664-8b42-29d8e72fa83d.png",
+      "scene_prompt_summary": "Pleated side gusset and flat bottom construction",
+      "tool": "OpenAI image_gen",
+      "identity_reference": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-48895ccb-cc44-429c-b1f3-ac2d91106df4.png"
+    },
+    {
+      "file": "images/products/standardized/paper-insulated-delivery-bags/06.webp",
+      "sha256": "12aedf49a441e49f83de94de83cf95a994b73d99cdc44e1a12543168186f903f",
+      "source_png": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-c0c7263f-9ed4-49b1-ab3c-f0b93799d107.png",
+      "scene_prompt_summary": "Hand carry of modest loaded carton, local delivery context",
+      "tool": "OpenAI image_gen",
+      "identity_reference": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-48895ccb-cc44-429c-b1f3-ac2d91106df4.png"
+    },
+    {
+      "file": "images/products/standardized/paper-insulated-delivery-bags/07.webp",
+      "sha256": "3ef51dd00f21c19376727f840495637712fbd0e4491f05f8e7e54ab1feef1f46",
+      "source_png": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-8204f60f-f38b-4150-80ed-b22c9e1da389.png",
+      "scene_prompt_summary": "Folded storage form of the same bag",
+      "tool": "OpenAI image_gen",
+      "identity_reference": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-48895ccb-cc44-429c-b1f3-ac2d91106df4.png"
+    }
+  ],
+  "rejected_variant": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-42ff9c18-31ad-4bef-9d99-d9a3dd569fbc.png (redundant rear view; unused)",
+  "usage_rights": "OpenAI-generated for this user workspace; usage is subject to the applicable OpenAI terms. External market references were consulted as research, not copied into the output.",
+  "usage_boundary": "Design visualizations only. Not original YUANEN sample photographs and not evidence of manufactured stock, tested performance, material certification, waterproofing, food-contact suitability, load rating or recyclability. Verify final structure with physical sample and written specification before claims."
+}

@@ -35,7 +35,7 @@ const addedGalleryCounts={'square-zipper-cake-cooler':6,'water-fill-ice-packs':5
 const photoProducts=catalogAudit.bags.filter(b=>b.collection==='yuanen-photos-2026')
 assert.equal(catalogAudit.bags.filter(b=>b.collection==='yuanen-2026').length,25,'Retain the cold-chain catalog, cooler variants and restored upright dessert tote')
 assert.deepEqual(photoProducts.map(b=>b.slug).sort(),['compact-insulated-lunch-bags','double-film-self-absorbing-ice-packs','foil-insulated-box-liners','gold-trim-insulated-cake-bags','gusseted-self-seal-foil-bags','side-absorbing-ice-packs'])
-assert.deepEqual(catalogAudit.bags.filter(b=>b.collection==='custom-designs-2026').map(b=>b.slug),['insulated-pizza-delivery-bags','insulated-catering-bags','insulated-meal-prep-bags','insulated-beverage-delivery-bags','insulated-ice-cream-delivery-bags'],'Only the five authorized custom designs may publish')
+assert.deepEqual(catalogAudit.bags.filter(b=>b.collection==='custom-designs-2026').map(b=>b.slug),['paper-insulated-delivery-bags','insulated-pizza-delivery-bags','insulated-catering-bags','insulated-meal-prep-bags','insulated-beverage-delivery-bags','insulated-ice-cream-delivery-bags'],'Only the reviewed custom designs may appear')
 assert(catalogAudit.bags.every(b=>['yuanen-2026','yuanen-photos-2026','custom-designs-2026'].includes(b.collection)),'Unselected category published')
 assert.equal(photoImport.files.filter(f=>f.selected).length,20,'Expected curated sample photographs')
 assert.equal(icePhotoImport.files.filter(f=>f.selected).length,14,'Expected curated ice-pack photographs')
@@ -68,7 +68,7 @@ for (const bag of catalogAudit.bags) {
     if(bag.collection==='yuanen-2026') assert(bag.catalogPage>=6 && bag.catalogPage<=10,`Missing catalog source: ${bag.slug}`)
     else if(bag.collection==='yuanen-photos-2026') for(const file of [bag.image,...bag.gallery]) assert(photoSources.some(f=>f.selected&&f.output===file),`Missing original photo provenance: ${file}`)
     assert(!bag.source,`Own catalog product cannot carry third-party reference attribution: ${bag.slug}`)
-    for (const file of [bag.image,...bag.gallery]) await access(join(root,'images/products',bag.collection==='custom-designs-2026'?standardizedImages[file]:file))
+    for (const file of [bag.image,...bag.gallery]) await access(join(root,'images/products',bag.collection==='custom-designs-2026'?(standardizedImages[file]||file):file))
   }
   assert(catalogAudit.materialCategories.some(([id])=>id===bag.category),`Invalid category ${bag.slug}`)
   for (const [field,options] of [['styles',catalogAudit.styleOptions],['uses',catalogAudit.usageOptions]]) for (const value of bag[field]) assert(options.some(([id])=>id===value),`Invalid ${field} ${value}`)
@@ -107,7 +107,12 @@ for (const file of files) {
     const pageSchema = graph.find(item=>item['@type']==='WebPage')
     assert(pageSchema && Array.isArray(pageSchema.image),`Missing WebPage gallery schema: ${relative}`)
     if(ownProduct.collection==='custom-designs-2026') {
-      if(ownProduct.slug==='insulated-catering-bags'){
+      if(ownProduct.slug==='paper-insulated-delivery-bags'){
+        assert.deepEqual(pageSchema.image.map(url=>new URL(url).pathname),Array.from({length:7},(_,i)=>`/images/products/standardized/paper-insulated-delivery-bags/${String(i+1).padStart(2,'0')}.webp`),'Paper delivery gallery and order')
+        for(const id of ['applications','materials','features','order-quantities','pricing','delivery','dimensions','export','paper-packout','paper-questions','paper-quote']) assert(html.includes('id="'+id+'"'),'Missing paper delivery section '+id)
+        assert(html.includes('?bag=paper-insulated-delivery-bags'),'Paper delivery enquiry required')
+        assert(/sample|样品|muestra/.test(html),'Keep sample confirmation guidance')
+      }else if(ownProduct.slug==='insulated-catering-bags'){
         const views=["front-loading","catering-application","closed-exterior","tray-access","zipper-lining","side-carry","empty-interior"]
         assert.deepEqual(pageSchema.image.map(url=>new URL(url).pathname),views.map((_,i)=>'/images/products/standardized/insulated-catering-bags/material-corrected-20261012-'+String(i+1).padStart(2,'0')+'.webp'),'Approved catering gallery and order')
         for(const id of ['applications','materials','features','order-quantities','pricing','delivery','dimensions','export','catering-tray-fit','catering-questions']) assert(html.includes('id="'+id+'"'),'Missing catering section '+id)
@@ -295,7 +300,7 @@ for (const file of files) {
     for (const image of pageSchema.image) {
       const imagePath=new URL(image).pathname
       const original=sourceImagePath(image).replace('/images/products/','')
-      assert.equal(imagePath,`/images/products/${standardizedImages[original]}`,`Unstandardized or mismatched schema image: ${relative}`)
+      assert.equal(imagePath,`/images/products/${standardizedImages[original]||`standardized/${original}`}`,`Unstandardized or mismatched schema image: ${relative}`)
       await access(join(root,imagePath))
       assert(html.includes(imagePath),`Schema image absent from visible gallery: ${relative}`)
     }

@@ -10528,5 +10528,243 @@
         "width": 1200
       }
     ]
+  },
+  "images/products/standardized/paper-insulated-delivery-bags/01.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/9df256da69f7-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/d0e6f29c5a27-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/3ac7b721efb8-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/ff65053fea73-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/f8a507d605f3-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/ceae7b23d6ac-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/82b947bb50f4-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/paper-insulated-delivery-bags/02.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/24c167b24790-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/e5fda16abd5c-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/b0c20017c1e8-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/a0360c7271fe-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/ad31a8b5fd96-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/efe2c0b1a288-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/438580ebc964-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/paper-insulated-delivery-bags/03.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/f95f916c1ce4-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/1ba16c4a8224-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/a732b6adaaae-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/7049b0d58cec-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/db4559f2a049-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/616eb8907c7b-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/f70fc9077e41-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/paper-insulated-delivery-bags/04.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/bbe94d36f2df-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/aa8d65f82f92-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/7ee810e43cfb-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/eb96871f4c03-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/eeaef8fc5d16-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/50544f6f80cf-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/ca93d05c1c09-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/paper-insulated-delivery-bags/05.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/e299fd1b56e6-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/7a4b74221660-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/05a0f23188e8-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/8d8a24e6e3d9-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/4ef2bc0b2c57-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/3d08dc7139b4-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/d0d35162216f-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/paper-insulated-delivery-bags/06.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/2e8212ce6495-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/d8c291794fb0-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/9d6c7eac14f9-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/120ec90a6bd6-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/2f142fc9c63c-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/f7e26184389b-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/fa2fbf490272-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/paper-insulated-delivery-bags/07.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/fa479a195597-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/7e66c6a875a5-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/31e2f2abf1fd-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/97a12b6e2957-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/4aa990b04b7f-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/f6488757fdd3-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/c50d6a7406e9-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

@@ -116,6 +116,7 @@ const sources = [...new Set([
   'images/editorial/2026-10-14/lidded-meal-trays-roller-conveyor.webp',
   ...Object.values(crops).map(crop => crop.file),
   ...Object.values(standardized).map(file => `images/products/${file}`),
+  ...Array.from({ length: 7 }, (_, i) => `images/products/standardized/paper-insulated-delivery-bags/${String(i + 1).padStart(2, '0')}.webp`),
 ].map(source => standardized[source.replace(/^images\/products\//, '')] ? `images/products/${standardized[source.replace(/^images\/products\//, '')]}` : source))]
 const manifest = {}
 await mkdir('public/images/responsive', { recursive: true })

@@ -17,6 +17,7 @@ export {default as ReferenceNote} from './ReferenceNote'
 export {default as BeverageDetails} from './BeverageDetails'
 
 export {default as IceCreamDetails} from './IceCreamDetails'
+export {default as PaperDeliveryDetails} from './PaperDeliveryDetails'
 export {default as HomeHero} from './HomeHero'
 export {default as CollectionShowcase} from './CollectionShowcase'
 export {default as Quality} from './Quality'
