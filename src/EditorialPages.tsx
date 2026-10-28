@@ -3,16 +3,21 @@ import { tx, type Lang } from './data'
 import { GuideCards } from './BuyerResources'
 import { archivePageCount, archivePath, articlePath, articlesOnPage, industryArticles, type EditorialSummary } from './editorial-index'
 import type { EditorialArticle } from './editorial'
-import imageIndex from './editorial-images.json'
 import { responsiveImage } from './responsive-images'
 import { href } from './routes'
 
 import { labels, dateLabel, Breadcrumbs } from './EditorialLayout'
-const cardImages: Record<string, Pick<EditorialArticle['image'], 'file' | 'alt'>> = imageIndex
+// Prerender all card images for no-JavaScript use. Hydration reuses that page's
+// image attributes instead of downloading every article's trilingual image index.
+// An empty client-only/dev root loads the full index as an on-demand fallback.
+const renderedCardImages = import.meta.env.SSR ? [] : [...document.querySelectorAll<HTMLImageElement>('img[data-editorial-slug][data-editorial-file]')]
+const cardImages: Record<string, Pick<EditorialArticle['image'], 'file' | 'alt'>> = renderedCardImages.length
+  ? Object.fromEntries(renderedCardImages.map(image => [image.dataset.editorialSlug!, { file: image.dataset.editorialFile!, alt: { en: image.alt, zh: image.alt, es: image.alt } }]))
+  : (await import('./editorial-images.json')).default
 
 function ArticleCards({ lang, articles }: { lang: Lang; articles: EditorialSummary[] }) {
   return <div className="editorial-grid">{articles.map(article => <a className="editorial-card" href={href(articlePath(article), lang)} key={article.slug}>
-    <img className="editorial-card-image" src={`${import.meta.env.BASE_URL}${cardImages[article.slug].file}`} alt={cardImages[article.slug].alt[lang]} {...responsiveImage(cardImages[article.slug].file, '(max-width:650px) calc(100vw - 80px), (max-width:1150px) 40vw, 480px')} loading="lazy" />
+    <img data-editorial-slug={article.slug} data-editorial-file={cardImages[article.slug].file} className="editorial-card-image" src={`${import.meta.env.BASE_URL}${cardImages[article.slug].file}`} alt={cardImages[article.slug].alt[lang]} {...responsiveImage(cardImages[article.slug].file, '(max-width:650px) calc(100vw - 80px), (max-width:1150px) 40vw, 480px')} loading="lazy" />
     <span className="eyebrow">{labels[article.kind][lang]} · <time dateTime={article.publishedAt}>{dateLabel(article.publishedAt, lang)}</time></span>
     <h3>{article.title[lang]}</h3>
     <p>{article.description[lang]}</p>

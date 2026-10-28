@@ -10392,5 +10392,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-28/red-pizza-bag-open-zipper.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/f52cf674ff06-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/f008383ddd95-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/682e6de16c46-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/f3ec912a0baf-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/073cc7633427-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/e58c4b256010-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/f76d44a52e46-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

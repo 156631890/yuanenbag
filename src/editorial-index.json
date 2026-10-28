@@ -195,6 +195,21 @@
     }
   },
   {
+    "kind": "guide",
+    "slug": "cooler-bag-zipper-strength-opening-evidence",
+    "publishedAt": "2026-10-28",
+    "title": {
+      "en": "Request Separate Evidence for Zipper Strength and Repeated Opening",
+      "zh": "保温包拉链强度与反复开合应分开核验",
+      "es": "Pida pruebas separadas de resistencia y apertura repetida de la cremallera"
+    },
+    "description": {
+      "en": "Match zipper strength and repeated-opening evidence to the actual component and finished cooler-bag assembly. A smooth sample closure does not establish durability or water resistance.",
+      "zh": "把拉链强度与反复开合证据对应到实际部件及成品保温包装配版本；一次样品开合顺畅，不能证明耐久或防水。",
+      "es": "Vincule las pruebas de resistencia y apertura repetida al componente y montaje reales. Un cierre suave de la muestra no acredita durabilidad ni resistencia al agua."
+    }
+  },
+  {
     "kind": "industry",
     "slug": "corona-cero-seven-bottle-packaging-case",
     "publishedAt": "2026-10-22",

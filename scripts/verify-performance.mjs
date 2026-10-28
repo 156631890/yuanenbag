@@ -9,6 +9,8 @@ const imageCandidates = Object.values(imageManifest).flatMap(image=>image.varian
 const entry = await readFile(`dist/${manifest['index.html'].file}`, 'utf8')
 const editorialIndex = JSON.parse(await readFile('src/editorial-index.json', 'utf8'))
 const editorialImages = JSON.parse(await readFile('src/editorial-images.json', 'utf8'))
+const globalCardImageModule = manifest['src/editorial-images.json']
+assert(globalCardImageModule?.isDynamicEntry, 'Global card image index must remain an on-demand fallback.')
 assert.equal(editorialIndex.length, seoAudit.editorialArticles.length, 'Editorial metadata index is stale.')
 assert.equal(Object.keys(editorialImages).length, editorialIndex.length, 'Editorial image index is stale.')
 for (const article of seoAudit.editorialArticles) {
@@ -35,6 +37,7 @@ for (const path of [...paths,...notFoundPaths]) {
     ...[...html.matchAll(/<script\b[^>]*src="([^"]+\.js)"/g)].map(match=>match[1]),
     ...[...html.matchAll(/<link\b[^>]*rel="modulepreload"[^>]*href="([^"]+\.js)"/g)].map(match=>match[1]),
   ])
+  assert(![...initialScripts].some(source => source.endsWith(`/${globalCardImageModule.file}`)), `Global card image index preloaded unnecessarily: ${path}`)
   let bytes = 0, gzipBytes = 0
   for (const source of initialScripts) {
     assert(source.startsWith('/') && source.includes('/assets/'), `Unexpected script URL: ${source}`)
