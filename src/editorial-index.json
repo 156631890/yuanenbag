@@ -526,6 +526,21 @@
   },
   {
     "kind": "guide",
+    "slug": "ice-pack-delivery-state-quotation",
+    "publishedAt": "2026-10-29",
+    "title": {
+      "en": "Confirm How Ice Packs Arrive Before Comparing Quotes",
+      "zh": "冰袋报价，先确认交货时的状态",
+      "es": "Confirme el estado de entrega de los acumuladores"
+    },
+    "description": {
+      "en": "Define the ice pack’s state at delivery, what the quoted unit includes, and who fills, freezes and transports it before comparing supplier prices.",
+      "zh": "比较冰袋报价前，明确交货状态、单价包含范围，以及注水、冻结和运输责任；产品准备说明不代表已包含预处理服务。",
+      "es": "Defina el estado de entrega, lo incluido en la unidad cotizada y quién llena, congela y transporta antes de comparar precios."
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "ice-sheet-order-unit-sheets-cells",
     "publishedAt": "2026-10-27",
     "title": {
@@ -1122,21 +1137,6 @@
       "en": "Separate a side-absorbing pack’s water-entry preparation from any condensation-control requirement. Ask for evidence tied to the actual material and loaded package.",
       "zh": "侧吸水冰袋的进水准备，与吸收凝露属于不同需求。将准备后的尺寸、接触表面及所需功能依据分别记录，不凭名称推定防凝露。",
       "es": "Separe la preparación por entrada de agua de cualquier control de condensación. Vincule medidas preparadas, superficies y pruebas al producto real."
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "water-fill-absorbing-coolant-preparation-choice",
-    "publishedAt": "2026-10-29",
-    "title": {
-      "en": "Choose Ice Packs by Their Preparation Process",
-      "zh": "注水与自吸冰袋，按准备流程选型",
-      "es": "Elija acumuladores según su preparación con agua"
-    },
-    "description": {
-      "en": "Compare inlet filling and water absorption before choosing a coolant format. Keep each sample’s preparation instructions and prepared dimensions with the enquiry.",
-      "zh": "选择冰袋格式前，比较进水口注水与吸水两种准备流程；分别保留对应样品的操作说明和准备后尺寸，再用于同一装箱需求。",
-      "es": "Compare llenado por entrada y absorción antes de elegir el formato. Conserve instrucciones y medidas preparadas de cada muestra con la consulta."
     }
   },
   {

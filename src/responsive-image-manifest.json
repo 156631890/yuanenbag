@@ -10801,36 +10801,36 @@
       }
     ]
   },
-  "images/editorial/2026-10-29/plain-coolant-pouch-sealed-bands.webp": {
+  "images/editorial/2026-10-29/plain-single-coolant-pouch.webp": {
     "width": 1200,
     "height": 800,
     "variants": [
       {
-        "file": "images/responsive/ca29213bfed2-96.webp",
+        "file": "images/responsive/b09f7098942e-96.webp",
         "width": 96
       },
       {
-        "file": "images/responsive/4fc022f207f1-192.webp",
+        "file": "images/responsive/8b898e7c73c1-192.webp",
         "width": 192
       },
       {
-        "file": "images/responsive/825484ef4530-384.webp",
+        "file": "images/responsive/489c401c652f-384.webp",
         "width": 384
       },
       {
-        "file": "images/responsive/e07bad2335df-640.webp",
+        "file": "images/responsive/0f27512eb612-640.webp",
         "width": 640
       },
       {
-        "file": "images/responsive/d560cda81f71-768.webp",
+        "file": "images/responsive/8705946102b7-768.webp",
         "width": 768
       },
       {
-        "file": "images/responsive/01448997ad51-960.webp",
+        "file": "images/responsive/c309e2eda9d7-960.webp",
         "width": 960
       },
       {
-        "file": "images/responsive/203838a5546a-1200.webp",
+        "file": "images/responsive/a10141b21435-1200.webp",
         "width": 1200
       }
     ]

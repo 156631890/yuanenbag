@@ -316,6 +316,15 @@
   },
   {
     "kind": "guide",
+    "slug": "ice-pack-delivery-state-quotation",
+    "title": {
+      "en": "Confirm How Ice Packs Arrive Before Comparing Quotes",
+      "zh": "冰袋报价，先确认交货时的状态",
+      "es": "Confirme el estado de entrega de los acumuladores"
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "ice-sheet-order-unit-sheets-cells",
     "title": {
       "en": "Confirm Whether Ice-Sheet Quantities Count Sheets or Cells",
@@ -672,15 +681,6 @@
       "en": "Specify Water Activation and Condensation Control Separately",
       "zh": "把吸水准备与凝露控制分别写入冰袋要求",
       "es": "Especifique por separado la activación con agua y el control de condensación"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "water-fill-absorbing-coolant-preparation-choice",
-    "title": {
-      "en": "Choose Ice Packs by Their Preparation Process",
-      "zh": "注水与自吸冰袋，按准备流程选型",
-      "es": "Elija acumuladores según su preparación con agua"
     }
   },
   {
