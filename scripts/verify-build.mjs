@@ -22,7 +22,9 @@ async function collect(dir) {
   for (const entry of await readdir(dir, {withFileTypes:true})) {
     const path = join(dir,entry.name)
     if (entry.isDirectory()) await collect(path)
-    else if (entry.name.endsWith('.html')) files.push(path)
+    else if (dir === root && entry.name === 'google66c59d160930be38.html') {
+      assert.equal((await readFile(path, 'utf8')).trim(), 'google-site-verification: google66c59d160930be38.html', 'Google verification file must retain its exact content')
+    } else if (entry.name.endsWith('.html')) files.push(path)
   }
 }
 await collect(root)
