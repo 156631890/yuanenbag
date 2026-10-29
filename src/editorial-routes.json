@@ -676,6 +676,15 @@
   },
   {
     "kind": "guide",
+    "slug": "water-fill-absorbing-coolant-preparation-choice",
+    "title": {
+      "en": "Choose Ice Packs by Their Preparation Process",
+      "zh": "注水与自吸冰袋，按准备流程选型",
+      "es": "Elija acumuladores según su preparación con agua"
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "water-fill-coolant-order-quantity-per-design",
     "title": {
       "en": "Confirm Printed Water-Fill Pack Quantities for Each Design",

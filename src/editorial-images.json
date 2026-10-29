@@ -599,6 +599,14 @@
       "es": "Bolsa plana rectangular clara sobre superficie gris con dos franjas texturadas junto a los lados largos"
     }
   },
+  "water-fill-absorbing-coolant-preparation-choice": {
+    "file": "images/editorial/2026-10-29/plain-coolant-pouch-sealed-bands.webp",
+    "alt": {
+      "en": "Two plain white flexible pouches of different heights with ribbed sealed bands, slightly overlapping on a light gray surface",
+      "zh": "浅灰表面上两个高矮不同的白色柔性平袋，带条纹封边并稍有叠放",
+      "es": "Dos bolsas blancas flexibles de distinta altura con bandas selladas estriadas, ligeramente superpuestas sobre fondo gris claro"
+    }
+  },
   "water-fill-coolant-order-quantity-per-design": {
     "file": "images/editorial/2026-10-27/plain-water-fill-pouch-reverse.webp",
     "alt": {

@@ -1126,6 +1126,21 @@
   },
   {
     "kind": "guide",
+    "slug": "water-fill-absorbing-coolant-preparation-choice",
+    "publishedAt": "2026-10-29",
+    "title": {
+      "en": "Choose Ice Packs by Their Preparation Process",
+      "zh": "注水与自吸冰袋，按准备流程选型",
+      "es": "Elija acumuladores según su preparación con agua"
+    },
+    "description": {
+      "en": "Compare inlet filling and water absorption before choosing a coolant format. Keep each sample’s preparation instructions and prepared dimensions with the enquiry.",
+      "zh": "选择冰袋格式前，比较进水口注水与吸水两种准备流程；分别保留对应样品的操作说明和准备后尺寸，再用于同一装箱需求。",
+      "es": "Compare llenado por entrada y absorción antes de elegir el formato. Conserve instrucciones y medidas preparadas de cada muestra con la consulta."
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "water-fill-coolant-order-quantity-per-design",
     "publishedAt": "2026-10-27",
     "title": {
