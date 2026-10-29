@@ -10902,5 +10902,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-29/plain-corrugated-divider-review-tray.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/ecf9702021b5-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/72ab2693ced9-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/0b2b22cb9b49-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/038ae188768c-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/2b848352c245-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/fc31e5ddd89a-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/16914c7e7d6a-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

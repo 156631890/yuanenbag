@@ -649,6 +649,15 @@
   },
   {
     "kind": "industry",
+    "slug": "smurfit-westrock-allende-integrated-bottle-glass-pack",
+    "title": {
+      "en": "Smurfit Westrock Details Allende’s Integrated Bottle-and-Glass Pack",
+      "zh": "Smurfit Westrock披露Allende瓶杯一体分隔包装案例",
+      "es": "Smurfit Westrock detalla el envase integrado de botellas y vasos de Allende"
+    }
+  },
+  {
+    "kind": "industry",
     "slug": "sonoco-third-quarter-2026-packaging-costs",
     "title": {
       "en": "Sonoco Reports Cost and Volume Changes in Third-Quarter Packaging Results",

@@ -1081,6 +1081,21 @@
   },
   {
     "kind": "industry",
+    "slug": "smurfit-westrock-allende-integrated-bottle-glass-pack",
+    "publishedAt": "2026-10-29",
+    "title": {
+      "en": "Smurfit Westrock Details Allende’s Integrated Bottle-and-Glass Pack",
+      "zh": "Smurfit Westrock披露Allende瓶杯一体分隔包装案例",
+      "es": "Smurfit Westrock detalla el envase integrado de botellas y vasos de Allende"
+    },
+    "description": {
+      "en": "A new Allende case study combines bottle dividers and glass holders in one corrugated structure. Keep internal separation distinct from an outer delivery bag.",
+      "zh": "Allende新案例用一体瓦楞结构形成瓶分隔与杯托。采购时需把内部隔离、完整包装外廓与配送外袋的适配核验分开。",
+      "es": "El caso de Allende integra separadores de botellas y soportes de vasos. Distinga esa separación del ajuste de una bolsa exterior de reparto."
+    }
+  },
+  {
+    "kind": "industry",
     "slug": "sonoco-third-quarter-2026-packaging-costs",
     "publishedAt": "2026-10-24",
     "title": {
