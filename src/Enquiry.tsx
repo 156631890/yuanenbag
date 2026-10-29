@@ -16,6 +16,11 @@ export default function Enquiry({lang,bag,onBagChange}:{lang:Lang;bag:string;onB
   const status=useRef<HTMLDivElement>(null)
   const dialog=useRef<HTMLDialogElement>(null)
   const selectedBag=bags.find(item=>item.slug===bag)
+  // Keep every existing value available; put common packaging choices first.
+  const preferredStyles=['handle','zipper','ultrasonic','foldable']
+  const preferredUses=['thermal','supermarket','shopping','promotion']
+  const orderedStyles=[...styleOptions.filter(([id])=>preferredStyles.includes(id)),...styleOptions.filter(([id])=>!preferredStyles.includes(id))]
+  const orderedUses=[...usageOptions.filter(([id])=>preferredUses.includes(id)),...usageOptions.filter(([id])=>!preferredUses.includes(id))]
   const dimensionLabel=selectedBag?.type==='cooler'
     ? t('Dimensions (W × D × H; include unit)','尺寸（宽 × 深 × 高；注明单位）','Medidas (ancho × fondo × alto; indique unidad)')
     : selectedBag?.type==='ice'
@@ -82,7 +87,7 @@ export default function Enquiry({lang,bag,onBagChange}:{lang:Lang;bag:string;onB
       <label>{t('Delivery country / region *','交货国家 / 地区 *')}<input name="destination" autoComplete="country-name" required maxLength={100}/></label>
       <details className="enquiry-optional"><summary>{t('Additional details (optional)','补充资料（选填）','Detalles adicionales (opcionales)')}</summary>
       <label>{t('Company','公司')}<input name="company" autoComplete="organization" maxLength={140}/></label>
-      <div className="field-row"><label>{t('Requested style','期望袋型','Formato solicitado')}<select name="style"><option value="">{t('To discuss','待讨论')}</option>{styleOptions.map(([id,label])=><option key={id} value={id}>{label[lang]}</option>)}</select></label><label>{t('Intended use','预期用途','Uso previsto')}<select name="usage"><option value="">{t('To discuss','待讨论')}</option>{usageOptions.map(([id,label])=><option key={id} value={id}>{label[lang]}</option>)}</select></label></div>
+      <div className="field-row"><label>{t('Requested style','期望袋型','Formato solicitado')}<select name="style"><option value="">{t('To discuss','待讨论')}</option>{orderedStyles.map(([id,label])=><option key={id} value={id}>{label[lang]}</option>)}</select></label><label>{t('Intended use','预期用途','Uso previsto')}<select name="usage"><option value="">{t('To discuss','待讨论')}</option>{orderedUses.map(([id,label])=><option key={id} value={id}>{label[lang]}</option>)}</select></label></div>
       <div className="field-row"><label>{dimensionLabel}<input name="dimensions" maxLength={100} placeholder={dimensionExample}/></label></div>
       </details>
       <label>{t('Tell us about your project *','详细需求 *')}<textarea name="details" rows={5} required minLength={10} maxLength={3000} placeholder={t('Materials, printing, intended use, target delivery date and any testing requirements…','材质、印刷、用途、目标交期及测试要求……')}/></label>

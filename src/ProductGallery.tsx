@@ -17,7 +17,7 @@ export default function ProductGallery({bag,lang}:{bag:Bag;lang:Lang}) {
   return <div className="product-gallery">
     <div className="gallery-stage">
       <button className="gallery-main" onClick={()=>dialog.current?.showModal()} aria-label={t('Enlarge product image','放大产品图片','Ampliar foto del producto')}>
-        <img src={imageUrl(current.file)} alt={alt} width={size.width} height={size.height} {...responsiveImage(`images/products/${current.file}`,'(max-width:650px) calc(100vw - 36px), (max-width:1150px) 50vw, 700px')}/>
+        <img fetchPriority="high" src={imageUrl(current.file)} alt={alt} width={size.width} height={size.height} {...responsiveImage(`images/products/${current.file}`,'(max-width:650px) calc(100vw - 36px), (max-width:1150px) 50vw, 700px')}/>
         <span className="gallery-enlarge"><Expand size={17}/>{t('View image','查看图片','Ver imagen')}</span>
       </button>
       <div className="gallery-status"><span>{(current.label?.[lang] || imageLabel(current.kind,lang))}</span><span>{String(selected+1).padStart(2,'0')} / {String(photos.length).padStart(2,'0')}</span></div>
