@@ -1,0 +1,38 @@
+/* Scoped reading improvements; all existing copy, links and table cells remain. */
+.seo-collection .breadcrumbs,.purchasing-guide .breadcrumbs{margin-bottom:24px}
+.seo-collection .page-intro{max-width:960px;margin-bottom:24px}
+.seo-collection .page-intro h1,.purchasing-guide h1{font-size:clamp(30px,3.2vw,42px);line-height:1.2;margin:12px 0 18px}
+.seo-collection .page-intro .lead{font-size:16px;line-height:1.75;max-width:78ch;margin-bottom:0}
+.seo-collection .answer-box{padding:22px 26px;margin-bottom:28px}
+.seo-collection .answer-box h2{font-size:24px;margin-bottom:12px}
+.seo-collection .answer-box p{max-width:100ch;font-size:15px;line-height:1.8}
+.seo-collection>h2{font-size:28px;margin-bottom:18px}
+.seo-collection .table-scroll,.purchasing-guide .table-scroll{max-width:100%;border:1px solid var(--line);overscroll-behavior-x:contain}
+.seo-comparison th,.seo-comparison td{padding:14px 16px;line-height:1.7}
+.seo-comparison a{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}
+.seo-comparison tbody tr:nth-child(even) td,.purchasing-guide tbody tr:nth-child(even) td{background:#f7f9f9}
+.purchasing-guide{max-width:860px}
+.purchasing-guide .article-header{margin-bottom:26px}
+.purchasing-guide .article-header .lead{font-size:17px;line-height:1.75;max-width:74ch;margin-bottom:18px}
+.purchasing-guide .article-meta{font-size:13px;line-height:1.7}
+.purchasing-guide .answer-box{padding:22px 26px}
+.purchasing-guide .answer-box p{font-size:16px;line-height:1.8}
+.purchasing-guide>p,.purchasing-guide>ul{font-size:16px;line-height:1.85;max-width:76ch}
+.purchasing-guide>h2{font-size:27px;margin:34px 0 18px}
+.purchasing-guide>ul{padding-left:24px}
+.purchasing-guide>ul li+li{margin-top:10px}
+.purchasing-guide th,.purchasing-guide td{font-size:14px;line-height:1.75;padding:14px 16px}
+.purchasing-guide .article-note{font-size:13px;border-left:2px solid var(--line);padding-left:16px}
+@media(max-width:650px){
+ .seo-collection.page-section,.purchasing-guide.page-section{padding-top:20px}
+ .seo-collection .breadcrumbs,.purchasing-guide .breadcrumbs{margin-bottom:18px}
+ .seo-collection .page-intro h1,.purchasing-guide h1{font-size:29px;line-height:1.24;margin:10px 0 16px}
+ .seo-collection .page-intro .lead,.purchasing-guide .article-header .lead{font-size:15px;line-height:1.75}
+ .seo-collection .answer-box,.purchasing-guide .answer-box{padding:20px 18px}
+ .seo-collection .answer-box h2{font-size:22px}
+ .seo-collection .answer-box p,.purchasing-guide .answer-box p{font-size:15px}
+ .seo-collection>h2,.purchasing-guide>h2{font-size:25px}
+ .purchasing-guide table{min-width:600px}
+ .seo-comparison th,.seo-comparison td,.purchasing-guide th,.purchasing-guide td{padding:12px 14px;font-size:14px}
+ .seo-collection .table-scroll,.purchasing-guide .table-scroll{scrollbar-width:auto}
+}

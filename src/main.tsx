@@ -9,6 +9,7 @@ import './quality.css'
 import './editorial.css'
 import './footer-social.css'
 import './ux-refinements.css'
+import './reading-refinements.css'
 
 const root = document.getElementById('root')!
 const path=window.location.pathname
