@@ -72,6 +72,15 @@
     }
   },
   {
+    "kind": "industry",
+    "slug": "cheerios-ziploc-pantryseal-resealable-cereal-bag",
+    "title": {
+      "en": "Cheerios and Ziploc Introduce a Resealable Bag Inside the Cereal Box",
+      "zh": "Cheerios与Ziploc推出带可再封内袋的谷物盒包装",
+      "es": "Cheerios y Ziploc presentan una bolsa resellable dentro de la caja de cereales"
+    }
+  },
+  {
     "kind": "guide",
     "slug": "chocolate-gift-box-coolant-separation",
     "title": {

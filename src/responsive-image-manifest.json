@@ -10868,5 +10868,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-29/plain-dry-food-carton-inner-pouch.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/4d936a85d02a-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/296397085c5a-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/555bb075b89a-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/62ed9dee9262-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/75e99715b404-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/c5f0d42aeb36-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/222584c2c044-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

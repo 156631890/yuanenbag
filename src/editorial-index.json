@@ -120,6 +120,21 @@
     }
   },
   {
+    "kind": "industry",
+    "slug": "cheerios-ziploc-pantryseal-resealable-cereal-bag",
+    "publishedAt": "2026-10-29",
+    "title": {
+      "en": "Cheerios and Ziploc Introduce a Resealable Bag Inside the Cereal Box",
+      "zh": "Cheerios与Ziploc推出带可再封内袋的谷物盒包装",
+      "es": "Cheerios y Ziploc presentan una bolsa resellable dentro de la caja de cereales"
+    },
+    "description": {
+      "en": "General Mills announces a resealable cereal-box liner. Packaging buyers should distinguish opening, pouring and reclosing from an insulated outer bag’s closure.",
+      "zh": "General Mills公布谷物盒内可再封袋。包装采购应把开启、倾倒及再次闭合需求，与保温外层袋的封口作用分开确认。",
+      "es": "General Mills anuncia una bolsa interior resellable para cereales. Distinga abrir, verter y volver a cerrar del cierre de una bolsa térmica exterior."
+    }
+  },
+  {
     "kind": "guide",
     "slug": "chocolate-gift-box-coolant-separation",
     "publishedAt": "2026-10-14",
