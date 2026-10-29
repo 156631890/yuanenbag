@@ -8,6 +8,7 @@ import './commercial-details.css'
 import './quality.css'
 import './editorial.css'
 import './footer-social.css'
+import './ux-refinements.css'
 
 const root = document.getElementById('root')!
 const path=window.location.pathname
