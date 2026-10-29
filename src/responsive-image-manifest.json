@@ -10766,5 +10766,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-29/open-kraft-insulated-bag-base-handles.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/dabf3c814b63-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/d56691645526-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/8012568681de-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/4166881b9491-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/c60f16eab298-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/b9893a36a4d5-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/ead460c2c693-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

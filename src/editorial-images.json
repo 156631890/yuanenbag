@@ -431,6 +431,14 @@
       "es": "Bolsa azul marino vacía con panel frontal abatido, forro plateado de aluminio arrugado y asa lateral negra corta"
     }
   },
+  "paper-insulated-bag-moisture-contact-brief": {
+    "file": "images/editorial/2026-10-29/open-kraft-insulated-bag-base-handles.webp",
+    "alt": {
+      "en": "Empty open kraft-paper carrier with a silver reflective interior, side gusset and two flat paper handles on a light gray surface",
+      "zh": "浅灰表面上的空敞口牛皮纸手提袋，带银色反射内面、侧褶和两个扁纸提手",
+      "es": "Bolsa kraft vacía y abierta con interior reflectante plateado, fuelle y dos asas planas de papel sobre fondo gris claro"
+    }
+  },
   "pizza-bag-passive-insulation-heating-requirement": {
     "file": "images/editorial/2026-10-21/open-red-passive-pizza-carrier.webp",
     "alt": {

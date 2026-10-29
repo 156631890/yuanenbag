@@ -487,6 +487,15 @@
   },
   {
     "kind": "guide",
+    "slug": "paper-insulated-bag-moisture-contact-brief",
+    "title": {
+      "en": "Specify Moisture Contact for Paper Insulated Bags",
+      "zh": "纸基保温袋，先说明水分接触位置",
+      "es": "Defina el contacto con humedad en bolsas térmicas de papel"
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "pizza-bag-passive-insulation-heating-requirement",
     "title": {
       "en": "Check the Bag Specification When Delivery Requires Active Heating",

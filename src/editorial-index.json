@@ -811,6 +811,21 @@
   },
   {
     "kind": "guide",
+    "slug": "paper-insulated-bag-moisture-contact-brief",
+    "publishedAt": "2026-10-29",
+    "title": {
+      "en": "Specify Moisture Contact for Paper Insulated Bags",
+      "zh": "纸基保温袋，先说明水分接触位置",
+      "es": "Defina el contacto con humedad en bolsas térmicas de papel"
+    },
+    "description": {
+      "en": "Identify wet-container, inner-edge, base and handle contact separately before agreeing a paper insulated bag sample. Paper test data does not rate the complete carrier.",
+      "zh": "先分别说明湿容器、内衬边缘、底部与纸提手的水分接触，再约定纸基保温袋样品范围；纸张试验数据不能代表整袋额定表现。",
+      "es": "Identifique el contacto con envases húmedos, bordes, base y asas antes de acordar la muestra. Un ensayo del papel no califica la bolsa completa."
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "pizza-bag-passive-insulation-heating-requirement",
     "publishedAt": "2026-10-21",
     "title": {
