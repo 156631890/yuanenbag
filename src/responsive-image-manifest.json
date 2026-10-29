@@ -10834,5 +10834,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-29/intact-twelve-cell-coolant-sheet.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/2f4e68f3e1cf-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/b50fd0344176-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/4fc6429d65ef-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/e75bf6d23360-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/c86c4f9f8501-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/7fb016188507-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/aa62dc957d2a-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

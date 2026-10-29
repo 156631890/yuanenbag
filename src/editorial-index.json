@@ -961,6 +961,21 @@
   },
   {
     "kind": "guide",
+    "slug": "segmented-ice-sheet-approved-cut-layout",
+    "publishedAt": "2026-10-29",
+    "title": {
+      "en": "Agree the Cut Layout Before Resizing Ice Sheets",
+      "zh": "分格冰片裁切，先确认保留哪些格",
+      "es": "Acuerde el corte antes de ajustar láminas refrigerantes"
+    },
+    "description": {
+      "en": "Mark the cells to retain on the selected existing ice sheet and ask the supplier to confirm permitted lines, preparation stage and intended placement.",
+      "zh": "在选定的现有整张冰片上标明拟保留格子，由供应方确认允许裁线、准备阶段及装箱位置；不把可见分格直接当作裁切许可。",
+      "es": "Marque las celdas que conservará en la lámina existente elegida y confirme con el proveedor líneas permitidas, preparación y colocación prevista."
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "self-seal-bag-packing-process-trial",
     "publishedAt": "2026-10-16",
     "title": {

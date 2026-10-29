@@ -577,6 +577,15 @@
   },
   {
     "kind": "guide",
+    "slug": "segmented-ice-sheet-approved-cut-layout",
+    "title": {
+      "en": "Agree the Cut Layout Before Resizing Ice Sheets",
+      "zh": "分格冰片裁切，先确认保留哪些格",
+      "es": "Acuerde el corte antes de ajustar láminas refrigerantes"
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "self-seal-bag-packing-process-trial",
     "title": {
       "en": "Test the Packing Steps Before Batch-Sealing Insulated Pouches",
