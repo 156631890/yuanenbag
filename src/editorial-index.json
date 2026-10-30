@@ -540,6 +540,21 @@
     }
   },
   {
+    "kind": "industry",
+    "slug": "hivest-sustana-recycled-paper-acquisition",
+    "publishedAt": "2026-10-30",
+    "title": {
+      "en": "Hivest Acquires Recycled-Fiber and Paper Producer Sustana",
+      "zh": "Hivest完成收购再生纤维与纸张生产商Sustana",
+      "es": "Hivest adquiere Sustana, fabricante de fibra reciclada y papel"
+    },
+    "description": {
+      "en": "Hivest announces its completed Sustana acquisition. Buyers should track the corporate owner, actual material supplier and finished-pack specification separately.",
+      "zh": "Hivest公布已完成收购Sustana。包装采购应分别核对企业所有者、实际材料供应方和成品包装规格，避免将收购消息直接写成材料变更。",
+      "es": "Hivest anuncia la adquisición completada de Sustana. Distinga propietario, proveedor real del material y especificación del envase terminado."
+    }
+  },
+  {
     "kind": "guide",
     "slug": "ice-pack-delivery-state-quotation",
     "publishedAt": "2026-10-29",

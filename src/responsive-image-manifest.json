@@ -10936,5 +10936,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-30/owner-layer-pack-records.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/9b7c4cfc3528-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/88b730cf4034-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/f87033fac89c-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/ac6040221073-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/d98c007456cd-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/b363ce1751f9-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/ec4d1c59fa58-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }
