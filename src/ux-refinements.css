@@ -75,3 +75,5 @@
 .quality-library-heading>p,.quality-count,.quality-document-preview>p,.quality-document-copy dt,.quality-scope .quality-scope-note,.quality-order-note>p{color:#526b79}
 .quality-document-preview>p{font-size:12px}
 @media(max-width:650px){.quality-document-copy dl>div{font-size:12px}}
+
+.footer-contact-summary p a{display:inline;margin:0}

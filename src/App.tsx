@@ -1,4 +1,3 @@
-import { officeAddress, officeHours, officeLabel, hoursLabel } from './office-info'
 import CollectionPage, { CollectionLinks, ProductBuyingLinks } from './CollectionPage'
 import { collections, collectionFor } from './collections'
 import { Suspense, useEffect, useRef, useState } from 'react'
@@ -47,7 +46,14 @@ function Footer({ lang }: Props) {
       </div>
       <div><span className="footer-label">{l(lang, 'EXPLORE', '探索远恩')}</span><a href={href('/products/', lang)}>{l(lang, 'Product families', '产品分类')}</a><a href={href('/about/', lang)}>{l(lang, 'Factory & capabilities', '工厂与实力')}</a><a href={href('/customization/', lang)}>{l(lang, 'Customization', '定制流程')}</a></div>
       <div><span className="footer-label">{l(lang, 'RESOURCES', '采购支持')}</span><a href={href('/quality/', lang)}>{tx('Quality & documentation', '质量与资料', 'Calidad y documentación')[lang]}</a>{guides.map(guide => <a key={guide.slug} href={href(`/guides/${guide.slug}/`, lang)}>{guide.title[lang]}</a>)}<a href={href('/contact/', lang)}>{l(lang, 'Prepare an enquiry', '准备询价')}</a></div>
-      <div><span className="footer-label">{l(lang, 'FIND US', '联系我们')}</span><p>{lang === 'en' ? 'Wenzhou Yuanen Crafts Co., Ltd.' : brand.chineseName}</p><p>{officeLabel[lang]}<br />{officeAddress[lang]}</p><p>{hoursLabel[lang]}<br />{officeHours[lang]}</p>{brand.phones.map(phone => <a key={phone} href={`tel:${phone.replace(/\s/g, '')}`}>{phone}</a>)}{brand.email && <a href={`mailto:${brand.email}`}>{brand.email}</a>}{brand.whatsapp && <a href={`https://wa.me/${brand.whatsapp.replace(/\D/g, '')}`} target="_blank" rel="noreferrer">WhatsApp · {brand.whatsapp}</a>}<a href={href('/contact/', lang)} className="footer-contact">{l(lang, 'Let’s talk packaging', '聊聊您的包装需求')}<ArrowUpRight size={16} /></a></div>
+      <div className="footer-contact-summary">
+        <span className="footer-label">{tx('CONTACT', '联系我们', 'CONTACTO')[lang]}</span>
+        <p>{lang === 'zh' ? brand.chineseName : 'Wenzhou Yuanen Crafts Co., Ltd.'}<br />{l(lang, 'Longgang, Wenzhou · China', '中国 · 温州龙港')}</p>
+        {brand.email && <a href={`mailto:${brand.email}`}>{brand.email}</a>}
+        <p><a href={`tel:${brand.phones[0].replace(/\s/g, '')}`}>{brand.phones[0]}</a>{brand.whatsapp && <> · <a href={`https://wa.me/${brand.whatsapp.replace(/\D/g, '')}`} target="_blank" rel="noreferrer">WhatsApp</a></>}</p>
+        <p>{tx('Mon–Sat · 08:00–18:00', '周一至周六 · 08:00–18:00', 'Lun–sáb · 08:00–18:00')[lang]}<br />{tx('Beijing time · UTC+8', '北京时间 · UTC+8', 'Hora de Pekín · UTC+8')[lang]}</p>
+        <a href={href('/contact/', lang)} className="footer-contact">{tx('Office & contact details', '办公地址与完整联系方式', 'Oficina y datos de contacto')[lang]}<ArrowUpRight size={16} /></a>
+      </div>
     </div>
     <div className="footer-bottom"><span>© 2026 YUANEN. {l(lang, 'All rights reserved.', '保留所有权利。')}</span><span><a href={href('/privacy/', lang)}>{l(lang, 'Privacy', '隐私说明')}</a><span>{l(lang, 'Thoughtfully made. Carefully delivered.', '用心制造，认真交付。')}</span></span></div>
   </div></footer>
