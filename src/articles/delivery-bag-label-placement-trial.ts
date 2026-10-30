@@ -45,9 +45,19 @@ const article: EditorialArticle = {
     { title: t('YUANEN sample and artwork approval requirements', '远恩样品与图稿确认要求', 'Requisitos YUANEN de aprobación de muestras y diseño'), url: 'https://yuanenbag.com/guides/custom-bag-order-checklist/' },
   ],
   relatedProducts: ['insulated-catering-bags'],
-  image: { file: 'images/editorial/2026-10-17/closed-navy-carrier-loose-white-tag.webp', kind: 'illustration',
-    alt: t('A closed navy front-opening carrier with a short side grip and a loose white card beside it', '闭合的海军蓝前开式配送袋、短侧提手及旁边的白色卡片', 'Bolsa azul marino de apertura frontal cerrada, con asa lateral corta y una tarjeta blanca suelta al lado'),
-    caption: t('A closed carrier and a loose blank card on a grey surface.', '灰色台面上的闭合配送袋与空白卡片。', 'Una bolsa cerrada y una tarjeta en blanco sobre una superficie gris.'),
+  image: {
+  "file": "images/editorial/2026-10-30-cover-repairs/delivery-bag-label-placement-trial.webp",
+  "kind": "illustration",
+  "alt": {
+    "en": "Closed navy catering bag with a blank label away from its zipper and a spare label beside it",
+    "zh": "闭合的深蓝团餐包在远离拉链处贴空白标签，旁边另放一张标签",
+    "es": "Bolsa azul marino cerrada con etiqueta en blanco alejada de la cremallera y otra etiqueta al lado"
   },
+  "caption": {
+    "en": "Label placement trial proposal; adhesion, removal and surface compatibility require sample checks.",
+    "zh": "标签位置试贴方案；粘附、移除与表面相容性须用样品检查。",
+    "es": "Propuesta de colocación; adhesión, retirada y compatibilidad requieren pruebas con muestras."
+  }
+},
 }
 export default article

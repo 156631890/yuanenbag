@@ -45,9 +45,19 @@ const article: EditorialArticle = {
     { title: t('YUANEN custom bag quotation and sample checklist', '远恩定制保温袋询价与样品清单', 'Lista YUANEN de consulta y muestras de bolsas personalizadas'), url: 'https://yuanenbag.com/guides/custom-bag-order-checklist/' },
   ],
   relatedProducts: ['upright-grocery-cooler'],
-  image: { file: 'images/editorial/2026-10-16/upright-grocery-tote-shipping-carton.webp', kind: 'illustration',
-    alt: t('An upright blue tote with gold handles beside a closed plain carton on a grey bench', '灰色工作台上的蓝色金提手直立袋与闭合素面纸箱', 'Bolsa azul vertical con asas doradas junto a una caja lisa cerrada sobre una mesa gris'),
-    caption: t('A blue-and-gold tote and a plain shipping carton on a receiving bench.', '收货工作台上的蓝金色手提袋与素面运输纸箱。', 'Una bolsa azul y dorada y una caja lisa sobre una mesa de recepción.'),
+  image: {
+  "file": "images/editorial/2026-10-30-cover-repairs/flat-packed-insulated-bag-storage-brief.webp",
+  "kind": "illustration",
+  "alt": {
+    "en": "Two flattened blue grocery totes with gold handles beside an empty shipping carton",
+    "zh": "两个蓝色金色提手购物袋平折摆放，旁边为空运输纸箱",
+    "es": "Dos bolsas azules con asas doradas plegadas junto a una caja de envío vacía"
   },
+  "caption": {
+    "en": "Proposed sample arrangement; confirm construction, fit and accessories in writing. This image does not establish tested performance.",
+    "zh": "拟定样品配置，结构、适配与配件范围须书面确认；图片不代表性能已经测试。",
+    "es": "Configuración propuesta de muestra; confirme construcción, ajuste y accesorios por escrito. La imagen no acredita prestaciones ensayadas."
+  }
+},
 }
 export default article

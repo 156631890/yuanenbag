@@ -18,6 +18,19 @@ const article: EditorialArticle = {
  ],
  sources:[{title:{en:'YUANEN meal prep bag: top opening, single chamber and separate accessories',zh:'远恩备餐包：上开口、单仓与配件范围',es:'Bolsa para comidas de YUANEN: apertura superior, cámara y accesorios'},url:'https://yuanenbag.com/products/insulated-meal-prep-bags/'},{title:{en:'YUANEN custom-order guide: sample and quotation scope',zh:'远恩定制订单指南：样品与报价范围',es:'Guía de pedidos YUANEN: alcance de muestra y cotización'},url:'https://yuanenbag.com/guides/custom-bag-order-checklist/'}],
  relatedProducts:['insulated-meal-prep-bags'],
- image:{file:'images/editorial/2026-10-13/meal-container-tote.webp',kind:'illustration',alt:{en:'An open olive-green silver-lined bag beside two closed rectangular meal containers on a wooden kitchen counter',zh:'厨房木质台面上，一只银色内衬橄榄绿包打开上盖，旁边放着两只封盖长方形餐盒',es:'Bolsa verde oliva abierta con forro plateado junto a dos recipientes rectangulares cerrados sobre una encimera de madera'},caption:{en:'Generic bag and container props. Their number does not establish capacity or included accessories.',zh:'通用包体与餐盒道具，画面中的餐盒数量不代表额定容量或随包配件。',es:'Bolsa y recipientes genéricos; su número no establece capacidad ni accesorios incluidos.'}}
+ image:{
+  "file": "images/editorial/2026-10-30-cover-repairs/meal-prep-container-stack-fit.webp",
+  "kind": "illustration",
+  "alt": {
+    "en": "Two closed containers stacked beside an empty open olive bag, with unnumbered height brackets",
+    "zh": "两只闭合餐盒叠放在空置橄榄绿敞开袋旁，两侧以无数字括线比较高度",
+    "es": "Dos recipientes cerrados apilados junto a una bolsa oliva abierta y vacía, con indicadores de altura sin cifras"
+  },
+  "caption": {
+    "en": "Compare the complete closed-container stack with usable bag height before a fit trial; no capacity or successful fit is established.",
+    "zh": "试装前比较包含盒盖的完整叠高与袋内可用高度；不确立容量或适配成功。",
+    "es": "Compare la pila de recipientes cerrados con la altura útil antes de probar; no acredita capacidad ni ajuste satisfactorio."
+  }
+}
 }
 export default article

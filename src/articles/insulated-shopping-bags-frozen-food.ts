@@ -106,19 +106,19 @@ const article: EditorialArticle = {
   }],
   relatedProducts: ['upright-grocery-cooler', 'water-fill-ice-packs'],
   image: {
-    file: 'images/editorial/2026-10-08/frozen-food-bag-packing-checks.webp',
-    alt: {
-      en: 'Generic navy insulated shopping bag on a wooden table',
-      zh: '木桌上的通用款深蓝色保温购物袋',
-      es: 'Bolsa térmica genérica azul marino sobre una mesa de madera',
-    },
-    caption: {
-      en: 'Generic insulated shopping bag. Confirm the actual packed fit with a finished sample.',
-      zh: '通用保温购物袋。实际装载适配仍需用成品样品核对。',
-      es: 'Bolsa térmica genérica. Compruebe el espacio real con una muestra terminada.',
-    },
-    kind: 'illustration',
+  "file": "images/editorial/2026-10-30-cover-repairs/insulated-shopping-bags-frozen-food.webp",
+  "alt": {
+    "en": "Blue metallic grocery tote with gold handles beside two white packages and a coolant pack",
+    "zh": "蓝色金属质感购物保温袋配金色提手，旁边放两个白色包装和一个冷媒包",
+    "es": "Bolsa de compra azul metalizada con asas doradas junto a dos paquetes blancos y un acumulador"
   },
+  "caption": {
+    "en": "Proposed sample arrangement; confirm construction, fit and accessories in writing. This image does not establish tested performance.",
+    "zh": "拟定样品配置，结构、适配与配件范围须书面确认；图片不代表性能已经测试。",
+    "es": "Configuración propuesta de muestra; confirme construcción, ajuste y accesorios por escrito. La imagen no acredita prestaciones ensayadas."
+  },
+  "kind": "illustration"
+},
 }
 
 export default article

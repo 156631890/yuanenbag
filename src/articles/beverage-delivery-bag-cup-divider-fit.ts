@@ -13,6 +13,19 @@ const article: EditorialArticle = {
  ],
  sources:[{title:t('YUANEN beverage tote and removable-divider proposal','远恩饮品提包与拟定可拆分隔方案','Propuesta de bolsa e inserto extraíble de YUANEN'),url:'https://yuanenbag.com/products/insulated-beverage-delivery-bags/'},{title:t('YUANEN lightweight self-seal milk-tea bags','远恩轻型自粘奶茶包装袋','Bolsas ligeras autoadhesivas para bebidas de YUANEN'),url:'https://yuanenbag.com/products/self-seal-non-woven-milk-tea-bags/'}],
  relatedProducts:['insulated-beverage-delivery-bags','self-seal-non-woven-milk-tea-bags'],
- image:{file:'images/editorial/2026-10-12/teal-beverage-tote-cup-dividers.webp',kind:'illustration',alt:t('Open teal fabric tote with silver lining, soft dividers and three kraft cups with black lids on a wooden counter','木质台面上打开的深青织物提包，银色内衬和软质分隔内放着三只黑盖牛皮纸杯','Bolsa de tejido verde azulado abierta con forro plateado, separadores blandos y tres vasos kraft con tapas negras sobre una mesa de madera'),caption:t('A generic divided beverage tote. The cup count and divider arrangement are illustrative, not a confirmed capacity.','通用带分隔饮品提包。杯数及分隔排列为展示示意，不是已确认的容量。','Bolsa genérica con separadores. Número de vasos y disposición ilustrativos, sin capacidad confirmada.')},
+ image:{
+  "file": "images/editorial/2026-10-30-cover-repairs/beverage-delivery-bag-cup-divider-fit.webp",
+  "kind": "illustration",
+  "alt": {
+    "en": "Teal beverage bag with black handles and dividers, three lidded cups and empty compartments",
+    "zh": "青绿色饮品包配黑色提手和分隔，内放三个带盖杯并保留空格",
+    "es": "Bolsa turquesa con asas y divisores negros, tres vasos con tapa y compartimentos vacíos"
+  },
+  "caption": {
+    "en": "Proposed sample arrangement; confirm construction, fit and accessories in writing. This image does not establish tested performance.",
+    "zh": "拟定样品配置，结构、适配与配件范围须书面确认；图片不代表性能已经测试。",
+    "es": "Configuración propuesta de muestra; confirme construcción, ajuste y accesorios por escrito. La imagen no acredita prestaciones ensayadas."
+  }
+},
 }
 export default article

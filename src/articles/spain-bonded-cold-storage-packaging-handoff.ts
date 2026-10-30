@@ -13,6 +13,19 @@ const article:EditorialArticle={
  ],
  sources:[{title:t('Lineage: Murcia Customs Bonded Warehouse announcement, 7 September 2026','Lineage：穆尔西亚海关保税仓公告，2026年9月7日','Lineage: anuncio de depósito aduanero en Murcia, 7 de septiembre de 2026'),url:'https://www.onelineage.com/news-stories/lineage-bonded-warehouse-spain',publishedAt:'2026-09-07'},{title:t('YUANEN foil-insulated box liners: fit and coolant space','远恩铝箔保温箱内衬：适配与冰源空间','Forros térmicos de YUANEN: ajuste y espacio de refrigerantes'),url:'https://yuanenbag.com/products/foil-insulated-box-liners/'},{title:t('YUANEN ice pack selection: conditioning and full-shipment tests','远恩冰源选型：预处理与完整运输包装测试','Selección de refrigerantes de YUANEN: acondicionamiento y pruebas'),url:'https://yuanenbag.com/guides/ice-pack-selection/'}],
  relatedProducts:['foil-insulated-box-liners'],
- image:{file:'images/editorial/2026-10-12/thermal-carton-warehouse-handoff.webp',kind:'illustration',alt:t('Open carton with a folded silver thermal liner beside two closed cartons on a dispatch bench with a warehouse doorway behind','发货台上的打开纸箱与折过箱沿的银色保温内衬，旁边有两只闭合纸箱，后方可见仓库门','Caja abierta con forro térmico plateado plegado sobre el borde junto a dos cajas cerradas, con una puerta de almacén al fondo'),caption:t('Generic packing and dispatch scene. It does not show Lineage’s Murcia facility or a customs-approved project.','通用打包和发货场景，不展示Lineage穆尔西亚设施或海关批准项目。','Escena genérica de embalado y despacho; no representa la instalación de Murcia ni un proyecto aprobado por aduanas.')},
+ image:{
+  "file": "images/editorial/2026-10-30-cover-repairs/spain-bonded-cold-storage-packaging-handoff.webp",
+  "kind": "illustration",
+  "alt": {
+    "en": "White foam box with foil liner and separate lid on a table near a cold-room doorway",
+    "zh": "冷库门口附近台面上，白色泡沫箱配铝箔内衬，箱盖单独放置",
+    "es": "Caja blanca de espuma con revestimiento de aluminio y tapa separada cerca de una cámara frigorífica"
+  },
+  "caption": {
+    "en": "Generic cold-storage handoff arrangement; not a photograph of the reported facility or evidence of customs approval.",
+    "zh": "通用冷库交接配置，不是报道设施现场照片，也不代表海关批准。",
+    "es": "Configuración genérica de entrega frigorífica; no es una fotografía de la instalación citada ni acredita aprobación aduanera."
+  }
+},
 }
 export default article

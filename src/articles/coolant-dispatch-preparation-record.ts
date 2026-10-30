@@ -45,9 +45,19 @@ const article: EditorialArticle = {
     { title: t('YUANEN current foil box-liner application', '远恩当前铝箔箱内衬应用', 'Aplicación actual del revestimiento de caja YUANEN'), url: 'https://yuanenbag.com/products/foil-insulated-box-liners/' },
   ],
   relatedProducts: ['foil-insulated-box-liners'],
-  image: { file: 'images/editorial/2026-10-17/open-foil-liner-white-foam-box.webp', kind: 'illustration',
-    alt: t('An empty white foam box with a creased silver foil-faced liner opened inside', '白色泡沫空箱内展开的带褶皱银色铝箔面层内衬', 'Caja blanca de espuma vacía con un revestimiento plateado de lámina de aluminio abierto y arrugado'),
-    caption: t('An open foil-faced liner inside a white foam box.', '白色泡沫外箱内展开的铝箔面层内衬。', 'Revestimiento de lámina de aluminio abierto dentro de una caja blanca de espuma.'),
+  image: {
+  "file": "images/editorial/2026-10-30-cover-repairs/coolant-dispatch-preparation-record.webp",
+  "kind": "illustration",
+  "alt": {
+    "en": "Foil-lined white foam box and separate coolant pouches on a metal tray",
+    "zh": "铝箔内衬白色泡沫箱旁，金属托盘上分开放置冷媒袋",
+    "es": "Caja blanca de espuma con forro de aluminio y bolsas refrigerantes separadas en una bandeja metálica"
   },
+  "caption": {
+    "en": "Proposed sample arrangement; confirm construction, fit and accessories in writing. This image does not establish tested performance.",
+    "zh": "拟定样品配置，结构、适配与配件范围须书面确认；图片不代表性能已经测试。",
+    "es": "Configuración propuesta de muestra; confirme construcción, ajuste y accesorios por escrito. La imagen no acredita prestaciones ensayadas."
+  }
+},
 }
 export default article

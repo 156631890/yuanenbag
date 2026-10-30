@@ -47,10 +47,18 @@ const article: EditorialArticle = {
   ],
   relatedProducts: ['insulated-pizza-delivery-bags'],
   image: {
-    file: 'images/editorial/2026-10-12/pizza-carrier-kraft-cartons.webp',
-    alt: t('Open red fabric insulated carrier with silver lining and two closed kraft pizza cartons on a grey workbench', '灰色工作台上打开的红色织物保温包，银色内衬内放着两只闭合牛皮纸披萨盒', 'Bolsa térmica roja abierta, con forro plateado y dos cajas de pizza de cartón kraft cerradas sobre una mesa gris'),
-    caption: t('A generic pizza carrier with closed cartons. The illustrated box count is not a rated capacity or a tested YUANEN sample.', '装有闭合纸盒的通用披萨配送包。图中盒数不是额定容量，也不是已测试的远恩样品。', 'Bolsa genérica con cajas cerradas. La cantidad ilustrada no indica capacidad nominal ni una muestra probada de YUANEN.'),
-    kind: 'illustration',
+  "file": "images/editorial/2026-10-30-cover-repairs/pizza-delivery-bag-packout-checklist.webp",
+  "alt": {
+    "en": "Open red nonwoven pizza bag with matching handles, foil lining and two kraft pizza boxes",
+    "zh": "红色无纺布披萨包配同色提手，上盖打开露出铝箔内层及两个牛皮纸披萨盒",
+    "es": "Bolsa roja de tejido no tejido con asas rojas, forro de aluminio y dos cajas de pizza kraft"
   },
+  "caption": {
+    "en": "Proposed sample arrangement; confirm construction, fit and accessories in writing. This image does not establish tested performance.",
+    "zh": "拟定样品配置，结构、适配与配件范围须书面确认；图片不代表性能已经测试。",
+    "es": "Configuración propuesta de muestra; confirme construcción, ajuste y accesorios por escrito. La imagen no acredita prestaciones ensayadas."
+  },
+  "kind": "illustration"
+},
 }
 export default article

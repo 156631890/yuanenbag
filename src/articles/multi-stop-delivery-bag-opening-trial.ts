@@ -45,9 +45,19 @@ const article: EditorialArticle = {
     { title: t('YUANEN front-opening tray access guide', '远恩前开式餐盘取放指南', 'Guía YUANEN de acceso frontal de bandejas'), url: 'https://yuanenbag.com/guides/catering-bag-front-opening-tray-fit/' },
   ],
   relatedProducts: ['insulated-catering-bags'],
-  image: { file: 'images/editorial/2026-10-16/navy-front-opening-carrier-two-tray-scene.webp', kind: 'illustration',
-    alt: t('A navy front-opening carrier with one lidded tray inside and another on the counter', '海军蓝前开式袋内的一只带盖餐盘，以及台面上的另一只餐盘', 'Bolsa azul marino de apertura frontal con una bandeja tapada dentro y otra sobre la mesa'),
-    caption: t('A front-opening carrier and lidded trays on a packing counter.', '装箱台面上的前开式袋与带盖餐盘。', 'Una bolsa de apertura frontal y bandejas tapadas sobre una mesa de embalaje.'),
+  image: {
+  "file": "images/editorial/2026-10-30-cover-repairs/multi-stop-delivery-bag-opening-trial.webp",
+  "kind": "illustration",
+  "alt": {
+    "en": "Open front carrier with one supported tray inside and a second tray on the counter along a horizontal arrow",
+    "zh": "前开式配送包内有受支撑餐盘，另一盘放在台面上，细箭头标明水平取放方向",
+    "es": "Bolsa frontal abierta con una bandeja apoyada dentro y otra sobre la mesa junto a una flecha horizontal"
   },
+  "caption": {
+    "en": "Proposed horizontal removal arrangement; it does not document route temperatures or a completed multi-stop trial.",
+    "zh": "拟定水平取放构图，不记录路线温度或已完成的多站测试。",
+    "es": "Disposición propuesta de extracción horizontal; no documenta temperaturas ni una prueba multientrega realizada."
+  }
+},
 }
 export default article

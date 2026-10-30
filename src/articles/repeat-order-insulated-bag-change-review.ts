@@ -24,6 +24,19 @@ const article:EditorialArticle={
  ],
  sources:[{title:t('YUANEN current front-opening catering bag proposal','远恩当前前开式餐盘配送包方案','Propuesta frontal actual de catering de YUANEN'),url:'https://yuanenbag.com/products/insulated-catering-bags/'},{title:t('YUANEN custom order and sample approval guide','远恩定制订单与样品确认指南','Guía de pedidos y aprobación de muestras de YUANEN'),url:'https://yuanenbag.com/guides/custom-bag-order-checklist/'}],
  relatedProducts:['insulated-catering-bags'],
- image:{file:'images/editorial/2026-10-15/closed-navy-catering-bag-envelope.webp',kind:'illustration',alt:t('Closed navy rectangular bag with a front zipper and side grips beside a plain envelope','闭合的深蓝箱形袋，带前幅拉链和侧提手，旁边放着素色信封','Bolsa rectangular azul marino cerrada con cremallera frontal y asas laterales junto a un sobre liso'),caption:t('The closed front panel, zipper path and short side grips are visible, with a plain envelope beside the bag.','图中可见闭合前幅、拉链路径和短侧提手，袋旁为素色信封。','Se ven el panel frontal cerrado, el recorrido de la cremallera y las asas laterales cortas; hay un sobre liso al lado.')}
+ image:{
+  "file": "images/editorial/2026-10-30-cover-repairs/repeat-order-insulated-bag-change-review.webp",
+  "kind": "illustration",
+  "alt": {
+    "en": "Open navy carrier behind blank PREVIOUS and PROPOSED comparison records linked to lining, zipper and side handle",
+    "zh": "敞开海军蓝配送包前，两张PREVIOUS与PROPOSED空白记录连接内衬、拉链和侧提手",
+    "es": "Bolsa azul abierta detrás de registros vacíos PREVIOUS y PROPOSED vinculados a forro, cremallera y asa lateral"
+  },
+  "caption": {
+    "en": "Blank comparison records for a proposed review; these are not documents from a previous customer order.",
+    "zh": "拟定复核使用的空白对照记录，不是真实历史客户订单文件。",
+    "es": "Registros vacíos para una revisión propuesta; no son documentos de un pedido anterior de un cliente."
+  }
+}
 }
 export default article

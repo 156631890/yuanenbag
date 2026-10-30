@@ -171,18 +171,18 @@ const article: EditorialArticle = {
     "insulated-catering-bags"
   ],
   "image": {
-    "file": "images/editorial/2026-10-28/closed-navy-front-opening-catering-bag.webp",
-    "kind": "illustration",
-    "alt": {
-      "en": "Dry closed navy rectangular catering bag with a front zipper outline and a short black side handle on a light gray surface",
-      "zh": "浅灰台面上干燥闭合的海军蓝长方形餐盘包，带前部拉链轮廓及黑色短侧提手",
-      "es": "Bolsa rectangular de catering azul marino, seca y cerrada, con contorno de cremallera frontal y asa lateral negra sobre superficie gris clara"
-    },
-    "caption": {
-      "en": "Closed catering-bag concept in a dry setting; no rain exposure or waterproof result is depicted.",
-      "zh": "干燥环境中的闭合餐盘包构想，不展示雨水暴露或防水结果。",
-      "es": "Concepto de bolsa cerrada en un entorno seco; no muestra exposición a lluvia ni resultado de impermeabilidad."
-    }
+  "file": "images/editorial/2026-10-30-cover-repairs/delivery-cooler-external-rain-exposure-brief.webp",
+  "kind": "illustration",
+  "alt": {
+    "en": "A dry navy carrier with pointers to zipper, seam and lower edge beside a rain-cloud symbol",
+    "zh": "干燥的海军蓝配送包，箭头指向拉链、接缝和下缘，旁边有雨云图标",
+    "es": "Bolsa azul marino seca con indicadores de cremallera, costura y borde inferior junto a un icono de lluvia"
+  },
+  "caption": {
+    "en": "Proposed rain-exposure observation points on a dry sample; no water-resistance result is shown.",
+    "zh": "干燥样品上的拟定雨淋观察位置，不展示防水结果。",
+    "es": "Puntos propuestos de observación sobre una muestra seca; no se representa un resultado de resistencia al agua."
   }
+}
 }
 export default article

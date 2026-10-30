@@ -222,18 +222,18 @@ const article: EditorialArticle = {
     "insulated-catering-bags"
   ],
   "image": {
-    "file": "images/editorial/2026-10-25/empty-navy-carrier-separate-tray.webp",
-    "kind": "illustration",
-    "alt": {
-      "en": "An empty navy front-opening carrier with silver lining and a separate empty aluminum tray",
-      "zh": "一个空的海军蓝前开式包，内衬为银色，旁边单独放着空铝餐盘",
-      "es": "Bolsa azul marino de apertura frontal vacía con interior plateado y una bandeja de aluminio vacía aparte"
-    },
-    "caption": {
-      "en": "Empty carrier and separate tray prop. The image shows no load test, capacity rating or supplied-tray commitment.",
-      "zh": "空包与独立餐盘道具，画面不展示载荷试验、额定容量或餐盘供货承诺。",
-      "es": "Bolsa vacía y bandeja de demostración separada. No muestra ensayo de carga, capacidad nominal ni compromiso de suministro de bandeja."
-    }
+  "file": "images/editorial/2026-10-30-cover-repairs/insulated-bag-carrying-load-requirement-brief.webp",
+  "kind": "illustration",
+  "alt": {
+    "en": "A front-opening carrier and separate tray beside a side-handle attachment detail",
+    "zh": "前开式配送包与独立餐盘，旁边展示侧提手连接细节",
+    "es": "Bolsa de abertura frontal y bandeja separada junto a un detalle de fijación del asa lateral"
+  },
+  "caption": {
+    "en": "Fit review and handle-load evidence are separate questions; no load rating or completed test is represented.",
+    "zh": "适配核对与提手载荷证据是不同问题，不展示额定承重或已完成测试。",
+    "es": "El ajuste y la evidencia de carga del asa son cuestiones separadas; no se representa capacidad nominal ni ensayo realizado."
   }
+}
 }
 export default article

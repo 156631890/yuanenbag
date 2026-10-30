@@ -87,11 +87,19 @@ const article: EditorialArticle = {
   ],
   relatedProducts: ['foil-insulated-box-liners', 'insulated-pizza-delivery-bags', 'insulated-catering-bags'],
   image: {
-    file: 'images/editorial/2026-10-10/insulated-packaging-carton-workbench.webp',
-    alt: t('An open cardboard carton with a crinkled silver liner on a wooden packing bench', '木质打包台上放着一个带褶皱银色内衬的敞口纸箱', 'Caja de cartón abierta con un revestimiento plateado arrugado sobre una mesa de embalaje de madera'),
-    caption: t('A generic lined carton on a packing bench. It does not depict a verified YUANEN order or a compliance test.', '打包台上的通用内衬纸箱，不代表已核验的远恩订单或合规测试。', 'Caja genérica con revestimiento sobre una mesa de embalaje. No representa un pedido verificado de YUANEN ni un ensayo de conformidad.'),
-    kind: 'illustration',
+  "file": "images/editorial/2026-10-30-cover-repairs/eu-packaging-rules-insulated-bag-buyers.webp",
+  "alt": {
+    "en": "White foam box with folded foil liner and separate lid on a neutral background",
+    "zh": "中性背景上的白色泡沫箱、折叠铝箔内衬与独立箱盖",
+    "es": "Caja blanca de espuma con revestimiento de aluminio plegado y tapa separada sobre fondo neutro"
   },
+  "caption": {
+    "en": "Packaging components for discussion; the image does not establish regulatory compliance or recyclability.",
+    "zh": "用于讨论的包装组件，图片不代表法规合规或可回收性证明。",
+    "es": "Componentes para discusión; la imagen no acredita cumplimiento normativo ni reciclabilidad."
+  },
+  "kind": "illustration"
+},
 }
 
 export default article

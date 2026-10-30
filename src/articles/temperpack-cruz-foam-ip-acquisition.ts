@@ -35,9 +35,19 @@ const article: EditorialArticle = {
     { title: t('YUANEN box-liner structure and quoted scope', '远恩箱内衬结构与报价范围', 'Estructura y alcance cotizado del forro YUANEN'), url: 'https://yuanenbag.com/products/foil-insulated-box-liners/' },
   ],
   relatedProducts: ['foil-insulated-box-liners'],
-  image: { file: 'images/editorial/2026-10-16/plain-parcels-dispatch-workbench.webp', kind: 'illustration',
-    alt: t('Two plain closed cartons beside a stack of folded corrugated cartons on a packing bench', '装箱台面上两只封好的无标识纸箱，旁边叠放着折平的瓦楞纸箱', 'Dos cajas lisas cerradas junto a una pila de cajas de cartón plegadas sobre una mesa de embalaje'),
-    caption: t('Closed cartons and folded corrugated cartons on a packing bench.', '装箱台面上的封好纸箱与折平瓦楞纸箱。', 'Cajas cerradas y cartón plegado sobre una mesa de embalaje.'),
+  image: {
+  "file": "images/editorial/2026-10-30-cover-repairs/temperpack-cruz-foam-ip-acquisition.webp",
+  "kind": "illustration",
+  "alt": {
+    "en": "Documents labelled IP, ITEM and SUPPLIER connected by dotted lines and question marks",
+    "zh": "标有IP、ITEM和SUPPLIER的文件，以虚线和问号连接",
+    "es": "Documentos IP, ITEM y SUPPLIER conectados mediante líneas de puntos e interrogantes"
   },
+  "caption": {
+    "en": "Generic relationship between intellectual property, quoted item and supplying party; not company documents or a proprietary material sample.",
+    "zh": "通用知识产权、报价产品与供货主体关系图，不是企业文件或专有材料样品。",
+    "es": "Relación genérica entre propiedad intelectual, artículo cotizado y proveedor; no son documentos de empresa ni una muestra propietaria."
+  }
+},
 }
 export default article

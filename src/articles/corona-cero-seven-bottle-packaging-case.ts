@@ -49,9 +49,18 @@ const article: EditorialArticle = {
   ],
   relatedProducts: ['insulated-beverage-delivery-bags'],
   image: {
-    file: 'images/editorial/2026-10-22/plain-retail-carton-in-corrugated-outer.webp', kind: 'illustration',
-    alt: t('A plain closed white carton inside an open brown corrugated shipping box on a grey packing counter', '灰色打包台上，敞开的棕色瓦楞运输箱内放着普通闭合白色纸盒', 'Una caja blanca lisa cerrada dentro de una caja de transporte marrón de cartón ondulado abierta sobre una mesa gris'),
-    caption: t('Generic inner carton and transport outer. The scene does not show the Corona Cero project or a YUANEN product.', '通用内纸盒与运输外箱，画面不展示Corona Cero项目或远恩产品。', 'Caja interior y embalaje exterior genéricos. La escena no muestra el proyecto de Corona Cero ni un producto YUANEN.'),
+  "file": "images/editorial/2026-10-30-cover-repairs/corona-cero-seven-bottle-packaging-case.webp",
+  "kind": "illustration",
+  "alt": {
+    "en": "Seven unbranded glass bottles in a divided kraft carrier beside a corrugated carton",
+    "zh": "七个无品牌玻璃瓶装在分隔牛皮纸提盒内，旁边为瓦楞纸箱",
+    "es": "Siete botellas de vidrio sin marca en un portabotellas kraft con divisores junto a una caja de cartón"
   },
+  "caption": {
+    "en": "Generic seven-bottle packaging composition; not a photograph of the Corona Cero project or a supplied YUANEN product.",
+    "zh": "通用七瓶包装组合，并非 Corona Cero 项目照片或远恩供货产品证明。",
+    "es": "Composición genérica de siete botellas; no es una fotografía del proyecto Corona Cero ni prueba de suministro de YUANEN."
+  }
+},
 }
 export default article

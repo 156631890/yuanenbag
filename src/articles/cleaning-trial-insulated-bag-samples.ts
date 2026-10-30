@@ -19,6 +19,19 @@ const article:EditorialArticle = {
  ],
  sources:[{title:t('YUANEN catering bag construction and sample boundaries','远恩餐盘配送包结构与样品边界','Construcción y límites de la muestra de catering de YUANEN'),url:'https://yuanenbag.com/products/insulated-catering-bags/'},{title:t('YUANEN material specification guide','远恩保温袋材质规格指南','Guía de especificaciones de materiales de YUANEN'),url:'https://yuanenbag.com/guides/insulated-bag-materials/'}],
  relatedProducts:['insulated-catering-bags'],
- image:{file:'images/editorial/2026-10-15/open-catering-bag-folded-cloth.webp',kind:'illustration',alt:t('Empty navy front-opening bag with silver lining and a folded pale cloth beside it','空的深蓝前开式银色内衬袋，旁边放着一块折叠浅色布','Bolsa azul marino vacía con apertura frontal, forro plateado y un paño claro doblado al lado'),caption:t('An open front panel exposes the lining and lower fold; a folded cloth sits beside the empty bag.','前幅展开后可见内衬和下部折合处，空袋旁放着折叠布。','El panel abierto deja ver el forro y el pliegue inferior; un paño doblado está al lado de la bolsa vacía.')}
+ image:{
+  "file": "images/editorial/2026-10-30-cover-repairs/cleaning-trial-insulated-bag-samples.webp",
+  "kind": "illustration",
+  "alt": {
+    "en": "Empty front-opening carrier with pointers to an inner seam and lower corner beside a dry folded cloth",
+    "zh": "空置前开式配送包，标记内缝与下角，旁边放干燥折叠布巾",
+    "es": "Bolsa frontal vacía con indicadores de costura interior y esquina inferior junto a un paño seco doblado"
+  },
+  "caption": {
+    "en": "Access and seam-inspection arrangement only; no cleaning, disinfection or drying method is approved by the image.",
+    "zh": "仅说明开口及接缝检查位置；图片不批准清洁、消毒或干燥方法。",
+    "es": "Solo acceso e inspección de uniones; la imagen no aprueba limpieza, desinfección ni secado."
+  }
+}
 }
 export default article

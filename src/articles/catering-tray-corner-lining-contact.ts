@@ -16,8 +16,19 @@ const article: EditorialArticle = {
     {title:t('YUANEN front-opening tray-fit checks','远恩前开式餐盘装取适配检查','Comprobaciones de ajuste y acceso frontal de YUANEN'),url:'https://yuanenbag.com/guides/catering-bag-front-opening-tray-fit/'},
     {title:t('YUANEN material specification and test boundaries','远恩材料规格与试验边界','Especificación de materiales y límites de ensayo de YUANEN'),url:'https://yuanenbag.com/guides/insulated-bag-materials/'},
   ],relatedProducts:['insulated-catering-bags'],
-  image:{file:'images/editorial/2026-10-19/open-navy-carrier-lidded-aluminium-tray.webp',kind:'illustration',
-    alt:t('An open navy catering carrier with a folded-down front, silver foil lining and one lidded aluminium tray inside','前幅下折打开的深蓝餐盘配送包，银色铝箔内衬中放置一个带盖铝制餐盘','Bolsa de catering azul marino abierta con panel frontal abatido, forro plateado y una bandeja de aluminio con tapa dentro'),
-    caption:t('Lidded tray inside an open carrier. Tray is a prop; lining construction and fit require sample confirmation.','打开的配送包内放置带盖餐盘。餐盘为道具，内衬结构与适配需通过样品确认。','Bandeja con tapa dentro de la bolsa abierta. Es un accesorio de escena; confirme construcción del forro y ajuste con una muestra.')},
+  image:{
+  "file": "images/editorial/2026-10-30-cover-repairs/catering-tray-corner-lining-contact.webp",
+  "kind": "illustration",
+  "alt": {
+    "en": "Closed tray corner and lid rim beside foil lining inside a front-opening carrier",
+    "zh": "前开式配送包内，闭合餐盘的转角及盖沿靠近铝箔内层",
+    "es": "Esquina y borde de tapa de una bandeja cerrada junto al forro de aluminio de una bolsa frontal"
+  },
+  "caption": {
+    "en": "Proposed tray-corner and lining-contact review; actual container geometry and material compatibility require sample checks.",
+    "zh": "拟定餐盘转角及内衬接触核对；真实容器外廓与材料相容性须用样品确认。",
+    "es": "Revisión propuesta de esquina y contacto con el forro; geometría y compatibilidad requieren muestras."
+  }
+},
 }
 export default article

@@ -166,18 +166,18 @@ const article: EditorialArticle = {
     "insulated-catering-bags"
   ],
   "image": {
-    "file": "images/editorial/2026-10-28/navy-catering-bag-material-swatch.webp",
-    "kind": "illustration",
-    "alt": {
-      "en": "Open empty navy front-opening catering bag with silver lining and a small navy material swatch beside it",
-      "zh": "空置海军蓝前开式餐盘包，带银色内衬，旁放一小片海军蓝材料",
-      "es": "Bolsa de catering azul marino vacía y abierta por delante, con interior plateado y un pequeño recorte azul al lado"
-    },
-    "caption": {
-      "en": "Bag and material-swatch concept; no measured basis weight, thickness or bag mass is depicted.",
-      "zh": "袋款与材料片构想，不展示经测量的克重、厚度或整袋重量。",
-      "es": "Concepto de bolsa y recorte de material; no muestra gramaje, espesor ni masa final medidos."
-    }
+  "file": "images/editorial/2026-10-30-cover-repairs/nonwoven-basis-weight-thickness-bag-mass.webp",
+  "kind": "illustration",
+  "alt": {
+    "en": "Three symbols distinguish material area, single-sheet thickness and whole-bag mass",
+    "zh": "三个符号分别区分材料面积、单片厚度与整袋重量",
+    "es": "Tres símbolos diferencian área del material, espesor de una lámina y masa de la bolsa"
+  },
+  "caption": {
+    "en": "Three distinct measurement questions. Symbols contain no measured values or verified material specification.",
+    "zh": "三种不同测量问题；符号不含实测数值，也不确立材料规格。",
+    "es": "Tres preguntas de medición distintas; los símbolos no aportan valores medidos ni una especificación verificada."
   }
+}
 }
 export default article

@@ -22,6 +22,19 @@ const article: EditorialArticle = {
     { title: { en: 'YUANEN refrigerant guide: preparation and complete-pack testing', zh: '远恩冰源指南：预处理与完整包装测试', es: 'Guía de refrigerantes de YUANEN: preparación y ensayo del conjunto' }, url: 'https://yuanenbag.com/guides/ice-pack-selection/' }
   ],
   relatedProducts: ['insulated-ice-cream-delivery-bags'],
-  image: { file: 'images/editorial/2026-10-13/cylindrical-tub-carrier.webp', kind: 'illustration', alt: { en: 'An open purple cylindrical carrier with metallic lining and two handles beside a closed white tub on a stone worktop', zh: '石质台面上，一只带金属内衬和两侧提手的紫色圆筒包打开上盖，旁边放着封盖白色桶', es: 'Bolsa cilíndrica morada abierta con forro metálico y dos asas junto a una tarrina blanca cerrada sobre una encimera' }, caption: { en: 'Generic cylindrical carrier and closed tub. This is not a measured sample or a tested refrigerant arrangement.', zh: '通用圆筒包与封盖桶体，未展示经过测量的样品或测试后的冰源布局。', es: 'Bolsa cilíndrica y tarrina genéricas; no muestran una muestra medida ni una configuración de refrigerante ensayada.' } }
+  image: {
+  "file": "images/editorial/2026-10-30-cover-repairs/icecream-tub-refrigerant-fit.webp",
+  "kind": "illustration",
+  "alt": {
+    "en": "Open plum cylindrical insulated bag beside a closed white tub and two coolant pouches",
+    "zh": "梅紫色圆筒保温包打开，旁边为带盖白桶与两个冷媒袋",
+    "es": "Bolsa térmica cilíndrica morada abierta junto a un recipiente blanco cerrado y dos bolsas refrigerantes"
+  },
+  "caption": {
+    "en": "Proposed sample arrangement; confirm construction, fit and accessories in writing. This image does not establish tested performance.",
+    "zh": "拟定样品配置，结构、适配与配件范围须书面确认；图片不代表性能已经测试。",
+    "es": "Configuración propuesta de muestra; confirme construcción, ajuste y accesorios por escrito. La imagen no acredita prestaciones ensayadas."
+  }
+}
 }
 export default article

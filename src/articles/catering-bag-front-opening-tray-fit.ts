@@ -15,9 +15,19 @@ const article: EditorialArticle = {
     { title: t('YUANEN current front-opening catering carrier proposal', '远恩当前前开式餐盘配送包方案', 'Propuesta actual de bolsa de catering con apertura frontal de YUANEN'), url: 'https://yuanenbag.com/products/insulated-catering-bags/' },
     { title: t('YUANEN order and sample confirmation checklist', '远恩订单与样品确认清单', 'Lista de pedidos y confirmación de muestras de YUANEN'), url: 'https://yuanenbag.com/guides/custom-bag-order-checklist/' },
   ], relatedProducts: ['insulated-catering-bags'],
-  image: { file: 'images/editorial/2026-10-12/navy-front-opening-tray-carrier.webp', kind: 'illustration',
-    alt: t('Navy fabric carrier with an open fold-down front, silver lining, side grips and a lidded aluminium tray on a grey counter', '灰色台面上的深蓝织物包，前幅下折打开，可见银色内衬、侧提手和带盖铝制餐盘', 'Bolsa de tejido azul marino con panel frontal abatido, forro plateado, asas laterales y bandeja de aluminio con tapa sobre una mesa gris'),
-    caption: t('A generic front-opening tray carrier. Tray fit and supporting construction require sample confirmation.', '通用前开式餐盘配送包。餐盘适配和支撑结构需要样品确认。', 'Bolsa genérica de apertura frontal. El ajuste y la estructura de apoyo requieren confirmación con una muestra.'),
+  image: {
+  "file": "images/editorial/2026-10-30-cover-repairs/catering-bag-front-opening-tray-fit.webp",
+  "kind": "illustration",
+  "alt": {
+    "en": "Navy catering bag with front flap lowered and a covered tray partly withdrawn",
+    "zh": "深蓝团餐包前盖向下打开，带盖餐盘部分抽出",
+    "es": "Bolsa azul marino con solapa frontal bajada y bandeja tapada parcialmente extraída"
   },
+  "caption": {
+    "en": "Proposed sample arrangement; confirm construction, fit and accessories in writing. This image does not establish tested performance.",
+    "zh": "拟定样品配置，结构、适配与配件范围须书面确认；图片不代表性能已经测试。",
+    "es": "Configuración propuesta de muestra; confirme construcción, ajuste y accesorios por escrito. La imagen no acredita prestaciones ensayadas."
+  }
+},
 }
 export default article

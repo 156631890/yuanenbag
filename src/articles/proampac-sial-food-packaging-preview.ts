@@ -50,9 +50,18 @@ const article: EditorialArticle = {
   ],
   relatedProducts: ['foil-insulated-box-liners'],
   image: {
-    file: 'images/editorial/2026-10-14/sealed-food-pouches-foil-lined-foam-box.webp', kind: 'illustration',
-    alt: t('Two white sealed pouches inside a silver-lined foam box on a packing counter, with a lidded container beside it', '打包台上，银色内衬泡沫箱内放着两只白色封口平袋，旁边有一个带盖容器', 'Dos bolsas blancas selladas en una caja de espuma con forro plateado sobre una mesa, con un recipiente con tapa al lado'),
-    caption: t('Generic inner packs and a lined foam box. The scene does not show ProAmpac products or the SIAL exhibition.', '通用内包装与带内衬泡沫箱，画面不展示ProAmpac产品或SIAL展会现场。', 'Envases interiores y caja de espuma forrada genéricos. La escena no muestra productos ProAmpac ni la feria SIAL.'),
+  "file": "images/editorial/2026-10-30-cover-repairs/proampac-sial-food-packaging-preview.webp",
+  "kind": "illustration",
+  "alt": {
+    "en": "Unprinted stand-up pouch, flat flexible pouch and clear film roll",
+    "zh": "无印刷自立袋、平口软包装袋和透明薄膜卷",
+    "es": "Bolsa autoportante sin impresión, bolsa plana flexible y rollo de película transparente"
   },
+  "caption": {
+    "en": "Generic food flexible-packaging formats; not ProAmpac samples or a photograph from SIAL.",
+    "zh": "通用食品软包装形式，不代表 ProAmpac 样品或 SIAL 展会现场照片。",
+    "es": "Formatos genéricos de envases flexibles alimentarios; no son muestras ProAmpac ni una fotografía de SIAL."
+  }
+},
 }
 export default article

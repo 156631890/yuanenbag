@@ -16,8 +16,19 @@ const article: EditorialArticle = {
     {title:t('YUANEN horizontal tray-access checks','远恩餐盘水平装取检查','Comprobaciones de acceso horizontal de bandejas de YUANEN'),url:'https://yuanenbag.com/guides/catering-bag-front-opening-tray-fit/'},
     {title:t('YUANEN order and sample confirmation','远恩订单与样品确认','Confirmación de pedidos y muestras de YUANEN'),url:'https://yuanenbag.com/guides/custom-bag-order-checklist/'},
   ],relatedProducts:['insulated-catering-bags'],
-  image:{file:'images/editorial/2026-10-19/navy-carrier-stainless-platform-trolley.webp',kind:'illustration',
-    alt:t('A closed navy catering carrier with a short black side grip resting on a stainless-steel platform trolley','带黑色短侧提手的深蓝餐盘配送包闭合放置在不锈钢平台推车上','Bolsa de catering azul marino cerrada con asa lateral negra corta sobre un carro de plataforma de acero inoxidable'),
-    caption:t('Closed carrier on a platform trolley. Trolley is a prop; fit and handling require sample confirmation.','平台推车上的闭合配送包。推车为道具，适配与搬运需通过样品确认。','Bolsa cerrada sobre un carro de plataforma. El carro es un accesorio de escena; confirme ajuste y manejo con una muestra.')},
+  image:{
+  "file": "images/editorial/2026-10-30-cover-repairs/catering-bag-trolley-shelf-clearance.webp",
+  "kind": "illustration",
+  "alt": {
+    "en": "Navy carrier fully supported on a stainless platform trolley with visible wheels and push handle",
+    "zh": "海军蓝配送包完整放在不锈钢平台推车上，脚轮和推把可见",
+    "es": "Bolsa azul marino apoyada completamente sobre un carro de acero con ruedas y manillar visibles"
+  },
+  "caption": {
+    "en": "Generic platform-clearance arrangement. Trolley, fit and carrying load require separate sample checks.",
+    "zh": "通用平台余量构图；推车、适配与搬运载荷须分别用样品核验。",
+    "es": "Disposición genérica sobre plataforma; carro, ajuste y carga requieren comprobaciones independientes con muestras."
+  }
+},
 }
 export default article

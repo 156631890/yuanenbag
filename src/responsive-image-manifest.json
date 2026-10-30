@@ -11004,5 +11004,855 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-30-cover-repairs/glass-meal-container-protection-review.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/053d811994fb-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/23903e92034c-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/a6d9e3b039a2-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/7754cb24ab2f-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/c9bb00bf20c8-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/74251add0706-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/afd5a2fc1e4f-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-10-30-cover-repairs/beverage-delivery-bag-cup-divider-fit.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/4513ba5f6a0c-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/0118c4d607ff-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/11f8670b8b6b-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/e483a246f058-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/b6c09ecb07e6-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/0a814bb260f8-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/6fb22af2c171-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-10-30-cover-repairs/catering-bag-front-opening-tray-fit.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/a503be1e2bfe-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/bc1b9c767b67-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/04d163417529-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/ce3cfdd8064b-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/8d4ae67aedbc-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/b1f04f50b001-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/6ede835f08ef-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-10-30-cover-repairs/pizza-delivery-bag-packout-checklist.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/f1f038369d1a-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/47df70bf3430-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/3ae2f640b4a8-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/4b924937c933-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/74867a7e39f4-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/ccd27ea1e7cb-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/4cb3b7266d0f-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-10-30-cover-repairs/insulated-shopping-bags-frozen-food.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/2c46bb075a24-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/98c7d10a475f-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/cc556f0fdd10-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/49905be1cef0-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/9a5458a4cbef-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/a6542dd35d55-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/a5d356994fe3-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-10-30-cover-repairs/spain-bonded-cold-storage-packaging-handoff.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/47215b991ddc-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/fa6134c334a8-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/b836170c4f71-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/e09655cbab39-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/10ea1c561e6e-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/8a49079e368c-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/c39d93885b4b-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-10-30-cover-repairs/eu-packaging-rules-insulated-bag-buyers.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/28888d84dad2-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/5e924984ca07-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/64746878aa8f-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/b009544291aa-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/56552cd32cfc-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/872305148d80-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/ff59a5c7b323-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-10-30-cover-repairs/packout-temperature-sensor-position-record.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/a2536b81d3a8-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/d38ad660615d-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/d8a9873543bc-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/ece1ca46590d-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/074cf240f9a6-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/95dafb19e835-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/ef39be08bdc2-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-10-30-cover-repairs/coolant-dispatch-preparation-record.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/4b6dcef8412f-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/2d1cb64edc7d-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/a8b1ce8baeab-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/ce28c8e2c923-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/393f51569496-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/b3765e8abcfc-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/edc6cab17088-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-10-30-cover-repairs/delivery-bag-label-placement-trial.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/4418255f49ee-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/c594ef3798fb-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/a4304f2d4db0-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/f04514c4ad8b-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/4758b0dd6654-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/0a2c307aa268-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/0f6c10de03df-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-10-30-cover-repairs/flat-packed-insulated-bag-storage-brief.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/488da98a50dc-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/bb2b98a3dd4e-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/1bd3218dbc81-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/5d9ecf4112f4-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/08ab0f5594c0-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/090ecce437f9-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/5d9209708c44-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-10-30-cover-repairs/icecream-tub-refrigerant-fit.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/17cbd0af8eae-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/de79d21c782c-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/ece045f5b7ac-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/c6b1a73108c0-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/6d6828c1b663-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/2d6469701d12-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/5bb238ad3177-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-10-30-cover-repairs/corona-cero-seven-bottle-packaging-case.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/b499d3f30fd6-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/a0851268ed29-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/36212975ff82-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/1d75e4b6199f-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/5fc4219c61d8-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/9185eb1b0687-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/3bf370b383d9-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-10-30-cover-repairs/proampac-sial-food-packaging-preview.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/8f6f6df727a6-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/fd627aeda054-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/e337b98154f7-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/2267824bce41-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/07a3e72e21c5-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/d6863d746a22-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/1bfb35d96e62-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-10-30-cover-repairs/delivery-cooler-external-rain-exposure-brief.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/4f6a1efb85ae-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/c73320c53d56-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/fb226a63e5e2-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/c17cb947eb0b-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/bfe0bb398dad-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/b1e18ad15c13-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/6cfe33254015-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-10-30-cover-repairs/nonwoven-basis-weight-thickness-bag-mass.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/2609055978c2-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/fcc734d0f748-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/51a7af9726cf-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/5c5ac99ce043-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/2d517a8699fa-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/dc5ab3069d04-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/45160b0e33de-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-10-30-cover-repairs/insulated-bag-carrying-load-requirement-brief.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/cbe35b0b0be2-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/64e971469f7a-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/ccd9f6f6cf54-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/d3bb122aafc2-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/035d38568fbd-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/15d6b55d6662-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/d74279f5b8ab-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-10-30-cover-repairs/insulated-bag-print-colour-reference-proof.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/ff22399b07db-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/55c041aeec41-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/949a7f442193-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/9da262701006-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/6c889a1f3c55-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/ce592811b6da-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/d222faca188f-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-10-30-cover-repairs/catering-bag-trolley-shelf-clearance.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/48dca58c1fa2-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/72806534c21f-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/f30352a77cee-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/994d0b0245ff-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/a9be7325987a-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/dbc0b476f48d-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/55bfce0d919b-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-10-30-cover-repairs/catering-tray-corner-lining-contact.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/0a0291cbefbb-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/4eea3f7d46a3-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/26e1fde8299c-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/b0e1e9a776c3-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/c7b43bc52d34-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/cab2a9aaf6b9-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/198a9d9fc055-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-10-30-cover-repairs/multi-stop-delivery-bag-opening-trial.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/d0efbbb807f5-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/b01499e20ca1-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/cf9f50fa89c4-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/0c6e2b736458-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/52461364f453-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/459af725f87b-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/812eaa79500a-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-10-30-cover-repairs/cleaning-trial-insulated-bag-samples.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/4eadc48b8e82-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/57b9f5c9bdc6-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/8979a1782fd5-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/09d6b60d64fb-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/5cf97ea83d88-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/868bc004cbf4-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/478b0836af35-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-10-30-cover-repairs/repeat-order-insulated-bag-change-review.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/d8a290dfcaa8-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/6aa05ae8b614-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/0425fd553441-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/a74b9482b36b-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/abc674e68776-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/06bb1ad9d386-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/a421659220cc-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-10-30-cover-repairs/meal-prep-container-stack-fit.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/56a89fe9e759-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/7ce57a5f11cb-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/46bef3ff9280-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/c466347f16a1-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/87f5db62d483-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/5dfdf5b3d3ad-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/a4627c72459b-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-10-30-cover-repairs/temperpack-cruz-foam-ip-acquisition.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/24b4d396a999-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/50984e6775d0-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/360569c65f5a-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/bcb43ce6cc50-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/a5604ea2f72f-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/831efdf23561-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/edf059e3e03f-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

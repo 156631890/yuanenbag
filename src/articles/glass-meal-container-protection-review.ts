@@ -15,6 +15,19 @@ const article: EditorialArticle = {
     { title: t('YUANEN current meal-prep bag, construction and supply boundaries', '远恩当前备餐包结构及供货边界', 'Construcción y límites de suministro de la bolsa de comidas de YUANEN'), url: 'https://yuanenbag.com/products/insulated-meal-prep-bags/' },
     { title: t('YUANEN material, lining and closure overview', '远恩材质、内衬与封口概览', 'Resumen de materiales, forros y cierres de YUANEN'), url: 'https://yuanenbag.com/guides/insulated-bag-materials/' },
   ], relatedProducts: ['insulated-meal-prep-bags'],
-  image: { file: 'images/editorial/2026-10-22/olive-meal-bag-glass-container.webp', kind: 'illustration', alt: t('Open olive meal-prep bag with one empty silver-lined chamber and a separate lidded glass container on a light gray surface', '浅灰台面上的橄榄绿备餐包，顶盖打开，银色单仓为空，旁边另放一个带盖玻璃餐盒', 'Bolsa verde oliva abierta con una cámara plateada vacía y un recipiente de vidrio con tapa colocado aparte sobre superficie gris clara'), caption: t('Meal-bag and glass-container concept. The container is a prop; the scene does not demonstrate fit, cushioning or breakage resistance.', '备餐包与玻璃餐盒构想。餐盒为道具，画面不证明尺寸适配、缓冲或防破裂能力。', 'Concepto de bolsa y recipiente de vidrio. El recipiente es un accesorio de presentación; la escena no demuestra encaje, amortiguación ni resistencia a rotura.') },
+  image: {
+  "file": "images/editorial/2026-10-30-cover-repairs/glass-meal-container-protection-review.webp",
+  "kind": "illustration",
+  "alt": {
+    "en": "Open olive nonwoven bag with foil lining beside a closed glass container and separator",
+    "zh": "橄榄绿无纺布备餐包打开铝箔内层，旁边放封盖玻璃餐盒及隔离片",
+    "es": "Bolsa verde oliva de tejido no tejido abierta con forro de aluminio junto a un recipiente de vidrio cerrado y un separador"
+  },
+  "caption": {
+    "en": "Proposed sample arrangement; confirm construction, fit and accessories in writing. This image does not establish tested performance.",
+    "zh": "拟定样品配置，结构、适配与配件范围须书面确认；图片不代表性能已经测试。",
+    "es": "Configuración propuesta de muestra; confirme construcción, ajuste y accesorios por escrito. La imagen no acredita prestaciones ensayadas."
+  }
+},
 }
 export default article

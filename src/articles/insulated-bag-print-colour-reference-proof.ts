@@ -146,18 +146,18 @@ const article: EditorialArticle = {
     "insulated-catering-bags"
   ],
   "image": {
-    "file": "images/editorial/2026-10-25/navy-carrier-loose-colour-cards.webp",
-    "kind": "illustration",
-    "alt": {
-      "en": "A closed navy front-opening carrier with short side grips and two loose plain colour cards",
-      "zh": "一个闭合的海军蓝前开式包，带两侧短提手，旁边放两张素色卡片",
-      "es": "Bolsa azul marino de apertura frontal cerrada con asideros laterales cortos y dos tarjetas de color lisas"
-    },
-    "caption": {
-      "en": "Unprinted carrier and loose cards. No printed colour proof, colour-system reference or exact-match result is shown.",
-      "zh": "未印刷包体与散放卡片，不展示实际印样、色标体系参考或准确配色结果。",
-      "es": "Bolsa sin imprimir y tarjetas sueltas. No muestra una prueba impresa, referencia de sistema cromático ni resultado de coincidencia exacta."
-    }
+  "file": "images/editorial/2026-10-30-cover-repairs/insulated-bag-print-colour-reference-proof.webp",
+  "kind": "illustration",
+  "alt": {
+    "en": "Paper colour reference beside a separate printed rectangle on a nonwoven sample",
+    "zh": "纸色参考卡旁，独立无纺布样片上印有一块色块",
+    "es": "Referencia de color en papel junto a un rectángulo impreso sobre una muestra no tejida"
+  },
+  "caption": {
+    "en": "Generic paper-versus-material colour comparison; no approved print match or actual order sample is established.",
+    "zh": "通用纸张与材料对色构图，不代表已批准的印刷匹配或真实订单样品。",
+    "es": "Comparación genérica de color en papel y material; no acredita una impresión aprobada ni una muestra de pedido real."
   }
+}
 }
 export default article

@@ -32,8 +32,19 @@ const article: EditorialArticle = {
     {title:t('YUANEN order and sample confirmation','远恩订单与样品确认','Confirmación de pedidos y muestras de YUANEN'),url:'https://yuanenbag.com/guides/custom-bag-order-checklist/'},
   ],
   relatedProducts:['insulated-catering-bags'],
-  image:{file:'images/editorial/2026-10-19/open-navy-carrier-empty-foil-interior.webp',kind:'illustration',
-    alt:t('An empty navy carrier with its front flap folded down, a creased silver foil lining and a short black side grip','深蓝配送包的前幅下折展开，可见空置的褶皱银色铝箔内衬和黑色短侧提手','Bolsa azul marino vacía con panel frontal abatido, forro plateado de aluminio arrugado y asa lateral negra corta'),
-    caption:t('Open front and empty foil-lined compartment. Construction and fit require sample confirmation.','展开的前幅与空置铝箔内衬仓。结构及适配需通过样品确认。','Panel frontal abierto y compartimento vacío con forro de aluminio. Confirme construcción y ajuste con una muestra.')},
+  image:{
+  "file": "images/editorial/2026-10-30-cover-repairs/packout-temperature-sensor-position-record.webp",
+  "kind": "illustration",
+  "alt": {
+    "en": "Open navy catering bag with tray, two sensor positions and an external recorder",
+    "zh": "打开的深蓝团餐包内放餐盘，展示两处传感器位置及包外记录器",
+    "es": "Bolsa azul marino abierta con bandeja, dos posiciones de sensores y un registrador externo"
+  },
+  "caption": {
+    "en": "Proposed sensor positions only; no temperature reading or completed test is represented.",
+    "zh": "仅展示拟定测点位置，不代表温度读数或已经完成的测试。",
+    "es": "Solo posiciones propuestas de sensores; no representa lecturas ni ensayos realizados."
+  }
+},
 }
 export default article
