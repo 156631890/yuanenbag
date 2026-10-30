@@ -555,6 +555,21 @@
     }
   },
   {
+    "kind": "industry",
+    "slug": "holmen-incada-duo-laminated-paperboard",
+    "publishedAt": "2026-10-30",
+    "title": {
+      "en": "Holmen Presents UK-Made Incada Duo Laminated Paperboard",
+      "zh": "Holmen介绍英国产Incada Duo复合折叠纸板",
+      "es": "Holmen presenta el cartoncillo laminado Incada Duo fabricado en el Reino Unido"
+    },
+    "description": {
+      "en": "Holmen’s public post introduces Incada Duo laminated folding box board. Separate sheet-board selection, converted-carton requirements and an outer delivery carrier.",
+      "zh": "Holmen公开帖文介绍Incada Duo复合折叠纸板。采购时应分清片材选择、加工纸盒要求与外层配送袋，不能把纸板复合结构当作配送袋保温规格。",
+      "es": "Holmen presenta Incada Duo en una publicación pública. Distinga la selección del cartoncillo, la caja transformada y la bolsa exterior de reparto."
+    }
+  },
+  {
     "kind": "guide",
     "slug": "ice-pack-delivery-state-quotation",
     "publishedAt": "2026-10-29",

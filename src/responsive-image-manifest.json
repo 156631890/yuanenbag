@@ -10970,5 +10970,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-30/board-carton-carrier-stages.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/f3a013999aaa-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/bd0a78561e7c-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/d3e0f66d1315-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/1053fd76964b-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/2a1c8a28f278-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/df1f9c21f790-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/4b874b551b1e-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

@@ -295,6 +295,14 @@
       "es": "Tres tarjetas OWNER, LAYER y PACK con iconos de edificio, capas y documento conectados por interrogantes"
     }
   },
+  "holmen-incada-duo-laminated-paperboard": {
+    "file": "images/editorial/2026-10-30/board-carton-carrier-stages.webp",
+    "alt": {
+      "en": "Flat pale board sheets, a closed plain folding carton and an open kraft carrier with short paper handles, labelled BOARD, CARTON and CARRIER",
+      "zh": "浅色平纸板、闭合的素面折叠纸盒，以及短纸提手敞口牛皮纸袋，分别标有BOARD、CARTON和CARRIER",
+      "es": "Hojas claras de cartoncillo, una caja plegable lisa cerrada y una bolsa kraft abierta con asas cortas, rotuladas BOARD, CARTON y CARRIER"
+    }
+  },
   "ice-pack-delivery-state-quotation": {
     "file": "images/editorial/2026-10-29/plain-single-coolant-pouch.webp",
     "alt": {

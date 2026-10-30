@@ -333,6 +333,15 @@
     }
   },
   {
+    "kind": "industry",
+    "slug": "holmen-incada-duo-laminated-paperboard",
+    "title": {
+      "en": "Holmen Presents UK-Made Incada Duo Laminated Paperboard",
+      "zh": "Holmen介绍英国产Incada Duo复合折叠纸板",
+      "es": "Holmen presenta el cartoncillo laminado Incada Duo fabricado en el Reino Unido"
+    }
+  },
+  {
     "kind": "guide",
     "slug": "ice-pack-delivery-state-quotation",
     "title": {
