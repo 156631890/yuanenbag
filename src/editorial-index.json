@@ -691,6 +691,21 @@
   },
   {
     "kind": "guide",
+    "slug": "insulated-bag-thermal-report-comparison",
+    "publishedAt": "2026-10-31",
+    "title": {
+      "en": "Match Conditions Before Comparing Insulated-Bag Test Reports",
+      "zh": "比较保温包测试报告前，先对齐试验条件",
+      "es": "Alinee las condiciones antes de comparar informes de bolsas térmicas"
+    },
+    "description": {
+      "en": "Compare insulated-bag thermal reports by matching the sample, loaded contents, coolant preparation, exposure and measurement conditions before judging reported duration.",
+      "zh": "比较保温包测试报告时，先对齐样品版本、完整装载、冷媒准备、环境与测量条件，再判断时长数据能否作为采购依据。",
+      "es": "Compare informes térmicos de bolsas alineando muestra, carga, preparación del refrigerante, exposición y medición antes de valorar la duración indicada."
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "insulated-material-environmental-claim-evidence",
     "publishedAt": "2026-10-25",
     "title": {

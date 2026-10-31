@@ -415,6 +415,15 @@
   },
   {
     "kind": "guide",
+    "slug": "insulated-bag-thermal-report-comparison",
+    "title": {
+      "en": "Match Conditions Before Comparing Insulated-Bag Test Reports",
+      "zh": "比较保温包测试报告前，先对齐试验条件",
+      "es": "Alinee las condiciones antes de comparar informes de bolsas térmicas"
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "insulated-material-environmental-claim-evidence",
     "title": {
       "en": "Request Separate Evidence for Environmental Material Claims",

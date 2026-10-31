@@ -11854,5 +11854,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-31/two-report-condition-comparison.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/99f54ddbe88f-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/6dc9735ca0a9-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/e0e42e7ac436-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/b2336001709c-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/0c7d1f206ea0-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/a36f02c2f018-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/0a131d0b3692-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

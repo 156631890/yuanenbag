@@ -367,6 +367,14 @@
       "es": "Referencia de color en papel junto a un rectángulo impreso sobre una muestra no tejida"
     }
   },
+  "insulated-bag-thermal-report-comparison": {
+    "file": "images/editorial/2026-10-31/two-report-condition-comparison.webp",
+    "alt": {
+      "en": "Two blank forms labelled A and B align sample, pack-out, coolant, exposure and sensor fields with question marks",
+      "zh": "A、B两张空白表将样品、装载、冷媒、环境与测点字段逐行对齐，中间标有问号",
+      "es": "Dos formularios vacíos A y B alinean campos de muestra, carga, refrigerante, exposición y sensores mediante interrogantes"
+    }
+  },
   "insulated-material-environmental-claim-evidence": {
     "file": "images/editorial/2026-10-25/empty-foam-box-silver-liner.webp",
     "alt": {
