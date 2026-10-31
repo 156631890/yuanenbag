@@ -11888,5 +11888,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-31/produce-contact-film-outer-carry-scope.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/d25f56bc29b4-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/23659b94de03-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/d74fc3cb9062-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/9d895080c426-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/94c3d97191f7-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/78f5a9363e70-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/ec7d94e80fdd-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

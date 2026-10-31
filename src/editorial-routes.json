@@ -721,6 +721,15 @@
   },
   {
     "kind": "industry",
+    "slug": "umd-biobased-produce-wrap-research",
+    "title": {
+      "en": "University of Maryland Reports Bio-Based Wrap Research for Produce",
+      "zh": "马里兰大学公布果蔬生物基包装薄膜研究",
+      "es": "La Universidad de Maryland presenta un estudio sobre envolturas biobasadas para frutas y hortalizas"
+    }
+  },
+  {
+    "kind": "industry",
     "slug": "us-cold-chain-grants-frozen-food-packaging",
     "title": {
       "en": "USDA Announces Cold-Chain Grants for Emergency Food Assistance",

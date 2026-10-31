@@ -1201,6 +1201,21 @@
   },
   {
     "kind": "industry",
+    "slug": "umd-biobased-produce-wrap-research",
+    "publishedAt": "2026-10-31",
+    "title": {
+      "en": "University of Maryland Reports Bio-Based Wrap Research for Produce",
+      "zh": "马里兰大学公布果蔬生物基包装薄膜研究",
+      "es": "La Universidad de Maryland presenta un estudio sobre envolturas biobasadas para frutas y hortalizas"
+    },
+    "description": {
+      "en": "Maryland researchers report bio-based produce-wrap trials. Buyers should retain each trial’s conditions and distinguish contact film from an outer delivery package.",
+      "zh": "马里兰大学公布生物基果蔬薄膜研究。采购评估需保留各项试验条件，并区分果蔬接触薄膜与外层配送包装的适用范围。",
+      "es": "Maryland presenta ensayos de envolturas biobasadas. La evaluación debe conservar sus condiciones y distinguir la película de contacto del embalaje exterior."
+    }
+  },
+  {
+    "kind": "industry",
     "slug": "us-cold-chain-grants-frozen-food-packaging",
     "publishedAt": "2026-10-07",
     "title": {
