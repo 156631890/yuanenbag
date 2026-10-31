@@ -188,9 +188,9 @@ const article: EditorialArticle = {
       },
       "paragraphs": [
         {
-          "en": "Keep an unknown field unresolved and request the underlying record from the responsible test team. For a difference, ask whether it limits the report’s use, needs a documented assessment or calls for another test. Do not adjust the two durations by an invented correction factor. WESTPAK’s published study distinguishes static testing from additional distribution treatments; its findings belong to those tested systems and cannot be applied as a percentage allowance to these bags.",
-          "zh": "未知字段应保留待确认状态，并向负责测试的团队索取原记录。存在差异时，确认其是否限制报告适用范围、需要书面评估，或需要另行试验，不自行编造修正系数来折算两个时长。WESTPAK公布的研究区分静态试验与额外运输处理，其结论属于所测试系统，不能套成这些袋款的百分比修正量。",
-          "es": "Mantenga pendiente cada dato desconocido y solicite el registro al equipo responsable. Ante una diferencia, determine si limita el uso del informe, requiere una evaluación documentada u otro ensayo. No invente un factor para corregir las duraciones. El estudio publicado por WESTPAK distingue ensayos estáticos de tratamientos adicionales de distribución; sus conclusiones pertenecen a esos sistemas, no son un porcentaje aplicable a estas bolsas."
+          "en": "Keep an unknown field unresolved and request the underlying record from the responsible test team. For a difference, ask whether it limits the report’s use, needs a documented assessment or calls for another test. Do not adjust the two durations by an invented correction factor.",
+          "zh": "未知字段应保留待确认状态，并向负责测试的团队索取原记录。存在差异时，确认其是否限制报告适用范围、需要书面评估，或需要另行试验，不自行编造修正系数来折算两个时长。",
+          "es": "Mantenga pendiente cada dato desconocido y solicite el registro al equipo responsable. Ante una diferencia, determine si limita el uso del informe, requiere una evaluación documentada u otro ensayo. No invente un factor para corregir las duraciones."
         },
         {
           "en": "Attach the completed comparison and the proposed pack-out revision to the purchasing record. Confirm the offered materials, dimensions and accessories with the sample and written order. Keep the sensor-position record and coolant-preparation record alongside it so a later revision can be reviewed against the same basis. This comparison does not set food-safety limits, certify a product or promise a delivery temperature.",
@@ -205,31 +205,6 @@ const article: EditorialArticle = {
     "insulated-catering-bags"
   ],
   "sources": [
-    {
-      "title": {
-        "en": "WESTPAK: thermal shipping systems following distribution",
-        "zh": "WESTPAK：经运输处理后的保温运输系统试验",
-        "es": "WESTPAK: sistemas térmicos tras tratamientos de distribución"
-      },
-      "url": "https://westpak.com/results-performance-of-thermal-shipping-systems-following-distribution-ed-1/",
-      "publishedAt": "2023-07-13"
-    },
-    {
-      "title": {
-        "en": "Hydropac: complete-system performance testing",
-        "zh": "Hydropac：完整系统性能测试",
-        "es": "Hydropac: ensayos del sistema completo"
-      },
-      "url": "https://hydropac.co.uk/packaging/insulated-shipping-boxes-vs-thermal-liners-performance-testing/"
-    },
-    {
-      "title": {
-        "en": "Tempcontrolpack: protocol and report review",
-        "zh": "Tempcontrolpack：规程与报告审查",
-        "es": "Tempcontrolpack: revisión del protocolo y del informe"
-      },
-      "url": "https://www.tempcontrolpack.com/knowledge/thermal-packaging-qualification-protocol-and-report-review/"
-    },
     {
       "title": {
         "en": "YUANEN ice-cream delivery-bag proposal",
@@ -276,6 +251,7 @@ const article: EditorialArticle = {
       "zh": "报告条件对照字段；表内没有实测数据或条件等同结论。",
       "es": "Campos conceptuales de comparación; no contienen datos de ensayo ni una conclusión de equivalencia."
     }
-  }
+  },
+  "updatedAt": "2026-10-31"
 }
 export default article

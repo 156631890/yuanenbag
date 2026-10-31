@@ -46,11 +46,6 @@ const article: EditorialArticle = {
       },
       "paragraphs": [
         {
-          "en": "TamperTech describes specialist seals that reveal an opening message and notes that suitability depends on the packaging surface. This is an example of a separately specified mechanism, not evidence that YUANEN’s standard foil pouch includes or accepts that seal. Ask the relevant suppliers to assess the actual pouch surface, fold position and intended conditions together.",
-          "zh": "TamperTech介绍了开启后显现信息的专门封条，并指出适用性与包装表面有关。这说明需要单独规定机制，不证明远恩标准铝箔袋包含或适配该封条。应由相关供应方共同核对实际袋面、折口位置及拟用条件。",
-          "es": "TamperTech describe precintos especializados que revelan un mensaje al abrir y señala que su idoneidad depende de la superficie. Es un mecanismo especificado aparte, no prueba de que la bolsa estándar YUANEN lo incluya o admita. Los proveedores deben evaluar conjuntamente superficie real, posición del pliegue y condiciones previstas."
-        },
-        {
           "en": "Identify the proposed seal or indicator, its supplier and version, the exact surface it touches and how it relates to the pouch closure. Ask whether changes to printing, finish or bag construction require another compatibility review. An illustration or generic label description cannot close these questions, and this guide does not add an accessory to YUANEN’s supply scope.",
           "zh": "标明拟定封条或指示件、供应方及版本、准确接触表面，以及它与袋口闭合的关系。询问印刷、表面处理或袋体结构变化后，是否需重新复核适配。图片或通用标签描述不能解决这些问题，本文也不把附件加入远恩供货范围。",
           "es": "Identifique indicador propuesto, proveedor y versión, superficie de contacto y relación con el cierre. Consulte si cambios de impresión, acabado o construcción requieren nueva revisión de compatibilidad. Una imagen o descripción genérica no resuelve esas preguntas ni incorpora accesorios al suministro YUANEN."
@@ -111,14 +106,6 @@ const article: EditorialArticle = {
         "es": "Bolsas térmicas de aluminio autoadhesivas YUANEN"
       },
       "url": "https://yuanenbag.com/products/self-adhesive-foil-bags/"
-    },
-    {
-      "title": {
-        "en": "TamperTech food-delivery seal mechanisms and surface review",
-        "zh": "TamperTech配送封条机制及表面复核说明",
-        "es": "Mecanismos y revisión de superficies de precintos TamperTech"
-      },
-      "url": "https://tampertech.com/industries/food-and-beverage/fast-food-tamper-evident-security/"
     }
   ],
   "relatedProducts": [
@@ -137,6 +124,7 @@ const article: EditorialArticle = {
       "zh": "普通袋形与顶部白条，画面未展示专门开启指示或已测试的封口性能。",
       "es": "Forma ordinaria de bolsa con franja blanca superior. No muestra un indicador específico de apertura ni prestaciones de cierre ensayadas."
     }
-  }
+  },
+  "updatedAt": "2026-10-31"
 }
 export default article

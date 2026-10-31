@@ -121,11 +121,6 @@ const article: EditorialArticle = {
           "en": "YUANEN’s current catering-bag proposal combines a nonwoven exterior, aluminum foil interior, a front-opening zipper and short side handles. Its published record does not establish a whole-bag rain or waterproof rating. The outer material, sewn seams, front closure and handle attachments are distinct parts of the evidence request. A silver lining or a closed zipper is not a verified rain-protection result.",
           "zh": "远恩当前餐盘包方案为无纺布外层、铝箔内层、前开拉链和短侧提手；发布记录未确立整包防雨或防水等级。外层、缝合接缝、前部闭合和提手连接，是索证时不同的部位。银色内层或已经拉上的拉链，都不是经验证的防雨结果。",
           "es": "La propuesta actual de catering YUANEN combina exterior no tejido, interior de aluminio, cremallera frontal y asas laterales cortas. Su registro publicado no establece una clasificación de lluvia o impermeabilidad del conjunto. Exterior, costuras, cierre y uniones de asas son ámbitos distintos de la solicitud. Un forro plateado o cierre cerrado no constituye un resultado verificado."
-        },
-        {
-          "en": "As a component example, YKK states that AquaGuard NATULON is not completely waterproof and calls for prior quality confirmation. This illustrates why a component name cannot answer a whole-bag use question. It does not mean that YUANEN uses that zipper, offers a compatible substitution or has achieved the component’s performance.",
-          "zh": "作为部件例子，YKK说明AquaGuard NATULON并非完全防水，并要求事前质量确认。这说明部件名称不能回答整包用途问题，不表示远恩采用该拉链、可提供兼容替换，或已达到该部件性能。",
-          "es": "Como ejemplo de componente, YKK indica que AquaGuard NATULON no es completamente impermeable y requiere comprobación previa de calidad. El nombre de un componente no resuelve el uso del conjunto. No implica que YUANEN lo utilice, ofrezca sustitución compatible o alcance su rendimiento."
         }
       ]
     },
@@ -152,14 +147,6 @@ const article: EditorialArticle = {
   "sources": [
     {
       "title": {
-        "en": "YKK AquaGuard NATULON product precautions",
-        "zh": "YKK AquaGuard NATULON产品注意事项",
-        "es": "Precauciones de YKK AquaGuard NATULON"
-      },
-      "url": "https://lyncs.ykkfastening.com/shop/c/cFPF11/"
-    },
-    {
-      "title": {
         "en": "YUANEN catering-bag proposal and limits",
         "zh": "远恩餐盘包方案及边界",
         "es": "Propuesta de catering YUANEN y límites"
@@ -171,18 +158,19 @@ const article: EditorialArticle = {
     "insulated-catering-bags"
   ],
   "image": {
-  "file": "images/editorial/2026-10-30-cover-repairs/delivery-cooler-external-rain-exposure-brief.webp",
-  "kind": "illustration",
-  "alt": {
-    "en": "A dry navy carrier with pointers to zipper, seam and lower edge beside a rain-cloud symbol",
-    "zh": "干燥的海军蓝配送包，箭头指向拉链、接缝和下缘，旁边有雨云图标",
-    "es": "Bolsa azul marino seca con indicadores de cremallera, costura y borde inferior junto a un icono de lluvia"
+    "file": "images/editorial/2026-10-30-cover-repairs/delivery-cooler-external-rain-exposure-brief.webp",
+    "kind": "illustration",
+    "alt": {
+      "en": "A dry navy carrier with pointers to zipper, seam and lower edge beside a rain-cloud symbol",
+      "zh": "干燥的海军蓝配送包，箭头指向拉链、接缝和下缘，旁边有雨云图标",
+      "es": "Bolsa azul marino seca con indicadores de cremallera, costura y borde inferior junto a un icono de lluvia"
+    },
+    "caption": {
+      "en": "Proposed rain-exposure observation points on a dry sample; no water-resistance result is shown.",
+      "zh": "干燥样品上的拟定雨淋观察位置，不展示防水结果。",
+      "es": "Puntos propuestos de observación sobre una muestra seca; no se representa un resultado de resistencia al agua."
+    }
   },
-  "caption": {
-    "en": "Proposed rain-exposure observation points on a dry sample; no water-resistance result is shown.",
-    "zh": "干燥样品上的拟定雨淋观察位置，不展示防水结果。",
-    "es": "Puntos propuestos de observación sobre una muestra seca; no se representa un resultado de resistencia al agua."
-  }
-}
+  "updatedAt": "2026-10-31"
 }
 export default article

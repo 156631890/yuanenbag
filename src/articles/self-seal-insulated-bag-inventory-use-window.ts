@@ -30,11 +30,6 @@ const article: EditorialArticle = {
           "en": "YUANEN’s flat self-adhesive foil bag combines a foil-facing and EPE foam structure, heat-sealed edges and a peel-and-seal flap. Its sample and order define the layer and adhesive arrangement. Ask the supplier to link the finished version, batch identifier and relevant material references before assigning a use window. Do not infer the adhesive supplier or production date from the silver face.",
           "zh": "远恩平袋型自粘铝箔保温袋采用铝箔面层与EPE泡棉复合、热封边及揭纸粘封折口，具体层结构与胶条方案由样品及订单确认。分配使用期限前，请供应方关联成品版本、批次编号及相关材料资料，不从银色外观推断胶粘材料供应商或生产日期。",
           "es": "La bolsa plana YUANEN combina superficie de aluminio y espuma EPE, bordes termosellados y solapa adhesiva con protector. Muestra y pedido definen capas y adhesivo. Antes de asignar un plazo, vincule versión terminada, identificador de lote y referencias de materiales con el proveedor. No deduzca fabricante del adhesivo ni fecha de producción por el aspecto plateado."
-        },
-        {
-          "en": "tesa’s general tape-storage guidance links shelf life to material quality and storage conditions. It concerns adhesive tape, not this finished insulated bag. Its stated periods and conditions cannot be adopted as YUANEN specifications, and the reference does not mean this bag uses tesa adhesive. Obtain instructions for the actual finished construction.",
-          "zh": "tesa的胶带储存资料将储存寿命与材料质量及存放条件联系起来。该资料针对胶带，不是这款成品保温袋；其中期限和条件不能直接作为远恩规格，也不代表本袋使用tesa胶。应取得实际成品结构适用的说明。",
-          "es": "La orientación general de tesa relaciona la vida de almacenamiento de las cintas con materiales y condiciones. No describe esta bolsa térmica terminada. Sus plazos y condiciones no son especificaciones YUANEN ni prueban que se utilice adhesivo tesa. Solicite instrucciones para la construcción real."
         }
       ]
     },
@@ -106,14 +101,6 @@ const article: EditorialArticle = {
         "es": "Bolsas térmicas de aluminio autoadhesivas YUANEN"
       },
       "url": "https://yuanenbag.com/products/self-adhesive-foil-bags/"
-    },
-    {
-      "title": {
-        "en": "tesa general adhesive-tape storage guidance",
-        "zh": "tesa胶带储存通用说明",
-        "es": "Orientación general de tesa sobre almacenamiento de cintas"
-      },
-      "url": "https://www.tesa.com/en-us/about-tesa/press-insights/stories/storing-adhesive-tape-best-practices.html"
     }
   ],
   "relatedProducts": [
@@ -132,6 +119,7 @@ const article: EditorialArticle = {
       "zh": "空平袋与纸带。画面不代表实际库存批次、包装数量或储存寿命。",
       "es": "Bolsas planas vacías con una faja de papel. La escena no acredita lote, cantidad ni vida de almacenamiento reales."
     }
-  }
+  },
+  "updatedAt": "2026-10-31"
 }
 export default article

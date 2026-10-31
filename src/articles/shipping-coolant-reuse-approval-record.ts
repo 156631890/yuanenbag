@@ -40,20 +40,6 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
-        "en": "Read another manufacturer’s limits within its own scope",
-        "zh": "其他厂家的说明只在其自身范围内使用",
-        "es": "Lea los límites de otro fabricante dentro de su alcance"
-      },
-      "paragraphs": [
-        {
-          "en": "Cryopak’s operational article warns about repeated use of single-use gel packs. Integritemp’s FAQ allows reuse of its own gel packs while they remain in good condition without punctures or leaks. These are different product contexts, not a reusable rating for YUANEN’s water-fill or absorbing packs.",
-          "zh": "Cryopak的操作文章提醒关注一次性凝胶冰袋被反复使用的问题；Integritemp的FAQ允许其自家凝胶冰袋在状态良好、未穿孔或泄漏时重复使用。这是各自产品语境，不能变成远恩注水或吸水冰袋的可重复使用额定值。",
-          "es": "El artículo operativo de Cryopak advierte sobre reutilizar acumuladores de gel de un solo uso. La FAQ de Integritemp permite reutilizar sus propios acumuladores en buen estado, sin perforaciones ni fugas. Son contextos distintos, no una calificación de reutilización para los formatos YUANEN."
-        }
-      ]
-    },
-    {
-      "heading": {
         "en": "Keep the reuse basis with the returned batch",
         "zh": "让重复使用依据与回收批次对应",
         "es": "Vincule la base de reutilización al lote devuelto"
@@ -171,22 +157,6 @@ const article: EditorialArticle = {
         "es": "Especificaciones de acumuladores rellenables YUANEN"
       },
       "url": "https://yuanenbag.com/products/water-fill-ice-packs/"
-    },
-    {
-      "title": {
-        "en": "Cryopak operational failure-point discussion",
-        "zh": "Cryopak运输操作风险说明",
-        "es": "Artículo de Cryopak sobre riesgos operativos"
-      },
-      "url": "https://www.cryopak.com/engineering-insight-common-failure-points-in-cold-chain-packaging-and-why-operational-execution-matters/"
-    },
-    {
-      "title": {
-        "en": "Integritemp product-specific FAQ",
-        "zh": "Integritemp自家产品FAQ",
-        "es": "FAQ de productos de Integritemp"
-      },
-      "url": "https://integritemp.com/faqs"
     }
   ],
   "relatedProducts": [
@@ -205,6 +175,7 @@ const article: EditorialArticle = {
       "zh": "袋型与封边画面，不说明配方、重复使用适用性或冻结状态。",
       "es": "Forma y bordes sellados; la imagen no acredita formulación, idoneidad de reutilización ni estado congelado."
     }
-  }
+  },
+  "updatedAt": "2026-10-31"
 }
 export default article

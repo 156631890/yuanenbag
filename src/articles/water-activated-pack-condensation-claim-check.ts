@@ -30,11 +30,6 @@ const article: EditorialArticle = {
           "en": "YUANEN’s side-absorbing page asks buyers to compare the printed face, reverse and sealed edges, identify the water-entry areas on a sample, and confirm preparation instructions. Film and absorbent composition remain to be confirmed. Those observations concern the selected water-activated format, not demonstrated condensation absorption.",
           "zh": "远恩侧吸水冰袋页面要求比较印面、背面及封边，在样品上识别进水区域并确认准备说明；袋膜与吸水内容物成分仍需确认。这些观察针对所选水激活袋型，并非已证明吸收凝露。",
           "es": "La página YUANEN pide comparar cara impresa, reverso y bordes, identificar entradas de agua en la muestra y confirmar preparación. Película y composición absorbente quedan por confirmar. Se refiere al formato activado con agua, no a absorción de condensación demostrada."
-        },
-        {
-          "en": "Integritemp separately describes condensation absorption for its own MAG packs. That product-specific statement illustrates why the two meanings need separate evidence; it does not show that YUANEN uses the same surface or material.",
-          "zh": "Integritemp另外为其自家MAG产品描述吸收凝露功能。这种针对产品的说明提示两种含义需要各自证据，不能说明远恩使用相同表面或材料。",
-          "es": "Integritemp describe por separado absorción de condensación en sus propios MAG. Esta afirmación específica muestra por qué los significados necesitan pruebas distintas; no demuestra el mismo material o superficie en YUANEN."
         }
       ]
     },
@@ -140,14 +135,6 @@ const article: EditorialArticle = {
         "es": "Estructura de muestra del acumulador lateral YUANEN"
       },
       "url": "https://yuanenbag.com/products/side-absorbing-ice-packs/"
-    },
-    {
-      "title": {
-        "en": "Integritemp FAQ describing its own MAG packs",
-        "zh": "Integritemp FAQ中的自家MAG产品说明",
-        "es": "FAQ de Integritemp sobre sus propios MAG"
-      },
-      "url": "https://integritemp.com/faqs"
     }
   ],
   "relatedProducts": [
@@ -166,6 +153,7 @@ const article: EditorialArticle = {
       "zh": "背面与边缘形态，不演示吸水准备或凝露控制性能。",
       "es": "Forma del reverso y bordes, sin demostrar activación con agua ni control de condensación."
     }
-  }
+  },
+  "updatedAt": "2026-10-31"
 }
 export default article

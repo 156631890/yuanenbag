@@ -213,6 +213,7 @@
     "kind": "guide",
     "slug": "coolant-disposal-instruction-product-match",
     "publishedAt": "2026-10-26",
+    "updatedAt": "2026-10-31",
     "title": {
       "en": "Match Coolant Disposal Instructions to the Actual Product",
       "zh": "冰袋的处理说明，要与实际配方和型号对应",
@@ -228,6 +229,7 @@
     "kind": "guide",
     "slug": "cooler-bag-zipper-strength-opening-evidence",
     "publishedAt": "2026-10-28",
+    "updatedAt": "2026-10-31",
     "title": {
       "en": "Request Separate Evidence for Zipper Strength and Repeated Opening",
       "zh": "保温包拉链强度与反复开合应分开核验",
@@ -288,6 +290,7 @@
     "kind": "guide",
     "slug": "daily-shipment-coolant-preparation-capacity",
     "publishedAt": "2026-10-27",
+    "updatedAt": "2026-10-31",
     "title": {
       "en": "Check Coolant Preparation Capacity Before Increasing Daily Shipments",
       "zh": "日发货量增加前，先核对冰袋准备能力",
@@ -333,6 +336,7 @@
     "kind": "guide",
     "slug": "delivery-cooler-external-rain-exposure-brief",
     "publishedAt": "2026-10-28",
+    "updatedAt": "2026-10-31",
     "title": {
       "en": "Define External Rain Exposure for Delivery Coolers",
       "zh": "配送保温包外部雨水暴露要求",
@@ -483,6 +487,7 @@
     "kind": "guide",
     "slug": "foil-metallised-lining-specification",
     "publishedAt": "2026-10-23",
+    "updatedAt": "2026-10-31",
     "title": {
       "en": "A Silver Lining Needs a Layer Specification",
       "zh": "银色内衬询价，要分清铝箔与镀铝膜资料",
@@ -663,6 +668,7 @@
     "kind": "guide",
     "slug": "insulated-bag-carrying-load-requirement-brief",
     "publishedAt": "2026-10-25",
+    "updatedAt": "2026-10-31",
     "title": {
       "en": "Specify Carrying Loads Separately from Insulated-Bag Volume",
       "zh": "保温包能装多少，要把空间与提携载荷分开确认",
@@ -693,6 +699,7 @@
     "kind": "guide",
     "slug": "insulated-bag-print-colour-reference-proof",
     "publishedAt": "2026-10-25",
+    "updatedAt": "2026-10-31",
     "title": {
       "en": "Match Print-Colour Approval to the Bag Substrate",
       "zh": "确认保温袋印刷颜色，要把色标与承印材料对应起来",
@@ -708,6 +715,7 @@
     "kind": "guide",
     "slug": "insulated-bag-thermal-report-comparison",
     "publishedAt": "2026-10-31",
+    "updatedAt": "2026-10-31",
     "title": {
       "en": "Match Conditions Before Comparing Insulated-Bag Test Reports",
       "zh": "比较保温包测试报告前，先对齐试验条件",
@@ -873,6 +881,7 @@
     "kind": "guide",
     "slug": "nonwoven-basis-weight-thickness-bag-mass",
     "publishedAt": "2026-10-28",
+    "updatedAt": "2026-10-31",
     "title": {
       "en": "Separate Nonwoven Basis Weight, Thickness and Bag Mass",
       "zh": "区分无纺布克重、厚度与整袋重量",
@@ -1068,6 +1077,7 @@
     "kind": "guide",
     "slug": "self-seal-closure-tamper-evidence-requirements",
     "publishedAt": "2026-10-24",
+    "updatedAt": "2026-10-31",
     "title": {
       "en": "Specify Self-Sealing and Opening Evidence Separately",
       "zh": "自粘封口与开启痕迹，需要分别确认",
@@ -1098,6 +1108,7 @@
     "kind": "guide",
     "slug": "self-seal-insulated-bag-inventory-use-window",
     "publishedAt": "2026-10-24",
+    "updatedAt": "2026-10-31",
     "title": {
       "en": "Confirm the Storage and Use Window for Self-Seal Bags",
       "zh": "分批领用自粘保温袋前，确认库存使用期限",
@@ -1113,6 +1124,7 @@
     "kind": "guide",
     "slug": "shipping-coolant-reuse-approval-record",
     "publishedAt": "2026-10-26",
+    "updatedAt": "2026-10-31",
     "title": {
       "en": "Confirm Coolant Reuse Conditions Before Another Shipment",
       "zh": "冰袋再次发货前，核对重复使用的适用条件",
@@ -1248,6 +1260,7 @@
     "kind": "guide",
     "slug": "water-activated-pack-condensation-claim-check",
     "publishedAt": "2026-10-26",
+    "updatedAt": "2026-10-31",
     "title": {
       "en": "Specify Water Activation and Condensation Control Separately",
       "zh": "把吸水准备与凝露控制分别写入冰袋要求",

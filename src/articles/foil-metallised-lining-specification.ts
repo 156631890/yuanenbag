@@ -7,6 +7,7 @@ const article: EditorialArticle = {
   kind: 'guide',
   slug: 'foil-metallised-lining-specification',
   publishedAt: '2026-10-23',
+  updatedAt: '2026-10-31',
   title: t('A Silver Lining Needs a Layer Specification', '银色内衬询价，要分清铝箔与镀铝膜资料', 'Un forro plateado necesita una especificación de sus capas'),
   description: t('Compare two insulated-lining quotations by layer, substrate, metal description, thickness basis, joining details and sample version instead of silver appearance.', '比较银色保温内衬报价时，逐层核对基材、金属层描述、厚度口径、复合与接缝方式及样品版本，不凭外观认定材料相同。', 'Compare ofertas de forros térmicos por capas, sustrato, descripción del metal, base del espesor, uniones y versión de muestra, sin decidir por su aspecto plateado.'),
   intro: t('Two quotations can both describe a silver insulated lining while leaving different layers unspecified. Before comparing prices, ask each supplier for the same layer-by-layer record. The useful decision is whether the proposed structures are actually comparable and which differences still need sample or document review.', '两份报价都可能写着“银色保温内衬”，却遗漏不同的层结构信息。比较价格前，应请两家供应方填写相同的逐层记录，先判断两种拟定结构是否真正可比，再明确哪些差异仍需样品或文件核实。', 'Dos ofertas pueden describir un forro térmico plateado y dejar sin definir capas distintas. Antes de comparar precios, solicite a ambos proveedores el mismo registro por capas. La decisión útil es comprobar si las estructuras son comparables y qué diferencias requieren todavía muestras o documentos.'),
@@ -15,7 +16,6 @@ const article: EditorialArticle = {
       heading: t('The material name needs a position in the assembly', '材料名称要对应具体层位', 'El nombre del material debe indicar su posición'),
       paragraphs: [
         t('For each layer, record its position from the contents towards the outer container, the supplier’s exact material description and the document version. Ask whether a quoted metal layer is described as aluminium foil or as a metallised film, and which substrate is named. If the supplier only writes “foil”, return the unanswered fields rather than infer the missing structure from a photograph.', '每一层都应记录从内装物到外容器方向的层位、供应方准确材料描述及文件版本。询问所报金属层写的是铝箔还是镀铝膜，以及对应什么基材。如果供应方只写“foil”，应把未回答字段退回补充，不凭照片推断缺失结构。', 'Para cada capa, registre su posición desde el contenido hacia el recipiente exterior, la descripción exacta del proveedor y la versión del documento. Pregunte si la capa metálica se describe como lámina de aluminio o película metalizada y qué sustrato se indica. Si solo figura “foil”, solicite completar los campos en lugar de deducir la estructura de una foto.'),
-        t('Innovia’s 14 October 2026 announcement illustrates why names matter: it describes a metallised BOPP film proposed to replace aluminium foil in certain polypropylene laminates. That example does not identify the layers in a YUANEN liner, establish a material substitution or transfer any recycling or thermal claim to it.', 'Innovia于2026年10月14日公布一种拟用于替代部分聚丙烯复合结构中铝箔的镀铝BOPP薄膜，说明区分材料名称有实际意义。该例不识别远恩内衬的各层材料，不代表已替材，也不能把相关回收或保温主张转移到远恩内衬。', 'El anuncio de Innovia del 14 de octubre de 2026 presenta una película BOPP metalizada propuesta para sustituir aluminio en determinados laminados de polipropileno. El ejemplo no identifica las capas de un forro YUANEN, no acredita una sustitución ni le transfiere afirmaciones de reciclabilidad o rendimiento térmico.'),
       ],
     },
     {
@@ -52,7 +52,6 @@ const article: EditorialArticle = {
   ],
   sources: [
     { title: t('YUANEN box liners and current foam-box applications', '远恩箱内衬与当前泡沫箱应用', 'Forros YUANEN y aplicaciones actuales en caja de espuma'), url: 'https://yuanenbag.com/products/foil-insulated-box-liners/' },
-    { title: t('Innovia material announcement, 14 October 2026', 'Innovia材料公告，2026年10月14日', 'Anuncio de material de Innovia, 14 de octubre de 2026'), url: 'https://www.innoviafilms.com/post/innovia-films-launches-propafilm-tm-chbm-an-ultra-high-barrier-metallised-bopp-film-designed-to-replace-aluminium-foil-in-recyclable-flexible-packaging', publishedAt: '2026-10-14' },
   ],
   relatedProducts: ['foil-insulated-box-liners'],
   image: {

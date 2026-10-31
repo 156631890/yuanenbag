@@ -27,9 +27,9 @@ const article: EditorialArticle = {
       },
       "paragraphs": [
         {
-          "en": "YKK’s technical explanation lists basic chain, stop and slider strength checks and separately mentions repeated-opening endurance. It provides background for distinguishing evidence scopes. It does not establish the zipper brand, test method, result or acceptance limit for a YUANEN bag.",
-          "zh": "YKK技术说明列出链、止端和拉头等基础强度检查，并另列反复开合耐久，用于说明证据范围应区分；不能据此确定远恩袋款的拉链品牌、测试方法、结果或接受限值。",
-          "es": "La explicación técnica de YKK enumera controles de resistencia de cadena, topes y cursor, y menciona aparte la durabilidad de apertura repetida. Sirve para distinguir alcances; no establece marca, método, resultado ni límite de aceptación de una bolsa YUANEN."
+          "en": "Request separate evidence for the strength of the proposed closure and its operation under the intended repeated-opening pattern. Identify whether each record concerns the zipper component or the finished bag. Leave the method, conditions and acceptance criteria for the actual sample to the responsible supplier or testing team.",
+          "zh": "分别索取拟用闭合件的强度依据，以及按预定反复开合方式使用的依据。明确每份记录针对拉链部件还是成品袋；实际样品的测试方法、条件和接受依据，由负责供应方或测试团队确定。",
+          "es": "Solicite por separado evidencia de la resistencia del cierre propuesto y de su funcionamiento con el patrón previsto de aperturas repetidas. Identifique si cada registro corresponde al componente o a la bolsa terminada. El proveedor responsable o equipo de ensayo debe definir método, condiciones y criterios para la muestra real."
         }
       ],
       "table": {
@@ -147,14 +147,6 @@ const article: EditorialArticle = {
   "sources": [
     {
       "title": {
-        "en": "YKK explanation of zipper strength checks",
-        "zh": "YKK关于拉链强度检查的说明",
-        "es": "Explicación de YKK sobre controles de resistencia"
-      },
-      "url": "https://lyncs.ykkfastening.com/shop/pages/about_products_06.aspx"
-    },
-    {
-      "title": {
         "en": "YUANEN pizza-bag proposal and sample boundaries",
         "zh": "远恩披萨包方案及样品边界",
         "es": "Propuesta de bolsa de pizza YUANEN y límites de muestra"
@@ -178,6 +170,7 @@ const article: EditorialArticle = {
       "zh": "披萨包闭合结构构想，不展示拉链品牌、强度结果或开合循环等级。",
       "es": "Concepto de cierre de bolsa de pizza; no muestra marca, resultado de resistencia ni clasificación por ciclos."
     }
-  }
+  },
+  "updatedAt": "2026-10-31"
 }
 export default article

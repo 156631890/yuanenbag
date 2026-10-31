@@ -153,11 +153,6 @@ const article: EditorialArticle = {
       },
       "paragraphs": [
         {
-          "en": "Hydropac’s discussion of freeze speed identifies coolant preparation as a possible throughput and scheduling constraint. That is background for checking your own process. Its product claims and service offers do not establish preparation speed, energy use or service availability for YUANEN packs.",
-          "zh": "Hydropac关于冻结速度的文章将冰源准备列为可能影响处理量和排程的约束。这仅是核对自身流程的背景。该公司的产品主张和服务不能证明远恩冰袋的准备速度、能耗或服务可得性。",
-          "es": "Hydropac señala que la preparación del refrigerante puede limitar el volumen y la programación. Sirve como contexto para revisar su proceso. Sus afirmaciones y servicios no acreditan velocidad, consumo energético ni servicios disponibles para bolsas YUANEN."
-        },
-        {
           "en": "Ask the supplier for the instructions that match the actual pack. Have the qualified team responsible for the facility check the quantity it can prepare on time using the intended batches, layout and equipment load. Nominal freezer volume, its setpoint or one small sample run alone cannot establish daily output. The team must decide reserves, review criteria and responses to a shortfall.",
           "zh": "向供应方索取与实际冰袋相符的说明。由负责现场的合格团队，结合拟用批次、摆放和设备负载，核对能按时准备的数量。冷柜标称容积、设定温度或一次少量样品经历，均不能单独证明日产出。预留量、复核依据及缺口处置由该团队确定。",
           "es": "Solicite al proveedor las instrucciones del producto real. El equipo cualificado responsable de la instalación debe comprobar cuánto puede preparar a tiempo con los lotes, distribución y carga de equipo previstos. Volumen nominal, consigna del congelador o una prueba pequeña aislada no acreditan producción diaria. El equipo debe definir reservas, criterios de revisión y respuesta a faltantes."
@@ -200,14 +195,6 @@ const article: EditorialArticle = {
         "es": "YUANEN: selección de refrigerantes y ensayos con carga"
       },
       "url": "https://yuanenbag.com/guides/ice-pack-selection/"
-    },
-    {
-      "title": {
-        "en": "Hydropac: freeze speed as an operational planning consideration",
-        "zh": "Hydropac：冻结速度与运行计划",
-        "es": "Hydropac: velocidad de congelación y planificación operativa"
-      },
-      "url": "https://hydropac.co.uk/insights/why-freeze-speed-matters/"
     }
   ],
   "relatedProducts": [
@@ -226,6 +213,7 @@ const article: EditorialArticle = {
       "zh": "托盘中摆放的薄膜袋；外观不能证明准备完成或处理能力。",
       "es": "Bolsas dispuestas en una bandeja. El aspecto no acredita preparación ni capacidad."
     }
-  }
+  },
+  "updatedAt": "2026-10-31"
 }
 export default article

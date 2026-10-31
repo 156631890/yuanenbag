@@ -35,20 +35,6 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
-        "en": "Ask for the instructions for this product",
-        "zh": "索取这一确切产品的说明",
-        "es": "Solicite las instrucciones de este producto"
-      },
-      "paragraphs": [
-        {
-          "en": "Pelton Shepherd’s consumer FAQ directs disposal questions to instructions for each specific product. The useful procurement lesson is to obtain a matching document, rather than copy another product’s disposal answer. This does not establish the contents or permitted handling of a YUANEN pack.",
-          "zh": "Pelton Shepherd的消费者FAQ把处理问题指向各具体产品的说明。采购中可借鉴的是取得对应文件，而不是复制另一种产品的处理答复；这不说明远恩冰袋的内容物或获准操作方式。",
-          "es": "La FAQ de Pelton Shepherd remite las preguntas de eliminación a instrucciones de cada producto específico. La lección de compra es obtener el documento correspondiente, sin copiar la respuesta de otro producto. No identifica contenido ni manejo permitido de un acumulador YUANEN."
-        }
-      ]
-    },
-    {
-      "heading": {
         "en": "Match the documents before the order handover",
         "zh": "订单交接前，逐项对应资料",
         "es": "Relacione documentos antes de entregar el pedido"
@@ -171,14 +157,6 @@ const article: EditorialArticle = {
         "es": "Acumuladores rellenables YUANEN y documentación"
       },
       "url": "https://yuanenbag.com/products/water-fill-ice-packs/"
-    },
-    {
-      "title": {
-        "en": "Pelton Shepherd consumer FAQ, product-specific disposal instructions",
-        "zh": "Pelton Shepherd消费者FAQ中的逐产品处理说明",
-        "es": "FAQ de Pelton Shepherd sobre instrucciones por producto"
-      },
-      "url": "https://www.peltonshepherd.com/resources/consumer-faq/"
     }
   ],
   "relatedProducts": [
@@ -197,6 +175,7 @@ const article: EditorialArticle = {
       "zh": "仅展示袋面和封边形态，不识别内容物，也不示范处理方式。",
       "es": "Solo superficies y sellados; no se identifica contenido ni se demuestra eliminación."
     }
-  }
+  },
+  "updatedAt": "2026-10-31"
 }
 export default article

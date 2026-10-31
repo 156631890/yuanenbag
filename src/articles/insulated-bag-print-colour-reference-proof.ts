@@ -30,11 +30,6 @@ const article: EditorialArticle = {
           "en": "Record the colour-reference system, edition or version, physical sample identifier and the particular colour being requested. State whether the reference is on coated or uncoated paper or on another material when relevant. Agree which physical reference the buyer and supplier will compare; a colour name or an unlabelled screenshot leaves that decision open.",
           "zh": "记录色标体系、版次或版本、实物样编号，以及需要的具体颜色；适用时注明参考印在涂布纸、非涂布纸或其他材料上。由买卖双方约定用于比较的实物参考；只有颜色名称或未标明来源的截图，仍属未确认。",
           "es": "Registre sistema, edición o versión, identificador de muestra física y color solicitado. Cuando proceda, indique papel estucado, no estucado u otro soporte. Acuerden qué referencia física compararán comprador y proveedor; un nombre de color o captura sin identificar deja la decisión pendiente."
-        },
-        {
-          "en": "Nazdar’s 2019 technical article explains why coloured substrates complicate colour matching and why digital or soft proofs cannot simulate the full effect of one colour over another. Use that background to request a relevant printed sample. It does not establish YUANEN’s ink system, a Pantone certification or a permissible colour difference.",
-          "zh": "Nazdar于2019年发布的技术文章说明了彩色承印材料对配色的影响，以及数码或软打样无法完整模拟颜色叠加的实际效果。可据此要求相关印样，但不能建立远恩的油墨体系、Pantone认证或允许色差值。",
-          "es": "El artículo técnico de Nazdar de 2019 explica las dificultades del color sobre soportes coloreados y que las pruebas digitales no simulan el efecto completo de un color sobre otro. Sirve para pedir una muestra pertinente; no establece tintas YUANEN, certificación Pantone ni diferencia de color admisible."
         }
       ]
     },
@@ -119,14 +114,6 @@ const article: EditorialArticle = {
     },
     {
       "title": {
-        "en": "Nazdar: Simulating PANTONE Colors on Colored Substrates",
-        "zh": "Nazdar：彩色承印材料上的PANTONE颜色模拟",
-        "es": "Nazdar: simulación de colores PANTONE sobre soportes coloreados"
-      },
-      "url": "https://www.nazdar.com/en-us/News-events/ArtMID/4165/ArticleID/547"
-    },
-    {
-      "title": {
         "en": "YUANEN label-placement review",
         "zh": "远恩标签位置复核指南",
         "es": "YUANEN: revisión de posición de etiquetas"
@@ -146,18 +133,19 @@ const article: EditorialArticle = {
     "insulated-catering-bags"
   ],
   "image": {
-  "file": "images/editorial/2026-10-30-cover-repairs/insulated-bag-print-colour-reference-proof.webp",
-  "kind": "illustration",
-  "alt": {
-    "en": "Paper colour reference beside a separate printed rectangle on a nonwoven sample",
-    "zh": "纸色参考卡旁，独立无纺布样片上印有一块色块",
-    "es": "Referencia de color en papel junto a un rectángulo impreso sobre una muestra no tejida"
+    "file": "images/editorial/2026-10-30-cover-repairs/insulated-bag-print-colour-reference-proof.webp",
+    "kind": "illustration",
+    "alt": {
+      "en": "Paper colour reference beside a separate printed rectangle on a nonwoven sample",
+      "zh": "纸色参考卡旁，独立无纺布样片上印有一块色块",
+      "es": "Referencia de color en papel junto a un rectángulo impreso sobre una muestra no tejida"
+    },
+    "caption": {
+      "en": "Generic paper-versus-material colour comparison; no approved print match or actual order sample is established.",
+      "zh": "通用纸张与材料对色构图，不代表已批准的印刷匹配或真实订单样品。",
+      "es": "Comparación genérica de color en papel y material; no acredita una impresión aprobada ni una muestra de pedido real."
+    }
   },
-  "caption": {
-    "en": "Generic paper-versus-material colour comparison; no approved print match or actual order sample is established.",
-    "zh": "通用纸张与材料对色构图，不代表已批准的印刷匹配或真实订单样品。",
-    "es": "Comparación genérica de color en papel y material; no acredita una impresión aprobada ni una muestra de pedido real."
-  }
-}
+  "updatedAt": "2026-10-31"
 }
 export default article

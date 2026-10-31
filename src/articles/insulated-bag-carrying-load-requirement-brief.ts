@@ -159,9 +159,9 @@ const article: EditorialArticle = {
           "es": "Describa disposición, componentes agrupados y cómo se apoya y mueve la bolsa. Vincule la manipulación prevista a asideros, base y costuras actuales. Mantenga lo incierto pendiente del proveedor, sin ensayar levantando por su cuenta una carga desconocida."
         },
         {
-          "en": "QIMA lists static and dynamic load, handle and seam-strength testing among luggage-testing categories. Those are separate questions for a test plan, not results for this carrier. Ask the supplier or qualified testing party to agree the method, conditions, acceptance basis and report scope for the proposed complete bag and use. No test weight, cycle count or universal programme is prescribed here.",
-          "zh": "QIMA在箱包测试类别中列出了静态与动态载荷、提手和接缝强度等测试。这些属于测试计划中的不同问题，不是本款包的结果。应由供应方或合格测试方就拟定整袋与用途约定方法、条件、接受依据及报告范围。本文不规定试验重量、次数或通用程序。",
-          "es": "QIMA enumera carga estática y dinámica, asideros y resistencia de costuras entre categorías de ensayo de equipaje. Son preguntas de un plan, no resultados de esta bolsa. Acuerde con proveedor o entidad cualificada método, condiciones, aceptación y alcance del informe para bolsa completa y uso. Aquí no se prescribe peso, ciclos ni programa universal."
+          "en": "Ask the supplier or qualified testing party to agree the method, conditions, acceptance basis and report scope for the proposed complete bag and use. No test weight, cycle count or universal programme is prescribed here.",
+          "zh": "请供应方或合格测试方，为拟用成品袋及用途约定方法、条件、接受依据和报告范围。本文不规定测试重量、循环次数或通用测试方案。",
+          "es": "Pida al proveedor o entidad de ensayo cualificada que acuerde método, condiciones, criterios de aceptación y alcance del informe para la bolsa completa y el uso previstos. Aquí no se prescribe peso de ensayo, número de ciclos ni programa universal."
         }
       ],
       "bullets": [
@@ -203,14 +203,6 @@ const article: EditorialArticle = {
     },
     {
       "title": {
-        "en": "QIMA luggage-testing service categories",
-        "zh": "QIMA箱包测试服务类别",
-        "es": "Categorías de ensayo de equipaje de QIMA"
-      },
-      "url": "https://www.qima.com/consumer-products/lab-testing/luggage-compliance"
-    },
-    {
-      "title": {
         "en": "YUANEN custom-order enquiry checklist",
         "zh": "远恩定制采购询价清单",
         "es": "Lista de consulta para pedidos personalizados YUANEN"
@@ -222,18 +214,19 @@ const article: EditorialArticle = {
     "insulated-catering-bags"
   ],
   "image": {
-  "file": "images/editorial/2026-10-30-cover-repairs/insulated-bag-carrying-load-requirement-brief.webp",
-  "kind": "illustration",
-  "alt": {
-    "en": "A front-opening carrier and separate tray beside a side-handle attachment detail",
-    "zh": "前开式配送包与独立餐盘，旁边展示侧提手连接细节",
-    "es": "Bolsa de abertura frontal y bandeja separada junto a un detalle de fijación del asa lateral"
+    "file": "images/editorial/2026-10-30-cover-repairs/insulated-bag-carrying-load-requirement-brief.webp",
+    "kind": "illustration",
+    "alt": {
+      "en": "A front-opening carrier and separate tray beside a side-handle attachment detail",
+      "zh": "前开式配送包与独立餐盘，旁边展示侧提手连接细节",
+      "es": "Bolsa de abertura frontal y bandeja separada junto a un detalle de fijación del asa lateral"
+    },
+    "caption": {
+      "en": "Fit review and handle-load evidence are separate questions; no load rating or completed test is represented.",
+      "zh": "适配核对与提手载荷证据是不同问题，不展示额定承重或已完成测试。",
+      "es": "El ajuste y la evidencia de carga del asa son cuestiones separadas; no se representa capacidad nominal ni ensayo realizado."
+    }
   },
-  "caption": {
-    "en": "Fit review and handle-load evidence are separate questions; no load rating or completed test is represented.",
-    "zh": "适配核对与提手载荷证据是不同问题，不展示额定承重或已完成测试。",
-    "es": "El ajuste y la evidencia de carga del asa son cuestiones separadas; no se representa capacidad nominal ni ensayo realizado."
-  }
-}
+  "updatedAt": "2026-10-31"
 }
 export default article

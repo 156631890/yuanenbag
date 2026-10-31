@@ -27,9 +27,9 @@ const article: EditorialArticle = {
       },
       "paragraphs": [
         {
-          "en": "Gsm means grams per square metre: mass per unit area, not thickness. Millimetres describe thickness. A mass stated in grams or kilograms per bag refers to a defined finished item. Freudenberg’s T1748 sheet lists area weight and thickness separately for an FRP nonwoven; it is a unit example, not a YUANEN material specification.",
-          "zh": "gsm表示每平方米克数，即单位面积质量，不是厚度；毫米表示厚度；g或kg/只对应范围明确的成品。Freudenberg的T1748资料为FRP用无纺布分别列出面密度与厚度，仅作为单位示例，不是远恩材料规格。",
-          "es": "Gsm significa gramos por metro cuadrado, masa por superficie, no espesor. Los milímetros expresan espesor; g o kg por bolsa corresponden a un artículo definido. La ficha T1748 de Freudenberg separa gramaje y espesor para un no tejido de FRP: es un ejemplo de unidades, no una especificación YUANEN."
+          "en": "Gsm means grams per square metre: mass per unit area, not thickness. Millimetres describe thickness. A mass stated in grams or kilograms per bag refers to a defined finished item.",
+          "zh": "gsm表示克/平方米，是单位面积质量，不是厚度。毫米表示厚度；以克/只或千克/只标注的质量，对应一个范围已明确的成品。",
+          "es": "Gsm significa gramos por metro cuadrado: masa por unidad de superficie, no espesor. Los milímetros expresan espesor. Una masa en gramos o kilogramos por bolsa corresponde a un artículo terminado definido."
         }
       ],
       "table": {
@@ -147,14 +147,6 @@ const article: EditorialArticle = {
   "sources": [
     {
       "title": {
-        "en": "Freudenberg T1748: separate area-weight and thickness fields",
-        "zh": "Freudenberg T1748：面密度与厚度分项",
-        "es": "Freudenberg T1748: gramaje y espesor por separado"
-      },
-      "url": "https://www.freudenberg-pm.com/siteassets/solution-pages/frp-surfacing-veils/t-1748.pdf"
-    },
-    {
-      "title": {
         "en": "YUANEN catering-bag proposal and sample boundaries",
         "zh": "远恩餐盘配送包方案及样品边界",
         "es": "Propuesta de catering YUANEN y límites de muestra"
@@ -166,18 +158,19 @@ const article: EditorialArticle = {
     "insulated-catering-bags"
   ],
   "image": {
-  "file": "images/editorial/2026-10-30-cover-repairs/nonwoven-basis-weight-thickness-bag-mass.webp",
-  "kind": "illustration",
-  "alt": {
-    "en": "Three symbols distinguish material area, single-sheet thickness and whole-bag mass",
-    "zh": "三个符号分别区分材料面积、单片厚度与整袋重量",
-    "es": "Tres símbolos diferencian área del material, espesor de una lámina y masa de la bolsa"
+    "file": "images/editorial/2026-10-30-cover-repairs/nonwoven-basis-weight-thickness-bag-mass.webp",
+    "kind": "illustration",
+    "alt": {
+      "en": "Three symbols distinguish material area, single-sheet thickness and whole-bag mass",
+      "zh": "三个符号分别区分材料面积、单片厚度与整袋重量",
+      "es": "Tres símbolos diferencian área del material, espesor de una lámina y masa de la bolsa"
+    },
+    "caption": {
+      "en": "Three distinct measurement questions. Symbols contain no measured values or verified material specification.",
+      "zh": "三种不同测量问题；符号不含实测数值，也不确立材料规格。",
+      "es": "Tres preguntas de medición distintas; los símbolos no aportan valores medidos ni una especificación verificada."
+    }
   },
-  "caption": {
-    "en": "Three distinct measurement questions. Symbols contain no measured values or verified material specification.",
-    "zh": "三种不同测量问题；符号不含实测数值，也不确立材料规格。",
-    "es": "Tres preguntas de medición distintas; los símbolos no aportan valores medidos ni una especificación verificada."
-  }
-}
+  "updatedAt": "2026-10-31"
 }
 export default article
