@@ -10,6 +10,15 @@
   },
   {
     "kind": "industry",
+    "slug": "afpa-september-2026-packaging-paper-shipments",
+    "title": {
+      "en": "AF&PA Reports September Packaging Paper Shipments Up 2% Year on Year",
+      "zh": "AF&PA公布9月包装纸出货量同比增长2%",
+      "es": "AF&PA informa de un aumento interanual del 2% en los envíos de papeles para envases en septiembre"
+    }
+  },
+  {
+    "kind": "industry",
     "slug": "amcor-barcelona-packaging-conference-recap",
     "title": {
       "en": "Amcor Reviews Barcelona Packaging Sustainability Discussions",

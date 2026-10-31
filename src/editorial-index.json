@@ -16,6 +16,21 @@
   },
   {
     "kind": "industry",
+    "slug": "afpa-september-2026-packaging-paper-shipments",
+    "publishedAt": "2026-10-31",
+    "title": {
+      "en": "AF&PA Reports September Packaging Paper Shipments Up 2% Year on Year",
+      "zh": "AF&PA公布9月包装纸出货量同比增长2%",
+      "es": "AF&PA informa de un aumento interanual del 2% en los envíos de papeles para envases en septiembre"
+    },
+    "description": {
+      "en": "AF&PA’s September 2026 packaging-papers release reports two year-on-year comparisons. Separate their time windows and paper-market scope from a finished-bag quotation.",
+      "zh": "AF&PA的2026年9月包装纸月报摘要给出两种同比口径。区分单月与累计统计期，并将纸品市场数据与成品袋报价依据分别核对。",
+      "es": "El comunicado de AF&PA sobre septiembre de 2026 presenta dos comparaciones interanuales. Distinga sus periodos y alcance al evaluar una oferta de bolsas terminadas."
+    }
+  },
+  {
+    "kind": "industry",
     "slug": "amcor-barcelona-packaging-conference-recap",
     "publishedAt": "2026-10-23",
     "title": {

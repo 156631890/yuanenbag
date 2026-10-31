@@ -11922,5 +11922,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-10-31/monthly-ytd-comparison-windows.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/89a4d1e9a095-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/fc4b5c012461-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/d33e14423820-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/a696acab6281-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/21649aa02ee1-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/330e385550b3-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/c940a93d295d-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }
