@@ -7,6 +7,9 @@ import { analyticsMeasurementId } from './analytics-config.mjs'
 import { paths, notFoundPaths } from '../.ssr/entry-server.js'
 
 const manifest = JSON.parse(await readFile('src/responsive-image-manifest.json', 'utf8'))
+// Small official brand artwork is delivered natively to preserve vector edges.
+const brandArtwork = JSON.parse(await readFile('maintainer-docs/image-provenance/customer-brand-logos-20261102.json', 'utf8')).assets
+const nativeBrandAssets = new Map(brandArtwork.map(asset => [asset.file.replace(/^public\//, ''), asset]))
 for (const [source, image] of Object.entries(manifest)) {
   const original = await sharp(`public/${source}`).metadata()
   assert.equal(original.width, image.width)
@@ -38,7 +41,15 @@ for (const path of paths) {
     } else {
       const data = await readFile(`public/${source}`)
       const metadata = await sharp(data).metadata()
-      assert(metadata.width <= 160 && data.length < 8000, `Unoptimized displayed image: ${source} on ${path}`)
+      if (nativeBrandAssets.has(source)) {
+        const asset = nativeBrandAssets.get(source)
+        assert.equal(createHash('sha256').update(data).digest('hex'), asset.sha256, `Brand artwork changed without source review: ${source}`)
+        assert(['svg', 'png'].includes(metadata.format) && data.length < 60000 && metadata.width <= 400, `Oversized native logo: ${source}`)
+        assert(/width="\d+"/i.test(tag) && /height="\d+"/i.test(tag) && /alt="[^"]+"/i.test(tag), `Missing logo dimensions or name: ${source}`)
+        assert.deepEqual(await readFile(`dist/${source}`), data, `Delivered logo differs: ${source}`)
+      } else {
+        assert(metadata.width <= 160 && data.length < 8000, `Unoptimized displayed image: ${source} on ${path}`)
+      }
     }
   }
   assert(!/<image\b[^>]*href="\/images\/factory\//i.test(html), `Factory montage should use an exported crop: ${path}`)

@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-02",
+  "scope": "Existing four-brand customer strip on home and about, all three languages",
+  "sourcePolicy": "Use official supplied artwork without AI redrawing, distortion, recolouring, or external hotlinking. Brand artwork is owned by the respective holders. Official source URLs establish provenance, not a separate grant of endorsement or trademark permission. Existing customer relationship claims remain unchanged.",
+  "layoutPolicy": "Use CustomerBrands component at every customer strip. Preserve native SVG or transparent PNG, proportions and clear space; check actual desktop/mobile rendering and all three language alt labels. Do not replace mentions in article prose with logos.",
+  "assets": [
+    {
+      "file": "public/images/brands/walmart.svg",
+      "source": "https://corporate.walmart.com/content/dam/corporate/site-images/WMT-Wordmark-New-Small-Black_RGB.svg",
+      "sha256": "c2e8fa08a6ae91294caaccd8838e14d8dc146b79ebc7ffdf087298792da96b63",
+      "processing": "Original official file preserved; size and clear space applied with CSS only"
+    },
+    {
+      "file": "public/images/brands/yonghui.png",
+      "source": "https://www.yonghui.com.cn/upload/1/appLogo/1910571581557018624.png",
+      "sha256": "6481551b3f3d3e0e9aaa8bf25caa7e0060f135e471a150a44db51d579ef885f5",
+      "processing": "Original official file preserved; size and clear space applied with CSS only"
+    },
+    {
+      "file": "public/images/brands/mixue.svg",
+      "source": "https://oss.mxbc.com/uploads/images/202508/d0f3ec7b09cef7a19808b3d6972bdbc7.svg",
+      "sha256": "a509ea444cb57e3586c1ef1372adbb5f8d4580757611f132d57c93e919435d31",
+      "processing": "Original official file preserved; size and clear space applied with CSS only"
+    },
+    {
+      "file": "public/images/brands/haidilao.svg",
+      "source": "https://www.haidilao.com/static/img/logo_en.d046b51a.svg",
+      "sha256": "ea86474e8dafd125a4e85ff05e9984ad6bddc63e6e2572b3bd99c24de8d3f034",
+      "processing": "Original official file preserved; size and clear space applied with CSS only"
+    }
+  ]
+}
