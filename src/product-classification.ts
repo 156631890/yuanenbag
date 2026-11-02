@@ -186,3 +186,5 @@ const productDemand:Record<string,number>={
 }
 export const familyRank=(id:ProductFamily)=>productFamilies.findIndex(([family])=>family===id)
 export const compareProductDemand=(a:Bag,b:Bag)=>familyRank(productFamily(a))-familyRank(productFamily(b)) || (productDemand[b.slug]??-1)-(productDemand[a.slug]??-1)
+
+export const compareAllProductDemand=(a:Bag,b:Bag)=>(productDemand[b.slug]??-1)-(productDemand[a.slug]??-1) || familyRank(productFamily(a))-familyRank(productFamily(b))

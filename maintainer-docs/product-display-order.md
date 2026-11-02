@@ -7,3 +7,5 @@ Current evidence is the independent product keyword workbook (US/en historical e
 Within a family, prioritize documented matched primary terms; unmeasured products retain stable relative order. Do not apply bubble-wrap 3600 to EPE rolls, broad catering 720 to the exact insulated term, meal-prep backpack 880 to hand-held bags, or the ice-cream paper-bag term to the general paper delivery product. Refresh rankings when comparable dated evidence becomes available; protect URLs and product IDs.
 
 Product imagery follows the existing square product template: 1200×1200 WebP, seven consistent views, complete subjects and safe margins, no stretching or forced clipping. Article landscape image rules do not override product squares. Check card, gallery, thumbnail and body illustrations in all three languages on desktop and mobile before release.
+
+The All products grid ranks measured product terms across families first; family order is only a tie-breaker and the fallback for unmeasured products. Category navigation retains the family order. Counts describe products (Chinese: 共 N 款产品), not a mixture of products and ranges, and update with filters.
