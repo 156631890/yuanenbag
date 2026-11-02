@@ -14,7 +14,7 @@ export const cateringBag:Bag = {
   ],
   "name": {
     "en": "Insulated Catering Bags for Tray-Based Delivery",
-    "zh": "餐盘配送保温包定制方案",
+    "zh": "餐盘配送保温包",
     "es": "Bolsas térmicas de catering para transportar bandejas"
   },
   "short": {
@@ -23,9 +23,9 @@ export const cateringBag:Bag = {
     "es": "Bolsa para bandejas de catering"
   },
   "intro": {
-    "en": "A proposed navy, front-opening insulated carrier for lidded catering trays. The front panel folds down for level access, while short side grips support two-handed handling. Confirm tray clearance, base support and carrying loads with a sample.",
-    "zh": "面向带盖餐盘的深蓝色前开式保温配送方案。前幅向下展开，方便餐盘水平装取；两侧短提手用于双手搬运。开口余量、底部支撑和提携负载均需通过样品确认。",
-    "es": "Propuesta de bolsa térmica azul marino con apertura frontal para bandejas con tapa. El panel se abate para acceder en horizontal y las asas laterales permiten sujetarla con ambas manos. Confirme holguras, base y carga con una muestra."
+    "en": "A made-to-order navy, front-opening insulated carrier for lidded catering trays. The front panel folds down for level access, while short side grips support two-handed handling. Confirm tray clearance, base support and carrying loads with a sample.",
+    "zh": "面向带盖餐盘的深蓝色前开式保温包。前幅向下展开，方便餐盘水平装取；两侧短提手用于双手搬运。开口余量、底部支撑和提携负载均需通过样品确认。",
+    "es": "Bolsa térmica a medida azul marino con apertura frontal para bandejas con tapa. El panel se abate para acceder en horizontal y las asas laterales permiten sujetarla con ambas manos. Confirme holguras, base y carga con una muestra."
   },
   "material": {
   "en": "Non-woven outer fabric and aluminum foil lining; insulation specification and thickness confirmed by sample",
@@ -68,7 +68,7 @@ export const cateringBag:Bag = {
   "collection": "custom-designs-2026",
   "seoTitle": {
     "en": "Insulated Catering Bags | YUANEN",
-    "zh": "餐盘配送保温包定制方案 | 远恩",
+    "zh": "餐盘配送保温包定制 | 远恩",
     "es": "Bolsas térmicas de catering | YUANEN"
   },
   "image": "insulated-catering-bags/material-corrected-20261012-01.webp",

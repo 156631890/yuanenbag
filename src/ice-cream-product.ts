@@ -4,12 +4,12 @@ export const iceCreamBag: Bag = {
   "slug": "insulated-ice-cream-delivery-bags",
   "name": {
     "en": "Insulated Ice Cream Delivery Bags for Tub Pack-outs",
-    "zh": "桶装冰淇淋配送保温包定制方案",
+    "zh": "桶装冰淇淋配送保温包",
     "es": "Bolsas térmicas para reparto de helado en tarrinas"
   },
   "seoTitle": {
     "en": "Insulated Ice Cream Delivery Bags | YUANEN",
-    "zh": "桶装冰淇淋配送保温包定制方案 | 远恩",
+    "zh": "桶装冰淇淋配送保温包定制 | 远恩",
     "es": "Bolsas térmicas para reparto de helado | YUANEN"
   },
   "short": {
@@ -18,9 +18,9 @@ export const iceCreamBag: Bag = {
     "es": "Bolsa térmica para tarrinas"
   },
   "intro": {
-    "en": "A proposed plum-purple cylindrical carrier with a round zip lid and two body-mounted handles. Plan the usable compartment around a closed ice cream tub and the separately selected refrigerant, then confirm loading, closure and carrying with a sample.",
-    "zh": "紫灰色圆筒配送包定制方案，采用圆形拉链上盖和两侧袋身提手。围绕封好盖的冰淇淋桶与另行选定的冰源规划内部空间，通过样品确认装取、封口及提携。",
-    "es": "Propuesta de bolsa cilíndrica morada con tapa circular de cremallera y dos asas en el cuerpo. Defina el espacio según la tarrina cerrada y el refrigerante elegido por separado; confirme carga, cierre y transporte con muestra."
+    "en": "A made-to-order plum-purple cylindrical carrier with a round zip lid and two body-mounted handles. Plan the usable compartment around a closed ice cream tub and the separately selected refrigerant, then confirm loading, closure and carrying with a sample.",
+    "zh": "梅紫色圆筒冰淇淋配送保温包，采用圆形拉链上盖和两侧袋身提手。围绕封好盖的冰淇淋桶与另行选定的冰源规划内部空间，通过样品确认装取、封口及提携。",
+    "es": "Bolsa a medida cilíndrica morada con tapa circular de cremallera y dos asas en el cuerpo. Defina el espacio según la tarrina cerrada y el refrigerante elegido por separado; confirme carga, cierre y transporte con muestra."
   },
   "material": {
   "en": "Non-woven outer fabric and aluminum foil lining; insulation specification and thickness confirmed by sample",

@@ -7,13 +7,13 @@ const file = (n: number) => `standardized/${folder}/${String(n).padStart(2, '0')
 export const paperDeliveryBag: Bag = {
   slug: folder,
   name: {
-    en: 'Kraft Paper Insulated Delivery Bags — Custom Design',
-    zh: '纸基保温配送袋定制方案',
+    en: 'Kraft Paper Insulated Delivery Bags',
+    zh: '纸基保温配送袋',
     es: 'Bolsas térmicas de papel kraft para reparto a medida',
   },
   seoTitle: {
     en: 'Kraft Paper Insulated Delivery Bags | YUANEN',
-    zh: '纸基保温配送袋定制方案 | 远恩',
+    zh: '纸基保温配送袋定制 | 远恩',
     es: 'Bolsas térmicas de papel kraft para reparto | YUANEN',
   },
   short: {
@@ -22,9 +22,9 @@ export const paperDeliveryBag: Bag = {
     es: 'Bolsa térmica de papel para reparto',
   },
   intro: {
-    en: 'A proposed made-to-order carry bag with a kraft-paper exterior, a reflective inner layer, a broad flat base and short flat paper handles. Plan the open top and usable space around closed takeaway containers; confirm the full layer structure, handle attachment and load with a physical sample.',
-    zh: '拟定的按需定制手提袋采用牛皮纸外层、银色反射内层、宽平底与短纸提手。围绕封盖餐盒规划开口和可用空间，再用实物样品确认各层材料、提手连接及装载表现。',
-    es: 'Propuesta a medida con exterior de papel kraft, capa interior reflectante, base plana ancha y asas cortas de papel. Defina la abertura y el espacio útil según envases cerrados; confirme capas, fijación de asas y carga con una muestra física.',
+    en: 'A made-to-order insulated carry bag with a kraft-paper exterior, a reflective inner layer, a broad flat base and short flat paper handles. Plan the open top and usable space around closed takeaway containers; confirm the full layer structure, handle attachment and load with a physical sample.',
+    zh: '按需定制的纸基保温配送袋采用牛皮纸外层、银色反射内层、宽平底与短纸提手。围绕封盖餐盒规划开口和可用空间，再用实物样品确认各层材料、提手连接及装载表现。',
+    es: 'Bolsa térmica a medida con exterior de papel kraft, capa interior reflectante, base plana ancha y asas cortas de papel. Defina la abertura y el espacio útil según envases cerrados; confirme capas, fijación de asas y carga con una muestra física.',
   },
   material: {
     en: 'Proposed kraft-paper exterior and reflective foil-facing interior; full layer composition and bonding to confirm by sample',
@@ -38,7 +38,7 @@ export const paperDeliveryBag: Bag = {
   },
   group: 'delivery',
   color: '#B7885C',
-  colourName: { en: 'Natural kraft proposal', zh: '原色牛皮纸方案', es: 'Propuesta kraft natural' },
+  colourName: { en: 'Natural kraft', zh: '原色牛皮纸', es: 'Kraft natural' },
   type: 'cooler',
   category: 'paper',
   styles: ['handle'],

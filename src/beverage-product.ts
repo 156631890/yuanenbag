@@ -3,13 +3,13 @@ import type { ProductImage } from './product-media'
 export const beverageBag: Bag = {
   "slug": "insulated-beverage-delivery-bags",
   "name": {
-    "en": "Insulated Beverage Delivery Bags with a Cup-Divider Proposal",
-    "zh": "多杯饮品配送保温包定制方案",
-    "es": "Bolsas térmicas para reparto de bebidas con separadores propuestos"
+    "en": "Insulated Beverage Delivery Bags with Cup Dividers",
+    "zh": "多杯饮品配送保温包",
+    "es": "Bolsas térmicas para reparto de bebidas con separadores"
   },
   "seoTitle": {
     "en": "Insulated Beverage Delivery Bags | YUANEN",
-    "zh": "多杯饮品配送保温包定制方案 | 远恩",
+    "zh": "多杯饮品配送保温包定制 | 远恩",
     "es": "Bolsas térmicas para reparto de bebidas | YUANEN"
   },
   "short": {
@@ -18,9 +18,9 @@ export const beverageBag: Bag = {
     "es": "Bolsa térmica para bebidas"
   },
   "intro": {
-    "en": "A proposed petrol-teal, top-opening beverage bag with body-mounted handles and a removable padded cup-divider insert. Plan the cell layout around your filled cups and lids, then check loading, closure and carrying balance with a sample.",
-    "zh": "深青色上开式饮品配送包定制方案，搭配袋身提手和拟定可拆软质杯位分隔。按装好后的杯体与杯盖规划排列，通过样品确认装取、封口及提携平衡。",
-    "es": "Propuesta de bolsa verde azulado con apertura superior, asas en el cuerpo y separador acolchado extraíble para vasos. Defina la distribución según vasos llenos y tapas; confirme carga, cierre y equilibrio con una muestra."
+    "en": "A made-to-order petrol-teal, top-opening beverage bag with body-mounted handles and a removable padded cup-divider insert. Plan the cell layout around your filled cups and lids, then check loading, closure and carrying balance with a sample.",
+    "zh": "深青色上开式饮品配送保温包，搭配袋身提手和可拆软质杯位分隔。按装好后的杯体与杯盖规划排列，通过样品确认装取、封口及提携平衡。",
+    "es": "Bolsa a medida verde azulado con apertura superior, asas en el cuerpo y separador acolchado extraíble para vasos. Defina la distribución según vasos llenos y tapas; confirme carga, cierre y equilibrio con una muestra."
   },
   "material": {
   "en": "Non-woven outer fabric and aluminum foil lining; insulation specification and thickness confirmed by sample",

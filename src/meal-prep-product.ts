@@ -14,7 +14,7 @@ export const mealPrepBag: Bag = {
   ],
   "name": {
     "en": "Insulated Meal Prep Bags for Container-Based Packing",
-    "zh": "多餐盒备餐保温包定制方案",
+    "zh": "多餐盒备餐保温包",
     "es": "Bolsas térmicas para preparar y transportar comidas"
   },
   "short": {
@@ -23,9 +23,9 @@ export const mealPrepBag: Bag = {
     "es": "Bolsa para recipientes de comidas"
   },
   "intro": {
-    "en": "Proposed upright olive meal prep bag with a zip-around top, body-mounted handles and one silver-lined compartment. Plan space for actual containers and separately specified cold packs; confirm loaded fit and balance with a sample.",
-    "zh": "橄榄绿直立备餐包定制方案，搭配环绕拉链上盖、袋身提手及银色内衬单仓。按实际餐盒与另配冰源规划空间，通过装载样品确认适配和提携平衡。",
-    "es": "Propuesta de bolsa vertical verde oliva con tapa de cremallera, asas en el cuerpo y un compartimento plateado. Planifique espacio para recipientes y refrigerantes separados; confirme ajuste y equilibrio con una muestra cargada."
+    "en": "Made-to-order upright olive meal prep bag with a zip-around top, body-mounted handles and one silver-lined compartment. Plan space for actual containers and separately specified cold packs; confirm loaded fit and balance with a sample.",
+    "zh": "橄榄绿直立备餐保温包，搭配环绕拉链上盖、袋身提手及银色内衬单仓。按实际餐盒与另配冰源规划空间，通过装载样品确认适配和提携平衡。",
+    "es": "Bolsa a medida vertical verde oliva con tapa de cremallera, asas en el cuerpo y un compartimento plateado. Planifique espacio para recipientes y refrigerantes separados; confirme ajuste y equilibrio con una muestra cargada."
   },
   "material": {
     "en": "Proposed woven outer fabric + insulation + silver liner; confirm with a sample",
@@ -68,7 +68,7 @@ export const mealPrepBag: Bag = {
   "collection": "custom-designs-2026",
   "seoTitle": {
     "en": "Insulated Meal Prep Bags | YUANEN",
-    "zh": "多餐盒备餐保温包定制方案 | 远恩",
+    "zh": "多餐盒备餐保温包定制 | 远恩",
     "es": "Bolsas térmicas para comidas preparadas | YUANEN"
   },
   "image": "insulated-meal-prep-bags/open-packout-v1.webp",

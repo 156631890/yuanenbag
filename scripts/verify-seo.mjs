@@ -4,6 +4,7 @@ import { seoAudit, catalogAudit, render } from '../.ssr/entry-server.js'
 
 const decode=s=>s.replaceAll('&amp;','&').replaceAll('&quot;','"').replaceAll('&#x27;',"'").replaceAll('&#39;',"'").replaceAll('&lt;','<').replaceAll('&gt;','>')
 for(const b of catalogAudit.bags){
+ for(const field of ['name','short','seoTitle']) for(const value of Object.values(b[field]||{})) assert(!/定制方案|打样方案|定制打样|proposal|propuesta|propuestos|custom design|sampling design/i.test(value),`Internal-stage product name: ${b.slug} ${field}`)
  const c=catalogAudit.productClassifications[b.slug]
  assert(c&&catalogAudit.productFamilies.some(([id])=>id===c.family),`Explicit product family required: ${b.slug}`)
  assert(catalogAudit.productMaterials.some(([id])=>id===c.material),`Valid material classification required: ${b.slug}`)
