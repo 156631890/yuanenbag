@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-02",
+  "tool": "image_gen.imagegen",
+  "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-f2eb56f0-1c6c-42e5-99f1-e2d559b2f93b.png",
+  "reference": "public/images/products/standardized/insulated-pallet-covers/01.webp",
+  "rights": "Generated for YUANEN at user request; no external image copied",
+  "purpose": "W/D/H measurement directions, not stock dimensions or delivered sample",
+  "review": "W and D show footprint axes; H starts at pallet deck. No numeric dimensions or logos. Caption explicitly directs measurement of maximum load, wrapping and overhang.",
+  "hashes": {
+    "03.webp": "e67c992742ac5f10feee229b5709bf4d8b4ef9f429d0fa245a573143a826da48",
+    "02.webp": "5af20e2d40274fedaf08baedbb9d9cd5f6ebd3d5f8a4a3e79a6284d54a85b0b8",
+    "05.webp": "f864c616d83916f0c8ca16823c554902d8afc722e3dcf2d97fc0895d0f124c67",
+    "04.webp": "caa45bcb8088beefc00315dcec38e2367a4b196ec90cfb525e83ae351aa742fc",
+    "07.webp": "e8cbee2192be54a20b70c1360e6efb1be482347082cd6d238eb4056e76538339",
+    "06.webp": "28484994ef506b0b6726d660f21a3b23c7a913aec74799dfcb0c85185e6a3d82",
+    "measurement-v1.webp": "be3a2f1081420be0e8dfb16182da50b73dee50696bdbee033bc16532c1db6e9c",
+    "01.webp": "61c4dad4f78e51d06ab6074360f47ec87ea453a93c7d2248bd4d6597a4a32842"
+  },
+  "prompt": "Create a clean photographic measurement illustration for a pallet cover purchasing page. Square image on #F6F6F4 background. A single rectangular stack of plain closed kraft cartons sits aligned on a pale wooden pallet, shown in three-quarter perspective, with NO cover so buyers can see the actual loaded stack to measure. Use reference only for pallet proportions. All carton dimensions coherent, no logos, no printed marks. Add only THREE thin dark blue dimension arrows placed outside the load with ample safety margins: W runs along the FRONT horizontal edge of the carton stack, D runs along the receding SIDE horizontal edge of the stack, H runs VERTICALLY from the TOP OF THE PALLET DECK to the top of the cartons, EXCLUDING the wooden pallet's height. Each arrow is straight double-headed, with short perpendicular extension lines; labels only W, D, H respectively. Exactly one label per arrow. No numbers or units or other text. Photorealistic cartons and pallet with subtle shadow, crisp technical arrows. Arrows must not obscure cartons. Entire diagram fully in frame with 15 percent margins. This communicates measurement axes, not a fixed size.\n"
+}

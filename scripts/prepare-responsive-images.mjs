@@ -9,6 +9,7 @@ for (const { source, file, left, top, width, height } of Object.values(crops)) {
 }
 const standardized = JSON.parse(await readFile('src/standardized-product-images.json', 'utf8'))
 const sources = [...new Set([
+  'images/products/standardized/insulated-pallet-covers/measurement-v1.webp',
   'images/editorial/2026-10-31/monthly-ytd-comparison-windows.webp',
   'images/editorial/2026-10-31/produce-contact-film-outer-carry-scope.webp',
   'images/editorial/2026-10-31/two-report-condition-comparison.webp',
@@ -149,6 +150,13 @@ const sources = [...new Set([
   'images/editorial/2026-10-14/seafood-pouches-secondary-container.webp',
   'images/editorial/2026-10-14/sealed-food-pouches-foil-lined-foam-box.webp',
   'images/editorial/2026-10-14/lidded-meal-trays-roller-conveyor.webp',
+  'images/products/standardized/insulated-pallet-covers/01.webp',
+  'images/products/standardized/insulated-pallet-covers/02.webp',
+  'images/products/standardized/insulated-pallet-covers/03.webp',
+  'images/products/standardized/insulated-pallet-covers/04.webp',
+  'images/products/standardized/insulated-pallet-covers/05.webp',
+  'images/products/standardized/insulated-pallet-covers/06.webp',
+  'images/products/standardized/insulated-pallet-covers/07.webp',
   ...Object.values(crops).map(crop => crop.file),
   ...Object.values(standardized).map(file => `images/products/${file}`),
   ...Array.from({ length: 7 }, (_, i) => `images/products/standardized/paper-insulated-delivery-bags/${String(i + 1).padStart(2, '0')}.webp`),

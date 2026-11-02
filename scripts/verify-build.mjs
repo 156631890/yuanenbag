@@ -35,9 +35,12 @@ const foilPhotoImport=JSON.parse(await readFile('docs/foil-photo-import-2026-09.
 const photoSources=[...photoImport.files,...icePhotoImport.files,...foilPhotoImport.files]
 const addedGalleryCounts={'square-zipper-cake-cooler':6,'water-fill-ice-packs':5,'self-absorbing-ice-packs':6,'hand-finished-gusseted-foil-bags':3,'open-top-foil-bags':1}
 const photoProducts=catalogAudit.bags.filter(b=>b.collection==='yuanen-photos-2026')
-assert.equal(catalogAudit.bags.filter(b=>b.collection==='yuanen-2026').length,25,'Retain the cold-chain catalog, cooler variants and restored upright dessert tote')
+assert(!catalogAudit.bags.some(b=>b.slug==='upright-dessert-cooler'),'User-deleted dessert tote must stay out of the active catalog')
+assert(!paths.some(path=>path.includes('/products/upright-dessert-cooler/')),'Deleted product must not generate a route')
+for(const lang of ['', 'zh/', 'es/']) assert(!(await readFile(join(root,lang,'contact/index.html'),'utf8')).includes('value="upright-dessert-cooler"'),'Deleted product must not remain an enquiry option')
+assert.equal(catalogAudit.bags.filter(b=>b.collection==='yuanen-2026').length,24,'Retain the active cold-chain catalog and cooler variants')
 assert.deepEqual(photoProducts.map(b=>b.slug).sort(),['compact-insulated-lunch-bags','double-film-self-absorbing-ice-packs','foil-insulated-box-liners','gold-trim-insulated-cake-bags','gusseted-self-seal-foil-bags','side-absorbing-ice-packs'])
-assert.deepEqual(catalogAudit.bags.filter(b=>b.collection==='custom-designs-2026').map(b=>b.slug),['paper-insulated-delivery-bags','insulated-pizza-delivery-bags','insulated-catering-bags','insulated-meal-prep-bags','insulated-beverage-delivery-bags','insulated-ice-cream-delivery-bags'],'Only the reviewed custom designs may appear')
+assert.deepEqual(catalogAudit.bags.filter(b=>b.collection==='custom-designs-2026').map(b=>b.slug),['insulated-pallet-covers','paper-insulated-delivery-bags','insulated-pizza-delivery-bags','insulated-catering-bags','insulated-meal-prep-bags','insulated-beverage-delivery-bags','insulated-ice-cream-delivery-bags'],'Only the reviewed custom designs may appear')
 assert(catalogAudit.bags.every(b=>['yuanen-2026','yuanen-photos-2026','custom-designs-2026'].includes(b.collection)),'Unselected category published')
 assert.equal(photoImport.files.filter(f=>f.selected).length,20,'Expected curated sample photographs')
 assert.equal(icePhotoImport.files.filter(f=>f.selected).length,14,'Expected curated ice-pack photographs')
@@ -63,6 +66,14 @@ for (const [slug,profile] of Object.entries(commercialProfiles)) {
     assert(profile.fixedSizes,`Ice sizes must be fixed: ${slug}`)
     assert(profile.options[1].moq.en.includes('100,000'),`Custom ice printing requires 100,000 pcs: ${slug}`)
     assert(profile.dimensions.zh.includes('不可更改尺寸'),`Missing size limitation: ${slug}`)
+  }
+}
+// Historical copy debt is explicit; never add new slugs to this exception list.
+const legacyProposalNames = new Set(['paper-insulated-delivery-bags','insulated-catering-bags','insulated-meal-prep-bags','insulated-beverage-delivery-bags','insulated-ice-cream-delivery-bags'])
+const internalStageName = /打样|定制方案|拟定|sampling|proposal|proposed|custom design|propuesta|propuesto|muestreo/i
+for (const product of catalogAudit.bags.filter(b=>b.collection==='custom-designs-2026' && !legacyProposalNames.has(b.slug))) {
+  for (const field of ['name','short','seoTitle']) for (const value of Object.values(product[field] || {})) {
+    assert(!internalStageName.test(value),`Product name contains internal drafting stage: ${product.slug} ${field}`)
   }
 }
 for (const bag of catalogAudit.bags) {
@@ -109,7 +120,11 @@ for (const file of files) {
     const pageSchema = graph.find(item=>item['@type']==='WebPage')
     assert(pageSchema && Array.isArray(pageSchema.image),`Missing WebPage gallery schema: ${relative}`)
     if(ownProduct.collection==='custom-designs-2026') {
-      if(ownProduct.slug==='paper-insulated-delivery-bags'){
+      if(ownProduct.slug==='insulated-pallet-covers'){
+        assert.deepEqual(pageSchema.image.map(url=>new URL(url).pathname),Array.from({length:7},(_,i)=>`/images/products/standardized/insulated-pallet-covers/${String(i+1).padStart(2,'0')}.webp`),'Pallet cover gallery and order')
+        for(const id of ['applications','materials','features','order-quantities','pricing','delivery','dimensions','export']) assert(html.includes('id="'+id+'"'),'Missing pallet section '+id)
+        assert(html.includes('?bag=insulated-pallet-covers'),'Pallet-specific enquiry')
+      }else if(ownProduct.slug==='paper-insulated-delivery-bags'){
         assert.deepEqual(pageSchema.image.map(url=>new URL(url).pathname),Array.from({length:7},(_,i)=>`/images/products/standardized/paper-insulated-delivery-bags/${String(i+1).padStart(2,'0')}.webp`),'Paper delivery gallery and order')
         for(const id of ['applications','materials','features','order-quantities','pricing','delivery','dimensions','export','paper-packout','paper-questions','paper-quote']) assert(html.includes('id="'+id+'"'),'Missing paper delivery section '+id)
         assert(html.includes('?bag=paper-insulated-delivery-bags'),'Paper delivery enquiry required')

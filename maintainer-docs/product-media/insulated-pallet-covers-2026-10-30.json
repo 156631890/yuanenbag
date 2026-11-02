@@ -1,0 +1,84 @@
+{
+  "productId": "NP10",
+  "slug": "insulated-pallet-covers",
+  "status": "draft_awaiting_review",
+  "date": "2026-10-30",
+  "keyword": "insulated pallet covers",
+  "keywordSource": "Independent YUANEN product keyword workbook, NP10",
+  "design": "Five-sided foil-faced flexible foam hood; open bottom; no handles, zippers or straps; sample specification subject to confirmation",
+  "references": [
+    {
+      "path": "/Users/ic/Projects/yuanenbag/website/public/images/products/standardized/photos-2026-09/foil-material-measurement-a.webp",
+      "purpose": "Verified material appearance only; gauge reading not a new product specification"
+    },
+    {
+      "url": "https://en.isovation.com/product/thermal-covers/",
+      "purpose": "Industry pallet cover structure only; no transferred performance, imagery or brand design"
+    }
+  ],
+  "tool": "image_gen.imagegen",
+  "rights": "Generated specifically for user; own material reference and industry reference used for structural research only; not evidence of completed production",
+  "images": [
+    {
+      "id": 1,
+      "prompt": "Use case: product-mockup. Generate a square photorealistic catalog image of a proposed custom FIVE-SIDED THERMAL PALLET HOOD. Reference image is ONLY the company's silver foil-faced white flexible foam material: use its fine irregular embossed foil texture, do not copy measuring instrument, numeric thickness or hand. Product design: a simple silver flexible rectangular hood with closed flat top and four continuous sides, open bottom; no zips, no handles, no straps, no logos. Hood slips over a neatly cuboidal carton load on a plain light wooden pallet. Its lower hem ends at the top of the pallet deck leaving all fork-entry spaces visible; the hood is NOT a rigid box or a box liner. Subtle joined seams run along top perimeter and vertical corners; realistic small wrinkles, flexible layered edge, not woven fabric, not shiny satin or bubble cells. Front three-quarter full view, complete pallet and top within canvas, about 12 percent safe margins. Seamless #F6F6F4 studio background, soft natural photographic light and contact shadow, no words, no labels, no claims, no brand marks. This is a proposed sample construction, not production evidence.",
+      "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-6b6b4162-08ea-45fd-9cc5-291a5bb7654a.png",
+      "file": "public/images/products/standardized/insulated-pallet-covers/01.webp",
+      "sha256": "61c4dad4f78e51d06ab6074360f47ec87ea453a93c7d2248bd4d6597a4a32842",
+      "visualReview": "Passed: material, structure, continuity, relevant procurement detail; custom concept only"
+    },
+    {
+      "id": 2,
+      "prompt": "Create one photorealistic procurement detail photograph for the SAME proposed silver foil-faced flexible white foam pallet hood in reference 1, material appearance reference 2. Close view of LOWER OPEN HEM at one side of the hood while it covers kraft cartons supported by a wooden pallet. A single gloved hand gently lifts just 10 cm of the flexible bottom edge, exposing its white foam underside and a small patch of kraft carton behind. This is the existing bottom opening, NOT a cutout, slit or door. The four continuous walls and closed top remain unchanged; most cover stays supported by cartons. Thin flexible laminate with irregular foil folds and embossed texture, no cloth weave, no satin, no bubbles. Foil outside, thin white foam inside. No handles zipper straps labels text. Pallet fork openings remain unobstructed. Neutral #F6F6F4 studio background, soft daylight, generous framing. Physically realistic modest flex, not rigid box and not padded quilt. Square photo; show only relevant hand and material, no face.",
+      "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-207854f7-6710-49e7-a472-c26bea34fd56.png",
+      "file": "public/images/products/standardized/insulated-pallet-covers/02.webp",
+      "sha256": "5af20e2d40274fedaf08baedbb9d9cd5f6ebd3d5f8a4a3e79a6284d54a85b0b8",
+      "visualReview": "Passed: material, structure, continuity, relevant procurement detail; custom concept only"
+    },
+    {
+      "id": 3,
+      "prompt": "Product-mockup: square photorealistic catalog photograph of EXACT SAME proposed silver foil-faced flexible foam five-sided pallet hood as reference. Closed flat top, four joined continuous walls, open bottom, no zipper, handles, straps, labels, logos, text, numbers or machinery. Keep same irregular embossed thin foil, pale wooden pallet, rectangular load proportions, edge construction and neutral #F6F6F4 studio background. Soft daylight, credible physical support and natural shadows. No fabric weave, bubble pattern or rigid metal box. All main objects fully within frame, 12% safety margins. Close-up on ONE top corner where flat top joins two side walls. Show plausible narrow overlapped joined seams, subtle foil wrinkles and material flexibility. Macro product detail, not a cutaway, no extra components. No need show whole hood or pallet in this detail image.",
+      "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-4d7b4bb5-20d0-44da-be47-b011609c5c7e.png",
+      "file": "public/images/products/standardized/insulated-pallet-covers/03.webp",
+      "sha256": "e67c992742ac5f10feee229b5709bf4d8b4ef9f429d0fa245a573143a826da48",
+      "visualReview": "Passed: material, structure, continuity, relevant procurement detail; custom concept only"
+    },
+    {
+      "id": 4,
+      "prompt": "Product-mockup: square photorealistic catalog photograph of EXACT SAME proposed silver foil-faced flexible foam five-sided pallet hood as reference. Closed flat top, four joined continuous walls, open bottom, no zipper, handles, straps, labels, logos, text, numbers or machinery. Keep same irregular embossed thin foil, pale wooden pallet, rectangular load proportions, edge construction and neutral #F6F6F4 studio background. Soft daylight, credible physical support and natural shadows. No fabric weave, bubble pattern or rigid metal box. All main objects fully within frame, 12% safety margins. Low three-quarter close-up of lower hem at pallet deck and vertical corner. Show foil outer facing turning slightly at the lower edge to reveal thin white foam backing. Cover stops above forklift entry opening; wooden deck and open fork channel visible. No bottom panel or extra loose strap. Crop only for meaningful detail.",
+      "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-ae99af74-cc63-4b66-84bb-fb6cc223c30b.png",
+      "file": "public/images/products/standardized/insulated-pallet-covers/04.webp",
+      "sha256": "caa45bcb8088beefc00315dcec38e2367a4b196ec90cfb525e83ae351aa742fc",
+      "visualReview": "Passed: material, structure, continuity, relevant procurement detail; custom concept only"
+    },
+    {
+      "id": 5,
+      "prompt": "Product-mockup: square photorealistic catalog photograph of EXACT SAME proposed silver foil-faced flexible foam five-sided pallet hood as reference. Closed flat top, four joined continuous walls, open bottom, no zipper, handles, straps, labels, logos, text, numbers or machinery. Keep same irregular embossed thin foil, pale wooden pallet, rectangular load proportions, edge construction and neutral #F6F6F4 studio background. Soft daylight, credible physical support and natural shadows. No fabric weave, bubble pattern or rigid metal box. All main objects fully within frame, 12% safety margins. Whole same hood OFF the pallet, neatly flattened and folded as one flexible silver foam-laminate bundle on studio floor. One open fold slightly reveals white foam backing; all edges complete, no printed measurements. No pallet, no cartons, no extra sample piece. Clearly folded continuous hood rather than stacked separate sheets.",
+      "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-88f5fa62-f64a-4d24-840c-739a83234a46.png",
+      "file": "public/images/products/standardized/insulated-pallet-covers/05.webp",
+      "sha256": "f864c616d83916f0c8ca16823c554902d8afc722e3dcf2d97fc0895d0f124c67",
+      "visualReview": "Passed: material, structure, continuity, relevant procurement detail; custom concept only"
+    },
+    {
+      "id": 6,
+      "prompt": "Product-mockup: square photorealistic catalog photograph of EXACT SAME proposed silver foil-faced flexible foam five-sided pallet hood as reference. Closed flat top, four joined continuous walls, open bottom, no zipper, handles, straps, labels, logos, text, numbers or machinery. Keep same irregular embossed thin foil, pale wooden pallet, rectangular load proportions, edge construction and neutral #F6F6F4 studio background. Soft daylight, credible physical support and natural shadows. No fabric weave, bubble pattern or rigid metal box. All main objects fully within frame, 12% safety margins. Same fully covered pallet from the rear three-quarter angle with slightly lower camera. Show continuous rear side walls and vertical corner joins, no opening slit or rear door. Pallet whole and fork access unobstructed. Preserve hood proportions and metallic surface.",
+      "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-6fd8538f-798d-4980-b887-9083314cd99e.png",
+      "file": "public/images/products/standardized/insulated-pallet-covers/06.webp",
+      "sha256": "28484994ef506b0b6726d660f21a3b23c7a913aec74799dfcb0c85185e6a3d82",
+      "visualReview": "Passed: material, structure, continuity, relevant procurement detail; custom concept only"
+    },
+    {
+      "id": 7,
+      "prompt": "Product-mockup: square photorealistic catalog photograph of EXACT SAME proposed silver foil-faced flexible foam five-sided pallet hood as reference. Closed flat top, four joined continuous walls, open bottom, no zipper, handles, straps, labels, logos, text, numbers or machinery. Keep same irregular embossed thin foil, pale wooden pallet, rectangular load proportions, edge construction and neutral #F6F6F4 studio background. Soft daylight, credible physical support and natural shadows. No fabric weave, bubble pattern or rigid metal box. All main objects fully within frame, 12% safety margins. Same hood in a sample handling setup: one adult worker wearing plain navy workwear and plain gloves stands behind the pallet, both hands gently gripping upper edges as they check placement on the carton load. Cover remains supported by the stacked load, no levitation and no pulling on handles. Human scale credible; crop adult head above shoulders if needed, but hands and entire pallet/hood visible. Same neutral studio background, not a claimed factory scene.",
+      "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-1c776396-30a1-49d0-9f91-0ce90d2b9d84.png",
+      "file": "public/images/products/standardized/insulated-pallet-covers/07.webp",
+      "sha256": "e8cbee2192be54a20b70c1360e6efb1be482347082cd6d238eb4056e76538339",
+      "visualReview": "Passed: material, structure, continuity, relevant procurement detail; custom concept only"
+    }
+  ],
+  "rejected": {
+    "source": "Generated images are saved to /Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d as /Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-251805e1-d93c-4edb-ac47-634745e102d1.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "prompt": "Product-mockup: square photorealistic catalog photograph of EXACT SAME proposed silver foil-faced flexible foam five-sided pallet hood as reference. Closed flat top, four joined continuous walls, open bottom, no zipper, handles, straps, labels, logos, text, numbers or machinery. Keep same irregular embossed thin foil, pale wooden pallet, rectangular load proportions, edge construction and neutral #F6F6F4 studio background. Soft daylight, credible physical support and natural shadows. No fabric weave, bubble pattern or rigid metal box. All main objects fully within frame, 12% safety margins. Show fitting/access from open bottom: hood has been removed and is laid on its SIDE beside the same pallet with a neat rectangular stack of unmarked closed kraft cartons. The hood is partially collapsed naturally on the floor, bottom aperture clearly faces camera, white flexible foam backing visible INSIDE, no structural bottom panel. Not a second upright rigid crate. Two objects share one ground plane, no floating.",
+    "reason": "Unsupported empty hood appeared too rigid; replaced with supported lower hem detail"
+  }
+}

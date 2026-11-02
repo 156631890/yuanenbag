@@ -77,3 +77,7 @@
 @media(max-width:650px){.quality-document-copy dl>div{font-size:12px}}
 
 .footer-contact-summary p a{display:inline;margin:0}
+
+/* NP10: show product identity and the enquiry action before the mobile gallery. */
+@media(max-width:650px){.product-detail--pallet .product-copy{display:contents}.product-detail--pallet .product-intro{order:-1}.product-detail--pallet .product-intro h1{margin-top:10px}.product-detail--pallet .product-intro .lead{margin-bottom:16px}.product-detail--pallet .spec-table{order:2}}
+.measurement-key{font-weight:600}.detail-columns ol{padding-left:1.3em}.detail-columns li+li{margin-top:.7em}

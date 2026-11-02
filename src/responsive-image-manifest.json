@@ -11956,5 +11956,277 @@
         "width": 1200
       }
     ]
+  },
+  "images/products/standardized/insulated-pallet-covers/measurement-v1.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/49349682403f-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/e7f253be79ba-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/a8a91edf47df-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/a742b1e7be64-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/c8d387d92440-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/17e34ae50d19-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/9e6ecfd51d59-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-pallet-covers/01.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/305d7cb981b9-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/35bed98a6c31-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/5d889aead975-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/5acfd3ff7a72-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/f75254b87b9b-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/2eb5342b39aa-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/0b004923f0ab-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-pallet-covers/02.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/e2c1b81089c5-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/8429bba6140b-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/3fe840b64134-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/3a4ec3e55fdf-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/b211b93aa7dc-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/57e1a433160c-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/3c1a5d86ad53-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-pallet-covers/03.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/ceb77d9ce035-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/3f99da520ec4-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/e53edff4da56-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/23e822c18777-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/ed1dbc97f2fd-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/4dd22abec232-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/3cf4fdc15f38-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-pallet-covers/04.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/6d83a0082542-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/4e06652461ed-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/8dbfc4d5b0a3-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/4f4d589f8638-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/37bf22159bae-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/3f33804e4e4d-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/cb7fee736c54-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-pallet-covers/05.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/c22d3e62315a-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/75f7848e683a-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/07a1a20ef1c5-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/f206f3b29a2e-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/b7a18815197e-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/e7538ad806c0-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/a7dab15834f8-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-pallet-covers/06.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/a3e8392064b2-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/09319e4497a6-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/63841436eba3-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/7aa7f716ad2a-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/e18613ef4212-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/9b4d55881010-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/f89dbd70952e-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-pallet-covers/07.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/fc83056637fa-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/b89598c93168-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/701168232098-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/a58d056028bb-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/110d373bac03-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/26851b244267-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/10cffbedc0be-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }
