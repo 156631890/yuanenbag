@@ -25,3 +25,5 @@ export {default as Quality} from './Quality'
 export {default as BoxLinerApplications} from './BoxLinerApplications'
 
 export { default as CollectionPage } from './CollectionPage'
+
+export {default as CustomerBrands} from './CustomerBrands'

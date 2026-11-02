@@ -28,3 +28,5 @@ export const Quality = lazy(() => import('./Quality'))
 export const BoxLinerApplications = lazy(() => import('./BoxLinerApplications'))
 
 export const CollectionPage = lazy(() => import('./CollectionPage'))
+
+export const CustomerBrands = lazy(() => import('./CustomerBrands'))

@@ -75,7 +75,7 @@ export function render(path = '/', indexable = false) {
     `<meta property="og:image" content="${escape(absolute(href('/', 'en')+shareImage))}" />`,
     `<script type="application/ld+json">${JSON.stringify({'@context':'https://schema.org','@graph':graph}).replace(/</g,'\\u003c')}</script>`,
   ].join('\n    ')
-  const clientModules: Record<string,string> = {collection:'src/CollectionPage.tsx',catalog:'src/CatalogBrowser.tsx',bag:'src/ProductSections.tsx',contact:'src/Enquiry.tsx',contentPolicy:'src/ContentPolicy.tsx',customization:'src/CustomizationOrderOptions.tsx'}
+  const clientModules: Record<string,string> = {home:'src/CustomerBrands.tsx',about:'src/CustomerBrands.tsx',collection:'src/CollectionPage.tsx',catalog:'src/CatalogBrowser.tsx',bag:'src/ProductSections.tsx',contact:'src/Enquiry.tsx',contentPolicy:'src/ContentPolicy.tsx',customization:'src/CustomizationOrderOptions.tsx'}
   const clientModule = page.type==='guide'&&['bag-material-comparison','ice-pack-selection'].includes(page.slug!)
     ? 'src/SelectionGuide.tsx' : page.type==='guide'&&page.slug==='custom-bag-order-checklist' ? 'src/OrderReference.tsx' : clientModules[page.type]
   const editorialModules = page.type === 'editorialArticle'
