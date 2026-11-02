@@ -1,4 +1,4 @@
-import { productFamily, productFamilies, productMaterials, classificationFor } from './product-classification'
+import { compareProductDemand, productFamily, productFamilies, productMaterials, classificationFor } from './product-classification'
 import { CollectionLinks } from './CollectionLinks'
 import { useState } from 'react'
 import { ArrowUpRight, RotateCcw, Search, SlidersHorizontal, X } from 'lucide-react'
@@ -15,7 +15,7 @@ export default function CatalogBrowser({lang}:{lang:Lang}) {
   const ranges=[['all',t('All products','全部产品','Todos')],...productFamilies.map(([id,label])=>[id,label[lang]])]
   const clearDetails=()=>{setMaterial('all');setStyle('all');setUsage('all');setQuery('')}
   const reset=()=>{setRange('all');clearDetails()}
-  const filtered=bags.filter(b=>(range==='all'||family(b)===range)&&(material==='all'||classificationFor(b).material===material)&&(style==='all'||b.styles?.includes(style))&&(usage==='all'||b.uses?.includes(usage))&&normalize([b.name.en,b.name.zh,b.name.es,b.material[lang],b.use[lang],...styleOptions.filter(([id])=>b.styles?.includes(id)).map(([,v])=>v[lang]),...usageOptions.filter(([id])=>b.uses?.includes(id)).map(([,v])=>v[lang])].join(' ')).includes(normalize(query.trim())))
+  const filtered=[...bags].sort(compareProductDemand).filter(b=>(range==='all'||family(b)===range)&&(material==='all'||classificationFor(b).material===material)&&(style==='all'||b.styles?.includes(style))&&(usage==='all'||b.uses?.includes(usage))&&normalize([b.name.en,b.name.zh,b.name.es,b.material[lang],b.use[lang],...styleOptions.filter(([id])=>b.styles?.includes(id)).map(([,v])=>v[lang]),...usageOptions.filter(([id])=>b.uses?.includes(id)).map(([,v])=>v[lang])].join(' ')).includes(normalize(query.trim())))
   const active=range!=='all'||material!=='all'||style!=='all'||usage!=='all'||query!==''
   const detailCount=[material,style,usage].filter(v=>v!=='all').length
   const own=filtered.filter(b=>b.collection), extended=filtered.filter(b=>!b.collection)
