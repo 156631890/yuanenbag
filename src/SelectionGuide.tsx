@@ -1,6 +1,6 @@
 import { guides, tx, type Lang, type Text } from './data'
 import { href } from './routes'
-import { CollectionLinks } from './CollectionPage'
+import { CollectionLinks } from './CollectionLinks'
 import { GuideMeta, GuideSources } from './BuyerResources'
 
 type Row = [Text,Text,Text]

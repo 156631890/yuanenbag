@@ -3,6 +3,26 @@ import { access, readFile, writeFile } from 'node:fs/promises'
 import { seoAudit, catalogAudit, render } from '../.ssr/entry-server.js'
 
 const decode=s=>s.replaceAll('&amp;','&').replaceAll('&quot;','"').replaceAll('&#x27;',"'").replaceAll('&#39;',"'").replaceAll('&lt;','<').replaceAll('&gt;','>')
+for(const b of catalogAudit.bags){
+ const c=catalogAudit.productClassifications[b.slug]
+ assert(c&&catalogAudit.productFamilies.some(([id])=>id===c.family),`Explicit product family required: ${b.slug}`)
+ assert(catalogAudit.productMaterials.some(([id])=>id===c.material),`Valid material classification required: ${b.slug}`)
+ assert(!['cooler','thermal','cold-chain'].includes(c.material),`Use cannot be a material: ${b.slug}`)
+}
+// Every active product has exactly one primary form category. No material-based fallback.
+const membership=seoAudit.collections.flatMap(c=>seoAudit.collectionProducts(c).map(b=>({slug:b.slug,collection:c.slug})))
+assert.equal(membership.length,catalogAudit.bags.length,'Every product needs one primary collection')
+assert.equal(new Set(membership.map(x=>x.slug)).size,catalogAudit.bags.length,'Duplicate or missing primary collection')
+for(const [slug,collection] of Object.entries({
+ 'paper-insulated-delivery-bags':'insulated-takeaway-totes',
+ 'insulated-pallet-covers':'insulated-box-liners-pallet-covers',
+ 'foil-insulated-box-liners':'insulated-box-liners-pallet-covers',
+ 'insulated-pizza-delivery-bags':'custom-cooler-bags',
+ 'self-seal-non-woven-delivery-bags':'insulated-takeaway-totes',
+ 'water-fill-ice-packs':'ice-packs-for-shipping',
+ 'self-adhesive-foil-bags':'foil-insulated-packaging',
+})) assert.equal(membership.find(x=>x.slug===slug)?.collection,collection,`Wrong product form category: ${slug}`)
+assert.throws(()=>catalogAudit.classificationFor({slug:'__unmapped_release_probe__'}),/Missing explicit product classification/,'Unmapped products must not fall back to cooler bags')
 const reports=[]
 for(const lang of ['en','zh','es']){
  const prefix=lang==='en'?'':`/${lang}`,descriptions=new Set()
@@ -17,7 +37,7 @@ for(const lang of ['en','zh','es']){
   const graph=JSON.parse(html.match(/application\/ld\+json">([\s\S]*?)<\/script>/)[1])['@graph']
   if(page.type==='collection'){
    const c=seoAudit.collections.find(c=>c.slug===page.slug)
-   const expected=catalogAudit.bags.filter(b=>b.type===c.type&&(c.type!=='cooler'||b.category!=='non-woven'))
+   const expected=seoAudit.collectionProducts(c)
    const list=graph.find(v=>v['@type']==='CollectionPage').mainEntity
    assert.equal(list.numberOfItems,expected.length,`Wrong range count: ${path}`)
    const enquiryBrief=visible.match(/<p class="foil-enquiry-brief">([\s\S]*?)<\/p>/)?.[1]
@@ -29,7 +49,7 @@ for(const lang of ['en','zh','es']){
     for(const term of required[lang]) assert(text.includes(term),`Missing foil enquiry requirement ${term}: ${path}`)
    } else assert(!enquiryBrief,`Foil enquiry brief leaked into another collection: ${path}`)
    assert.deepEqual(list.itemListElement.map(v=>v.url),expected.map(b=>`https://yuanenbag.com${prefix}/products/${b.slug}/`))
-   assert(visible.includes('<table')&&visible.includes(decode(c.answer[lang]).replaceAll('&','&amp;')),`Missing range answer/comparison: ${path}`)
+   assert(visible.includes('<table')&&visible.includes(decode(seoAudit.collectionContent[c.slug].answer[lang]).replaceAll('&','&amp;')),`Missing range answer/comparison: ${path}`)
    for(const b of expected){
     assert(visible.includes(`href="${prefix}/products/${b.slug}/"`),`Range missing product: ${b.slug}`)
     const product=await readFile(`dist${prefix}/products/${b.slug}/index.html`,'utf8')

@@ -26,3 +26,5 @@ export const CollectionShowcase = lazy(() => import('./CollectionShowcase'))
 export const Quality = lazy(() => import('./Quality'))
 
 export const BoxLinerApplications = lazy(() => import('./BoxLinerApplications'))
+
+export const CollectionPage = lazy(() => import('./CollectionPage'))

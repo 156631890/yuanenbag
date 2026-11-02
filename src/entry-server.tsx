@@ -1,3 +1,5 @@
+import { collectionContent } from './collection-content'
+import { classificationFor, productClassifications, productFamilies, productMaterials } from './product-classification'
 import { collections, collectionFor, collectionProducts } from './collections'
 import { renderToString } from 'react-dom/server'
 import App from './App'
@@ -11,8 +13,8 @@ import { archivePath, articlePath, articlesOnPage, editorialArticles } from './e
 
 export const notFoundPaths = languages.map(lang=>href('/404/',lang))
 export const paths = languages.flatMap(lang => pages.map(page => href(page.path, lang)))
-export const seoAudit = {pages, collections, guides, editorialArticles}
-export const catalogAudit = {bags,materialCategories,styleOptions,usageOptions,commercialProfiles,stockSpecifications}
+export const seoAudit = {pages, collections, collectionContent, collectionProducts, guides, editorialArticles}
+export const catalogAudit = {classificationFor, productClassifications, productFamilies, productMaterials, bags,materialCategories,styleOptions,usageOptions,commercialProfiles,stockSpecifications}
 export const documentationAudit = qualityDocuments
 const escape = (value: string) => value.replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]!))
 const absolute = (path: string) => new URL(path, brand.site).href
@@ -73,7 +75,7 @@ export function render(path = '/', indexable = false) {
     `<meta property="og:image" content="${escape(absolute(href('/', 'en')+shareImage))}" />`,
     `<script type="application/ld+json">${JSON.stringify({'@context':'https://schema.org','@graph':graph}).replace(/</g,'\\u003c')}</script>`,
   ].join('\n    ')
-  const clientModules: Record<string,string> = {catalog:'src/CatalogBrowser.tsx',bag:'src/ProductSections.tsx',contact:'src/Enquiry.tsx',contentPolicy:'src/ContentPolicy.tsx',customization:'src/CustomizationOrderOptions.tsx'}
+  const clientModules: Record<string,string> = {collection:'src/CollectionPage.tsx',catalog:'src/CatalogBrowser.tsx',bag:'src/ProductSections.tsx',contact:'src/Enquiry.tsx',contentPolicy:'src/ContentPolicy.tsx',customization:'src/CustomizationOrderOptions.tsx'}
   const clientModule = page.type==='guide'&&['bag-material-comparison','ice-pack-selection'].includes(page.slug!)
     ? 'src/SelectionGuide.tsx' : page.type==='guide'&&page.slug==='custom-bag-order-checklist' ? 'src/OrderReference.tsx' : clientModules[page.type]
   const editorialModules = page.type === 'editorialArticle'

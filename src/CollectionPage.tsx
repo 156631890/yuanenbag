@@ -1,26 +1,20 @@
+import { CollectionLinks } from './CollectionLinks'
 import { guides, tx, type Bag, type Lang } from './data'
 import { collections, collectionFor, collectionProducts, type Collection } from './collections'
 import { href } from './routes'
 import { ProductCard } from './Catalog'
-import CakeBagFitGuide from './CakeBagFitGuide'
+import { collectionContent } from './collection-content'
 
-export function CollectionLinks({lang}:{lang:Lang}) {
-  return <nav className="seo-collection-links" aria-label={tx('Product selection guides','产品系列选型','Selección de productos')[lang]}>{collections.map(c=><a key={c.slug} href={href(`/collections/${c.slug}/`,lang)}>{c.name[lang]} <span>↗</span></a>)}</nav>
-}
-export function ProductBuyingLinks({bag,lang}:{bag:Bag;lang:Lang}) {
-  const c=collectionFor(bag)
-  const guide=guides.find(g=>g.slug===(c?.guide||'custom-bag-order-checklist'))!
-  return <aside className="seo-buying-links">{bag.slug === 'square-zipper-cake-cooler' ? <CakeBagFitGuide lang={lang} /> : <div><h2>{bag.slug==='insulated-pallet-covers'?tx('Compare packaging and specifications','比较包装结构与采购规格','Compare embalajes y especificaciones')[lang]:tx('Compare formats before ordering','订购前比较袋型与规格','Compare formatos antes de pedir')[lang]}</h2><p>{bag.considerations[0][lang]}</p></div>}<div className="related-links">{c&&<a href={href(`/collections/${c.slug}/`,lang)}>{c.name[lang]} ↗</a>}<a href={href(`/guides/${guide.slug}/`,lang)}>{guide.title[lang]} ↗</a><a href={href('/guides/custom-bag-order-checklist/',lang)}>{tx('Quantity, samples & quotation checklist','数量、打样与询价清单','Cantidad, muestras y cotización')[lang]} ↗</a></div></aside>
-}
 export default function CollectionPage({collection:c,lang}:{collection:Collection;lang:Lang}) {
+  const content=collectionContent[c.slug]
   const products=collectionProducts(c),guide=guides.find(g=>g.slug===c.guide)!
   const isEnglishCooler=c.slug==='custom-cooler-bags' && lang==='en'
   const checks=isEnglishCooler ? [
     'Share the packed length, width and height, with a photo or sketch showing how the contents will sit inside the bag.',
     'State the order quantity, logo requirements and delivery destination. If you have a required arrival date, include it in your enquiry.',
     'Confirm the materials, opening and carry handles on a finished sample before approving bulk production.',
-  ] : c.checks.map(check=>check[lang])
-  return <section className="container page-section seo-collection"><nav className="breadcrumbs" aria-label={tx('Breadcrumb','面包屑导航','Ruta de navegación')[lang]}><a href={href('/',lang)}>{tx('Home','首页','Inicio')[lang]}</a><span>/</span><a href={href('/products/',lang)}>{tx('Products','产品中心','Productos')[lang]}</a><span>/</span><span aria-current="page">{c.name[lang]}</span></nav><header className="page-intro"><span className="eyebrow">YUANEN / {tx('PRODUCT SELECTION','产品选型','SELECCIÓN DE PRODUCTOS')[lang]}</span><h1>{c.name[lang]}</h1><p className="lead">{c.description[lang]}</p></header><div className="answer-box"><h2>{tx('Which format should you choose?','如何选择合适的款式？','¿Qué formato elegir?')[lang]}</h2><p>{c.answer[lang]}</p></div><h2>{tx('Compare the range','比较本系列产品','Compare la gama')[lang]}</h2><div className="table-scroll" role="region" aria-label={tx('Compare the range','比较本系列产品','Compare la gama')[lang]} tabIndex={0}><table className="seo-comparison"><thead><tr>{[tx('Product','产品','Producto'),tx('Typical use','常见用途','Uso habitual'),tx('First detail to check','优先核对','Primera comprobación')].map(h=><th key={h.en}>{h[lang]}</th>)}</tr></thead><tbody>{products.map(b=><tr key={b.slug}><th scope="row"><a href={href(`/products/${b.slug}/`,lang)}>{b.short[lang]}</a></th><td>{b.use[lang]}</td><td>{b.considerations[0][lang]}</td></tr>)}</tbody></table></div><div className="product-grid">{products.map((bag,index)=><ProductCard key={bag.slug} bag={bag} lang={lang} index={index}/>)}</div>
+  ] : content.checks.map(check=>check[lang])
+  return <section className="container page-section seo-collection"><nav className="breadcrumbs" aria-label={tx('Breadcrumb','面包屑导航','Ruta de navegación')[lang]}><a href={href('/',lang)}>{tx('Home','首页','Inicio')[lang]}</a><span>/</span><a href={href('/products/',lang)}>{tx('Products','产品中心','Productos')[lang]}</a><span>/</span><span aria-current="page">{c.name[lang]}</span></nav><header className="page-intro"><span className="eyebrow">YUANEN / {tx('PRODUCT SELECTION','产品选型','SELECCIÓN DE PRODUCTOS')[lang]}</span><h1>{c.name[lang]}</h1><p className="lead">{c.description[lang]}</p></header><div className="answer-box"><h2>{tx('Which format should you choose?','如何选择合适的款式？','¿Qué formato elegir?')[lang]}</h2><p>{content.answer[lang]}</p></div>{c.slug==='foil-insulated-packaging'&&<p><a className="text-link" href={href('/collections/insulated-box-liners-pallet-covers/',lang)}>{tx('Looking for box liners or pallet covers? Compare them here.','寻找箱内衬或托盘保温罩？查看对应系列。','¿Busca revestimientos o fundas para palés? Compare esta gama.')[lang]}</a></p>}<h2>{tx('Compare the range','比较本系列产品','Compare la gama')[lang]}</h2><div className="table-scroll" role="region" aria-label={tx('Compare the range','比较本系列产品','Compare la gama')[lang]} tabIndex={0}><table className="seo-comparison"><thead><tr>{[tx('Product','产品','Producto'),tx('Typical use','常见用途','Uso habitual'),tx('First detail to check','优先核对','Primera comprobación')].map(h=><th key={h.en}>{h[lang]}</th>)}</tr></thead><tbody>{products.map(b=><tr key={b.slug}><th scope="row"><a href={href(`/products/${b.slug}/`,lang)}>{b.short[lang]}</a></th><td>{b.use[lang]}</td><td>{b.considerations[0][lang]}</td></tr>)}</tbody></table></div><div className="product-grid">{products.map((bag,index)=><ProductCard key={bag.slug} bag={bag} lang={lang} index={index}/>)}</div>
     <section className="detail-section">
       <h2>{isEnglishCooler ? 'Prepare your custom cooler bag enquiry' : tx('Prepare your bulk order specification','准备批量采购规格','Prepare la especificación de compra')[lang]}</h2>
       {isEnglishCooler && <p>Choose a bag format above and send the dimensions of the items you plan to pack. Include the full cake box, meal container or grocery load, plus any coolant packs.</p>}

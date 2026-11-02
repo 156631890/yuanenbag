@@ -976,7 +976,8 @@ export const yuanenProducts:Bag[] = [
       "zipper"
     ],
     "uses": [
-      "thermal"
+      "thermal",
+      "supermarket"
     ],
     "image": "2026/537.webp",
     "gallery": [
