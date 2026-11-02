@@ -12300,5 +12300,39 @@
         "width": 1453
       }
     ]
+  },
+  "images/editorial/2026-11-02/paper-material-line-pack-compatibility.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/644e72ca36a7-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/8df409ab6c87-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/9377a8d8de6b-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/2a0f4ffe3b20-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/9f7f62536af7-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/12afd2e2f0d6-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/b7e7640adbaa-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

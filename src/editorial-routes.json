@@ -36,6 +36,15 @@
     }
   },
   {
+    "kind": "industry",
+    "slug": "atlantic-pack-expo-fiber-existing-lines",
+    "title": {
+      "en": "Atlantic Recaps Fiber Packaging Trials on Existing Lines at PACK EXPO",
+      "zh": "Atlantic回顾PACK EXPO现有产线纸基包装演示",
+      "es": "Atlantic repasa las pruebas de envases de fibra en líneas existentes en PACK EXPO"
+    }
+  },
+  {
     "kind": "guide",
     "slug": "beverage-delivery-bag-cup-divider-fit",
     "title": {

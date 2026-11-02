@@ -60,6 +60,21 @@
     }
   },
   {
+    "kind": "industry",
+    "slug": "atlantic-pack-expo-fiber-existing-lines",
+    "publishedAt": "2026-11-02",
+    "title": {
+      "en": "Atlantic Recaps Fiber Packaging Trials on Existing Lines at PACK EXPO",
+      "zh": "Atlantic回顾PACK EXPO现有产线纸基包装演示",
+      "es": "Atlantic repasa las pruebas de envases de fibra en líneas existentes en PACK EXPO"
+    },
+    "description": {
+      "en": "Atlantic’s 28 October PACK EXPO recap describes three fiber-packaging demonstrations. Buyers still need to match material, line setup and finished-pack requirements.",
+      "zh": "Atlantic在10月28日回顾三组PACK EXPO纸基包装演示；采购仍须逐项确认材料、产线配置及成品包装要求。",
+      "es": "El resumen de Atlantic del 28 de octubre presenta tres demostraciones de envases de fibra. Confirme material, configuración de línea y requisitos del envase."
+    }
+  },
+  {
     "kind": "guide",
     "slug": "beverage-delivery-bag-cup-divider-fit",
     "publishedAt": "2026-10-12",
