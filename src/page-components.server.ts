@@ -27,3 +27,7 @@ export {default as BoxLinerApplications} from './BoxLinerApplications'
 export { default as CollectionPage } from './CollectionPage'
 
 export {default as CustomerBrands} from './CustomerBrands'
+
+export {default as InsulationRollSections} from './InsulationRollSections'
+
+export { default as PalletCoverSections } from './PalletCoverSections'

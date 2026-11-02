@@ -12368,5 +12368,243 @@
         "width": 1200
       }
     ]
+  },
+  "images/products/standardized/epe-foam-foil-insulation-rolls/01.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/0e74cc4c1e4e-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/a8b0980c5787-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/35f97bd3d8f2-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/4998cd1b2a29-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/b8d7910b4103-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/d56f5ac1b464-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/0dade5ed7e91-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/epe-foam-foil-insulation-rolls/02.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/bf5483035c24-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/c028000a8ba9-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/e9bdbe00cbd8-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/7b70b9e839e3-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/bccdd548f29d-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/7eabbb5ff247-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/36a5d11ced90-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/epe-foam-foil-insulation-rolls/03.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/6ccf58f04394-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/6a0e1dbe5b89-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/9badf53e1bda-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/975a0fc4e3a6-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/da87a7fbf636-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/35bd8d6749d2-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/59caa5a49883-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/epe-foam-foil-insulation-rolls/04.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/5ac82bec938c-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/31865b648aab-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/7a869407c0e1-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/925039feae00-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/86054e322c50-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/db2dbe476284-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/bc5a2bf1dddf-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/epe-foam-foil-insulation-rolls/05.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/066eca7cba8d-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/317fef2cb927-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/c976ae91c167-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/9c63a800b488-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/14f6d5460019-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/1a45676e59b9-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/09faced8e6f9-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/epe-foam-foil-insulation-rolls/06.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/f050e918a4b6-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/e4eeb8dd59ae-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/8a36d6ee72c5-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/5d72d4cfbe7f-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/f8c00fef6455-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/0e57d92127f1-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/115b485cdb0c-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/epe-foam-foil-insulation-rolls/07.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/fbe3d9bc1893-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/47902427d4ff-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/7f6f6d00662a-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/26eeb28bf3a4-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/2d591af6fc77-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/e4523c237145-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/16028a2dc526-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

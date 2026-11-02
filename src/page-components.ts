@@ -30,3 +30,7 @@ export const BoxLinerApplications = lazy(() => import('./BoxLinerApplications'))
 export const CollectionPage = lazy(() => import('./CollectionPage'))
 
 export const CustomerBrands = lazy(() => import('./CustomerBrands'))
+
+export const InsulationRollSections = lazy(() => import('./InsulationRollSections'))
+
+export const PalletCoverSections = lazy(() => import('./PalletCoverSections'))

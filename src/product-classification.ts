@@ -1,12 +1,13 @@
 import type { Bag, Text } from './data'
-export type ProductFamily = 'foil' | 'takeaway' | 'coolers' | 'liners-covers' | 'ice'
+export type ProductFamily = 'foil' | 'takeaway' | 'coolers' | 'liners-covers' | 'rolls' | 'ice'
 const text=(en:string,zh:string,es:string):Text=>({en,zh,es})
 export const productFamilies: [ProductFamily,Text][] = [
- ['foil',text('Foil insulated bags','铝箔保温袋','Bolsas térmicas de aluminio')],
- ['takeaway',text('Insulated takeaway totes','外卖保温手提袋','Bolsas térmicas para llevar')],
  ['coolers',text('Delivery & grocery cooler bags','配送与购物保温包','Bolsas térmicas de reparto y compra')],
+ ['foil',text('Foil insulated bags','铝箔保温袋','Bolsas térmicas de aluminio')],
  ['liners-covers',text('Box liners & pallet covers','箱内衬与托盘罩','Revestimientos y fundas para palés')],
+ ['takeaway',text('Insulated takeaway totes','外卖保温手提袋','Bolsas térmicas para llevar')],
  ['ice',text('Ice packs & sheets','冰袋与冰格','Acumuladores y láminas de frío')],
+ ['rolls',text('Insulation rolls & sheets','保温卷材与片材','Rollos y láminas aislantes')],
 ]
 export const productMaterials = [
  ['foil-faced',text('Foil-faced composite','铝箔面复合材料','Compuesto aluminizado')],
@@ -17,6 +18,7 @@ export const productMaterials = [
 ] as const
 // Product form, material and use are separate axes. New active products require an explicit entry.
 export const productClassifications:Record<string,{family:ProductFamily;material:string}> = {
+ "epe-foam-foil-insulation-rolls":{family:"rolls",material:"foil-faced"},
   "insulated-pallet-covers": {
     "family": "liners-covers",
     "material": "foil-faced"
@@ -173,3 +175,14 @@ export function classificationFor(bag:Bag) {
 }
 export const productFamily=(bag:Bag)=>classificationFor(bag).family
 export const productMaterialLabel=(bag:Bag)=>productMaterials.find(([id])=>id===classificationFor(bag).material)![1]
+
+// Matched primary-keyword estimates, US/en; not sales and not summed synonyms.
+// Missing values stay unranked. See maintainer-docs/product-display-order.md.
+const productDemand:Record<string,number>={
+ 'insulated-pizza-delivery-bags':480,'insulated-catering-bags':390,
+ 'self-adhesive-foil-bags':390,'foil-insulated-box-liners':320,
+ 'insulated-pallet-covers':170,'insulated-meal-prep-bags':110,
+ 'insulated-beverage-delivery-bags':40,'insulated-ice-cream-delivery-bags':20
+}
+export const familyRank=(id:ProductFamily)=>productFamilies.findIndex(([family])=>family===id)
+export const compareProductDemand=(a:Bag,b:Bag)=>familyRank(productFamily(a))-familyRank(productFamily(b)) || (productDemand[b.slug]??-1)-(productDemand[a.slug]??-1)

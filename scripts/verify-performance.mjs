@@ -29,7 +29,7 @@ for (const article of seoAudit.editorialArticles) {
 for (const file of imageCandidates) {
   assert(!entry.includes(file), 'The initial script must reuse page image attributes instead of embedding the global image manifest.')
 }
-const routeModules = ['src/CatalogBrowser.tsx','src/Enquiry.tsx','src/ProductSections.tsx','src/SelectionGuide.tsx']
+const routeModules = ['src/PalletCoverSections.tsx','src/InsulationRollSections.tsx','src/CatalogBrowser.tsx','src/Enquiry.tsx','src/ProductSections.tsx','src/SelectionGuide.tsx']
 for (const key of routeModules) {
   assert(manifest[key]?.isDynamicEntry, `Missing separate page module: ${key}`)
   assert.notEqual(manifest[key].file, manifest['index.html'].file)
@@ -63,6 +63,8 @@ for (const path of [...paths,...notFoundPaths]) {
     assert.equal([...initialScripts].some(source => source.endsWith(`/${bodyModule}`)), candidate === article, `Incorrect article body preload: ${path} (${candidate.slug})`)
   }
   const needed = path.endsWith('/products/') ? 'src/CatalogBrowser.tsx'
+    : path.endsWith('/products/insulated-pallet-covers/') ? 'src/PalletCoverSections.tsx'
+    : path.endsWith('/products/epe-foam-foil-insulation-rolls/') ? 'src/InsulationRollSections.tsx'
     : path.includes('/products/') && !path.includes('/collections/') ? 'src/ProductSections.tsx'
     : path.endsWith('/contact/') ? 'src/Enquiry.tsx'
     : /\/guides\/(bag-material-comparison|ice-pack-selection)\/$/.test(path) ? 'src/SelectionGuide.tsx'

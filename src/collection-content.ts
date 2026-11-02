@@ -1,5 +1,6 @@
 import type { Text } from './data'
 export const collectionContent:Record<string,{answer:Text;checks:Text[]}> = {
+ 'insulation-rolls-sheets':{answer:{en:'Choose rolls for variable cutting lengths and sheets for agreed repeated dimensions. Confirm the actual laminate and conversion method with a sample before ordering.',zh:'变长裁切可评估整卷供货，重复尺寸可评估裁片；订购前用样品确认实际复合结构与加工方式。',es:'Elija rollos para longitudes variables y láminas para medidas repetidas. Confirme laminado y método con una muestra.'},checks:[{en:'State width, length, thickness and units; distinguish rolls from sheets.',zh:'注明宽度、长度、厚度及单位，数量区分卷或片。',es:'Indique ancho, largo, espesor y unidades; distinga rollos de láminas.'},{en:'Agree core, tolerances, splices and protective packing.',zh:'约定纸芯、公差、接头及保护包装。',es:'Acuerde núcleo, tolerancias, empalmes y protección.'},{en:'Validate the complete package for the intended route and contents.',zh:'按货物与实际路线验证完整包装。',es:'Valide el embalaje completo para la ruta y contenido.'}]},
   "foil-insulated-packaging": {
     "answer": {
       "en": "Choose the format around the filled container and the packing workflow. Flat self-seal pouches close with an adhesive flap; gusseted bags add depth for boxes; open-top bags need a separately agreed closure. A box liner fits inside an outer shipping container, which is specified separately.",

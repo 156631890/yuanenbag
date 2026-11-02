@@ -1,3 +1,4 @@
+import { insulationRoll, insulationRollImages } from './insulation-roll-product'
 import { palletCover, palletCoverImages, palletCoverSectionImages } from './pallet-cover-product'
 import { iceCreamBag, iceCreamImages, iceCreamSectionImages } from './ice-cream-product'
 import { paperDeliveryBag, paperDeliveryImages, paperDeliverySectionImages } from './paper-delivery-product'
@@ -16,6 +17,7 @@ export const isMeasurementPhoto=(file:string)=>foilMeasurementImages.includes(fi
 const sampleImage=(file:string):ProductImage=>({file,kind:isMeasurementPhoto(file)?'measurement':'photograph'})
 // Accepted product visualizations go here after comparison with the catalog source.
 export const productPresentations: Record<string, string> = {
+ [insulationRoll.slug]:insulationRollImages[0].file,
   [palletCover.slug]: palletCoverImages[0].file,
   [paperDeliveryBag.slug]: paperDeliveryImages[0].file,
   [iceCreamBag.slug]: iceCreamImages[0].file,
@@ -44,6 +46,7 @@ export const productPresentations: Record<string, string> = {
 }
 const detailImages = new Set(['404','405','407','446','449','450','451','495','496','497','498','534','538','539','540','541'])
 export function productImages(bag: Bag): ProductImage[] {
+ if(bag.slug===insulationRoll.slug)return insulationRollImages
   if (bag.slug === palletCover.slug) return palletCoverImages
   if (bag.slug === paperDeliveryBag.slug) return paperDeliveryImages
   if (bag.slug === iceCreamBag.slug) return iceCreamImages

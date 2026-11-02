@@ -1,0 +1,114 @@
+{
+  "productId": "NP11",
+  "date": "2026-11-02",
+  "tool": "image_gen.imagegen",
+  "rights": "Generated for user website; no third-party product image reproduced. Reference is existing company materials photograph, used for texture only.",
+  "reference": "website/public/images/factory/2026/taizhou-materials.webp",
+  "referenceLimits": "Visible roll/core/reflective and white material only; chemistry, specifications and factory production not proven by photograph.",
+  "prompts": "generation-prompts.json",
+  "manufacturerReferences": [
+    "https://landy360.com/en/Products/info_itemid_850.html",
+    "https://www.pac.com/product/insulated-mailers/"
+  ],
+  "keyword": "EPE foam foil insulation rolls",
+  "keywordId": "PK085",
+  "market": "US/en",
+  "searchVolume": null,
+  "capabilityBasis": "User confirms keyword-related custom sampling/manufacturing and includes roll stock in scope.",
+  "published": false,
+  "assets": [
+    {
+      "file": "/Users/ic/Projects/yuanenbag/website-np11/public/images/products/standardized/epe-foam-foil-insulation-rolls/01.webp",
+      "generatedSource": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-5c21a511-6cce-4cca-8482-3594ef03001e.png",
+      "sha256": "332015dc91d59c283d8ccd41b71877d9549b57d51a55e869a0421db072cc56f2",
+      "visualReview": "Continuous single-faced roll, white reverse, brown core, grounded shadow",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "isActualProductPhoto": false,
+      "previousGeneratedSource": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-ad2a5ed5-8403-49fb-abdb-110a182dc8d5.png",
+      "squareReview": "Reviewed final seven-image contact sheet: complete principal subjects, consistent identity, no letterbox seams or stretch."
+    },
+    {
+      "file": "/Users/ic/Projects/yuanenbag/website-np11/public/images/products/standardized/epe-foam-foil-insulation-rolls/02.webp",
+      "generatedSource": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-1028c95e-f536-426c-93c5-f84eeb1ab525.png",
+      "sha256": "055a2ba48be7b222807716bbe3c65e2aa6e4f064f78054ff04098b27114f4073",
+      "visualReview": "Same material front/back, curved cut sheet",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "isActualProductPhoto": false,
+      "previousGeneratedSource": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-f731cd1e-a8d9-44c5-973d-d4605743c1a9.png",
+      "squareReview": "Reviewed final seven-image contact sheet: complete principal subjects, consistent identity, no letterbox seams or stretch."
+    },
+    {
+      "file": "/Users/ic/Projects/yuanenbag/website-np11/public/images/products/standardized/epe-foam-foil-insulation-rolls/03.webp",
+      "generatedSource": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-29bebb2f-73a9-44ea-9025-6b122921716a.png",
+      "sha256": "93e43e61f05840d027bc69066f7851918366970b114a25c4a723d7053bed7a88",
+      "visualReview": "Core and wound layers visible; no numeric size claim",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "isActualProductPhoto": false,
+      "previousGeneratedSource": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-369e9804-5862-4603-8795-69d905d94f2e.png",
+      "squareReview": "Reviewed final seven-image contact sheet: complete principal subjects, consistent identity, no letterbox seams or stretch."
+    },
+    {
+      "file": "/Users/ic/Projects/yuanenbag/website-np11/public/images/products/standardized/epe-foam-foil-insulation-rolls/04.webp",
+      "generatedSource": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-5a867029-5d90-44a0-9358-4a68071a8b4d.png",
+      "sha256": "6f3c4ee30107e321ba697a5c7e419640cab3912962c6b757f8a4da65e4c8b85d",
+      "visualReview": "Cut sheets supported flat, edge detail consistent",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "isActualProductPhoto": false,
+      "previousGeneratedSource": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-71689116-b718-4d7b-93c3-f2a4aa89c517.png",
+      "squareReview": "Reviewed final seven-image contact sheet: complete principal subjects, consistent identity, no letterbox seams or stretch."
+    },
+    {
+      "file": "/Users/ic/Projects/yuanenbag/website-np11/public/images/products/standardized/epe-foam-foil-insulation-rolls/05.webp",
+      "generatedSource": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-424ce776-567b-4afc-93b5-942ca248bd9c.png",
+      "sha256": "ca6a0ce4608b28b6434a850edebe77514022520188e8addc9459dbf70d0ec99e",
+      "visualReview": "Blank display; contact pads touch sample; not a test result",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "isActualProductPhoto": false,
+      "previousGeneratedSource": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-861ea3e9-f1b2-4528-ad1e-74b36b2a3a79.png",
+      "squareReview": "Reviewed final seven-image contact sheet: complete principal subjects, consistent identity, no letterbox seams or stretch."
+    },
+    {
+      "file": "/Users/ic/Projects/yuanenbag/website-np11/public/images/products/standardized/epe-foam-foil-insulation-rolls/06.webp",
+      "generatedSource": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-a07615a0-17be-4877-9cb6-12429489e721.png",
+      "sha256": "b006e3b28c4fecb6facd489a8ef2e614625728edeca8ff4a7a30165bc188ee24",
+      "visualReview": "Closed carton secondary wrap, open overlap plausible; carton excluded",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "isActualProductPhoto": false,
+      "previousGeneratedSource": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-259e1e84-20d5-44f0-ba8d-d2f1e7b48934.png",
+      "squareReview": "Reviewed final seven-image contact sheet: complete principal subjects, consistent identity, no letterbox seams or stretch."
+    },
+    {
+      "file": "/Users/ic/Projects/yuanenbag/website-np11/public/images/products/standardized/epe-foam-foil-insulation-rolls/07.webp",
+      "generatedSource": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-466d9488-730b-4e27-a2a5-37d569223e46.png",
+      "sha256": "155a3fd04c72b3c9785dd659a527a57aa1b51468ec3fc5542bcef232715775a6",
+      "visualReview": "Roll wound closed inside clear protective sleeve; no loose shipping tail",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "isActualProductPhoto": false,
+      "previousGeneratedSource": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-b5c88851-7dbb-40c3-a902-2dbc9f05e233.png",
+      "squareReview": "Reviewed final seven-image contact sheet: complete principal subjects, consistent identity, no letterbox seams or stretch."
+    }
+  ],
+  "revision": "square-20261102",
+  "framing": "User requested square product canvas consistent with existing product cards; physical proportions preserved."
+}

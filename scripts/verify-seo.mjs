@@ -15,6 +15,7 @@ const membership=seoAudit.collections.flatMap(c=>seoAudit.collectionProducts(c).
 assert.equal(membership.length,catalogAudit.bags.length,'Every product needs one primary collection')
 assert.equal(new Set(membership.map(x=>x.slug)).size,catalogAudit.bags.length,'Duplicate or missing primary collection')
 for(const [slug,collection] of Object.entries({
+ 'epe-foam-foil-insulation-rolls':'insulation-rolls-sheets',
  'paper-insulated-delivery-bags':'insulated-takeaway-totes',
  'insulated-pallet-covers':'insulated-box-liners-pallet-covers',
  'foil-insulated-box-liners':'insulated-box-liners-pallet-covers',

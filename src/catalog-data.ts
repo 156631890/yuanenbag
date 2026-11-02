@@ -2,6 +2,7 @@ import type { Bag, Text } from './data'
 
 const t = (en:string, zh:string, es:string):Text => ({en,zh,es})
 export const materialCategories = [
+  ['materials',t('Reflective foam laminate','反射泡棉复合材料','Laminado de espuma reflectante')],
   ['non-woven',t('Non-woven','无纺布','Tejido no tejido')],
   ['cooler',t('Insulation & cold chain','保温与冷链','Aislamiento y cadena de frío')],
   ['pp-woven',t('PP woven','PP 编织','PP tejido')],

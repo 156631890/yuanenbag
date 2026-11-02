@@ -17,34 +17,36 @@ export default function Enquiry({lang,bag,onBagChange}:{lang:Lang;bag:string;onB
   const status=useRef<HTMLDivElement>(null)
   const dialog=useRef<HTMLDialogElement>(null)
   const isPallet=bag==='insulated-pallet-covers'
+  const isRoll=bag==='epe-foam-foil-insulation-rolls'
+  const isMaterialProduct=isPallet||isRoll
   const selectedBag=bags.find(item=>item.slug===bag)
   // Keep every existing value available; put common packaging choices first.
   const preferredStyles=['handle','zipper','ultrasonic','foldable']
   const preferredUses=['thermal','supermarket','shopping','promotion']
   const orderedStyles=[...styleOptions.filter(([id])=>preferredStyles.includes(id)),...styleOptions.filter(([id])=>!preferredStyles.includes(id))]
   const orderedUses=[...usageOptions.filter(([id])=>preferredUses.includes(id)),...usageOptions.filter(([id])=>!preferredUses.includes(id))]
-  const dimensionLabel=isPallet?t('Loaded pallet W × D × H (include unit)','整托货堆宽 × 深 × 高（注明单位）','Carga del palé: ancho × fondo × alto (indique unidad)'):selectedBag?.type==='cooler'
+  const dimensionLabel=isRoll?t('Roll width W (m), length L (m), thickness T (mm)','卷宽 W（m）、卷长 L（m）、厚度 T（mm）','Ancho W (m), longitud L (m), espesor T (mm)'):isPallet?t('Loaded pallet W × D × H (include unit)','整托货堆宽 × 深 × 高（注明单位）','Carga del palé: ancho × fondo × alto (indique unidad)'):selectedBag?.type==='cooler'
     ? t('Dimensions (W × D × H; include unit)','尺寸（宽 × 深 × 高；注明单位）','Medidas (ancho × fondo × alto; indique unidad)')
     : selectedBag?.type==='ice'
       ? t('Dimensions (W × H × T; include unit)','尺寸（宽 × 高 × 厚；注明单位）','Medidas (ancho × alto × grosor; indique unidad)')
       : t('Dimensions (state order and unit)','尺寸（注明顺序和单位）','Medidas (indique orden y unidad)')
-  const dimensionExample=isPallet?t('Maximum load dimensions; height above pallet deck','货堆最大外廓；高度从托盘面起算','Medidas máximas; altura desde la plataforma'):selectedBag?.type==='ice'
+  const dimensionExample=isRoll?t('State roll or sheet dimensions and units','注明卷材或裁片尺寸及单位','Indique medidas de rollo o lámina y unidades'):isPallet?t('Maximum load dimensions; height above pallet deck','货堆最大外廓；高度从托盘面起算','Medidas máximas; altura desde la plataforma'):selectedBag?.type==='ice'
     ? t('e.g. W 15 × H 20 cm (empty)','例如 宽 15 × 高 20 cm（空袋）','p. ej. ancho 15 × alto 20 cm (vacío)')
     : t('e.g. W 380 × D 100 × H 400 mm (external)','例如 宽 380 × 深 100 × 高 400 mm（外尺寸）','p. ej. ancho 380 × fondo 100 × alto 400 mm (exterior)')
   useEffect(()=>{if(brief)dialog.current?.showModal()},[brief])
   function prepare() {
     if(!form.current?.reportValidity())return
     const data=new FormData(form.current)
-    const labels:Record<string,string>={name:t('Name','姓名'),email:t('Email','邮箱'),company:t('Company','公司'),bag:isPallet?t('Product','产品','Producto'):t('Bag format','袋型'),style:t('Requested style','期望袋型','Formato solicitado'),usage:t('Intended use','预期用途','Uso previsto'),quantity:t('Quantity','数量'),dimensions:dimensionLabel,destination:t('Destination','目的地'),details:t('Project details','详细需求')}
+    const labels:Record<string,string>={name:t('Name','姓名'),email:t('Email','邮箱'),company:t('Company','公司'),bag:isMaterialProduct?t('Product','产品','Producto'):t('Bag format','袋型'),style:t('Requested style','期望袋型','Formato solicitado'),usage:t('Intended use','预期用途','Uso previsto'),quantity:t('Quantity','数量'),dimensions:dimensionLabel,destination:t('Destination','目的地'),details:t('Project details','详细需求')}
     trackEnquiry('enquiry_draft_prepared')
-    const lines=Object.entries(labels).filter(([key])=>!isPallet||!['style','usage'].includes(key)).map(([key,label])=>{
+    const lines=Object.entries(labels).filter(([key])=>!isMaterialProduct||!['style','usage'].includes(key)).map(([key,label])=>{
       let value=String(data.get(key)||'').trim()
       if(key==='style')value=styleOptions.find(([id])=>id===value)?.[1][lang]||t('To discuss','待讨论')
       if(key==='usage')value=usageOptions.find(([id])=>id===value)?.[1][lang]||t('To discuss','待讨论')
       if(key==='bag')value=bags.find(b=>b.slug===value)?.name[lang]||t('To discuss','待讨论')
       return `${label}: ${value||'—'}`
     })
-    setBrief(`YUANEN — ${isPallet?t('PALLET COVER ENQUIRY','托盘保温罩需求单','CONSULTA DE FUNDA PARA PALÉ'):t('CUSTOM BAG ENQUIRY','包装袋定制需求单')}\n\n${lines.join('\n\n')}\n\n${sent ? `Reference: ${sent}` : t('Draft only. This file has not been sent. Final specifications, pricing and availability require confirmation.','仅为需求草稿，尚未发送。最终规格、报价与供应情况需要确认。')}`)
+    setBrief(`YUANEN — ${isRoll?t('INSULATION ROLL ENQUIRY','保温卷材需求单','CONSULTA DE ROLLOS AISLANTES'):isPallet?t('PALLET COVER ENQUIRY','托盘保温罩需求单','CONSULTA DE FUNDA PARA PALÉ'):t('CUSTOM BAG ENQUIRY','包装袋定制需求单')}\n\n${lines.join('\n\n')}\n\n${sent ? `Reference: ${sent}` : t('Draft only. This file has not been sent. Final specifications, pricing and availability require confirmation.','仅为需求草稿，尚未发送。最终规格、报价与供应情况需要确认。')}`)
   }
   async function send(event:FormEvent<HTMLFormElement>) {
     event.preventDefault()
@@ -85,14 +87,14 @@ export default function Enquiry({lang,bag,onBagChange}:{lang:Lang;bag:string;onB
       <div className="form-heading"><span>01 — {t('YOUR DETAILS','联系信息')}</span><span>{t('* Required','* 必填')}</span></div>
       <div className="field-row"><label>{t('Your name *','姓名 *')}<input name="name" autoComplete="name" required maxLength={80}/></label><label>{t('Work email *','工作邮箱 *')}<input name="email" type="email" autoComplete="email" required maxLength={160}/></label></div>
       <div className="form-heading spaced"><span>02 — {t('YOUR PROJECT','项目需求')}</span></div>
-      <div className="field-row"><label>{isPallet?t('Product *','产品 *','Producto *'):t('Bag format *','袋型 *')}<select name="bag" value={bag} onChange={e=>onBagChange(e.target.value)} required><option value="">{t('Select a bag format','请选择袋型')}</option>{bags.map(b=><option key={b.slug} value={b.slug}>{b.short[lang]}</option>)}<option value="custom">{t('Other / help me choose','其他 / 需要选型建议')}</option></select></label><label>{t('Estimated quantity (pieces) *','预计数量（件）*')}<input name="quantity" type="number" min="1" step="1" max="100000000" required placeholder={t('e.g. 3000','例如 3000')}/></label></div>
+      <div className="field-row"><label>{isMaterialProduct?t('Product *','产品 *','Producto *'):t('Bag format *','袋型 *')}<select name="bag" value={bag} onChange={e=>onBagChange(e.target.value)} required><option value="">{t('Select a bag format','请选择袋型')}</option>{bags.map(b=><option key={b.slug} value={b.slug}>{b.short[lang]}</option>)}<option value="custom">{t('Other / help me choose','其他 / 需要选型建议')}</option></select></label><label>{isRoll?t('Quantity (rolls or sheets; specify in details) *','数量（卷或片，请在需求中注明）*','Cantidad (rollos o láminas; indique en detalles) *'):t('Estimated quantity (pieces) *','预计数量（件）*')}<input name="quantity" type="number" min="1" step="1" max="100000000" required placeholder={t('e.g. 3000','例如 3000')}/></label></div>
       <label>{t('Delivery country / region *','交货国家 / 地区 *')}<input name="destination" autoComplete="country-name" required maxLength={100}/></label>
-      {isPallet&&<><label>{dimensionLabel}<input name="dimensions" maxLength={100} placeholder={dimensionExample}/></label><p className="form-note">{t("Include wrapping and overhang. Exclude pallet height. Leave blank if not yet measured; we will confirm fitting clearance separately.","计入缠膜与突出部分，不含托盘本体高度。尚未测量可留空，套入余量另行确认。","Incluya film y salientes, sin la altura del palé. Si aún no tiene medidas, deje en blanco; la holgura se confirma por separado.")}</p></>}<details className="enquiry-optional"><summary>{t('Additional details (optional)','补充资料（选填）','Detalles adicionales (opcionales)')}</summary>
+      {isRoll&&<label>{dimensionLabel}<input name="dimensions" maxLength={100} placeholder={dimensionExample}/></label>}{isPallet&&<><label>{dimensionLabel}<input name="dimensions" maxLength={100} placeholder={dimensionExample}/></label><p className="form-note">{t("Include wrapping and overhang. Exclude pallet height. Leave blank if not yet measured; we will confirm fitting clearance separately.","计入缠膜与突出部分，不含托盘本体高度。尚未测量可留空，套入余量另行确认。","Incluya film y salientes, sin la altura del palé. Si aún no tiene medidas, deje en blanco; la holgura se confirma por separado.")}</p></>}<details className="enquiry-optional"><summary>{t('Additional details (optional)','补充资料（选填）','Detalles adicionales (opcionales)')}</summary>
       <label>{t('Company','公司')}<input name="company" autoComplete="organization" maxLength={140}/></label>
-      {!isPallet&&<div className="field-row"><label>{t('Requested style','期望袋型','Formato solicitado')}<select name="style"><option value="">{t('To discuss','待讨论')}</option>{orderedStyles.map(([id,label])=><option key={id} value={id}>{label[lang]}</option>)}</select></label><label>{t('Intended use','预期用途','Uso previsto')}<select name="usage"><option value="">{t('To discuss','待讨论')}</option>{orderedUses.map(([id,label])=><option key={id} value={id}>{label[lang]}</option>)}</select></label></div>}
-      {!isPallet&&<div className="field-row"><label>{dimensionLabel}<input name="dimensions" maxLength={100} placeholder={dimensionExample}/></label></div>}
+      {!isMaterialProduct&&<div className="field-row"><label>{t('Requested style','期望袋型','Formato solicitado')}<select name="style"><option value="">{t('To discuss','待讨论')}</option>{orderedStyles.map(([id,label])=><option key={id} value={id}>{label[lang]}</option>)}</select></label><label>{t('Intended use','预期用途','Uso previsto')}<select name="usage"><option value="">{t('To discuss','待讨论')}</option>{orderedUses.map(([id,label])=><option key={id} value={id}>{label[lang]}</option>)}</select></label></div>}
+      {!isMaterialProduct&&<div className="field-row"><label>{dimensionLabel}<input name="dimensions" maxLength={100} placeholder={dimensionExample}/></label></div>}
       </details>
-      <label>{t('Tell us about your project *','详细需求 *')}<textarea name="details" rows={5} required minLength={10} maxLength={3000} placeholder={isPallet?t('Goods, route and exposure time, ambient conditions, open-bottom fit, material preferences, sample or production quantity and target date. Unknown details can be discussed.','货物类别、路线与暴露时间、环境条件、开放底部适配、材料要求、样品或批量需求及目标日期。未知信息可沟通确认。','Mercancía, ruta, tiempo de exposición, ambiente, base abierta, material, muestras o producción y fecha. Los datos pendientes pueden acordarse.'):t('Materials, printing, intended use, target delivery date and any testing requirements…','材质、印刷、用途、目标交期及测试要求……')}/></label>
+      <label>{t('Tell us about your project *','详细需求 *')}<textarea name="details" rows={5} required minLength={10} maxLength={3000} placeholder={isRoll?t('Rolls or cut sheets, quantity unit, facing and foam requirements, dimensions, core, destination and target date.','整卷或裁片、数量单位、面层及泡棉要求、尺寸、纸芯、目的地与目标日期。','Rollos o láminas, unidad, cara reflectante, espuma, medidas, núcleo, destino y fecha.'):isPallet?t('Goods, route and exposure time, ambient conditions, open-bottom fit, material preferences, sample or production quantity and target date. Unknown details can be discussed.','货物类别、路线与暴露时间、环境条件、开放底部适配、材料要求、样品或批量需求及目标日期。未知信息可沟通确认。','Mercancía, ruta, tiempo de exposición, ambiente, base abierta, material, muestras o producción y fecha. Los datos pendientes pueden acordarse.'):t('Materials, printing, intended use, target delivery date and any testing requirements…','材质、印刷、用途、目标交期及测试要求……')}/></label>
       <label className="check-field"><input name="consent" type="checkbox" required/><span>{t('I have read the ','我已阅读')}<a href={href('/privacy/',lang)} target="_blank" rel="noreferrer">{t('privacy information','隐私说明')}</a>{t(' and agree to be contacted about this enquiry.','，并同意就本次询价接收联系。',' y acepto que me contacten sobre esta consulta.')}</span></label>
       <div className="button-row"><button className="button primary" type="submit" disabled={sending||Boolean(sent)}>{sending?t('Sending…','正在发送…','Enviando…'):sent?t('Enquiry sent','已提交询盘','Consulta enviada'):t('Send enquiry','发送询盘','Enviar consulta')}<ArrowUpRight size={18}/></button><button className="button outline" type="button" onClick={prepare} disabled={sending}>{t('Preview / download brief','预览 / 下载需求单','Ver / descargar consulta')}</button></div>
       </fieldset>

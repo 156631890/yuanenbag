@@ -1,7 +1,8 @@
-import { productFamily, type ProductFamily } from './product-classification'
+import { familyRank, compareProductDemand, productFamily, type ProductFamily } from './product-classification'
 import { bags, type Bag, type Text } from './data'
 export type Collection = { slug:string; type:Bag['type']; family:ProductFamily; title:Text; name:Text; description:Text; guide:string }
 export const collections:Collection[] = [
+ {slug:'insulation-rolls-sheets',family:'rolls',type:'foil',name:{en:'Insulation rolls & sheets',zh:'保温卷材与片材',es:'Rollos y láminas aislantes'},title:{en:'Insulation Rolls & Cut Sheets for Packaging | YUANEN',zh:'保温包装卷材与裁片 | 远恩',es:'Rollos y láminas aislantes para embalaje | YUANEN'},description:{en:'Compare roll and cut-sheet supply for packaging conversion. Specify substrate, reflective facing, usable width, length and thickness.',zh:'按包装加工需求比较整卷与裁片供货，分别确认基材、反射面层、可用幅宽、长度和厚度。',es:'Compare rollos y láminas para transformar embalajes. Especifique base, cara reflectante, ancho útil, longitud y espesor.'},guide:'insulated-bag-materials'},
   {
     "slug": "foil-insulated-packaging",
     "family": "foil",
@@ -108,5 +109,6 @@ export const collections:Collection[] = [
     "guide": "ice-pack-selection"
   }
 ]
-export const collectionProducts=(collection:Collection)=>bags.filter(b=>productFamily(b)===collection.family)
+collections.sort((a,b)=>familyRank(a.family)-familyRank(b.family))
+export const collectionProducts=(collection:Collection)=>bags.filter(b=>productFamily(b)===collection.family).sort(compareProductDemand)
 export const collectionFor=(bag:Bag)=>collections.find(c=>c.family===productFamily(bag))
