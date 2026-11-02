@@ -59,6 +59,9 @@ for(const lang of ['en','zh','es']){
    }
   }
   if(page.type==='bag') assert(visible.includes('seo-buying-links'),`Missing purchasing links: ${path}`)
+  if(page.type==='bag' && page.slug==='insulated-pallet-covers'){
+   for(const marker of ['quantity-grid','quote-block','commercial-facts','delivery-steps','export-documents']) assert(visible.includes(marker),`Missing shared purchasing layout ${marker}: ${path}`)
+  }
   if(page.type==='guide'){
    assert(visible.includes(`href="${prefix}/content-policy/"`),`Missing legacy guide content information link: ${path}`)
    assert(!/AI-assisted illustration|AI 场景示意|Ilustración asistida por IA/.test(visible),`Old guide AI label: ${path}`)
