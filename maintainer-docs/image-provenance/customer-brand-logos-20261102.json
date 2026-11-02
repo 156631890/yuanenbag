@@ -28,5 +28,10 @@
       "sha256": "ea86474e8dafd125a4e85ff05e9984ad6bddc63e6e2572b3bd99c24de8d3f034",
       "processing": "Original official file preserved; size and clear space applied with CSS only"
     }
-  ]
+  ],
+  "presentationUpdate": {
+    "date": "2026-11-02",
+    "userRequest": "尽量使用黑色的LOGO，不要带颜色的。LOGO需要精美",
+    "treatment": "CSS grayscale plus contrast for monochrome presentation; preserve white interior details and transparency, retain originals unchanged. Optical width adjustment for Walmart and Yonghui."
+  }
 }
