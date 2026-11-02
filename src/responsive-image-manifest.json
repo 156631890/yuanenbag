@@ -12228,5 +12228,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-02/sample-arrival-unpacking-review-record.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/5f4c935cbe41-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/a9bc89d6f6d2-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/301eaf773568-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/cdbe71dd43c3-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/d6fe78a25d9f-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/bd7212fd00bf-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/3f68767a83e0-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

@@ -697,6 +697,21 @@
   },
   {
     "kind": "guide",
+    "slug": "insulated-bag-odor-review-record",
+    "publishedAt": "2026-11-02",
+    "title": {
+      "en": "Record Arrival Conditions When Reviewing Insulated-Bag Odor",
+      "zh": "复核保温袋样品气味，先记录到样与开包状态",
+      "es": "Registre la recepción y apertura al revisar el olor de una bolsa térmica"
+    },
+    "description": {
+      "en": "Keep the sample version, arrival packaging, opening and review records together when discussing insulated-bag odor. Agree the evidence needed before accepting a sample.",
+      "zh": "复核保温袋样品气味时，将样品版本、到样包装、开包与复核记录关联起来，在确认样品前约定需要补齐的依据。",
+      "es": "Al revisar el olor de una bolsa térmica, vincule versión de muestra, embalaje recibido, apertura y revisión. Acuerde qué evidencia falta antes de aceptarla."
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "insulated-bag-print-colour-reference-proof",
     "publishedAt": "2026-10-25",
     "updatedAt": "2026-10-31",

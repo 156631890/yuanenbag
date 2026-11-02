@@ -415,6 +415,15 @@
   },
   {
     "kind": "guide",
+    "slug": "insulated-bag-odor-review-record",
+    "title": {
+      "en": "Record Arrival Conditions When Reviewing Insulated-Bag Odor",
+      "zh": "复核保温袋样品气味，先记录到样与开包状态",
+      "es": "Registre la recepción y apertura al revisar el olor de una bolsa térmica"
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "insulated-bag-print-colour-reference-proof",
     "title": {
       "en": "Match Print-Colour Approval to the Bag Substrate",
