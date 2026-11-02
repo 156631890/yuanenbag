@@ -12262,5 +12262,43 @@
         "width": 1200
       }
     ]
+  },
+  "images/factory/2026/building-retouched-20261102.webp": {
+    "width": 1453,
+    "height": 1083,
+    "variants": [
+      {
+        "file": "images/responsive/ecda711f1c6a-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/df3c6113429b-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/1a4968750b62-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/cb06be2425c3-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/b71b5804fe0e-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/0f71bf070f95-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/1f63cbd14e84-1280.webp",
+        "width": 1280
+      },
+      {
+        "file": "images/responsive/d9727ad53098-1453.webp",
+        "width": 1453
+      }
+    ]
   }
 }

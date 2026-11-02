@@ -1,0 +1,13 @@
+{
+  "status": "user_approved_for_release",
+  "tool": "image_gen",
+  "date": "2026-11-02",
+  "source": "website-category-fix/public/images/factory/building-crop.webp",
+  "sourceContext": "Crop from company-profile.webp; original photographic provenance not independently verified.",
+  "prompt": "Use case: lighting-weather / restrained photographic retouch. Edit the supplied existing factory building image into a more natural, believable architectural photograph, not a new building design. Preserve exactly the same building identity, number of floors, window positions, facade geometry, camera angle, entrance, trees, landscaping and Chinese company sign 温州远恩工艺品有限公司. Do not invent factory facilities, people, vehicles or extra architecture. Reduce excessive cyan-blue saturation in sky and glazing; soften the artificial central star-like glare on the facade into plausible mild window reflection. Use neutral daylight, restrained contrast, natural shadow falloff, subtle existing surface texture without adding damage or changing materials. Retain believable detail and ordinary photographic imperfections; no glossy CGI, no cinematic grading, no hyper-HDR, no exaggerated sharpness. Preserve existing physical signs and lettering faithfully. No new overlaid captions or watermark. Output same landscape framing, entire building visible. This is a retouched preview based on a supplied company-material image, not documentary evidence of a newly photographed factory.",
+  "review": "Central glare reduced; sign legible. Generated retouch changes fine facade/landscaping details, not suitable as new documentary factory evidence. Preview only.",
+  "approval": "2026-11-02: 可以上线了",
+  "asset": "public/images/factory/2026/building-retouched-20261102.webp",
+  "sha256": "9d29001508b2c6d350e0b46674f196bb06392743ad7aa5bb009a88584f66ef35",
+  "rights": "Derived from site company-material image at user request; generated with built-in image_gen; no third-party stock imported."
+}

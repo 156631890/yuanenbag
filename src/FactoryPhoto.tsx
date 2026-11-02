@@ -12,6 +12,7 @@ export const factoryPhotos = {
 }
 
 const currentPhotos:Partial<Record<keyof typeof factoryPhotos,{file:string;title:ReturnType<typeof tx>}>>={
+ building:{file:'building-retouched-20261102',title:tx('YUANEN building exterior','远恩厂房外观','Exterior del edificio de YUANEN')},
  production:{file:'longgang-production',title:tx('Longgang factory — production workshop','龙港新厂 · 生产车间','Fábrica de Longgang — taller de producción')},
  converting:{file:'longgang-converting',title:tx('Longgang factory — material processing','龙港新厂 · 材料加工','Fábrica de Longgang — procesamiento')},
  materials:{file:'taizhou-materials',title:tx('Taizhou factory — insulation materials','台州工厂 · 保温材料','Fábrica de Taizhou — materiales aislantes')},
