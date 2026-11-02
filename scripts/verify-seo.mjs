@@ -59,6 +59,14 @@ for(const lang of ['en','zh','es']){
    }
   }
   if(page.type==='bag') assert(visible.includes('seo-buying-links'),`Missing purchasing links: ${path}`)
+  if(page.type==='bag'){
+   const note=visible.match(/<p class="reference-note">([\s\S]*?)<\/p>/)?.[1]||''
+   assert(note,`Missing product order note: ${path}`)
+   assert(!/拟定|定制方案|proposed|proposal|propuesta/i.test(note),`Draft-stage copy in published product order note: ${path}`)
+   const caption=visible.match(/<p class="gallery-caption">([\s\S]*?)<\/p>/)?.[1]
+   if(caption) assert.notEqual(caption,note,`Duplicate gallery and order note: ${path}`)
+  }
+
   if(page.type==='bag' && page.slug==='insulated-pallet-covers'){
    for(const marker of ['quantity-grid','quote-block','commercial-facts','delivery-steps','export-documents']) assert(visible.includes(marker),`Missing shared purchasing layout ${marker}: ${path}`)
   }

@@ -9,3 +9,7 @@ Every two-column row needs two meaningful content blocks. If no image or second 
 Compare title hierarchy, section numbering, content width, text/image alignment, spacing, card structure, buttons and mobile stacking. Inspect every section, including the lower page, in English, Chinese and Spanish at desktop, tablet and mobile widths. Save screenshots and explicit findings. Build checks and first-screen screenshots alone are insufficient.
 
 `verify-seo.mjs` guards the pallet-cover regression by requiring all shared purchasing layout structures in every language. A failed layout or factual review blocks preview handoff and publication. Preserve URLs, core keywords and the user's per-product release approval.
+
+## Image and ordering notes
+
+Gallery captions explain only the selected image and its limits (sample photo, generated display, catalogue detail or shared measurement). Do not infer current stock, production evidence, dimensions or tested performance from an image. Keep measurement and prop qualifications where relevant. The product-level note explains ordering and supplied scope, not a second copy of the image caption. Published products must not retain internal proposal/draft-stage wording. Fixed-size products use the confirmed commercial profile: do not imply sizes are customizable or that physical sampling is mandatory when artwork approval applies. Audit every active product in all languages; preserve image provenance and content-policy disclosure.
