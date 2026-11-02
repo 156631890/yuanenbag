@@ -747,6 +747,15 @@
     }
   },
   {
+    "kind": "guide",
+    "slug": "tote-handle-drop-measurement-reference",
+    "title": {
+      "en": "Specify Tote Handle Drop Separately from Strap Length",
+      "zh": "午餐袋提手净高与织带总长，应分别确认",
+      "es": "Defina la altura libre del asa por separado de su longitud"
+    }
+  },
+  {
     "kind": "industry",
     "slug": "umd-biobased-produce-wrap-research",
     "title": {

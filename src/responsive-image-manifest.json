@@ -12334,5 +12334,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-02/yellow-tote-handle-drop-reference.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/621a0904c063-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/2a0c2f2b95ae-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/9438a3ed30da-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/7d3a0e4b85f3-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/a512df920e44-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/1305eeec38c9-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/e84dbc20240a-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

@@ -1257,6 +1257,21 @@
     }
   },
   {
+    "kind": "guide",
+    "slug": "tote-handle-drop-measurement-reference",
+    "publishedAt": "2026-11-02",
+    "title": {
+      "en": "Specify Tote Handle Drop Separately from Strap Length",
+      "zh": "午餐袋提手净高与织带总长，应分别确认",
+      "es": "Defina la altura libre del asa por separado de su longitud"
+    },
+    "description": {
+      "en": "Define the rim and inside handle apex before comparing tote handle drop. Keep vertical clearance, the webbing path and sewn-down ends separately identified.",
+      "zh": "比较午餐袋提手净高前，先约定袋口与提手内侧顶点；将垂直净高、织带路径和缝在袋身上的部分分别标明。",
+      "es": "Defina borde y punto interior superior del asa antes de comparar su altura libre. Distinga distancia vertical, recorrido de la cinta y extremos cosidos."
+    }
+  },
+  {
     "kind": "industry",
     "slug": "umd-biobased-produce-wrap-research",
     "publishedAt": "2026-10-31",
