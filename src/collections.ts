@@ -71,9 +71,9 @@ export const collections:Collection[] = [
     "family": "liners-covers",
     "type": "foil",
     "name": {
-      "en": "Box liners & pallet covers",
-      "zh": "箱内衬与托盘罩",
-      "es": "Revestimientos y fundas para palés"
+      "en": "Box liners & thermal covers",
+      "zh": "箱内衬与保温罩",
+      "es": "Revestimientos y fundas térmicas"
     },
     "title": {
       "en": "Insulated Box Liners & Pallet Covers | YUANEN",
@@ -81,9 +81,9 @@ export const collections:Collection[] = [
       "es": "Revestimientos térmicos y fundas para palés | YUANEN"
     },
     "description": {
-      "en": "Compare insulation inside a shipping container with a hood over a complete pallet load. These formats serve different packing scales and require different measurement and handling checks.",
-      "zh": "比较放入运输容器的保温箱内衬与覆盖整托货物的托盘保温罩。两者适用包装尺度不同，需要分别核对测量边界与搬运条件。",
-      "es": "Compare el aislamiento interior de un contenedor con una funda sobre una carga paletizada. Son escalas de embalaje distintas y requieren comprobaciones de medidas y manipulación diferentes."
+      "en": "Compare box liners, pallet covers and front-opening roll cage covers. Specify the handling unit, access, measurement boundaries and clearance for moving components.",
+      "zh": "比较保温箱内衬、整托保温罩与前帘开合笼车罩。按实际装运单元核对开口、测量边界与运动部件间隙。",
+      "es": "Compare revestimientos, fundas para palés y fundas frontales para carros. Defina unidad de manejo, acceso, límites de medida y espacio para piezas móviles."
     },
     "guide": "bag-material-comparison"
   },

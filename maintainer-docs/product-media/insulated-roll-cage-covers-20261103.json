@@ -1,0 +1,127 @@
+{
+  "productId": "NP15",
+  "date": "2026-11-03",
+  "tool": "built-in image_gen",
+  "status": "draft_pending_review",
+  "references": [
+    {
+      "path": "/Users/ic/Projects/yuanenbag/website/public/images/factory/2026/taizhou-materials.webp",
+      "sha256": "ec8946ae0e8803819d490fe92f91ac702729082aaafc6d4c1b9cced65595f2ff",
+      "actuallyViewed": true,
+      "supports": "Reflective flexible roll materials and winding only; does NOT prove cage-cover production or laminate composition."
+    },
+    {
+      "url": "https://temperature-controlled-packaging.co.uk/products/coolimate-insulated-rollcage-cover/",
+      "actuallyRead": true,
+      "imageActuallyViewed": "industry-reference.png",
+      "supports": "Wheeled cage cover and front access industry form only; no competitor image, brand, performance or specifications reused."
+    },
+    {
+      "url": "https://www.devondisabilitycollective.org/insulated-roll-cage-covers/",
+      "actuallyRead": true,
+      "supports": "Five-sided cover with top-attached opening front curtain and hook-and-loop closure industry form; no claims transferred."
+    }
+  ],
+  "images": [
+    {
+      "i": 1,
+      "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-7fa9e2f9-6b52-4031-9016-ac3217797e6b.png",
+      "prompt": "Create a square photorealistic B2B catalogue image of a proposed insulated roll cage cover, not a bag or pallet cover. Full height three-quarter front view of one tall rectangular wheeled steel wire roll cage fitted with a flexible silver reflective laminate cover, five sides including top and a separate front curtain attached along the top. Curtain CLOSED flat over the full front, two vertical black hook-and-loop closure edge strips and black bound lower hem; no zippers, no handles on cover, no logos, no clear windows. Metallic thin foil-facing with fine irregular crinkles, softly padded but not thick mattress, not silver satin or woven cloth. Proportions tall and narrow, cage frame height approximately twice its width, depth slightly smaller than width, no exact dimension text. Lower hem terminates neatly at cage base deck, leaves four physically connected casters and brakes free underneath, support rails visible only below hem. Realistic metal caster forks, perspective and shadow. Neutral seamless background #F6F6F4, natural soft side light, modest manufacturing wrinkles, avoid CGI perfection. Whole cover and all wheels in frame, at least 10% safety margin every edge, subject occupies about 75% height. No text, arrows, diagrams, watermark or branding. This is a custom product appearance illustration, not evidence of production or performance; do not put that statement into the image.",
+      "file": "public/images/products/standardized/insulated-roll-cage-covers/01.webp",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "sha256": "0854bc5bd14016049576cabffa41715431b6c96aa5e88135a5036c4bb98f41e8",
+      "visualReview": "Actually viewed; accepted as illustrative product construction; macro cropping intentional for details",
+      "rights": "Built-in imagegen; no external manufacturer image used as input or reused"
+    },
+    {
+      "i": 2,
+      "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-ca20f2d1-e124-45dd-bdfe-b5445723c09e.png",
+      "prompt": "Generate one square catalogue photograph for the SAME proposed roll cage cover as reference, consistent materials and trim. FRONT OPEN: front curtain lifted and folded neatly back over the top, hanging fold lies naturally on top, not floating. Show the empty galvanized wire cage inside, rear wire mesh and base deck supported by frame, four casters. No shelves, no cargo. Same cover proportions, same black two edge strips and bound hems, silver thin crinkled reflective laminate. Full product, generous margins. Natural studio photography, background #F6F6F4, no logos/watermarks, no invented numeric specs. Keep product complete except intentional detail crops, 10% safe margins.",
+      "file": "public/images/products/standardized/insulated-roll-cage-covers/02.webp",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "sha256": "351b8614c8370cb0f333c2f2da1d3a6c8b4b905dc20aca274b8120b71ca5135f",
+      "visualReview": "Actually viewed; accepted as illustrative product construction; macro cropping intentional for details",
+      "rights": "Built-in imagegen; no external manufacturer image used as input or reused"
+    },
+    {
+      "i": 3,
+      "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-91c75333-efb2-4799-8cf6-cec739294fcf.png",
+      "prompt": "Generate one square catalogue photograph for the SAME proposed roll cage cover as reference, consistent materials and trim. CLOSURE DETAIL: close photograph of right vertical black hook-and-loop seam with the front curtain corner peeled back a little so the two matching closure surfaces can be seen. Show real binding stitching and fine metallic creases. Flexible thin reflective laminate, no exposed raw foam, no zipper or teeth, not a thick quilt. Intentional macro crop, honest physical fold. Natural studio photography, background #F6F6F4, no logos/watermarks, no invented numeric specs. Keep product complete except intentional detail crops, 10% safe margins.",
+      "file": "public/images/products/standardized/insulated-roll-cage-covers/03.webp",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "sha256": "95161b2efcfb041b3de0cd88cba71f4f117773956d419545a45445c5cdc5de83",
+      "visualReview": "Actually viewed; accepted as illustrative product construction; macro cropping intentional for details",
+      "rights": "Built-in imagegen; no external manufacturer image used as input or reused"
+    },
+    {
+      "i": 4,
+      "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-78741ae9-0178-4c53-92a0-121a45de943c.png",
+      "prompt": "Generate one square catalogue photograph for the SAME proposed roll cage cover as reference, consistent materials and trim. LOWER HEM AND WHEEL DETAIL: low angle close photograph of lower front corner, black bound hem finishing above steel base platform, one freely swivelling caster, its fork and brake, wheel clearing fabric. Second caster in background consistent. No fabric touching floor or entangled in wheels. Intentional crop to answer clearance question. Natural studio photography, background #F6F6F4, no logos/watermarks, no invented numeric specs. Keep product complete except intentional detail crops, 10% safe margins.",
+      "file": "public/images/products/standardized/insulated-roll-cage-covers/04.webp",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "sha256": "e87ab9bc720ec170b9c3e9145d7324b0b96a82bb1996a21ecf4c5becaddad787",
+      "visualReview": "Actually viewed; accepted as illustrative product construction; macro cropping intentional for details",
+      "rights": "Built-in imagegen; no external manufacturer image used as input or reused"
+    },
+    {
+      "i": 5,
+      "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-e29302be-ee01-4ce9-aebc-bc4d62bf778b.png",
+      "prompt": "Generate one square catalogue photograph for the SAME proposed roll cage cover as reference, consistent materials and trim. MEASUREMENT VIEW: straight frontal three-quarter view, entire closed cage cover and all casters. Three fine dark dimension lines OUTSIDE the product, no numeric measurements: W across frontal width, D along side depth, H from base deck TOP to cover TOP, expressly excluding wheels. Only letters W D H, no other text. White-grey seamless background. Plenty margin for dimensions. Lines must not obscure object. Natural studio photography, background #F6F6F4, no logos/watermarks, no invented numeric specs. Keep product complete except intentional detail crops, 10% safe margins.",
+      "file": "public/images/products/standardized/insulated-roll-cage-covers/05.webp",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "sha256": "d6cdbb424f6006e27aa10b866e76653014eb34520dfd8def621446a7ff211bd4",
+      "visualReview": "Actually viewed; accepted as illustrative product construction; macro cropping intentional for details",
+      "rights": "Built-in imagegen; no external manufacturer image used as input or reused"
+    },
+    {
+      "i": 6,
+      "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-62ae5025-c474-4817-b6af-ab7e8de8674a.png",
+      "prompt": "Generate one square catalogue photograph for the SAME proposed roll cage cover as reference, consistent materials and trim. PACKING ACCESS VIEW: exact cage and cover front curtain folded back over top naturally. Inside cage place just three closed plain kraft cartons stacked directly on deck in one stable low stack, leaving at least 25% clear height under top, no floating shelves. Cartons fit within mesh sides without protruding through them. Cage supports cargo, cover does not support cargo. Same reflective laminate and black closure. Full unit and wheels, ample margin. Natural studio photography, background #F6F6F4, no logos/watermarks, no invented numeric specs. Keep product complete except intentional detail crops, 10% safe margins.",
+      "rejectedSource": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-5ae16c31-3c0d-45a1-9a78-64ff7e000a1a.png",
+      "correction": "Keep image2 exact cage and mesh deck; add supported cartons; all components consistent",
+      "file": "public/images/products/standardized/insulated-roll-cage-covers/06.webp",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "sha256": "fb4e97aa4217abe08e33187acbca5b7a9a682bf67964c3bee36f57618df73cdc",
+      "visualReview": "Actually viewed; accepted as illustrative product construction; macro cropping intentional for details",
+      "rights": "Built-in imagegen; no external manufacturer image used as input or reused"
+    },
+    {
+      "i": 7,
+      "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-128969f1-7f2a-4dbb-acae-380f25ff2151.png",
+      "prompt": "Generate one square catalogue photograph for the SAME proposed roll cage cover as reference, consistent materials and trim. STORAGE VIEW: the exact silver cover removed from cage and folded carefully into a compact flat rectangular stack on a clean neutral floor, black bound edges and the two long closure strips visibly folded over. Cage absent; no wheels, frame or cargo. Flexible foil creases, no stiff box form. Show fold thickness modest and plausible, not puffy fabric. Whole folded cover with ample margin. Natural studio photography, background #F6F6F4, no logos/watermarks, no invented numeric specs. Keep product complete except intentional detail crops, 10% safe margins.",
+      "file": "public/images/products/standardized/insulated-roll-cage-covers/07.webp",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "sha256": "9ca745073766dbadac57244136e6e624a572163b8f449e2b4126c34e548505b9",
+      "visualReview": "Actually viewed; accepted as illustrative product construction; macro cropping intentional for details",
+      "rights": "Built-in imagegen; no external manufacturer image used as input or reused"
+    }
+  ],
+  "limits": [
+    "Facing/core/joining by approved sample",
+    "No fixed dimensions, capacity, MOQ, price, lead time, thermal duration or certification",
+    "Cage and cartons are props not default supply",
+    "Cover is not load restraint, lifting or load-bearing equipment",
+    "Keep wheels and brakes free; refrigeration remains required where applicable"
+  ]
+}

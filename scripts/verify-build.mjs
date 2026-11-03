@@ -40,7 +40,7 @@ assert(!paths.some(path=>path.includes('/products/upright-dessert-cooler/')),'De
 for(const lang of ['', 'zh/', 'es/']) assert(!(await readFile(join(root,lang,'contact/index.html'),'utf8')).includes('value="upright-dessert-cooler"'),'Deleted product must not remain an enquiry option')
 assert.equal(catalogAudit.bags.filter(b=>b.collection==='yuanen-2026').length,24,'Retain the active cold-chain catalog and cooler variants')
 assert.deepEqual(photoProducts.map(b=>b.slug).sort(),['compact-insulated-lunch-bags','double-film-self-absorbing-ice-packs','foil-insulated-box-liners','gold-trim-insulated-cake-bags','gusseted-self-seal-foil-bags','side-absorbing-ice-packs'])
-assert.deepEqual(catalogAudit.bags.filter(b=>b.collection==='custom-designs-2026').map(b=>b.slug),['epe-foam-foil-insulation-rolls','foil-bubble-insulation-rolls','insulated-pallet-covers','paper-insulated-delivery-bags','insulated-pizza-delivery-bags','insulated-catering-bags','insulated-meal-prep-bags','insulated-beverage-delivery-bags','insulated-ice-cream-delivery-bags'],'Only the reviewed custom designs may appear')
+assert.deepEqual(catalogAudit.bags.filter(b=>b.collection==='custom-designs-2026').map(b=>b.slug),['epe-foam-foil-insulation-rolls','foil-bubble-insulation-rolls','insulated-roll-cage-covers','insulated-pallet-covers','paper-insulated-delivery-bags','insulated-pizza-delivery-bags','insulated-catering-bags','insulated-meal-prep-bags','insulated-beverage-delivery-bags','insulated-ice-cream-delivery-bags'],'Only the reviewed custom designs may appear')
 assert(catalogAudit.bags.every(b=>['yuanen-2026','yuanen-photos-2026','custom-designs-2026'].includes(b.collection)),'Unselected category published')
 assert.equal(photoImport.files.filter(f=>f.selected).length,20,'Expected curated sample photographs')
 assert.equal(icePhotoImport.files.filter(f=>f.selected).length,14,'Expected curated ice-pack photographs')
@@ -124,7 +124,11 @@ for (const file of files) {
         assert.deepEqual(pageSchema.image.map(url=>new URL(url).pathname),Array.from({length:7},(_,i)=>`/images/products/standardized/${ownProduct.slug}/0${i+1}.webp`),'NP11 gallery and order')
         for(const id of ['applications','dimensions','materials','features','order-quantities','pricing','delivery','export']) assert(html.includes('id="'+id+'"'),'Missing roll section '+id)
         assert(html.includes('?bag='+ownProduct.slug),'Roll-specific enquiry')
-      }else if(ownProduct.slug==='insulated-pallet-covers'){
+      }else if(ownProduct.slug==='insulated-roll-cage-covers'){
+ assert.deepEqual(pageSchema.image.map(url=>new URL(url).pathname),Array.from({length:7},(_,i)=>`/images/products/standardized/insulated-roll-cage-covers/0${i+1}.webp`),'Cage cover gallery');
+ for(const id of ['applications','dimensions','materials','features','order-quantities','pricing','delivery','export'])assert(html.includes('id="'+id+'"'),'Missing cage section '+id);
+ assert(html.includes('?bag=insulated-roll-cage-covers'));
+ }else if(ownProduct.slug==='insulated-pallet-covers'){
         assert.deepEqual(pageSchema.image.map(url=>new URL(url).pathname),Array.from({length:7},(_,i)=>`/images/products/standardized/insulated-pallet-covers/${String(i+1).padStart(2,'0')}.webp`),'Pallet cover gallery and order')
         for(const id of ['applications','materials','features','order-quantities','pricing','delivery','dimensions','export']) assert(html.includes('id="'+id+'"'),'Missing pallet section '+id)
         assert(html.includes('?bag=insulated-pallet-covers'),'Pallet-specific enquiry')

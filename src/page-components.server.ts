@@ -33,3 +33,5 @@ export {default as InsulationRollSections} from './InsulationRollSections'
 export { default as PalletCoverSections } from './PalletCoverSections'
 
 export {default as BubbleRollSections} from './BubbleRollSections'
+
+export { default as CageCoverSections } from './CageCoverSections'

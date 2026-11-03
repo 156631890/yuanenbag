@@ -4,7 +4,7 @@ const text=(en:string,zh:string,es:string):Text=>({en,zh,es})
 export const productFamilies: [ProductFamily,Text][] = [
  ['coolers',text('Delivery & grocery cooler bags','配送与购物保温包','Bolsas térmicas de reparto y compra')],
  ['foil',text('Foil insulated bags','铝箔保温袋','Bolsas térmicas de aluminio')],
- ['liners-covers',text('Box liners & pallet covers','箱内衬与托盘罩','Revestimientos y fundas para palés')],
+ ['liners-covers',text('Box liners & thermal covers','箱内衬与保温罩','Revestimientos y fundas térmicas')],
  ['takeaway',text('Insulated takeaway totes','外卖保温手提袋','Bolsas térmicas para llevar')],
  ['ice',text('Ice packs & sheets','冰袋与冰格','Acumuladores y láminas de frío')],
  ['rolls',text('Insulation rolls & sheets','保温卷材与片材','Rollos y láminas aislantes')],
@@ -18,6 +18,7 @@ export const productMaterials = [
 ] as const
 // Product form, material and use are separate axes. New active products require an explicit entry.
 export const productClassifications:Record<string,{family:ProductFamily;material:string}> = {
+ "insulated-roll-cage-covers":{family:"liners-covers",material:"foil-faced"},
  "epe-foam-foil-insulation-rolls":{family:"rolls",material:"foil-faced"},
  "foil-bubble-insulation-rolls":{family:"rolls",material:"foil-faced"},
   "insulated-pallet-covers": {
