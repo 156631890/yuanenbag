@@ -12844,5 +12844,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-03/map-tray-pack-heat-seal-records.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/ac73ea3449f9-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/46d1d71d4451-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/7ef2f59c9168-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/e060ebd86678-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/e1e8bb254734-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/63af01b969b5-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/42e91118a1b0-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

@@ -1198,6 +1198,21 @@
   },
   {
     "kind": "industry",
+    "slug": "solidus-futurline-heat-eat-map-trays",
+    "publishedAt": "2026-11-03",
+    "title": {
+      "en": "Solidus Names Its Fibre-Based MAP Tray Range Futurline Heat&Eat",
+      "zh": "Solidus以Futurline Heat&Eat命名纸基气调餐盒系列",
+      "es": "Solidus denomina Futurline Heat&Eat a su gama de bandejas MAP de fibra"
+    },
+    "description": {
+      "en": "Solidus’s 2 November announcement introduces the Futurline Heat&Eat name. Buyers should match the tray and film versions to heating instructions and sealing trials.",
+      "zh": "Solidus于11月2日介绍Futurline Heat&Eat名称。采购时应将具体托盘与膜材版本、加热说明及封合试样资料配对核对。",
+      "es": "El anuncio de Solidus del 2 de noviembre presenta Futurline Heat&Eat. Vincule versiones de bandeja y películas con instrucciones de calentamiento y pruebas de sellado."
+    }
+  },
+  {
+    "kind": "industry",
     "slug": "sonoco-third-quarter-2026-packaging-costs",
     "publishedAt": "2026-10-24",
     "title": {

@@ -712,6 +712,15 @@
   },
   {
     "kind": "industry",
+    "slug": "solidus-futurline-heat-eat-map-trays",
+    "title": {
+      "en": "Solidus Names Its Fibre-Based MAP Tray Range Futurline Heat&Eat",
+      "zh": "Solidus以Futurline Heat&Eat命名纸基气调餐盒系列",
+      "es": "Solidus denomina Futurline Heat&Eat a su gama de bandejas MAP de fibra"
+    }
+  },
+  {
+    "kind": "industry",
     "slug": "sonoco-third-quarter-2026-packaging-costs",
     "title": {
       "en": "Sonoco Reports Cost and Volume Changes in Third-Quarter Packaging Results",
