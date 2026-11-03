@@ -12606,5 +12606,243 @@
         "width": 1200
       }
     ]
+  },
+  "images/products/standardized/foil-bubble-insulation-rolls/01.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/2dfa7591f3e5-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/1bb2f781da02-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/b2645e57d244-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/4989be59c39a-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/fe1538376be8-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/6282ae818063-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/839f494fd034-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/foil-bubble-insulation-rolls/02.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/3da7212af028-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/08444770a027-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/6e80648fec5f-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/217c53bda290-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/ab32a17cb86e-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/035603ed25d4-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/a28050a88553-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/foil-bubble-insulation-rolls/03.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/270ef5ac54cc-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/66c8bafe1b47-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/4fd331274768-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/ea5bc5b0b125-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/0239eb4b0af3-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/d2a5bdd1d157-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/f58a05273e2b-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/foil-bubble-insulation-rolls/04.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/9bef436be008-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/ca0f6c0d8ed6-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/c583479e1dbb-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/7156589ce190-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/aec1425033db-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/a4c1632ecf59-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/4bfc0e9651c5-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/foil-bubble-insulation-rolls/05.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/3815db21a3c5-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/9cb34591ec93-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/a524857113d7-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/e9b4e114f86f-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/9f4c35ab29a6-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/1fbfd81c8873-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/705d572e7ee6-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/foil-bubble-insulation-rolls/06.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/2bc233dc3dde-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/52a7a10aa92f-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/8cc01f099eb7-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/2868f0ae4c61-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/a7340f8e9620-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/09990f6792e6-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/e8fe018e823a-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/foil-bubble-insulation-rolls/07.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/9bbe701cec37-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/3bdab37227bd-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/b8f48c65de6e-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/f77fe28efa46-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/74c3f32a3d0c-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/735164b04cd0-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/829b6ab198a5-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

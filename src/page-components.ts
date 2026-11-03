@@ -34,3 +34,5 @@ export const CustomerBrands = lazy(() => import('./CustomerBrands'))
 export const InsulationRollSections = lazy(() => import('./InsulationRollSections'))
 
 export const PalletCoverSections = lazy(() => import('./PalletCoverSections'))
+
+export const BubbleRollSections = lazy(() => import('./BubbleRollSections'))

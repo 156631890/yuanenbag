@@ -31,3 +31,5 @@ export {default as CustomerBrands} from './CustomerBrands'
 export {default as InsulationRollSections} from './InsulationRollSections'
 
 export { default as PalletCoverSections } from './PalletCoverSections'
+
+export {default as BubbleRollSections} from './BubbleRollSections'

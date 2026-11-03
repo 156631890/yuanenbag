@@ -1,0 +1,161 @@
+{
+  "productId": "NP14",
+  "date": "2026-11-03",
+  "status": "draft_pending_user_review",
+  "publicationAuthorized": false,
+  "references": [
+    {
+      "path": "/Users/ic/Projects/yuanenbag/website/public/images/factory/2026/taizhou-materials.webp",
+      "sha256": "ec8946ae0e8803819d490fe92f91ac702729082aaafc6d4c1b9cced65595f2ff",
+      "actuallyViewed": true,
+      "role": "Company-provided website material photograph; winding/core/reflective rolls reference only",
+      "cannotProve": "Bubble substrate, foil chemistry, dimensions, production stock or performance"
+    },
+    {
+      "url": "https://ipcpack.com/products/insulated-bubble-wrap/",
+      "actuallyRead": true,
+      "imageViewed": "industry-reference.png",
+      "role": "Industry roll format, air-cell and reflective facing structure; no brand image reused or performance borrowed"
+    },
+    {
+      "url": "https://qproducts.com/qfoil/",
+      "actuallyRead": true,
+      "role": "Independent industry roll vs cut-sheet forms; no performance copied"
+    }
+  ],
+  "prompts": {
+    "tool": "image_gen.imagegen",
+    "date": "2026-11-03",
+    "prompts": [
+      {
+        "i": 1,
+        "prompt": "Use case: product-mockup. Create one square 1:1 premium natural commercial catalog photograph, no text, no logo. A SINGLE roll of flexible silver reflective foil laminated AIR-BUBBLE packaging material, horizontal on a seamless warm pale off-white #F6F6F4 studio surface. Three-quarter view with kraft cardboard core visible at left, a short unrolled sheet extending forward and gently curling up at one corner to reveal transparent pale grey polyethylene air bubbles on the reverse. Critical identity: one layer of small evenly spaced round sealed air cells; thin silver reflective face conforming gently over cells, subtle real wrinkles and restrained metallic reflections; clear bubble reverse, NOT white EPE foam, NOT fabric, NOT rigid metal, no quilted squares. Medium-width roll, width about 2.2 times diameter, naturally wound bubbly edges, no impossible solid foam rings. Whole roll and sheet fully in frame, occupy around 75% of square canvas, 12% safe margins. Soft large-window lighting, believable contact shadows, crisp yet not over-sharpened material. This is an original generic unbranded product visualization for a proposed made-to-order structure, not a photographed manufacturer's item. Do not imitate a specific competitor arrangement; just one roll."
+      },
+      {
+        "i": 2,
+        "prompt": "Create a new square 1:1 photograph for the SAME foil air-bubble packaging roll product shown in reference. Keep identical small round single-layer air cells, silver reflective face and translucent clear bubble reverse, thin laminate and kraft core where visible. NOT EPE white foam or woven fabric. Warm pale #F6F6F4 seamless background, soft natural studio light, subtle believable contact shadow, realistic thin material, no text/logo/watermark, no numeric specifications or invented test results. Original composition, complete subjects with 10-15% safe margin. A single rectangular material sample resting in a broad gentle S curve, its front portion silver face up, raised back portion showing clear bubble reverse. Clear air cells visible, natural attached laminate edge, no dramatic peeling or delamination. Buyer can compare the two faces and flexibility. Sample only, no roll."
+      },
+      {
+        "i": 3,
+        "prompt": "Create a new square 1:1 photograph for the SAME foil air-bubble packaging roll product shown in reference. Keep identical small round single-layer air cells, silver reflective face and translucent clear bubble reverse, thin laminate and kraft core where visible. NOT EPE white foam or woven fabric. Warm pale #F6F6F4 seamless background, soft natural studio light, subtle believable contact shadow, realistic thin material, no text/logo/watermark, no numeric specifications or invented test results. Original composition, complete subjects with 10-15% safe margin. A close three-quarter view of the end of the roll showing the kraft cardboard core and the wound thin bubble layers. Include the complete roll end with margins, some silver outer surface, every layer physically consistent. No exaggerated thick foam rings. Buyer can see winding and core, no other objects."
+      },
+      {
+        "i": 4,
+        "prompt": "Create a new square 1:1 photograph for the SAME foil air-bubble packaging roll product shown in reference. Keep identical small round single-layer air cells, silver reflective face and translucent clear bubble reverse, thin laminate and kraft core where visible. NOT EPE white foam or woven fabric. Warm pale #F6F6F4 seamless background, soft natural studio light, subtle believable contact shadow, realistic thin material, no text/logo/watermark, no numeric specifications or invented test results. Original composition, complete subjects with 10-15% safe margin. A neat small stack of three rectangular cut sheets with aligned straight edges on the studio surface, the top sheet offset slightly and one corner gently curling to reveal clear air cells underneath. Silver face up, layers visibly thin and bubbly, not thick foam boards. Buyer can inspect cut edges and sheet format, no tools."
+      },
+      {
+        "i": 5,
+        "prompt": "Create a new square 1:1 photograph for the SAME foil air-bubble packaging roll product shown in reference. Keep identical small round single-layer air cells, silver reflective face and translucent clear bubble reverse, thin laminate and kraft core where visible. NOT EPE white foam or woven fabric. Warm pale #F6F6F4 seamless background, soft natural studio light, subtle believable contact shadow, realistic thin material, no text/logo/watermark, no numeric specifications or invented test results. Original composition, complete subjects with 10-15% safe margin. A modest short horizontal roll with a sheet unrolled forward on a flat clean table. A simple unmarked brushed metal straightedge rests across the FULL WEB WIDTH near the leading edge, parallel to the roll axis, both ends visible. No numbers or printed measuring scale. No hands. Show the two side edges clearly, correct perspective. Buyer can identify width direction, not a measured dimension."
+      },
+      {
+        "i": 6,
+        "prompt": "Create a new square 1:1 photograph for the SAME foil air-bubble packaging roll product shown in reference. Keep identical small round single-layer air cells, silver reflective face and translucent clear bubble reverse, thin laminate and kraft core where visible. NOT EPE white foam or woven fabric. Warm pale #F6F6F4 seamless background, soft natural studio light, subtle believable contact shadow, realistic thin material, no text/logo/watermark, no numeric specifications or invented test results. Original composition, complete subjects with 10-15% safe margin. A small unbranded closed kraft outer carton in the process of a trial wrap using this silver bubble laminate. Material wraps underneath and up two sides, two loose overlap flaps on top reveal clear bubble reverse. Corners bend gently with rounded folds, no sharp impossible creases, no tape or straps. Whole carton and material fully visible. It is secondary packaging, not a rigid finished insulated box, no food visible, no EPS liner application."
+      },
+      {
+        "i": 7,
+        "prompt": "Create a new square 1:1 photograph for the SAME foil air-bubble packaging roll product shown in reference. Keep identical small round single-layer air cells, silver reflective face and translucent clear bubble reverse, thin laminate and kraft core where visible. NOT EPE white foam or woven fabric. Warm pale #F6F6F4 seamless background, soft natural studio light, subtle believable contact shadow, realistic thin material, no text/logo/watermark, no numeric specifications or invented test results. Original composition, complete subjects with 10-15% safe margin. One roll of the same material standing upright inside a loose transparent polyethylene protective sleeve, sleeve neatly tucked near base and loosely closed above the core without a branded label, natural crinkles, full roll and sleeve visible with generous margin. The silver bubble surface must be visible through transparent film, kraft core peeks through top. No cartons, no pallet, no stack of products. Buyer can see protective packing, not certification."
+      }
+    ],
+    "corrections": [
+      {
+        "i": 2,
+        "path": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-0718c8e2-6a32-4d1a-b4e4-ec9affab933e.png",
+        "prompt": "Replace the physically ambiguous S-shaped sample with TWO small flat rectangular swatches of the SAME material side by side at a slight angle: left swatch smooth silver reflective laminated face up with subtle cell impressions; right swatch clear raised round air bubbles up, but with continuous silver backing underneath the bubbles so the whole swatch is OPAQUE (no see-through background). Both flat on the surface, complete straight edges, thin flexible laminate, no foam. No peeling layers, no disconnected floating pieces. Keep same small bubble size, bright neutral silver texture, warm #F6F6F4 seamless backdrop, natural photographic lighting, square composition with 12% margins. Two swatches show opposite faces of the same material, not two different materials. No text, logos, rulers or numbers."
+      },
+      {
+        "i": 6,
+        "path": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-34f3fce8-27f6-4056-8aff-683e5f49bca7.png",
+        "prompt": "Correct only the transparency/material continuity of the trial-wrap foreground: both top overlap flaps must be OPAQUE silver-backed bubble laminate, never see-through to the brown box. On reverse areas show clear raised round air cells over continuous metallic silver backing. Keep the plain brown CLOSED carton front visible and the intentionally open overlap for inspection; no tape, no claims of complete thermal closure. Retain the roll in background, exact same foil bubble material and core, natural soft photograph, square #F6F6F4 background and complete object margins. No white EPE foam, no text/logo. Do not change carton scale or add objects."
+      }
+    ]
+  },
+  "images": [
+    {
+      "i": 1,
+      "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-2119b49d-8f3c-4c1d-8b23-89f906a3986b.png",
+      "file": "public/images/products/standardized/foil-bubble-insulation-rolls/01.webp",
+      "sha256": "d405ca2ad0c8b4f4179cd92ca2b87080db18ac23f1b216f858bf17e35ecc3718",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "visualReview": "accepted; actual image inspected; illustrative construction only",
+      "rights": "Generated with built-in imagegen; no competitor image reused"
+    },
+    {
+      "i": 2,
+      "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-2fd8fb72-9537-449e-b9c6-492e70e0980c.png",
+      "rejectedSource": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-0718c8e2-6a32-4d1a-b4e4-ec9affab933e.png",
+      "file": "public/images/products/standardized/foil-bubble-insulation-rolls/02.webp",
+      "sha256": "5ca443e9c4a206716029c2fbb8e66320e6bba446ea7a50b6e39ed7b64547c95a",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "visualReview": "accepted; actual image inspected; illustrative construction only",
+      "rights": "Generated with built-in imagegen; no competitor image reused"
+    },
+    {
+      "i": 3,
+      "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-9986d792-f5b9-4086-8187-cc33d4d28bee.png",
+      "file": "public/images/products/standardized/foil-bubble-insulation-rolls/03.webp",
+      "sha256": "d316a37a18321192f6c99578923119e9d020f641fca1b9a76698031e3ef1925d",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "visualReview": "accepted; actual image inspected; illustrative construction only",
+      "rights": "Generated with built-in imagegen; no competitor image reused"
+    },
+    {
+      "i": 4,
+      "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-8da9be0d-fec4-466f-aeca-92b8385d5cc6.png",
+      "file": "public/images/products/standardized/foil-bubble-insulation-rolls/04.webp",
+      "sha256": "4b30636afbaf85729b30e031ed471d91f5df577926d4ccc51bc1e1874b500258",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "visualReview": "accepted; actual image inspected; illustrative construction only",
+      "rights": "Generated with built-in imagegen; no competitor image reused"
+    },
+    {
+      "i": 5,
+      "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-f445dc4b-a740-45cd-99e8-36416d0702bb.png",
+      "file": "public/images/products/standardized/foil-bubble-insulation-rolls/05.webp",
+      "sha256": "5ad3ba4edadd043734373fea6205dbe147ff2daf8c2bf419fb638dad08791885",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "visualReview": "accepted; actual image inspected; illustrative construction only",
+      "rights": "Generated with built-in imagegen; no competitor image reused"
+    },
+    {
+      "i": 6,
+      "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-9b3f0de1-4cf5-45f8-b9b1-c4ad26b9e203.png",
+      "rejectedSource": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-34f3fce8-27f6-4056-8aff-683e5f49bca7.png",
+      "file": "public/images/products/standardized/foil-bubble-insulation-rolls/06.webp",
+      "sha256": "3dd54123b6b2dfb2189494399524525a6be3bd7f4859f34ed353947bc2003002",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "visualReview": "accepted; actual image inspected; illustrative construction only",
+      "rights": "Generated with built-in imagegen; no competitor image reused"
+    },
+    {
+      "i": 7,
+      "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-1a5d3055-a420-4891-a2a5-814d72180906.png",
+      "file": "public/images/products/standardized/foil-bubble-insulation-rolls/07.webp",
+      "sha256": "b0c387ca3967521f627bfc085fcb409b822602bb46bef61499eb3489ec4c04b5",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "visualReview": "accepted; actual image inspected; illustrative construction only",
+      "rights": "Generated with built-in imagegen; no competitor image reused"
+    }
+  ],
+  "limits": "Generated construction images are not proof of stock, production, dimensions or tested performance."
+}
