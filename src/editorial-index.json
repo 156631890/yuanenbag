@@ -940,6 +940,21 @@
   },
   {
     "kind": "guide",
+    "slug": "packaging-qr-destination-approval",
+    "publishedAt": "2026-11-04",
+    "title": {
+      "en": "Approve What the Packaging QR Code Opens",
+      "zh": "包装二维码印前先确认打开的页面",
+      "es": "Apruebe la página que abre el QR del envase"
+    },
+    "description": {
+      "en": "Match the code asset, encoded URL and final mobile page before releasing packaging artwork. Check language, selected product and responsibility for later link changes.",
+      "zh": "包装印稿放行前，将码文件、编码网址和手机实际打开的页面对应，核对语种、产品及后续链接维护责任。",
+      "es": "Vincule archivo del código, URL codificada y página móvil antes de liberar el diseño. Revise idioma, producto y responsabilidad por cambios posteriores."
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "packout-temperature-sensor-position-record",
     "publishedAt": "2026-10-19",
     "title": {

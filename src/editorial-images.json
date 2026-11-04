@@ -495,6 +495,14 @@
       "es": "Tres símbolos diferencian área del material, espesor de una lámina y masa de la bolsa"
     }
   },
+  "packaging-qr-destination-approval": {
+    "file": "images/editorial/2026-11-04/code-file-url-mobile-destination.webp",
+    "alt": {
+      "en": "A code-file card links to a URL card and a mobile page with EN ZH ES tabs",
+      "zh": "码文件资料卡连接网址资料卡及带EN、ZH、ES页签的手机页面",
+      "es": "Una ficha de código conecta con una URL y una página móvil con pestañas EN ZH ES"
+    }
+  },
   "packout-temperature-sensor-position-record": {
     "file": "images/editorial/2026-10-30-cover-repairs/packout-temperature-sensor-position-record.webp",
     "alt": {

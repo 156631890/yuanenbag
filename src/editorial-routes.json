@@ -559,6 +559,15 @@
   },
   {
     "kind": "guide",
+    "slug": "packaging-qr-destination-approval",
+    "title": {
+      "en": "Approve What the Packaging QR Code Opens",
+      "zh": "包装二维码印前先确认打开的页面",
+      "es": "Apruebe la página que abre el QR del envase"
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "packout-temperature-sensor-position-record",
     "title": {
       "en": "Keep Sensor Positions With the Loaded-Bag Test Record",

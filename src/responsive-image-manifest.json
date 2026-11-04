@@ -13150,5 +13150,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-04/code-file-url-mobile-destination.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/0686a576ad46-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/c224e9e1d71b-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/6cdd504656e1-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/72426fa91bca-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/6543afc10884-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/afa3e829da35-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/80f60fcb2f6e-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }
