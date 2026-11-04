@@ -298,6 +298,15 @@
   },
   {
     "kind": "guide",
+    "slug": "foam-core-total-laminate-thickness",
+    "title": {
+      "en": "Define Which Layer an Insulation Thickness Quote Measures",
+      "zh": "保温材料报价里的厚度，量的是泡沫芯还是复合总厚",
+      "es": "Defina qué capa mide el espesor cotizado del aislante"
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "foil-mailer-outer-carton-checklist",
     "title": {
       "en": "A Packing Checklist for Foil Insulated Mailers and Shipping Cartons",

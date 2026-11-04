@@ -13218,5 +13218,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-04/foam-core-total-thickness-scope.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/0e9904fe8553-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/bfa13cc8bbbb-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/ff5fcd31ebaa-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/731feff9e14b-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/28b4b2ffdd3c-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/60bd410ce86d-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/07793cbdab1c-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

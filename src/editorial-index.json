@@ -500,6 +500,21 @@
   },
   {
     "kind": "guide",
+    "slug": "foam-core-total-laminate-thickness",
+    "publishedAt": "2026-11-04",
+    "title": {
+      "en": "Define Which Layer an Insulation Thickness Quote Measures",
+      "zh": "保温材料报价里的厚度，量的是泡沫芯还是复合总厚",
+      "es": "Defina qué capa mide el espesor cotizado del aislante"
+    },
+    "description": {
+      "en": "A foam-core thickness and a total-laminate thickness are different specification bases. Align the measured layer, units and contact conditions before comparing quotations or samples.",
+      "zh": "泡沫芯厚与复合总厚的规格口径不同。比较报价或样品前，应先统一测量层次、单位及接触测量条件。",
+      "es": "Espesor del núcleo de espuma y espesor total del laminado son bases distintas. Alinee capa medida, unidades y condiciones de contacto antes de comparar ofertas o muestras."
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "foil-mailer-outer-carton-checklist",
     "publishedAt": "2026-10-13",
     "title": {

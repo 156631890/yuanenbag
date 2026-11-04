@@ -263,6 +263,14 @@
       "es": "Caja de espuma blanca vacía con forro plateado y tapa separada sobre una mesa gris de embalaje"
     }
   },
+  "foam-core-total-laminate-thickness": {
+    "file": "images/editorial/2026-11-04/foam-core-total-thickness-scope.webp",
+    "alt": {
+      "en": "Two symbolic layer sections show a foam-only arrow and an outside-to-outside laminate arrow beside a method record",
+      "zh": "两个概念层次剖面分别标出仅泡沫厚度和外表面至外表面总厚，旁有测法记录",
+      "es": "Dos secciones conceptuales muestran flechas de espuma sola y laminado completo junto a una ficha de método"
+    }
+  },
   "foil-mailer-outer-carton-checklist": {
     "file": "images/editorial/2026-10-13/foil-pouch-shipping-carton.webp",
     "alt": {
