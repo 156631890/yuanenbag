@@ -487,6 +487,14 @@
       "es": "Vistas de extremo y lateral distinguen hueco A, diámetro completo B y ancho C"
     }
   },
+  "insulation-roll-splice-acceptance": {
+    "file": "images/editorial/2026-11-04/insulation-roll-splice-cut-layout.webp",
+    "alt": {
+      "en": "A schematic strip has one orange transverse joint, a blue edge flag and three dashed cutting outlines.",
+      "zh": "示意条带上有一处橙色横向接头、蓝色边缘标识和三个虚线裁切轮廓。",
+      "es": "Una banda esquemática muestra una junta transversal naranja, una señal azul en el borde y tres contornos de corte discontinuos."
+    }
+  },
   "meal-prep-container-stack-fit": {
     "file": "images/editorial/2026-10-30-cover-repairs/meal-prep-container-stack-fit.webp",
     "alt": {

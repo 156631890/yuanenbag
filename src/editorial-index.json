@@ -924,6 +924,21 @@
   },
   {
     "kind": "guide",
+    "slug": "insulation-roll-splice-acceptance",
+    "publishedAt": "2026-11-04",
+    "title": {
+      "en": "Agree Splice Acceptance Before Ordering Insulation Rolls",
+      "zh": "保温卷材接头怎样写入订单与收货验收",
+      "es": "Acuerde la aceptación de empalmes antes de pedir rollos aislantes"
+    },
+    "description": {
+      "en": "A marked splice is not a splice-free roll. Connect permitted joints, their position and identification to the usable lengths needed for cutting EPE or bubble insulation.",
+      "zh": "带有接头标识不等于无接头卷材。围绕EPE与气泡复合保温卷材的裁切用途，约定接头数量、位置、标识与净可用连续长度的验收方法。",
+      "es": "Un empalme señalado no equivale a un rollo sin empalmes. Relacione juntas permitidas, posición e identificación con los tramos útiles para cortar aislamiento EPE o de burbujas."
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "meal-prep-container-stack-fit",
     "publishedAt": "2026-10-13",
     "title": {

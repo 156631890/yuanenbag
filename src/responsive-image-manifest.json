@@ -13286,5 +13286,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-04/insulation-roll-splice-cut-layout.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/9c8c022a8ae3-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/e7c354135181-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/4d2680c6225d-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/bcaf28f1ab00-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/f47e7370cc8b-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/20ed27fa4205-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/eb87c088e210-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

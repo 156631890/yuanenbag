@@ -550,6 +550,15 @@
   },
   {
     "kind": "guide",
+    "slug": "insulation-roll-splice-acceptance",
+    "title": {
+      "en": "Agree Splice Acceptance Before Ordering Insulation Rolls",
+      "zh": "保温卷材接头怎样写入订单与收货验收",
+      "es": "Acuerde la aceptación de empalmes antes de pedir rollos aislantes"
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "meal-prep-container-stack-fit",
     "title": {
       "en": "Will Stacked Food Containers Fit in Your Meal Prep Bag?",
