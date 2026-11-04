@@ -523,6 +523,15 @@
   },
   {
     "kind": "guide",
+    "slug": "insulation-roll-core-bore-finished-diameter",
+    "title": {
+      "en": "Match Insulation Roll Bore and Diameter to Receiving Equipment",
+      "zh": "保温卷材上设备前，分开核对芯孔与整卷直径",
+      "es": "Compare el hueco y diámetro del rollo aislante con el equipo receptor"
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "meal-prep-container-stack-fit",
     "title": {
       "en": "Will Stacked Food Containers Fit in Your Meal Prep Bag?",

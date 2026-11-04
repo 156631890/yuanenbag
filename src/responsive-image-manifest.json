@@ -13184,5 +13184,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-04/roll-bore-diameter-width.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/a1645950e552-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/d68391aa4d45-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/f7d52768027d-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/efc541e5f773-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/36f6aa2eeaf8-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/fa65dd6944cc-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/69d693134090-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

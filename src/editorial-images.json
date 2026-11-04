@@ -463,6 +463,14 @@
       "es": "Bolsa de compra azul metalizada con asas doradas junto a dos paquetes blancos y un acumulador"
     }
   },
+  "insulation-roll-core-bore-finished-diameter": {
+    "file": "images/editorial/2026-11-04/roll-bore-diameter-width.webp",
+    "alt": {
+      "en": "Roll end and side diagrams distinguish central bore A, complete roll diameter B and width C",
+      "zh": "卷材端面及侧面图区分中心芯孔A、整卷直径B与幅宽C",
+      "es": "Vistas de extremo y lateral distinguen hueco A, diámetro completo B y ancho C"
+    }
+  },
   "meal-prep-container-stack-fit": {
     "file": "images/editorial/2026-10-30-cover-repairs/meal-prep-container-stack-fit.webp",
     "alt": {

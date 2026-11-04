@@ -879,6 +879,21 @@
   },
   {
     "kind": "guide",
+    "slug": "insulation-roll-core-bore-finished-diameter",
+    "publishedAt": "2026-11-04",
+    "title": {
+      "en": "Match Insulation Roll Bore and Diameter to Receiving Equipment",
+      "zh": "保温卷材上设备前，分开核对芯孔与整卷直径",
+      "es": "Compare el hueco y diámetro del rollo aislante con el equipo receptor"
+    },
+    "description": {
+      "en": "Separate core bore, bare-core diameter and finished roll diameter. Compare the proposed insulation roll with the equipment owner’s width, mounting and mass limits.",
+      "zh": "区分芯孔、裸芯外径和整卷外径，将拟供保温卷的幅宽、装夹方式及重量与设备负责方的限制逐项对照。",
+      "es": "Distinga hueco interior, diámetro del núcleo desnudo y diámetro del rollo terminado. Compare ancho, montaje y masa con los límites del equipo."
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "meal-prep-container-stack-fit",
     "publishedAt": "2026-10-13",
     "title": {
