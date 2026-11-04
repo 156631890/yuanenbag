@@ -406,6 +406,15 @@
   },
   {
     "kind": "industry",
+    "slug": "ifco-whole-foods-reusable-produce-packaging",
+    "title": {
+      "en": "IFCO expands reusable produce packaging at Whole Foods Market",
+      "zh": "IFCO扩展Whole Foods Market生鲜可重复使用包装计划",
+      "es": "IFCO amplía el embalaje reutilizable para productos frescos en Whole Foods Market"
+    }
+  },
+  {
+    "kind": "industry",
     "slug": "inline-plastics-safe-t-chef-24-ounce-lid-options",
     "title": {
       "en": "Inline Plastics Adds Two Safe-T-Chef Container Options",

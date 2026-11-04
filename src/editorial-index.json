@@ -681,6 +681,21 @@
   },
   {
     "kind": "industry",
+    "slug": "ifco-whole-foods-reusable-produce-packaging",
+    "publishedAt": "2026-11-04",
+    "title": {
+      "en": "IFCO expands reusable produce packaging at Whole Foods Market",
+      "zh": "IFCO扩展Whole Foods Market生鲜可重复使用包装计划",
+      "es": "IFCO amplía el embalaje reutilizable para productos frescos en Whole Foods Market"
+    },
+    "description": {
+      "en": "IFCO’s November 3 announcement describes a US produce program that began in 2022. Buyers should examine the return, cleaning and replenishment arrangements behind reuse.",
+      "zh": "IFCO于11月3日公布美国生鲜周转包装计划进展，该合作始于2022年。采购评估应关注空箱回收、清洗交接和可用包装补充安排。",
+      "es": "El anuncio de IFCO del 3 de noviembre amplía un programa estadounidense iniciado en 2022. Qué revisar en devoluciones, limpieza y reposición de envases."
+    }
+  },
+  {
+    "kind": "industry",
     "slug": "inline-plastics-safe-t-chef-24-ounce-lid-options",
     "publishedAt": "2026-10-28",
     "title": {

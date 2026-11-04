@@ -13252,5 +13252,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-04/reusable-produce-return-loop.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/96048722afa7-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/58ca6466f855-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/5b90b5be9adb-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/9a028a8cf441-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/485a9c6b75cd-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/f075325c2fdc-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/3c348c20171e-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }
