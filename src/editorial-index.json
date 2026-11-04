@@ -288,6 +288,21 @@
   },
   {
     "kind": "guide",
+    "slug": "custom-bag-artwork-file-handoff",
+    "publishedAt": "2026-11-04",
+    "title": {
+      "en": "Prepare the Files Behind a Custom Bag Print Proof",
+      "zh": "定制袋印稿交付：源文件、预览与印刷版面分别确认",
+      "es": "Prepare los archivos que respaldan la prueba gráfica de su bolsa"
+    },
+    "description": {
+      "en": "Send editable artwork, a readable preview and the requested print layout together. Match the file revision to the selected bag and actual order method.",
+      "zh": "将可编辑印稿、可读预览及拟印尺寸和袋面一并交付，并与袋款、订单方式和版本对应。",
+      "es": "Entregue original editable, vista previa y distribución solicitada. Vincule la versión con la bolsa y la modalidad real del pedido."
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "custom-insulated-bag-order-timeline-gates",
     "publishedAt": "2026-10-22",
     "title": {

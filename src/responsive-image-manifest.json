@@ -12880,241 +12880,275 @@
     ]
   },
   "images/products/standardized/insulated-roll-cage-covers/01.webp": {
-  "width": 1200,
-  "height": 1200,
-  "variants": [
-    {
-      "file": "images/responsive/250cffd73d15-96.webp",
-      "width": 96
-    },
-    {
-      "file": "images/responsive/93515255093c-192.webp",
-      "width": 192
-    },
-    {
-      "file": "images/responsive/34b6812179ec-384.webp",
-      "width": 384
-    },
-    {
-      "file": "images/responsive/ff13e9d9212a-640.webp",
-      "width": 640
-    },
-    {
-      "file": "images/responsive/9935b5d2b3b0-768.webp",
-      "width": 768
-    },
-    {
-      "file": "images/responsive/36e4ee4b059b-960.webp",
-      "width": 960
-    },
-    {
-      "file": "images/responsive/980c884ef3d9-1200.webp",
-      "width": 1200
-    }
-  ]
-},
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/250cffd73d15-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/93515255093c-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/34b6812179ec-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/ff13e9d9212a-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/9935b5d2b3b0-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/36e4ee4b059b-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/980c884ef3d9-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
   "images/products/standardized/insulated-roll-cage-covers/02.webp": {
-  "width": 1200,
-  "height": 1200,
-  "variants": [
-    {
-      "file": "images/responsive/375cf0c7bab6-96.webp",
-      "width": 96
-    },
-    {
-      "file": "images/responsive/a54b549a62a2-192.webp",
-      "width": 192
-    },
-    {
-      "file": "images/responsive/bffcd03288fd-384.webp",
-      "width": 384
-    },
-    {
-      "file": "images/responsive/a4e847f0c454-640.webp",
-      "width": 640
-    },
-    {
-      "file": "images/responsive/a59dfd12fb18-768.webp",
-      "width": 768
-    },
-    {
-      "file": "images/responsive/3274a05e8ab2-960.webp",
-      "width": 960
-    },
-    {
-      "file": "images/responsive/c0fefee27dfa-1200.webp",
-      "width": 1200
-    }
-  ]
-},
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/375cf0c7bab6-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/a54b549a62a2-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/bffcd03288fd-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/a4e847f0c454-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/a59dfd12fb18-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/3274a05e8ab2-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/c0fefee27dfa-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
   "images/products/standardized/insulated-roll-cage-covers/03.webp": {
-  "width": 1200,
-  "height": 1200,
-  "variants": [
-    {
-      "file": "images/responsive/0478bb67c9a2-96.webp",
-      "width": 96
-    },
-    {
-      "file": "images/responsive/a7b653385777-192.webp",
-      "width": 192
-    },
-    {
-      "file": "images/responsive/4f65d8670136-384.webp",
-      "width": 384
-    },
-    {
-      "file": "images/responsive/24d5a229452f-640.webp",
-      "width": 640
-    },
-    {
-      "file": "images/responsive/e2b9847690a2-768.webp",
-      "width": 768
-    },
-    {
-      "file": "images/responsive/8d3be4587191-960.webp",
-      "width": 960
-    },
-    {
-      "file": "images/responsive/53c1ed2a2741-1200.webp",
-      "width": 1200
-    }
-  ]
-},
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/0478bb67c9a2-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/a7b653385777-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/4f65d8670136-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/24d5a229452f-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/e2b9847690a2-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/8d3be4587191-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/53c1ed2a2741-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
   "images/products/standardized/insulated-roll-cage-covers/04.webp": {
-  "width": 1200,
-  "height": 1200,
-  "variants": [
-    {
-      "file": "images/responsive/0920abdcc9a4-96.webp",
-      "width": 96
-    },
-    {
-      "file": "images/responsive/26a474dffe6c-192.webp",
-      "width": 192
-    },
-    {
-      "file": "images/responsive/88fa76002a08-384.webp",
-      "width": 384
-    },
-    {
-      "file": "images/responsive/bbb239c89f9e-640.webp",
-      "width": 640
-    },
-    {
-      "file": "images/responsive/537f450d5c3d-768.webp",
-      "width": 768
-    },
-    {
-      "file": "images/responsive/c590f62ce2a7-960.webp",
-      "width": 960
-    },
-    {
-      "file": "images/responsive/d7f691667d71-1200.webp",
-      "width": 1200
-    }
-  ]
-},
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/0920abdcc9a4-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/26a474dffe6c-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/88fa76002a08-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/bbb239c89f9e-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/537f450d5c3d-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/c590f62ce2a7-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/d7f691667d71-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
   "images/products/standardized/insulated-roll-cage-covers/05.webp": {
-  "width": 1200,
-  "height": 1200,
-  "variants": [
-    {
-      "file": "images/responsive/3754a026f3b4-96.webp",
-      "width": 96
-    },
-    {
-      "file": "images/responsive/42fb7c0ac25a-192.webp",
-      "width": 192
-    },
-    {
-      "file": "images/responsive/facec8a06fee-384.webp",
-      "width": 384
-    },
-    {
-      "file": "images/responsive/199dd7dfb838-640.webp",
-      "width": 640
-    },
-    {
-      "file": "images/responsive/d4b5c6d4cadb-768.webp",
-      "width": 768
-    },
-    {
-      "file": "images/responsive/113d6063b906-960.webp",
-      "width": 960
-    },
-    {
-      "file": "images/responsive/39b313f1007f-1200.webp",
-      "width": 1200
-    }
-  ]
-},
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/3754a026f3b4-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/42fb7c0ac25a-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/facec8a06fee-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/199dd7dfb838-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/d4b5c6d4cadb-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/113d6063b906-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/39b313f1007f-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
   "images/products/standardized/insulated-roll-cage-covers/06.webp": {
-  "width": 1200,
-  "height": 1200,
-  "variants": [
-    {
-      "file": "images/responsive/6a4b64165583-96.webp",
-      "width": 96
-    },
-    {
-      "file": "images/responsive/e8ad9fd10d98-192.webp",
-      "width": 192
-    },
-    {
-      "file": "images/responsive/8e706b492450-384.webp",
-      "width": 384
-    },
-    {
-      "file": "images/responsive/fd0cc052fe1e-640.webp",
-      "width": 640
-    },
-    {
-      "file": "images/responsive/47d76c0768e7-768.webp",
-      "width": 768
-    },
-    {
-      "file": "images/responsive/3d02aeb51829-960.webp",
-      "width": 960
-    },
-    {
-      "file": "images/responsive/256daf42cfed-1200.webp",
-      "width": 1200
-    }
-  ]
-},
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/6a4b64165583-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/e8ad9fd10d98-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/8e706b492450-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/fd0cc052fe1e-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/47d76c0768e7-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/3d02aeb51829-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/256daf42cfed-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
   "images/products/standardized/insulated-roll-cage-covers/07.webp": {
-  "width": 1200,
-  "height": 1200,
-  "variants": [
-    {
-      "file": "images/responsive/684e8996a26b-96.webp",
-      "width": 96
-    },
-    {
-      "file": "images/responsive/f2fbbc4ac49b-192.webp",
-      "width": 192
-    },
-    {
-      "file": "images/responsive/add400e5899d-384.webp",
-      "width": 384
-    },
-    {
-      "file": "images/responsive/90f41954e938-640.webp",
-      "width": 640
-    },
-    {
-      "file": "images/responsive/70fc1579c3ed-768.webp",
-      "width": 768
-    },
-    {
-      "file": "images/responsive/90d88e7abaa6-960.webp",
-      "width": 960
-    },
-    {
-      "file": "images/responsive/a01e3833d00b-1200.webp",
-      "width": 1200
-    }
-  ]
-}
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/684e8996a26b-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/f2fbbc4ac49b-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/add400e5899d-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/90f41954e938-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/70fc1579c3ed-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/90d88e7abaa6-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/a01e3833d00b-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-04/artwork-source-preview-layout.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/a007816e9a1c-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/22983bbd0b4a-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/ba38431b1983-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/f493ab02a254-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/35c2e22a2f48-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/79d5e0e1b56e-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/17f0864a6431-1200.webp",
+        "width": 1200
+      }
+    ]
+  }
 }

@@ -151,6 +151,14 @@
       "es": "Dos botellas de zumo de naranja con tapón en un portabotellas de cartón marrón liso sobre una superficie gris clara"
     }
   },
+  "custom-bag-artwork-file-handoff": {
+    "file": "images/editorial/2026-11-04/artwork-source-preview-layout.webp",
+    "alt": {
+      "en": "Source and preview document cards point to a separate print-layout card",
+      "zh": "源文件与预览资料卡分别指向印刷版面资料卡",
+      "es": "Fichas de original y vista previa apuntan a una ficha de distribución"
+    }
+  },
   "custom-insulated-bag-order-timeline-gates": {
     "file": "images/editorial/2026-10-22/closed-teal-custom-beverage-bag.webp",
     "alt": {

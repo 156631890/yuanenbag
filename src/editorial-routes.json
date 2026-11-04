@@ -172,6 +172,15 @@
   },
   {
     "kind": "guide",
+    "slug": "custom-bag-artwork-file-handoff",
+    "title": {
+      "en": "Prepare the Files Behind a Custom Bag Print Proof",
+      "zh": "定制袋印稿交付：源文件、预览与印刷版面分别确认",
+      "es": "Prepare los archivos que respaldan la prueba gráfica de su bolsa"
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "custom-insulated-bag-order-timeline-gates",
     "title": {
       "en": "Set the Start Date for a Custom Insulated-Bag Order",
