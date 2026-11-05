@@ -622,6 +622,15 @@
   },
   {
     "kind": "guide",
+    "slug": "packaging-quote-incoterms-named-place",
+    "title": {
+      "en": "Write the Delivery Point into the Packaging Quotation",
+      "zh": "包装报价里的交货地点，不能只留一个城市名",
+      "es": "Defina el punto de entrega en la oferta de embalajes"
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "packout-temperature-sensor-position-record",
     "title": {
       "en": "Keep Sensor Positions With the Loaded-Bag Test Record",

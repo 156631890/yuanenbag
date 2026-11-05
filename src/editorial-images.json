@@ -551,6 +551,14 @@
       "es": "Una ficha de código conecta con una URL y una página móvil con pestañas EN ZH ES"
     }
   },
+  "packaging-quote-incoterms-named-place": {
+    "file": "images/editorial/2026-11-05/packaging-delivery-point-unloading.webp",
+    "alt": {
+      "en": "A truck beside a warehouse connects to a location pin, an appointment calendar and a separate unloading pallet-jack icon.",
+      "zh": "仓库旁的货车与定位图标、预约日历及单独的托盘车卸货图形相连接。",
+      "es": "Un camión junto a un almacén se conecta a un pin de ubicación, un calendario y un icono separado de descarga con transpaleta."
+    }
+  },
   "packout-temperature-sensor-position-record": {
     "file": "images/editorial/2026-10-30-cover-repairs/packout-temperature-sensor-position-record.webp",
     "alt": {

@@ -1045,6 +1045,21 @@
   },
   {
     "kind": "guide",
+    "slug": "packaging-quote-incoterms-named-place",
+    "publishedAt": "2026-11-05",
+    "title": {
+      "en": "Write the Delivery Point into the Packaging Quotation",
+      "zh": "包装报价里的交货地点，不能只留一个城市名",
+      "es": "Defina el punto de entrega en la oferta de embalajes"
+    },
+    "description": {
+      "en": "Record the agreed Incoterms rule, edition and precise named place. Distinguish delivery, unloading, import arrangements and product acceptance when buying packaging.",
+      "zh": "在包装报价中记录约定的Incoterms规则、版本和明确地点，分开核对交货、卸货、进口安排与产品验收，不把城市名或运费已含当作完整交付约定。",
+      "es": "Registre regla Incoterms, edición y lugar preciso; distinga entrega, descarga, importación y aceptación del producto al comprar embalajes."
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "packout-temperature-sensor-position-record",
     "publishedAt": "2026-10-19",
     "title": {

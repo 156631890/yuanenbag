@@ -13388,5 +13388,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-05/packaging-delivery-point-unloading.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/5d1c4ff691c0-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/a66ebdeee554-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/051f9332d487-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/a4f77dfd9e32-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/fb08dfe7e607-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/fc914649a49e-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/9ce6d86a3004-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }
