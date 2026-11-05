@@ -909,6 +909,21 @@
   },
   {
     "kind": "guide",
+    "slug": "insulation-laminate-bond-report-scope",
+    "publishedAt": "2026-11-05",
+    "title": {
+      "en": "Match a Laminate Bond Report to the Insulation Material Being Ordered",
+      "zh": "复合保温材料的粘接报告，先核对试样与结果口径",
+      "es": "Vincule el informe de unión al material aislante que va a pedir"
+    },
+    "description": {
+      "en": "Check the actual laminate, interface, method edition and reported statistic before using a peel value to approve reflective EPE or bubble insulation.",
+      "zh": "用剥离数值批准反光面EPE或气泡保温材料前，先对应实际复合结构、界面、方法版本与结果统计口径，不把分层制样说明当作完整性能证据。",
+      "es": "Antes de aprobar aislamiento EPE o de burbujas con un valor de pelado, compruebe laminado, interfaz, edición del método y definición del resultado."
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "insulation-roll-core-bore-finished-diameter",
     "publishedAt": "2026-11-04",
     "title": {

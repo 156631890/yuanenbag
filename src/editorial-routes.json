@@ -541,6 +541,15 @@
   },
   {
     "kind": "guide",
+    "slug": "insulation-laminate-bond-report-scope",
+    "title": {
+      "en": "Match a Laminate Bond Report to the Insulation Material Being Ordered",
+      "zh": "复合保温材料的粘接报告，先核对试样与结果口径",
+      "es": "Vincule el informe de unión al material aislante que va a pedir"
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "insulation-roll-core-bore-finished-diameter",
     "title": {
       "en": "Match Insulation Roll Bore and Diameter to Receiving Equipment",

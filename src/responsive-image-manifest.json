@@ -13354,5 +13354,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-05/laminate-report-identity-method-result.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/bc8dd01cb9d4-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/4180a3276d37-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/14966ec6143c-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/49ea464e05e9-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/7d245e6f8f37-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/783ce66903a9-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/911e647bc27c-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

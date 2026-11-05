@@ -479,6 +479,14 @@
       "es": "Bolsa de compra azul metalizada con asas doradas junto a dos paquetes blancos y un acumulador"
     }
   },
+  "insulation-laminate-bond-report-scope": {
+    "file": "images/editorial/2026-11-05/laminate-report-identity-method-result.webp",
+    "alt": {
+      "en": "A layered sample icon connects to three document cards showing layers, a test arrangement and blank result fields.",
+      "zh": "分层样品图形连接三张资料卡，分别呈现层次、测试构型和空白结果栏。",
+      "es": "Un icono de muestra en capas se conecta a tres fichas con capas, configuración de ensayo y campos de resultado vacíos."
+    }
+  },
   "insulation-roll-core-bore-finished-diameter": {
     "file": "images/editorial/2026-11-04/roll-bore-diameter-width.webp",
     "alt": {
