@@ -1,0 +1,141 @@
+{
+  "productId": "NP16",
+  "date": "2026-11-03",
+  "status": "draft_pending_user_review",
+  "publicationAuthorized": false,
+  "tool": "built-in image_gen",
+  "references": [
+    {
+      "path": "/Users/ic/Projects/yuanenbag/website/public/images/factory/2026/taizhou-materials.webp",
+      "sha256": "ec8946ae0e8803819d490fe92f91ac702729082aaafc6d4c1b9cced65595f2ff",
+      "actuallyViewed": true,
+      "supports": "Reflective flexible roll materials and winding only; does NOT prove cage-cover production or laminate composition."
+    },
+    {
+      "url": "https://ecohome-insulation.com/products/insulated-ibc-cover",
+      "actuallyRead": true,
+      "imageActuallyViewed": "industry-reference.png",
+      "supports": "Industry IBC tank/cage geometry and cap/valve access only; no competitor artwork, specs or performance reused."
+    },
+    {
+      "url": "https://www.multifoilsdirect.co.uk/product/ibc-insulation-covers-thermal-ibc-jackets/",
+      "actuallyRead": true,
+      "supports": "Passive cover and local top access industry form only; no test or certification copied."
+    }
+  ],
+  "images": [
+    {
+      "i": 1,
+      "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-b654f935-115c-40f5-a728-aff9cc62e507.png",
+      "prompt": "Square photorealistic B2B catalogue photograph of one proposed passive INSULATED IBC TANK COVER fitted on a standard shaped intermediate bulk container: squat near-cubic white plastic liquid tank within galvanized steel cage on a black plastic pallet. The product for sale is ONLY a thin flexible SILVER REFLECTIVE FOIL-FACED INSULATING COVER, fitted outside cage and over top. Cover is closed on all five sides, bottom open above pallet; no full-height front curtain, no wheels, no hose, no heater, no electrical cable, no handles. Two distinct SMALL hook-and-loop access flaps: one broad square flap on TOP centered over filler cap, CLOSED and outlined with neat black textile binding; one much smaller rectangular flap at LOWER FRONT centered above pallet for discharge valve, also CLOSED with black bound edge. A single discreet vertical overlap joint at rear right, not the front. Thin metallic foil irregular creases and realistic soft laminate drape, not silver satin, woven textile, quilted mattress or mirror panel. Very slightly rounded top corners following caged IBC geometry; proportions width roughly similar to total height, side depth similar, believable pallet and fork slots visible BELOW cover hem and unobstructed. Eye-level 3/4 front view with enough downward angle to see top flap. Clean seamless #F6F6F4 background, soft natural side lighting, realistic construction not perfect CGI. Entire cover, pallet and shadow complete; at least 10 percent clear margins all sides, product occupies about 75 percent canvas. No brand or text, no labels or numbers. Not proof of production, test result or fixed tank capacity; no such words on image.",
+      "file": "public/images/products/standardized/insulated-ibc-covers/01.webp",
+      "sha256": "bbaa356f0d7d7c5b0501529ac725ab75329f865f61a00ed52e7b36b06617f02c",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "visualReview": "Actually inspected final image; accepted as custom construction illustration, not production/performance proof",
+      "rights": "Generated with built-in image_gen; no external manufacturer artwork reused or supplied as image input"
+    },
+    {
+      "i": 2,
+      "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-89e5122f-9be2-42c3-8ab2-10cb06173630.png",
+      "prompt": "One square photorealistic catalogue image of exactly the SAME proposed passive IBC cover as reference. TOP ACCESS: same complete covered IBC, slightly higher viewpoint. Open ONLY the square top access flap, fold it flat toward the rear, connected at its rear edge, no floating lid. Show underneath one closed black screw cap on the white tank neck within a small correctly cut opening and visible galvanized top cage rails. No fill hose, liquid or pouring. Lower valve flap remains closed. Keep whole cover and pallet in frame. Background #F6F6F4, natural soft light, realistic geometry. Preserve squat cube proportions, two flap positions, silver thin reflective laminate, black trim and black pallet identity. No brand/text except requested dimension letters, no heater/electrical cable, performance labels or invented numeric dimensions.",
+      "file": "public/images/products/standardized/insulated-ibc-covers/02.webp",
+      "sha256": "fe5d835d388af9ce343f79f72638f1a9edbcf9be0f9d2506f68afb540e171ff6",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "visualReview": "Actually inspected final image; accepted as custom construction illustration, not production/performance proof",
+      "rights": "Generated with built-in image_gen; no external manufacturer artwork reused or supplied as image input"
+    },
+    {
+      "i": 3,
+      "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-9564755c-7bb5-4ff7-9b3e-385019a4d3d0.png",
+      "prompt": "One square photorealistic catalogue image of exactly the SAME proposed passive IBC cover as reference. VALVE ACCESS: same complete covered IBC, front three-quarter viewpoint. Open ONLY the small lower-front flap by folding it UP against front face. Reveal a recessed white plastic tank outlet with a compact closed black discharge valve and short capped outlet, visible through the cage service recess just ABOVE the pallet deck. Do not invent an outlet in the pallet itself. Top access flap stays CLOSED. No hose, puddles, liquid, dripping or gauges. Whole object complete. Background #F6F6F4, natural soft light, realistic geometry. Preserve squat cube proportions, two flap positions, silver thin reflective laminate, black trim and black pallet identity. No brand/text except requested dimension letters, no heater/electrical cable, performance labels or invented numeric dimensions.",
+      "rejectedSources": [
+        "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-cd91d659-22e5-4e26-b3da-b0df5f9ea52b.png"
+      ],
+      "correctionPrompts": [
+        "Edit the reference closed IBC cover ONLY at its existing small lower-front rectangular valve flap. Open that flap by rotating its ENTIRE panel upward around its top hinge, showing a matching aperture EXACTLY the same width and height as the original flap. Do not enlarge the aperture. Put a compact white tank neck with one CLOSED black capped discharge valve inside that small aperture, valve mostly recessed, no oversize handle projecting above the aperture. The flap MUST be large enough to fully close and overlap this aperture when lowered. Keep ALL rest of cover, top closed flap, proportions, pallet and camera identical. Whole product complete, safe margin, no text, no hose.",
+        "Correct ONLY the tiny lower-front access aperture contents in this image. The current object looks like an upright bottle filler cap, which is WRONG. Replace it with a realistic IBC bottom discharge outlet assembly: a short horizontal white plastic outlet neck emerging forward from the white tank wall, with a compact BLACK outlet screw-cap whose circular face is VERTICAL FACING THE CAMERA, cap axis HORIZONTAL pointing toward viewer. A small black shut-off lever directly above this horizontal valve body, all contained inside existing aperture, no object crossing aperture boundary. Not an upward-facing cap, not a vertical bottle neck. Keep the access flap size and hinge exactly unchanged and large enough to close the aperture; preserve entire cover, top closed flap, camera, silver material and pallet exactly. No hoses or liquid, no wording. Square natural studio photo."
+      ],
+      "file": "public/images/products/standardized/insulated-ibc-covers/03.webp",
+      "sha256": "f5ede7ac766f31240ed68b9522c9403a17639c11fae9f5eded57fc40394cb30a",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "visualReview": "Actually inspected final image; accepted as custom construction illustration, not production/performance proof",
+      "rights": "Generated with built-in image_gen; no external manufacturer artwork reused or supplied as image input"
+    },
+    {
+      "i": 4,
+      "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-ebcdc6d8-ac73-4f80-bed0-dd5394a6ead1.png",
+      "prompt": "One square photorealistic catalogue image of exactly the SAME proposed passive IBC cover as reference. LAMINATE CLOSURE DETAIL: close photograph of top access flap edge slightly peeled back, show two matching black hook-and-loop closure surfaces sewn to the bound edges, thin foil laminate with irregular metallic creases, no thick foam claim, no zipper. Keep flap actually connected at one edge and cap still shut in background. Intentional macro crop. Background #F6F6F4, natural soft light, realistic geometry. Preserve squat cube proportions, two flap positions, silver thin reflective laminate, black trim and black pallet identity. No brand/text except requested dimension letters, no heater/electrical cable, performance labels or invented numeric dimensions.",
+      "rejectedSources": [
+        "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-8125f81c-bc51-4f91-b2c6-52de5f0bbd8a.png"
+      ],
+      "correctionPrompts": [
+        "Generate an intentional extreme macro detail crop of ONE vertical bound overlap seam at rear corner of this exact thin silver reflective IBC cover. Show a SMALL peeled-back flexible edge exposing two complementary black hook-and-loop surfaces and the thin silver reverse of the laminate. It is an edge joint in the cover, NOT a cap opening or a tank door; no large square flap, no misleading sealed foil under an access hole. Real seam stitching, irregular metallic creases, realistic thin flexible layers. Background #F6F6F4, natural light, no tank, no pallet, no logo/text."
+      ],
+      "file": "public/images/products/standardized/insulated-ibc-covers/04.webp",
+      "sha256": "251da82e6a12c6658409ad8e4fff1187b5a5e06d68dbc22abb808c6c198ecb5b",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "visualReview": "Actually inspected final image; accepted as custom construction illustration, not production/performance proof",
+      "rights": "Generated with built-in image_gen; no external manufacturer artwork reused or supplied as image input"
+    },
+    {
+      "i": 5,
+      "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-3901b88e-8830-4de7-9b82-defca9485023.png",
+      "prompt": "One square photorealistic catalogue image of exactly the SAME proposed passive IBC cover as reference. MEASUREMENT VIEW: same CLOSED cover, entire IBC and pallet. Dimension lines OUTSIDE product showing W across front width, D along side depth, H from TOP of pallet deck/cover bottom hem up to top of cover. EXCLUDE pallet itself from H. Only letters W D H, no numbers or specs. Plenty safe margin for lines, no arrow over product. Background #F6F6F4, natural soft light, realistic geometry. Preserve squat cube proportions, two flap positions, silver thin reflective laminate, black trim and black pallet identity. No brand/text except requested dimension letters, no heater/electrical cable, performance labels or invented numeric dimensions.",
+      "file": "public/images/products/standardized/insulated-ibc-covers/05.webp",
+      "sha256": "23de251a47ee055624623c9d3edf3361db0a0e5883ddfb4524e6f07cb7e45570",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "visualReview": "Actually inspected final image; accepted as custom construction illustration, not production/performance proof",
+      "rights": "Generated with built-in image_gen; no external manufacturer artwork reused or supplied as image input"
+    },
+    {
+      "i": 6,
+      "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-de14f419-423d-4021-8d0d-a3388185b276.png",
+      "prompt": "One square photorealistic catalogue image of exactly the SAME proposed passive IBC cover as reference. PALLET CLEARANCE DETAIL: low-angle close photograph of the same lower front corner, CLOSED small valve flap above black plastic pallet, lower hem ending ABOVE fork entry. Show two realistically shaped fork openings below the hem, no forklift and no forks inserted. Cover cannot carry loads. Metallic crinkles same, black pallet shape consistent. Intentional detail crop. Background #F6F6F4, natural soft light, realistic geometry. Preserve squat cube proportions, two flap positions, silver thin reflective laminate, black trim and black pallet identity. No brand/text except requested dimension letters, no heater/electrical cable, performance labels or invented numeric dimensions.",
+      "file": "public/images/products/standardized/insulated-ibc-covers/06.webp",
+      "sha256": "cdab01e81865dcd209213ea2bb4cff72d95950b170b378366474f7907c282675",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "visualReview": "Actually inspected final image; accepted as custom construction illustration, not production/performance proof",
+      "rights": "Generated with built-in image_gen; no external manufacturer artwork reused or supplied as image input"
+    },
+    {
+      "i": 7,
+      "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-7a1c105b-f6e7-4314-b8f3-887077eb36f7.png",
+      "prompt": "One square photorealistic catalogue image of exactly the SAME proposed passive IBC cover as reference. FOLDED STORAGE: same silver reflective cover removed from the IBC and folded into a neat loose flat rectangular stack on the neutral studio surface. Show black bound TOP flap outline and smaller valve flap amongst fold layers, no extra added straps or handles. Thin flexible laminate folds, not thick puffy textile. Tank, cage and pallet absent. Entire folded cover complete, 15% clear margins. Background #F6F6F4, natural soft light, realistic geometry. Preserve squat cube proportions, two flap positions, silver thin reflective laminate, black trim and black pallet identity. No brand/text except requested dimension letters, no heater/electrical cable, performance labels or invented numeric dimensions.",
+      "file": "public/images/products/standardized/insulated-ibc-covers/07.webp",
+      "sha256": "a6d7dcc3bbcd48a03f3df6458b6bee3d5b6a4ae55551e6e9832c271031789c69",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "visualReview": "Actually inspected final image; accepted as custom construction illustration, not production/performance proof",
+      "rights": "Generated with built-in image_gen; no external manufacturer artwork reused or supplied as image input"
+    }
+  ],
+  "limits": [
+    "Passive cover, no heat/cooling or temperature setpoint",
+    "Facing, core, seams, dimensions and access by approved sample",
+    "No fixed duration, temperature, freezing, chemical/food-contact, fire, waterproof or certification claim",
+    "Not load-bearing, leak containment or cargo restraint",
+    "Keep fork openings, tank vents and interfaces clear per tank instructions",
+    "Tank, cage, cap/valve and pallet are props; not included by default",
+    "MOQ, price and lead time by quotation"
+  ]
+}

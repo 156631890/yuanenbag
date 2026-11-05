@@ -37,3 +37,5 @@ export const PalletCoverSections = lazy(() => import('./PalletCoverSections'))
 export const BubbleRollSections = lazy(() => import('./BubbleRollSections'))
 
 export const CageCoverSections = lazy(() => import('./CageCoverSections'))
+
+export const IBCCoverSections = lazy(() => import('./IBCCoverSections'))

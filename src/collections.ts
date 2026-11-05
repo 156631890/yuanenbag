@@ -81,9 +81,9 @@ export const collections:Collection[] = [
       "es": "Revestimientos térmicos y fundas para palés | YUANEN"
     },
     "description": {
-      "en": "Compare box liners, pallet covers and front-opening roll cage covers. Specify the handling unit, access, measurement boundaries and clearance for moving components.",
-      "zh": "比较保温箱内衬、整托保温罩与前帘开合笼车罩。按实际装运单元核对开口、测量边界与运动部件间隙。",
-      "es": "Compare revestimientos, fundas para palés y fundas frontales para carros. Defina unidad de manejo, acceso, límites de medida y espacio para piezas móviles."
+      "en": "Compare box liners, pallet covers, front-opening roll cage covers and IBC tank covers. Specify the handling unit, access, measurement boundaries and clearance for moving components.",
+      "zh": "比较保温箱内衬、整托保温罩、前帘开合笼车罩与 IBC 吨桶罩。按实际装运单元核对开口、测量边界与运动部件间隙。",
+      "es": "Compare revestimientos, fundas para palés, carros e IBC. Defina unidad de manejo, acceso, límites de medida y espacio para piezas móviles."
     },
     "guide": "bag-material-comparison"
   },

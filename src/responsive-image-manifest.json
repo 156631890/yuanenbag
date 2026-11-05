@@ -13524,5 +13524,243 @@
         "width": 1200
       }
     ]
+  },
+  "images/products/standardized/insulated-ibc-covers/01.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/ec89569daf2a-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/3980c29ebf6c-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/d09cfa246269-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/9144aeac4801-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/bd2f9bddbd31-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/a8551114234d-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/95bf009fbf31-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-ibc-covers/02.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/904ee7289146-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/62ee0b153a05-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/ff1528fe7257-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/96739dd77509-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/f5358b3e0700-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/58a2439bfd99-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/e2e761316c77-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-ibc-covers/03.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/7fe72ad22aa4-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/b554207179c7-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/04390646a80f-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/e5e596fbfc98-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/d35fb6f3bbe4-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/3268b251760e-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/e7df4bfca68f-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-ibc-covers/04.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/58e96c2fa732-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/e53fffbbc484-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/d519aea2452b-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/6d56b7673841-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/9e79a5274d28-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/55837c0a67fd-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/0685c7fe83af-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-ibc-covers/05.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/d6b32106718c-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/7bd70f59a5ae-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/fa43c48f97d1-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/8044e9f46e93-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/4d8d68361892-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/4bba26e152e2-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/26bb8376a564-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-ibc-covers/06.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/a743618409b2-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/7272b011f138-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/c5915aaf1192-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/bd100744976e-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/510e09b84968-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/29816f3ee6e5-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/a093b799a496-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-ibc-covers/07.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/dc60e0148106-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/0708d604d9b4-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/c4a1ae5c754e-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/17ed19c25b37-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/91f077fcd535-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/8256f0930fe8-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/e6f887ec1c2a-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

@@ -75,9 +75,9 @@ export const collectionContent:Record<string,{answer:Text;checks:Text[]}> = {
   },
   "insulated-box-liners-pallet-covers": {
     "answer": {
-      "en": "Choose a box liner for the inside of a separately specified outer container. Choose a pallet hood for the top and sides of a stable pallet load. The open-bottom hood is not a lifting device or load restraint. For a wheeled roll cage, choose a front-opening cage cover with wheel and brake clearance. None replaces required refrigerated storage or transport.",
-      "zh": "箱内衬适配另行确认的外运输容器内部；托盘罩覆盖稳定整托货堆的顶部与四侧。开放底部的罩体不是起吊或货物固定工具，带轮笼车采用前帘开合的笼车罩，并预留脚轮和刹车间隙。各类产品均不能替代必要的冷藏储运。",
-      "es": "El revestimiento se adapta al interior de un contenedor exterior acordado por separado. La funda cubre la parte superior y los lados de una carga estable. La base abierta no permite elevar ni sujetar la mercancía. Para carros con ruedas, elija una funda frontal que deje libres ruedas y frenos. Ninguno sustituye la refrigeración necesaria."
+      "en": "Choose a box liner for the inside of a separately specified outer container. Choose a pallet hood for the top and sides of a stable pallet load. The open-bottom hood is not a lifting device or load restraint. For a wheeled roll cage, choose a front-opening cage cover with wheel and brake clearance. An IBC cover provides local cap and valve access around a tank cage. None replaces required refrigerated storage or transport.",
+      "zh": "箱内衬适配另行确认的外运输容器内部；托盘罩覆盖稳定整托货堆的顶部与四侧。开放底部的罩体不是起吊或货物固定工具，带轮笼车采用前帘开合的笼车罩，并预留脚轮和刹车间隙。吨桶罩需分别核对桶盖与阀门的局部操作开口。各类产品均不能替代必要的冷藏储运。",
+      "es": "El revestimiento se adapta al interior de un contenedor exterior acordado por separado. La funda cubre la parte superior y los lados de una carga estable. La base abierta no permite elevar ni sujetar la mercancía. Para carros con ruedas, elija una funda frontal que deje libres ruedas y frenos. La funda IBC incorpora acceso local a tapa y válvula. Ninguno sustituye la refrigeración necesaria."
     },
     "checks": [
       {
