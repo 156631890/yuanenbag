@@ -1225,6 +1225,21 @@
   },
   {
     "kind": "guide",
+    "slug": "roll-cage-cover-curtain-gate-access-trial",
+    "publishedAt": "2026-11-05",
+    "title": {
+      "en": "Trial the Roll Cage Curtain and Gate Before Ordering",
+      "zh": "笼车保温罩打样，要连前帘、车门和取货一起试",
+      "es": "Pruebe cortina, puerta y retirada antes de pedir la funda del carro"
+    },
+    "description": {
+      "en": "Run a sample through curtain opening, cage gate travel, carton removal and reclosing at the working position. Record where the sequence stops.",
+      "zh": "在实际工位试开前帘、转动车门、取出货箱并复闭，记录动作在哪一步受阻，再判断改罩还是改作业位置。",
+      "es": "Pruebe apertura de cortina, giro de puerta, retirada de caja y cierre en el puesto de trabajo. Registre en qué paso se interrumpe la secuencia."
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "seafood-packout-leak-containment",
     "publishedAt": "2026-10-14",
     "title": {

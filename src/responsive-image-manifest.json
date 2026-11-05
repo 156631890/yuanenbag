@@ -13490,5 +13490,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-05/roll-cage-curtain-gate-carton-sequence.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/1ecbf18d7fdd-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/d482eed48ec7-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/bac39e139313-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/74408e4ef575-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/63b9683b4165-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/48e05da729d4-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/4d65663e3eeb-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

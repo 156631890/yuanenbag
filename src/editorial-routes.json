@@ -730,6 +730,15 @@
   },
   {
     "kind": "guide",
+    "slug": "roll-cage-cover-curtain-gate-access-trial",
+    "title": {
+      "en": "Trial the Roll Cage Curtain and Gate Before Ordering",
+      "zh": "笼车保温罩打样，要连前帘、车门和取货一起试",
+      "es": "Pruebe cortina, puerta y retirada antes de pedir la funda del carro"
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "seafood-packout-leak-containment",
     "title": {
       "en": "Which Layer Should Contain Leaks in a Seafood Shipping Box?",
