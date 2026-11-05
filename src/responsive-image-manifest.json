@@ -13456,5 +13456,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-05/pallet-load-width-overhead-clearance.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/4243ad11e472-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/357435335d94-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/40fb1a47a7e4-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/270d6606b563-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/bd1eaba8cd8b-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/2ff1334b16c2-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/4891421ac258-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

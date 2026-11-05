@@ -879,6 +879,21 @@
   },
   {
     "kind": "guide",
+    "slug": "insulated-pallet-cover-overhang-installation-clearance",
+    "publishedAt": "2026-11-05",
+    "title": {
+      "en": "Size a Pallet Cover for the Load and the Fitting Space",
+      "zh": "托盘保温罩选尺寸，要同时量整垛和安装空间",
+      "es": "Dimensione la funda térmica para la carga y el espacio de montaje"
+    },
+    "description": {
+      "en": "Measure the wrapped load, separate inside clearance from headroom, and check the hem at the pallet deck before approving a five-sided cover.",
+      "zh": "下单五面托盘保温罩前，量包膜后的货垛，分开确认罩内余量与顶部安装空间，并检查下沿是否影响叉孔。",
+      "es": "Mida la carga envuelta, separe holgura interior y altura de montaje, y compruebe el borde inferior antes de aprobar una funda de cinco caras."
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "insulated-parcel-shipping-dimensions-quote",
     "publishedAt": "2026-10-21",
     "title": {

@@ -463,6 +463,14 @@
       "es": "Una bolsa roja baja abierta con forro plateado junto a una caja de pizza lisa cerrada sobre una superficie gris clara"
     }
   },
+  "insulated-pallet-cover-overhang-installation-clearance": {
+    "file": "images/editorial/2026-11-05/pallet-load-width-overhead-clearance.webp",
+    "alt": {
+      "en": "Stacked cartons on a pallet beneath a beam, with horizontal and vertical clearance arrows.",
+      "zh": "堆叠纸箱放在横梁下方的托盘上，图中有水平和竖直方向的箭头。",
+      "es": "Cajas apiladas en un palé bajo una viga, con flechas de holgura horizontal y vertical."
+    }
+  },
   "insulated-parcel-shipping-dimensions-quote": {
     "file": "images/editorial/2026-10-21/closed-silver-foil-parcel.webp",
     "alt": {

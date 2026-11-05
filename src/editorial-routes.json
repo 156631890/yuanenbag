@@ -523,6 +523,15 @@
   },
   {
     "kind": "guide",
+    "slug": "insulated-pallet-cover-overhang-installation-clearance",
+    "title": {
+      "en": "Size a Pallet Cover for the Load and the Fitting Space",
+      "zh": "托盘保温罩选尺寸，要同时量整垛和安装空间",
+      "es": "Dimensione la funda térmica para la carga y el espacio de montaje"
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "insulated-parcel-shipping-dimensions-quote",
     "title": {
       "en": "Measure the Closed Insulated Parcel Before Requesting Shipping Costs",
