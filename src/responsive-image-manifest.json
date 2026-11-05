@@ -13320,5 +13320,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-05/usable-roll-area-price-basis.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/94603b3fca2d-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/7d3982f01712-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/55e488ddc3b0-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/4240c8d3ea84-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/ce854bee516e-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/729e168f249c-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/e3ab7cff50c0-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

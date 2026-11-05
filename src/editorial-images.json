@@ -487,6 +487,14 @@
       "es": "Vistas de extremo y lateral distinguen hueco A, diámetro completo B y ancho C"
     }
   },
+  "insulation-roll-price-per-usable-square-metre": {
+    "file": "images/editorial/2026-11-05/usable-roll-area-price-basis.webp",
+    "alt": {
+      "en": "A rectangular strip shows two narrow edge bands, an inner usable area and perpendicular width and length arrows.",
+      "zh": "矩形条带上展示两条窄边部、内部可用区域和互相垂直的幅宽与长度箭头。",
+      "es": "Una banda rectangular muestra dos franjas de borde, un área útil interior y flechas perpendiculares de anchura y longitud."
+    }
+  },
   "insulation-roll-splice-acceptance": {
     "file": "images/editorial/2026-11-04/insulation-roll-splice-cut-layout.webp",
     "alt": {

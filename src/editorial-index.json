@@ -924,6 +924,21 @@
   },
   {
     "kind": "guide",
+    "slug": "insulation-roll-price-per-usable-square-metre",
+    "publishedAt": "2026-11-05",
+    "title": {
+      "en": "Compare Insulation Roll Quotes on the Same Area Basis",
+      "zh": "比较保温卷材报价，先统一每平方米的计算口径",
+      "es": "Compare las ofertas de rollos aislantes con la misma base de superficie"
+    },
+    "description": {
+      "en": "Use the agreed usable width and roll length to compare like-for-like prices per square metre. Keep edge trim, splice exclusions and cut-sheet output separate.",
+      "zh": "用约定的可用幅宽和卷长比较同口径的每平方米价格，分开记录修边、接头排除和合格裁片数量，避免重复扣边或把总面积当作成品数量。",
+      "es": "Compare precios por metro cuadrado con anchura útil y longitud acordadas. Separe recorte, exclusiones por empalmes y cantidad de hojas aceptables."
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "insulation-roll-splice-acceptance",
     "publishedAt": "2026-11-04",
     "title": {

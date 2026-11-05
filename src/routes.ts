@@ -1,4 +1,7 @@
-import { productDescriptions } from './seo-descriptions'
+// Product summaries are emitted into static HTML; client routing only needs titles.
+const productDescriptions: Record<string, import('./data').Text> = import.meta.env.SSR
+  ? (await import('./seo-descriptions')).productDescriptions
+  : {}
 import { collections } from './collections'
 import { bags, guides, tx, type Lang, type Text } from './data'
 import { archivePageCount, archivePath, articlePath, editorialArticles, industryArticles } from './editorial-route-data'

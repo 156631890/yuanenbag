@@ -550,6 +550,15 @@
   },
   {
     "kind": "guide",
+    "slug": "insulation-roll-price-per-usable-square-metre",
+    "title": {
+      "en": "Compare Insulation Roll Quotes on the Same Area Basis",
+      "zh": "比较保温卷材报价，先统一每平方米的计算口径",
+      "es": "Compare las ofertas de rollos aislantes con la misma base de superficie"
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "insulation-roll-splice-acceptance",
     "title": {
       "en": "Agree Splice Acceptance Before Ordering Insulation Rolls",
