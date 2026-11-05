@@ -21,7 +21,7 @@ export function GuideSources({ lang }: Props) {
     <h2 id="guide-sources-title">{tx('About this guide and its sources', '编写主体与资料来源', 'Autoría y fuentes de la guía')[lang]}</h2>
     <p>{tx('YUANEN publishes this purchasing reference using its product catalogue, sample photographs and specification information. Confirm the construction and order terms for your selected product; this guide does not establish a tested cooling duration or certify a shipment.', '本采购参考由远恩根据产品目录、样品照片及规格资料整理。所选产品的结构和订购条件应另行确认；本文不能证明保冷时长，也不构成运输方案认证。', 'YUANEN publica esta referencia a partir de su catálogo, fotografías de muestras e información de especificaciones. Confirme la estructura y condiciones del producto elegido; la guía no acredita una duración de frío ni certifica un envío.')[lang]}</p>
     <div className="related-links">
-      <a href={href('/content-policy/', lang)}>{tx('Content information', '内容说明', 'Información sobre el contenido')[lang]}<ArrowUpRight size={16}/></a>
+      
       <a href={href('/about/', lang)}>{tx('About YUANEN', '了解远恩', 'Acerca de YUANEN')[lang]}<ArrowUpRight size={16}/></a>
       <a href={href('/products/', lang)}>{tx('Product catalogue and sample photos', '产品目录与样品照片', 'Catálogo y fotos de muestras')[lang]}<ArrowUpRight size={16}/></a>
       <a href={href('/quality/', lang)}>{tx('Document holders, dates and scope', '文件主体、日期与范围', 'Titulares, fechas y alcance de documentos')[lang]}<ArrowUpRight size={16}/></a>

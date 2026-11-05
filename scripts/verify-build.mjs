@@ -94,11 +94,11 @@ const base = (env.SITE_BASE_PATH || '/').replace(/\/$/, '')
 for (const path of paths) await access(resolve(root,`.${path.slice(base.length)}`,'index.html'))
 for (const file of files) {
   const html = await readFile(file,'utf8')
+  assert(!html.includes('content-policy/'), `Removed content page must not be linked: ${file}`)
   assert(!html.includes('class="editorial-card-image-note"'),`Article cards must not repeat illustration labels: ${file}`)
   if (html.includes('class="container page-section article editorial-article"')) {
     const caption = html.match(/<figcaption>([\s\S]*?)<\/figcaption>/)?.[1].replace(/<!--.*?-->/g,'')
     assert(caption && !/ · (Illustration|示意图|Ilustración)$/.test(caption),`Keep descriptive captions without repeated image-type labels: ${file}`)
-    assert(/href="\/(?:zh\/|es\/)?content-policy\/"/.test(html),`Keep the editorial content-policy link: ${file}`)
   }
   assert(/class="footer-social-link"[^>]*href="https:\/\/www\.facebook\.com\/yuanenbag"[^>]*aria-label="[^"]+"/.test(html),`Missing accessible Facebook footer link: ${file}`)
   assert(/class="footer-social-link"[^>]*href="https:\/\/www\.instagram\.com\/yuanenbag\/"[^>]*target="_blank"[^>]*rel="noopener noreferrer"[^>]*aria-label="[^"]+"/.test(html),`Missing accessible Instagram footer link: ${file}`)

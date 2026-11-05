@@ -6,7 +6,6 @@ export { default as EditorialArticlePage } from './EditorialArticlePage.server'
 export { GuidesArchive, IndustryArchive } from './EditorialPages'
 
 export {default as OrderReference} from './OrderReference'
-export {default as ContentPolicy} from './ContentPolicy'
 export {default as CustomizationOrderOptions} from './CustomizationOrderOptions'
 
 export {default as MealPrepDetails} from './MealPrepDetails'

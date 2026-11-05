@@ -9,7 +9,6 @@ export const GuidesArchive = lazy(() => import('./EditorialPages').then(module =
 export const IndustryArchive = lazy(() => import('./EditorialPages').then(module => ({ default: module.IndustryArchive })))
 
 export const OrderReference = lazy(() => import('./OrderReference'))
-export const ContentPolicy = lazy(() => import('./ContentPolicy'))
 export const CustomizationOrderOptions = lazy(() => import('./CustomizationOrderOptions'))
 
 export const MealPrepDetails = lazy(() => import('./MealPrepDetails'))

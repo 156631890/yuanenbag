@@ -75,7 +75,6 @@ for(const lang of ['en','zh','es']){
    for(const marker of ['quantity-grid','quote-block','commercial-facts','delivery-steps','export-documents']) assert(visible.includes(marker),`Missing shared purchasing layout ${marker}: ${path}`)
   }
   if(page.type==='guide'){
-   assert(visible.includes(`href="${prefix}/content-policy/"`),`Missing legacy guide content information link: ${path}`)
    assert(!/AI-assisted illustration|AI 场景示意|Ilustración asistida por IA/.test(visible),`Old guide AI label: ${path}`)
    const guide=seoAudit.guides.find(g=>g.slug===page.slug)
    const article=graph.find(v=>v['@type']==='Article')
@@ -102,7 +101,6 @@ for(const lang of ['en','zh','es']){
    assert(visible.includes(`src="/${article.image.file}"`)&&visible.includes(`alt="${article.image.alt[lang]}"`),`Missing visible article image or alt: ${path}`)
    assert(visible.includes(article.image.caption[lang]),`Missing translated image caption: ${path}`)
    assert(!/ · (Illustration|示意图|Ilustración)<\/figcaption>/.test(visible),`Repeated image-type label: ${path}`)
-   assert(visible.includes(`href="${prefix}/content-policy/"`),`Missing content information link: ${path}`)
    assert(!visible.includes('AI-generated illustration')&&!visible.includes('AI 生成示意图')&&!visible.includes('Ilustración generada con IA'),`Repeated AI image label: ${path}`)
    await access(`dist/${article.image.file}`)
   }
