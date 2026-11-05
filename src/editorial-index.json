@@ -606,6 +606,21 @@
   },
   {
     "kind": "industry",
+    "slug": "graphic-packaging-cti-boardio-nutraceutical-canisters",
+    "publishedAt": "2026-11-05",
+    "title": {
+      "en": "Graphic Packaging Offers Boardio Paperboard Canisters Through CTI",
+      "zh": "Graphic Packaging 通过 CTI 向北美营养补充剂品牌提供 Boardio 纸板罐",
+      "es": "Graphic Packaging ofrece envases Boardio de cartón a través de CTI"
+    },
+    "description": {
+      "en": "Graphic Packaging announced North American access to Boardio through CTI on November 4. Compare the canister, closure and barrier for the product being packed.",
+      "zh": "Graphic Packaging 于11月4日公布北美品牌可通过 CTI 取得 Boardio。采购时应按拟灌装产品核对罐体、封盖与阻隔配置。",
+      "es": "Graphic Packaging anunció el 4 de noviembre el acceso a Boardio a través de CTI en Norteamérica. Compare envase, cierre y barrera para el producto que va a envasar."
+    }
+  },
+  {
+    "kind": "industry",
     "slug": "hivest-sustana-recycled-paper-acquisition",
     "publishedAt": "2026-10-30",
     "title": {

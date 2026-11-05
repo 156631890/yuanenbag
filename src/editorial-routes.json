@@ -361,6 +361,15 @@
   },
   {
     "kind": "industry",
+    "slug": "graphic-packaging-cti-boardio-nutraceutical-canisters",
+    "title": {
+      "en": "Graphic Packaging Offers Boardio Paperboard Canisters Through CTI",
+      "zh": "Graphic Packaging 通过 CTI 向北美营养补充剂品牌提供 Boardio 纸板罐",
+      "es": "Graphic Packaging ofrece envases Boardio de cartón a través de CTI"
+    }
+  },
+  {
+    "kind": "industry",
     "slug": "hivest-sustana-recycled-paper-acquisition",
     "title": {
       "en": "Hivest Acquires Recycled-Fiber and Paper Producer Sustana",

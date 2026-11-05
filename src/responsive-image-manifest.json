@@ -13422,5 +13422,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-05/paperboard-canister-filling-specification.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/49af4294fc3d-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/5122a061a353-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/65913c16b665-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/41d99c0bb526-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/f0f91b28b9bb-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/f4595a734740-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/c2e8c962b55d-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }
