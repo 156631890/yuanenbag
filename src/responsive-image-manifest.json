@@ -14340,5 +14340,209 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-06-news-cover-revisions/paperboard-canister-rim-and-lid.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/90f97ae2a879-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/3ca49b5adb58-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/67042e59f909-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/b5e5450578ee-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/5c06eddae10c-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/3373425af940-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/53bf6299b873-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-06-news-cover-revisions/vented-produce-crate-at-sorting-bench.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/39ba96c89301-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/1600ee8c5037-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/f1c9de25b325-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/0897d887eec8-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/b8f298f4ed33-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/5ab7f78dffdb-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/85c82a965fe0-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-06-news-cover-revisions/fiber-meal-tray-and-clear-lidding-film.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/e05083d6a2ad-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/be429da19c26-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/de7791de0c31-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/db30d0104144-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/96db31e6e331-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/69e74c690689-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/4e597fbb35d7-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-06-news-cover-revisions/kraft-paper-overwrap-carton-fold.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/8369c5497c39-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/f3577ef1bbba-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/98934fb2fb1a-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/512f51b18253-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/1f9d0f81748f-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/39bd2347ce26-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/b63e1aa4b13c-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-06-news-cover-revisions/kraft-packaging-paper-sheets-and-bag.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/25680a3a7f0a-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/5f566144e70e-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/6debaa5eb6cc-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/5dd6b077e3a3-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/25aec9961cf1-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/c09c45cfb2f1-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/d32fdb22bb41-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-06-news-cover-revisions/transparent-film-over-cucumber.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/c176d4dadffc-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/f2b2af1a9a13-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/58f64664a782-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/e9b35da872ba-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/0dfb39b2a12f-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/9b93215264b2-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/30713df2eed1-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

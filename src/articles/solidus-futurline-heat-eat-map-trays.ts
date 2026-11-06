@@ -106,17 +106,17 @@ const article: EditorialArticle = {
   ],
   "relatedProducts": [],
   "image": {
-    "file": "images/editorial/2026-11-03/map-tray-pack-heat-seal-records.webp",
+    "file": "images/editorial/2026-11-06-news-cover-revisions/fiber-meal-tray-and-clear-lidding-film.webp",
     "kind": "illustration",
     "alt": {
-      "en": "Three document cards labelled PACK, HEAT and SEAL with tray, appliance and clamp symbols",
-      "zh": "标有PACK、HEAT和SEAL的三张资料卡，配托盘、加热器具和夹合符号",
-      "es": "Tres fichas PACK, HEAT y SEAL con símbolos de bandeja, aparato y mordaza"
+      "en": "A fiber tray holding a meal beneath clear film on a metal counter.",
+      "zh": "金属台面上的纸基餐盒装有餐食，盒口覆盖透明薄膜。",
+      "es": "Una bandeja de fibra con comida cubierta por una película transparente sobre una encimera metálica."
     },
     "caption": {
-      "en": "Match the pack specification, heating instructions and sealing-trial record. Generic document relationship, not a manufacturer’s sample or a verified compatibility result.",
-      "zh": "将包装规格、加热说明与封合试样记录对应。此为通用资料关系，并非厂商样品或已经验证的兼容结果。",
-      "es": "Vincule especificación, instrucciones de calentamiento y registro de sellado. Relación documental genérica, no una muestra del fabricante ni compatibilidad verificada."
+      "en": "A generic fiber tray shows where the clear lidding film meets the rim.",
+      "zh": "通用纸基餐盒展示透明封口膜与盒缘的接触位置。",
+      "es": "Una bandeja genérica de fibra muestra dónde se unen la película de cierre transparente y el borde."
     }
   }
 }

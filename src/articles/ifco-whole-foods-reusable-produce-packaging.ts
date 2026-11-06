@@ -110,17 +110,17 @@ const article: EditorialArticle = {
   ],
   "relatedProducts": [],
   "image": {
-    "file": "images/editorial/2026-11-04/reusable-produce-return-loop.webp",
+    "file": "images/editorial/2026-11-06-news-cover-revisions/vented-produce-crate-at-sorting-bench.webp",
     "kind": "illustration",
     "alt": {
-      "en": "Four arrow-linked drawings show produce crates, empty crates, washing and crates ready for reuse.",
-      "zh": "四幅以箭头连接的图形展示装有果蔬的箱子、空箱、清洗和待重复使用的箱子。",
-      "es": "Cuatro dibujos unidos por flechas muestran cajas con productos frescos, cajas vacías, lavado y cajas listas para reutilizarse."
+      "en": "Hands slide a green vented crate of apples onto a metal sorting bench.",
+      "zh": "双手将装有苹果的绿色通风周转箱移上金属分拣台。",
+      "es": "Unas manos deslizan una caja verde ventilada con manzanas sobre una mesa metálica de clasificación."
     },
     "caption": {
-      "en": "A generic return-loop diagram explains collection, washing and return to use; it does not depict IFCO equipment or an actual operating site.",
-      "zh": "通用循环流程图说明空箱收集、清洗和返回使用的关系，不代表IFCO设备或实际运营现场。",
-      "es": "Diagrama genérico de recogida, lavado y retorno al uso; no representa equipos IFCO ni una instalación real."
+      "en": "Handling a generic vented produce crate at a sorting bench.",
+      "zh": "在分拣台上搬动一只通用的果蔬通风周转箱。",
+      "es": "Manipulación de una caja ventilada genérica para fruta y verdura en una mesa de clasificación."
     }
   }
 }

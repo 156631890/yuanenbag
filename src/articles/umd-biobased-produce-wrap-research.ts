@@ -187,17 +187,17 @@ const article: EditorialArticle = {
     }
   ],
   "image": {
-    "file": "images/editorial/2026-10-31/produce-contact-film-outer-carry-scope.webp",
+    "file": "images/editorial/2026-11-06-news-cover-revisions/transparent-film-over-cucumber.webp",
     "kind": "illustration",
     "alt": {
-      "en": "Card A shows a wrapped cucumber and avocado; card B shows a paper carrying bag, each above a blank checklist",
-      "zh": "A卡展示薄膜包裹的黄瓜和牛油果，B卡展示纸质手提袋，下方各有空白核对栏",
-      "es": "La tarjeta A muestra un pepino y un aguacate envueltos; la B una bolsa de papel, cada una sobre una lista vacía"
+      "en": "A gloved hand pulls transparent film over a cucumber on a shallow tray.",
+      "zh": "戴手套的手把透明薄膜拉过浅托盘上的一根黄瓜。",
+      "es": "Una mano enguantada extiende una película transparente sobre un pepino en una bandeja poco profunda."
     },
     "caption": {
-      "en": "A identifies a contact layer and B an outer carrying package. The generic composition depicts no study sample or test result.",
-      "zh": "A为接触层，B为外层搬运包装；通用构图不展示研究样品或试验结果。",
-      "es": "A identifica una capa de contacto y B un embalaje exterior. La composición genérica no representa muestras ni resultados del estudio."
+      "en": "A generic wrapping scene shows how a thin film contacts the surface of produce.",
+      "zh": "通用包膜场景展示薄膜与果蔬表面的接触方式。",
+      "es": "Una escena genérica de envoltura muestra cómo una película fina entra en contacto con la superficie de un alimento fresco."
     }
   }
 }

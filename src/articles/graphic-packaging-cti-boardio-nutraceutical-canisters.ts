@@ -80,17 +80,17 @@ const article: EditorialArticle = {
   ],
   "relatedProducts": [],
   "image": {
-    "file": "images/editorial/2026-11-05/paperboard-canister-filling-specification.webp",
+    "file": "images/editorial/2026-11-06-news-cover-revisions/paperboard-canister-rim-and-lid.webp",
     "kind": "illustration",
     "alt": {
-      "en": "A plain canister and pouch connect to a filling station icon and two cards showing a lid and a shield with a drop.",
-      "zh": "无标识纸罐与小袋依次连接灌装工位图标，以及带罐盖图案和水滴盾牌图案的两张卡片。",
-      "es": "Un envase sin marca y una bolsa se conectan con un icono de llenado y dos fichas que muestran una tapa y un escudo con una gota."
+      "en": "An open rounded-rectangular paperboard canister beside a dark gray lid.",
+      "zh": "一只打开的圆角长方形纸板罐，旁边放着深灰色盖子。",
+      "es": "Un envase abierto de cartón con esquinas redondeadas junto a una tapa gris oscuro."
     },
     "caption": {
-      "en": "The drawing links a proposed pack and filling step to separate closure and barrier specifications.",
-      "zh": "图中把拟用包装和灌装环节，与分别记录的封盖及阻隔规格联系起来。",
-      "es": "El dibujo vincula el envase propuesto y el llenado con las especificaciones de cierre y barrera por separado."
+      "en": "The rim and lid of a generic paperboard canister show where the two parts meet.",
+      "zh": "通用纸板罐的罐口与独立盖子展示两者的配合位置。",
+      "es": "El borde y la tapa de un envase genérico de cartón muestran dónde encajan ambas piezas."
     }
   }
 }

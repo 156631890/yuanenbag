@@ -97,17 +97,17 @@ const article: EditorialArticle = {
     }
   ],
   "image": {
-    "file": "images/editorial/2026-11-02/paper-material-line-pack-compatibility.webp",
+    "file": "images/editorial/2026-11-06-news-cover-revisions/kraft-paper-overwrap-carton-fold.webp",
     "kind": "illustration",
     "alt": {
-      "en": "A paper roll, a feed-and-seal icon and a folded paper mailer are connected by question marks",
-      "zh": "纸卷、走料封合图标与折叠纸邮袋之间以问号连接",
-      "es": "Un rollo de papel, un icono de alimentación y sellado y un sobre de papel plegado se conectan con interrogaciones"
+      "en": "Gloved hands fold kraft paper around the end of a carton on a workbench.",
+      "zh": "戴手套的双手在工作台上将牛皮纸沿纸盒端部折叠。",
+      "es": "Unas manos enguantadas pliegan papel kraft alrededor del extremo de una caja de cartón sobre una mesa de trabajo."
     },
     "caption": {
-      "en": "Material, line interface and pack require a matched review. This generic relationship graphic does not depict the exhibition or partner equipment.",
-      "zh": "材料、产线接口和成品包装需要对应核查。此通用关系图不呈现展会现场或合作方设备。",
-      "es": "Material, interfaz de línea y envase requieren una revisión conjunta. El gráfico genérico no representa la feria ni los equipos de los colaboradores."
+      "en": "A paper overwrap fold around a carton on a generic workbench.",
+      "zh": "通用工作台上，外包裹纸沿纸盒端部折叠。",
+      "es": "Pliegue de papel de envoltura alrededor de una caja de cartón en una mesa de trabajo genérica."
     }
   },
   "eventDate": "2026-10-21",

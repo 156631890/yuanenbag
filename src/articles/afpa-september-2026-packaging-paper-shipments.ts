@@ -195,17 +195,17 @@ const article: EditorialArticle = {
     }
   ],
   "image": {
-    "file": "images/editorial/2026-10-31/monthly-ytd-comparison-windows.webp",
+    "file": "images/editorial/2026-11-06-news-cover-revisions/kraft-packaging-paper-sheets-and-bag.webp",
     "kind": "illustration",
     "alt": {
-      "en": "Two twelve-cell calendar grids highlight September alone on the left and January through September on the right",
-      "zh": "两个十二格日历，左侧仅高亮9月，右侧高亮1至9月",
-      "es": "Dos cuadrículas de doce meses resaltan solo septiembre a la izquierda y enero a septiembre a la derecha"
+      "en": "Brown packaging paper sheets and a folded kraft paper bag on a blue-gray table.",
+      "zh": "蓝灰色台面上的棕色包装纸片与折好的牛皮纸袋。",
+      "es": "Hojas de papel de embalaje marrón y una bolsa de papel kraft plegada sobre una mesa gris azulada."
     },
     "caption": {
-      "en": "Separate comparison windows: one month and nine months. The diagram shows periods, not shipment quantities or price trends.",
-      "zh": "分别比较单月与九个月；图中表示时间范围，不表示出货数量或价格走势。",
-      "es": "Periodos distintos: un mes y nueve meses. El diagrama representa periodos, no cantidades enviadas ni tendencias de precios."
+      "en": "Packaging paper sheets and a plain kraft bag show the material in sheet and finished forms.",
+      "zh": "包装纸片与素面牛皮纸袋展示纸材的片材与成品形态。",
+      "es": "Las hojas de papel de embalaje y la bolsa kraft lisa muestran el material en lámina y como envase terminado."
     }
   }
 }

@@ -9,6 +9,12 @@ for (const { source, file, left, top, width, height } of Object.values(crops)) {
 }
 const standardized = JSON.parse(await readFile('src/standardized-product-images.json', 'utf8'))
 const sources = [...new Set([
+  "images/editorial/2026-11-06-news-cover-revisions/paperboard-canister-rim-and-lid.webp",
+  "images/editorial/2026-11-06-news-cover-revisions/vented-produce-crate-at-sorting-bench.webp",
+  "images/editorial/2026-11-06-news-cover-revisions/fiber-meal-tray-and-clear-lidding-film.webp",
+  "images/editorial/2026-11-06-news-cover-revisions/kraft-paper-overwrap-carton-fold.webp",
+  "images/editorial/2026-11-06-news-cover-revisions/kraft-packaging-paper-sheets-and-bag.webp",
+  "images/editorial/2026-11-06-news-cover-revisions/transparent-film-over-cucumber.webp",
   "images/editorial/2026-11-06-guide-cover-revisions/ibc-cover-cap-valve-access-layout.webp",
   "images/editorial/2026-11-06-guide-cover-revisions/packaging-film-puncture-report-probe-scope.webp",
   "images/editorial/2026-11-06-guide-cover-revisions/insulated-pallet-cover-overhang-installation-clearance.webp",
