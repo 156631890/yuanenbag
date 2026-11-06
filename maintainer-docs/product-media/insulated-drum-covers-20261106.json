@@ -1,0 +1,128 @@
+{
+  "productId": "NP17",
+  "date": "2026-11-06",
+  "status": "draft_pending_review",
+  "tool": "built-in image_gen",
+  "backgroundTarget": "#F6F6F4",
+  "references": [
+    {
+      "path": "public/images/factory/2026/taizhou-materials.webp",
+      "sha256": "ec8946ae0e8803819d490fe92f91ac702729082aaafc6d4c1b9cced65595f2ff",
+      "supports": "Original YUANEN material handling and reflective laminate texture only. No finished drum-cover or performance proof."
+    },
+    {
+      "path": "public/images/factory/2026/customization-insulation-processing.webp",
+      "sha256": "822eab143f73d53902a95ad7cc3e0242ee63dcbfad17589eced5e60a3ad88724",
+      "supports": "Original YUANEN material handling and reflective laminate texture only. No finished drum-cover or performance proof."
+    }
+  ],
+  "externalStructureSources": [
+    "https://www.flux-pumps.co.uk/product/drum-insulation-cover-200l/",
+    "https://www.rimatek.com/en/products/heaters-for-drums-and-bins/insulating-blanket-for-drums",
+    "https://mettcover.com/insulated-drum-covers-to-maintain-the-temperatures-during-shipping/"
+  ],
+  "images": [
+    {
+      "n": 1,
+      "path": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-70cb8235-83d8-419a-9ab6-7d5974a58fd0.png",
+      "prompt": "Use case product-mockup. Make ONE square photorealistic industrial B2B catalogue photograph of a fitted passive round steel drum insulation cover. Design: one dark navy-blue cylindrical closed-head steel industrial drum on the floor, proportions height about 1.5 times diameter, the drum is only a prop. Flexible silver reflective laminate sleeve follows the entire round cylindrical side from just below the top rim to slightly above the bottom rolled chime, navy blue narrow base rim remains visible. One straight black bound vertical overlapping seam on the front, secured by exactly two SHORT horizontal black hook-and-loop tabs across that seam, each tab about a hand width and well separated vertically. No circumferential bands. A separate circular silver insulated cap fits on top, flat circular top with thin flexible silver skirt and fine black bound hem, covering the drum's steel top completely. No handles anywhere. No electric wire, electronics, heater, tubing, no cage, no pallet, no text. Real reflective foil shallow crinkles and fine slightly pebbled metal surface, not mirror, quilt, cloth, stitched diamonds or heavy padding. Camera slightly elevated three-quarter view, entire item centered, 12 percent margin on all sides, object occupies ~76% height. Clean seamless #F6F6F4 studio floor and backdrop, gentle real contact shadow, soft neutral daylight, ordinary accurate product photography. The two parts are a cylindrical side wrap plus a distinct low circular lid; simple manufacturable edge binding. No extra objects, watermarks, branding or measurement markings.",
+      "file": "public/images/products/standardized/insulated-drum-covers/01.webp",
+      "sha256": "c94ddd918f3e632aa11e77a0fb4927ca15de5c231c4c3c09310a72a9bf1a4f66",
+      "sourceSha256": "05bdc3c8197a32988226ba41c4a5df7f8e22156820bb6b05cecaa9fc519a9334",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "visualReview": "Fitted circular cap, two closure tabs, free blue base rim.",
+      "rights": "Built-in image_gen output. No external artwork or trademark reused."
+    },
+    {
+      "n": 2,
+      "path": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-1c325e16-57be-41ea-8752-dce696c015a1.png",
+      "prompt": "Use case product-mockup. One square catalogue photo of the SAME custom round industrial drum insulating cover as the supplied reference, preserving silver finely textured flexible foil, thin black hem, two short black hook-and-loop tabs and navy painted closed-head steel drum with rolled rims. Pale #F6F6F4 seamless backdrop, soft diffuse natural studio lighting, neutral colours, adequate space all around, no logos, text, electrical hardware or plastic cage. No change of materials or drum colour. Show the side wrap installed and two tabs closed, remove ONLY the separate circular insulated cap and lay it flat on floor to the right, entire cap fully within frame. Raised camera looks clearly onto the fixed navy steel drum head with exactly two unequal flush CLOSED threaded bung plugs at opposite sides. The drum head itself is not removed, no exposed liquid or holes. Same bottom rim visible.",
+      "file": "public/images/products/standardized/insulated-drum-covers/02.webp",
+      "sha256": "8fdcef52feb83b654202673b77465b2f8eeaeae71f5465c754a05f55ed36850b",
+      "sourceSha256": "1b4758a689956ff58685eecd15d2d6fb95f390f275e5ac1381fa708523f74e9f",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "visualReview": "Matching separate cap, two closed bungs, side wrap stays in place.",
+      "rights": "Built-in image_gen output. No external artwork or trademark reused."
+    },
+    {
+      "n": 3,
+      "path": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-1a37b980-624a-4ba7-aa20-794ed0d97c61.png",
+      "prompt": "Use case product-mockup. One square catalogue photo of the SAME custom round industrial drum insulating cover as the supplied reference, preserving silver finely textured flexible foil, thin black hem, two short black hook-and-loop tabs and navy painted closed-head steel drum with rolled rims. Pale #F6F6F4 seamless backdrop, soft diffuse natural studio lighting, neutral colours, adequate space all around, no logos, text, electrical hardware or plastic cage. No change of materials or drum colour. Show the same navy drum with its cap fitted. Open the two short tabs and peel the vertical overlap of the silver side wrap outward modestly at the front, revealing a narrow vertical strip of navy drum and the mate surfaces of the black tabs. It must read as one flexible wrap still held around the back, with no added panels and no hidden second sleeve under it. Show entire item.",
+      "rejected": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-4c15ce3c-a851-437f-9bab-bbefa0a82efb.png",
+      "correctionPrompt": "Make a surgical correction to image 1, the slightly open side wrap. Image 2 shows the exact underlying navy drum, which has TWO widely separated rolling hoops between top and bottom chimes. Remove ONLY the middle horizontal blue rib visible through the open vertical slit of image 1, so exactly two evenly spaced raised ribs remain on the blue drum wall. Preserve silver cap fitted, both black short tabs opened at the black vertical bound overlap, original proportions, lighting, camera, square image and pale background. Do not add other parts or edit the silver wrap.",
+      "file": "public/images/products/standardized/insulated-drum-covers/03.webp",
+      "sha256": "6953802b3ec40bf51be14f1ca6a7b41eecdf0a99a8cdadcc2010e912a1aeb769",
+      "sourceSha256": "97e3ae34b5957ab14c05b54a8916a8c55ac30551a628a7b8e81a82ed70187064",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "visualReview": "Open side overlap and two short tabs, two visible drum hoops.",
+      "rights": "Built-in image_gen output. No external artwork or trademark reused."
+    },
+    {
+      "n": 4,
+      "path": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-5ec69765-cccd-49ae-a0c5-c309aef52323.png",
+      "prompt": "Use case product-mockup. One square catalogue photo of the SAME custom round industrial drum insulating cover as the supplied reference, preserving silver finely textured flexible foil, thin black hem, two short black hook-and-loop tabs and navy painted closed-head steel drum with rolled rims. Pale #F6F6F4 seamless backdrop, soft diffuse natural studio lighting, neutral colours, adequate space all around, no logos, text, electrical hardware or plastic cage. No change of materials or drum colour. Macro procurement detail of the installed same cover's upper short black hook-and-loop tab lifted gently at the bound vertical overlapping seam. Show that one end is sewn to its wrap edge and opposite end mates flat against a small black patch, believable woven tab and matte thin black stitched binding, fine reflective laminated silver panel with small crinkles. Frame just the seam and tab, no extra tabs, buckle or hardware.",
+      "file": "public/images/products/standardized/insulated-drum-covers/04.webp",
+      "sha256": "8041294160e793d00e412b20b5a4efecf0fd5fe4383da8d3061e1c7d4964c662",
+      "sourceSha256": "21ba137f99d15dd20c3ee1fabc8ce0aa951632de1684fd8d3efe856cc5884d5c",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "visualReview": "Attached black tab, mating patch and bound overlap.",
+      "rights": "Built-in image_gen output. No external artwork or trademark reused."
+    },
+    {
+      "n": 5,
+      "path": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-6ee38c72-7a13-4c39-975b-3053537db685.png",
+      "prompt": "Use case product-mockup. One square catalogue photo of the SAME custom round industrial drum insulating cover as the supplied reference, preserving silver finely textured flexible foil, thin black hem, two short black hook-and-loop tabs and navy painted closed-head steel drum with rolled rims. Pale #F6F6F4 seamless backdrop, soft diffuse natural studio lighting, neutral colours, adequate space all around, no logos, text, electrical hardware or plastic cage. No change of materials or drum colour. Show just the exact same underlying navy closed-head steel drum without any insulation mounted, upright, top and bottom chimes and two rolling hoops visible. Place removed matching silver round cap flat beside it, and matching side wrap loosely folded behind the cap. Three-quarter nearly front view, complete drum silhouette to understand outside diameter at widest hoop and height from base to top. No measuring tape, labels, graphics or numerical dimensions.",
+      "rejected": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-0006476f-7b9e-4202-b911-f049fc7eea63.png",
+      "correctionPrompt": "Correct the measurement-reference photo in image 1. Image 2 is identity reference for the exact same navy industrial tight-head drum with exactly TWO closed unequal bung plugs on opposite sides of the fixed head. Image 3 is the same drum side detail with THREE pressed horizontal rolling hoops. Preserve image 1's square studio composition with bare navy drum standing upright on the left, removed matching folded silver wrap and round skirted silver cap lying at right, black binding and two tabs. Fix only the drum: make the camera slightly higher to show both of its closed plugs, add the third evenly spaced rolling hoop, and keep the full top and bottom chimes in view. No labels, graphic arrows, invented dimensions, other objects or logos. Soft #F6F6F4 backdrop. Keep believable proportions and natural reflective texture.",
+      "file": "public/images/products/standardized/insulated-drum-covers/05.webp",
+      "sha256": "61cbc41ad57d79b3e6d015292a279c990e83b816e5a2dfabbe1ad19bbb914298",
+      "sourceSha256": "15a8aed393c073c61463520911509ffcca7306fa8919f08fb5990bd4f372b85f",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "visualReview": "Bare drum shows two bungs, two hoops and complete top and bottom measurement boundaries.",
+      "rights": "Built-in image_gen output. No external artwork or trademark reused."
+    },
+    {
+      "n": 6,
+      "path": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-56c3b67e-2031-41d7-8200-1b8fc91bcc00.png",
+      "prompt": "Use case product-mockup. One square catalogue photo of the SAME custom round industrial drum insulating cover as the supplied reference, preserving silver finely textured flexible foil, thin black hem, two short black hook-and-loop tabs and navy painted closed-head steel drum with rolled rims. Pale #F6F6F4 seamless backdrop, soft diffuse natural studio lighting, neutral colours, adequate space all around, no logos, text, electrical hardware or plastic cage. No change of materials or drum colour. Lower edge fitting detail of the SAME installed silver drum wrap. Crop deliberately to the lower half of the drum showing one lower short black tab crossing the vertical black binding, the bottom black bound edge ending immediately above the exposed navy blue rolled lower chime, and real contact shadow on neutral studio floor. Viewer can see side insulation ends above the drum's support surface, no silver panel under the drum.",
+      "file": "public/images/products/standardized/insulated-drum-covers/06.webp",
+      "sha256": "d255e2d8edbd0e08632d710502898bdb9fd83b32ee3c0ebf01c9abd5d9d52422",
+      "sourceSha256": "f50912071fe0db04d7f52c0f4e1bc100f04872dc826ccd8656197c13c9e69b7b",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "visualReview": "Bound lower edge above blue bottom chime, no material under the drum.",
+      "rights": "Built-in image_gen output. No external artwork or trademark reused."
+    },
+    {
+      "n": 7,
+      "path": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-4d7bad9b-ab27-417d-ba3b-a0043c3f6ecc.png",
+      "prompt": "Use case product-mockup. One square catalogue photo of the SAME custom round industrial drum insulating cover as the supplied reference, preserving silver finely textured flexible foil, thin black hem, two short black hook-and-loop tabs and navy painted closed-head steel drum with rolled rims. Pale #F6F6F4 seamless backdrop, soft diffuse natural studio lighting, neutral colours, adequate space all around, no logos, text, electrical hardware or plastic cage. No change of materials or drum colour. Removed kit only, no drum in frame. Lay the same thin silver side wrap loosely folded in wide layers on the studio floor with black bound edge and the two short black fastening tabs still visible. Place its separate round low-profile silver skirted cap flat alongside and fully visible. The side wrap is one rectangular flexible panel with straight edges when removed, not a bag, blanket quilt, cylindrical foam tube or stand. The circular cap is recognisably a shallow lid.",
+      "file": "public/images/products/standardized/insulated-drum-covers/07.webp",
+      "sha256": "8ee915b5c7cbad15f8cc09eb21b26f7516fcaa9c4c9b73c3a5e4db6c49709dcc",
+      "sourceSha256": "f776c81829047b7c1461f6341ec3c16e4a7e5d22f002d4d95e2b1cb2c178f41c",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "visualReview": "Folded wrap and same skirted cap, both independent parts.",
+      "rights": "Built-in image_gen output. No external artwork or trademark reused."
+    }
+  ]
+}

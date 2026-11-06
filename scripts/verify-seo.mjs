@@ -15,6 +15,7 @@ const membership=seoAudit.collections.flatMap(c=>seoAudit.collectionProducts(c).
 assert.equal(membership.length,catalogAudit.bags.length,'Every product needs one primary collection')
 assert.equal(new Set(membership.map(x=>x.slug)).size,catalogAudit.bags.length,'Duplicate or missing primary collection')
 for(const [slug,collection] of Object.entries({
+ 'insulated-drum-covers':'insulated-box-liners-pallet-covers',
  'insulated-ibc-covers':'insulated-box-liners-pallet-covers',
  'insulated-roll-cage-covers':'insulated-box-liners-pallet-covers',
  'foil-bubble-insulation-rolls':'insulation-rolls-sheets',

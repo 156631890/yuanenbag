@@ -38,4 +38,7 @@ export const BubbleRollSections = lazy(() => import('./BubbleRollSections'))
 
 export const CageCoverSections = lazy(() => import('./CageCoverSections'))
 
+export const DrumCoverSections = lazy(() => import('./DrumCoverSections'))
+export const DrumCoverPurchaseIntro = lazy(() => import('./DrumCoverSections').then(module => ({ default: module.DrumCoverPurchaseIntro })))
+export const DrumCoverConsiderations = lazy(() => import('./DrumCoverSections').then(module => ({ default: module.DrumCoverConsiderations })))
 export const IBCCoverSections = lazy(() => import('./IBCCoverSections'))

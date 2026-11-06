@@ -1,3 +1,4 @@
+import { drumCover, drumCoverImages } from './drum-cover-product'
 import { ibcCover, ibcCoverImages } from './ibc-cover-product'
 import { cageCover, cageCoverImages } from './cage-cover-product'
 import { bubbleRoll, bubbleRollImages } from './bubble-roll-product'
@@ -21,6 +22,7 @@ const sampleImage=(file:string):ProductImage=>({file,kind:isMeasurementPhoto(fil
 // Accepted product visualizations go here after comparison with the catalog source.
 export const productPresentations: Record<string, string> = {
  [insulationRoll.slug]:insulationRollImages[0].file,
+ [drumCover.slug]:drumCoverImages[0].file,
  [ibcCover.slug]:ibcCoverImages[0].file,
  [cageCover.slug]:cageCoverImages[0].file,
  [bubbleRoll.slug]:bubbleRollImages[0].file,
@@ -52,6 +54,7 @@ export const productPresentations: Record<string, string> = {
 }
 const detailImages = new Set(['404','405','407','446','449','450','451','495','496','497','498','534','538','539','540','541'])
 export function productImages(bag: Bag): ProductImage[] {
+ if(bag.slug===drumCover.slug)return drumCoverImages
  if(bag.slug===ibcCover.slug)return ibcCoverImages
  if(bag.slug===cageCover.slug)return cageCoverImages
  if(bag.slug===bubbleRoll.slug)return bubbleRollImages

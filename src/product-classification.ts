@@ -18,6 +18,7 @@ export const productMaterials = [
 ] as const
 // Product form, material and use are separate axes. New active products require an explicit entry.
 export const productClassifications:Record<string,{family:ProductFamily;material:string}> = {
+ "insulated-drum-covers":{family:"liners-covers",material:"foil-faced"},
  "insulated-ibc-covers":{family:"liners-covers",material:"foil-faced"},
  "insulated-roll-cage-covers":{family:"liners-covers",material:"foil-faced"},
  "epe-foam-foil-insulation-rolls":{family:"rolls",material:"foil-faced"},

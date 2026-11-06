@@ -35,4 +35,5 @@ export {default as BubbleRollSections} from './BubbleRollSections'
 
 export { default as CageCoverSections } from './CageCoverSections'
 
+export { default as DrumCoverSections, DrumCoverPurchaseIntro, DrumCoverConsiderations } from './DrumCoverSections'
 export { default as IBCCoverSections } from './IBCCoverSections'

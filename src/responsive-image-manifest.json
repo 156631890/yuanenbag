@@ -13525,6 +13525,244 @@
       }
     ]
   },
+  "images/products/standardized/insulated-drum-covers/01.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/3737ca5429c0-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/aa5f8feb3ebf-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/06b33cb7134c-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/44fd0b82c9b8-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/5d794164b414-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/bcf6acf09b9c-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/a14df7ab73f9-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-drum-covers/02.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/85d0c71e27bd-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/3c399c643d3e-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/230c8396d947-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/c77372af0a69-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/f814de1c0f3a-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/65e1aa05fb02-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/e9ec5d7b6821-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-drum-covers/03.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/74b107cd2b19-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/27257ac31717-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/acc0b28f88e5-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/30a6e9bbd1af-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/f0f2d471c3f9-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/1dd2c143455c-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/0cc67d3c82e4-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-drum-covers/04.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/a897ff0e991b-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/0fbbb29793ab-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/940fbd070254-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/b1d625e1e9e9-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/ef7a09ac8524-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/cd4f9b731c9a-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/887e714c8143-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-drum-covers/05.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/bfa9c4baa7b6-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/a0862a4e4224-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/f0ecbaaa7166-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/04be023e229f-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/ed7df214517c-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/f6d4259e3b5b-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/b1fcd372816a-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-drum-covers/06.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/693da23d02a4-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/e1dc11f9bc23-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/955bee111411-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/3cab0864460d-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/6fc5dada8d22-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/60a489260e0d-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/401388267e94-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-drum-covers/07.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/0e9fb93870f2-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/18f77ceb6c1c-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/461619924d89-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/9a19acb94d8a-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/8d92ed90a773-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/caf2979ff9f5-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/5b513ab636a6-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
   "images/products/standardized/insulated-ibc-covers/01.webp": {
     "width": 1200,
     "height": 1200,

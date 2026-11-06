@@ -29,7 +29,7 @@ for (const article of seoAudit.editorialArticles) {
 for (const file of imageCandidates) {
   assert(!entry.includes(file), 'The initial script must reuse page image attributes instead of embedding the global image manifest.')
 }
-const routeModules = ['src/IBCCoverSections.tsx','src/CageCoverSections.tsx','src/BubbleRollSections.tsx','src/PalletCoverSections.tsx','src/InsulationRollSections.tsx','src/CatalogBrowser.tsx','src/Enquiry.tsx','src/ProductSections.tsx','src/SelectionGuide.tsx']
+const routeModules = ['src/DrumCoverSections.tsx','src/IBCCoverSections.tsx','src/CageCoverSections.tsx','src/BubbleRollSections.tsx','src/PalletCoverSections.tsx','src/InsulationRollSections.tsx','src/CatalogBrowser.tsx','src/Enquiry.tsx','src/ProductSections.tsx','src/SelectionGuide.tsx']
 for (const key of routeModules) {
   assert(manifest[key]?.isDynamicEntry, `Missing separate page module: ${key}`)
   assert.notEqual(manifest[key].file, manifest['index.html'].file)
@@ -64,6 +64,7 @@ for (const path of [...paths,...notFoundPaths]) {
   }
   const needed = path.endsWith('/products/') ? 'src/CatalogBrowser.tsx'
     : path.endsWith('/products/insulated-pallet-covers/') ? 'src/PalletCoverSections.tsx'
+    : path.endsWith('/products/insulated-drum-covers/') ? 'src/DrumCoverSections.tsx'
     : path.endsWith('/products/insulated-ibc-covers/') ? 'src/IBCCoverSections.tsx'
     : path.endsWith('/products/insulated-roll-cage-covers/') ? 'src/CageCoverSections.tsx'
     : path.endsWith('/products/foil-bubble-insulation-rolls/') ? 'src/BubbleRollSections.tsx'
