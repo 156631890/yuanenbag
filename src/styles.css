@@ -70,7 +70,7 @@
 /* Shared customer logos: preserve brand artwork, aspect ratio and clear space; user-approved monochrome presentation. */
 .customer-brand-list{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));align-items:center;gap:24px;flex:1;min-width:0;list-style:none;margin:0;padding:0}
 .customer-brand{display:flex;justify-content:center;align-items:center;min-width:0;min-height:88px;padding:16px 12px}
-.customer-brand img{display:block;width:170px;max-width:100%;height:auto;max-height:56px;object-fit:contain;filter:grayscale(1) contrast(1000%)}
+.customer-brand img{display:block;width:170px;max-width:100%;height:auto;max-height:56px;object-fit:contain;filter:grayscale(1)}
 .customer-brand--walmart img{width:154px}
 .customer-brand--yonghui img{width:190px}
 .customer-brand--haidilao img{width:138px}

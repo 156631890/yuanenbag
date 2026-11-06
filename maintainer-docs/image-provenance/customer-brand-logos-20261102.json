@@ -32,6 +32,6 @@
   "presentationUpdate": {
     "date": "2026-11-02",
     "userRequest": "尽量使用黑色的LOGO，不要带颜色的。LOGO需要精美",
-    "treatment": "CSS grayscale plus contrast for monochrome presentation; preserve white interior details and transparency, retain originals unchanged. Optical width adjustment for Walmart and Yonghui."
+    "treatment": "Updated 2026-11-06: CSS grayscale only for monochrome presentation. Removed 1000% contrast because it amplified rasterized edge transitions and caused jagged outlines. Preserve white interior details, transparency, original artwork and existing optical widths."
   }
 }
