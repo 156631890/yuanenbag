@@ -86,17 +86,17 @@ const article: EditorialArticle = {
     "insulated-pallet-covers"
   ],
   "image": {
-    "file": "images/editorial/2026-11-05/pallet-load-width-overhead-clearance.webp",
+    "file": "images/editorial/2026-11-06-guide-cover-revisions/insulated-pallet-cover-overhang-installation-clearance.webp",
     "kind": "illustration",
     "alt": {
-      "en": "Stacked cartons on a pallet beneath a beam, with horizontal and vertical clearance arrows.",
-      "zh": "堆叠纸箱放在横梁下方的托盘上，图中有水平和竖直方向的箭头。",
-      "es": "Cajas apiladas en un palé bajo una viga, con flechas de holgura horizontal y vertical."
+      "en": "Silver insulated cover fitted over a pallet load below a rack beam, with the pallet openings visible.",
+      "zh": "银色保温罩罩住货垛，货架横梁位于上方，托盘叉孔可见。",
+      "es": "Funda térmica plateada sobre una carga paletizada bajo una viga de estantería, con los huecos del palé visibles."
     },
     "caption": {
-      "en": "The widest point of the load and the free space above it are separate measurements for a fitting trial.",
-      "zh": "试装前分别量取货垛最宽处和上方可用空间。",
-      "es": "El ancho máximo de la carga y el espacio libre superior son medidas distintas para la prueba de montaje."
+      "en": "Check the working space above the covered load and keep the pallet openings clear.",
+      "zh": "核对罩体上方的安装空间，并给托盘叉孔留空。",
+      "es": "Compruebe el espacio de montaje sobre la carga cubierta y deje libres los huecos del palé."
     }
   }
 }

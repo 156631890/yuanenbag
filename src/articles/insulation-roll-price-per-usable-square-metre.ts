@@ -118,17 +118,17 @@ const article: EditorialArticle = {
     "foil-bubble-insulation-rolls"
   ],
   "image": {
-    "file": "images/editorial/2026-11-05/usable-roll-area-price-basis.webp",
+    "file": "images/editorial/2026-11-06-guide-cover-revisions/insulation-roll-price-per-usable-square-metre.webp",
     "kind": "illustration",
     "alt": {
-      "en": "A rectangular strip shows two narrow edge bands, an inner usable area and perpendicular width and length arrows.",
-      "zh": "矩形条带上展示两条窄边部、内部可用区域和互相垂直的幅宽与长度箭头。",
-      "es": "Una banda rectangular muestra dos franjas de borde, un área útil interior y flechas perpendiculares de anchura y longitud."
+      "en": "Reflective bubble roll partly unwound on a workbench, with two blue strips inside its side edges.",
+      "zh": "反光气泡卷材在台面展开，两条蓝色胶带分别贴在两侧边缘内侧。",
+      "es": "Rollo reflectante de burbujas parcialmente extendido sobre una mesa, con dos tiras azules dentro de los bordes laterales."
     },
     "caption": {
-      "en": "A conceptual area diagram distinguishes full width from agreed usable width. It gives no product dimensions, trim allowance or price.",
-      "zh": "概念面积图区分整幅宽度与约定可用幅宽，不表示产品尺寸、修边余量或价格。",
-      "es": "El diagrama conceptual distingue anchura total y anchura útil acordada; no indica medidas, recorte ni precio de un producto."
+      "en": "The two strips mark an example usable width inside the full roll width.",
+      "zh": "两条胶带在整幅卷材内标出一段示例可用幅宽。",
+      "es": "Las dos tiras señalan un ejemplo de ancho útil dentro del ancho total."
     }
   }
 }

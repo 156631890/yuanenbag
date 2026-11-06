@@ -151,17 +151,17 @@ const article: EditorialArticle = {
     "self-seal-non-woven-delivery-bags"
   ],
   "image": {
-    "file": "images/editorial/2026-11-04/code-file-url-mobile-destination.webp",
+    "file": "images/editorial/2026-11-06-guide-cover-revisions/packaging-qr-destination-approval.webp",
     "kind": "illustration",
     "alt": {
-      "en": "A code-file card links to a URL card and a mobile page with EN ZH ES tabs",
-      "zh": "码文件资料卡连接网址资料卡及带EN、ZH、ES页签的手机页面",
-      "es": "Una ficha de código conecta con una URL y una página móvil con pestañas EN ZH ES"
+      "en": "A phone camera points toward a blurred code proof on the front of a beige delivery bag.",
+      "zh": "手机摄像头朝向米色外卖袋正面经过模糊处理的码样。",
+      "es": "La cámara de un teléfono apunta a una prueba de código desenfocada en la cara de una bolsa beige de reparto."
     },
     "caption": {
-      "en": "Match the code file, encoded address and actual destination. Link symbols are conceptual and cannot be scanned.",
-      "zh": "对应码文件、编码网址和实际目标页面。链条符号仅表达关系，不是可扫描二维码。",
-      "es": "Vincule archivo, dirección codificada y destino real. Los símbolos de enlace son conceptuales y no se escanean."
+      "en": "Check the printed proof on the intended bag with a phone. The pictured code is illustrative.",
+      "zh": "用手机核对拟用袋面上的印样。画面中的码样仅用于展示位置。",
+      "es": "Compruebe con un teléfono la prueba impresa en la bolsa prevista. El código de la imagen es ilustrativo."
     }
   }
 }

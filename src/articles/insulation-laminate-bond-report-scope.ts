@@ -130,17 +130,17 @@ const article: EditorialArticle = {
     "foil-bubble-insulation-rolls"
   ],
   "image": {
-    "file": "images/editorial/2026-11-05/laminate-report-identity-method-result.webp",
+    "file": "images/editorial/2026-11-06-guide-cover-revisions/insulation-laminate-bond-report-scope.webp",
     "kind": "illustration",
     "alt": {
-      "en": "A layered sample icon connects to three document cards showing layers, a test arrangement and blank result fields.",
-      "zh": "分层样品图形连接三张资料卡，分别呈现层次、测试构型和空白结果栏。",
-      "es": "Un icono de muestra en capas se conecta a tres fichas con capas, configuración de ensayo y campos de resultado vacíos."
+      "en": "A silver-faced foam swatch with its white cut edge visible beside a plain white foam swatch.",
+      "zh": "反光面泡沫样片露出白色切边，旁边放着一块白色泡沫样片。",
+      "es": "Muestra de espuma con cara reflectante y borde blanco visible junto a una muestra de espuma blanca."
     },
     "caption": {
-      "en": "A conceptual evidence map links a sample to construction, method and result records; no measured data or test outcome is shown.",
-      "zh": "概念证据图将样品与结构、方法和结果记录关联，不展示测量数据或试验结果。",
-      "es": "Mapa conceptual de muestra, construcción, método y resultado; no muestra datos medidos ni resultados de ensayo."
+      "en": "Identify which layers were present in the specimen before interpreting a bond result.",
+      "zh": "解读粘接结果前，先核对送检试样包含哪些层。",
+      "es": "Identifique las capas presentes en la probeta antes de interpretar el resultado de adhesión."
     }
   }
 }

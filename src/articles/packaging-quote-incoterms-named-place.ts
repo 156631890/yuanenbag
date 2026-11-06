@@ -126,17 +126,17 @@ const article: EditorialArticle = {
     "foil-bubble-insulation-rolls"
   ],
   "image": {
-    "file": "images/editorial/2026-11-05/packaging-delivery-point-unloading.webp",
+    "file": "images/editorial/2026-11-06-guide-cover-revisions/packaging-quote-incoterms-named-place.webp",
     "kind": "illustration",
     "alt": {
-      "en": "A truck beside a warehouse connects to a location pin, an appointment calendar and a separate unloading pallet-jack icon.",
-      "zh": "仓库旁的货车与定位图标、预约日历及单独的托盘车卸货图形相连接。",
-      "es": "Un camión junto a un almacén se conecta a un pin de ubicación, un calendario y un icono separado de descarga con transpaleta."
+      "en": "Closed cartons on a wooden pallet in front of an open receiving door, with a truck parked in the background.",
+      "zh": "封好的纸箱码在收货门前的木托盘上，背景停着一辆货车。",
+      "es": "Cajas cerradas sobre un palé de madera frente a una puerta de recepción abierta, con un camión estacionado al fondo."
     },
     "caption": {
-      "en": "A generic receiving-plan diagram separates location, appointment and unloading arrangements. It depicts no actual shipment or agreed trade term.",
-      "zh": "通用收货安排图区分地点、预约和卸货安排，不代表实际发运或已约定的贸易条件。",
-      "es": "Diagrama genérico de ubicación, cita y descarga; no representa un envío real ni una condición comercial acordada."
+      "en": "A receiving door is an example of a delivery point that can be specified in the quotation.",
+      "zh": "收货门是可写入报价的具体交货点示例。",
+      "es": "Una puerta de recepción es un ejemplo de punto de entrega que puede precisarse en la oferta."
     }
   }
 }

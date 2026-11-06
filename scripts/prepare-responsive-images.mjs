@@ -9,6 +9,21 @@ for (const { source, file, left, top, width, height } of Object.values(crops)) {
 }
 const standardized = JSON.parse(await readFile('src/standardized-product-images.json', 'utf8'))
 const sources = [...new Set([
+  "images/editorial/2026-11-06-guide-cover-revisions/ibc-cover-cap-valve-access-layout.webp",
+  "images/editorial/2026-11-06-guide-cover-revisions/packaging-film-puncture-report-probe-scope.webp",
+  "images/editorial/2026-11-06-guide-cover-revisions/insulated-pallet-cover-overhang-installation-clearance.webp",
+  "images/editorial/2026-11-06-guide-cover-revisions/insulation-laminate-bond-report-scope.webp",
+  "images/editorial/2026-11-06-guide-cover-revisions/insulation-roll-price-per-usable-square-metre.webp",
+  "images/editorial/2026-11-06-guide-cover-revisions/packaging-quote-incoterms-named-place.webp",
+  "images/editorial/2026-11-06-guide-cover-revisions/roll-cage-cover-curtain-gate-access-trial.webp",
+  "images/editorial/2026-11-06-guide-cover-revisions/custom-bag-artwork-file-handoff.webp",
+  "images/editorial/2026-11-06-guide-cover-revisions/foam-core-total-laminate-thickness.webp",
+  "images/editorial/2026-11-06-guide-cover-revisions/insulation-roll-core-bore-finished-diameter.webp",
+  "images/editorial/2026-11-06-guide-cover-revisions/insulation-roll-splice-acceptance.webp",
+  "images/editorial/2026-11-06-guide-cover-revisions/packaging-qr-destination-approval.webp",
+  "images/editorial/2026-11-06-guide-cover-revisions/tote-handle-drop-measurement-reference.webp",
+  "images/editorial/2026-11-06-guide-cover-revisions/insulated-bag-thermal-report-comparison.webp",
+  "images/editorial/2026-11-06-guide-cover-revisions/nonwoven-basis-weight-thickness-bag-mass.webp",
   "images/editorial/2026-11-06/film-probe-and-dart.webp",
   "images/editorial/2026-11-06/ibc-cap-valve-access-reference.webp",
   "images/editorial/2026-11-05/roll-cage-curtain-gate-carton-sequence.webp",

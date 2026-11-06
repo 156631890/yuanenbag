@@ -91,17 +91,17 @@ const article: EditorialArticle = {
     "insulated-ibc-covers"
   ],
   "image": {
-    "file": "images/editorial/2026-11-06/ibc-cap-valve-access-reference.webp",
+    "file": "images/editorial/2026-11-06-guide-cover-revisions/ibc-cover-cap-valve-access-layout.webp",
     "kind": "illustration",
     "alt": {
-      "en": "A top view with a dashed ring around a cap and a front view with a dashed box around a valve above a deck line.",
-      "zh": "俯视图用虚线环围住桶盖，正视图用虚线框围住托盘基准线上方的阀门。",
-      "es": "Vista en planta con un anillo discontinuo alrededor de una tapa y vista frontal con un recuadro discontinuo alrededor de una válvula sobre la línea del palé."
+      "en": "Silver-covered IBC tank with open top and lower flaps revealing the cap and outlet valve.",
+      "zh": "银色保温罩的顶盖片和下方盖片打开，露出 IBC 桶盖和出料阀。",
+      "es": "Depósito IBC con funda plateada y solapas superior e inferior abiertas, con tapa y válvula a la vista."
     },
     "caption": {
-      "en": "Record the fitting centre and the surrounding access envelope separately. The deck is the reference for valve height.",
-      "zh": "接口中心和周边操作范围分别记录，阀门高度以托盘面为基准。",
-      "es": "Registre por separado el centro y el espacio de acceso. La plataforma es la referencia para la altura de la válvula."
+      "en": "Check the top cap and lower valve openings separately on the fitted cover.",
+      "zh": "保温罩套好后，分别检查顶部桶盖口和下方阀门口。",
+      "es": "Compruebe por separado las aberturas de tapa y válvula con la funda colocada."
     }
   }
 }

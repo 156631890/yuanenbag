@@ -151,17 +151,17 @@ const article: EditorialArticle = {
     "foil-bubble-insulation-rolls"
   ],
   "image": {
-    "file": "images/editorial/2026-11-04/insulation-roll-splice-cut-layout.webp",
+    "file": "images/editorial/2026-11-06-guide-cover-revisions/insulation-roll-splice-acceptance.webp",
     "kind": "illustration",
     "alt": {
-      "en": "A schematic strip has one orange transverse joint, a blue edge flag and three dashed cutting outlines.",
-      "zh": "示意条带上有一处橙色横向接头、蓝色边缘标识和三个虚线裁切轮廓。",
-      "es": "Una banda esquemática muestra una junta transversal naranja, una señal azul en el borde y tres contornos de corte discontinuos."
+      "en": "A single blue strip crosses a silver-faced foam web unrolled on a wooden bench.",
+      "zh": "银面泡沫卷材展开在木台面上，一条蓝色标记横过卷材。",
+      "es": "Una tira azul cruza una lámina de espuma con cara plateada extendida sobre una mesa de madera."
     },
     "caption": {
-      "en": "A conceptual cut layout separates joint position from its marker. It specifies no actual joining material, dimensions or accepted product construction.",
-      "zh": "概念裁切排布图区分接头位置与标识，不代表实际连接材料、尺寸或已获批准的产品结构。",
-      "es": "El trazado conceptual distingue la posición de la junta de su señal. No especifica materiales de unión, medidas ni una construcción aprobada."
+      "en": "The transverse strip illustrates a possible splice marker. Agree the actual marking method on the order.",
+      "zh": "横向胶带展示一种接头标记方式，实际标记方法以订单约定为准。",
+      "es": "La tira transversal ilustra una posible marca de empalme. Acuerde en el pedido cómo se marcará."
     }
   }
 }

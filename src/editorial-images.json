@@ -152,11 +152,11 @@
     }
   },
   "custom-bag-artwork-file-handoff": {
-    "file": "images/editorial/2026-11-04/artwork-source-preview-layout.webp",
+    "file": "images/editorial/2026-11-06-guide-cover-revisions/custom-bag-artwork-file-handoff.webp",
     "alt": {
-      "en": "Source and preview document cards point to a separate print-layout card",
-      "zh": "源文件与预览资料卡分别指向印刷版面资料卡",
-      "es": "Fichas de original y vista previa apuntan a una ficha de distribución"
+      "en": "A loose paper proof with a teal shape rests on the front of a beige handled delivery bag.",
+      "zh": "一张带青绿色图形的纸质印样放在米色手提外卖袋的袋面上。",
+      "es": "Una prueba suelta en papel con una figura verde azulada descansa sobre una bolsa beige de reparto con asas."
     }
   },
   "custom-insulated-bag-order-timeline-gates": {
@@ -264,11 +264,11 @@
     }
   },
   "foam-core-total-laminate-thickness": {
-    "file": "images/editorial/2026-11-04/foam-core-total-thickness-scope.webp",
+    "file": "images/editorial/2026-11-06-guide-cover-revisions/foam-core-total-laminate-thickness.webp",
     "alt": {
-      "en": "Two symbolic layer sections show a foam-only arrow and an outside-to-outside laminate arrow beside a method record",
-      "zh": "两个概念层次剖面分别标出仅泡沫厚度和外表面至外表面总厚，旁有测法记录",
-      "es": "Dos secciones conceptuales muestran flechas de espuma sola y laminado completo junto a una ficha de método"
+      "en": "Flat measuring pads straddle the silver face and white underside of a foam laminate swatch.",
+      "zh": "测厚工具的平压脚分别接触泡沫复合样片的银色面和白色底面。",
+      "es": "Los palpadores planos abarcan la cara plateada y la cara inferior blanca de una muestra de laminado de espuma."
     }
   },
   "foil-mailer-outer-carton-checklist": {
@@ -344,11 +344,11 @@
     }
   },
   "ibc-cover-cap-valve-access-layout": {
-    "file": "images/editorial/2026-11-06/ibc-cap-valve-access-reference.webp",
+    "file": "images/editorial/2026-11-06-guide-cover-revisions/ibc-cover-cap-valve-access-layout.webp",
     "alt": {
-      "en": "A top view with a dashed ring around a cap and a front view with a dashed box around a valve above a deck line.",
-      "zh": "俯视图用虚线环围住桶盖，正视图用虚线框围住托盘基准线上方的阀门。",
-      "es": "Vista en planta con un anillo discontinuo alrededor de una tapa y vista frontal con un recuadro discontinuo alrededor de una válvula sobre la línea del palé."
+      "en": "Silver-covered IBC tank with open top and lower flaps revealing the cap and outlet valve.",
+      "zh": "银色保温罩的顶盖片和下方盖片打开，露出 IBC 桶盖和出料阀。",
+      "es": "Depósito IBC con funda plateada y solapas superior e inferior abiertas, con tapa y válvula a la vista."
     }
   },
   "ice-pack-delivery-state-quotation": {
@@ -432,11 +432,11 @@
     }
   },
   "insulated-bag-thermal-report-comparison": {
-    "file": "images/editorial/2026-10-31/two-report-condition-comparison.webp",
+    "file": "images/editorial/2026-11-06-guide-cover-revisions/insulated-bag-thermal-report-comparison.webp",
     "alt": {
-      "en": "Two blank forms labelled A and B align sample, pack-out, coolant, exposure and sensor fields with question marks",
-      "zh": "A、B两张空白表将样品、装载、冷媒、环境与测点字段逐行对齐，中间标有问号",
-      "es": "Dos formularios vacíos A y B alinean campos de muestra, carga, refrigerante, exposición y sensores mediante interrogantes"
+      "en": "Open navy catering bag holding a lidded tray, with a separate coolant pouch on the bench.",
+      "zh": "深蓝色前开保温包内放有盖餐盘，台面另放一只冷媒袋。",
+      "es": "Bolsa térmica de catering azul abierta con una bandeja tapada y un acumulador aparte sobre la mesa."
     }
   },
   "insulated-material-environmental-claim-evidence": {
@@ -472,11 +472,11 @@
     }
   },
   "insulated-pallet-cover-overhang-installation-clearance": {
-    "file": "images/editorial/2026-11-05/pallet-load-width-overhead-clearance.webp",
+    "file": "images/editorial/2026-11-06-guide-cover-revisions/insulated-pallet-cover-overhang-installation-clearance.webp",
     "alt": {
-      "en": "Stacked cartons on a pallet beneath a beam, with horizontal and vertical clearance arrows.",
-      "zh": "堆叠纸箱放在横梁下方的托盘上，图中有水平和竖直方向的箭头。",
-      "es": "Cajas apiladas en un palé bajo una viga, con flechas de holgura horizontal y vertical."
+      "en": "Silver insulated cover fitted over a pallet load below a rack beam, with the pallet openings visible.",
+      "zh": "银色保温罩罩住货垛，货架横梁位于上方，托盘叉孔可见。",
+      "es": "Funda térmica plateada sobre una carga paletizada bajo una viga de estantería, con los huecos del palé visibles."
     }
   },
   "insulated-parcel-shipping-dimensions-quote": {
@@ -504,35 +504,35 @@
     }
   },
   "insulation-laminate-bond-report-scope": {
-    "file": "images/editorial/2026-11-05/laminate-report-identity-method-result.webp",
+    "file": "images/editorial/2026-11-06-guide-cover-revisions/insulation-laminate-bond-report-scope.webp",
     "alt": {
-      "en": "A layered sample icon connects to three document cards showing layers, a test arrangement and blank result fields.",
-      "zh": "分层样品图形连接三张资料卡，分别呈现层次、测试构型和空白结果栏。",
-      "es": "Un icono de muestra en capas se conecta a tres fichas con capas, configuración de ensayo y campos de resultado vacíos."
+      "en": "A silver-faced foam swatch with its white cut edge visible beside a plain white foam swatch.",
+      "zh": "反光面泡沫样片露出白色切边，旁边放着一块白色泡沫样片。",
+      "es": "Muestra de espuma con cara reflectante y borde blanco visible junto a una muestra de espuma blanca."
     }
   },
   "insulation-roll-core-bore-finished-diameter": {
-    "file": "images/editorial/2026-11-04/roll-bore-diameter-width.webp",
+    "file": "images/editorial/2026-11-06-guide-cover-revisions/insulation-roll-core-bore-finished-diameter.webp",
     "alt": {
-      "en": "Roll end and side diagrams distinguish central bore A, complete roll diameter B and width C",
-      "zh": "卷材端面及侧面图区分中心芯孔A、整卷直径B与幅宽C",
-      "es": "Vistas de extremo y lateral distinguen hueco A, diámetro completo B y ancho C"
+      "en": "Silver-faced foam roll with its white wound end, brown core wall and open centre visible.",
+      "zh": "银面泡沫卷材露出白色卷绕端面、棕色纸芯壁和中心孔。",
+      "es": "Rollo de espuma con cara plateada, extremo blanco bobinado, pared del mandril de cartón y orificio central visibles."
     }
   },
   "insulation-roll-price-per-usable-square-metre": {
-    "file": "images/editorial/2026-11-05/usable-roll-area-price-basis.webp",
+    "file": "images/editorial/2026-11-06-guide-cover-revisions/insulation-roll-price-per-usable-square-metre.webp",
     "alt": {
-      "en": "A rectangular strip shows two narrow edge bands, an inner usable area and perpendicular width and length arrows.",
-      "zh": "矩形条带上展示两条窄边部、内部可用区域和互相垂直的幅宽与长度箭头。",
-      "es": "Una banda rectangular muestra dos franjas de borde, un área útil interior y flechas perpendiculares de anchura y longitud."
+      "en": "Reflective bubble roll partly unwound on a workbench, with two blue strips inside its side edges.",
+      "zh": "反光气泡卷材在台面展开，两条蓝色胶带分别贴在两侧边缘内侧。",
+      "es": "Rollo reflectante de burbujas parcialmente extendido sobre una mesa, con dos tiras azules dentro de los bordes laterales."
     }
   },
   "insulation-roll-splice-acceptance": {
-    "file": "images/editorial/2026-11-04/insulation-roll-splice-cut-layout.webp",
+    "file": "images/editorial/2026-11-06-guide-cover-revisions/insulation-roll-splice-acceptance.webp",
     "alt": {
-      "en": "A schematic strip has one orange transverse joint, a blue edge flag and three dashed cutting outlines.",
-      "zh": "示意条带上有一处橙色横向接头、蓝色边缘标识和三个虚线裁切轮廓。",
-      "es": "Una banda esquemática muestra una junta transversal naranja, una señal azul en el borde y tres contornos de corte discontinuos."
+      "en": "A single blue strip crosses a silver-faced foam web unrolled on a wooden bench.",
+      "zh": "银面泡沫卷材展开在木台面上，一条蓝色标记横过卷材。",
+      "es": "Una tira azul cruza una lámina de espuma con cara plateada extendida sobre una mesa de madera."
     }
   },
   "meal-prep-container-stack-fit": {
@@ -560,35 +560,35 @@
     }
   },
   "nonwoven-basis-weight-thickness-bag-mass": {
-    "file": "images/editorial/2026-10-30-cover-repairs/nonwoven-basis-weight-thickness-bag-mass.webp",
+    "file": "images/editorial/2026-11-06-guide-cover-revisions/nonwoven-basis-weight-thickness-bag-mass.webp",
     "alt": {
-      "en": "Three symbols distinguish material area, single-sheet thickness and whole-bag mass",
-      "zh": "三个符号分别区分材料面积、单片厚度与整袋重量",
-      "es": "Tres símbolos diferencian área del material, espesor de una lámina y masa de la bolsa"
+      "en": "A navy catering bag on a bench scale with a separate navy nonwoven swatch beside it.",
+      "zh": "深蓝色保温包放在台秤上，旁边单独摆着一块深蓝色无纺布样片。",
+      "es": "Bolsa térmica azul sobre una báscula de mesa, con una muestra separada de material no tejido al lado."
     }
   },
   "packaging-film-puncture-report-probe-scope": {
-    "file": "images/editorial/2026-11-06/film-probe-and-dart.webp",
+    "file": "images/editorial/2026-11-06-guide-cover-revisions/packaging-film-puncture-report-probe-scope.webp",
     "alt": {
-      "en": "A rounded probe close to a clamped sheet and a falling dart above a second sheet.",
-      "zh": "圆头探头靠近一片夹持薄膜，落镖位于另一片薄膜上方。",
-      "es": "Una sonda redondeada junto a una lámina sujeta y un dardo sobre una segunda lámina."
+      "en": "Reflective bubble wrap folded around a kraft carton corner, with its air-cell side visible at the lifted edge.",
+      "zh": "反光气泡卷材包住牛皮纸箱一角，翻起的一边露出气泡面。",
+      "es": "Lámina reflectante de burbujas plegada sobre la esquina de una caja kraft, con las celdas visibles en el borde levantado."
     }
   },
   "packaging-qr-destination-approval": {
-    "file": "images/editorial/2026-11-04/code-file-url-mobile-destination.webp",
+    "file": "images/editorial/2026-11-06-guide-cover-revisions/packaging-qr-destination-approval.webp",
     "alt": {
-      "en": "A code-file card links to a URL card and a mobile page with EN ZH ES tabs",
-      "zh": "码文件资料卡连接网址资料卡及带EN、ZH、ES页签的手机页面",
-      "es": "Una ficha de código conecta con una URL y una página móvil con pestañas EN ZH ES"
+      "en": "A phone camera points toward a blurred code proof on the front of a beige delivery bag.",
+      "zh": "手机摄像头朝向米色外卖袋正面经过模糊处理的码样。",
+      "es": "La cámara de un teléfono apunta a una prueba de código desenfocada en la cara de una bolsa beige de reparto."
     }
   },
   "packaging-quote-incoterms-named-place": {
-    "file": "images/editorial/2026-11-05/packaging-delivery-point-unloading.webp",
+    "file": "images/editorial/2026-11-06-guide-cover-revisions/packaging-quote-incoterms-named-place.webp",
     "alt": {
-      "en": "A truck beside a warehouse connects to a location pin, an appointment calendar and a separate unloading pallet-jack icon.",
-      "zh": "仓库旁的货车与定位图标、预约日历及单独的托盘车卸货图形相连接。",
-      "es": "Un camión junto a un almacén se conecta a un pin de ubicación, un calendario y un icono separado de descarga con transpaleta."
+      "en": "Closed cartons on a wooden pallet in front of an open receiving door, with a truck parked in the background.",
+      "zh": "封好的纸箱码在收货门前的木托盘上，背景停着一辆货车。",
+      "es": "Cajas cerradas sobre un palé de madera frente a una puerta de recepción abierta, con un camión estacionado al fondo."
     }
   },
   "packout-temperature-sensor-position-record": {
@@ -664,11 +664,11 @@
     }
   },
   "roll-cage-cover-curtain-gate-access-trial": {
-    "file": "images/editorial/2026-11-05/roll-cage-curtain-gate-carton-sequence.webp",
+    "file": "images/editorial/2026-11-06-guide-cover-revisions/roll-cage-cover-curtain-gate-access-trial.webp",
     "alt": {
-      "en": "Three icons show a folded curtain above an opening, a swinging gate and a carton with a horizontal arrow.",
-      "zh": "三个图标依次显示开口上方收起的前帘、转动车门和带水平箭头的货箱。",
-      "es": "Tres iconos muestran una cortina plegada sobre un hueco, una puerta giratoria y una caja con una flecha horizontal."
+      "en": "Silver-covered roll cage with its front curtain rolled up, wire gate swung out and a carton on the bottom deck.",
+      "zh": "银色笼车罩的前帘卷起，网门向外打开，纸箱放在底层托架上。",
+      "es": "Carro jaula con funda plateada, cortina frontal enrollada, puerta de malla abierta hacia fuera y una caja en la base."
     }
   },
   "seafood-packout-leak-containment": {
@@ -784,11 +784,11 @@
     }
   },
   "tote-handle-drop-measurement-reference": {
-    "file": "images/editorial/2026-11-02/yellow-tote-handle-drop-reference.webp",
+    "file": "images/editorial/2026-11-06-guide-cover-revisions/tote-handle-drop-measurement-reference.webp",
     "alt": {
-      "en": "Front-elevation yellow tote drawing with A and B reference lines beside a vertical handle-opening bracket",
-      "zh": "黄色手提袋正视图中，A与B参考线旁标出提手开口的垂直距离",
-      "es": "Dibujo frontal de una bolsa amarilla con líneas A y B junto a una cota vertical de la abertura del asa"
+      "en": "A hand holds the yellow lunch bag handles upright while the bag rests on a bench, with the sewn ends visible.",
+      "zh": "手将黄色午餐袋提手立起，袋身放在台面，织带缝合端可见。",
+      "es": "Una mano mantiene levantadas las asas amarillas mientras la bolsa térmica reposa sobre la mesa, con los extremos cosidos visibles."
     }
   },
   "umd-biobased-produce-wrap-research": {

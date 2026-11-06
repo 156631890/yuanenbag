@@ -172,17 +172,17 @@ const article: EditorialArticle = {
     "foil-bubble-insulation-rolls"
   ],
   "image": {
-    "file": "images/editorial/2026-11-04/roll-bore-diameter-width.webp",
+    "file": "images/editorial/2026-11-06-guide-cover-revisions/insulation-roll-core-bore-finished-diameter.webp",
     "kind": "illustration",
     "alt": {
-      "en": "Roll end and side diagrams distinguish central bore A, complete roll diameter B and width C",
-      "zh": "卷材端面及侧面图区分中心芯孔A、整卷直径B与幅宽C",
-      "es": "Vistas de extremo y lateral distinguen hueco A, diámetro completo B y ancho C"
+      "en": "Silver-faced foam roll with its white wound end, brown core wall and open centre visible.",
+      "zh": "银面泡沫卷材露出白色卷绕端面、棕色纸芯壁和中心孔。",
+      "es": "Rollo de espuma con cara plateada, extremo blanco bobinado, pared del mandril de cartón y orificio central visibles."
     },
     "caption": {
-      "en": "Dimension boundaries only; no actual supplied size, layer specification or equipment compatibility is demonstrated.",
-      "zh": "仅说明尺寸边界，不表示实际供货尺寸、层次规格或已验证的设备兼容。",
-      "es": "Solo límites dimensionales; no demuestra medidas suministradas, capas concretas ni compatibilidad con equipos."
+      "en": "The core opening and the outside of the wound roll are separate equipment checks.",
+      "zh": "芯孔和整卷外径需要分别与设备条件核对。",
+      "es": "El orificio del mandril y el diámetro exterior del rollo se verifican por separado con el equipo."
     }
   }
 }

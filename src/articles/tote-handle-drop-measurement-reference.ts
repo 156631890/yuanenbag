@@ -101,17 +101,17 @@ const article: EditorialArticle = {
     }
   ],
   "image": {
-    "file": "images/editorial/2026-11-02/yellow-tote-handle-drop-reference.webp",
+    "file": "images/editorial/2026-11-06-guide-cover-revisions/tote-handle-drop-measurement-reference.webp",
     "kind": "illustration",
     "alt": {
-      "en": "Front-elevation yellow tote drawing with A and B reference lines beside a vertical handle-opening bracket",
-      "zh": "黄色手提袋正视图中，A与B参考线旁标出提手开口的垂直距离",
-      "es": "Dibujo frontal de una bolsa amarilla con líneas A y B junto a una cota vertical de la abertura del asa"
+      "en": "A hand holds the yellow lunch bag handles upright while the bag rests on a bench, with the sewn ends visible.",
+      "zh": "手将黄色午餐袋提手立起，袋身放在台面，织带缝合端可见。",
+      "es": "Una mano mantiene levantadas las asas amarillas mientras la bolsa térmica reposa sobre la mesa, con los extremos cosidos visibles."
     },
     "caption": {
-      "en": "A marks the inside top of the front handle loop; B marks the chosen opening edge. The schematic defines reference points, not measured dimensions or carrying approval.",
-      "zh": "A表示正面提手环内侧顶点，B表示选定袋口边。图中明确测量基准，不提供实测尺寸或提携认可。",
-      "es": "A señala el punto interior superior del asa frontal y B el borde elegido de abertura. El esquema define referencias, no medidas reales ni aprobación de transporte."
+      "en": "Check the clear opening above the rim separately from the webbing sewn to the bag body.",
+      "zh": "袋口上方净空与缝在袋身上的织带分别核对。",
+      "es": "Compruebe por separado el hueco sobre el borde y la cinta cosida al cuerpo de la bolsa."
     }
   }
 }

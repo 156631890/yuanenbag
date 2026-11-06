@@ -13830,5 +13830,515 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-06-guide-cover-revisions/ibc-cover-cap-valve-access-layout.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/5b836c461785-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/27e0c64ec588-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/bb0a04f1bb0f-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/abf838d11f5c-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/eee92c492e3c-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/5ceb1e08e1c0-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/b640c4a65ed0-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-06-guide-cover-revisions/packaging-film-puncture-report-probe-scope.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/6e552edf51ef-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/19b813c7cb4b-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/c754a811795b-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/f77b206d2dd9-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/6074749ce2f8-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/c64b35d08c9f-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/90f32849f044-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-06-guide-cover-revisions/insulated-pallet-cover-overhang-installation-clearance.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/f149c6f5f2a7-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/34530eae6402-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/00356e13beea-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/c05c61d8e1d1-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/13e0e1f055cb-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/ea3642af98dd-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/6c582885629e-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-06-guide-cover-revisions/insulation-laminate-bond-report-scope.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/723484a9f962-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/7992ef03ace2-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/1d41e2023a13-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/be08c3ac6836-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/eeaa974a5697-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/ff2f82855d19-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/16cb50b2ba02-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-06-guide-cover-revisions/insulation-roll-price-per-usable-square-metre.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/4c35e97e680a-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/2b8fd522b32d-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/c5c3f59fb9ef-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/5a0d941f26d7-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/3cee74fda529-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/61947790bf60-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/5c7641376b31-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-06-guide-cover-revisions/packaging-quote-incoterms-named-place.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/531cfeeb487a-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/894bf807e56b-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/5636f9569182-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/afba20e42138-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/83b29bdebb6a-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/c790277fb710-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/8512bb444044-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-06-guide-cover-revisions/roll-cage-cover-curtain-gate-access-trial.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/b1ec93711857-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/73d7ff310d86-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/576ebbf5fc83-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/21f99338ac7a-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/cb70a7d089fd-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/9f4ad6eed1a5-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/aa76b19f1050-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-06-guide-cover-revisions/custom-bag-artwork-file-handoff.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/5746ae881e5e-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/be358e4908c6-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/d6a03a846697-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/c1ed48204f72-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/a1b2ed1c1440-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/324ba603bad7-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/0e107b791ec2-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-06-guide-cover-revisions/foam-core-total-laminate-thickness.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/dba4cf9b595e-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/278dfbc94abc-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/09bf040ad921-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/8f7c6c6ccc3f-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/b9ddc97e7b39-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/a84e253e5ab2-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/1c12ccf40eb6-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-06-guide-cover-revisions/insulation-roll-core-bore-finished-diameter.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/5cccb53c4543-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/1425846bfc28-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/77b726b7d1ac-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/d614e730b594-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/43ddbf1aafb1-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/0d1f8f3297f1-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/1b55f6535226-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-06-guide-cover-revisions/insulation-roll-splice-acceptance.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/1c890d4457e2-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/1851c950f7e8-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/41095145d2cf-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/e8f960108ec9-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/d070b64ca151-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/67578b1b9989-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/5a32a0644df4-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-06-guide-cover-revisions/packaging-qr-destination-approval.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/d46247df965c-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/6a01efe1828d-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/edc1a28a5814-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/8306f216754f-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/57e4b17a6c27-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/b36ea2c2fef4-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/4de7b1509712-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-06-guide-cover-revisions/tote-handle-drop-measurement-reference.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/4042f8b52453-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/1b758d008f30-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/b9216d4cc210-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/ec5a9bd72d2f-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/cb64341c3e4e-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/bb9b085eabc9-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/6dbf8f3a9c2c-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-06-guide-cover-revisions/insulated-bag-thermal-report-comparison.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/04584903c31f-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/1920a6b1cb0d-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/0d162dfbeb6c-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/43e78924f403-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/cc24f0727333-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/c7b0ae1a16e6-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/d8024d6fbaaf-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-06-guide-cover-revisions/nonwoven-basis-weight-thickness-bag-mass.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/21a6335f7924-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/bd24aea2e211-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/1d053d024a13-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/65459356079b-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/e9052c14bb3f-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/12b3b19c2097-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/0beb4db49f63-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

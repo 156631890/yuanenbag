@@ -107,17 +107,17 @@ const article: EditorialArticle = {
     "foil-bubble-insulation-rolls"
   ],
   "image": {
-    "file": "images/editorial/2026-11-06/film-probe-and-dart.webp",
+    "file": "images/editorial/2026-11-06-guide-cover-revisions/packaging-film-puncture-report-probe-scope.webp",
     "kind": "illustration",
     "alt": {
-      "en": "A rounded probe close to a clamped sheet and a falling dart above a second sheet.",
-      "zh": "圆头探头靠近一片夹持薄膜，落镖位于另一片薄膜上方。",
-      "es": "Una sonda redondeada junto a una lámina sujeta y un dardo sobre una segunda lámina."
+      "en": "Reflective bubble wrap folded around a kraft carton corner, with its air-cell side visible at the lifted edge.",
+      "zh": "反光气泡卷材包住牛皮纸箱一角，翻起的一边露出气泡面。",
+      "es": "Lámina reflectante de burbujas plegada sobre la esquina de una caja kraft, con las celdas visibles en el borde levantado."
     },
     "caption": {
-      "en": "A driven probe and a falling dart represent different loading conditions.",
-      "zh": "受控驱动的探头和自由落镖对应不同的加载方式。",
-      "es": "Una sonda accionada y un dardo en caída representan cargas distintas."
+      "en": "Inspect where the wrap meets the carton corner on the assembled pack.",
+      "zh": "在完整包装上检查卷材与纸箱转角的接触位置。",
+      "es": "Inspeccione el contacto entre la lámina y la esquina de la caja en el embalaje montado."
     }
   }
 }

@@ -158,17 +158,17 @@ const article: EditorialArticle = {
     "insulated-catering-bags"
   ],
   "image": {
-    "file": "images/editorial/2026-10-30-cover-repairs/nonwoven-basis-weight-thickness-bag-mass.webp",
+    "file": "images/editorial/2026-11-06-guide-cover-revisions/nonwoven-basis-weight-thickness-bag-mass.webp",
     "kind": "illustration",
     "alt": {
-      "en": "Three symbols distinguish material area, single-sheet thickness and whole-bag mass",
-      "zh": "三个符号分别区分材料面积、单片厚度与整袋重量",
-      "es": "Tres símbolos diferencian área del material, espesor de una lámina y masa de la bolsa"
+      "en": "A navy catering bag on a bench scale with a separate navy nonwoven swatch beside it.",
+      "zh": "深蓝色保温包放在台秤上，旁边单独摆着一块深蓝色无纺布样片。",
+      "es": "Bolsa térmica azul sobre una báscula de mesa, con una muestra separada de material no tejido al lado."
     },
     "caption": {
-      "en": "Three distinct measurement questions. Symbols contain no measured values or verified material specification.",
-      "zh": "三种不同测量问题；符号不含实测数值，也不确立材料规格。",
-      "es": "Tres preguntas de medición distintas; los símbolos no aportan valores medidos ni una especificación verificada."
+      "en": "Keep the material swatch and the complete bag separate when defining what a measurement covers.",
+      "zh": "约定测量口径时，分开记录面料样片和整只保温包。",
+      "es": "Distinga la muestra de material y la bolsa completa al definir qué abarca cada medición."
     }
   },
   "updatedAt": "2026-10-31"

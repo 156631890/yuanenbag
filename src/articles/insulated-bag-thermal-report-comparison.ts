@@ -239,17 +239,17 @@ const article: EditorialArticle = {
     }
   ],
   "image": {
-    "file": "images/editorial/2026-10-31/two-report-condition-comparison.webp",
+    "file": "images/editorial/2026-11-06-guide-cover-revisions/insulated-bag-thermal-report-comparison.webp",
     "kind": "illustration",
     "alt": {
-      "en": "Two blank forms labelled A and B align sample, pack-out, coolant, exposure and sensor fields with question marks",
-      "zh": "A、B两张空白表将样品、装载、冷媒、环境与测点字段逐行对齐，中间标有问号",
-      "es": "Dos formularios vacíos A y B alinean campos de muestra, carga, refrigerante, exposición y sensores mediante interrogantes"
+      "en": "Open navy catering bag holding a lidded tray, with a separate coolant pouch on the bench.",
+      "zh": "深蓝色前开保温包内放有盖餐盘，台面另放一只冷媒袋。",
+      "es": "Bolsa térmica de catering azul abierta con una bandeja tapada y un acumulador aparte sobre la mesa."
     },
     "caption": {
-      "en": "Conceptual comparison fields; the forms contain no test data or equivalence finding.",
-      "zh": "报告条件对照字段；表内没有实测数据或条件等同结论。",
-      "es": "Campos conceptuales de comparación; no contienen datos de ensayo ni una conclusión de equivalencia."
+      "en": "Record the loaded sample and the coolant configuration before comparing test reports.",
+      "zh": "比较测试报告前，先记录装载样品与冷媒配置。",
+      "es": "Registre la muestra cargada y la configuración del refrigerante antes de comparar informes de ensayo."
     }
   },
   "updatedAt": "2026-10-31"

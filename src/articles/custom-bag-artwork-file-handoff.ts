@@ -99,17 +99,17 @@ const article: EditorialArticle = {
     "self-seal-non-woven-delivery-bags"
   ],
   "image": {
-    "file": "images/editorial/2026-11-04/artwork-source-preview-layout.webp",
+    "file": "images/editorial/2026-11-06-guide-cover-revisions/custom-bag-artwork-file-handoff.webp",
     "kind": "illustration",
     "alt": {
-      "en": "Source and preview document cards point to a separate print-layout card",
-      "zh": "源文件与预览资料卡分别指向印刷版面资料卡",
-      "es": "Fichas de original y vista previa apuntan a una ficha de distribución"
+      "en": "A loose paper proof with a teal shape rests on the front of a beige handled delivery bag.",
+      "zh": "一张带青绿色图形的纸质印样放在米色手提外卖袋的袋面上。",
+      "es": "Una prueba suelta en papel con una figura verde azulada descansa sobre una bolsa beige de reparto con asas."
     },
     "caption": {
-      "en": "The source, visual preview and physical print layout answer different handoff questions. Symbolic documents, not an approved customer artwork set.",
-      "zh": "源文件、视觉预览和实际印刷版面解决不同交付问题。图中为资料关系，不是已批准的客户印稿。",
-      "es": "Original, vista y distribución física resuelven preguntas distintas. Documentos simbólicos, no un juego gráfico aprobado de un cliente."
+      "en": "Use a separate proof to check placement on the intended bag face.",
+      "zh": "用独立纸样在拟印袋面上核对印刷位置。",
+      "es": "Use una prueba separada para comprobar la posición en la cara prevista de la bolsa."
     }
   }
 }

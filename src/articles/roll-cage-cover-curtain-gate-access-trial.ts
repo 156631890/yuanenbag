@@ -86,17 +86,17 @@ const article: EditorialArticle = {
     "insulated-roll-cage-covers"
   ],
   "image": {
-    "file": "images/editorial/2026-11-05/roll-cage-curtain-gate-carton-sequence.webp",
+    "file": "images/editorial/2026-11-06-guide-cover-revisions/roll-cage-cover-curtain-gate-access-trial.webp",
     "kind": "illustration",
     "alt": {
-      "en": "Three icons show a folded curtain above an opening, a swinging gate and a carton with a horizontal arrow.",
-      "zh": "三个图标依次显示开口上方收起的前帘、转动车门和带水平箭头的货箱。",
-      "es": "Tres iconos muestran una cortina plegada sobre un hueco, una puerta giratoria y una caja con una flecha horizontal."
+      "en": "Silver-covered roll cage with its front curtain rolled up, wire gate swung out and a carton on the bottom deck.",
+      "zh": "银色笼车罩的前帘卷起，网门向外打开，纸箱放在底层托架上。",
+      "es": "Carro jaula con funda plateada, cortina frontal enrollada, puerta de malla abierta hacia fuera y una caja en la base."
     },
     "caption": {
-      "en": "Check the curtain, gate travel and carton path as separate steps in the access trial.",
-      "zh": "把前帘让位、车门转动和货箱取出分成三个动作检查。",
-      "es": "Compruebe por separado la cortina, el giro de la puerta y el recorrido de la caja."
+      "en": "Check the rolled curtain, open gate and carton access together at the workstation.",
+      "zh": "在作业位置把卷起的前帘、打开的车门和取箱空间一起检查。",
+      "es": "Compruebe en el puesto la cortina recogida, la puerta abierta y el acceso a la caja."
     }
   }
 }

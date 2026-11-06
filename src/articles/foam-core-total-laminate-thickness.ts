@@ -152,17 +152,17 @@ const article: EditorialArticle = {
     "foil-bubble-insulation-rolls"
   ],
   "image": {
-    "file": "images/editorial/2026-11-04/foam-core-total-thickness-scope.webp",
+    "file": "images/editorial/2026-11-06-guide-cover-revisions/foam-core-total-laminate-thickness.webp",
     "kind": "illustration",
     "alt": {
-      "en": "Two symbolic layer sections show a foam-only arrow and an outside-to-outside laminate arrow beside a method record",
-      "zh": "两个概念层次剖面分别标出仅泡沫厚度和外表面至外表面总厚，旁有测法记录",
-      "es": "Dos secciones conceptuales muestran flechas de espuma sola y laminado completo junto a una ficha de método"
+      "en": "Flat measuring pads straddle the silver face and white underside of a foam laminate swatch.",
+      "zh": "测厚工具的平压脚分别接触泡沫复合样片的银色面和白色底面。",
+      "es": "Los palpadores planos abarcan la cara plateada y la cara inferior blanca de una muestra de laminado de espuma."
     },
     "caption": {
-      "en": "A generic foam-and-facing example distinguishes measurement scope. It is not an exact YUANEN layer recipe or a bubble-roll cross section; no thickness or test result is shown.",
-      "zh": "以通用泡沫与面层结构区分测量范围，不代表远恩准确层次配方，也不是气泡卷剖面；未显示厚度数值或测试结果。",
-      "es": "Ejemplo genérico de espuma y caras para distinguir el alcance. No es una composición exacta de YUANEN ni una sección de rollo de burbuja; no muestra espesor ni resultado de ensayo."
+      "en": "The pads show the full laminate measurement span. The image provides no reading.",
+      "zh": "压脚的位置展示复合总厚的测量范围，画面未显示读数。",
+      "es": "Los palpadores muestran el alcance del espesor total del laminado. La imagen no aporta una lectura."
     }
   }
 }
