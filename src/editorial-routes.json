@@ -640,6 +640,15 @@
   },
   {
     "kind": "guide",
+    "slug": "packaging-film-puncture-report-probe-scope",
+    "title": {
+      "en": "Can You Compare Two Packaging Film Puncture Reports?",
+      "zh": "两份包装膜穿刺报告，怎样判断能不能比？",
+      "es": "¿Se pueden comparar dos informes de perforación de películas?"
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "packaging-qr-destination-approval",
     "title": {
       "en": "Approve What the Packaging QR Code Opens",

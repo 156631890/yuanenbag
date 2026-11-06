@@ -567,6 +567,14 @@
       "es": "Tres símbolos diferencian área del material, espesor de una lámina y masa de la bolsa"
     }
   },
+  "packaging-film-puncture-report-probe-scope": {
+    "file": "images/editorial/2026-11-06/film-probe-and-dart.webp",
+    "alt": {
+      "en": "A rounded probe close to a clamped sheet and a falling dart above a second sheet.",
+      "zh": "圆头探头靠近一片夹持薄膜，落镖位于另一片薄膜上方。",
+      "es": "Una sonda redondeada junto a una lámina sujeta y un dardo sobre una segunda lámina."
+    }
+  },
   "packaging-qr-destination-approval": {
     "file": "images/editorial/2026-11-04/code-file-url-mobile-destination.webp",
     "alt": {

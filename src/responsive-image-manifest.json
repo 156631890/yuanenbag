@@ -13796,5 +13796,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-06/film-probe-and-dart.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/4d5cb1d1a286-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/abe4ff8162ce-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/b6170bafbab3-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/95259336a7b3-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/b8c04e4092d9-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/07e4692a73d3-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/23cbdc2c6d3a-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

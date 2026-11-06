@@ -1075,6 +1075,21 @@
   },
   {
     "kind": "guide",
+    "slug": "packaging-film-puncture-report-probe-scope",
+    "publishedAt": "2026-11-06",
+    "title": {
+      "en": "Can You Compare Two Packaging Film Puncture Reports?",
+      "zh": "两份包装膜穿刺报告，怎样判断能不能比？",
+      "es": "¿Se pueden comparar dos informes de perforación de películas?"
+    },
+    "description": {
+      "en": "Check the method, reported quantity and specimen before comparing film puncture results. Know when to request a trial on the assembled pack.",
+      "zh": "比较包装膜穿刺结果前，先核对试验方法、报告量和试样范围，再判断是否需要完整包装试验。",
+      "es": "Compruebe método, magnitud y probeta antes de comparar resultados de perforación y decida cuándo evaluar el embalaje montado."
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "packaging-qr-destination-approval",
     "publishedAt": "2026-11-04",
     "title": {
