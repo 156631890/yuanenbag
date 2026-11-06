@@ -343,6 +343,14 @@
       "es": "Hojas claras de cartoncillo, una caja plegable lisa cerrada y una bolsa kraft abierta con asas cortas, rotuladas BOARD, CARTON y CARRIER"
     }
   },
+  "ibc-cover-cap-valve-access-layout": {
+    "file": "images/editorial/2026-11-06/ibc-cap-valve-access-reference.webp",
+    "alt": {
+      "en": "A top view with a dashed ring around a cap and a front view with a dashed box around a valve above a deck line.",
+      "zh": "俯视图用虚线环围住桶盖，正视图用虚线框围住托盘基准线上方的阀门。",
+      "es": "Vista en planta con un anillo discontinuo alrededor de una tapa y vista frontal con un recuadro discontinuo alrededor de una válvula sobre la línea del palé."
+    }
+  },
   "ice-pack-delivery-state-quotation": {
     "file": "images/editorial/2026-10-29/plain-single-coolant-pouch.webp",
     "alt": {

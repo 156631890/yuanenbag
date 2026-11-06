@@ -13762,5 +13762,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-06/ibc-cap-valve-access-reference.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/3d254fa902bd-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/d2dec2ec31bb-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/e0e2ef3621ac-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/2bd2c22f7e5d-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/eb15fa338d56-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/07383c0759f1-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/caa6f7bc7d8b-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

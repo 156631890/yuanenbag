@@ -651,6 +651,21 @@
   },
   {
     "kind": "guide",
+    "slug": "ibc-cover-cap-valve-access-layout",
+    "publishedAt": "2026-11-06",
+    "title": {
+      "zh": "IBC保温罩的检修口，要按桶盖和阀门操作空间定位",
+      "en": "Position IBC Cover Openings Around Cap and Valve Access",
+      "es": "Sitúe las aberturas de la funda IBC según el acceso a tapa y válvula"
+    },
+    "description": {
+      "en": "Use a shared reference for cap and valve locations and verify access, flap overlap and fork clearance on the actual IBC sample.",
+      "zh": "用统一基准标明桶盖与阀门位置，在实际 IBC 样品上检查操作空间、盖片搭接与叉孔。",
+      "es": "Use una referencia común para tapa y válvula. Verifique el espacio de acceso, el solape y los huecos de horquillas con la muestra real."
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "ice-pack-delivery-state-quotation",
     "publishedAt": "2026-10-29",
     "title": {

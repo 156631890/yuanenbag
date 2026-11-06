@@ -388,6 +388,15 @@
   },
   {
     "kind": "guide",
+    "slug": "ibc-cover-cap-valve-access-layout",
+    "title": {
+      "zh": "IBC保温罩的检修口，要按桶盖和阀门操作空间定位",
+      "en": "Position IBC Cover Openings Around Cap and Valve Access",
+      "es": "Sitúe las aberturas de la funda IBC según el acceso a tapa y válvula"
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "ice-pack-delivery-state-quotation",
     "title": {
       "en": "Confirm How Ice Packs Arrive Before Comparing Quotes",
