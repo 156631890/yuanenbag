@@ -10,6 +10,7 @@ import BagDrawing from './BagDrawing'
 import { ProductCard, SelectionDetails, MaterialComparison, ProductColourComparison } from './Catalog'
 import FactoryPhoto, { factoryPhotos } from './FactoryPhoto'
 import { responsiveImage } from './responsive-images'
+import BackToTop from './BackToTop'
 import AnalyticsConsent from './AnalyticsConsent'
 import ProductGallery from './ProductGallery'
 import DocumentationLink from './DocumentationLink'
@@ -124,5 +125,5 @@ export default function App({path='/'}:{path?:string}){
   case'privacy':content=<Privacy lang={lang}/>;break
   default:content=<section className="container not-found"><span className="eyebrow">404</span><h1>{l(lang,'This page has moved out of the bag.','这个页面暂时找不到了。')}</h1><a className="button primary" href={href('/',lang)}>{l(lang,'Back to home','返回首页')}<ArrowRight size={18}/></a></section>
  }
- return <><a className="skip-link" href="#main">{l(lang,'Skip to content','跳转到正文')}</a><Header lang={lang} path={page.type==='404'?'/':page.path} enquiryBag={enquiryBag}/><main id="main"><Suspense fallback={null}>{content}</Suspense></main><Footer lang={lang}/><AnalyticsConsent lang={lang} showSettings={page.type==='privacy'}/></>
+ return <><a className="skip-link" href="#main">{l(lang,'Skip to content','跳转到正文')}</a><Header lang={lang} path={page.type==='404'?'/':page.path} enquiryBag={enquiryBag}/><main id="main"><Suspense fallback={null}>{content}</Suspense></main><Footer lang={lang}/><BackToTop lang={lang}/><AnalyticsConsent lang={lang} showSettings={page.type==='privacy'}/></>
 }
