@@ -78,8 +78,17 @@
 
 .footer-contact-summary p a{display:inline;margin:0}
 
-/* NP10: show product identity and the enquiry action before the mobile gallery. */
-@media(max-width:650px){.product-detail--pallet .product-copy{display:contents}.product-detail--pallet .product-intro{order:-1}.product-detail--pallet .product-intro h1{margin-top:10px}.product-detail--pallet .product-intro .lead{margin-bottom:16px}.product-detail--pallet .spec-table{order:2}}
+/* Preserve the desktop columns and let mobile follow the document order. */
+@media(min-width:651px){
+  .product-detail{grid-template-rows:max-content 1fr;row-gap:0}
+  .product-detail > .product-intro{grid-column:2;grid-row:1}
+  .product-detail > .product-gallery{grid-column:1;grid-row:1 / span 2}
+  .product-detail > .product-specifications{grid-column:2;grid-row:2}
+}
+@media(max-width:650px){
+  .product-detail .product-intro h1{margin-top:10px}
+  .product-detail .product-intro .lead{margin-bottom:16px}
+}
 .measurement-key{font-weight:600}.detail-columns ol{padding-left:1.3em}.detail-columns li+li{margin-top:.7em}
 
 @media(min-width:1151px){.collection-grid{grid-template-columns:repeat(5,minmax(0,1fr))}}

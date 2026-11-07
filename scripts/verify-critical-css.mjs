@@ -9,6 +9,13 @@ for (const path of [...paths, ...notFoundPaths]) {
   assert(critical?.includes('.header'), `Missing initial header styles: ${path}`)
   assert(critical.includes('.analytics-consent'), `Consent styles must not depend on deferred CSS: ${path}`)
   assert(critical.includes('.bag-visual:has(.generated-product)'), `Relational image layout rules must survive extraction: ${path}`)
+  if (/\/products\/[^/]+\/$/.test(path)) {
+    const intro = html.indexOf('class="product-copy product-intro"')
+    const gallery = html.indexOf('class="product-gallery"')
+    const specs = html.indexOf('class="product-copy product-specifications"')
+    assert(intro > 0 && gallery > intro && specs > gallery, 'Product reading order must be intro, gallery, specs: ' + path)
+    assert(critical.includes('.product-detail>.product-gallery'), 'Desktop gallery placement must be present on first paint: ' + path)
+  }
   assert(html.includes('media="print" onload="this.media=\'all\'"'), `CSS must load without blocking initial paint: ${path}`)
   const fallback = html.match(/<noscript><link[^>]*href="([^"]+\.css)"[^>]*><\/noscript>/)?.[1]
   assert(fallback, `Missing stylesheet fallback without JavaScript: ${path}`)
