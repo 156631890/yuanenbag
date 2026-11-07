@@ -1,0 +1,170 @@
+{
+  "version": "2026-11-07-second-batch-v1",
+  "status": "approved_for_release",
+  "tool": "built-in image_gen",
+  "publicationAuthorized": false,
+  "jobs": [
+    {
+      "id": "NP14-01",
+      "refs": [
+        "/Users/ic/Projects/yuanenbag/website-product-second-batch/public/images/products/standardized/foil-bubble-insulation-rolls/01.webp",
+        "/Users/ic/Projects/yuanenbag/website-product-second-batch/public/images/factory/2026/customization-insulation-processing.webp"
+      ],
+      "prompt": "Use case precise-object-edit. Edit image 1 into a more readable, realistic SQUARE B2B product catalogue hero. Keep this same single horizontal foil bubble insulation roll on a kraft paper core, the same roll width/diameter ratio, the same scale and 3/4 viewpoint. Increase the natural continuous turn-back of the loose sheet at the front-right so buyers can clearly see ONE transparent rounded air-bubble reverse over the same single silver reflective facing. This is ONE continuous laminated sheet, not detached swatches or a second roll. The broad roll surface and sheet flat part show the thin reflective silver face; folded-back corner shows clear polymer domed bubbles with soft specular rims and silver backing seen THROUGH them. Natural thin laminate edges, no foam and no thick padded layer. Image 2 is a company generic reflective-material texture reference ONLY, not evidence of the completed product. Match a practical camera photo with soft diffuse daylight, restrained irregular reflections, gentle contact shadow and slight natural roll-edge imperfections. Seamless uniform #F6F6F4 background. Product complete, centered, 10–12% clear margins, one square image. Keep core construction and original identity. No text, logos, symbols, measurement labels, additional props, detached layers, checkerboard background or collage."
+    },
+    {
+      "id": "NP14-02",
+      "refs": [
+        "/Users/ic/Projects/yuanenbag/website-product-second-batch/public/images/products/standardized/foil-bubble-insulation-rolls/02.webp",
+        "/Users/ic/Projects/yuanenbag/website-product-second-batch/public/images/products/standardized/foil-bubble-insulation-rolls/01.webp"
+      ],
+      "prompt": "Use case precise-object-edit. Replace the two disconnected rectangular swatches in image 1 with ONE continuous rectangular sample of the SAME foil bubble insulation laminate as image 2. SQUARE close-up product photograph on seamless #F6F6F4. One strip lies foil face up across the lower-left and makes a gentle rounded 180-degree return bend across the middle; the upper-right portion of THE SAME strip is folded back so that its clear air-bubble reverse faces the camera. Keep the return bend and both long side edges visibly continuous, so it is unmistakably the front and back of ONE sample. Single thin silver reflective facing bonded to clear polymer round air cells; silver backing is visible through the translucent domes, with real specular rims. The foil face has very subtle shallow cell impressions and ordinary fine metal creases, not a diamond textile weave. No white foam, no peeling apart bonded layers, no giant bubbles, no pile of layers or separate sample. Natural gravity, only modest rounded curl height. Sample fills ~75% of the square with all edges safely inside frame. Soft daylight, realistic metal and clear plastic, gentle shadows. No labels, arrows, rulers, logos or text."
+    },
+    {
+      "id": "NP16-01",
+      "refs": [
+        "/Users/ic/Projects/yuanenbag/website-product-second-batch/public/images/products/standardized/insulated-ibc-covers/01.webp",
+        "/Users/ic/Projects/yuanenbag/website-product-second-batch/public/images/factory/2026/customization-insulation-processing.webp"
+      ],
+      "prompt": "Use case precise-object-edit. Improve image 1 as one SQUARE photorealistic B2B hero of the SAME proposed passive reflective IBC cover. Preserve exact cuboid tank/cage size and proportions, black plastic pallet, THREE visible front fork pockets, silver flexible cover, existing large rectangular top access flap and small centered bottom front access flap, and overall 3/4 viewpoint. Show BOTH existing flaps opened naturally: top flap hinged at its rear bound edge and folded back onto the top, exposing the black screw cap on a pale translucent closed plastic tank and a small amount of its galvanised cage rails through the existing opening; lower flap folds UP at its existing top hinge, exposing the same tank's small closed outlet valve above the pallet. Fit the cover close to the actual cage with subtle slack at corners, hem wholly above the fork pockets. Do not add a free-standing support, hoses, heater, electronics, new pockets, straps, a new closure type or any extra fittings. Use softer more irregular foil reflections with thin small creases and broad shallow folds instead of the uniform highly crumpled metallic shell. Image 2 is ONLY a general reflective material texture reference. Keep original binding locations and single continuous top and side panels, realistic stitched/bound flap lips, plausible clearance for fingers and the closed valve. Ordinary soft daylight catalogue photo, seamless #F6F6F4 floor/backdrop, entire pallet and cover visible with 10–12% margin and grounded soft shadow. No text, capacity/temperature ratings, logos, water, people, arrows or measurement annotations."
+    },
+    {
+      "id": "NP15-01",
+      "refs": [
+        "/Users/ic/Projects/yuanenbag/website-product-second-batch/public/images/products/standardized/insulated-roll-cage-covers/06.webp",
+        "/Users/ic/Projects/yuanenbag/website-product-second-batch/public/images/factory/2026/customization-insulation-processing.webp"
+      ],
+      "prompt": "Use case precise-object-edit. Create a more realistic and legible SQUARE product hero using the EXACT SAME proposed roll cage cover and wheeled cage in image 1. Preserve this tall narrow galvanised roll cage, silver flexible cover on its top/sides/back, black bound vertical front edges, the top-attached FRONT CURTAIN folded back over the roof, same three plain closed cartons standing on the metal base deck, and same 3/4 camera viewpoint. Keep exactly four realistic castor assemblies attached to the base, the two front castors with plausible accessible brakes, existing wire side/back rails and bare rigid load-bearing metal base. The cover hem ends above the base deck and clear of ALL wheel swivel and brake mechanisms. The folded-back front curtain must remain physically continuous with its top hinge and keep the same black edge binding, showing how the open front works. Improve natural flexible laminate drape, a few small crease lines, believable fine foil sheen and contact shadows. Replace the overly uniform exaggerated crinkles with restrained irregular small folds; no silver fabric/satin weave or thick inflated padding. Image 2 is a general reflective material texture reference only. Entire wheeled cage complete, centered with 10–12% safe margin, #F6F6F4 seamless background, practical soft-lit photographic quality. Cartons remain reasonable scale and below cage top. Do not add loose straps, handles, zippers, pockets, people, branding, text, arrows or dimensional claims."
+    },
+    {
+      "id": "NP14-02-r2",
+      "refs": [
+        "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-cfb9342b-ccf2-4370-aefa-a89d6bbc17bd.png"
+      ],
+      "prompt": "Use case product-mockup. Create a SINGLE SQUARE macro catalogue photograph of ONE rectangular cut sample of the same single-face foil bubble wrap shown in the supplied product reference. A flat rectangle lies on a #F6F6F4 surface with the silver reflective facing UP. Only its TOP-RIGHT CORNER is folded diagonally INWARD across the rest of that same rectangle, like turning down the corner of a page. This folded triangular corner reveals the translucent round-bubble BACK of the same material. A clear diagonal crease connects the triangle with the flat rectangle. The triangle physically overlaps and casts a small contact shadow onto the flat silver surface. This MUST look like a simple page-corner fold, with two of the folded corner's outside edges freely visible above the underlying sheet. Same small round cell diameter and pitch on BOTH sides, perspective-consistent; the domes have clear plastic rims and silver backing seen through them. Preserve ONE bonded laminate throughout. No change in material halfway across a flat sheet, no long S bend, no two separate pieces, no peeled-apart layers, no thick foam. Real thin flexible edge, restrained foil sheen, irregular little creases. Entire rectangle at a modest three-quarter angle with all its corners inside the central 80% of the canvas. Soft daylight and gentle grounded shadow. No roll, no text, logos, rulers, arrows or other props. Purpose is to show front and back of ONE continuous sample."
+    },
+    {
+      "id": "NP16-01-r2",
+      "refs": [
+        "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-f08e0b50-401d-47a8-baca-f6f9c4c6658d.png",
+        "/Users/ic/Projects/yuanenbag/website-product-second-batch/public/images/products/standardized/insulated-ibc-covers/03.webp"
+      ],
+      "prompt": "Use case precise-object-edit. Edit image 1 in ONE precisely limited detail. Replace its small white spigot at the lower access opening with the exact IBC valve assembly seen in image 2: an off-white valve body, a short black horizontal handle on top, and a round dark grey/black capped outlet facing forward, positioned within that lower opening. Keep that cap closed and the handle horizontal, as image 2. Preserve image 1's open TOP flap and black top screw cap, open LOWER flap, soft silver reflective texture, bound edges, correct cuboid proportion, same black pallet and three fork pockets. Avoid any redesign of the cover or changes to other physical details. Maintain soft light and neutral #F6F6F4 background. Frame the ENTIRE assembly slightly smaller with at least 10% clear border on each side, including above the lifted flap and below pallet. SQUARE photo. No hoses, dripping, annotations, additional valve, text, branding, arrows or rating."
+    },
+    {
+      "id": "NP14-01-framed",
+      "refs": [
+        "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-cfb9342b-ccf2-4370-aefa-a89d6bbc17bd.png"
+      ],
+      "prompt": "Use case precise-object-edit. Reframe the supplied image ONLY. Keep the pictured product, its contents, openings, material texture, hardware and camera angle exactly unchanged. Produce ONE SQUARE catalogue photograph zoomed out so the complete object plus its floor shadow stays within the central 80 percent of the canvas, with at least a 10 percent clean margin on EACH side: left, right, top and bottom. On the same seamless #F6F6F4 neutral studio floor and background. It must be the same photo-like product at slightly smaller scale, with realistic unchanged texture and soft light. No new text, labels, objects, logos, cropped edges or details."
+    },
+    {
+      "id": "NP15-01-framed",
+      "refs": [
+        "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-3da3ba4d-2e1f-4557-98d6-2d7e2d227049.png"
+      ],
+      "prompt": "Use case precise-object-edit. Reframe the supplied image ONLY. Keep the pictured product, its contents, openings, material texture, hardware and camera angle exactly unchanged. Produce ONE SQUARE catalogue photograph zoomed out so the complete object plus its floor shadow stays within the central 80 percent of the canvas, with at least a 10 percent clean margin on EACH side: left, right, top and bottom. On the same seamless #F6F6F4 neutral studio floor and background. It must be the same photo-like product at slightly smaller scale, with realistic unchanged texture and soft light. No new text, labels, objects, logos, cropped edges or details."
+    },
+    {
+      "id": "NP16-04",
+      "refs": [
+        "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-73bbc8b9-147d-449b-bfbf-1ee0eb80a1de.png",
+        "/Users/ic/Projects/yuanenbag/website-product-second-batch/public/images/products/standardized/insulated-ibc-covers/04.webp"
+      ],
+      "prompt": "Use case precise-object-edit. Produce ONE square natural macro product photograph for the SAME silver flexible IBC cover in image 1, matching its thin reflective facing, irregular light creases and black edging. Image 2 shows the old detail photograph to replace and its joining location only. Show a real close-up of an upper corner of the cover with a neat vertical bound joining/overlap and one small corner of the black hook-and-loop overlap lifted enough to reveal the hook/loop contact strips. Preserve realistic seam construction, black fine textile binding and small stitches. The broad silver panels must match image 1: thin reflective film-like laminate, gently crinkled, with no visible woven square grid, silver satin, diamond quilting, thick cushion or inflated surface. Only the black binding/fastener may show textile texture. Soft daylight grazing the film to reveal shallow wrinkles, modest highlights, blurred pale neutral #F6F6F4 backdrop. Complete relevant seam in frame with generous edge clearance. No unexplained zipper teeth, invented core layers, waterproof certification, measurements, text, logos or arrows."
+    },
+    {
+      "id": "NP14-02-frame",
+      "refs": [
+        "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-f050529e-f93b-4dc2-824d-fdf90746c29f.png"
+      ],
+      "prompt": "Use case precise-object-edit. Preserve exactly this one continuous folded-corner foil bubble wrap sample, with its identical front and back cell pitch, diagonal crease, triangle, shadows, proportions and camera perspective. Reframe as a single SQUARE product photograph on a continuous seamless #F6F6F4 surface: make the complete sample plus shadow occupy the central 76 to 80 percent of the square, leaving about 10 to 12 percent clear space on each side. There must be no inset photograph border or rectangle of different background color. Same thin laminate and translucent bubble triangle. Change only framing/background extension, keep all physical sample details. No props, text, labels or arrows."
+    }
+  ],
+  "final": [
+    {
+      "id": "NP14-01",
+      "slug": "foil-bubble-insulation-rolls",
+      "slot": 1,
+      "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-2f3b1b1f-b742-4059-867d-5b144c2c138d.png",
+      "output": "public/images/products/standardized/foil-bubble-insulation-rolls/01.webp",
+      "outputSha256": "28249d2e2fa9df408112a31b92d4fe877343b27da1822131b57266d8212a6b9f",
+      "outputFormat": "1200×1200 WebP",
+      "useRights": "Generated using built-in image_gen from company-provided material image and own previously approved generated product images. Manufacturer images were not input or redistributed.",
+      "normalization": "Resize square to 1440 pixels and center-crop empty outer background to 1200; subject and contact shadow fully retained.",
+      "absoluteOutput": "/Users/ic/Projects/yuanenbag/website-product-second-batch/public/images/products/standardized/foil-bubble-insulation-rolls/01.webp"
+    },
+    {
+      "id": "NP14-02",
+      "slug": "foil-bubble-insulation-rolls",
+      "slot": 2,
+      "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-8bbae7b3-d7af-4633-94c6-6b79c61507c0.png",
+      "output": "public/images/products/standardized/foil-bubble-insulation-rolls/02.webp",
+      "outputSha256": "2118a9e4c09faec9ccbe71a3eada32255cc5ad46c3707f1385171f63fcb96e38",
+      "outputFormat": "1200×1200 WebP",
+      "useRights": "Generated using built-in image_gen from company-provided material image and own previously approved generated product images. Manufacturer images were not input or redistributed.",
+      "normalization": "Resize complete square to 1200 pixels; no subject crop.",
+      "absoluteOutput": "/Users/ic/Projects/yuanenbag/website-product-second-batch/public/images/products/standardized/foil-bubble-insulation-rolls/02.webp"
+    },
+    {
+      "id": "NP16-01",
+      "slug": "insulated-ibc-covers",
+      "slot": 1,
+      "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-73bbc8b9-147d-449b-bfbf-1ee0eb80a1de.png",
+      "resize": 1200,
+      "pad": 0,
+      "output": "public/images/products/standardized/insulated-ibc-covers/01.webp",
+      "outputSha256": "abf57ed632f85df5c734d3fbaea5b15851e97866d981472e708704cbc45a2679",
+      "outputFormat": "1200×1200 WebP",
+      "useRights": "Generated using built-in image_gen from company-provided material image and own previously approved generated product images. Manufacturer images were not input or redistributed.",
+      "absoluteOutput": "/Users/ic/Projects/yuanenbag/website-product-second-batch/public/images/products/standardized/insulated-ibc-covers/01.webp"
+    },
+    {
+      "id": "NP16-04",
+      "slug": "insulated-ibc-covers",
+      "slot": 4,
+      "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-d0131026-79ee-486b-a594-0524f383ccf5.png",
+      "resize": 1200,
+      "pad": 0,
+      "output": "public/images/products/standardized/insulated-ibc-covers/04.webp",
+      "outputSha256": "154df7a1f88b425da5fcd3948e0042c9a99e56700db7624e78c08262d41a3eae",
+      "outputFormat": "1200×1200 WebP",
+      "useRights": "Generated using built-in image_gen from company-provided material image and own previously approved generated product images. Manufacturer images were not input or redistributed.",
+      "absoluteOutput": "/Users/ic/Projects/yuanenbag/website-product-second-batch/public/images/products/standardized/insulated-ibc-covers/04.webp"
+    },
+    {
+      "id": "NP15-01",
+      "slug": "insulated-roll-cage-covers",
+      "slot": 1,
+      "source": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-cbcf54c8-bb20-40ed-bc18-4d9a95662ac8.png",
+      "output": "public/images/products/standardized/insulated-roll-cage-covers/01.webp",
+      "outputSha256": "c7ecf2b2a7b25c0e5e934dfe66daebf27c7cfccac4619785e58ea98d6f58e08f",
+      "outputFormat": "1200×1200 WebP",
+      "useRights": "Generated using built-in image_gen from company-provided material image and own previously approved generated product images. Manufacturer images were not input or redistributed.",
+      "normalization": "Resize square to 1440 pixels and center-crop empty outer background to 1200; subject and contact shadow fully retained.",
+      "absoluteOutput": "/Users/ic/Projects/yuanenbag/website-product-second-batch/public/images/products/standardized/insulated-roll-cage-covers/01.webp"
+    }
+  ],
+  "authorization": {
+    "instruction": "可以开始执行。",
+    "recordedAt": "2026-11-07T06:25:47.262441+00:00",
+    "scope": [
+      "NP14 image revision",
+      "NP16 image revision",
+      "NP15 image revision",
+      "NP01 buying selection copy"
+    ],
+    "approvedVersion": "2026-11-07-second-batch-v1",
+    "previewBase": "http://127.0.0.1:4224",
+    "reviewRecord": "/Users/ic/Projects/yuanenbag/content-automation/outputs/product-second-batch-2026-11-07/verification.json",
+    "approvedMasterSha256": {
+      "/Users/ic/Projects/yuanenbag/website-product-second-batch/public/images/products/standardized/foil-bubble-insulation-rolls/01.webp": "28249d2e2fa9df408112a31b92d4fe877343b27da1822131b57266d8212a6b9f",
+      "/Users/ic/Projects/yuanenbag/website-product-second-batch/public/images/products/standardized/foil-bubble-insulation-rolls/02.webp": "2118a9e4c09faec9ccbe71a3eada32255cc5ad46c3707f1385171f63fcb96e38",
+      "/Users/ic/Projects/yuanenbag/website-product-second-batch/public/images/products/standardized/insulated-ibc-covers/01.webp": "abf57ed632f85df5c734d3fbaea5b15851e97866d981472e708704cbc45a2679",
+      "/Users/ic/Projects/yuanenbag/website-product-second-batch/public/images/products/standardized/insulated-ibc-covers/04.webp": "154df7a1f88b425da5fcd3948e0042c9a99e56700db7624e78c08262d41a3eae",
+      "/Users/ic/Projects/yuanenbag/website-product-second-batch/public/images/products/standardized/insulated-roll-cage-covers/01.webp": "c7ecf2b2a7b25c0e5e934dfe66daebf27c7cfccac4619785e58ea98d6f58e08f"
+    },
+    "imageBoundary": "General YUANEN material photography and manufacturer structure sources. No matched complete product sample photo or approved construction drawing. Exact revised cover versions require individual approval."
+  },
+  "reviewEvidence": "/Users/ic/Projects/yuanenbag/content-automation/outputs/product-second-batch-2026-11-07/verification.json"
+}

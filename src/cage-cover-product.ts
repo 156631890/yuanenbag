@@ -88,9 +88,9 @@ export const cageCoverImages:ProductImage[]=[
     "file": "standardized/insulated-roll-cage-covers/01.webp",
     "kind": "visualization",
     "label": {
-      "en": "Closed reflective cover above free castors",
-      "zh": "闭合反射面罩体与外露脚轮",
-      "es": "Funda cerrada con ruedas libres"
+      "en": "Open curtain, cartons and free castors",
+      "zh": "前帘打开、箱装货物与外露脚轮",
+      "es": "Cortina abierta, cajas y ruedas libres"
     }
   },
   {

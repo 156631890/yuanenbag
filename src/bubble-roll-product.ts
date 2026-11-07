@@ -88,18 +88,18 @@ export const bubbleRollImages:ProductImage[]=[
     "file": "standardized/foil-bubble-insulation-rolls/01.webp",
     "kind": "visualization",
     "label": {
-      "en": "Reflective roll with a short unrolled sheet",
-      "zh": "反射面卷材与展开片段",
-      "es": "Rollo reflectante con un tramo desplegado"
+      "en": "Roll with a turned-back bubble corner",
+      "zh": "卷材与反折露出的气泡背面",
+      "es": "Rollo con esquina de burbujas doblada"
     }
   },
   {
     "file": "standardized/foil-bubble-insulation-rolls/02.webp",
     "kind": "visualization",
     "label": {
-      "en": "Two samples showing reflective face and bubble reverse",
-      "zh": "两片样品展示反射面与气泡背面",
-      "es": "Dos muestras con cara reflectante y reverso de burbujas"
+      "en": "One sample with a folded corner",
+      "zh": "同一张样片折角展示正反面",
+      "es": "Una muestra con la esquina doblada"
     }
   },
   {

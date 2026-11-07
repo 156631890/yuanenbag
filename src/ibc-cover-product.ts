@@ -86,9 +86,9 @@ export const ibcCover:Bag={
 }
 const imageLabels=[
   {
-    "en": "Closed reflective IBC cover with two access flaps",
-    "zh": "闭合反射面吨桶罩与两处检修翻盖",
-    "es": "Funda reflectante cerrada con dos accesos"
+    "en": "IBC cover with both access flaps open",
+    "zh": "两处检修翻盖打开的吨桶罩",
+    "es": "Funda IBC con ambas solapas abiertas"
   },
   {
     "en": "Top flap open above the closed filler cap",

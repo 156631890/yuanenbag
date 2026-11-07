@@ -79,3 +79,8 @@
   .drum-fit-compare dl{grid-template-columns:1fr}
   .drum-purchase-intro .product-quick-contact{gap:10px 14px}
 }
+
+.mailer-format-options{list-style:none;display:grid;gap:20px;padding:0;margin:24px 0}
+.mailer-format-options>li{border-top:1px solid var(--line);padding-top:18px}
+.mailer-format-options h3{font-size:17px;margin:0 0 8px}
+.mailer-format-options a{color:var(--blue);text-decoration:underline;text-underline-offset:3px}
