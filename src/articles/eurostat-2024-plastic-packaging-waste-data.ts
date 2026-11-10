@@ -40,77 +40,94 @@ const article: EditorialArticle = {
       ],
       "table": {
         "caption": {
-          "en": "Figures in the 22 October release for the 2024 EU reporting year",
-          "zh": "10月22日发布的2024年欧盟数据",
-          "es": "Cifras publicadas el 22 de octubre para el año 2024 en la UE"
+          "en": "Four measures that should not share one denominator",
+          "zh": "四种不能混用分母的统计量",
+          "es": "Cuatro medidas con denominadores distintos"
         },
         "columns": [
           {
-            "en": "Measure",
-            "zh": "指标",
-            "es": "Indicador"
+            "en": "Published measure",
+            "zh": "发布量",
+            "es": "Medida publicada"
           },
           {
-            "en": "Published figure",
-            "zh": "公布数字",
-            "es": "Cifra publicada"
+            "en": "2024 EU figure",
+            "zh": "2024年欧盟数值",
+            "es": "Dato UE 2024"
           },
           {
-            "en": "Scope",
-            "zh": "范围",
-            "es": "Alcance"
+            "en": "Meaning",
+            "zh": "含义",
+            "es": "Significado"
           }
         ],
         "rows": [
           [
             {
-              "en": "Plastic packaging waste generated",
+              "en": "All packaging generated",
+              "zh": "全部包装废弃物产生量",
+              "es": "Generación de todos los envases"
+            },
+            {
+              "en": "181.0 kg per person",
+              "zh": "181.0 kg/人",
+              "es": "181.0 kg por persona"
+            },
+            {
+              "en": "All packaging materials combined",
+              "zh": "全部包装材料合计",
+              "es": "Conjunto de materiales de envase"
+            }
+          ],
+          [
+            {
+              "en": "Plastic packaging generated",
               "zh": "塑料包装废弃物产生量",
-              "es": "Residuos de envases plásticos generados"
+              "es": "Generación de envases de plástico"
             },
             {
               "en": "35.9 kg per person",
-              "zh": "人均35.9千克",
-              "es": "35,9 kg por persona"
+              "zh": "35.9 kg/人",
+              "es": "35.9 kg por persona"
             },
             {
-              "en": "Plastic packaging, EU, 2024",
-              "zh": "塑料包装；欧盟；2024年",
-              "es": "Envases plásticos, UE, 2024"
+              "en": "Plastic category divided by population",
+              "zh": "塑料类别总量除以人口",
+              "es": "Categoría plástico dividida por población"
             }
           ],
           [
             {
-              "en": "Plastic packaging waste recycled",
-              "zh": "塑料包装废弃物回收量",
-              "es": "Residuos de envases plásticos reciclados"
+              "en": "Plastic packaging recycled",
+              "zh": "塑料包装废弃物回收再生量",
+              "es": "Envases de plástico reciclados"
             },
             {
               "en": "15.3 kg per person",
-              "zh": "人均15.3千克",
-              "es": "15,3 kg por persona"
+              "zh": "15.3 kg/人",
+              "es": "15.3 kg por persona"
             },
             {
-              "en": "Plastic packaging, EU, 2024",
-              "zh": "塑料包装；欧盟；2024年",
-              "es": "Envases plásticos, UE, 2024"
+              "en": "Recycled plastic packaging quantity per person",
+              "zh": "每人的塑料包装回收再生量",
+              "es": "Cantidad reciclada por persona"
             }
           ],
           [
             {
-              "en": "Plastic-packaging recycling rate",
-              "zh": "塑料包装回收率",
-              "es": "Tasa de reciclado de envases plásticos"
+              "en": "Published plastic recycling rate",
+              "zh": "公布的塑料包装回收再生率",
+              "es": "Tasa publicada de reciclaje de plástico"
             },
             {
               "en": "42.4%",
               "zh": "42.4%",
-              "es": "42,4%"
+              "es": "42.4%"
             },
             {
-              "en": "Published rate, not recycled content in a product",
-              "zh": "公布的回收率，不是某产品的再生料含量",
-              "es": "Tasa publicada, no contenido reciclado de un producto"
+              "en": "The reported plastic-packaging rate, not a product’s recycled-content share",
+              "zh": "塑料包装统计回收率，不是某件产品的再生含量",
+              "es": "Tasa de envases plásticos, no contenido reciclado de un producto"
             }
           ]
         ]
@@ -132,6 +149,25 @@ const article: EditorialArticle = {
           "en": "The same news item reports 181.0 kg per person for all packaging materials combined. That is a different scope from the 35.9 kg plastic-packaging figure. Neither measure is a search-demand estimate, a product test or an instruction for handling an individual material.",
           "zh": "同一新闻中的人均181.0千克对应所有包装材料合计，与35.9千克塑料包装数字的范围不同。两者都不是搜索需求估算、产品测试或单件材料的处理说明。",
           "es": "La misma noticia indica 181,0 kg por persona para el conjunto de materiales de envase, un alcance distinto de los 35,9 kg de plástico. Ninguna cifra es demanda de búsqueda, ensayo de producto ni instrucción de manejo de un material individual."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Use a separate denominator for a product claim",
+        "zh": "产品声明需要自己的分母",
+        "es": "Una declaración de producto necesita otro denominador"
+      },
+      "paragraphs": [
+        {
+          "en": "A proposed recycled-content claim needs the specified component or finished pack, the mass basis and the evidence for that supplied material. It cannot borrow an EU waste-management rate. For a composite liner, identify whether the record covers the liner alone, an outer box, coolant packaging or the complete shipment. Changing that boundary changes the question even when the label still says “packaging”.",
+          "zh": "拟用的再生含量声明，需要明确部件或成品、质量口径及所供材料依据，不能借用欧盟废弃物处理回收率。对复合内衬，要先确认记录涵盖内衬、外箱、冷媒包装还是整套货件；边界变了，即使仍称“包装”，问题也不同。",
+          "es": "Una declaración de contenido reciclado requiere componente o conjunto, base de masa y evidencia del material suministrado. No puede tomar prestada una tasa europea de gestión de residuos. En un revestimiento compuesto, delimite si incluye caja, refrigerantes o todo el envío; cambiar el límite cambia la pregunta."
+        },
+        {
+          "en": "For a time comparison, keep the year, territory and calculation basis with the figures. This revision retains the news release’s published values and its note about the 2020 methodology change; it does not use rounded per-person values to replace the reported rate or infer a trend for YUANEN enquiries.",
+          "zh": "作时间比较时，年份、地区和计算口径应与数值一起保存。本次保留原新闻公布值及2020年口径调整说明，不用四舍五入的人均值替换发布回收率，也不据此推断远恩询盘趋势。",
+          "es": "Para comparar años, conserve territorio y metodología. Mantenemos valores publicados y la nota sobre el cambio metodológico de 2020; no sustituimos la tasa con cantidades redondeadas ni inferimos tendencias de consultas a YUANEN."
         }
       ]
     },
@@ -180,6 +216,14 @@ const article: EditorialArticle = {
       "publishedAt": "2026-10-22"
     },
     {
+      "url": "https://ec.europa.eu/eurostat/web/waste/database?node_code=env_waspac",
+      "title": {
+        "en": "Eurostat waste database, env_waspac",
+        "zh": "Eurostat废弃物数据库env_waspac",
+        "es": "Base de residuos Eurostat, env_waspac"
+      }
+    },
+    {
       "title": {
         "en": "YUANEN foil insulated box liners and quotation scope",
         "zh": "远恩保温箱内衬及报价范围",
@@ -204,6 +248,7 @@ const article: EditorialArticle = {
       "zh": "通用包装薄膜边角料画面，不展示经测量的废物流或回收结果。",
       "es": "Recortes genéricos de película; no se representa un flujo de residuos medido ni un resultado de reciclado."
     }
-  }
+  },
+  "updatedAt": "2026-11-10"
 }
 export default article

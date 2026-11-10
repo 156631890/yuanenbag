@@ -15360,5 +15360,209 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-10-batch02/catering-level-entry-cover.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/9b4198b1d3ca-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/6686a9094b84-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/b39c842c261e-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/dd08df0022fd-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/0427acc1eab5-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/95e5ab69f6c1-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/86be232453e3-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-10-batch02/catering-opening-detail.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/720fcc77c5ad-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/79d69ca59cd3-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/fcef418e23cc-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/b3ff075446b4-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/bd4ac774d2e8-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/ce1f662722a4-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/de517e132ed4-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-10-batch02/temperpack-cushioning-cover.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/1ef5db83e151-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/a9c1898af3a1-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/d358908bfd71-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/42f627d9d7de-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/612d7cbc7bbe-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/ef721c0a77b2-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/7ae8865456f1-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-10-batch02/eps-empty-lid-reference.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/fe0a959d3837-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/ade3740a915f-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/9b1c303a57d5-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/282d30b3c48e-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/dd079ac5998a-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/8b50a4cb8780-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/2f85a03fd4ed-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-10-batch02/eps-loaded-clearance.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/0c145f6de7fe-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/1d2b404d0b17-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/9dc673b4ee47-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/7fc53838cf91-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/db4ff91ea92b-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/9786bd5f92b9-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/84702c571aa9-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-10-batch02/solid-board-tray-cover.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/fdb02a567681-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/cdd192f25121-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/d6f2aa00d74f-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/4f8e04af9c1f-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/cd650cf695af-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/769bd416836f-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/1f71f7cb7cd6-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

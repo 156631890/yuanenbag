@@ -41,6 +41,25 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
+        "en": "A heating claim belongs to a specified combination",
+        "zh": "加热主张应对应指定组合",
+        "es": "La aptitud para calentar corresponde a una combinación"
+      },
+      "paragraphs": [
+        {
+          "en": "Treat the board tray, its barrier facing and the lidding film as distinct specification objects, then ask which assembled version the supplier’s instructions cover. The range’s stated microwave, oven and air-fryer applications do not establish one common instruction for every film, meal or appliance. Retain the selected product reference, meal condition and preparation directions together.",
+          "zh": "把纸板盘、阻隔面层和封盖膜视为不同规格对象，再核实供应商说明覆盖的是哪一成品组合。系列所列微波炉、烤箱及空气炸锅用途，不等于所有膜、食品和设备共用一套说明。应把所选产品编号、食品状态及加热指引一起保存。",
+          "es": "Distinga cartoncillo, barrera y tapa y compruebe qué conjunto cubren las instrucciones. Las aplicaciones declaradas para microondas, horno y freidora de aire no definen una instrucción universal para cualquier película, comida o aparato. Conserve referencia, estado de comida e instrucciones juntos."
+        },
+        {
+          "en": "Follow the selected pack’s instructions on whether a film remains, is vented or is removed; do not invent a general step from the range name. If the lidding material changes, ask which sealing and heating evidence must be reviewed again. A photograph of a closed tray cannot establish a modified atmosphere, seal integrity or shelf life.",
+          "zh": "膜是否保留、排气或去除，应服从指定包装说明，不能从系列名称推导通用步骤。换封盖材料时，应问清哪些封合及加热依据需要重核。封闭餐盘照片也不能证明气调状态、密封完整性或货架期。",
+          "es": "Siga las instrucciones del conjunto sobre conservar, ventilar o retirar la película; no deduzca un paso universal del nombre. Si cambia la tapa, revise evidencia de sellado y calentamiento. Una foto cerrada no acredita atmósfera modificada, integridad del sello ni vida útil."
+        }
+      ]
+    },
+    {
+      "heading": {
         "en": "Keep three sets of purchasing records matched",
         "zh": "将三组采购资料对应起来",
         "es": "Vincule tres grupos de documentación"
@@ -106,18 +125,19 @@ const article: EditorialArticle = {
   ],
   "relatedProducts": [],
   "image": {
-    "file": "images/editorial/2026-11-06-news-cover-revisions/fiber-meal-tray-and-clear-lidding-film.webp",
+    "file": "images/editorial/2026-11-10-batch02/solid-board-tray-cover.webp",
     "kind": "illustration",
     "alt": {
-      "en": "A fiber tray holding a meal beneath clear film on a metal counter.",
-      "zh": "金属台面上的纸基餐盒装有餐食，盒口覆盖透明薄膜。",
-      "es": "Una bandeja de fibra con comida cubierta por una película transparente sobre una encimera metálica."
+      "en": "Empty folded paperboard meal tray with a loose transparent film sheet over part of its flange.",
+      "zh": "空的折叠纸板餐盘，透明膜片松放在部分盘沿上。",
+      "es": "Bandeja vacía de cartoncillo plegado con película transparente suelta sobre parte del reborde."
     },
     "caption": {
-      "en": "A generic fiber tray shows where the clear lidding film meets the rim.",
-      "zh": "通用纸基餐盒展示透明封口膜与盒缘的接触位置。",
-      "es": "Una bandeja genérica de fibra muestra dónde se unen la película de cierre transparente y el borde."
+      "en": "Generic board, tray flange and loose film illustrate separate specification objects. This is not a Solidus sample or a sealed MAP pack and establishes no heating, food-contact or recycling approval.",
+      "zh": "通用纸板、盘沿和松放膜片用来区分规格对象；这不是Solidus样品或已封合气调包装，不证明加热、食品接触或回收适用性。",
+      "es": "Cartoncillo, reborde y película suelta distinguen objetos de especificación. No es una muestra de Solidus ni un envase MAP sellado; no acredita aptitud para calor, contacto alimentario o reciclaje."
     }
-  }
+  },
+  "updatedAt": "2026-11-10"
 }
 export default article

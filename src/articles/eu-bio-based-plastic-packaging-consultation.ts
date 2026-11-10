@@ -36,6 +36,30 @@ const article: EditorialArticle = {
           "en": "The announcement opens an evidence-gathering process. It does not itself establish a new mandatory bio-based percentage or certify a supplier’s packaging. Treat any proposed material substitution as an unresolved purchasing change until its own specification and evidence are reviewed.",
           "zh": "本公告开启的是证据征集程序，本身没有确立新的强制生物基比例，也没有给供应商包装发证。采购中提出的材料替换，在相应规格与证据完成核对前，应保留为未决变更。",
           "es": "El anuncio inicia una recogida de pruebas. No establece por sí mismo un nuevo porcentaje biológico obligatorio ni certifica envases de un proveedor. Mantenga cualquier sustitución propuesta como cambio pendiente hasta revisar su especificación y pruebas."
+        },
+        {
+          "en": "The official Have Your Say entry checked for this revision lists a consultation period of 21 October 2026 to 13 January 2027, ending at midnight Brussels time, and an online questionnaire. Article 8 of the PPWR gives the Commission a review task; possible later legislative measures are separate from approval of a material in a current order.",
+          "zh": "本次修订核对的Have Your Say官方入口列明征询期为2026年10月21日至2027年1月13日，截止为布鲁塞尔时间午夜，并提供在线问卷。PPWR第8条给委员会设定的是审查任务，可能的后续立法措施，与当前订单材料能否获接受是不同问题。",
+          "es": "La entrada oficial revisada indica del 21 de octubre de 2026 al 13 de enero de 2027, hasta medianoche en Bruselas, y enlaza un cuestionario. El artículo 8 encarga una revisión a la Comisión; posibles medidas posteriores y aceptación de un material en un pedido actual son cuestiones distintas."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Useful feedback describes the evidence and its limits",
+        "zh": "有用反馈要说明依据及其边界",
+        "es": "Una aportación útil describe evidencia y límites"
+      },
+      "paragraphs": [
+        {
+          "en": "A packaging business considering a response can distinguish feedstock availability, the part of a pack affected, functional results with their conditions and the proposed method of verifying a claim. If the evidence concerns only one layer, say so. A missing measurement should remain a named gap, not be entered as zero or replaced with an unsupported claim about the complete package.",
+          "zh": "考虑反馈的包装企业，可分别说明原料可获得性、影响哪个包装部件、带条件的功能结果，以及拟采用的声明核验方法。依据若只覆盖某一层，应明确说明；缺测量就标为缺口，不能填0，也不能改写成整套包装的无依据声明。",
+          "es": "Una empresa que aporte comentarios puede separar disponibilidad de materia prima, componente afectado, resultados funcionales con condiciones y verificación propuesta. Si la evidencia solo cubre una capa, indíquelo. La falta de medición es un dato pendiente, no un cero ni una afirmación sobre todo el envase."
+        },
+        {
+          "en": "For a purchasing change, keep the old specification and the proposed one side by side. If only feedstock origin changes, ask which composition, dimensions and supporting reports remain applicable. If the construction also changes, re-open the sample and pack-out review. The consultation does not supply that product evidence for the supplier.",
+          "zh": "用于采购变更时，把旧规格与拟用规格并排保存。若只改变原料来源，应问清哪些组成、尺寸和报告仍适用；若结构也变，则重新核样品及装箱组合。征询过程不会替供应商提供这些产品依据。",
+          "es": "Para cambiar una compra, conserve especificaciones anterior y propuesta juntas. Si solo cambia el origen, aclare qué composición, dimensiones e informes siguen siendo aplicables. Si cambia construcción, revise otra vez muestra y embalaje. La consulta no aporta esa evidencia por el proveedor."
         }
       ]
     },
@@ -110,6 +134,14 @@ const article: EditorialArticle = {
       "publishedAt": "2026-10-21"
     },
     {
+      "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/19498-Plastic-packaging-containing-biobased-feedstock-EU-rules/public-consultation_en",
+      "title": {
+        "en": "Official consultation entry and response route",
+        "zh": "官方征询入口及反馈路径",
+        "es": "Entrada oficial y vía de respuesta a la consulta"
+      }
+    },
+    {
       "title": {
         "en": "YUANEN foil insulated box liners and packing boundaries",
         "zh": "远恩铝箔保温箱内衬及装箱边界",
@@ -134,6 +166,7 @@ const article: EditorialArticle = {
       "zh": "通用透明薄膜；外观不能证明原料来源或环境属性。",
       "es": "Película transparente genérica; el aspecto no acredita el origen de la materia prima ni propiedades ambientales."
     }
-  }
+  },
+  "updatedAt": "2026-11-10"
 }
 export default article
