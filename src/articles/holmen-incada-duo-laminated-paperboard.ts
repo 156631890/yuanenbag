@@ -3,7 +3,7 @@ const article: EditorialArticle = {
   "kind": "industry",
   "slug": "holmen-incada-duo-laminated-paperboard",
   "publishedAt": "2026-10-30",
-  "eventDate": "2026-10-27",
+  "eventDate": "2026-10-23",
   "market": {
     "en": "United Kingdom production",
     "zh": "英国生产",
@@ -20,9 +20,9 @@ const article: EditorialArticle = {
     "es": "Holmen presenta Incada Duo en una publicación pública. Distinga la selección del cartoncillo, la caja transformada y la bolsa exterior de reparto."
   },
   "intro": {
-    "en": "In a company post published on 27 October 2026, Holmen Board and Paper presented Incada Duo as a UK-produced laminated folding box board for higher-caliper packaging. That date refers to the public post; the exact initial product-launch day is not established here.",
-    "zh": "Holmen Board and Paper在2026年10月27日发布的企业公开帖文中，介绍了面向较高厚度包装的英国产Incada Duo复合折叠纸板。该日期指公开帖文发布日期；本篇没有确立产品最初上市的确切日期。",
-    "es": "En una publicación de empresa del 27 de octubre de 2026, Holmen Board and Paper presentó Incada Duo como cartoncillo laminado para cajas plegables de mayor espesor, producido en el Reino Unido. La fecha corresponde a esa publicación; aquí no se establece el día exacto del lanzamiento inicial."
+    "en": "Holmen’s official announcement of 23 October 2026 introduces Incada Duo, a UK-produced laminated folding boxboard, in a stated 430–710 gsm range. This earlier primary release clarifies the date previously taken from a 27 October company post. It describes a board product, not a finished insulated carrier.",
+    "zh": "Holmen于2026年10月23日的官方公告介绍英国生产的层合折叠纸板Incada Duo，公布克重范围为430–710 gsm。这份更早的一手公告修正了旧文按10月27日企业帖文记录的公告日期，所述对象是纸板，不是成品保温提袋。",
+    "es": "El anuncio oficial de Holmen del 23 de octubre de 2026 presenta Incada Duo, cartoncillo plegable laminado producido en Reino Unido, con rango declarado de 430–710 gsm. Esta fuente anterior precisa la fecha antes tomada de una publicación del día 27. Describe cartoncillo, no una bolsa térmica terminada."
   },
   "sections": [
     {
@@ -33,9 +33,9 @@ const article: EditorialArticle = {
       },
       "paragraphs": [
         {
-          "en": "Holmen says the addition extends its Incada family with a laminated construction combining multiple fiber layers. The post describes thickness and shelf presence as intended benefits. It does not provide a finished delivery-bag specification or establish that a particular converted carton has passed a buyer’s acceptance checks.",
-          "zh": "Holmen表示，该产品以多层纤维复合结构扩展了Incada系列，并将厚度与货架呈现作为预期优势。帖文没有提供成品配送袋规格，也不能确立某一加工纸盒已通过买家的验收。",
-          "es": "Holmen afirma que la incorporación amplía su familia Incada mediante una construcción laminada con varias capas de fibra. La publicación destaca el espesor y la presencia en el lineal como ventajas previstas. No aporta una especificación de bolsa de reparto ni acredita que una caja transformada concreta haya superado la aceptación del comprador."
+          "en": "Holmen describes a laminated construction combining multiple fiber layers, using baseboard from Workington and lamination in the UK. The range is a mass-per-area specification, not a thickness conversion or a finished-carton strength rating. The release presents the supplier’s product positioning; sample and converting evidence are still needed for a particular package.",
+          "zh": "Holmen称该层合结构结合多层纤维，基板来自Workington，层合在英国进行。所述范围是单位面积质量，不能换算成厚度或成品纸盒强度。公告介绍供应商产品定位，具体包装仍需样品及加工依据。",
+          "es": "Holmen describe varias capas de fibra, baseboard de Workington y laminación en Reino Unido. El rango expresa masa por superficie, no una conversión de espesor ni resistencia de caja terminada. La presentación comercial requiere todavía evidencia de muestra y conversión para cada envase."
         },
         {
           "en": "For a packaging brief, identify whether the quotation concerns board, a converted carton or an outer carrier. Each calls for a different sample or drawing. The questions below are purchasing suggestions, rather than additional Incada Duo specifications.",
@@ -63,6 +63,25 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
+        "en": "Ask for evidence at the board, carton and carrier stages",
+        "zh": "纸板、纸盒与提袋分阶段取证",
+        "es": "Pida evidencia para cartoncillo, caja y bolsa"
+      },
+      "paragraphs": [
+        {
+          "en": "For board, identify grade, selected grammage and the current technical sheet. For a converted carton, add the drawing, crease and glue construction, complete external dimensions and closed-lid shape. If that carton then goes inside a carrier, review the loaded carton’s corners, tabs and lid protrusions against the bag opening and closure. A board specification cannot answer all three stages.",
+          "zh": "纸板阶段明确牌号、所选克重和当前技术表；加工纸盒阶段补图纸、压痕及粘合结构、完整外尺寸和闭盖形态；若纸盒还要放入提袋，则用装好后的纸盒边角、插舌和盒盖突出部分检查袋口及封口。纸板规格不能回答这三个阶段的全部问题。",
+          "es": "Para cartoncillo, identifique grado, gramaje y ficha vigente. Para caja convertida, añada plano, hendidos, encolado y dimensiones exteriores cerradas. Si entra en una bolsa, compruebe esquinas, pestañas y salientes contra boca y cierre. La ficha del material no resuelve las tres etapas."
+        },
+        {
+          "en": "If a board substitution changes a carton’s fold or external envelope, repeat the carrier fit check even when the printed panel dimensions look unchanged. If only a graphic changes, establish whether the converting geometry remains the same before asking for a different bag size. These are purchasing checks, not test results reported by Holmen.",
+          "zh": "更换纸板若改变纸盒折叠或外廓，即使印刷面尺寸看似相同，也应重查提袋适配；若只改图案，应先确认加工几何未变，再决定是否改袋尺寸。这些是采购检查建议，不是Holmen报告的测试结果。",
+          "es": "Si la sustitución cambia plegado o envolvente exterior, repita el ajuste en bolsa aunque el panel impreso parezca igual. Si solo cambia el gráfico, confirme que la geometría sigue igual antes de cambiar la bolsa. Son comprobaciones de compra, no resultados de Holmen."
+        }
+      ]
+    },
+    {
+      "heading": {
         "en": "A paper insulated carrier remains a separate specification",
         "zh": "纸基保温外袋仍需独立规格",
         "es": "La bolsa térmica de papel requiere su propia especificación"
@@ -83,13 +102,13 @@ const article: EditorialArticle = {
   ],
   "sources": [
     {
+      "url": "https://www.holmen.com/en/board-and-paper/about-us/news-and-press-releases/holmen-launches-new-incada-duo/",
+      "publishedAt": "2026-10-23",
       "title": {
-        "en": "Holmen Board and Paper public company post, 27 October 2026",
-        "zh": "Holmen Board and Paper企业公开帖文，2026年10月27日",
-        "es": "Publicación de Holmen Board and Paper, 27 de octubre de 2026"
-      },
-      "url": "https://www.linkedin.com/posts/holmen-board-and-paper_press-release-holmen-launches-new-incada-activity-7520778360286015490-hsws",
-      "publishedAt": "2026-10-27"
+        "en": "Holmen official Incada Duo announcement, 23 October 2026",
+        "zh": "Holmen官方Incada Duo公告，2026年10月23日",
+        "es": "Anuncio oficial de Incada Duo, 23 de octubre de 2026"
+      }
     },
     {
       "title": {
@@ -112,18 +131,19 @@ const article: EditorialArticle = {
     "paper-insulated-delivery-bags"
   ],
   "image": {
-    "file": "images/editorial/2026-10-30/board-carton-carrier-stages.webp",
+    "file": "images/editorial/2026-11-10-batch01/holmen-cover.webp",
     "kind": "illustration",
     "alt": {
-      "en": "Flat pale board sheets, a closed plain folding carton and an open kraft carrier with short paper handles, labelled BOARD, CARTON and CARRIER",
-      "zh": "浅色平纸板、闭合的素面折叠纸盒，以及短纸提手敞口牛皮纸袋，分别标有BOARD、CARTON和CARRIER",
-      "es": "Hojas claras de cartoncillo, una caja plegable lisa cerrada y una bolsa kraft abierta con asas cortas, rotuladas BOARD, CARTON y CARRIER"
+      "en": "Stack of white paperboard sheets beside an unprinted folding carton.",
+      "zh": "白色纸板堆旁放着无印刷折叠纸盒。",
+      "es": "Pila de cartoncillo blanco junto a una caja plegable sin imprimir."
     },
     "caption": {
-      "en": "Generic purchasing forms: board, converted carton and outer carrier. They are not Holmen samples, an assembly sequence or a supplied kit; no fit or performance is established.",
-      "zh": "通用采购对象：纸板、加工纸盒与外层搬运袋。不是Holmen样品、组装顺序或供货套装，不确立适配或性能。",
-      "es": "Objetos de compra genéricos: cartoncillo, caja transformada y bolsa exterior. No son muestras de Holmen, secuencia de montaje ni conjunto suministrado; no acreditan ajuste ni rendimiento."
+      "en": "Generic board and converted-carton relationship. These objects do not identify an Incada Duo sample, its layer count or certification.",
+      "zh": "用通用纸板和纸盒说明原料与成品的关系；不表示Incada Duo样品、层数或认证。",
+      "es": "Relación genérica entre cartoncillo y caja; no identifica una muestra de Incada Duo, sus capas ni certificación."
     }
-  }
+  },
+  "updatedAt": "2026-11-10"
 }
 export default article

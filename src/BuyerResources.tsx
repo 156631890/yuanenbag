@@ -1,5 +1,5 @@
 import { useId } from 'react'
-import { guideImages } from './guide-images'
+import { guideImages, guideImageAlts } from './guide-images'
 import { ArrowUpRight, Plus } from 'lucide-react'
 import { faq, guides, steps, tx, type Lang } from './data'
 import { href } from './routes'
@@ -62,7 +62,7 @@ export function ProcessSection({ lang }: Props) {
 
 export function GuideCards({ lang }: Props) {
   return <div className="buyer-guides">{guides.map((guide, i) => <a key={guide.slug} className={`buyer-guide ${guides.length === 3 && i === 0 ? 'buyer-guide-featured' : ''}`} href={href(`/guides/${guide.slug}/`, lang)}>
-    <div className="buyer-guide-photo"><img src={`${import.meta.env.BASE_URL}${guideImages[guide.slug]}`} {...responsiveImage(guideImages[guide.slug],'(max-width:520px) calc(100vw - 36px), (max-width:800px) 42vw, (max-width:1150px) 21vw, 288px')} loading="lazy" alt={guide.slug === 'insulated-bag-materials' ? tx('Open mint carrier with separate material swatches', '打开的薄荷绿保温包与独立材料样片', 'Bolsa verde menta abierta con muestras separadas')[lang] : ''} /></div>
+    <div className="buyer-guide-photo"><img src={`${import.meta.env.BASE_URL}${guideImages[guide.slug]}`} {...responsiveImage(guideImages[guide.slug],'(max-width:520px) calc(100vw - 36px), (max-width:800px) 42vw, (max-width:1150px) 21vw, 288px')} loading="lazy" alt={guideImageAlts[guide.slug]?.[lang] ?? (guide.slug === 'insulated-bag-materials' ? tx('Open mint carrier with separate material swatches', '打开的薄荷绿保温包与独立材料样片', 'Bolsa verde menta abierta con muestras separadas')[lang] : '')} /></div>
     <div className="buyer-guide-copy">
       <span className="eyebrow">{guide.label[lang]}</span>
       <h3>{guide.title[lang]}</h3><p>{guide.summary[lang]}</p>

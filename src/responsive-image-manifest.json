@@ -14952,5 +14952,413 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-10-batch01/order-cover.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/d119d6987656-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/9053eb4a9b6c-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/6ded920a462b-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/871eb05b7138-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/8bb391f097e1-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/523b96042465-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/7eaa92905063-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-10-batch01/order-print-detail.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/20ac5f3c6f74-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/b92e59a76277-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/621bfdc6dd01-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/d5f5f471fd9a-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/85cfec4742d9-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/380f806c2ba9-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/40a264f365d1-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-10-batch01/handle-detail.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/1cd840b28921-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/4d5cfff6c7b5-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/89be7e944911-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/cf963ca6e290-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/bb4d78131d89-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/cb55d822e130-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/dfb353c782ec-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-10-batch01/format-cover.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/c33dea66abf0-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/ec64022162a3-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/4e6309a028f5-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/72579ccfe6cb-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/a1fb0eb2050f-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/0d5cbcc5578a-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/348aa7d68933-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-10-batch01/liner-detail.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/deb34c3dd3a8-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/2a4f85abe7b0-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/6156eaadda75-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/5226d804e10c-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/f9f6497d8242-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/6ecee6bdb519-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/a66a434c0a30-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-10-batch01/ice-cover.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/ff383e97759f-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/4d7f74a70fc8-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/4adb314102a5-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/bfb92687d4cb-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/ef699974e1ac-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/8e727dd8d1e5-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/1b445a8e011d-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-10-batch01/ice-inlet-detail.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/aaa4a0e81640-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/856fed747a1b-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/e19140b7c8f8-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/0ad90db0b663-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/4120b32657e4-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/9598ac45fbdf-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/4a549e6d1cb5-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-10-batch01/shopping-cover.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/9eb0c08dc6cb-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/7ef8f04afcb9-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/9f4f9ba00b04-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/e83fc4ac690c-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/53fc5ecbd81c-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/f6a64ec97b4c-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/63e258a9e3b0-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-10-batch01/foil-fit-detail.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/83f291740f14-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/e5a0266dedbf-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/b92a1118597d-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/9d1dbf856b5b-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/728c34081d00-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/dc90ddfac1b3-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/8253753705bc-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-10-batch01/beverage-partial-detail.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/a06adc492535-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/a9ab68a927fc-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/f0c892d45025-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/9c4042bc5de6-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/e4e8be09c8ef-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/987a3de716ef-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/45d84776cc68-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-10-batch01/hivest-cover.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/b4c163b24844-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/cfacacafd77d-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/e1a772c19d4a-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/8d8b7c2dc097-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/acf1b75b9bab-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/0ec0cec3a744-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/7493f15dd675-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-10-batch01/holmen-cover.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/726f9fca56bb-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/9310110daeca-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/049f79d28696-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/aca7f3538aef-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/b65019affa5b-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/49d8b65f9bdc-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/0dbc3a034658-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

@@ -78,6 +78,7 @@
     "kind": "guide",
     "slug": "beverage-delivery-bag-cup-divider-fit",
     "publishedAt": "2026-10-12",
+    "updatedAt": "2026-11-10",
     "title": {
       "en": "Cup Dividers in Beverage Delivery Bags Need Room for Lids and Hands",
       "zh": "饮品配送包的分隔要给杯盖和取杯留出空间",
@@ -457,15 +458,16 @@
     "kind": "industry",
     "slug": "fda-traceability-meeting-insulated-packaging-records",
     "publishedAt": "2026-10-12",
+    "updatedAt": "2026-11-10",
     "title": {
-      "en": "FDA Schedules a Lot-Level Food Traceability Meeting for 6 November",
-      "zh": "FDA将于11月6日召开食品批次追溯会议",
-      "es": "La FDA convoca una reunión sobre trazabilidad de alimentos por lotes para el 6 de noviembre"
+      "en": "FDA’s November Traceability Meeting: What Packing Records Can Establish",
+      "zh": "FDA十一月追溯会议：包装记录能说明什么",
+      "es": "Reunión de trazabilidad de la FDA: qué acreditan los registros de embalaje"
     },
     "description": {
-      "en": "An October FDA meeting notice concerns food lot-level tracking. For insulated packaging buyers, distinguish food identities, packing records and sample approvals.",
-      "zh": "FDA于10月发布食品批次追溯会议通知。保温包装采购应区分食品批次、打包关联记录和包装样品版本，不将会议通知当作包装认证。",
-      "es": "Un aviso de octubre de la FDA trata el seguimiento de lotes. Distinga identidad del alimento, registro de embalado y aprobación de muestras térmicas."
+      "en": "Review FDA’s 6 November meeting page and keep food-lot identity separate from packaging revision and closed-pack label checks.",
+      "zh": "复核FDA十一月六日会议资料，区分食品批次、包装版本及封闭包装上的标签检查。",
+      "es": "Revise la página de la reunión del 6 de noviembre y separe lote alimentario, revisión de embalaje y etiquetas del paquete cerrado."
     }
   },
   {
@@ -624,6 +626,7 @@
     "kind": "industry",
     "slug": "hivest-sustana-recycled-paper-acquisition",
     "publishedAt": "2026-10-30",
+    "updatedAt": "2026-11-10",
     "title": {
       "en": "Hivest Acquires Recycled-Fiber and Paper Producer Sustana",
       "zh": "Hivest完成收购再生纤维与纸张生产商Sustana",
@@ -639,6 +642,7 @@
     "kind": "industry",
     "slug": "holmen-incada-duo-laminated-paperboard",
     "publishedAt": "2026-10-30",
+    "updatedAt": "2026-11-10",
     "title": {
       "en": "Holmen Presents UK-Made Incada Duo Laminated Paperboard",
       "zh": "Holmen介绍英国产Incada Duo复合折叠纸板",
@@ -942,6 +946,7 @@
     "kind": "guide",
     "slug": "insulated-shopping-bags-frozen-food",
     "publishedAt": "2026-10-07",
+    "updatedAt": "2026-11-10",
     "title": {
       "en": "Choosing an Insulated Shopping Bag for Frozen Food Pickup",
       "zh": "冷冻食品自提时，保温购物袋该怎么选",
@@ -1335,6 +1340,7 @@
     "kind": "guide",
     "slug": "self-seal-foil-bag-size-flap-fit",
     "publishedAt": "2026-10-09",
+    "updatedAt": "2026-11-10",
     "title": {
       "en": "Read Self-Seal Foil Bag Dimensions Before Packing a Food Box",
       "zh": "餐盒选袋前，先分清自粘铝箔袋的袋身和折口尺寸",
@@ -1487,6 +1493,7 @@
     "kind": "guide",
     "slug": "tote-handle-drop-measurement-reference",
     "publishedAt": "2026-11-02",
+    "updatedAt": "2026-11-10",
     "title": {
       "en": "Specify Tote Handle Drop Separately from Strap Length",
       "zh": "午餐袋提手净高与织带总长，应分别确认",

@@ -46,6 +46,25 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
+        "en": "Ask which purchasing reference changed",
+        "zh": "追问改变的是哪一个采购对象",
+        "es": "Pregunte qué referencia de compra ha cambiado"
+      },
+      "paragraphs": [
+        {
+          "en": "An ownership notice can trigger a document review without triggering a material substitution. Start with the supplier’s actual response. If only the owner changes, keep the approved grade and sample identifiers. If a different grade is offered, request the new layer specification and converted sample before comparing it. If the contracting or shipping party changes, separately confirm the quotation, delivery terms and order documents.",
+          "zh": "所有权公告可以触发资料复核，却不必自动触发材料替换。先看供应商实际答复：只有股东变化时，保留确认牌号及样品编号；另推新牌号时，先取新层材规格与加工样品再比较；合同或发货主体变化时，则另核报价、交货条款及订单文件。",
+          "es": "Una noticia de propiedad puede activar revisión documental sin sustituir material. Si solo cambia el propietario, conserve grado y muestra aprobados. Si ofrecen otro grado, pida especificación y muestra convertida. Si cambia la parte contratante o expedidora, confirme por separado oferta, entrega y documentos."
+        },
+        {
+          "en": "This distinction avoids two opposite mistakes: rejecting an unchanged specification solely because its owner changed, or accepting a new finished-pack construction because it carries a familiar producer name. Hivest’s announcement reports no order-specific replacement grade or verified price, lead-time or performance improvement. Obtain that evidence from the party supplying your order.",
+          "zh": "这样可避免两类误判：因股东变化就否定未变的规格，或因熟悉的生产商名称就接受新成品结构。Hivest公告未给出具体订单替代牌号，也未证明价格、交期或性能改善；这些依据应向实际供货方取得。",
+          "es": "Así evita rechazar una especificación sin cambios por su nuevo dueño o aceptar otra construcción por un nombre conocido. El anuncio no identifica sustituciones para pedidos ni mejoras verificadas de precio, plazo o prestaciones. Pida esa evidencia a su proveedor real."
+        }
+      ]
+    },
+    {
+      "heading": {
         "en": "Keep ownership changes distinct from a packaging substitution",
         "zh": "把所有权变化与包装替换分开核对",
         "es": "Distinga un cambio de propiedad de una sustitución del envase"
@@ -100,18 +119,19 @@ const article: EditorialArticle = {
     "paper-insulated-delivery-bags"
   ],
   "image": {
-    "file": "images/editorial/2026-10-30/owner-layer-pack-records.webp",
+    "file": "images/editorial/2026-11-10-batch01/hivest-cover.webp",
     "kind": "illustration",
     "alt": {
-      "en": "Three cards labelled OWNER, LAYER and PACK, with building, layered-sheet and document icons connected by question marks",
-      "zh": "三张分别标有OWNER、LAYER和PACK的卡片，以建筑、层材和文件图标及问号连接",
-      "es": "Tres tarjetas OWNER, LAYER y PACK con iconos de edificio, capas y documento conectados por interrogantes"
+      "en": "Unbranded paper roll and a stack of white paper sheets on a conversion bench.",
+      "zh": "加工台上的无品牌纸卷和白色纸张堆。",
+      "es": "Bobina sin marca y pila de hojas blancas sobre una mesa de conversión."
     },
     "caption": {
-      "en": "Generic record-scope diagram: identify the entity, material grade and sample separately. It depicts no company documents or product cross-section.",
-      "zh": "通用资料范围关系图：分别识别主体、材料牌号与样品；不是企业文件或产品剖面。",
-      "es": "Relación genérica entre registros: identifique entidad, grado y muestra por separado. No representa documentos de empresa ni una sección de producto."
+      "en": "Generic paper-converting subject, not a Sustana facility, product sample or record of the acquisition.",
+      "zh": "通用纸加工题材，不是Sustana工厂、产品样品或收购现场。",
+      "es": "Tema genérico de conversión de papel; no es una planta, muestra de Sustana ni registro de la operación."
     }
-  }
+  },
+  "updatedAt": "2026-11-10"
 }
 export default article

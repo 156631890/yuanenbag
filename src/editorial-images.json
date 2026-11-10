@@ -328,19 +328,19 @@
     }
   },
   "hivest-sustana-recycled-paper-acquisition": {
-    "file": "images/editorial/2026-10-30/owner-layer-pack-records.webp",
+    "file": "images/editorial/2026-11-10-batch01/hivest-cover.webp",
     "alt": {
-      "en": "Three cards labelled OWNER, LAYER and PACK, with building, layered-sheet and document icons connected by question marks",
-      "zh": "三张分别标有OWNER、LAYER和PACK的卡片，以建筑、层材和文件图标及问号连接",
-      "es": "Tres tarjetas OWNER, LAYER y PACK con iconos de edificio, capas y documento conectados por interrogantes"
+      "en": "Unbranded paper roll and a stack of white paper sheets on a conversion bench.",
+      "zh": "加工台上的无品牌纸卷和白色纸张堆。",
+      "es": "Bobina sin marca y pila de hojas blancas sobre una mesa de conversión."
     }
   },
   "holmen-incada-duo-laminated-paperboard": {
-    "file": "images/editorial/2026-10-30/board-carton-carrier-stages.webp",
+    "file": "images/editorial/2026-11-10-batch01/holmen-cover.webp",
     "alt": {
-      "en": "Flat pale board sheets, a closed plain folding carton and an open kraft carrier with short paper handles, labelled BOARD, CARTON and CARRIER",
-      "zh": "浅色平纸板、闭合的素面折叠纸盒，以及短纸提手敞口牛皮纸袋，分别标有BOARD、CARTON和CARRIER",
-      "es": "Hojas claras de cartoncillo, una caja plegable lisa cerrada y una bolsa kraft abierta con asas cortas, rotuladas BOARD, CARTON y CARRIER"
+      "en": "Stack of white paperboard sheets beside an unprinted folding carton.",
+      "zh": "白色纸板堆旁放着无印刷折叠纸盒。",
+      "es": "Pila de cartoncillo blanco junto a una caja plegable sin imprimir."
     }
   },
   "ibc-cover-cap-valve-access-layout": {
@@ -496,11 +496,11 @@
     }
   },
   "insulated-shopping-bags-frozen-food": {
-    "file": "images/editorial/2026-10-30-cover-repairs/insulated-shopping-bags-frozen-food.webp",
+    "file": "images/editorial/2026-11-10-batch01/shopping-cover.webp",
     "alt": {
-      "en": "Blue metallic grocery tote with gold handles beside two white packages and a coolant pack",
-      "zh": "蓝色金属质感购物保温袋配金色提手，旁边放两个白色包装和一个冷媒包",
-      "es": "Bolsa de compra azul metalizada con asas doradas junto a dos paquetes blancos y un acumulador"
+      "en": "Open blue-and-gold shopping tote with two closed containers and one white coolant pouch.",
+      "zh": "蓝金色购物袋打开，内放两个带盖容器及一个白色冷媒袋。",
+      "es": "Bolsa azul y dorada abierta con dos recipientes cerrados y una bolsa refrigerante blanca."
     }
   },
   "insulation-laminate-bond-report-scope": {

@@ -27,16 +27,30 @@ const article: EditorialArticle = {
       },
       "paragraphs": [
         {
-          "en": "For the dimensional brief shown here, agree a straight vertical distance from the selected top edge of the bag opening to the highest inside point of the raised handle loop. The drawing marks those references B and A. It shows the opening between them, with no measured size or universal fit recommendation.",
-          "zh": "本文的尺寸简报采用一条垂直直线：从选定的袋口上沿，到提手环抬起后内侧的最高点。图中分别以B和A标明这两个参考位置，展示两者之间的净空，不提供实测尺寸或通用适配建议。",
-          "es": "Para esta especificación dimensional, acuerde una distancia vertical desde el borde superior elegido de la abertura hasta el punto interior más alto del asa levantada. El dibujo identifica esos puntos como B y A. Muestra el espacio entre ellos, sin medidas reales ni recomendaciones universales de ajuste."
+          "en": "Agree a straight vertical distance from the selected top edge of the bag opening to the highest inside point of the raised loop. Name both reference points on the measurement record. The image shows the geometry but has no A/B markers or measured dimension.",
+          "zh": "约定从选定袋口上沿到抬起提手环内侧最高点的垂直距离，并在测量记录中写明两个参考点。图片用于观察结构，没有A/B标记或实测尺寸。",
+          "es": "Acuerde la distancia vertical entre el borde superior elegido de la boca y el punto interior más alto del asa levantada. Identifique ambos puntos en el registro. La imagen muestra la geometría, sin marcas A/B ni una medida."
         },
         {
           "en": "The webbing length follows the handle material rather than that straight line. Ask whether the supplier’s quoted length includes the parts stitched onto the body, hidden ends or only a stated free section. A stitched-down segment below the rim is not part of the vertical opening above it. Do not obtain the drop by simply halving a handle-length quotation.",
           "zh": "织带长度沿提手材料的路径计算，并非上述直线。应询问供应方的报价长度是否包含缝在袋身上的部分、隐藏端部，还是仅指某段自由长度。袋口以下的贴身缝合段不属于上方的垂直净空，因此不能直接把报价的提手长度除以二当作净高。",
           "es": "La longitud de la cinta sigue el material del asa, no esa línea recta. Pregunte si la longitud cotizada incluye las partes cosidas al cuerpo, extremos ocultos o solo un tramo libre definido. Un tramo cosido bajo el borde no forma parte de la apertura vertical sobre él. No obtenga la altura libre dividiendo simplemente por dos la longitud cotizada."
         }
-      ]
+      ],
+      "image": {
+        "file": "images/editorial/2026-11-10-batch01/handle-detail.webp",
+        "kind": "illustration",
+        "alt": {
+          "en": "Raised yellow handle loop with webbing continuing below the bag rim.",
+          "zh": "黄色提手环抬起，织带延伸至袋口以下。",
+          "es": "Asa amarilla levantada con cinta que continúa por debajo del borde."
+        },
+        "caption": {
+          "en": "Compare the vertical opening above the selected rim with the material path down the body. This view supplies no measured handle dimension.",
+          "zh": "比较选定袋口以上的垂直净空与沿袋身延伸的织带路径；此图不提供实测尺寸。",
+          "es": "Compare el espacio vertical sobre el borde elegido con el recorrido de la cinta por el cuerpo; la vista no aporta una medida."
+        }
+      }
     },
     {
       "heading": {
@@ -61,13 +75,32 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
+        "en": "Use one repeatable setup to resolve a mismatch",
+        "zh": "用可重复的状态处理尺寸不一致",
+        "es": "Resuelva discrepancias con un montaje repetible"
+      },
+      "paragraphs": [
+        {
+          "en": "Lay the empty bag on a defined support, close or open it as agreed and raise the chosen loop without stretching it. Record the support, rim reference and tape position in a photo. Repeat the same setup on the sample and drawing. If the figures differ, first check the reference and whether a curved material path was measured; changing the stated drop before resolving that difference can create a second specification error.",
+          "zh": "空袋放在约定支撑面上，按约定开闭袋口，抬起指定提手环但不拉伸；用照片记录支撑、袋口基准及量尺位置。样品与图纸采用同一状态。数据不一致时，先核对基准及是否误量了弯曲织带路径，不应直接改净高数值，否则可能再造成一次规格错误。",
+          "es": "Apoye la bolsa vacía según lo acordado, abra o cierre la boca y levante el asa sin estirarla. Fotografíe apoyo, referencia y posición de cinta. Repita el montaje en muestra y plano. Si difieren, compruebe primero referencias y recorrido curvo; cambiar el dato sin aclararlo puede crear otro error."
+        },
+        {
+          "en": "After dimensions agree, assess the intended hand grip and access to the opening separately. If the zip cannot be used without moving the handles, decide whether that motion is acceptable for the operation or needs a revised attachment. A taller loop alone does not resolve every access problem and may change carrying clearance.",
+          "zh": "尺寸一致后，再单独检查握持和开口操作。若使用拉链前必须移动提手，应判断这一动作能否被实际流程接受，还是需要修改连接位置。单纯加高提手不能解决所有开口干涉，也可能改变提携净空。",
+          "es": "Con medidas acordadas, evalúe agarre y apertura por separado. Si hay que apartar las asas para usar la cremallera, decida si la operación lo admite o exige otra fijación. Aumentar el asa no resuelve toda interferencia y puede cambiar la holgura de transporte."
+        }
+      ]
+    },
+    {
+      "heading": {
         "en": "Keep dimensional agreement separate from carrying approval",
         "zh": "尺寸确认与提携确认分别处理",
         "es": "Separe dimensiones y aprobación del transporte"
       },
       "paragraphs": [
         {
-          "en": "YUANEN’s compact lunch-bag page asks buyers to agree handle drop, attachment points and zip access with a sample. It does not give a fixed handle-drop dimension or prove shoulder clearance. State the intended grip and carrying mode, any relevant clothing or gloves, and whether handles must stay clear while opening the zip. Ask for a sample review matching that use rather than approving fit from the diagram alone.",
+          "en": "YUANEN’s compact lunch-bag page asks buyers to agree handle drop, attachment points and zip access with a sample. It does not give a fixed handle-drop dimension or prove shoulder clearance. State the intended grip and carrying mode, any relevant clothing or gloves, and whether handles must stay clear while opening the zip. Ask for a sample review matching that use rather than approving fit from the image alone.",
           "zh": "远恩小型午餐袋页面要求通过样品约定提手净高、连接位置与拉链操作空间，未给出固定净高，也不证明肩背净空。应说明拟用握持和提携方式、相关衣物或手套条件，以及开拉链时提手是否需要避让。适配确认应依据对应使用方式的样品复核，不能只看图稿就批准。",
           "es": "La página de la bolsa compacta de YUANEN pide acordar altura del asa, uniones y acceso a la cremallera mediante una muestra. No fija una altura ni demuestra espacio para llevarla al hombro. Indique agarre y forma de transporte previstos, ropa o guantes pertinentes y si las asas deben quedar apartadas al abrir la cremallera. Solicite una revisión de muestra para ese uso, sin aprobar el ajuste solo con el dibujo."
         },
@@ -113,6 +146,7 @@ const article: EditorialArticle = {
       "zh": "袋口上方净空与缝在袋身上的织带分别核对。",
       "es": "Compruebe por separado el hueco sobre el borde y la cinta cosida al cuerpo de la bolsa."
     }
-  }
+  },
+  "updatedAt": "2026-11-10"
 }
 export default article
