@@ -1,5 +1,7 @@
 import { bags, guides, languages, type Text } from './data'
 
+export type EditorialFigure = { file: string; alt: Text; caption: Text; kind: 'product' | 'illustration' }
+export type EditorialSection = { heading: Text; paragraphs: Text[]; bullets?: Text[]; table?: { caption: Text; columns: Text[]; rows: Text[][] }; image?: EditorialFigure }
 export type EditorialArticle = {
   kind: 'guide' | 'industry'
   slug: string
@@ -10,10 +12,10 @@ export type EditorialArticle = {
   title: Text
   description: Text
   intro: Text
-  sections: { heading: Text; paragraphs: Text[]; bullets?: Text[]; table?: { caption: Text; columns: Text[]; rows: Text[][] } }[]
+  sections: EditorialSection[]
   sources: { title: Text; url: string; publishedAt?: string }[]
   relatedProducts: string[]
-  image: { file: string; alt: Text; caption: Text; kind: 'product' | 'illustration' }
+  image: EditorialFigure
 }
 
 // Only published articles belong in articles/. Keep drafts outside this directory.
@@ -37,6 +39,11 @@ for (const article of editorialArticles) {
     if (!section.paragraphs?.length) throw new Error(`Missing section text: ${article.slug}`)
     for (const paragraph of section.paragraphs) requireText(paragraph, `paragraph: ${article.slug}`)
     for (const bullet of section.bullets || []) requireText(bullet, `bullet: ${article.slug}`)
+    if (section.image) {
+      requireText(section.image.alt, `section image alt: ${article.slug}`)
+      requireText(section.image.caption, `section image caption: ${article.slug}`)
+      if (!section.image.file.startsWith('images/') || section.image.file.includes('..')) throw new Error(`Invalid section image path: ${article.slug}`)
+    }
     if (section.table) {
       requireText(section.table.caption, `table caption: ${article.slug}`)
       if (section.table.columns.length < 2 || !section.table.rows.length) throw new Error(`Empty comparison table: ${article.slug}`)
@@ -48,11 +55,12 @@ for (const article of editorialArticles) {
     }
   }
   if (!article.sources?.length) throw new Error(`Missing sources: ${article.slug}`)
-  if (article.kind === 'industry' && (!article.eventDate || !validDate(article.eventDate) || article.eventDate > article.publishedAt || !article.market || !article.sources.some(source => source.publishedAt))) throw new Error(`Industry article needs a dated source, event date and market: ${article.slug}`)
+  const evidenceDate = article.updatedAt || article.publishedAt
+  if (article.kind === 'industry' && (!article.eventDate || !validDate(article.eventDate) || article.eventDate > evidenceDate || !article.market || !article.sources.some(source => source.publishedAt))) throw new Error(`Industry article needs a dated source, event date and market: ${article.slug}`)
   if (article.market) requireText(article.market, `market: ${article.slug}`)
   for (const source of article.sources || []) {
     requireText(source.title, `source title: ${article.slug}`)
-    if (!source.url.startsWith('https://') || (source.publishedAt && (!validDate(source.publishedAt) || source.publishedAt > article.publishedAt))) throw new Error(`Invalid source: ${article.slug}`)
+    if (!source.url.startsWith('https://') || (source.publishedAt && (!validDate(source.publishedAt) || source.publishedAt > evidenceDate))) throw new Error(`Invalid source: ${article.slug}`)
   }
   for (const slug of article.relatedProducts || []) if (!bags.some(bag => bag.slug === slug)) throw new Error(`Unknown related product ${slug}: ${article.slug}`)
   if (!article.image) throw new Error(`Missing article image: ${article.slug}`)

@@ -1,45 +1,206 @@
 import type { EditorialArticle } from '../editorial'
-const t = (en: string, zh: string, es: string) => ({ en, zh, es })
+
 const article: EditorialArticle = {
-  kind: 'industry',
-  slug: 'gcca-philadelphia-cold-chain-packaging-handoff',
-  publishedAt: '2026-10-13',
-  eventDate: '2026-09-30',
-  market: t('United States / Philadelphia', '美国／费城', 'Estados Unidos / Filadelfia'),
-  title: t('GCCA Philadelphia Cold Chain Meeting Is Scheduled for 14–15 October', 'GCCA费城冷链会议将于10月14日至15日举行', 'La reunión de cadena de frío de GCCA en Filadelfia está prevista para el 14 y 15 de octubre'),
-  description: t('Preview the current GCCA Philadelphia programme and prepare a role-based packaging sample brief. The meeting has not taken place and its agenda may change.', '核对GCCA费城活动现行议程，为不同交接岗位准备包装样品需求。会议尚未举行，议程可能调整，不把前瞻写成会议结论。', 'Consulte el programa vigente de GCCA en Filadelfia y prepare un informe de muestra por función. La reunión aún no se ha celebrado y el programa puede cambiar.'),
-  intro: t('GCCA lists its Philadelphia Cold Chain Connection for 14–15 October 2026. Its event record was updated on 30 September, the event date shown here. This is a preview of the scheduled meeting, not a report of discussions that have already happened.', 'GCCA现行活动页列明费城Cold Chain Connection将于2026年10月14日至15日举行。活动记录最近更新于9月30日，本文上方的事件日期指这次页面更新。本文为计划会议前瞻，不报道尚未发生的讨论成果。', 'GCCA programa su Cold Chain Connection de Filadelfia para el 14 y 15 de octubre de 2026. El registro se actualizó el 30 de septiembre, fecha del hecho indicada aquí. Este artículo anticipa la reunión y no relata conclusiones de debates aún no celebrados.'),
-  sections: [
+  "kind": "industry",
+  "slug": "gcca-philadelphia-cold-chain-packaging-handoff",
+  "publishedAt": "2026-10-13",
+  "eventDate": "2026-10-14",
+  "market": {
+    "en": "United States / Philadelphia",
+    "zh": "美国／费城",
+    "es": "Estados Unidos / Filadelfia"
+  },
+  "title": {
+    "en": "GCCA’s Philadelphia Meeting: An Update to the October Preview",
+    "zh": "GCCA费城冷链会议：10月预告的后续更新",
+    "es": "Encuentro de GCCA en Filadelfia: actualización del anuncio de octubre"
+  },
+  "description": {
+    "en": "The October 14–15 event now has an official follow-up. Keep the original preview date separate from the meeting dates and from buyer-side packaging checks.",
+    "zh": "10月14—15日活动已有主办方后续记录。区分原预告日期、会议日期与采购者自己的包装交接检查。",
+    "es": "El encuentro del 14–15 de octubre ya tiene seguimiento oficial. Distinga anuncio original, fechas del evento y comprobaciones del embalaje del comprador."
+  },
+  "intro": {
+    "en": "This page was published as a preview on 13 October 2026. GCCA’s 2026 calendar lists the Northeast meeting in Philadelphia for 14–15 October, and its official account published a post-event thank-you on 16 October. The preview is now historical; the post confirms a follow-up, not a new packaging specification or a YUANEN product test.",
+    "zh": "本页于2026年10月13日作为会前预告发布。GCCA的2026年日历列明费城东北区活动为10月14—15日，官方账号于10月16日发布会后致谢。因此预告已转为历史记录；后续帖子不等于新的包装规范或远恩产品测试。",
+    "es": "Esta página se publicó como anuncio previo el 13 de octubre de 2026. El calendario de GCCA sitúa el encuentro de Filadelfia el 14–15 de octubre y su cuenta oficial publicó un agradecimiento el día 16. El anuncio es histórico; el seguimiento no constituye una especificación de embalaje ni un ensayo de YUANEN."
+  },
+  "sections": [
     {
-      heading: t('The programme reaches operational roles', '议程面向冷链运营岗位', 'El programa incluye funciones operativas'),
-      paragraphs: [t('The published programme includes warehouse and logistics discussions and a technology panel. Check the organiser’s current listing for access conditions and changes. YUANEN does not claim attendance, sponsorship or endorsement.', '已公布议程包括仓储物流交流和技术讨论。参加条件及变动应以主办方现行页面为准。本文不声称远恩参会、赞助或获得主办方背书。', 'El programa publicado incluye debates de almacén y logística y un panel tecnológico. Consulte condiciones de acceso y cambios con el organizador. YUANEN no afirma participación, patrocinio ni respaldo.')]
+      "heading": {
+        "en": "Keep the three dates attached to different records",
+        "zh": "三个日期分别对应不同记录",
+        "es": "Relacione cada fecha con su registro"
+      },
+      "paragraphs": [
+        {
+          "en": "The original event webpage’s 30 September update was the date used in the earlier version of this article. It was not the meeting’s opening day. This revision uses 14 October for the displayed event start and keeps the full 14–15 October range in the text. The article’s original publication date remains 13 October; the revision date identifies this update.",
+          "zh": "旧版使用的9月30日来自原活动网页更新时间，并不是会议开幕日。本次把显示的事件开始日改为10月14日，正文保留10月14—15日完整范围；文章原发布日期仍为10月13日，本次修改另记更新日期。",
+          "es": "El 30 de septiembre utilizado antes procedía de la actualización de la página del evento, no de su apertura. La fecha inicial mostrada pasa al 14 de octubre y el texto conserva el intervalo 14–15. La publicación original sigue siendo el día 13; la revisión tiene su propia fecha."
+        },
+        {
+          "en": "Use the dated 2026 calendar rather than an undated rolling events list to identify that year’s meeting. The organiser’s short follow-up does not provide enough detail here to report technical conclusions, measured savings or a packaging acceptance method. Those outcomes should not be supplied from a conference headline.",
+          "zh": "核对该年度活动应使用明确标出2026年的日历，不能把不断滚动的活动列表直接当成同一年资料。主办方简短后续没有在此提供足以报告技术结论、实测节省或包装验收方法的细节，不能从会议标题补出这些结果。",
+          "es": "Identifique el encuentro con el calendario fechado de 2026, no con una lista rotativa sin año claro. El breve seguimiento no aporta aquí base suficiente para conclusiones técnicas, ahorros medidos o un método de aceptación del embalaje. No deduzca esos resultados del título del encuentro."
+        }
+      ]
     },
     {
-      heading: t('Give each handoff role a sample question', '给每个交接岗位一个明确的样品核对问题', 'Asigne una comprobación de muestra a cada función'),
-      paragraphs: [t('The following is YUANEN’s procurement planning advice, not a conference recommendation. A catering team, a packing operator and a receiver may judge the same carrier at different points. Ask the catering team to identify the actual closed tray and lid rim. Ask the packing operator to record the loading direction and whether the closure can be completed. Ask the receiver to confirm the unloading order and the space needed to grip the tray. Name who records a failed check so that a comment such as “too tight” can be traced to the tray, opening or packing arrangement.', '以下为远恩的采购规划建议，不是会议建议。餐饮备餐人员、装包人员和收货人员可能在不同环节评价同一只配送包。请备餐人员明确实际封盖餐盘和盖沿；请装包人员记录装入方向及能否完整闭合；请收货人员确认取出顺序和抓握餐盘所需空间。写清由谁记录不通过的项目，避免一句“太紧”无法定位到餐盘、开口或装载排列。', 'Lo siguiente es una recomendación de planificación de YUANEN, no de la conferencia. El equipo de catering, quien embala y quien recibe pueden evaluar la misma bolsa en fases distintas. Pida al primero identificar la bandeja cerrada y su borde. Quien embala debe registrar la dirección de entrada y el cierre completo. Quien recibe comprueba el orden de descarga y el espacio para sujetar la bandeja. Identifique al responsable de cada resultado para poder localizar si “demasiado ajustado” se refiere a la bandeja, la abertura o la distribución.')]
+      "heading": {
+        "en": "Turn a handoff question into an assigned check",
+        "zh": "把交接问题落实到具体检查人",
+        "es": "Asigne la comprobación del traspaso"
+      },
+      "paragraphs": [
+        {
+          "en": "For a buyer’s own tray-delivery project, the useful question is what moves between the packing team and the receiver. This is YUANEN editorial guidance, not a conference recommendation. Keep the closed tray and lid, bag sample and intended unloading action under one reference. That lets a report of “too tight” identify an actual interference rather than become a general material complaint.",
+          "zh": "对采购者自己的餐盘配送项目，有用的问题是打包方与收货方之间究竟交接什么。以下为远恩编辑建议，并非会议发布的要求。把闭合餐盘及盖、袋体样品和卸货动作放在同一编号下，“太紧”的反馈才可以定位具体干涉，而不是变成笼统的材质抱怨。",
+          "es": "En un proyecto propio, determine qué pasa del embalador al receptor. Esta es orientación editorial de YUANEN, no una recomendación del encuentro. Vincule bandeja cerrada, tapa, bolsa y descarga a una referencia; así «demasiado ajustado» identifica una interferencia concreta en vez de una queja general del material."
+        }
+      ],
+      "table": {
+        "caption": {
+          "en": "A proposed handoff record for the buyer’s project",
+          "zh": "采购者项目的交接记录建议",
+          "es": "Registro de traspaso propuesto"
+        },
+        "columns": [
+          {
+            "en": "Role",
+            "zh": "环节",
+            "es": "Función"
+          },
+          {
+            "en": "Evidence to hand over",
+            "zh": "需交接的记录",
+            "es": "Registro que se entrega"
+          },
+          {
+            "en": "Action when the check fails",
+            "zh": "检查不成立时的动作",
+            "es": "Acción si no funciona"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "en": "Tray supplier or food operator",
+              "zh": "餐盘供方或食品运营方",
+              "es": "Proveedor de bandeja u operador"
+            },
+            {
+              "en": "Actual lid/rim outline and closed pack reference",
+              "zh": "真实盖沿外廓及闭合包装编号",
+              "es": "Contorno real de tapa y referencia cerrada"
+            },
+            {
+              "en": "Resolve the container version before changing the bag",
+              "zh": "先确定容器版本，再改袋型",
+              "es": "Fijar la versión del envase antes de cambiar la bolsa"
+            }
+          ],
+          [
+            {
+              "en": "Packing team",
+              "zh": "打包方",
+              "es": "Equipo de embalaje"
+            },
+            {
+              "en": "Level entry, supporting base and completed closure",
+              "zh": "水平装入、底部支撑及完整封口",
+              "es": "Entrada horizontal, base y cierre completo"
+            },
+            {
+              "en": "Mark the obstruction and request a matched sample change",
+              "zh": "标记阻挡处，申请对应样品修改",
+              "es": "Marcar obstáculo y solicitar la revisión pertinente"
+            }
+          ],
+          [
+            {
+              "en": "Receiver",
+              "zh": "收货方",
+              "es": "Receptor"
+            },
+            {
+              "en": "Working space, grip access and removal sequence",
+              "zh": "作业空间、抓握位置和取出顺序",
+              "es": "Espacio, agarre y secuencia de retirada"
+            },
+            {
+              "en": "Review the working position or loading order",
+              "zh": "复核作业位置或装载顺序",
+              "es": "Revisar puesto o secuencia de carga"
+            }
+          ]
+        ]
+      }
     },
     {
-      heading: t('Match that brief to the current catering carrier', '把岗位记录对应到当前餐盘包方案', 'Relacione el informe con la bolsa de catering vigente'),
-      paragraphs: [t('YUANEN’s current catering proposal has a front opening, short side handles, a non-woven exterior and aluminum foil interior. Its front panel folds down; it is not a specified load-bearing ramp. Use the widest closed lid or rim when asking for a sample, then check horizontal insertion and removal through the actual opening. If a tray needs tilting to clear a zipper corner, record the obstruction and request a revised sample. Do not add shelves, dividers or a carrying load rating merely because they would make the layout easier.', '远恩当前餐盘配送方案采用前开口、短侧提手、无纺布外层和铝箔内层。前幅向下翻开，并未被指定为承重装载斜坡。询问样品时以封盖后最宽盖沿或盘沿为依据，再通过实际开口核对水平装入和取出。如果必须倾斜餐盘才能避开拉链角，应记录阻挡位置并请求调整样品；不能因为分层更方便，就默认已有货架、分隔或承重额定值。', 'La propuesta vigente de YUANEN tiene abertura frontal, asas laterales cortas, exterior no tejido e interior de lámina de aluminio. El panel frontal se abate y no se especifica como rampa de carga. Utilice el ancho máximo de la tapa o del borde cerrado para solicitar la muestra y compruebe entrada y salida horizontales por la abertura real. Si hay que inclinar la bandeja para evitar una esquina de cremallera, registre el obstáculo y solicite otra revisión. No presuponga estantes, separadores ni una carga nominal para facilitar la disposición.')],
-      bullets: [t('Sample brief: tray and lid reference ___; widest closed dimensions ___; loading direction ___; packing/receiving contact ___; obstruction observed ___; carrier sample revision ___.', '样品需求记录：餐盘及盖子编号___；封盖最大外尺寸___；装入方向___；装包／收货联系人___；观察到的阻挡___；配送包样品版本___。', 'Informe de muestra: referencia de bandeja y tapa ___; medidas máximas cerradas ___; dirección de entrada ___; contacto de embalado/recepción ___; obstáculo observado ___; revisión de bolsa ___.')]
-    },
-    {
-      heading: t('Keep temperature responsibility in a separate record', '另行明确温度控制和记录责任', 'Registre por separado la responsabilidad térmica'),
-      paragraphs: [t('A successful handoff check establishes how the agreed load is packed and removed. Specify the food’s required temperature range with the responsible food operator, identify who controls and records each exposure stage, and validate the complete route under relevant conditions. The event listing and an illustration cannot establish a bag’s holding time or the temperature of its contents. Send the tray record, intended route and sample requirements with your enquiry; final specifications remain subject to the order and agreed sample.', '交接检查通过，只能说明约定装载如何放入和取出。所需食品温区应与食品业务责任方另行确定，明确每个暴露环节由谁控制、由谁记录，再按相关条件验证完整路线。活动页面和示意图不能证明包的保温时长或内装食品温度。询价时提交餐盘记录、计划路线及样品要求，最终规格仍以订单和约定样品为准。', 'Una comprobación de entrega satisfactoria documenta cómo se introduce y extrae la carga acordada. Defina el rango térmico con el operador alimentario responsable, identifique quién controla y registra cada fase de exposición y valide la ruta completa en condiciones pertinentes. La página del evento y una ilustración no demuestran duración térmica ni temperatura del alimento. Envíe el registro de bandejas, la ruta prevista y los requisitos de muestra con su consulta; las especificaciones finales dependen del pedido y la muestra acordada.')]
+      "heading": {
+        "en": "Keep the carrier decision separate from route-temperature evidence",
+        "zh": "袋体交接与路线温度证据分开判断",
+        "es": "Separe manipulación de la evidencia térmica de ruta"
+      },
+      "paragraphs": [
+        {
+          "en": "YUANEN’s current catering proposal has a fold-down front and side grips, with a nonwoven exterior and foil lining. Review the widest closed tray through that front opening. The lowered panel is not a specified load-bearing ramp; any shelves, dividers or accessories require separate confirmation. A horizontal loading check cannot establish carrying capacity or a holding period.",
+          "zh": "远恩当前餐盘包采用前盖下翻、侧提手、无纺布外层与铝箔内衬。应让闭合后最宽的餐盘通过真实前口进行核对；下翻盖不是已规定的承重坡道，搁架、分隔或配件也须另定。水平装取通过并不能证明承重或保温时长。",
+          "es": "La propuesta actual tiene frontal abatible, asas laterales, exterior no tejido y forro de aluminio. Compruebe la bandeja cerrada más ancha en esa apertura. El panel no es una rampa de carga especificada; estantes, divisores y accesorios se confirman aparte. Una inserción horizontal no acredita carga ni duración térmica."
+        },
+        {
+          "en": "Record who is responsible for waiting, openings and receipt along the intended route, then agree the complete-load evaluation with the responsible team. If a lid, coolant arrangement or receiving position changes, identify which handling and thermal checks need another review. The meeting’s existence supplies none of those order-specific results. No attendance, partnership, endorsement or tested YUANEN performance is claimed.",
+          "zh": "记录目标路线中等待、开袋和接收由谁负责，再与责任团队约定完整装载评估。盖型、冷媒布局或收货位置改变时，应指出哪些操作与温度检查需要复核。会议举办本身不提供这些订单结果，本文不宣称参会、合作、背书或远恩已测性能。",
+          "es": "Asigne esperas, aperturas y recepción de la ruta y acuerde la evaluación completa. Si cambian tapa, refrigerante o puesto de recepción, identifique qué revisiones de manipulación y temperatura se repiten. La existencia del encuentro no aporta resultados del pedido. No se declara asistencia, colaboración, respaldo ni prestaciones ensayadas de YUANEN."
+        }
+      ]
     }
   ],
-  sources: [
-    { title: t('GCCA Philadelphia event page; first published 29 January 2024, updated 30 September 2026', 'GCCA费城活动页；初次发布2024年1月29日，更新2026年9月30日', 'Página del evento GCCA en Filadelfia; publicada el 29 de enero de 2024, actualizada el 30 de septiembre de 2026'), url: 'https://www.gcca.org/event/gcca-cold-chain-connection-northeast/', publishedAt: '2024-01-29' },
-    { title: t('GCCA public event record 18560: original publication and update dates', 'GCCA公开活动记录18560：原始发布时间与更新时间', 'Registro público GCCA 18560: fechas de publicación y actualización'), url: 'https://www.gcca.org/wp-json/wp/v2/event/18560', publishedAt: '2024-01-29' },
-    { title: t('YUANEN current front-opening catering carrier proposal', '远恩当前前开式餐盘配送包方案', 'Propuesta vigente de bolsa de catering frontal de YUANEN'), url: 'https://yuanenbag.com/products/insulated-catering-bags/' },
-    { title: t('YUANEN catering tray access and sample checks', '远恩餐盘装取与样品检查', 'Acceso de bandejas y comprobaciones de muestra de YUANEN'), url: 'https://yuanenbag.com/guides/catering-bag-front-opening-tray-fit/' }
+  "sources": [
+    {
+      "url": "https://www.gcca.org/wp-content/uploads/2026/02/0902_GCCA_ColdFact_January-February-2026_V7-compressed.pdf#page=34",
+      "title": {
+        "en": "GCCA Cold Facts 2026 calendar, printed page 34",
+        "zh": "GCCA Cold Facts 2026年日历，印刷页码34",
+        "es": "Calendario GCCA Cold Facts 2026, página impresa 34"
+      }
+    },
+    {
+      "url": "https://www.instagram.com/p/DekD9KVkTi5/",
+      "title": {
+        "en": "GCCA official post-event thank-you",
+        "zh": "GCCA官方会后致谢",
+        "es": "Agradecimiento oficial de GCCA tras el encuentro"
+      },
+      "publishedAt": "2026-10-16"
+    },
+    {
+      "url": "https://yuanenbag.com/products/insulated-catering-bags/",
+      "title": {
+        "en": "Current YUANEN carrier scope",
+        "zh": "远恩当前餐盘包范围",
+        "es": "Alcance actual de la bolsa YUANEN"
+      }
+    }
   ],
-  relatedProducts: ['insulated-catering-bags'],
-  image: {
-    file: 'images/editorial/2026-10-13/cold-chain-tray-dispatch.webp',
-    kind: 'illustration',
-    alt: t('Closed stainless catering pans on a metal trolley beside an open cold-room doorway', '打开的冷库门旁，金属推车上摆放着带盖不锈钢餐盘', 'Bandejas de catering de acero cerradas sobre un carro metálico junto a una puerta de cámara frigorífica abierta'),
-    caption: t('Generic food-dispatch scene. It does not show the GCCA meeting, a YUANEN facility or a tested delivery arrangement.', '通用食品发货场景，不展示GCCA会议、远恩设施或经过测试的配送配置。', 'Escena genérica de despacho de alimentos; no muestra la reunión GCCA, instalaciones de YUANEN ni una configuración de reparto ensayada.')
-  }
+  "relatedProducts": [
+    "insulated-catering-bags"
+  ],
+  "image": {
+    "file": "images/editorial/2026-10-13/cold-chain-tray-dispatch.webp",
+    "kind": "illustration",
+    "alt": {
+      "en": "Closed stainless catering pans on a metal trolley beside an open cold-room doorway",
+      "zh": "打开的冷库门旁，金属推车上摆放着带盖不锈钢餐盘",
+      "es": "Bandejas de catering de acero cerradas sobre un carro metálico junto a una puerta de cámara frigorífica abierta"
+    },
+    "caption": {
+      "en": "Generic food-dispatch scene. It does not show the GCCA meeting, a YUANEN facility or a tested delivery arrangement.",
+      "zh": "通用食品发货场景，不展示GCCA会议、远恩设施或经过测试的配送配置。",
+      "es": "Escena genérica de despacho de alimentos; no muestra la reunión GCCA, instalaciones de YUANEN ni una configuración de reparto ensayada."
+    }
+  },
+  "updatedAt": "2026-11-10"
 }
+
 export default article

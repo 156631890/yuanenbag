@@ -1,4 +1,5 @@
 export { default as CatalogPage } from './CatalogBrowser'
+export { default as ExpandedGuide } from './ExpandedGuide'
 export { default as Enquiry } from './Enquiry'
 export { default as ProductSections } from './ProductSections'
 export { default as SelectionGuide } from './SelectionGuide'

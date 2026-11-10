@@ -1,3 +1,4 @@
+import { guideImages } from './guide-images'
 import { collectionContent } from './collection-content'
 import { classificationFor, productClassifications, productFamilies, productMaterials } from './product-classification'
 import { collections, collectionFor, collectionProducts } from './collections'
@@ -44,7 +45,7 @@ export function render(path = '/', indexable = false) {
     const questions = bag ? [{q:bag.question,a:bag.answer},productEnquiryFAQ(bag.slug)||faq[2],commercialFAQ(bag.slug)||faq[3]] : faq
     graph.push({'@type':'FAQPage',mainEntity:questions.map(item=>({'@type':'Question',name:item.q[lang],acceptedAnswer:{'@type':'Answer',text:item.a[lang]}}))})
   }
-  if (page.type === 'guide') graph.push({'@type':'Article',headline:page.title[lang].split(' | ')[0],description:page.description![lang],inLanguage:locales[lang].tag,dateModified:guides.find(guide=>guide.slug===page.slug)!.dateModified,author:{'@id':organization['@id']},publisher:{'@id':organization['@id']},mainEntityOfPage:{'@id':`${url}#webpage`}})
+  if (page.type === 'guide') graph.push({...((page.slug === 'insulated-bag-materials') ? {image:absolute(href('/', 'en')+guideImages[page.slug])} : {}),'@type':'Article',headline:page.title[lang].split(' | ')[0],description:page.description![lang],inLanguage:locales[lang].tag,dateModified:guides.find(guide=>guide.slug===page.slug)!.dateModified,author:{'@id':organization['@id']},publisher:{'@id':organization['@id']},mainEntityOfPage:{'@id':`${url}#webpage`}})
   const editorialArticle = page.type === 'editorialArticle' ? editorialArticles.find(article => article.slug === page.slug)! : undefined
   if (editorialArticle) graph.push({'@type':'Article',headline:editorialArticle.title[lang],description:editorialArticle.description[lang],inLanguage:locales[lang].tag,datePublished:editorialArticle.publishedAt,dateModified:editorialArticle.updatedAt || editorialArticle.publishedAt,author:{'@id':organization['@id']},publisher:{'@id':organization['@id']},mainEntityOfPage:{'@id':`${url}#webpage`},...(editorialArticle.image ? {image:absolute(href('/', 'en')+editorialArticle.image.file)} : {})})
   if (page.type === 'industryArchive' || page.type === 'guideArchive') {
@@ -56,7 +57,7 @@ export function render(path = '/', indexable = false) {
   if (page.type === 'catalog') graph.push({'@type':'CollectionPage','@id':`${url}#collection`,name:page.title[lang],url,inLanguage:locales[lang].tag,mainEntity:{'@type':'ItemList',numberOfItems:bags.length,itemListElement:bags.map((bag,i)=>({'@type':'ListItem',position:i+1,name:bag.name[lang],url:absolute(href(`/products/${bag.slug}/`,lang))}))}})
   if(page.type==='collection'){const c=collections.find(c=>c.slug===page.slug)!;const members=collectionProducts(c);graph.push({'@type':'CollectionPage','@id':`${url}#collection`,name:c.name[lang],url,inLanguage:locales[lang].tag,mainEntity:{'@type':'ItemList',numberOfItems:members.length,itemListElement:members.map((b,i)=>({'@type':'ListItem',position:i+1,name:b.name[lang],url:absolute(href(`/products/${b.slug}/`,lang))}))}})}
   const currentBag = bags.find(b=>b.slug===page.slug)
-  const shareImage = editorialArticle?.image?.file || (currentBag?.image ? `images/products/${productImageFile(productImages(currentBag)[0].file)}` : 'images/factory/2026/longgang-production.webp')
+  const shareImage = (page.type === 'guide' && page.slug === 'insulated-bag-materials' ? guideImages[page.slug] : undefined) || editorialArticle?.image?.file || (currentBag?.image ? `images/products/${productImageFile(productImages(currentBag)[0].file)}` : 'images/factory/2026/longgang-production.webp')
   // Quote-only pages have no public offer or reviews; retain their gallery on WebPage.
   if (page.type === 'bag' && currentBag?.collection) {
     const webPage = graph.find(item=>item['@type']==='WebPage')!
@@ -76,7 +77,7 @@ export function render(path = '/', indexable = false) {
     `<script type="application/ld+json">${JSON.stringify({'@context':'https://schema.org','@graph':graph}).replace(/</g,'\\u003c')}</script>`,
   ].join('\n    ')
   const clientModules: Record<string,string> = {home:'src/CustomerBrands.tsx',about:'src/CustomerBrands.tsx',collection:'src/CollectionPage.tsx',catalog:'src/CatalogBrowser.tsx',bag:'src/ProductSections.tsx',contact:'src/Enquiry.tsx',customization:'src/CustomizationOrderOptions.tsx'}
-  const clientModule = page.slug==='insulated-drum-covers' ? 'src/DrumCoverSections.tsx' : page.slug==='insulated-ibc-covers' ? 'src/IBCCoverSections.tsx' : page.slug==='insulated-roll-cage-covers' ? 'src/CageCoverSections.tsx' : page.slug==='foil-bubble-insulation-rolls' ? 'src/BubbleRollSections.tsx' : page.slug==='insulated-pallet-covers' ? 'src/PalletCoverSections.tsx' : page.slug==='epe-foam-foil-insulation-rolls' ? 'src/InsulationRollSections.tsx' : page.type==='guide'&&['bag-material-comparison','ice-pack-selection'].includes(page.slug!)
+  const clientModule = page.type === 'guide' && page.slug === 'insulated-bag-materials' ? 'src/ExpandedGuide.tsx' : page.slug==='insulated-drum-covers' ? 'src/DrumCoverSections.tsx' : page.slug==='insulated-ibc-covers' ? 'src/IBCCoverSections.tsx' : page.slug==='insulated-roll-cage-covers' ? 'src/CageCoverSections.tsx' : page.slug==='foil-bubble-insulation-rolls' ? 'src/BubbleRollSections.tsx' : page.slug==='insulated-pallet-covers' ? 'src/PalletCoverSections.tsx' : page.slug==='epe-foam-foil-insulation-rolls' ? 'src/InsulationRollSections.tsx' : page.type==='guide'&&['bag-material-comparison','ice-pack-selection'].includes(page.slug!)
     ? 'src/SelectionGuide.tsx' : page.type==='guide'&&page.slug==='custom-bag-order-checklist' ? 'src/OrderReference.tsx' : clientModules[page.type]
   const editorialModules = page.type === 'editorialArticle'
     ? ['src/EditorialArticlePage.tsx', `src/articles/${page.slug}.ts`]

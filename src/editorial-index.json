@@ -578,15 +578,16 @@
     "kind": "industry",
     "slug": "gcca-philadelphia-cold-chain-packaging-handoff",
     "publishedAt": "2026-10-13",
+    "updatedAt": "2026-11-10",
     "title": {
-      "en": "GCCA Philadelphia Cold Chain Meeting Is Scheduled for 14–15 October",
-      "zh": "GCCA费城冷链会议将于10月14日至15日举行",
-      "es": "La reunión de cadena de frío de GCCA en Filadelfia está prevista para el 14 y 15 de octubre"
+      "en": "GCCA’s Philadelphia Meeting: An Update to the October Preview",
+      "zh": "GCCA费城冷链会议：10月预告的后续更新",
+      "es": "Encuentro de GCCA en Filadelfia: actualización del anuncio de octubre"
     },
     "description": {
-      "en": "Preview the current GCCA Philadelphia programme and prepare a role-based packaging sample brief. The meeting has not taken place and its agenda may change.",
-      "zh": "核对GCCA费城活动现行议程，为不同交接岗位准备包装样品需求。会议尚未举行，议程可能调整，不把前瞻写成会议结论。",
-      "es": "Consulte el programa vigente de GCCA en Filadelfia y prepare un informe de muestra por función. La reunión aún no se ha celebrado y el programa puede cambiar."
+      "en": "The October 14–15 event now has an official follow-up. Keep the original preview date separate from the meeting dates and from buyer-side packaging checks.",
+      "zh": "10月14—15日活动已有主办方后续记录。区分原预告日期、会议日期与采购者自己的包装交接检查。",
+      "es": "El encuentro del 14–15 de octubre ya tiene seguimiento oficial. Distinga anuncio original, fechas del evento y comprobaciones del embalaje del comprador."
     }
   },
   {
@@ -1122,6 +1123,7 @@
     "kind": "guide",
     "slug": "packout-temperature-sensor-position-record",
     "publishedAt": "2026-10-19",
+    "updatedAt": "2026-11-10",
     "title": {
       "en": "Keep Sensor Positions With the Loaded-Bag Test Record",
       "zh": "装载测试的测温位置，要随照片一起留档",

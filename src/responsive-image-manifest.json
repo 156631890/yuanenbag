@@ -14782,5 +14782,175 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-10-depth/material-cover.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/8fbf04e0de28-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/31e9bdf47215-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/5162044b4c3c-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/bf89a82a84f2-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/d778d9a03303-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/b3362d6ecc86-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/489d3a6a87fb-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-10-depth/material-detail.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/a83ae242d71c-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/07a4f8d9d1b2-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/5c6117b586fb-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/ea6473d936be-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/303148e20277-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/701d21b5090b-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/09a726945a61-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-10-depth/foam-detail.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/dcaa589ccf11-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/f1b0be4434b6-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/5cf85fc17e1d-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/c332efe12308-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/6571b2dfa4c9-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/c6c2c52a8aa8-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/c8c9078d08b3-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-10-depth/sensor-cover.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/1562ffa5f58e-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/a1b1aeb1f8b0-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/01e361cbb874-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/92d09e037297-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/82de4e29eebc-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/096f4eeebff5-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/fc4bc7b08673-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-10-depth/sensor-detail.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/914937367bc5-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/d6f0be889ea2-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/efedffac746b-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/0d1839660a11-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/99ca6aba8b63-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/a71bf4dd8be8-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/b80bfb43ed9a-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }
