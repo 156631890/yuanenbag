@@ -1,4 +1,5 @@
 import type { EditorialArticle } from '../editorial'
+
 const article: EditorialArticle = {
   "kind": "industry",
   "slug": "umd-biobased-produce-wrap-research",
@@ -36,64 +37,69 @@ const article: EditorialArticle = {
           "en": "The paper examines different formulations and storage conditions for the two produce applications. Its methods and figure descriptions identify the conditions below. These are experimental conditions from that study, not food-storage instructions or a promised delivery life.",
           "zh": "论文针对两种果蔬应用考察不同配方及储存条件，方法部分与图注给出下列试验条件。这些是该研究的实验条件，不是食品储存指引或配送保鲜期承诺。",
           "es": "El artículo estudia distintas formulaciones y condiciones para ambas aplicaciones. Sus métodos y pies de figura identifican las condiciones siguientes. Son condiciones experimentales, no instrucciones de conservación ni una vida útil prometida para el reparto."
+        },
+        {
+          "en": "The formulation names matter because the cucumber result does not describe the same film as the avocado result. The readout also matters: cucumber firmness in Figure 5F is measured on day 10, not day 15. For avocados the authors report lower yeast/mold counts with the cellulose-rich film, while aerobic plate counts were comparable across groups. Do not turn those observations into a claim that every microbial measure improved.",
+          "zh": "配方名称很重要，因为黄瓜结果与牛油果结果并非来自同一种薄膜；检测时点也不能混用，图5F的黄瓜硬度测于第10天而非第15天。牛油果试验中，作者报告纤维素富集膜组的酵母/霉菌计数较低，但各组好氧菌平板计数相近，不能概括为所有微生物指标均改善。",
+          "es": "Las formulaciones no son intercambiables. La firmeza del pepino de la figura 5F se midió al día 10, no al 15. En aguacates, los autores informan menos levaduras/mohos con la película de celulosa, pero recuentos aerobios comparables entre grupos. No lo convierta en mejora de todos los indicadores microbianos."
         }
       ],
       "table": {
         "caption": {
-          "en": "Conditions reported for each application",
-          "zh": "各项应用所报告的条件",
-          "es": "Condiciones descritas para cada aplicación"
+          "en": "Match each formulation to its trial and readout",
+          "zh": "将配方与试验和检测时点对应",
+          "es": "Relacione formulación, ensayo y medición"
         },
         "columns": [
           {
-            "en": "Produce",
-            "zh": "果蔬",
-            "es": "Producto"
+            "en": "Application and film",
+            "zh": "应用及薄膜",
+            "es": "Aplicación y película"
           },
           {
-            "en": "Reported trial conditions",
-            "zh": "报告中的试验条件",
-            "es": "Condiciones del ensayo"
+            "en": "Reported storage and comparisons",
+            "zh": "报告的储存与对照",
+            "es": "Conservación y comparaciones descritas"
           },
           {
-            "en": "What to keep with the result",
-            "zh": "随结果一同保留",
-            "es": "Datos que deben acompañar al resultado"
+            "en": "Where the paper reports the measures",
+            "zh": "论文中的指标位置",
+            "es": "Dónde se describen las mediciones"
           }
         ],
         "rows": [
           [
             {
-              "en": "Cucumbers",
-              "zh": "黄瓜",
-              "es": "Pepinos"
+              "en": "Cucumbers: copper-containing chitosan-rich film (Cu²⁺/CHS)",
+              "zh": "黄瓜：含铜离子的壳聚糖富集薄膜（Cu²⁺/CHS）",
+              "es": "Pepinos: película rica en quitosano con cobre (Cu²⁺/CHS)"
             },
             {
-              "en": "Approximately 4°C; a 15-day preservation trial",
-              "zh": "约4°C，15天保鲜试验",
-              "es": "Aproximadamente 4°C; ensayo de conservación de 15 días"
+              "en": "About 4°C over 15 days; commercial LDPE wrap and unpackaged controls",
+              "zh": "约4°C、15天；与商用LDPE膜和未包装组比较",
+              "es": "Unos 4°C durante 15 días; frente a LDPE comercial y control sin envoltura"
             },
             {
-              "en": "Film formulation, comparison group and evaluated measures",
-              "zh": "薄膜配方、对照组及评估指标",
-              "es": "Formulación, grupo de comparación y medidas evaluadas"
+              "en": "Figure 5F: firmness on day 10. Figure 5G–I: electrolyte leakage, yeast/mold counts and MDA on day 15",
+              "zh": "图5F：第10天硬度；图5G—I：第15天电解质渗漏、酵母/霉菌计数和MDA",
+              "es": "Figura 5F: firmeza al día 10. Figuras 5G–I: fuga de electrolitos, levaduras/mohos y MDA al día 15"
             }
           ],
           [
             {
-              "en": "Hass avocados",
-              "zh": "Hass牛油果",
-              "es": "Aguacates Hass"
+              "en": "Hass avocados: copper-containing cellulose-rich film (Cu²⁺/cellulose)",
+              "zh": "Hass牛油果：含铜离子的纤维素富集薄膜（Cu²⁺/cellulose）",
+              "es": "Aguacates Hass: película rica en celulosa con cobre (Cu²⁺/celulosa)"
             },
             {
-              "en": "Approximately 25°C; a 7-day preservation trial",
-              "zh": "约25°C，7天保鲜试验",
-              "es": "Aproximadamente 25°C; ensayo de conservación de 7 días"
+              "en": "About 25°C over 7 days; commercial LDPE wrap and unpackaged controls",
+              "zh": "约25°C、7天；与商用LDPE膜和未包装组比较",
+              "es": "Unos 25°C durante 7 días; frente a LDPE comercial y control sin envoltura"
             },
             {
-              "en": "Film formulation, comparison group and evaluated measures",
-              "zh": "薄膜配方、对照组及评估指标",
-              "es": "Formulación, grupo de comparación y medidas evaluadas"
+              "en": "Figure 6G–H: firmness and yeast/mold counts on day 7; aerobic counts discussed separately with Figure S46B",
+              "zh": "图6G—H：第7天硬度和酵母/霉菌计数；好氧菌计数另见图S46B相关讨论",
+              "es": "Figuras 6G–H: firmeza y levaduras/mohos al día 7; recuentos aerobios tratados aparte con figura S46B"
             }
           ]
         ]
@@ -107,14 +113,14 @@ const article: EditorialArticle = {
       },
       "paragraphs": [
         {
-          "en": "The university describes improved preservation in its experiments. A single shelf-life multiplier would hide the different produce, films, comparison groups and storage conditions. The paper’s discussion also identifies further work on scale-up economics and a fuller life-cycle assessment. Laboratory-scale coating compatibility does not establish a commercial supply specification.",
-          "zh": "大学公告描述了实验中的保鲜改善，但用单一倍数概括，会掩盖果蔬、薄膜、对照组及储存条件的差异。论文讨论部分还提出放大经济性及更完整生命周期评价等后续工作；实验室涂布兼容性并不能确立商业供货规格。",
-          "es": "La universidad describe mejoras de conservación en sus experimentos. Un único multiplicador ocultaría diferencias de producto, película, grupo de comparación y almacenamiento. La discusión también identifica trabajo pendiente sobre la economía del escalado y una evaluación más completa del ciclo de vida. La compatibilidad con recubrimiento a escala de laboratorio no establece una especificación comercial."
+          "en": "The university describes improved preservation in its experiments. A single shelf-life multiplier would hide the different produce, films, comparison groups and storage conditions. Laboratory-scale coating compatibility does not establish a commercial supply specification.",
+          "zh": "大学公告描述了实验中的保鲜改善，但用单一倍数概括，会掩盖果蔬、薄膜、对照组及储存条件的差异。实验室涂布兼容性并不能确立商业供货规格。",
+          "es": "La universidad describe mejoras de conservación en sus experimentos. Un único multiplicador ocultaría diferencias de producto, película, grupo de comparación y almacenamiento. La compatibilidad con recubrimiento a escala de laboratorio no establece una especificación comercial."
         },
         {
-          "en": "Maryland Today published a university news brief on 30 October. It belongs to the same institution as the engineering-school announcement and is not independent replication of the study. The dates of those news pages should be kept separate from the paper’s explicit publication date.",
-          "zh": "Maryland Today于10月30日刊登大学简报，与工程学院公告同属一所机构，不是独立重复验证。两篇新闻页面的日期应与论文明确标注的发布日期分别记录。",
-          "es": "Maryland Today publicó una nota universitaria el 30 de octubre. Pertenece a la misma institución que el anuncio de ingeniería y no es una reproducción independiente del estudio. Sus fechas deben distinguirse de la fecha explícita de publicación del artículo científico."
+          "en": "The environmental assessment is cradle-to-gate, from raw materials through film production. A separate soil-burial screening observed physical disintegration; that observation is not a whole-product compostability certification. The discussion calls for a fuller cradle-to-grave assessment and technoeconomic work. These limits matter before treating the laboratory film as an orderable replacement for an existing packaging system.",
+          "zh": "环境评估的边界是从原料到薄膜生产的“摇篮到工厂门”；另一个土壤埋藏筛查观察的是物理崩解，不能当作整件产品的可堆肥认证。讨论部分还提出需要更完整的全生命周期评估和技术经济研究。在把实验室薄膜视为可直接订购的替代包装系统前，应保留这些边界。",
+          "es": "La evaluación ambiental va de materias primas a producción de película, de la cuna a la puerta. El ensayo de enterramiento observó desintegración física, no una certificación de compostabilidad del producto. Los autores piden evaluación de ciclo completo y análisis tecnoeconómico. Mantenga esos límites antes de tratar la película de laboratorio como sustituto comercial disponible."
         }
       ]
     },
@@ -162,15 +168,6 @@ const article: EditorialArticle = {
     },
     {
       "title": {
-        "en": "Maryland Today university brief",
-        "zh": "Maryland Today大学简报",
-        "es": "Nota universitaria de Maryland Today"
-      },
-      "url": "https://today.umd.edu/briefs/bio-based-food-packaging-wrap-extends-shelf-life-of-avocados-cucumbers",
-      "publishedAt": "2026-10-30"
-    },
-    {
-      "title": {
         "en": "YUANEN outer delivery-bag proposal and limits",
         "zh": "远恩外层配送袋方案及边界",
         "es": "Propuesta y límites de bolsa exterior YUANEN"
@@ -199,6 +196,8 @@ const article: EditorialArticle = {
       "zh": "通用包膜场景展示薄膜与果蔬表面的接触方式。",
       "es": "Una escena genérica de envoltura muestra cómo una película fina entra en contacto con la superficie de un alimento fresco."
     }
-  }
+  },
+  "updatedAt": "2026-11-11"
 }
+
 export default article

@@ -1,4 +1,5 @@
 import type { EditorialArticle } from '../editorial'
+
 const article: EditorialArticle = {
   "kind": "guide",
   "slug": "cooler-bag-zipper-strength-opening-evidence",
@@ -21,90 +22,140 @@ const article: EditorialArticle = {
   "sections": [
     {
       "heading": {
-        "en": "Separate the questions in the evidence request",
-        "zh": "索证时把不同问题分开",
-        "es": "Separe las preguntas al solicitar evidencia"
+        "en": "Name the part before interpreting a strength result",
+        "zh": "解释强度结果前先明确部件",
+        "es": "Identifique la pieza antes de interpretar resistencia"
       },
       "paragraphs": [
         {
-          "en": "Request separate evidence for the strength of the proposed closure and its operation under the intended repeated-opening pattern. Identify whether each record concerns the zipper component or the finished bag. Leave the method, conditions and acceptance criteria for the actual sample to the responsible supplier or testing team.",
-          "zh": "分别索取拟用闭合件的强度依据，以及按预定反复开合方式使用的依据。明确每份记录针对拉链部件还是成品袋；实际样品的测试方法、条件和接受依据，由负责供应方或测试团队确定。",
-          "es": "Solicite por separado evidencia de la resistencia del cierre propuesto y de su funcionamiento con el patrón previsto de aperturas repetidas. Identifique si cada registro corresponde al componente o a la bolsa terminada. El proveedor responsable o equipo de ensayo debe definir método, condiciones y criterios para la muestra real."
+          "en": "The chain is the engaged row of elements; the slider guides those elements together or apart, and its pull tab is the piece the user grips. Stops limit slider travel at the applicable ends. Tape and sewing connect the closure to the bag. These roles are related but not interchangeable: a pull-tab result does not describe the chain, and a component result does not include every bag seam or corner.",
+          "zh": "链条是啮合后的链牙/链齿列；拉头引导两侧啮合或分开，拉片是使用者握持的部件；止口限制适用端部的拉头行程，布带和缝合则把闭合件连接到包体。这些作用有关联但不能互换：拉片结果不能代替链条结果，零部件结果也不包含每处包体接缝和转角。",
+          "es": "La cadena es la hilera de elementos engranados; el cursor los une o separa y el tirador se agarra para moverlo. Los topes limitan recorrido en los extremos aplicables; cinta y costura fijan el cierre a la bolsa. Un resultado del tirador no describe la cadena ni uno de componente cubre todas las costuras o esquinas."
+        },
+        {
+          "en": "YKK’s public overview lists chain crosswise strength, top-stop holding strength and slider-tab pull-off strength as separate inspection subjects. It is useful for understanding the object named by a report; it does not establish that YUANEN uses YKK components or that the proposed bag has passed any listed method.",
+          "zh": "YKK公开说明将链条横向强度、上止保持强度及拉片拉脱强度分别列为检查对象，可用于理解报告究竟指向哪个部件；它不证明远恩使用YKK零件，也不证明拟定包体通过其中任何方法。",
+          "es": "El resumen público de YKK separa resistencia transversal de cadena, retención del tope superior y desprendimiento del tirador. Ayuda a entender el objeto del informe, sin acreditar componentes YKK en YUANEN ni ensayos superados por la bolsa."
+        }
+      ],
+      "image": {
+        "file": "images/editorial/2026-11-11-batch04/zipper-slider-corner-detail.webp",
+        "kind": "illustration",
+        "alt": {
+          "en": "Black zipper slider and partly separated coil tracks at the corner of a red nonwoven bag",
+          "zh": "红色无纺布包转角处的黑色拉头与部分分开的链条",
+          "es": "Cursor negro y espirales parcialmente separadas en la esquina de una bolsa roja no tejida"
+        },
+        "caption": {
+          "en": "Identify slider, chain, tape and sewing separately. No brand, strength value or opening-cycle result is established.",
+          "zh": "分别识别拉头、链条、布带与缝合位置；不代表品牌、强度值或开合循环结果。",
+          "es": "Distinga cursor, cadena, cinta y costura. No se acredita marca, resistencia ni resultado de ciclos."
+        }
+      }
+    },
+    {
+      "heading": {
+        "en": "Read the record against the question it can answer",
+        "zh": "按证据能回答的问题解读记录",
+        "es": "Interprete el registro según la pregunta que responde"
+      },
+      "paragraphs": [
+        {
+          "en": "Read each result against its tested object before deciding whether it answers the finished-bag question. Use the distinctions below to keep a component report and an assembly observation in their appropriate scopes.",
+          "zh": "先将结果对应到受测对象，再判断它能否回答整袋问题。下表用于区分部件报告与装配观察各自能回答的内容。",
+          "es": "Relacione cada resultado con el objeto evaluado antes de decidir si responde a la cuestión de la bolsa terminada. Las distinciones siguientes separan el informe de componente de la observación del conjunto."
         }
       ],
       "table": {
         "caption": {
-          "en": "A closure-evidence request for the proposed bag",
-          "zh": "拟定袋款的闭合件索证表",
-          "es": "Solicitud de evidencia del cierre propuesto"
+          "en": "Separate closure evidence from assembly observations",
+          "zh": "区分闭合件依据与整袋观察",
+          "es": "Distinga evidencia del cierre y observaciones del conjunto"
         },
         "columns": [
           {
-            "en": "Scope",
-            "zh": "范围",
-            "es": "Alcance"
+            "en": "Object",
+            "zh": "对象",
+            "es": "Objeto"
           },
           {
-            "en": "Identify",
-            "zh": "明确对象",
-            "es": "Identifique"
+            "en": "Relevant question",
+            "zh": "相关问题",
+            "es": "Pregunta"
           },
           {
-            "en": "Ask the responsible supplier or test team",
-            "zh": "向负责供应方或测试方确认",
-            "es": "Confirme con proveedor o equipo de ensayo"
+            "en": "What remains separate",
+            "zh": "仍需另看",
+            "es": "Qué sigue separado"
           }
         ],
         "rows": [
           [
             {
-              "en": "Component strength",
-              "zh": "部件强度",
-              "es": "Resistencia del componente"
+              "en": "Engaged chain",
+              "zh": "啮合链条",
+              "es": "Cadena engranada"
             },
             {
-              "en": "Chain, slider, stops; actual component revision",
-              "zh": "链、拉头、止端；实际部件版本",
-              "es": "Cadena, cursor, topes; versión real"
+              "en": "Which chain identity and reported loading method does the result cover?",
+              "zh": "结果覆盖哪种链条身份及受力方法？",
+              "es": "¿Qué cadena y método de carga cubre el resultado?"
             },
             {
-              "en": "Which strength items and report references? What remains untested?",
-              "zh": "覆盖哪些强度项目及报告编号？哪些未测？",
-              "es": "¿Qué aspectos e informes? ¿Qué queda sin ensayar?"
+              "en": "Repeated operation and attachment to this bag",
+              "zh": "反复操作及与本包的连接",
+              "es": "Operación repetida y fijación a esta bolsa"
             }
           ],
           [
             {
-              "en": "Repeated opening",
-              "zh": "反复开合",
-              "es": "Apertura repetida"
+              "en": "Slider and pull tab",
+              "zh": "拉头与拉片",
+              "es": "Cursor y tirador"
             },
             {
-              "en": "Tested closure and operating path",
-              "zh": "被测闭合件及操作路径",
-              "es": "Cierre y recorrido evaluados"
+              "en": "Which part was assessed, and with which matching chain?",
+              "zh": "评估的是哪个部件，与哪种链条配套？",
+              "es": "¿Qué pieza se evaluó y con qué cadena?"
             },
             {
-              "en": "Agreed cycles, loading, conditions and acceptance basis; no assumed lifetime",
-              "zh": "约定次数、载荷、条件和接受依据；不推定寿命",
-              "es": "Ciclos, carga, condiciones y aceptación acordados; sin presumir vida útil"
+              "en": "A sound pull tab does not approve corner travel",
+              "zh": "拉片完好不等于转角行程已通过",
+              "es": "Un tirador íntegro no aprueba el paso por la esquina"
             }
           ],
           [
             {
-              "en": "Finished-bag assembly",
-              "zh": "成品袋装配",
-              "es": "Montaje en la bolsa"
+              "en": "Stops and ends",
+              "zh": "止口及端部",
+              "es": "Topes y extremos"
             },
             {
-              "en": "Zipper installation, corners and sewn attachment; bag sample revision",
-              "zh": "安装、弯角及缝合连接；袋款样品版本",
-              "es": "Instalación, curvas y costuras; versión de muestra"
+              "en": "Which end arrangement and retention question apply?",
+              "zh": "对应哪种端部结构及保持问题？",
+              "es": "¿Qué disposición de extremos y retención corresponde?"
             },
             {
-              "en": "Does the evidence cover this installed arrangement and intended loading?",
-              "zh": "证据是否覆盖此装配及拟定装载？",
-              "es": "¿Cubre esta instalación y la carga prevista?"
+              "en": "Do not assume a jacket separating mechanism on a bag lid",
+              "zh": "不能把外套开尾结构套到包盖上",
+              "es": "No suponga mecanismo separable de chaqueta en una tapa"
+            }
+          ],
+          [
+            {
+              "en": "Tape, seam and corner",
+              "zh": "布带、缝线与转角",
+              "es": "Cinta, costura y esquina"
+            },
+            {
+              "en": "Does the offered sample operate without catching its lining under the agreed loaded state?",
+              "zh": "拟供样品在约定装载状态下是否能操作而不夹内衬？",
+              "es": "¿Funciona la muestra sin atrapar el forro en la carga acordada?"
+            },
+            {
+              "en": "This observation is not a numerical strength or lifetime result",
+              "zh": "该观察不是数值强度或使用寿命结果",
+              "es": "La observación no es resistencia ni vida útil numéricas"
             }
           ]
         ]
@@ -112,9 +163,9 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
-        "en": "Match the evidence to the top-opening pizza bag",
-        "zh": "对应到上开式披萨包的实际装配",
-        "es": "Vincule la evidencia al montaje de la bolsa de pizza"
+        "en": "Match repeated opening to the installed sample",
+        "zh": "反复开合应对应已装配样品",
+        "es": "Relacione ciclos con la muestra montada"
       },
       "paragraphs": [
         {
@@ -123,9 +174,14 @@ const article: EditorialArticle = {
           "es": "La propuesta actual de pizza YUANEN es baja y ancha, con tapa superior, asas en el cuerpo, exterior no tejido e interior de aluminio. Identifique la cremallera ofertada y su costura alrededor de la abertura. Un resultado de una cremallera recta aislada no describe por sí solo curvas, uniones ni cierre con carga."
         },
         {
-          "en": "Have the responsible supplier or qualified testing team define relevant conditions and acceptance criteria for the actual sample. Record unsupported items as pending. A component change or altered sewing arrangement needs an explicit decision on whether the earlier evidence still applies. Do not invent cycle counts or treat a reported count as a guaranteed number of deliveries.",
-          "zh": "由负责供应方或合格测试方为实际样品明确相关条件与接受依据，未支持项目记为待确认。部件更换或缝合安排改变后，应明确判断旧证据是否仍适用。不要自定循环次数，也不把报告次数当成保证配送次数。",
-          "es": "Pida al proveedor responsable o equipo cualificado que defina condiciones y criterios para la muestra real. Marque lo no respaldado como pendiente. Un cambio de componente o costura requiere decidir expresamente si la evidencia anterior sigue siendo aplicable. No invente ciclos ni convierta una cifra de ensayo en entregas garantizadas."
+          "en": "Suppose a straight component has a strength report but the fitted lid catches its lining at one corner. Keep the report under that component and record the separate assembly issue, with the location and opening direction visible. Ask the supplier to review tape alignment, sewing and the lining relationship; do not conclude that a larger tooth or a stronger pull tab must solve the obstruction. This is a hypothetical diagnostic example, not a YUANEN failure case.",
+          "zh": "假设直线零部件已有强度报告，但装配包盖在某转角夹住内衬，应保留部件报告，并另外记录整袋问题，使位置和开启方向可见。请供方复核布带对齐、缝合及内衬关系，不能直接断定加大链牙或增强拉片就能消除受阻。这是假设的诊断示例，不是远恩故障案例。",
+          "es": "Suponga un componente recto con informe de resistencia, pero la tapa montada atrapa el forro en una esquina. Conserve el informe y registre aparte lugar y dirección del problema. Pida revisar alineación, costura y forro; no concluya que dientes mayores o tirador más fuerte resolverán la obstrucción. Es un ejemplo hipotético, no un fallo YUANEN."
+        },
+        {
+          "en": "For repeated-opening evidence, retain the complete sample and component revision, loaded or unloaded state, direction, conditions, method and acceptance criteria. A reported cycle count is meaningful only with those details; it is not a guaranteed number of deliveries. Component or sewing changes need a decision about which earlier observations remain representative. Do not perform a destructive test or force an obstructed sample on the basis of this guide.",
+          "zh": "反复开合依据应连同整袋与零件版本、装载或空载状态、方向、条件、方法和接受标准保留。循环次数只有与这些信息一起才有意义，不等于承诺可完成多少次配送。零件或缝合变更后，应判断旧观察中哪些仍具代表性；不要依据本指南做破坏性测试或强拉受阻样品。",
+          "es": "Conserve revisión de bolsa y componente, estado cargado/vacío, dirección, condiciones, método y aceptación. Un número de ciclos solo tiene sentido con esos datos y no garantiza entregas. Cambios de piezas o costura exigen revisar representatividad. No fuerce ni realice ensayos destructivos siguiendo esta guía."
         }
       ]
     },
@@ -152,6 +208,14 @@ const article: EditorialArticle = {
         "es": "Propuesta de bolsa de pizza YUANEN y límites de muestra"
       },
       "url": "https://yuanenbag.com/products/insulated-pizza-delivery-bags/"
+    },
+    {
+      "title": {
+        "en": "YKK: public overview of zipper testing objects",
+        "zh": "YKK：拉链试验对象公开说明",
+        "es": "YKK: objetos de ensayo de cremalleras"
+      },
+      "url": "https://ykkamericas.com/sustainability/governance/product-testing-methods/"
     }
   ],
   "relatedProducts": [
@@ -171,6 +235,7 @@ const article: EditorialArticle = {
       "es": "Concepto de cierre de bolsa de pizza; no muestra marca, resultado de resistencia ni clasificación por ciclos."
     }
   },
-  "updatedAt": "2026-10-31"
+  "updatedAt": "2026-11-11"
 }
+
 export default article

@@ -1,4 +1,5 @@
 import type { EditorialArticle } from '../editorial'
+
 const article: EditorialArticle = {
   "kind": "guide",
   "slug": "insulated-bag-print-colour-reference-proof",
@@ -63,6 +64,11 @@ const article: EditorialArticle = {
           "en": "Review the actual printed sample against the agreed reference under viewing conditions that both parties identify. Record who reviewed it, the result and any unresolved point. If instrumental measurement is needed, agree the method, settings, reporting basis and acceptance criteria with the responsible parties; this guide sets no universal threshold.",
           "zh": "按双方明确的观察条件，将实际印样与约定参考比较，记录检查人、结果及未决项。若需要仪器测量，应由负责各方约定方法、设置、报告口径与接受条件；本文不设通用阈值。",
           "es": "Compare la muestra impresa real con la referencia bajo condiciones de observación identificadas por ambas partes. Registre revisor, resultado y pendientes. Si hace falta medición instrumental, acuerden método, ajustes, forma de informar y criterios; esta guía no fija un umbral universal."
+        },
+        {
+          "en": "Keep artwork approval and appearance approval as separate decisions. In a hypothetical review, the logo shape and position may be accepted on a digital layout while the result on the navy nonwoven is still pending. Record that partial decision explicitly. A paper swatch beside the bag can identify the intended reference, but it cannot show how an unconfirmed ink/process will reproduce it on that surface.",
+          "zh": "图稿批准与外观批准应分开。假设某次审核已通过电子排版上的标志形状和位置，但海军蓝无纺布上的实际呈现仍待确认，应明确记录这一部分批准。袋旁纸色样可以识别拟用参考，但不能显示尚未确认的油墨/工艺在该表面的复制结果。",
+          "es": "Separe aprobación del diseño y de la apariencia. En un caso hipotético, forma y posición del logotipo pueden aprobarse en pantalla mientras el resultado sobre no tejido azul marino sigue pendiente. Registre la decisión parcial. Una muestra de papel identifica la referencia, no cómo la reproducirá una combinación de tinta y proceso aún sin confirmar."
         }
       ],
       "bullets": [
@@ -91,14 +97,19 @@ const article: EditorialArticle = {
       },
       "paragraphs": [
         {
+          "en": "When something changes, identify the affected decision instead of automatically repeating or reusing every approval. A new artwork size calls for another placement and readability review. A new base colour or substrate version calls for a fresh colour-scope decision. A different proposed printing process requires the supplier to identify whether the previous physical comparison still represents it. If a representative sample cannot be provided under the chosen order route, record that limitation before committing to an exact physical match.",
+          "zh": "发生变更时，应找出受影响的决定，而不是自动重复或沿用所有批准。图稿尺寸改变，要重看位置和可读性；底色或承印材料版本改变，要重新界定颜色批准；拟用印刷工艺改变，应由供方说明先前实物比较是否仍具代表性。若所选订单方式不能提供代表性样品，应在承诺精确实物匹配前记录这一限制。",
+          "es": "Ante cambios, identifique la decisión afectada. Cambiar tamaño del diseño exige revisar posición y legibilidad; cambiar color base o sustrato exige revisar alcance de color. Si cambia el proceso, el proveedor debe indicar si la comparación física anterior sigue siendo representativa. Si la modalidad elegida no ofrece muestra representativa, registre esa limitación antes de comprometer coincidencia física exacta."
+        },
+        {
           "en": "Send YUANEN the artwork revision, physical reference identification, substrate version and proof record. Confirm the available sample arrangement and the colour scope in writing. A later material or process change should identify the affected proof decision for review. Colour acceptance does not approve every production feature or establish a delivery date, price or minimum quantity.",
           "zh": "向远恩提供印稿版本、实物色标信息、承印材料版本及印样记录，书面确认可提供的样品安排和颜色范围。后续材料或工艺改变时，应标出受到影响的印样决定再复核。颜色接受不代表全部量产特征通过，也不建立交期、价格或起订量。",
           "es": "Envíe a YUANEN revisión gráfica, referencia física, versión del soporte y registro. Confirme por escrito muestra disponible y alcance del color. Si cambia material o proceso, identifique la decisión que debe revisarse. Aceptar color no aprueba toda la producción ni fija plazo, precio o cantidad mínima."
         },
         {
-          "en": "Use the existing label-placement guide for visibility and the design-sample guide for broader approval scope. This guide concerns colour evidence. The cover’s loose cards and unprinted carrier are visual props, not a colour standard, printed proof, supplied accessory or evidence of an exact colour match.",
-          "zh": "位置是否遮挡可参见既有标签位置指南，更广的样品批准范围参见设计样品指南；本文只处理颜色证据。封面的散放卡片与未印刷包体是画面道具，不是色彩标准、实际印样、供货附件或准确配色证据。",
-          "es": "Consulte la guía de posición de etiquetas para visibilidad y la de muestras de diseño para aprobación general. Aquí se trata evidencia del color. Las tarjetas y bolsa sin imprimir de portada son elementos visuales, no estándar cromático, prueba impresa, accesorio suministrado ni evidencia de coincidencia exacta."
+          "en": "Use the label-placement guide for visibility and the design-sample guide for broader approval scope. This guide concerns colour evidence. The loose paper card and unprinted carrier are reference props, not a colour standard, supplied accessory, completed print proof or evidence of an exact match.",
+          "zh": "标签位置指南用于讨论可见性，设计样品指南用于更广的批准范围，本篇聚焦颜色依据。独立纸卡和未印刷包体是参考道具，不是色彩标准、随货配件、已完成的印样或精确匹配证据。",
+          "es": "Consulte la guía de etiquetas para visibilidad y la de muestras para el alcance general. Esta guía trata evidencia de color. La tarjeta y bolsa sin imprimir son elementos de referencia, no patrón de color, accesorio incluido, prueba terminada ni coincidencia exacta."
         }
       ]
     }
@@ -133,19 +144,20 @@ const article: EditorialArticle = {
     "insulated-catering-bags"
   ],
   "image": {
-    "file": "images/editorial/2026-10-30-cover-repairs/insulated-bag-print-colour-reference-proof.webp",
+    "file": "images/editorial/2026-11-11-batch04/navy-nonwoven-colour-reference.webp",
     "kind": "illustration",
     "alt": {
-      "en": "Paper colour reference beside a separate printed rectangle on a nonwoven sample",
-      "zh": "纸色参考卡旁，独立无纺布样片上印有一块色块",
-      "es": "Referencia de color en papel junto a un rectángulo impreso sobre una muestra no tejida"
+      "en": "Closed navy front-opening carrier with a black side grip and a separate blue paper reference card",
+      "zh": "闭合的海军蓝前开式包、黑色侧提手及独立蓝色色块纸卡",
+      "es": "Bolsa azul marino de apertura frontal cerrada, asa lateral negra y tarjeta azul de papel separada"
     },
     "caption": {
-      "en": "Generic paper-versus-material colour comparison; no approved print match or actual order sample is established.",
-      "zh": "通用纸张与材料对色构图，不代表已批准的印刷匹配或真实订单样品。",
-      "es": "Comparación genérica de color en papel y material; no acredita una impresión aprobada ni una muestra de pedido real."
+      "en": "Paper reference and unprinted bag surface are different objects; this scene is not an approved colour match or a supplied proof service.",
+      "zh": "纸张参考与未印刷袋面是不同对象；画面不代表已批准的颜色匹配或可提供的打样服务。",
+      "es": "La referencia de papel y la superficie sin imprimir son objetos distintos; no acreditan una coincidencia aprobada ni un servicio de prueba disponible."
     }
   },
-  "updatedAt": "2026-10-31"
+  "updatedAt": "2026-11-11"
 }
+
 export default article

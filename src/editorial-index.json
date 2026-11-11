@@ -246,7 +246,7 @@
     "kind": "guide",
     "slug": "cooler-bag-zipper-strength-opening-evidence",
     "publishedAt": "2026-10-28",
-    "updatedAt": "2026-10-31",
+    "updatedAt": "2026-11-11",
     "title": {
       "en": "Request Separate Evidence for Zipper Strength and Repeated Opening",
       "zh": "保温包拉链强度与反复开合应分开核验",
@@ -293,6 +293,7 @@
     "kind": "guide",
     "slug": "custom-bag-artwork-file-handoff",
     "publishedAt": "2026-11-04",
+    "updatedAt": "2026-11-11",
     "title": {
       "en": "Prepare the Files Behind a Custom Bag Print Proof",
       "zh": "定制袋印稿交付：源文件、预览与印刷版面分别确认",
@@ -572,6 +573,7 @@
     "kind": "industry",
     "slug": "fpf-ppwr-recycled-content-evidence",
     "publishedAt": "2026-10-13",
+    "updatedAt": "2026-11-11",
     "title": {
       "en": "Food Packaging Forum Submits Comments on EU Recycling and Recycled Content",
       "zh": "Food Packaging Forum就欧盟包装回收与再生含量提交意见",
@@ -710,6 +712,7 @@
     "kind": "guide",
     "slug": "icecream-tub-refrigerant-fit",
     "publishedAt": "2026-10-13",
+    "updatedAt": "2026-11-11",
     "title": {
       "en": "Size Your Ice Cream Delivery Bag Around the Tub and Refrigerant",
       "zh": "根据桶体和冰源确定冰淇淋配送包尺寸",
@@ -818,7 +821,7 @@
     "kind": "guide",
     "slug": "insulated-bag-print-colour-reference-proof",
     "publishedAt": "2026-10-25",
-    "updatedAt": "2026-10-31",
+    "updatedAt": "2026-11-11",
     "title": {
       "en": "Match Print-Colour Approval to the Bag Substrate",
       "zh": "确认保温袋印刷颜色，要把色标与承印材料对应起来",
@@ -850,6 +853,7 @@
     "kind": "guide",
     "slug": "insulated-material-environmental-claim-evidence",
     "publishedAt": "2026-10-25",
+    "updatedAt": "2026-11-11",
     "title": {
       "en": "Request Separate Evidence for Environmental Material Claims",
       "zh": "采购保温复合材料时，把环境声明逐项索证",
@@ -1154,6 +1158,7 @@
     "kind": "guide",
     "slug": "paper-insulated-bag-moisture-contact-brief",
     "publishedAt": "2026-10-29",
+    "updatedAt": "2026-11-11",
     "title": {
       "en": "Specify Moisture Contact for Paper Insulated Bags",
       "zh": "纸基保温袋，先说明水分接触位置",
@@ -1215,6 +1220,7 @@
     "kind": "industry",
     "slug": "proampac-shelf-protect-food-contact-film",
     "publishedAt": "2026-10-27",
+    "updatedAt": "2026-11-11",
     "title": {
       "en": "ProAmpac Introduces Shelf Protect Food-Contact Films",
       "zh": "ProAmpac推出Shelf Protect食品接触薄膜",
@@ -1246,15 +1252,16 @@
     "kind": "industry",
     "slug": "promach-pack-expo-connected-line-preview",
     "publishedAt": "2026-10-14",
+    "updatedAt": "2026-11-11",
     "title": {
-      "en": "ProMach Plans Production-Stage Displays at PACK EXPO",
-      "zh": "ProMach将在PACK EXPO呈现包装产线各环节",
-      "es": "ProMach prepara áreas de exposición por etapas para PACK EXPO"
+      "en": "ProMach’s PACK EXPO Preview Separated the Stages of a Packaging Line",
+      "zh": "回看ProMach按包装工序组织的PACK EXPO预告",
+      "es": "La previa de ProMach en PACK EXPO separó las etapas de la línea"
     },
     "description": {
-      "en": "An exhibition preview prompts a separate packing check: pass finished-pack dimensions and handling requirements to the team selecting a shipping-box liner.",
-      "zh": "展会前瞻提出另一项装箱核对：将完成包装后的外形尺寸与取放要求，交给运输箱内衬选型人员。",
-      "es": "Una próxima exposición plantea una comprobación de embalaje: entregar las medidas y necesidades de manipulación del envase terminado a quien selecciona el forro térmico."
+      "en": "Revisit ProMach’s October preview and the organiser’s post-show report. Separate equipment stages, pack handoff and project-specific acceptance.",
+      "zh": "回看ProMach十月展前预告与主办方展后报告，区分设备工序、包装交接和具体项目验收。",
+      "es": "Revise la previa de octubre y el informe posterior del organizador. Separe etapas de equipos, entrega del envase y aceptación del proyecto."
     }
   },
   {
@@ -1526,6 +1533,7 @@
     "kind": "industry",
     "slug": "umd-biobased-produce-wrap-research",
     "publishedAt": "2026-10-31",
+    "updatedAt": "2026-11-11",
     "title": {
       "en": "University of Maryland Reports Bio-Based Wrap Research for Produce",
       "zh": "马里兰大学公布果蔬生物基包装薄膜研究",

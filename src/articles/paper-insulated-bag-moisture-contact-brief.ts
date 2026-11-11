@@ -1,4 +1,5 @@
 import type { EditorialArticle } from '../editorial'
+
 const article: EditorialArticle = {
   "kind": "guide",
   "slug": "paper-insulated-bag-moisture-contact-brief",
@@ -130,6 +131,20 @@ const article: EditorialArticle = {
             }
           ]
         ]
+      },
+      "image": {
+        "file": "images/editorial/2026-11-11-batch04/paper-bag-edge-handle-detail.webp",
+        "kind": "illustration",
+        "alt": {
+          "en": "Close view of a flat paper handle attachment, folded kraft rim and reflective inner face",
+          "zh": "扁纸提手连接、折叠牛皮纸袋口与反射内面的近景",
+          "es": "Detalle de fijación de asa plana de papel, borde kraft plegado e interior reflectante"
+        },
+        "caption": {
+          "en": "The paper attachment and rim remain distinct from the reflective face. The dry detail shows no wet-strength or carrying test.",
+          "zh": "纸质连接处和袋口与反射面分别可辨；干燥细节图不展示湿强或提携试验。",
+          "es": "La fijación y el borde de papel se distinguen de la cara reflectante. El detalle seco no muestra un ensayo húmedo ni de carga."
+        }
       }
     },
     {
@@ -143,6 +158,11 @@ const article: EditorialArticle = {
           "en": "TAPPI’s public T 456 description concerns tensile strength of paper or paperboard saturated with water. That defines a material-test scope; this article does not provide or prescribe the full method. A result for an identified paper specimen would still need to be tied to the offered paper grade and conditions. It would not, on its own, establish the finished bag’s wet carrying performance.",
           "zh": "TAPPI公开的T 456说明涉及纸和纸板水饱和后的拉伸强度，界定的是材料试验范围；本文没有提供或规定完整试验方法。即使有某纸样结果，仍需对应所报纸种及条件，不能仅凭它确立成品袋的湿态提携表现。",
           "es": "La descripción pública T 456 de TAPPI trata de resistencia a tracción de papel o cartón saturado de agua. Delimita un ensayo de material; este artículo no proporciona ni prescribe el método completo. Un resultado debe corresponder al papel ofrecido y sus condiciones. Por sí solo no establece el comportamiento de transporte de la bolsa mojada."
+        },
+        {
+          "en": "For example, if the reply contains only a wet-tensile report for the paper grade, keep that record under the paper material. Ask which sample used the reported grade, then identify the still-uncovered handle attachment, base folds, lining edges and joints. An intact paper strip does not answer whether the loaded assembly can be carried after the stated contact. Conversely, the absence of a whole-bag result does not mean the paper report is invalid.",
+          "zh": "例如，答复若只有该纸种的湿抗张报告，应将它归入纸材记录，先核对哪份样品使用了报告中的纸种，再列出尚未覆盖的提手连接、底折、内衬边缘和接缝。纸条本身完整，并不能回答装载整袋在约定接触后是否可提携；反过来，没有整袋结果也不代表纸材报告无效。",
+          "es": "Si la respuesta solo aporta tracción húmeda del papel, archive el informe como evidencia del material. Vincúlelo con la muestra que usa ese grado e identifique fijaciones, pliegues de base, bordes y uniones aún sin cubrir. La integridad de una tira no responde por la bolsa cargada tras el contacto previsto; tampoco la falta de resultado del conjunto invalida el informe del papel."
         },
         {
           "en": "For the proposed bag, ask the supplier or qualified testing party to agree which contact conditions, complete assembly, contents, handling and acceptance criteria are relevant. Keep the paper reference, lining/bonding revision and handle/base construction in the same record. A different paper or attachment needs review before copying an earlier claim. Do not improvise a soaking-and-lifting test on an unknown load.",
@@ -159,9 +179,9 @@ const article: EditorialArticle = {
       },
       "paragraphs": [
         {
-          "en": "Send YUANEN the closed-container reference, expected exterior condition, contact-location table and proposed handoff sequence. Mark material, sample and evaluation questions that remain open. Confirm the quoted construction and supply scope in writing. This guide gives no wet-load limit, waterproof classification, thermal duration, food-contact approval or recyclability claim. The dry empty bag on the cover shows the design form only.",
-          "zh": "向远恩提供闭合餐盒参考、预计外表面状态、水分接触表及拟定交接顺序，标明尚未解决的材料、样品和评估问题。书面确认报价结构与供货范围。本文不提供湿态载荷限值、防水等级、保温时长、食品接触批准或可回收主张；封面的干燥空袋只展示设计形态。",
-          "es": "Envíe a YUANEN referencia del envase cerrado, estado exterior previsto, tabla de contactos y secuencia de entrega. Identifique cuestiones pendientes de material, muestra y evaluación. Confirme construcción y suministro por escrito. Aquí no se establece carga húmeda, clasificación de impermeabilidad, duración térmica, aprobación alimentaria ni reciclabilidad. La bolsa seca y vacía de portada solo muestra la forma."
+          "en": "Send YUANEN the closed-container reference, expected exterior condition, contact-location table and handoff sequence. Mark material evidence and complete-assembly evidence separately, including open items. Confirm the construction and supply scope in writing. The cover and close-up show a dry proposal, not a wet-load limit, waterproof classification, food-contact approval or tested thermal duration.",
+          "zh": "向远恩提供闭合容器编号、预期外壁状态、接触位置表与交接顺序；分开标记纸材依据、整袋组合依据及各自未决项，并书面确认结构和供货范围。封面与近景只展示干燥拟定形态，不代表湿载上限、防水等级、食品接触批准或经测试的保温时长。",
+          "es": "Envíe referencia del envase cerrado, estado exterior previsto, tabla de contactos y secuencia de entrega. Separe evidencia de papel y conjunto con sus pendientes y confirme construcción y suministro. Las imágenes muestran una propuesta seca, no carga húmeda admisible, impermeabilidad, aprobación alimentaria ni duración térmica ensayada."
         }
       ]
     }
@@ -200,6 +220,8 @@ const article: EditorialArticle = {
       "zh": "干燥纸基袋设计形态，不展示水分接触、提携载荷或保温试验。",
       "es": "Forma de diseño seca; no muestra ensayos de contacto húmedo, carga ni rendimiento térmico."
     }
-  }
+  },
+  "updatedAt": "2026-11-11"
 }
+
 export default article

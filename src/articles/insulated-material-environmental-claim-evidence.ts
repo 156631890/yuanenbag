@@ -1,4 +1,5 @@
 import type { EditorialArticle } from '../editorial'
+
 const article: EditorialArticle = {
   "kind": "guide",
   "slug": "insulated-material-environmental-claim-evidence",
@@ -46,9 +47,9 @@ const article: EditorialArticle = {
       },
       "paragraphs": [
         {
-          "en": "The FTC’s existing Green Guides summary advises against broad, unqualified environmental-benefit claims. The European Commission explains that bio-based plastics are not necessarily biodegradable or compostable. These references help frame questions; they do not certify this liner, approve marketing wording or announce a new 2026 requirement.",
-          "zh": "FTC现有Green Guides摘要不建议笼统、无明确限定的环境效益声明。欧委会说明，生物基塑料并不必然可生物降解或可堆肥。这些资料用于明确询问方向，不能认证本款内衬、批准营销用语，或被写成2026年新增要求。",
-          "es": "El resumen existente de las Green Guides de la FTC desaconseja afirmaciones ambientales generales sin matices. La Comisión Europea explica que un plástico de origen biológico no es necesariamente biodegradable ni compostable. Son referencias para formular preguntas, no certifican este revestimiento ni aprueban publicidad o un nuevo requisito de 2026."
+          "en": "The FTC Green Guides summary advises against broad, unqualified environmental-benefit claims and says a third-party certification does not remove the need to substantiate express and implied claims. The European Commission describes its bio-based, biodegradable and compostable plastics framework as a non-binding communication. These are references for separating questions, not certification of this liner or a new 2026 product approval.",
+          "zh": "FTC的Green Guides摘要反对笼统、无条件的环境效益声明，并说明第三方认证不能免除对明示与暗示主张提供依据的责任。欧委会将生物基、可生物降解和可堆肥塑料框架说明为不具法律约束力的政策文件。这些资料用于拆分问题，不是本内衬的认证或2026年新增产品批准。",
+          "es": "El resumen de las Green Guides de la FTC desaconseja beneficios ambientales generales sin matices y exige sustentar las afirmaciones incluso con certificación externa. La Comisión describe su marco sobre plásticos biobasados, biodegradables y compostables como comunicación no vinculante. Son referencias para separar preguntas, no certificación del revestimiento ni nueva aprobación de producto de 2026."
         }
       ],
       "table": {
@@ -148,6 +149,39 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
+        "en": "When a document covers only the facing",
+        "zh": "文件只覆盖面层时，怎样处理",
+        "es": "Cuando el documento solo cubre la cara exterior"
+      },
+      "paragraphs": [
+        {
+          "en": "Consider a hypothetical offer with a document for facing F1, while the proposed liner combines F1 with insulation and adhesive, and a separate EPS box completes the shipping pack. First match the document’s product identity, attribute and version to F1. Keep any supported wording at that stated scope; neither a shared quotation number nor a photograph extends it to the adhesive, complete liner or outer box.",
+          "zh": "假设某报价只附有面层F1的文件，而拟供内衬还组合了隔热层和胶黏剂，运输包另含独立EPS外箱。先把文件中的产品身份、声明属性和版本与F1对应；有依据的表述只保留在文件限定范围内。共用一个报价编号或出现在同一张图里，都不能把依据延伸到胶黏剂、整套内衬或外箱。",
+          "es": "Suponga una oferta con documentación de la cara F1, mientras el revestimiento añade aislamiento y adhesivo y el envío incorpora una caja EPS separada. Vincule identidad, atributo y versión del documento con F1. Mantenga la afirmación en ese alcance: compartir número de oferta o fotografía no extiende la evidencia al adhesivo, revestimiento completo o caja."
+        },
+        {
+          "en": "If the requested statement concerns the whole liner, leave it pending and ask for the assembly reference and evidence covering that construction. This is a missing-evidence decision, not proof that the material failed. If the order needs an accepted disposal route, also check the destination’s actual collection and acceptance conditions; a component document cannot answer that operational question by itself.",
+          "zh": "若采购要求针对整套内衬，先将该项保留待确认，再索取成品组合编号及覆盖该结构的依据。这是证据缺失判断，不是材料测试失败。若订单还要求有可接受的处置路径，应另查目的地的实际收集与接收条件；单个部件文件不能独自回答这一运营问题。",
+          "es": "Si la afirmación solicitada cubre todo el revestimiento, déjela pendiente y pida referencia del conjunto y evidencia de esa construcción. Falta de evidencia no significa fallo del material. Si se necesita una vía de gestión, revise además recogida y aceptación reales en destino; el documento de un componente no resuelve esa cuestión operativa."
+        }
+      ],
+      "image": {
+        "file": "images/editorial/2026-11-11-batch04/separate-liner-outer-box.webp",
+        "kind": "illustration",
+        "alt": {
+          "en": "Empty white foam box and lid beside a separate silver flexible liner",
+          "zh": "空白色泡沫箱与箱盖，旁边放着独立银色柔性内衬",
+          "es": "Caja y tapa blancas de espuma vacías junto a un revestimiento flexible plateado separado"
+        },
+        "caption": {
+          "en": "Separate specification objects require separate evidence scopes. Appearance does not establish composition, recycled content or a disposal route.",
+          "zh": "不同规格对象需要分别界定证据范围；外观不证明成分、再生含量或处置路径。",
+          "es": "Objetos de especificación distintos requieren alcances de evidencia distintos. El aspecto no acredita composición, contenido reciclado ni vía de gestión."
+        }
+      }
+    },
+    {
+      "heading": {
         "en": "Keep the evidence with the proposed version",
         "zh": "证据跟随拟定版本保存",
         "es": "Conserve las pruebas con la versión propuesta"
@@ -222,6 +256,8 @@ const article: EditorialArticle = {
       "zh": "泡沫箱与柔性内衬形态；外观不证明成分、环境属性或外箱供货范围。",
       "es": "Forma de caja de espuma y revestimiento flexible. El aspecto no acredita composición, atributos ambientales ni suministro de caja exterior."
     }
-  }
+  },
+  "updatedAt": "2026-11-11"
 }
+
 export default article

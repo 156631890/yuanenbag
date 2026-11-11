@@ -1,55 +1,143 @@
 import type { EditorialArticle } from '../editorial'
-const t = (en: string, zh: string, es: string) => ({ en, zh, es })
 
 const article: EditorialArticle = {
-  kind: 'industry', slug: 'promach-pack-expo-connected-line-preview', publishedAt: '2026-10-14', eventDate: '2026-10-05',
-  market: t('United States and food-and-beverage packaging procurement', '美国与食品饮料包装采购', 'Estados Unidos y compras de embalajes para alimentos y bebidas'),
-  title: t('ProMach Plans Production-Stage Displays at PACK EXPO', 'ProMach将在PACK EXPO呈现包装产线各环节', 'ProMach prepara áreas de exposición por etapas para PACK EXPO'),
-  description: t('An exhibition preview prompts a separate packing check: pass finished-pack dimensions and handling requirements to the team selecting a shipping-box liner.', '展会前瞻提出另一项装箱核对：将完成包装后的外形尺寸与取放要求，交给运输箱内衬选型人员。', 'Una próxima exposición plantea una comprobación de embalaje: entregar las medidas y necesidades de manipulación del envase terminado a quien selecciona el forro térmico.'),
-  intro: t('In its 5 October announcement, ProMach outlines production-stage displays for PACK EXPO International, 18–21 October 2026 in Chicago.', 'ProMach于10月5日公告，计划在2026年10月18日至21日芝加哥PACK EXPO International呈现按产线环节组织的展示区域。', 'En su anuncio del 5 de octubre, ProMach presenta áreas por etapas de producción para PACK EXPO International, del 18 al 21 de octubre de 2026 en Chicago.'),
-  sections: [
-    {
-      heading: t('The exhibition plan is not an installed line', '展示计划不等于已安装的产线', 'La exposición prevista no es una línea instalada'),
-      paragraphs: [
-        t('The planned areas cover filling and capping, labeling and end-of-line packaging. They describe an exhibition arrangement. This article does not report a continuous production line operating at the show or an installation at a food business.', '计划展示的环节包括灌装与封盖、贴标和末端包装。这描述的是展区安排，本文不报告展会已有连续产线运行，也不声称食品企业已经安装这些设备。', 'Las áreas previstas abarcan llenado y tapado, etiquetado y embalaje final. Describen una disposición de exposición. Este artículo no informa de una línea continua ya operativa en la feria ni de una instalación en una empresa alimentaria.'),
-      ],
-    },
-    {
-      heading: t('Specify the pack that leaves the line', '先定义出线后的完整包装', 'Defina el envase que sale de la línea'),
-      paragraphs: [
-        t('For buyers planning a separate insulated shipping pack, our interpretation is to start with the finished unit handed to the packing operator. Nominal tray dimensions can leave out a projecting lid, sleeve or label. A liner brief should describe the closed package in the orientation in which the operator receives it. This is a purchasing interpretation, not a ProMach compatibility statement.', '对于需要另外配置保温运输包装的采购者，我们的判断是从交给装箱人员的完整包装开始。餐盒标称尺寸可能没有包含伸出的盖沿、外套或标签。内衬询价资料应描述已经闭合的包装，以及装箱人员收到它时的朝向。这属于采购分析，不是ProMach的适配声明。', 'Para quien necesita un embalaje térmico de transporte independiente, nuestra interpretación es partir de la unidad terminada que recibe el operario. Las medidas nominales pueden omitir una tapa saliente, funda o etiqueta. La consulta del forro debe describir el envase cerrado y su orientación al llegar al puesto. Es análisis de compra, no una declaración de compatibilidad de ProMach.'),
-        t('Use a handoff drawing with two views: the completed pack’s outline and its position in the proposed shipping container. Mark protrusions that could touch a liner fold. Record the label’s position so the receiving team can decide where it needs to remain readable. Do not approve an assumed packing sequence from a machinery brochure alone.', '交接图可使用两个视图：完整包装的外轮廓，以及在拟定运输容器中的位置。标出可能接触内衬折边的突出部位，并记录标签位置，让收货团队决定哪些信息需要保持可读。不能仅凭设备宣传册就确认拟定装箱顺序。', 'Prepare dos vistas para la entrega: el contorno del envase terminado y su posición en el recipiente de transporte previsto. Marque salientes que puedan tocar un pliegue del forro. Registre la posición de la etiqueta para que recepción decida qué información debe seguir visible. No confirme la secuencia de embalaje solo con un folleto de maquinaria.'),
-      ],
-    },
-    {
-      heading: t('Use the liner sample to check the downstream task', '用内衬样品核对出线后的装箱作业', 'Compruebe el embalaje posterior con una muestra del forro'),
-      paragraphs: [
-        t('YUANEN’s existing foil box-liner applications include meal kits packed into an outer container. For this range, ask for a sample check using the closed food packs, the actual container interior and the proposed coolant space. Treat the foam box, inner food packs and coolant as separate components unless the quotation includes them.', '远恩既有铝箔箱内衬应用包括将食材包装入外容器。采购这一系列时，试装应使用闭合食品包装、实际外容器内部空间和拟定冰源空间。泡沫箱、食品内包装及冰源应作为独立组件确认，除非报价明确包含它们。', 'Las aplicaciones existentes del forro YUANEN incluyen kits de comida dentro de un recipiente exterior. Compruebe la muestra con los envases cerrados, el interior real del recipiente y el espacio previsto para refrigerante. Considere caja de espuma, envases y refrigerante como componentes separados salvo que la oferta los incluya.'),
-      ],
-      bullets: [
-        t('Place the finished units in the intended order. Record whether the operator must turn a tray or press against its lid to insert it.', '按拟定顺序放入完整包装，记录操作人员是否需要转动餐盒，或按压盒盖才能装入。', 'Coloque las unidades en el orden previsto. Registre si el operario debe girar una bandeja o presionar la tapa para introducirla.'),
-        t('Check access for hands after other units are loaded. A dimensional fit does not establish a workable repeated loading movement.', '在其余包装放入后检查手部操作空间。尺寸上能放下，不代表重复装取动作可以顺利完成。', 'Compruebe el acceso de las manos después de cargar las demás unidades. El encaje dimensional no acredita un movimiento repetible de carga.'),
-        t('Photograph the final layout and the container closure. Keep label access and handling observations separate from route-temperature test results.', '拍下最终排列及外容器闭合情况，将标签可读性与取放观察和路线温度测试结果分开记录。', 'Fotografíe la disposición y el cierre final. Registre acceso a etiquetas y manipulación por separado de los resultados térmicos de la ruta.'),
-      ],
-    },
-    {
-      heading: t('Keep equipment acceptance and liner acceptance separate', '设备验收与内衬验收分别确认', 'Separe la aceptación del equipo y la del forro'),
-      paragraphs: [
-        t('The equipment supplier should confirm its own line requirements. The liner enquiry should identify the closed-unit sample, outer-container reference, loading arrangement and who will inspect the packed result. When the inner container or lid changes, send the revised sample for a fit review before reusing the earlier liner drawing. This proposed handoff record is not a claim that YUANEN has tested a particular machine.', '设备供应方应确认其产线要求。内衬询价应标明闭合包装样品、外容器编号、装载排列以及由谁检查装箱结果。内容器或盒盖改变时，应先提供新样品重新核对适配，再复用之前的内衬图纸。这是建议的交接记录，不表示远恩已测试某台设备。', 'El proveedor del equipo debe confirmar los requisitos de su línea. La consulta del forro debe identificar muestra cerrada, referencia del recipiente exterior, disposición y responsable de inspeccionar la carga. Si cambia el recipiente o su tapa, revise el encaje con la nueva muestra antes de reutilizar el plano anterior. Este registro propuesto no implica que YUANEN haya ensayado una máquina concreta.'),
-        t('Final dimensions, layers, MOQ and delivery follow the confirmed sample and order. Exhibition plans can change. Nothing here establishes YUANEN attendance, a relationship with ProMach, certified automation compatibility, food-contact approval or a guaranteed temperature duration.', '最终尺寸、复合层、起订量和交付条件按确认样品和订单确定。展会计划可能调整。本文不证明远恩参展、与ProMach存在合作、获得自动化适配认证或食品接触批准，也不保证温控时长。', 'Medidas, capas, pedido mínimo y entrega dependen de la muestra y el pedido confirmados. Los planes de feria pueden cambiar. Este artículo no acredita asistencia de YUANEN, relación con ProMach, compatibilidad automatizada certificada, aprobación alimentaria ni duración térmica garantizada.'),
-      ],
-    },
-  ],
-  sources: [
-    {title:t('ProMach announcement, 5 October 2026','ProMach企业公告，2026年10月5日','Anuncio de ProMach, 5 de octubre de 2026'),url:'https://www.promachbuilt.com/press-releases/promach-built-to-run-as-one-pack-expo-2026/',publishedAt:'2026-10-05'},
-    {title:t('PACK EXPO International organizer information','PACK EXPO International主办方信息','Información del organizador de PACK EXPO International'),url:'https://www.packexpointernational.com/'},
-    {title:t('YUANEN box-liner meal-kit application','远恩箱内衬食材包装箱应用','Aplicación del forro YUANEN para kits de comida'),url:'https://yuanenbag.com/products/foil-insulated-box-liners/#meal-kit-packaging'},
-  ],
-  relatedProducts:['foil-insulated-box-liners'],
-  image:{
-    file:'images/editorial/2026-10-14/lidded-meal-trays-roller-conveyor.webp',kind:'illustration',
-    alt:t('Three black trays with clear lids on a stainless roller conveyor beside a counter with white containers','不锈钢辊筒输送台上有三只透明盖黑色餐盒，旁边台面放着白色容器','Tres bandejas negras con tapas transparentes sobre un transportador de rodillos junto a una mesa con recipientes blancos'),
-    caption:t('Generic packing handoff scene. It does not depict ProMach equipment, PACK EXPO or a YUANEN production line.','通用包装交接场景，不展示ProMach设备、PACK EXPO现场或远恩产线。','Escena genérica de entrega de envases. No representa equipos ProMach, PACK EXPO ni una línea YUANEN.'),
+  "kind": "industry",
+  "slug": "promach-pack-expo-connected-line-preview",
+  "publishedAt": "2026-10-14",
+  "eventDate": "2026-10-05",
+  "market": {
+    "en": "United States and food-and-beverage packaging procurement",
+    "zh": "美国与食品饮料包装采购",
+    "es": "Estados Unidos y compras de embalajes para alimentos y bebidas"
   },
+  "title": {
+    "en": "ProMach’s PACK EXPO Preview Separated the Stages of a Packaging Line",
+    "zh": "回看ProMach按包装工序组织的PACK EXPO预告",
+    "es": "La previa de ProMach en PACK EXPO separó las etapas de la línea"
+  },
+  "description": {
+    "en": "Revisit ProMach’s October preview and the organiser’s post-show report. Separate equipment stages, pack handoff and project-specific acceptance.",
+    "zh": "回看ProMach十月展前预告与主办方展后报告，区分设备工序、包装交接和具体项目验收。",
+    "es": "Revise la previa de octubre y el informe posterior del organizador. Separe etapas de equipos, entrega del envase y aceptación del proyecto."
+  },
+  "intro": {
+    "en": "ProMach’s 5 October announcement described production-stage displays for PACK EXPO International in Chicago on 18–21 October 2026. The event has since ended: PMMI published its post-show report on 22 October. The original announcement remains a preview, not proof that a specified customer line was installed or accepted.",
+    "zh": "ProMach于2026年10月5日公告，计划在10月18—21日芝加哥PACK EXPO International按产线工序组织展示。展会现已结束，PMMI于10月22日发布展后报告。原公告仍属于展前预告，不能据此证明某条客户产线已安装或验收。",
+    "es": "El anuncio del 5 de octubre describía etapas productivas para PACK EXPO International, Chicago, del 18 al 21 de octubre de 2026. El evento terminó y PMMI publicó su informe el 22. El anuncio original sigue siendo una previa, no prueba de instalación o aceptación de una línea del cliente."
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "The preview described stages and ways to navigate them",
+        "zh": "预告描述了哪些工序和参观方式",
+        "es": "Qué etapas y recorridos describía la previa"
+      },
+      "paragraphs": [
+        {
+          "en": "ProMach described display islands mirroring stages from filling and capping to labelling and end-of-line packaging. Its planned InLine Kiosk was a self-guided matching tool, while Follow the Line was a market-oriented tour. Those are different functions: selecting a possible solution, viewing a process stage and confirming an integrated line are not the same evidence.",
+          "zh": "ProMach介绍的展示岛对应从灌装、封盖到贴标及末端包装的不同阶段；拟设InLine Kiosk是自助匹配工具，Follow the Line则是按市场组织的参观路线。寻找候选方案、观看某道工序和确认集成产线，需要的依据并不相同。",
+          "es": "Las islas previstas representaban llenado, tapado, etiquetado y final de línea. InLine Kiosk se describía como herramienta de selección y Follow the Line como recorrido por mercado. Encontrar una opción, ver una etapa y confirmar una línea integrada requieren evidencias diferentes."
+        },
+        {
+          "en": "PMMI’s 22 October report confirms the event took place and describes show-wide demonstrations and business discussions. It does not supply the operating conditions, integration design or acceptance result for a buyer’s particular ProMach configuration. The company’s event website still contains visit and registration wording; that is not a new invitation or evidence of a future occurrence of this 2026 show.",
+          "zh": "PMMI的10月22日报告确认展会已举办，并介绍全展范围的演示与商务交流，但不提供某位买家具体ProMach配置的运行条件、集成设计或验收结果。企业活动网站仍有参观、注册文案，不代表对这届2026年展会发出了新的未来邀约。",
+          "es": "El informe de PMMI confirma el evento y describe demostraciones y conversaciones generales, no condiciones ni aceptación de una configuración concreta. El sitio del evento conserva textos de visita y registro; no son una nueva invitación para una futura edición de este evento de 2026."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Specify what passes between stages",
+        "zh": "写清工序之间交出的包装状态",
+        "es": "Defina qué se entrega entre etapas"
+      },
+      "paragraphs": [
+        {
+          "en": "For a project enquiry, name the pack at each interface: filled and capped, labelled, then handed to the next packing stage. Record the actual closed outline, orientation and label location instead of treating the product’s nominal size as the finished unit. A changed lid or sleeve can require a new downstream handoff record even if the food portion is unchanged. This is our procurement interpretation, not a ProMach compatibility statement.",
+          "zh": "项目询价应写清各接口交出的包装状态：灌装封盖后、贴标后，以及转交下一包装工序时的状态。记录实际闭合外廓、朝向和标签位置，不能用产品标称尺寸代替最终包装单元。即使食品份量未变，换盖或加套也可能需要更新下游交接记录。这是采购解读，不是ProMach兼容性声明。",
+          "es": "En la consulta identifique el envase tras llenado y cierre, tras etiquetado y al entregarlo al siguiente paso. Registre contorno cerrado, orientación y etiqueta, no solo tamaño nominal. Cambiar tapa o funda puede exigir revisar la entrega aunque la ración no cambie. Es interpretación de compra, no una declaración de compatibilidad ProMach."
+        },
+        {
+          "en": "Use a handoff drawing with two views: the completed pack’s outline and its position in the proposed shipping container. Mark protrusions that could touch a liner fold. Record the label’s position so the receiving team can decide where it needs to remain readable. Do not approve an assumed packing sequence from a machinery brochure alone.",
+          "zh": "交接图可使用两个视图：完整包装的外轮廓，以及在拟定运输容器中的位置。标出可能接触内衬折边的突出部位，并记录标签位置，让收货团队决定哪些信息需要保持可读。不能仅凭设备宣传册就确认拟定装箱顺序。",
+          "es": "Prepare dos vistas para la entrega: el contorno del envase terminado y su posición en el recipiente de transporte previsto. Marque salientes que puedan tocar un pliegue del forro. Registre la posición de la etiqueta para que recepción decida qué información debe seguir visible. No confirme la secuencia de embalaje solo con un folleto de maquinaria."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Keep the insulated pack as its own acceptance object",
+        "zh": "保温运输包另列验收对象",
+        "es": "El embalaje térmico tiene su propia aceptación"
+      },
+      "paragraphs": [
+        {
+          "en": "YUANEN’s existing foil box-liner applications include meal kits packed into an outer container. For this range, ask for a sample check using the closed food packs, the actual container interior and the proposed coolant space. Treat the foam box, inner food packs and coolant as separate components unless the quotation includes them.",
+          "zh": "远恩既有铝箔箱内衬应用包括将食材包装入外容器。采购这一系列时，试装应使用闭合食品包装、实际外容器内部空间和拟定冰源空间。泡沫箱、食品内包装及冰源应作为独立组件确认，除非报价明确包含它们。",
+          "es": "Las aplicaciones existentes del forro YUANEN incluyen kits de comida dentro de un recipiente exterior. Compruebe la muestra con los envases cerrados, el interior real del recipiente y el espacio previsto para refrigerante. Considere caja de espuma, envases y refrigerante como componentes separados salvo que la oferta los incluya."
+        },
+        {
+          "en": "Keep the equipment supplier’s interface confirmation and the liner sample record separately identified, then check where they meet in the proposed handoff. A liner that accepts one tray version does not establish machine compatibility, and a successful equipment demonstration does not establish transport temperature duration. Confirm construction, supplied components and commercial terms for the actual order.",
+          "zh": "分别标明设备供应方的接口确认与内衬样品记录，再核对二者在拟定交接中的连接点。一款餐盒能够装入内衬，不证明机器兼容；设备演示成功，也不证明运输保温时长。实际订单仍需确认结构、供货部件与商业条件。",
+          "es": "Identifique por separado la confirmación de interfaz del fabricante y el registro de muestra del forro, y revise su unión en la entrega propuesta. Que una bandeja encaje no demuestra compatibilidad de máquina, ni una demostración determina duración térmica. Confirme construcción, componentes y condiciones del pedido."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "ProMach announcement, 5 October 2026",
+        "zh": "ProMach企业公告，2026年10月5日",
+        "es": "Anuncio de ProMach, 5 de octubre de 2026"
+      },
+      "url": "https://www.promachbuilt.com/press-releases/promach-built-to-run-as-one-pack-expo-2026/",
+      "publishedAt": "2026-10-05"
+    },
+    {
+      "title": {
+        "en": "PMMI post-show report, 22 October 2026",
+        "zh": "PMMI展后报告，2026年10月22日",
+        "es": "Informe posterior de PMMI, 22 de octubre de 2026"
+      },
+      "url": "https://www.pmmi.org/news/pack-expo-international-2026-delivers-innovation-connections-and-business-opportunities-in-chicago",
+      "publishedAt": "2026-10-22"
+    },
+    {
+      "title": {
+        "en": "ProMach event site: retained preview wording",
+        "zh": "ProMach活动网站：保留的预告文案",
+        "es": "Sitio del evento ProMach: texto de previa conservado"
+      },
+      "url": "https://www.promachpackexpo.com/"
+    },
+    {
+      "title": {
+        "en": "YUANEN box-liner meal-kit application",
+        "zh": "远恩箱内衬食材包装箱应用",
+        "es": "Aplicación del forro YUANEN para kits de comida"
+      },
+      "url": "https://yuanenbag.com/products/foil-insulated-box-liners/#meal-kit-packaging"
+    }
+  ],
+  "relatedProducts": [
+    "foil-insulated-box-liners"
+  ],
+  "image": {
+    "file": "images/editorial/2026-10-14/lidded-meal-trays-roller-conveyor.webp",
+    "kind": "illustration",
+    "alt": {
+      "en": "Three black trays with clear lids on a stainless roller conveyor beside a counter with white containers",
+      "zh": "不锈钢辊筒输送台上有三只透明盖黑色餐盒，旁边台面放着白色容器",
+      "es": "Tres bandejas negras con tapas transparentes sobre un transportador de rodillos junto a una mesa con recipientes blancos"
+    },
+    "caption": {
+      "en": "Generic packing handoff scene. It does not depict ProMach equipment, PACK EXPO or a YUANEN production line.",
+      "zh": "通用包装交接场景，不展示ProMach设备、PACK EXPO现场或远恩产线。",
+      "es": "Escena genérica de entrega de envases. No representa equipos ProMach, PACK EXPO ni una línea YUANEN."
+    }
+  },
+  "updatedAt": "2026-11-11"
 }
+
 export default article

@@ -1,4 +1,5 @@
 import type { EditorialArticle } from '../editorial'
+
 const article: EditorialArticle = {
   "kind": "guide",
   "slug": "custom-bag-artwork-file-handoff",
@@ -59,6 +60,97 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
+        "en": "Connect the design file to one agreed bag layout",
+        "zh": "把设计文件对应到一份确定的袋型排版",
+        "es": "Vincule el diseño con una distribución de bolsa acordada"
+      },
+      "paragraphs": [
+        {
+          "en": "Use an explicitly identified file set rather than a folder of competing “final” files. In a hypothetical handoff, source A2 contains the editable design, preview P2 shows the intended visible result, and layout L3 positions that design on the chosen bag route and printable area. These are example revision labels, not required formats. Send their relationship in one note so a reviewer can tell which source and preview belong to which layout.",
+          "zh": "应使用可识别的一组文件，而不是同时存在多个“最终版”的文件夹。假设一次交接中，源文件A2包含可编辑设计，预览P2表示拟呈现的画面，排版L3把该设计放到所选袋型方式和可印区域。这些是举例的版本标识，不是规定格式；随附一条对应说明，使复核者知道源文件和预览分别属于哪份排版。",
+          "es": "Use un conjunto identificado, no varias versiones “finales”. En un ejemplo hipotético, A2 contiene el diseño editable, P2 muestra el resultado previsto y L3 lo coloca en la modalidad de bolsa y área imprimible acordadas. Son etiquetas de ejemplo, no formatos obligatorios. Explique la relación para que se sepa qué origen y vista pertenecen a cada distribución."
+        }
+      ],
+      "table": {
+        "caption": {
+          "en": "What each file lets the reviewer check",
+          "zh": "各份文件让复核者检查什么",
+          "es": "Qué permite revisar cada archivo"
+        },
+        "columns": [
+          {
+            "en": "Record",
+            "zh": "记录",
+            "es": "Registro"
+          },
+          {
+            "en": "Check",
+            "zh": "检查内容",
+            "es": "Revisión"
+          },
+          {
+            "en": "If it disagrees",
+            "zh": "不一致时的处理",
+            "es": "Si hay discrepancia"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "en": "Editable source",
+              "zh": "可编辑源文件",
+              "es": "Origen editable"
+            },
+            {
+              "en": "Wording, design elements, linked assets and the available original information",
+              "zh": "文字、设计元素、链接素材及原始信息",
+              "es": "Texto, elementos, recursos vinculados e información original"
+            },
+            {
+              "en": "Resolve missing/substituted assets before approving a derived preview",
+              "zh": "先解决缺失或替换素材，再批准派生预览",
+              "es": "Resolver recursos ausentes/sustituidos antes de aprobar la vista"
+            }
+          ],
+          [
+            {
+              "en": "Readable preview",
+              "zh": "可读预览",
+              "es": "Vista legible"
+            },
+            {
+              "en": "Whether the intended design survived export",
+              "zh": "设计意图在导出后是否完整保留",
+              "es": "Si el diseño previsto se conserva al exportar"
+            },
+            {
+              "en": "Correct the source/export pair; do not let an old preview approve a new source",
+              "zh": "修正源文件与导出对应，不能用旧预览批准新源文件",
+              "es": "Corregir origen/exportación; una vista antigua no aprueba un origen nuevo"
+            }
+          ],
+          [
+            {
+              "en": "Bag layout and approved print area",
+              "zh": "袋型排版与已确认可印区域",
+              "es": "Distribución y área imprimible aprobada"
+            },
+            {
+              "en": "Face, physical print size, orientation and relation to seams/handles",
+              "zh": "袋面、实际印刷尺寸、方向及与缝线/提手的关系",
+              "es": "Cara, tamaño físico, orientación y relación con costuras/asas"
+            },
+            {
+              "en": "Return the affected layout for review if the bag route or size changes",
+              "zh": "袋型方式或尺寸改变时，重审受影响排版",
+              "es": "Revisar distribución afectada si cambia modalidad o tamaño"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "heading": {
         "en": "Release one identified file set",
         "zh": "放行一组有明确版本的文件",
         "es": "Libere un conjunto identificado de archivos"
@@ -68,6 +160,11 @@ const article: EditorialArticle = {
           "en": "Keep the source revision, preview revision, selected bag/order method and agreed layout together. Mark which file supersedes the previous one, and have the approving party check the same revision that will be used for preparation. If the size, wording, image or bag route changes, return the affected layout for confirmation instead of silently replacing a file after approval.",
           "zh": "将原稿版本、预览版本、选定袋款及订单方式、约定版面放在同一记录中。标明新文件替代哪一版，并由确认方核对实际用于制作准备的同一版本。尺寸、文字、图片或订单方式变更时，应重新确认受影响版面，不在批准后静默换稿。",
           "es": "Conserve juntos revisión del original, revisión de la vista, bolsa/modalidad y distribución acordada. Indique qué archivo sustituye al anterior y revise la misma versión que se usará para preparar el trabajo. Si cambian tamaño, texto, imagen o modalidad, confirme de nuevo la parte afectada, sin reemplazar silenciosamente archivos ya aprobados."
+        },
+        {
+          "en": "If the files disagree, pause the affected layout decision and name which revision should be corrected. Approving a preview that still contains an old phone number does not approve a source with a newer number; resizing a design does not authorise resizing an existing-size bag. Where a physical print sample is unavailable under the chosen route, keep colour or material questions pending instead of describing the digital proof as that missing sample.",
+          "zh": "若文件彼此不一致，应暂停相关排版决定，并明确需要修正的版本。预览若仍带旧电话号码，就不能用它批准带新号码的源文件；改变图稿尺寸，也不意味着获准改变现有尺寸袋体。所选方式若不提供实物印样，应保留颜色或材料问题待确认，不能把电子稿称为那份并不存在的样品。",
+          "es": "Si los archivos discrepan, detenga la decisión de distribución afectada e identifique la revisión que debe corregirse. Una vista con teléfono antiguo no aprueba un origen con número nuevo; ampliar diseño no autoriza cambiar el tamaño de una bolsa existente. Sin muestra física disponible, deje pendientes color o material en vez de presentar la prueba digital como esa muestra."
         },
         {
           "en": "File preparation is not a colour, material or performance test. Confirm accepted formats, artwork assistance, printing scope, fees and the applicable sample terms for the particular enquiry. Do not infer production readiness, thermal duration or certification from a proof.",
@@ -111,6 +208,8 @@ const article: EditorialArticle = {
       "zh": "用独立纸样在拟印袋面上核对印刷位置。",
       "es": "Use una prueba separada para comprobar la posición en la cara prevista de la bolsa."
     }
-  }
+  },
+  "updatedAt": "2026-11-11"
 }
+
 export default article
