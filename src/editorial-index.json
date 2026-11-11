@@ -277,6 +277,7 @@
     "kind": "industry",
     "slug": "costco-orange-juice-paper-handle-case",
     "publishedAt": "2026-10-22",
+    "updatedAt": "2026-11-11",
     "title": {
       "en": "Smurfit Westrock Shares Costco Orange-Juice Paper-Handle Case",
       "zh": "Smurfit Westrock介绍Costco橙汁组合装纸提手案例",
@@ -384,6 +385,7 @@
     "kind": "guide",
     "slug": "design-sample-production-acceptance-scope",
     "publishedAt": "2026-10-23",
+    "updatedAt": "2026-11-11",
     "title": {
       "en": "Define What a Design Sample Approves Before Production",
       "zh": "量产前，写清设计样品的批准范围",
@@ -539,7 +541,7 @@
     "kind": "guide",
     "slug": "foil-metallised-lining-specification",
     "publishedAt": "2026-10-23",
-    "updatedAt": "2026-10-31",
+    "updatedAt": "2026-11-11",
     "title": {
       "en": "A Silver Lining Needs a Layer Specification",
       "zh": "银色内衬询价，要分清铝箔与镀铝膜资料",
@@ -738,6 +740,7 @@
     "kind": "industry",
     "slug": "inline-plastics-safe-t-chef-24-ounce-lid-options",
     "publishedAt": "2026-10-28",
+    "updatedAt": "2026-11-11",
     "title": {
       "en": "Inline Plastics Adds Two Safe-T-Chef Container Options",
       "zh": "Inline Plastics新增两款Safe-T-Chef餐盒",
@@ -922,6 +925,7 @@
     "kind": "guide",
     "slug": "insulated-parcel-shipping-dimensions-quote",
     "publishedAt": "2026-10-21",
+    "updatedAt": "2026-11-11",
     "title": {
       "en": "Measure the Closed Insulated Parcel Before Requesting Shipping Costs",
       "zh": "保温包裹运费询价，先量封装后的外包装",
@@ -1180,6 +1184,7 @@
     "kind": "guide",
     "slug": "pizza-delivery-bag-packout-checklist",
     "publishedAt": "2026-10-12",
+    "updatedAt": "2026-11-11",
     "title": {
       "en": "What to Check After Loading Pizza Boxes into an Insulated Delivery Bag",
       "zh": "披萨盒装进配送保温包后，样品要检查什么",
@@ -1410,6 +1415,7 @@
     "kind": "industry",
     "slug": "smurfit-westrock-allende-integrated-bottle-glass-pack",
     "publishedAt": "2026-10-29",
+    "updatedAt": "2026-11-11",
     "title": {
       "en": "Smurfit Westrock Details Allende’s Integrated Bottle-and-Glass Pack",
       "zh": "Smurfit Westrock披露Allende瓶杯一体分隔包装案例",
@@ -1441,6 +1447,7 @@
     "kind": "industry",
     "slug": "sonoco-third-quarter-2026-packaging-costs",
     "publishedAt": "2026-10-24",
+    "updatedAt": "2026-11-11",
     "title": {
       "en": "Sonoco Reports Cost and Volume Changes in Third-Quarter Packaging Results",
       "zh": "Sonoco三季度公告披露包装业务成本与销量变化",
@@ -1487,6 +1494,7 @@
     "kind": "industry",
     "slug": "tetra-pak-ice-cream-paper-wrap",
     "publishedAt": "2026-10-16",
+    "updatedAt": "2026-11-11",
     "title": {
       "en": "Tetra Pak Plans a Phased Ice Cream Wrap Rollout from Europe",
       "zh": "利乐计划从欧洲分阶段推出冰淇淋纸基包装",
@@ -1549,7 +1557,7 @@
     "kind": "guide",
     "slug": "water-activated-pack-condensation-claim-check",
     "publishedAt": "2026-10-26",
-    "updatedAt": "2026-10-31",
+    "updatedAt": "2026-11-11",
     "title": {
       "en": "Specify Water Activation and Condensation Control Separately",
       "zh": "把吸水准备与凝露控制分别写入冰袋要求",

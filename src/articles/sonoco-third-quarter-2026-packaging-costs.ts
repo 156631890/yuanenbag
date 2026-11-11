@@ -46,6 +46,25 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
+        "en": "The two reported segments moved differently",
+        "zh": "两项报告业务的变化不同",
+        "es": "Los dos segmentos evolucionaron de forma distinta"
+      },
+      "paragraphs": [
+        {
+          "en": "The release compares the three months ended 27 September 2026 with the three months ended 28 September 2025. Consumer Packaging net sales declined 2.9%; the company links reduced metal-can volumes to weather-affected harvests, alongside pricing and currency effects. Industrial Paper Packaging net sales rose 5.2%, primarily through pricing actions, while the company says rising raw-material, freight and energy costs outweighed those actions and productivity in segment profit.",
+          "zh": "公告比较截至2026年9月27日与截至2025年9月28日的三个月。Consumer Packaging净销售额下降2.9%，公司将金属罐销量下降联系到受天气影响的收成，并同时列出调价及汇率影响；Industrial Paper Packaging净销售额增长5.2%，主要来自调价，但公司称原料、运费和能源成本上涨，在该业务利润中超过了调价及效率改善的抵消作用。",
+          "es": "El comunicado compara los tres meses al 27 de septiembre de 2026 con los tres meses al 28 de septiembre de 2025. Consumer Packaging redujo ventas netas 2,9%; la empresa relaciona menor volumen de latas con cosechas afectadas por clima, además de precio y divisas. Industrial Paper Packaging aumentó ventas 5,2%, principalmente por precios, pero costes de materias primas, flete y energía superaron precio y productividad en el beneficio del segmento."
+        },
+        {
+          "en": "A sales percentage combines more than an input-price change. Do not use either segment’s percentage as a surcharge on an unrelated foil-pouch quotation. If a supplier cites this report when changing a price, ask which quoted component, period and commercial condition changed, then compare the two quotations on that same basis.",
+          "zh": "销售额百分比并不只包含原料价格变化。不能把任一业务的百分比直接加到无关铝箔袋报价上；供应方若援引这份报告解释改价，应说明报价中的哪个部件、哪段期间和哪项商业条件发生变化，再按同一口径比较两份报价。",
+          "es": "Una variación de ventas no es solo variación de insumos. No aplique el porcentaje como recargo a una bolsa distinta. Si el proveedor cita el informe, pida componente, periodo y condición comercial afectados y compare ambas ofertas sobre esa misma base."
+        }
+      ]
+    },
+    {
+      "heading": {
         "en": "Compare the same pouch before comparing prices",
         "zh": "先固定袋体，再比较报价",
         "es": "Compare la misma bolsa antes de comparar precios"
@@ -139,6 +158,7 @@ const article: EditorialArticle = {
       "zh": "通用仓储环境中的纸卷，不对应报道企业的场所或库存。",
       "es": "Rollos de papel en un entorno de almacenamiento genérico, sin representar instalaciones o existencias de las empresas citadas."
     }
-  }
+  },
+  "updatedAt": "2026-11-11"
 }
 export default article

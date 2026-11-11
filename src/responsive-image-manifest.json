@@ -15564,5 +15564,175 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-11-batch03/pizza-box-corner-clearance.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/69e19423414a-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/21efd28b1f34-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/aca23c97569e-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/cb2851b06934-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/0aa12ad72995-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/0ed9ad9173ee-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/af4686d943dc-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-11-batch03/bottle-glass-separation.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/15983439ee6c-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/0bd4067bf717-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/1e4e2649e7aa-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/b3bcc1449090-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/747dfd436162-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/d60fbf36f050-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/dd537aa1e169-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-11-batch03/three-bottle-neck-collar.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/3e5223ed97d6-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/1cdfeac1e1b4-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/7df1724e7cb1-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/268818841c28-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/60e65ee82b6f-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/3597f1cbf3af-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/568afe6df8c0-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-11-batch03/flat-domed-lid-comparison.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/466d08412a72-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/8dc8545af5aa-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/d975b1b90572-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/e0b1ff954ed0-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/b3e09df497cf-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/6cd651dd6368-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/d3c47f6da180-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-11-batch03/pizza-zipper-corner-detail.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/f6ac3ed54d6f-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/a2155b6bb742-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/b4301214c80c-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/9b144e240e20-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/9834f2aa32d3-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/3031be457be1-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/c072f1e42764-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

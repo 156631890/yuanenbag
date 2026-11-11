@@ -35,73 +35,70 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
-        "en": "Give each requirement its own evidence line",
-        "zh": "为两项需求分别对应证据",
-        "es": "Asigne pruebas separadas a cada requisito"
+        "en": "Write a separate acceptance question for each function",
+        "zh": "两种功能分别写验收问题",
+        "es": "Escriba una aceptación distinta para cada función"
       },
       "paragraphs": [
         {
-          "en": "Use two lines in the purchasing brief. Confirm empty and prepared dimensions under the actual product instructions. If a dry-surface outcome is needed, name the surface and contact arrangement, then ask who can substantiate that outcome for the proposed complete pack. Leave unsupported functions unconfirmed.",
-          "zh": "采购简报中分列两项需求，按本款说明确认空袋及准备后尺寸。若需要保持某个表面干燥，应指明表面与接触安排，再询问由谁为拟用完整包装提供相应依据；缺少支持的功能保持待确认。",
-          "es": "Separe los requisitos en la consulta. Confirme medidas vacías y preparadas según las instrucciones reales. Si necesita una superficie seca, identifíquela y describa el contacto; consulte quién puede respaldar ese resultado en el embalaje completo previsto. Mantenga funciones sin respaldo pendientes."
+          "en": "For water activation, identify the intended water-entry area and the supplier’s preparation procedure, then record the prepared sample dimensions and handling instructions. For condensation management, identify which nearby surface must remain within an agreed moisture condition, during which part of the route and with which coolant and contact arrangement. Success in the first check does not answer the second.",
+          "zh": "对于水激活，先识别设计进水部位及供应方准备流程，再记录准备后样品尺寸和处理说明；对于凝露管理，则要指出哪个相邻表面、在路线哪一阶段、采用哪种冰源和接触布局时，需要满足约定的湿润状态。第一项通过，不能回答第二项。",
+          "es": "Para activar con agua, identifique zona de entrada y preparación del proveedor y registre dimensiones preparadas e instrucciones. Para gestionar condensación, defina superficie, fase de ruta, refrigerante, contacto y condición de humedad aceptable. Aprobar lo primero no responde a lo segundo."
         }
       ],
       "table": {
         "caption": {
-          "en": "Separate preparation and condensation requirements",
-          "zh": "准备与凝露需求分列记录",
-          "es": "Registro separado de preparación y condensación"
+          "en": "Different questions need different records",
+          "zh": "不同问题对应不同记录",
+          "es": "Preguntas distintas, registros distintos"
         },
         "columns": [
           {
-            "en": "Requirement",
-            "zh": "需求",
-            "es": "Requisito"
+            "en": "Question",
+            "zh": "问题",
+            "es": "Pregunta"
           },
           {
-            "en": "Information to define",
-            "zh": "需要明确的信息",
-            "es": "Información que definir"
-          },
-          {
-            "en": "Evidence boundary",
-            "zh": "证据边界",
-            "es": "Límite de pruebas"
+            "en": "Record needed",
+            "zh": "所需记录",
+            "es": "Registro necesario"
           }
         ],
         "rows": [
           [
             {
-              "en": "Water activation",
-              "zh": "吸水准备",
-              "es": "Activación con agua"
+              "en": "Can this sample be prepared as intended?",
+              "zh": "样品能否按设计准备？",
+              "es": "¿Se prepara como está previsto?"
             },
             {
-              "en": "Product/sample ___; water-entry area ___; instruction revision ___; empty/prepared dimensions ___",
-              "zh": "产品/样品___；进水区域___；说明修订___；空袋/准备后尺寸___",
-              "es": "Producto/muestra ___; entrada de agua ___; revisión ___; medidas vacías/preparadas ___"
-            },
-            {
-              "en": "Confirmation for this format; no absorption-rate or cooling claim inferred",
-              "zh": "确认本款准备要求，不推定吸水速率或保冷表现",
-              "es": "Confirmación del formato; sin inferir velocidad de absorción ni prestación térmica"
+              "en": "Sample version, entry area, written procedure and prepared dimensions",
+              "zh": "样品版本、进水部位、书面流程及准备后尺寸",
+              "es": "Versión, zona de entrada, procedimiento y dimensiones preparadas"
             }
           ],
           [
             {
-              "en": "Condensation control",
-              "zh": "凝露控制",
-              "es": "Control de condensación"
+              "en": "Is the required surface condition achieved?",
+              "zh": "是否达到所需表面状态？",
+              "es": "¿Se logra la condición superficial?"
             },
             {
-              "en": "Surface to protect ___; contact arrangement ___; required outcome ___; responsible evidence provider ___",
-              "zh": "需保护表面___；接触安排___；期望结果___；证据责任方___",
-              "es": "Superficie a proteger ___; contacto ___; resultado requerido ___; responsable de pruebas ___"
+              "en": "Named surface, contact layout, conditions, observation time and agreed acceptance",
+              "zh": "指定表面、接触布局、条件、观察时点及约定验收",
+              "es": "Superficie, disposición, condiciones, momento y aceptación"
+            }
+          ],
+          [
+            {
+              "en": "Where did the observed liquid originate?",
+              "zh": "观察到的液体来自哪里？",
+              "es": "¿De dónde procede el líquido?"
             },
             {
-              "en": "Actual material and pack-out evidence needed; water-entry design alone is insufficient",
-              "zh": "需实际材料及装载依据，进水结构本身不足以证明",
-              "es": "Se requieren pruebas de material y embalado; la entrada de agua no basta"
+              "en": "Keep condensation and possible container/pack leakage unresolved until the source is identified",
+              "zh": "在查明来源前，不把凝露与容器或冰袋泄漏混为结论",
+              "es": "Distinga condensación y posible fuga hasta identificar el origen"
             }
           ]
         ]
@@ -154,6 +151,6 @@ const article: EditorialArticle = {
       "es": "Forma del reverso y bordes, sin demostrar activación con agua ni control de condensación."
     }
   },
-  "updatedAt": "2026-10-31"
+  "updatedAt": "2026-11-11"
 }
 export default article

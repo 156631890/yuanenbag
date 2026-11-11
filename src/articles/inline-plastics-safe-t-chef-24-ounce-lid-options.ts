@@ -27,6 +27,25 @@ const article: EditorialArticle = {
   "sections": [
     {
       "heading": {
+        "en": "Use product OD rather than product ID or case dimensions",
+        "zh": "采用产品外尺寸，不能混用内尺寸或整箱尺寸",
+        "es": "Use dimensiones exteriores del producto, no interiores ni del cartón"
+      },
+      "paragraphs": [
+        {
+          "en": "The manufacturer’s product pages list both candidates at 24 oz, but distinguish product ID, product OD and shipping-case dimensions. For the bag-fit enquiry, the published product OD is 9.9×6.6×1.8 inches for C9624BF and 9.9×6.6×2.3 inches for C9624BD. The footprints match in this published comparison, while the closed heights differ. These are supplier-listed dimensions, not YUANEN measurements or a bag-capacity calculation.",
+          "zh": "厂商页面将两款都列为24oz，但分别列出产品内尺寸、产品外尺寸和运输整箱尺寸。用于袋体适配询价的已公布产品外尺寸为：C9624BF是9.9×6.6×1.8英寸，C9624BD是9.9×6.6×2.3英寸；本次公开规格中底面相同，闭合高度不同。这是供应方列示值，不是远恩实测或袋容量计算。",
+          "es": "Ambos figuran con 24 oz, pero las páginas separan dimensiones interiores, exteriores y de la caja de expedición. El exterior publicado es 9,9×6,6×1,8 pulgadas para C9624BF y 9,9×6,6×2,3 para C9624BD: misma huella publicada, distinta altura cerrada. Son medidas del proveedor, no mediciones YUANEN ni cálculo de capacidad."
+        },
+        {
+          "en": "Use the actual intended closed samples to confirm stacking and lid contact. Do not multiply a single-container height into an untested stack allowance or substitute the interior dimensions. A change of lid or container revision requires a new envelope record and a repeat of the opening and removal checks.",
+          "zh": "仍需用实际拟用的闭合样品确认叠放和盒盖接触。不能把单盒高度直接乘成未经核验的叠高余量，也不能用内尺寸替换外廓。盖型或餐盒版本改变后，应更新外廓记录，并重做袋口及取出检查。",
+          "es": "Confirme apilado y contacto con muestras cerradas reales. No multiplique altura individual como holgura de pila no ensayada ni sustituya por medidas interiores. Cambiar tapa o revisión exige actualizar envolvente y repetir entrada y retirada."
+        }
+      ]
+    },
+    {
+      "heading": {
         "en": "One nominal capacity, two physical comparisons",
         "zh": "同一标称容量，分开核对",
         "es": "Una capacidad nominal, dos comparaciones físicas"
@@ -75,6 +94,22 @@ const article: EditorialArticle = {
       "publishedAt": "2026-10-23"
     },
     {
+      "url": "https://www.inlineplastics.com/product/c9624bd/",
+      "title": {
+        "en": "C9624BD official product specification",
+        "zh": "C9624BD官方产品规格",
+        "es": "Especificación oficial C9624BD"
+      }
+    },
+    {
+      "url": "https://www.inlineplastics.com/product/c9624bf/",
+      "title": {
+        "en": "C9624BF official product specification",
+        "zh": "C9624BF官方产品规格",
+        "es": "Especificación oficial C9624BF"
+      }
+    },
+    {
       "title": {
         "en": "YUANEN current catering-bag proposal",
         "zh": "远恩当前餐盘包方案",
@@ -87,18 +122,19 @@ const article: EditorialArticle = {
     "insulated-catering-bags"
   ],
   "image": {
-    "file": "images/editorial/2026-10-28/empty-rectangular-takeaway-container-worktable.webp",
+    "file": "images/editorial/2026-11-11-batch03/flat-domed-lid-comparison.webp",
     "kind": "illustration",
     "alt": {
-      "en": "An empty black rectangular food container with a clear lid on a light gray preparation worktable",
-      "zh": "浅灰准备台上的空黑色长方形餐盒与透明盒盖",
-      "es": "Recipiente rectangular negro vacío con tapa transparente sobre una mesa de preparación gris clara"
+      "en": "Two empty black food containers with a flat clear lid and a taller domed clear lid.",
+      "zh": "两个空黑色餐盒，分别配透明平盖和较高透明拱盖。",
+      "es": "Dos recipientes negros vacíos con tapa transparente plana y abombada más alta."
     },
     "caption": {
-      "en": "Generic takeaway-container scene; no branded model, fit trial or performance result is depicted.",
-      "zh": "通用外带餐盒画面，不展示品牌型号、适配试验或性能结果。",
-      "es": "Escena genérica de envases para llevar; no representa un modelo de marca, ensayo de ajuste ni resultado de rendimiento."
+      "en": "Generic lid forms illustrate the height comparison. They are not Inline Plastics samples or scale drawings; use the selected SKU dimensions and actual closed sample.",
+      "zh": "通用盖型用于解释高度比较；不是Inline Plastics样品或比例图，应采用选定SKU的尺寸及实际闭合样品。",
+      "es": "Las formas genéricas explican la altura. No son muestras Inline Plastics ni planos a escala: use medidas del SKU y muestra cerrada."
     }
-  }
+  },
+  "updatedAt": "2026-11-11"
 }
 export default article
