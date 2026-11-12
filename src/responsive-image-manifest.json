@@ -16652,5 +16652,243 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-12-batch08/open-carrier-cleaning-observation.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/3f273c45a475-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/001623c99248-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/a62e09c57767-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/4b740991d6d1-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/64311c68d9b0-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/092174ed56b9-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/52e3516904c9-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-12-batch08/front-fold-zipper-observation.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/32ee0bb75975-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/dc583386d808-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/dd3bcb51488d-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/cfaad28d9f8f-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/de12529b6317-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/8090ac9c5c20-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/d45efa649931-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-12-batch08/gift-box-separator-coolant-contact.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/9d5f5d945d10-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/b7fde7c5d1c4-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/2f10bb797b88-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/dbf71977feec-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/dee90375afc5-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/2f901a8e9aa5-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/f8e81c2a9ab6-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-12-batch08/empty-tote-and-shipping-carton.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/6cdf19335c75-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/078b38c8e205-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/0423b43a1d51-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/af42a496dba1-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/655c6fdebd13-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/7630f453a6d8-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/a099df9dc70b-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-12-batch08/closed-pizza-carton-entry.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/f7a0a37eaa74-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/4a27bf95e9d4-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/4a51f3016028-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/67ebd5614c77-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/31f00bf4581f-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/551f139bb829-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/ce673e61de2f-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-12-batch08/reduced-load-front-carrier.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/63faff566698-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/6a45e6035f13-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/63fae04907bf-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/ab2fdaf7b550-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/8df457480758-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/d907517fb1b3-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/39f18d323bc1-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-12-batch08/trolley-upper-clearance-side-grip.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/e9728cb4e13c-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/439df61031af-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/06560a443be7-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/ec61e360aeab-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/31254c508104-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/f34d8666ffb0-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/171e68b4bd53-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

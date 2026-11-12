@@ -3,6 +3,7 @@
     "kind": "industry",
     "slug": "acr-ultra-green-molded-fiber-acquisition",
     "publishedAt": "2026-10-25",
+    "updatedAt": "2026-11-12",
     "title": {
       "en": "ACR Announces Acquisition of Molded-Fiber Supplier Ultra Green",
       "zh": "ACR宣布收购模塑纤维包装供应商Ultra Green",
@@ -129,6 +130,7 @@
     "kind": "guide",
     "slug": "catering-bag-trolley-shelf-clearance",
     "publishedAt": "2026-10-19",
+    "updatedAt": "2026-11-12",
     "title": {
       "en": "A Catering Bag Needs Working Space on the Trolley",
       "zh": "餐盘保温包上推车，别只量层板宽度",
@@ -176,6 +178,7 @@
     "kind": "guide",
     "slug": "chocolate-gift-box-coolant-separation",
     "publishedAt": "2026-10-14",
+    "updatedAt": "2026-11-12",
     "title": {
       "en": "Keep Chocolate Gift Packaging in the Coolant Separation Brief",
       "zh": "巧克力运输冰源方案也要考虑礼盒表面保护",
@@ -207,6 +210,7 @@
     "kind": "guide",
     "slug": "cleaning-trial-insulated-bag-samples",
     "publishedAt": "2026-10-15",
+    "updatedAt": "2026-11-12",
     "title": {
       "en": "Agree a Cleaning Trial Before Putting Insulated Bags into Rotation",
       "zh": "保温袋周转使用前，先确认清洁与干燥方法",
@@ -492,6 +496,7 @@
     "kind": "guide",
     "slug": "flat-packed-insulated-bag-storage-brief",
     "publishedAt": "2026-10-16",
+    "updatedAt": "2026-11-12",
     "title": {
       "en": "Specify Empty-Bag Packing Before Ordering Insulated Totes",
       "zh": "把空袋装箱与仓储条件写进保温袋询价",
@@ -743,6 +748,7 @@
     "kind": "industry",
     "slug": "ifco-whole-foods-reusable-produce-packaging",
     "publishedAt": "2026-11-04",
+    "updatedAt": "2026-11-12",
     "title": {
       "en": "IFCO expands reusable produce packaging at Whole Foods Market",
       "zh": "IFCO扩展Whole Foods Market生鲜可重复使用包装计划",
@@ -917,6 +923,7 @@
     "kind": "guide",
     "slug": "insulated-packout-dimensional-range-fit",
     "publishedAt": "2026-10-23",
+    "updatedAt": "2026-11-12",
     "title": {
       "en": "Check Pack-Out Fit Across the Agreed Dimension Ranges",
       "zh": "用约定尺寸范围核对保温袋与内装物的适配",
@@ -1070,6 +1077,7 @@
     "kind": "guide",
     "slug": "multi-stop-delivery-bag-opening-trial",
     "publishedAt": "2026-10-16",
+    "updatedAt": "2026-11-12",
     "title": {
       "en": "Include Every Stop in an Insulated Delivery-Bag Trial",
       "zh": "逐站开袋和减载，应一起纳入配送试验",
@@ -1085,15 +1093,16 @@
     "kind": "industry",
     "slug": "nfinite-paper-barrier-pilot-run",
     "publishedAt": "2026-10-15",
+    "updatedAt": "2026-11-12",
     "title": {
       "en": "Nfinite Reports a Roll-to-Roll Pilot Run for Barrier Paper",
       "zh": "Nfinite公布阻隔纸卷对卷中试进展",
       "es": "Nfinite anuncia una prueba piloto de papel barrera de bobina a bobina"
     },
     "description": {
-      "en": "A Canadian pilot announcement raises a practical sourcing question: which material, production and complete-pack evidence is needed before changing an insulated shipping pack?",
-      "zh": "加拿大企业的中试公告带来一个采购问题：调整保温运输包装前，需要分别取得哪些材料、生产和整包装验证资料？",
-      "es": "Un anuncio piloto en Canadá plantea qué documentos del material, la producción y el embalaje completo pedir antes de cambiar un envío térmico."
+      "en": "Read Nfinite’s October 2026 roll-to-roll pilot scope, distinguish measured run details from projected shelf life, and identify the evidence needed for a packaging trial.",
+      "zh": "核对Nfinite 2026年10月卷对卷中试范围，区分运行披露与货架期预测，并明确包装应用试行仍缺什么证据。",
+      "es": "Revise el alcance piloto de Nfinite de octubre de 2026, distinga datos de la corrida y vida útil proyectada e identifique pruebas pendientes para un embalaje."
     }
   },
   {
@@ -1288,6 +1297,7 @@
     "kind": "guide",
     "slug": "repeat-order-insulated-bag-change-review",
     "publishedAt": "2026-10-15",
+    "updatedAt": "2026-11-12",
     "title": {
       "en": "Map Insulated Bag Changes to the Checks Needed Before a Repeat Order",
       "zh": "保温袋返单前，把变更与复核项目对应起来",

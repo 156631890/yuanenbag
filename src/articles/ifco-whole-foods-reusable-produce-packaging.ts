@@ -60,39 +60,111 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
-        "en": "The procurement question is how the loop closes",
-        "zh": "采购要落实的是循环怎样闭合",
-        "es": "La pregunta de compra es cómo se cierra el circuito"
+        "en": "The reusable crate needs a return system",
+        "zh": "周转箱需要完整的回收系统",
+        "es": "La caja reutilizable necesita un circuito de retorno"
       },
       "paragraphs": [
         {
-          "en": "The original announcement says that IFCO crates are collected after use, washed and sanitized, and returned for reuse. Those steps explain why a reusable container program includes recurring movements and handovers as well as the physical container. Buying an object intended for repeated use does not, by itself, define who performs those tasks.",
-          "zh": "原始公告描述，IFCO周转箱使用后被收集、清洗和消毒，再送回供应链重复使用。这些环节说明，周转包装项目既涉及实体容器，也涉及反复发生的运输和交接。仅仅买到一种设计为可重复使用的容器，并没有自动确定这些工作由谁承担。",
-          "es": "El anuncio original indica que las cajas de IFCO se recogen después de su uso, se lavan y desinfectan y vuelven a la cadena para reutilizarse. Esos pasos explican que el programa incluye movimientos y entregas recurrentes además del contenedor físico. Comprar un objeto destinado a varios usos no determina, por sí solo, quién realiza esas tareas."
-        },
-        {
-          "en": "Before choosing a similar model, follow one shipment from packing to return. At the receiving point, establish who separates and holds the empties and who arranges collection. At the cleaning handover, identify who releases containers for the next use and how damaged or unsuitable units are handled. At the next packing point, establish who replenishes usable empties and what happens if returns arrive late. A gap in any handover leaves a task unassigned even when the crate itself suits the produce. These are buyer-side questions, not disclosed terms of the IFCO–Whole Foods Market agreement.",
-          "zh": "选择类似模式前，可以沿着一批货从装货到返还的路径检查责任：收货端由谁分拣和暂存空箱、谁安排收集；清洗交接处由谁决定箱体可以进入下一次使用、损坏或不适用箱体怎样处理；下一次装货点由谁补充可用空箱、返还延误时怎样安排。即使箱体适合所装果蔬，任一交接责任缺位，仍会留下无人承担的工作。这些是采购评估问题，并非已经披露的IFCO与Whole Foods Market合同条款。",
-          "es": "Antes de elegir un modelo similar, siga un envío desde el envasado hasta su retorno. En la recepción, determine quién separa y almacena los vacíos y quién organiza su recogida. En la entrega para limpieza, identifique quién libera los envases para otro uso y cómo se gestionan las unidades dañadas o inadecuadas. En el siguiente punto de envasado, aclare quién repone los vacíos utilizables y qué ocurre si los retornos se retrasan. Una responsabilidad sin asignar deja una tarea pendiente aunque la caja sea adecuada para el producto. Son preguntas del comprador, no condiciones publicadas del acuerdo entre IFCO y Whole Foods Market."
+          "en": "IFCO describes crates being collected after use, washed and sanitized, then returned to the supply chain; it also describes end-of-life recycling into new RPCs. The article does not allocate every operational responsibility to a named participant or publish a full service agreement. The following table is a purchasing review of those handoffs, with inspection and exception handling added as proposed controls, not as undisclosed features of the Whole Foods program.",
+          "zh": "IFCO说明箱体使用后被回收、清洗消毒并返回供应链，也提到报废后回收制成新RPC。公告没有逐一分配每项操作责任，也未公开完整服务协议。下表是对这些交接点的采购复核；检查和异常处理是建议补充的控制项，不冒充Whole Foods项目未披露的实际流程。",
+          "es": "IFCO describe recogida, lavado y desinfección, y retorno de las cajas, además del reciclaje al final de vida para fabricar nuevos RPC. El anuncio no asigna todas las responsabilidades ni publica el contrato completo. La tabla revisa esas entregas; inspección y excepciones son controles propuestos, no detalles no divulgados del programa."
         }
-      ]
+      ],
+      "table": {
+        "caption": {
+          "en": "Define responsibilities before a reuse pilot",
+          "zh": "周转试行前明确责任",
+          "es": "Responsabilidades antes de un piloto de reutilización"
+        },
+        "columns": [
+          {
+            "en": "Handoff",
+            "zh": "交接点",
+            "es": "Entrega"
+          },
+          {
+            "en": "Written responsibility",
+            "zh": "书面责任",
+            "es": "Responsabilidad escrita"
+          },
+          {
+            "en": "If the handoff is missing",
+            "zh": "交接缺失时",
+            "es": "Si falta la entrega"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "en": "Collection after use",
+              "zh": "用后回收",
+              "es": "Recogida tras uso"
+            },
+            {
+              "en": "Who releases empties, where and how receipt is recorded",
+              "zh": "谁移交空箱、地点及签收记录",
+              "es": "Quién entrega vacíos, dónde y con qué registro"
+            },
+            {
+              "en": "Agree custody and follow-up for unreturned units",
+              "zh": "约定未返箱的保管责任与跟进",
+              "es": "Acordar custodia y seguimiento de unidades no devueltas"
+            }
+          ],
+          [
+            {
+              "en": "Cleaning and release",
+              "zh": "清洁与放行",
+              "es": "Limpieza y liberación"
+            },
+            {
+              "en": "Who defines, performs and documents the agreed process",
+              "zh": "谁规定、执行并记录约定程序",
+              "es": "Quién define, realiza y documenta el proceso"
+            },
+            {
+              "en": "Quarantine or review unclear-status crates under the agreed procedure",
+              "zh": "按约定程序隔离或复核状态不明箱体",
+              "es": "Separar o revisar cajas de estado incierto según el procedimiento"
+            }
+          ],
+          [
+            {
+              "en": "Inspection and replenishment",
+              "zh": "检查与补充",
+              "es": "Inspección y reposición"
+            },
+            {
+              "en": "Who handles damage, rejection and next supply",
+              "zh": "谁处理损坏、拒收与下一轮供给",
+              "es": "Quién gestiona daños, rechazo y suministro siguiente"
+            },
+            {
+              "en": "Agree shortage response without assuming unlimited pool stock",
+              "zh": "约定缺箱应对，不假定箱池无限供给",
+              "es": "Acordar respuesta a faltantes sin suponer stock ilimitado"
+            }
+          ]
+        ]
+      }
     },
     {
       "heading": {
-        "en": "What this announcement can inform",
-        "zh": "这条新闻能帮助做什么判断",
-        "es": "Qué decisión puede orientar este anuncio"
+        "en": "Use the case to test a business model, not to predict savings",
+        "zh": "用案例核对模式，不直接预测自身收益",
+        "es": "Use el caso para revisar el modelo, no predecir ahorros"
       },
       "paragraphs": [
         {
-          "en": "The case is relevant when growers, distributors and retailers are considering a coordinated return system for produce transport packaging. If a proposed route has no agreed way to recover empties, first resolve that responsibility before treating reuse as an operating plan. If a return arrangement already exists, compare the proposed container and service against that actual route rather than assuming the same result as this announcement.",
-          "zh": "当种植商、分销商和零售商考虑为果蔬运输包装建立协同回收系统时，此事件具有参考价值。如果拟用路线尚无明确的空箱回收安排，应先解决这项责任，再把重复使用视为可执行方案。如果已经有回收安排，则应针对这条真实路线比较拟用容器和服务，而不是套用此次公告的结果。",
-          "es": "El caso sirve de referencia cuando productores, distribuidores y minoristas estudian un sistema coordinado de retorno para el embalaje de transporte de productos frescos. Si una ruta propuesta carece de una forma acordada de recuperar vacíos, resuelva primero esa responsabilidad antes de considerar la reutilización un plan operativo. Si ya existe un sistema de retorno, compare el contenedor y el servicio con esa ruta real, sin dar por obtenido el resultado de este anuncio."
+          "en": "A buyer can compare a proposed one-way and reusable system only after defining the same product flow and counting the associated returns. Keep avoided one-way packaging, replacement units, collection and service responsibilities distinct. IFCO’s cumulative figure cannot supply another buyer’s return rate, cost or environmental result. The unreported calculation method and a different distribution network limit any transfer of that number.",
+          "zh": "采购者应先定义相同货物流，并把回程纳入统计，再比较一次性与周转系统。避免使用的一次性包装、补充箱体、回收和服务责任分别记录。IFCO累计数据不能代替另一买方的回收率、成本或环境结果；计算方法未完整披露，配送网络也不同，不能直接套用数字。",
+          "es": "Defina el mismo flujo de producto e incluya retornos antes de comparar sistemas de un uso y reutilizables. Separe embalajes evitados, reposiciones, recogida y servicios. La cifra acumulada de IFCO no proporciona tasas de retorno, costes ni resultados ambientales de otro comprador; método no publicado y redes distintas limitan su traslado."
         },
         {
-          "en": "This report concerns reusable produce crates and their circulation. It is not evidence that YUANEN supplies IFCO containers or a pooling service, and it establishes no temperature-control performance for insulated bags. Any separate YUANEN product order remains subject to its own specification and sample confirmation.",
-          "zh": "本报道涉及生鲜周转箱及其循环使用，不证明远恩供应IFCO容器或周转池服务，也不能建立保温袋的温控性能结论。另行采购远恩产品时，仍应按对应产品的订单规格与样品确认。",
-          "es": "Esta noticia trata de cajas reutilizables para productos frescos y de su circulación. No demuestra que YUANEN suministre contenedores IFCO o un servicio de pooling, ni establece prestaciones térmicas de bolsas isotérmicas. Cualquier pedido separado de productos YUANEN sigue sujeto a su especificación y confirmación de muestra."
+          "en": "This is a fresh-produce RPC program, not evidence that a soft insulated bag is interchangeable with a crate or that YUANEN offers crate pooling, sanitation or reverse-logistics services. For a proposed reusable bag program, obtain its own product, care and return arrangement and assess that system separately.",
+          "zh": "本事件是生鲜RPC周转项目，不证明软质保温袋能替代周转箱，也不表示远恩提供箱池、消毒或逆向物流服务。拟采用周转保温袋时，应另行明确自身产品、护理与回收安排，单独评估完整系统。",
+          "es": "El caso trata de RPC para frescos; no demuestra que una bolsa térmica sustituya a una caja ni que YUANEN preste pooling, desinfección o logística inversa. Un programa de bolsas necesita su propia definición de producto, cuidados y retorno y una evaluación independiente."
         }
       ]
     }
@@ -122,6 +194,7 @@ const article: EditorialArticle = {
       "zh": "在分拣台上搬动一只通用的果蔬通风周转箱。",
       "es": "Manipulación de una caja ventilada genérica para fruta y verdura en una mesa de clasificación."
     }
-  }
+  },
+  "updatedAt": "2026-11-12"
 }
 export default article
