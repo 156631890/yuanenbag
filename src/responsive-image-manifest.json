@@ -15938,5 +15938,243 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-12-batch05/dry-navy-zipper-seam-carrier.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/8647e720a442-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/d92977d65585-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/44159b325fcd-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/4db76e4185d0-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/8f6ab06ec860-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/2a990e6ccd71-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/347b03375d6f-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-12-batch05/continuous-foam-laminate-edge.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/0820d7b4c123-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/0908eaff75af-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/10d1bae2bdcd-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/a33d16382bc0-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/bb5634840e40-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/b0f48a4db696-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/74abe73e1b47-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-12-batch05/glass-container-base-contact.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/66e7554ec356-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/63ee3ddf5d95-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/a7c881e9293d-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/e7a701f9cba2-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/7c9439073dcf-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/7a57ad9e9947-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/662cac3e6f1f-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-12-batch05/lidded-container-upright-removal.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/6677468a19cc-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/4cbb5f0e88de-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/3dcdfc086ac1-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/89f2bcc2995d-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/35dc88c87db5-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/b78f4fccefed-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/6597d363277a-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-12-batch05/closed-food-container-liner-contact.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/ee52642ea70c-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/38a094528758-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/e70f5a1ead5e-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/361d8b9a230d-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/295df267f41b-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/ac452ac37e32-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/5420a4e32808-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-12-batch05/secondary-container-removal-clearance.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/01e8ce988618-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/671f45987098-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/d989a436faa5-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/208f0af89ade-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/eb6ada2530a4-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/99056b47c449-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/73a9d28ab8b9-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-12-batch05/intact-coolant-sheet-joined-cells.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/b92d806f61cb-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/cdd66145c4d9-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/a0f9b171aa74-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/80e78eca597c-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/8dd83d237760-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/b97856604449-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/363351519bce-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

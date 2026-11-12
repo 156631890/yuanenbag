@@ -1,4 +1,5 @@
 import type { EditorialArticle } from '../editorial'
+
 const article: EditorialArticle = {
   "kind": "guide",
   "slug": "foam-core-total-laminate-thickness",
@@ -36,7 +37,21 @@ const article: EditorialArticle = {
           "zh": "若供应方同时给出芯层厚度与总厚，应在同一材料版本下分别标记。注明数值针对单层材料还是另行约定的试样形式。不能将叠层读数简单相除，就认为等同单层结果，也不要临时剥离已复合材料作为验收方法。",
           "es": "Si el proveedor aporta espesor del núcleo y total, identifíquelos por separado para la misma revisión del material. Indique si corresponde a una lámina o a otra disposición acordada. No divida una lectura de capas apiladas suponiendo que reproduce una lectura individual, ni despegue un laminado adherido como método improvisado de aceptación."
         }
-      ]
+      ],
+      "image": {
+        "file": "images/editorial/2026-11-12-batch05/continuous-foam-laminate-edge.webp",
+        "kind": "illustration",
+        "alt": {
+          "en": "Cut edge of a continuous white foam laminate with a thin silver face and a curled white reverse",
+          "zh": "连续白色泡棉复合片的切边、薄银色面层和卷起的白色背面",
+          "es": "Canto de un laminado continuo de espuma blanca con cara plateada fina y reverso blanco curvado"
+        },
+        "caption": {
+          "en": "The white core and complete laminate are different measurement scopes. This generic edge view supplies no scale, reading or facing-composition evidence.",
+          "zh": "白色芯层与完整复合件是不同测量范围；通用切边构图不提供比例尺、读数或面层成分依据。",
+          "es": "El núcleo blanco y el laminado completo son alcances distintos. La vista genérica no aporta escala, lectura ni prueba de composición de la cara."
+        }
+      }
     },
     {
       "heading": {
@@ -111,6 +126,89 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
+        "en": "Reconcile two records before comparing their numbers",
+        "zh": "比较数字前，先对齐两份记录",
+        "es": "Concilie dos registros antes de comparar cifras"
+      },
+      "paragraphs": [
+        {
+          "en": "In a hypothetical comparison, quotation Q1 labels T as foam-core thickness, while sample record S1 labels its reading as the full laminate. Both may use millimetres, but they are not yet a like-for-like comparison. Ask for the same identified material revision and the same measured span under the agreed method. Do not subtract an assumed facing or adhesive thickness to manufacture a core reading.",
+          "zh": "假设报价Q1把T标为泡棉芯厚，而样品记录S1把读数标为复合总厚。即使单位都是毫米，也还不能直接比较。应要求在约定方法下，对同一材料版本和同一测量跨度给出记录，不能减去假定面层或胶层厚度来凑出芯厚读数。",
+          "es": "En un ejemplo hipotético, Q1 llama a T espesor del núcleo y S1 mide el laminado completo. Aunque ambas cifras estén en milímetros, todavía no son comparables. Pida la misma revisión y alcance con el método acordado; no reste capas supuestas para fabricar una lectura del núcleo."
+        }
+      ],
+      "table": {
+        "caption": {
+          "en": "Align the meaning of the reading",
+          "zh": "对齐读数的含义",
+          "es": "Alinee el significado de la lectura"
+        },
+        "columns": [
+          {
+            "en": "Record field",
+            "zh": "记录字段",
+            "es": "Campo"
+          },
+          {
+            "en": "Resolve before judgement",
+            "zh": "判定前先解决",
+            "es": "Resolver antes de juzgar"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "en": "Material and revision",
+              "zh": "材料及版本",
+              "es": "Material y revisión"
+            },
+            {
+              "en": "EPE foam laminate or formed-bubble laminate; same offered construction",
+              "zh": "EPE泡棉复合或成型气泡复合，是否同一拟供结构",
+              "es": "Laminado EPE o de burbujas; misma construcción ofrecida"
+            }
+          ],
+          [
+            {
+              "en": "Measured span",
+              "zh": "测量跨度",
+              "es": "Alcance medido"
+            },
+            {
+              "en": "Foam core, complete laminate or another explicitly named specimen",
+              "zh": "泡棉芯层、完整复合件或其他明确试样",
+              "es": "Núcleo, laminado completo u otra probeta identificada"
+            }
+          ],
+          [
+            {
+              "en": "Method and condition",
+              "zh": "方法及状态",
+              "es": "Método y estado"
+            },
+            {
+              "en": "Agreed contact/support, pressure or specified method, timing and sample condition",
+              "zh": "约定接触/支撑、压力或指定方法、读数时点与样品状态",
+              "es": "Contacto/apoyo, presión o método, tiempo y estado acordados"
+            }
+          ],
+          [
+            {
+              "en": "Nominal value and tolerance",
+              "zh": "标称值及公差",
+              "es": "Valor nominal y tolerancia"
+            },
+            {
+              "en": "The acceptance range agreed for that scope and method",
+              "zh": "针对该范围与方法已约定的接受区间",
+              "es": "Intervalo aceptado para ese alcance y método"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "heading": {
         "en": "Investigate a difference before calling it a failure",
         "zh": "出现差异，先对照口径再判断不合格",
         "es": "Investigue la diferencia antes de declarar un fallo"
@@ -120,6 +218,11 @@ const article: EditorialArticle = {
           "en": "When a sample reading differs from a quotation, compare the material revision, measured layers, units and method first. Ask the supplier to explain the difference against the agreed nominal value and tolerance, with the recorded measurement conditions. If those conditions or tolerances were never agreed, resolve them rather than invent a pass/fail threshold after delivery.",
           "zh": "样品读数与报价不一致时，先比较材料版本、被测层次、单位与方法。请供应方结合有记录的测量条件，对照约定标称值及公差说明差异。若事先没有约定条件或公差，应先补齐，不能到货后临时制定通过或不通过门槛。",
           "es": "Si la lectura de muestra difiere de la oferta, compare primero revisión, capas, unidades y método. Pida explicar la diferencia frente al nominal y tolerancia acordados, con condiciones registradas. Si no se acordaron condiciones o tolerancias, resuélvalas en vez de inventar un umbral de aceptación después de recibir el material."
+        },
+        {
+          "en": "If the records describe different spans or conditions, request a matched comparison before calling the material out of specification. If they do match and the result is outside the agreed tolerance, retain the record for the supplier’s nonconformity review. Missing measurement information and an observed failure against an agreed requirement are different outcomes; neither is resolved by photographing an uncalibrated gauge.",
+          "zh": "若两份记录的跨度或条件不同，应先索取一致口径的比较，再判断材料是否超差。若口径一致且结果超出约定公差，应保留记录交供方复核不符合项。缺少测量信息与按已约定要求观察到不符合，是不同结果；拍一张未明确校准状态的量具照片都不能代替处理。",
+          "es": "Si alcance o condiciones difieren, solicite comparación equivalente antes de declarar incumplimiento. Si coinciden y el resultado queda fuera de tolerancia acordada, conserve el registro para revisión del proveedor. Falta de datos y fallo frente a un requisito acordado son resultados distintos; fotografiar un medidor sin calibración identificada no los resuelve."
         },
         {
           "en": "Thickness alone does not establish density, facing composition, heat-transfer performance, an R-value or a shipping temperature duration. Those are separate specification or test questions. YUANEN’s proposed construction, supplied thickness range and acceptance method remain subject to the confirmed sample and order; this article reports no completed laboratory test or certification.",
@@ -164,6 +267,8 @@ const article: EditorialArticle = {
       "zh": "压脚的位置展示复合总厚的测量范围，画面未显示读数。",
       "es": "Los palpadores muestran el alcance del espesor total del laminado. La imagen no aporta una lectura."
     }
-  }
+  },
+  "updatedAt": "2026-11-12"
 }
+
 export default article

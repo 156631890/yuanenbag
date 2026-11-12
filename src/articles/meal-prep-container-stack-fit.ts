@@ -1,36 +1,169 @@
 import type { EditorialArticle } from '../editorial'
+
 const article: EditorialArticle = {
- kind: 'guide', slug: 'meal-prep-container-stack-fit', publishedAt: '2026-10-13',
- title: {en:'Will Stacked Food Containers Fit in Your Meal Prep Bag?',zh:'多个餐盒叠放后，备餐包还能顺利装取吗？',es:'¿Caben los recipientes de comida apilados en su bolsa térmica?'},
- description: {en:'Compare lidded meal-container combinations in an undivided top-opening bag. Record clips, stack height, refrigerant space and removal order before sampling.',zh:'在单仓上开式备餐包中比较带盖餐盒组合，记录扣件、堆叠高度、冰源空间与取出顺序，减少仅凭外尺寸选包的误差。',es:'Compare conjuntos de recipientes con tapa en una bolsa de apertura superior y cámara única. Registre cierres, altura, refrigerante y orden de extracción.'},
- intro: {en:'YUANEN’s meal prep proposal is an upright olive bag with a zip-around top, body-mounted handles and one undivided compartment. The product page asks buyers to measure containers with their lids and clips. Turn that measurement into a layout comparison: a stack must fit through the opening, close without pressing on the lids and remain accessible when the first meal is removed.',zh:'远恩备餐包方案为橄榄绿直立袋型，采用环绕拉链上盖、袋身提手和单仓结构。产品页要求把盒盖与扣件计入测量；进一步选型时应比较具体布局：整组餐盒要能通过开口、闭合时不压盒盖，并在取走第一份餐盒后仍便于取放。',es:'La propuesta de YUANEN es una bolsa verde oliva vertical con tapa de cremallera, asas en el cuerpo y una cámara sin divisiones. La página pide medir los recipientes con tapas y cierres. Compare también la distribución: el conjunto debe pasar por la abertura, permitir cerrar sin presionar las tapas y seguir siendo accesible al retirar la primera comida.'},
- sections:[
-  {heading:{en:'Measure the widest closed profile',zh:'测量封盖后的最宽轮廓',es:'Mida el perfil cerrado más ancho'},paragraphs:[{en:'Use the actual filled container with every clip closed. Measure width and depth at protruding clips or lid rims, then record its closed height and filled weight. Keep the container reference or a photo beside these measurements. Do not use the base footprint alone. Two containers sold with the same volume may have different lids and may not stack in the same way.',zh:'用实际装好的餐盒扣紧所有扣件，在凸出的扣件或盖沿处测量宽度与深度，记录封盖高度及装载重量，并保留餐盒编号或照片。不能只测盒底面积；标称容量相同的餐盒可能有不同盒盖，也未必能按同样方式堆叠。',es:'Mida el recipiente lleno con todos los cierres ajustados. Tome ancho y fondo en los clips o bordes salientes, altura cerrada y peso lleno. Guarde la referencia o una foto junto a las medidas. No use solo la base: dos envases de igual volumen pueden tener tapas distintas y apilarse de otra forma.'}]},
-  {heading:{en:'Compare complete stacks rather than adding nominal heights',zh:'比较整组堆叠，不只相加标称高度',es:'Compare el apilado completo, no solo alturas nominales'},paragraphs:[{en:'Arrange the containers in the intended carrying position and measure the whole stack. Include lid features, any agreed separation and the actual refrigerant layout. Mixed sizes may leave an upper container unsupported or place a clip against the bag wall. The current proposal has no specified dividers or shelves, so do not rely on an unseen support structure. Agree a different construction separately if the trial shows that support is required.',zh:'按计划携带方向摆好餐盒，再测量整组堆叠，把盒盖凸起、约定隔离材料及实际冰源布局计入。混合尺寸可能使上层餐盒缺少支撑，或让扣件顶住袋壁。当前方案未指定分隔或货架，不能依赖图中没有的支撑结构；试装发现需要支撑时，另行确认结构变更。',es:'Coloque los recipientes en la posición de transporte y mida todo el conjunto, incluidos relieves de tapas, separación acordada y refrigerante. Mezclar tamaños puede dejar un recipiente superior sin apoyo o un clip contra la pared. La propuesta no especifica divisores ni estantes; no dependa de soportes inexistentes. Acuerde otra construcción si la prueba demuestra esa necesidad.'}]},
-  {heading:{en:'Check loading and the order of removal',zh:'同时核对装入与取出顺序',es:'Compruebe la carga y el orden de extracción'},paragraphs:[{en:'Lower each closed container through the top opening without tilting it against its contents requirements. Place the specified refrigerant and close the zipper without forcing the lid. Reopen the sample and remove containers in the expected order. Check that fingers can grip each container, clips do not catch the zipper and taking out one meal does not require opening another container. Record any coolant that must be moved first.',zh:'从上开口放入封好的餐盒，不采用不符合内装物要求的倾斜方式。摆好约定冰源后，核对拉链能否在不硬压上盖的情况下闭合，再按计划顺序取出餐盒。检查手指能否抓握、扣件是否勾住拉链，以及取出一份是否需要打开另一盒，并记录必须先挪动的冰源。',es:'Introduzca cada recipiente cerrado por la abertura superior sin inclinarlo de forma incompatible con su contenido. Coloque el refrigerante y cierre sin forzar la tapa. Abra y retire los recipientes en el orden previsto. Compruebe el agarre, que los clips no enganchen la cremallera y que retirar una comida no exija abrir otro recipiente. Registre el refrigerante que deba mover primero.'}]},
-  {heading:{en:'Use a comparison record for full and partial loads',zh:'用比较记录核对满载与部分装载',es:'Use un registro para cargas completas y parciales'},paragraphs:[{en:'Compare the planned full stack, the largest container and a remaining partial load after a meal has been removed. These are sample scenarios, not an approved capacity rating. Use the same refrigerant preparation and bag version for each comparison.',zh:'比较计划整组装载、最大单盒，以及取走一份后的剩余装载。这些是样品检查场景，不是额定容量声明；每次比较采用相同冰源预处理方式与包体版本。',es:'Compare el conjunto completo, el recipiente más grande y la carga restante tras retirar una comida. Son escenarios de muestra, no capacidad nominal aprobada. Mantenga la misma preparación del refrigerante y versión de bolsa.'}],bullets:[
-   {en:'Layout reference: container IDs, orientation, complete stack dimensions and filled weight.',zh:'布局编号：餐盒编号、方向、整组尺寸及装载重量。',es:'Referencia de distribución: envases, orientación, medidas del conjunto y peso lleno.'},
-   {en:'Access: loading order, first container removed, grip clearance and any clip or zipper contact.',zh:'取放条件：装入顺序、先取出的餐盒、抓握空间及扣件或拉链接触位置。',es:'Acceso: orden de carga, primer envase retirado, espacio de agarre y contacto con clips o cremallera.'},
-   {en:'Handling: base shape, handle balance and container movement in both full and partial loads.',zh:'搬运观察：满载与部分装载时的底部形状、提手平衡及餐盒移动情况。',es:'Transporte: forma de la base, equilibrio de asas y movimiento de envases con ambas cargas.'},
-   {en:'Decision: observed issue, proposed revision and the sample version to check again.',zh:'确认记录：观察到的问题、拟修改内容及需要重查的样品版本。',es:'Decisión: problema observado, revisión propuesta y versión de muestra para repetir la comprobación.'}
-  ]},
-  {heading:{en:'Define the bag order and thermal trial separately',zh:'分清包体订单与温控试验',es:'Defina por separado pedido de bolsa y prueba térmica'},paragraphs:[{en:'Containers and cold packs are props on the current product page and are not included by default. Specify whether the quotation covers the bag alone or requests accessories as separate items. The existing single-compartment proposal does not establish a shoulder strap, backpack system or leakproof construction. Confirm materials and cleaning instructions against the selected sample rather than importing features from another model.',zh:'当前产品页中的餐盒与冰袋是道具，默认不随包供应。明确报价仅包含包体，还是另行询问配件。现有单仓方案不代表已经具备肩带、背负系统或防漏结构；材料与清洁说明应按选定样品确认，不能套用其他型号的功能。',es:'Los recipientes y acumuladores ilustrados son accesorios de presentación y no se incluyen por defecto. Indique si pide solo la bolsa o accesorios separados. La propuesta de cámara única no establece correa de hombro, sistema de mochila ni estanqueidad. Confirme materiales y limpieza con la muestra elegida, sin trasladar funciones de otro modelo.'},{en:'A fit approval does not confirm food temperature during delivery. Test the complete loaded arrangement under agreed initial temperature, ambient conditions, duration and opening events. Send YUANEN the layout records, photos, quantity, artwork and destination; ask the written specification to name the approved container combination, usable opening, closure and sample version.',zh:'适配确认不能证明配送中的食品温度。按约定初温、环境、时长及开盖情况测试完整装载方案。向远恩发送布局记录、照片、数量、图稿与目的地，请书面规格注明确认的餐盒组合、可用开口、封口要求与样品版本。',es:'Aprobar el ajuste no confirma la temperatura del alimento durante el reparto. Pruebe el conjunto con temperatura inicial, ambiente, duración y aperturas acordados. Envíe a YUANEN registros, fotos, cantidad, diseño y destino; identifique en la especificación el conjunto de recipientes aprobado, abertura útil, cierre y versión de muestra.'}]}
- ],
- sources:[{title:{en:'YUANEN meal prep bag: top opening, single chamber and separate accessories',zh:'远恩备餐包：上开口、单仓与配件范围',es:'Bolsa para comidas de YUANEN: apertura superior, cámara y accesorios'},url:'https://yuanenbag.com/products/insulated-meal-prep-bags/'},{title:{en:'YUANEN custom-order guide: sample and quotation scope',zh:'远恩定制订单指南：样品与报价范围',es:'Guía de pedidos YUANEN: alcance de muestra y cotización'},url:'https://yuanenbag.com/guides/custom-bag-order-checklist/'}],
- relatedProducts:['insulated-meal-prep-bags'],
- image:{
-  "file": "images/editorial/2026-10-30-cover-repairs/meal-prep-container-stack-fit.webp",
-  "kind": "illustration",
-  "alt": {
-    "en": "Two closed containers stacked beside an empty open olive bag, with unnumbered height brackets",
-    "zh": "两只闭合餐盒叠放在空置橄榄绿敞开袋旁，两侧以无数字括线比较高度",
-    "es": "Dos recipientes cerrados apilados junto a una bolsa oliva abierta y vacía, con indicadores de altura sin cifras"
+  "kind": "guide",
+  "slug": "meal-prep-container-stack-fit",
+  "publishedAt": "2026-10-13",
+  "title": {
+    "en": "Will Stacked Food Containers Fit in Your Meal Prep Bag?",
+    "zh": "多个餐盒叠放后，备餐包还能顺利装取吗？",
+    "es": "¿Caben los recipientes de comida apilados en su bolsa térmica?"
   },
-  "caption": {
-    "en": "Compare the complete closed-container stack with usable bag height before a fit trial; no capacity or successful fit is established.",
-    "zh": "试装前比较包含盒盖的完整叠高与袋内可用高度；不确立容量或适配成功。",
-    "es": "Compare la pila de recipientes cerrados con la altura útil antes de probar; no acredita capacidad ni ajuste satisfactorio."
-  }
+  "description": {
+    "en": "Compare lidded meal-container combinations in an undivided top-opening bag. Record clips, stack height, refrigerant space and removal order before sampling.",
+    "zh": "在单仓上开式备餐包中比较带盖餐盒组合，记录扣件、堆叠高度、冰源空间与取出顺序，减少仅凭外尺寸选包的误差。",
+    "es": "Compare conjuntos de recipientes con tapa en una bolsa de apertura superior y cámara única. Registre cierres, altura, refrigerante y orden de extracción."
+  },
+  "intro": {
+    "en": "YUANEN’s meal prep proposal is an upright olive bag with a zip-around top, body-mounted handles and one undivided compartment. The product page asks buyers to measure containers with their lids and clips. Turn that measurement into a layout comparison: a stack must fit through the opening, close without pressing on the lids and remain accessible when the first meal is removed.",
+    "zh": "远恩备餐包方案为橄榄绿直立袋型，采用环绕拉链上盖、袋身提手和单仓结构。产品页要求把盒盖与扣件计入测量；进一步选型时应比较具体布局：整组餐盒要能通过开口、闭合时不压盒盖，并在取走第一份餐盒后仍便于取放。",
+    "es": "La propuesta de YUANEN es una bolsa verde oliva vertical con tapa de cremallera, asas en el cuerpo y una cámara sin divisiones. La página pide medir los recipientes con tapas y cierres. Compare también la distribución: el conjunto debe pasar por la abertura, permitir cerrar sin presionar las tapas y seguir siendo accesible al retirar la primera comida."
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "Measure the widest closed profile",
+        "zh": "测量封盖后的最宽轮廓",
+        "es": "Mida el perfil cerrado más ancho"
+      },
+      "paragraphs": [
+        {
+          "en": "Use the actual filled container with every clip closed. Measure width and depth at protruding clips or lid rims, then record its closed height and filled weight. Keep the container reference or a photo beside these measurements. Do not use the base footprint alone. Two containers sold with the same volume may have different lids and may not stack in the same way.",
+          "zh": "用实际装好的餐盒扣紧所有扣件，在凸出的扣件或盖沿处测量宽度与深度，记录封盖高度及装载重量，并保留餐盒编号或照片。不能只测盒底面积；标称容量相同的餐盒可能有不同盒盖，也未必能按同样方式堆叠。",
+          "es": "Mida el recipiente lleno con todos los cierres ajustados. Tome ancho y fondo en los clips o bordes salientes, altura cerrada y peso lleno. Guarde la referencia o una foto junto a las medidas. No use solo la base: dos envases de igual volumen pueden tener tapas distintas y apilarse de otra forma."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Compare complete stacks rather than adding nominal heights",
+        "zh": "比较整组堆叠，不只相加标称高度",
+        "es": "Compare el apilado completo, no solo alturas nominales"
+      },
+      "paragraphs": [
+        {
+          "en": "Arrange the containers in the intended carrying position and measure the whole stack. Include lid features, any agreed separation and the actual refrigerant layout. Mixed sizes may leave an upper container unsupported or place a clip against the bag wall. The current proposal has no specified dividers or shelves, so do not rely on an unseen support structure. Agree a different construction separately if the trial shows that support is required.",
+          "zh": "按计划携带方向摆好餐盒，再测量整组堆叠，把盒盖凸起、约定隔离材料及实际冰源布局计入。混合尺寸可能使上层餐盒缺少支撑，或让扣件顶住袋壁。当前方案未指定分隔或货架，不能依赖图中没有的支撑结构；试装发现需要支撑时，另行确认结构变更。",
+          "es": "Coloque los recipientes en la posición de transporte y mida todo el conjunto, incluidos relieves de tapas, separación acordada y refrigerante. Mezclar tamaños puede dejar un recipiente superior sin apoyo o un clip contra la pared. La propuesta no especifica divisores ni estantes; no dependa de soportes inexistentes. Acuerde otra construcción si la prueba demuestra esa necesidad."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Check loading and the order of removal",
+        "zh": "同时核对装入与取出顺序",
+        "es": "Compruebe la carga y el orden de extracción"
+      },
+      "paragraphs": [
+        {
+          "en": "Lower each closed container through the top opening without tilting it against its contents requirements. Place the specified refrigerant and close the zipper without forcing the lid. Reopen the sample and remove containers in the expected order. Check that fingers can grip each container, clips do not catch the zipper and taking out one meal does not require opening another container. Record any coolant that must be moved first.",
+          "zh": "从上开口放入封好的餐盒，不采用不符合内装物要求的倾斜方式。摆好约定冰源后，核对拉链能否在不硬压上盖的情况下闭合，再按计划顺序取出餐盒。检查手指能否抓握、扣件是否勾住拉链，以及取出一份是否需要打开另一盒，并记录必须先挪动的冰源。",
+          "es": "Introduzca cada recipiente cerrado por la abertura superior sin inclinarlo de forma incompatible con su contenido. Coloque el refrigerante y cierre sin forzar la tapa. Abra y retire los recipientes en el orden previsto. Compruebe el agarre, que los clips no enganchen la cremallera y que retirar una comida no exija abrir otro recipiente. Registre el refrigerante que deba mover primero."
+        },
+        {
+          "en": "If the widest closed clip clears the cavity but catches at the opening, simply adding bag height does not address that restriction. Ask about the opening geometry or another compatible layout. If entry is clear but the full stack presses the top closure, compare a different stack or a suitable bag geometry instead. Recheck the intended orientation and access after each change; do not open the food lid merely to squeeze the container through.",
+          "zh": "若最宽的闭合夹扣在仓内有空间，却在袋口受阻，仅增加袋高并不能回应这一限制，应询问开口几何或另一可行排列。若装入通畅，但完整叠层顶住上盖闭合，则比较另一叠放组合或合适袋型。每次改变后都重看预定朝向和取放；不能仅为挤过袋口而打开食品盒盖。",
+          "es": "Si el clip cerrado cabe en la cavidad pero se atasca en la abertura, añadir altura no resuelve esa restricción: revise abertura u otra disposición. Si entra bien pero la pila presiona el cierre superior, compare otra pila o geometría. Revise orientación y acceso tras cada cambio; no abra la tapa del alimento para hacerlo pasar."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Use a comparison record for full and partial loads",
+        "zh": "用比较记录核对满载与部分装载",
+        "es": "Use un registro para cargas completas y parciales"
+      },
+      "paragraphs": [
+        {
+          "en": "Compare the planned full stack, the largest container and a remaining partial load after a meal has been removed. These are sample scenarios, not an approved capacity rating. Use the same refrigerant preparation and bag version for each comparison.",
+          "zh": "比较计划整组装载、最大单盒，以及取走一份后的剩余装载。这些是样品检查场景，不是额定容量声明；每次比较采用相同冰源预处理方式与包体版本。",
+          "es": "Compare el conjunto completo, el recipiente más grande y la carga restante tras retirar una comida. Son escenarios de muestra, no capacidad nominal aprobada. Mantenga la misma preparación del refrigerante y versión de bolsa."
+        },
+        {
+          "en": "After removing a meal, observe what supports the remaining container and whether its new position changes access to the next one. A full stack and a partial load need not leave the same free space. Treat a proposed separator or restraint as a separately specified change to assess, not as an unseen standard feature of this single compartment.",
+          "zh": "取走一餐后，再观察剩余餐盒由什么承托，新位置是否改变下一盒的取出。满叠和部分装载未必留下相同空隙。拟加的分隔或约束应作为需单独指定和评估的改动，不能把它当成本单仓中看不见的标准配置。",
+          "es": "Tras retirar una comida, observe el apoyo del recipiente restante y si su nueva posición cambia el acceso al siguiente. La pila completa y la carga parcial no dejan necesariamente el mismo espacio. Un separador o retención propuesto es un cambio que especificar y evaluar, no un elemento estándar invisible."
+        }
+      ],
+      "bullets": [
+        {
+          "en": "Layout reference: container IDs, orientation, complete stack dimensions and filled weight.",
+          "zh": "布局编号：餐盒编号、方向、整组尺寸及装载重量。",
+          "es": "Referencia de distribución: envases, orientación, medidas del conjunto y peso lleno."
+        },
+        {
+          "en": "Access: loading order, first container removed, grip clearance and any clip or zipper contact.",
+          "zh": "取放条件：装入顺序、先取出的餐盒、抓握空间及扣件或拉链接触位置。",
+          "es": "Acceso: orden de carga, primer envase retirado, espacio de agarre y contacto con clips o cremallera."
+        },
+        {
+          "en": "Handling: base shape, handle balance and container movement in both full and partial loads.",
+          "zh": "搬运观察：满载与部分装载时的底部形状、提手平衡及餐盒移动情况。",
+          "es": "Transporte: forma de la base, equilibrio de asas y movimiento de envases con ambas cargas."
+        },
+        {
+          "en": "Decision: observed issue, proposed revision and the sample version to check again.",
+          "zh": "确认记录：观察到的问题、拟修改内容及需要重查的样品版本。",
+          "es": "Decisión: problema observado, revisión propuesta y versión de muestra para repetir la comprobación."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Define the bag order and thermal trial separately",
+        "zh": "分清包体订单与温控试验",
+        "es": "Defina por separado pedido de bolsa y prueba térmica"
+      },
+      "paragraphs": [
+        {
+          "en": "Containers and cold packs are props on the current product page and are not included by default. Specify whether the quotation covers the bag alone or requests accessories as separate items. The existing single-compartment proposal does not establish a shoulder strap, backpack system or leakproof construction. Confirm materials and cleaning instructions against the selected sample rather than importing features from another model.",
+          "zh": "当前产品页中的餐盒与冰袋是道具，默认不随包供应。明确报价仅包含包体，还是另行询问配件。现有单仓方案不代表已经具备肩带、背负系统或防漏结构；材料与清洁说明应按选定样品确认，不能套用其他型号的功能。",
+          "es": "Los recipientes y acumuladores ilustrados son accesorios de presentación y no se incluyen por defecto. Indique si pide solo la bolsa o accesorios separados. La propuesta de cámara única no establece correa de hombro, sistema de mochila ni estanqueidad. Confirme materiales y limpieza con la muestra elegida, sin trasladar funciones de otro modelo."
+        },
+        {
+          "en": "A fit approval does not confirm food temperature during delivery. Test the complete loaded arrangement under agreed initial temperature, ambient conditions, duration and opening events. Send YUANEN the layout records, photos, quantity, artwork and destination; ask the written specification to name the approved container combination, usable opening, closure and sample version.",
+          "zh": "适配确认不能证明配送中的食品温度。按约定初温、环境、时长及开盖情况测试完整装载方案。向远恩发送布局记录、照片、数量、图稿与目的地，请书面规格注明确认的餐盒组合、可用开口、封口要求与样品版本。",
+          "es": "Aprobar el ajuste no confirma la temperatura del alimento durante el reparto. Pruebe el conjunto con temperatura inicial, ambiente, duración y aperturas acordados. Envíe a YUANEN registros, fotos, cantidad, diseño y destino; identifique en la especificación el conjunto de recipientes aprobado, abertura útil, cierre y versión de muestra."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "YUANEN meal prep bag: top opening, single chamber and separate accessories",
+        "zh": "远恩备餐包：上开口、单仓与配件范围",
+        "es": "Bolsa para comidas de YUANEN: apertura superior, cámara y accesorios"
+      },
+      "url": "https://yuanenbag.com/products/insulated-meal-prep-bags/"
+    },
+    {
+      "title": {
+        "en": "YUANEN custom-order guide: sample and quotation scope",
+        "zh": "远恩定制订单指南：样品与报价范围",
+        "es": "Guía de pedidos YUANEN: alcance de muestra y cotización"
+      },
+      "url": "https://yuanenbag.com/guides/custom-bag-order-checklist/"
+    }
+  ],
+  "relatedProducts": [
+    "insulated-meal-prep-bags"
+  ],
+  "image": {
+    "file": "images/editorial/2026-11-12-batch05/lidded-container-upright-removal.webp",
+    "kind": "illustration",
+    "alt": {
+      "en": "Hands grip a closed clear container above an olive top-opening bag while another closed container remains inside",
+      "zh": "双手握住闭合透明餐盒，位于橄榄绿上开包口上方，另一个闭合餐盒留在包内",
+      "es": "Manos sujetan un recipiente transparente cerrado sobre una bolsa verde oliva abierta por arriba; otro recipiente cerrado permanece dentro"
+    },
+    "caption": {
+      "en": "A proposed removal scene makes lid clips and hand access visible. The two pictured containers do not establish an approved capacity or fit.",
+      "zh": "拟定取出动作让盖扣与手部空间可见；图中两个餐盒不代表获准容量或已验证适配。",
+      "es": "La extracción propuesta hace visibles clips y espacio de agarre. Los dos recipientes no acreditan capacidad ni ajuste aprobados."
+    }
+  },
+  "updatedAt": "2026-11-12"
 }
-}
+
 export default article

@@ -1,4 +1,5 @@
 import type { EditorialArticle } from '../editorial'
+
 const article: EditorialArticle = {
   "kind": "guide",
   "slug": "segmented-ice-sheet-approved-cut-layout",
@@ -148,8 +149,90 @@ const article: EditorialArticle = {
           "en": "The supplier’s response should identify the permitted boundary on the same reference, including any joining-band restrictions needed to keep the retained cells sealed. Do not open a filled cell. If the requested shape would cross a cell or lacks written confirmation, keep the sheet intact while seeking a suitable existing layout or another packing arrangement.",
           "zh": "供应方的答复应在同一参考上标明允许边界，并说明保持保留格密封所需的连接封边限制。不得切开已充盈的蓄冷格。若拟定形状穿过格体，或尚无书面确认，应保持整张完整，继续寻找合适的现有布局或其他摆放方案。",
           "es": "La respuesta debe identificar el límite permitido sobre la misma referencia y las restricciones de las bandas que mantienen selladas las celdas. No abra una celda llena. Si la forma cruza una celda o no tiene confirmación escrita, conserve la lámina intacta y busque una distribución existente adecuada u otra colocación."
+        },
+        {
+          "en": "If a reply says only “cuttable”, return the same reference and ask the supplier to identify the permitted separation and any seal-band restrictions. The unanswered issue is the exact boundary, not whether the sales term sounds flexible. If the answer does not cover the desired retained group, keep that request pending and compare an available whole-sheet layout or another packing position; the catalogue’s visible bands do not resolve it.",
+          "zh": "若答复只写“可裁”，应退回同一参考，请供方明确允许分离的边界及封带限制。未决问题是准确边界，不是销售用词听起来是否灵活。若答复未覆盖所需保留组，就应保留待定，并比较现有整片格型或其他摆放位置；目录里看得见封带，并不能代替答复。",
+          "es": "Si la respuesta solo dice “recortable”, devuelva la misma referencia y pida límite permitido y restricciones del sellado. Falta el límite exacto, no una palabra comercial flexible. Si la respuesta no cubre el grupo deseado, déjelo pendiente y compare una lámina completa disponible u otra posición; las bandas visibles no sustituyen la confirmación."
         }
-      ]
+      ],
+      "table": {
+        "caption": {
+          "en": "Keep three layout records distinct",
+          "zh": "分清三份布局记录",
+          "es": "Distinga tres registros de disposición"
+        },
+        "columns": [
+          {
+            "en": "Record",
+            "zh": "记录",
+            "es": "Registro"
+          },
+          {
+            "en": "What it identifies",
+            "zh": "识别内容",
+            "es": "Qué identifica"
+          },
+          {
+            "en": "What it does not approve",
+            "zh": "不代表的批准",
+            "es": "Qué no aprueba"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "en": "Offered whole sheet",
+              "zh": "拟供整片",
+              "es": "Lámina completa ofrecida"
+            },
+            {
+              "en": "Exact existing specification, photo, orientation and preparation state",
+              "zh": "准确现有规格、照片、朝向及准备状态",
+              "es": "Especificación, foto, orientación y estado exactos"
+            },
+            {
+              "en": "Every smaller shape visible in its grid",
+              "zh": "并非格型里所有更小形状都获准",
+              "es": "No aprueba cualquier figura menor de la cuadrícula"
+            }
+          ],
+          [
+            {
+              "en": "Requested retained group",
+              "zh": "要求保留的组",
+              "es": "Grupo que se desea conservar"
+            },
+            {
+              "en": "Which connected area the buyer wants, and its intended space",
+              "zh": "买方希望保留的相连范围及拟用空间",
+              "es": "Área conectada deseada y espacio previsto"
+            },
+            {
+              "en": "A buyer’s shaded request is not a supplier-approved cutting route",
+              "zh": "买方标出的需求不是供方批准的裁切路径",
+              "es": "Una solicitud sombreada no es una ruta autorizada"
+            }
+          ],
+          [
+            {
+              "en": "Supplier-confirmed permitted boundary",
+              "zh": "供方确认的允许边界",
+              "es": "Límite permitido confirmado"
+            },
+            {
+              "en": "Written answer tied to the same sample/reference and preparation stage",
+              "zh": "对应同一样品/参考及准备阶段的书面答复",
+              "es": "Respuesta vinculada a la misma muestra y preparación"
+            },
+            {
+              "en": "Permission for other sheet versions or other stages",
+              "zh": "不能扩大到其他片型版本或准备阶段",
+              "es": "No se extiende a otras versiones o estados"
+            }
+          ]
+        ]
+      }
     },
     {
       "heading": {
@@ -183,9 +266,9 @@ const article: EditorialArticle = {
           "es": "Envíe a YUANEN especificación existente, referencia de muestra, grupo sombreado, posición, preguntas de preparación, cantidad e impresión. Pida una respuesta clara sobre lo permitido. Separe el plano confirmado del registro de unidades; la guía de láminas y celdas aclara cantidades sin cambiar la especificación suministrada."
         },
         {
-          "en": "The cover shows an intact generic twelve-cell sheet only. Its visible joining bands do not mark approved cutting lines or establish prepared dimensions. This purchasing reference is not a test report, certification or performance rating.",
-          "zh": "封面仅展示完整的通用十二格片材；可见连接封边不标示已批准裁线，也不确定准备后尺寸。本采购参考不是测试报告、认证或性能额定值。",
-          "es": "La portada solo muestra una lámina genérica intacta de doce celdas. Sus bandas no señalan cortes aprobados ni medidas preparadas. Esta referencia de compra no es un ensayo, certificado ni clasificación de rendimiento."
+          "en": "The cover uses the catalogue’s three-column, four-row arrangement as a generic unprinted whole-sheet reference. It does not show permitted cutting lines, an approved retained group or dimensions in a prepared state. Confirm the exact offered specification rather than ordering from the picture’s cell count alone.",
+          "zh": "封面按目录三列四行的排列，表现通用未印刷整片参考，不展示获准裁线、已批准保留组或准备状态下的尺寸。应确认准确拟供规格，不能只按图片格数下单。",
+          "es": "La portada usa la disposición del catálogo de tres columnas y cuatro filas como referencia genérica sin imprimir. No muestra cortes permitidos, grupo aprobado ni medidas preparadas. Confirme la especificación ofrecida, sin pedir solo por el número de celdas de la imagen."
         }
       ]
     }
@@ -220,18 +303,20 @@ const article: EditorialArticle = {
     "segmented-ice-sheets"
   ],
   "image": {
-    "file": "images/editorial/2026-10-29/intact-twelve-cell-coolant-sheet.webp",
+    "file": "images/editorial/2026-11-12-batch05/intact-coolant-sheet-joined-cells.webp",
     "kind": "illustration",
     "alt": {
-      "en": "An intact white flexible sheet with twelve rectangular cells and joining bands, resting diagonally on a light gray surface",
-      "zh": "浅灰表面上斜放的完整白色柔性片材，十二个长方形格体之间可见连接封边",
-      "es": "Una lámina blanca flexible intacta con doce celdas rectangulares y bandas de unión, en diagonal sobre fondo gris claro"
+      "en": "One intact white coolant sheet with three columns and four rows of shallow cells and uncut joining bands",
+      "zh": "一片完整白色冰片，浅格排列为三列四行，连接封带未裁断",
+      "es": "Una lámina refrigerante blanca intacta con tres columnas y cuatro filas de celdas poco abultadas y bandas sin cortar"
     },
     "caption": {
-      "en": "Intact generic cell layout; the image does not designate permitted cutting lines.",
-      "zh": "完整通用分格布局，画面不指定允许使用的裁切线。",
-      "es": "Distribución genérica intacta; la imagen no designa líneas de corte permitidas."
+      "en": "Generic unprinted whole-sheet form based on the catalogue layout. Visible joining bands are not approved cutting lines or evidence of prepared dimensions.",
+      "zh": "按目录格型表现的通用未印刷整片形态；可见连接封带不等于获准裁线，也不证明准备后的尺寸。",
+      "es": "Forma genérica sin imprimir basada en la disposición del catálogo. Las bandas visibles no son cortes autorizados ni prueba de medidas preparadas."
     }
-  }
+  },
+  "updatedAt": "2026-11-12"
 }
+
 export default article

@@ -340,15 +340,16 @@
     "kind": "industry",
     "slug": "dart-lancaster-molded-fiber-capacity",
     "publishedAt": "2026-10-15",
+    "updatedAt": "2026-11-12",
     "title": {
       "en": "Dart Expands Molded-Fiber Packaging Capacity in Lancaster",
       "zh": "Dart扩展兰开斯特模塑纤维包装产能",
       "es": "Dart amplía su capacidad de envases de fibra moldeada en Lancaster"
     },
     "description": {
-      "en": "Dart’s Pennsylvania announcement prompts a container-change review: confirm the tray-and-lid pair and filled sample before approving a catering-bag loading plan.",
-      "zh": "Dart的宾夕法尼亚州产能公告带来餐盒更换核对：先明确餐盒与盒盖的配对和装载样品，再确认配送保温包的装载方案。",
-      "es": "El anuncio de Dart en Pensilvania invita a comprobar recipiente, tapa y muestra cargada antes de aprobar su disposición en una bolsa térmica de catering."
+      "en": "Dart reports full operation of its Lancaster molded-fiber facility. Separate the plant update, company manufacturing history and exact container-and-lid approval.",
+      "zh": "Dart报告兰开斯特模塑纤维工厂已全面运行。区分工厂进展、公司制造背景及具体容器与盖的批准。",
+      "es": "Dart informa plena operación de su planta de fibra moldeada de Lancaster. Distinga avance industrial, historia de la empresa y aprobación de recipiente y tapa."
     }
   },
   {
@@ -370,7 +371,7 @@
     "kind": "guide",
     "slug": "delivery-cooler-external-rain-exposure-brief",
     "publishedAt": "2026-10-28",
-    "updatedAt": "2026-10-31",
+    "updatedAt": "2026-11-12",
     "title": {
       "en": "Define External Rain Exposure for Delivery Coolers",
       "zh": "配送保温包外部雨水暴露要求",
@@ -512,6 +513,7 @@
     "kind": "guide",
     "slug": "foam-core-total-laminate-thickness",
     "publishedAt": "2026-11-04",
+    "updatedAt": "2026-11-12",
     "title": {
       "en": "Define Which Layer an Insulation Thickness Quote Measures",
       "zh": "保温材料报价里的厚度，量的是泡沫芯还是复合总厚",
@@ -605,6 +607,7 @@
     "kind": "guide",
     "slug": "glass-meal-container-protection-review",
     "publishedAt": "2026-10-22",
+    "updatedAt": "2026-11-12",
     "title": {
       "en": "Glass Meal Containers Need a Separate Protection Review",
       "zh": "玻璃餐盒装入备餐包，还需单独评估防碰撞",
@@ -869,6 +872,7 @@
     "kind": "guide",
     "slug": "insulated-packaging-contact-use-document-brief",
     "publishedAt": "2026-10-22",
+    "updatedAt": "2026-11-12",
     "title": {
       "en": "Define the Packaging Use Before Requesting Food-Contact Documents",
       "zh": "索取食品接触资料前，先写清包装用途",
@@ -1036,6 +1040,7 @@
     "kind": "guide",
     "slug": "meal-prep-container-stack-fit",
     "publishedAt": "2026-10-13",
+    "updatedAt": "2026-11-12",
     "title": {
       "en": "Will Stacked Food Containers Fit in Your Meal Prep Bag?",
       "zh": "多个餐盒叠放后，备餐包还能顺利装取吗？",
@@ -1127,6 +1132,7 @@
     "kind": "guide",
     "slug": "packaging-quote-incoterms-named-place",
     "publishedAt": "2026-11-05",
+    "updatedAt": "2026-11-12",
     "title": {
       "en": "Write the Delivery Point into the Packaging Quotation",
       "zh": "包装报价里的交货地点，不能只留一个城市名",
@@ -1298,6 +1304,7 @@
     "kind": "guide",
     "slug": "seafood-packout-leak-containment",
     "publishedAt": "2026-10-14",
+    "updatedAt": "2026-11-12",
     "title": {
       "en": "Which Layer Should Contain Leaks in a Seafood Shipping Box?",
       "zh": "海鲜运输箱中，哪一层负责防漏？",
@@ -1313,6 +1320,7 @@
     "kind": "guide",
     "slug": "segmented-ice-sheet-approved-cut-layout",
     "publishedAt": "2026-10-29",
+    "updatedAt": "2026-11-12",
     "title": {
       "en": "Agree the Cut Layout Before Resizing Ice Sheets",
       "zh": "分格冰片裁切，先确认保留哪些格",
@@ -1581,6 +1589,7 @@
     "kind": "guide",
     "slug": "water-fill-coolant-order-quantity-per-design",
     "publishedAt": "2026-10-27",
+    "updatedAt": "2026-11-12",
     "title": {
       "en": "Confirm Printed Water-Fill Pack Quantities for Each Design",
       "zh": "注水冰袋印刷数量，按设计分别确认",

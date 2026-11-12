@@ -1,4 +1,5 @@
 import type { EditorialArticle } from '../editorial'
+
 const article: EditorialArticle = {
   "kind": "guide",
   "slug": "packaging-quote-incoterms-named-place",
@@ -51,11 +52,105 @@ const article: EditorialArticle = {
           "es": "Una ciudad puede incluir puerto, terminal, almacén y varias entradas de recepción. Pregunte qué instalación y punto cubre la oferta e identifique contacto, acceso y posibles citas. Estos datos permiten al transitario y al receptor localizar la entrega acordada; deben ser coherentes con la regla elegida, sin modificarla silenciosamente."
         },
         {
-          "en": "For a concrete distinction, AIT Worldwide Logistics explains DAP as delivery at the named destination ready for unloading, with unloading at the buyer’s risk and cost. Its guidance asks the parties to agree the precise unloading spot. If your operation needs unloading to be included, raise that requirement before accepting the offer and reconcile it with the rule and contract. “At our warehouse” does not by itself say who supplies the unloading equipment or performs that work.",
-          "zh": "以一个具体区别为例，AIT Worldwide Logistics对DAP的说明是：货物在指定目的地处于可卸货状态交付，卸货的风险和费用由买方承担，并建议双方约定明确卸货点。如果本方需要报价包含卸货，应在接受前提出，再与规则及合同协调。“送到我们仓库”本身并未说明由谁提供卸货设备、由谁执行卸货。",
-          "es": "Como distinción concreta, AIT Worldwide Logistics explica DAP como entrega en destino designado lista para descargar, con descarga a riesgo y coste del comprador; recomienda acordar el punto preciso. Si necesita incluir la descarga, plantéelo antes de aceptar y concílielo con regla y contrato. “En nuestro almacén” no indica por sí solo quién aporta equipos ni realiza la descarga."
+          "en": "UPS’s DAP glossary describes delivery at the named destination with the goods ready for unloading; the buyer takes the costs and risks at that point and handles import clearance. It specifically asks the contract to identify the precise point within the named place. If your receiving plan requires unloading equipment or an included unloading service, resolve that requirement in the selected rule and agreement before accepting the quote. “Our warehouse” alone does not specify the receiving door or who performs the unloading.",
+          "zh": "UPS的DAP词条说明在具名目的地、货物准备卸载时交付，买方在该点承担相应成本和风险并处理进口清关，并特别要求合同明确具名地点内的准确交付点。若收货计划需要卸货设备或包含卸货服务，应在接受报价前，按所选规则和协议解决该要求。“我方仓库”本身不能说明收货门或由谁卸载。",
+          "es": "El glosario DAP de UPS describe entrega en destino convenido con mercancía lista para descargar; el comprador asume allí costes y riesgos y tramita la importación. Pide precisar el punto dentro del lugar. Si necesita equipo o servicio de descarga incluido, resuélvalo con la regla y acuerdo antes de aceptar. “Nuestro almacén” no identifica puerta ni responsable de descargar."
         }
-      ]
+      ],
+      "table": {
+        "caption": {
+          "en": "Turn the named place into a checkable quotation entry",
+          "zh": "把具名地点变成可核对的报价字段",
+          "es": "Convierta el lugar en datos comprobables"
+        },
+        "columns": [
+          {
+            "en": "Field",
+            "zh": "字段",
+            "es": "Campo"
+          },
+          {
+            "en": "Information to agree",
+            "zh": "需要约定的信息",
+            "es": "Información por acordar"
+          },
+          {
+            "en": "If still missing",
+            "zh": "仍缺少时",
+            "es": "Si falta"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "en": "Rule and edition",
+              "zh": "规则及版本",
+              "es": "Regla y edición"
+            },
+            {
+              "en": "Exact agreed abbreviation and edition, with express exceptions identified",
+              "zh": "准确缩写及约定版本，并识别明示例外",
+              "es": "Sigla y edición acordadas, con excepciones expresas"
+            },
+            {
+              "en": "Do not compare abbreviations as if they covered identical services",
+              "zh": "不能把不同缩写当成服务范围一致来比价",
+              "es": "No comparar siglas como servicios idénticos"
+            }
+          ],
+          [
+            {
+              "en": "Named point",
+              "zh": "具名交付点",
+              "es": "Punto convenido"
+            },
+            {
+              "en": "Site address and actual terminal, entrance or receiving point where relevant",
+              "zh": "地点地址及适用的具体码头、入口或收货点",
+              "es": "Dirección y terminal, acceso o recepción pertinentes"
+            },
+            {
+              "en": "Ask which precise point the transport quotation covers",
+              "zh": "追问运输报价究竟覆盖哪一准确点",
+              "es": "Preguntar qué punto cubre la cotización"
+            }
+          ],
+          [
+            {
+              "en": "Receiving operation",
+              "zh": "收货操作",
+              "es": "Operación de recepción"
+            },
+            {
+              "en": "Access, appointment, equipment and the agreed unloading responsibility",
+              "zh": "进场、预约、设备及约定卸载责任",
+              "es": "Acceso, cita, equipo y responsabilidad de descarga"
+            },
+            {
+              "en": "Keep required but unquoted services unresolved; do not price them at zero",
+              "zh": "所需但未报明服务保留待定，不能当作零费用",
+              "es": "Dejar pendientes servicios sin cotizar; no valorarlos a cero"
+            }
+          ],
+          [
+            {
+              "en": "Separate sales terms",
+              "zh": "独立销售条款",
+              "es": "Condiciones de venta separadas"
+            },
+            {
+              "en": "Product identity, payment, ownership and conformity acceptance",
+              "zh": "产品身份、付款、所有权及符合性接受",
+              "es": "Identidad, pago, propiedad y aceptación de conformidad"
+            },
+            {
+              "en": "Do not ask the delivery abbreviation to supply these terms",
+              "zh": "不能让交货缩写代替这些条款",
+              "es": "No sustituirlas por la sigla de entrega"
+            }
+          ]
+        ]
+      }
     },
     {
       "heading": {
@@ -107,11 +202,11 @@ const article: EditorialArticle = {
     },
     {
       "title": {
-        "en": "AIT Worldwide Logistics — DAP delivery and unloading",
-        "zh": "AIT Worldwide Logistics——DAP交付与卸货",
-        "es": "AIT Worldwide Logistics — entrega y descarga DAP"
+        "en": "UPS: DAP and the precise named delivery point",
+        "zh": "UPS：DAP与准确具名交付点",
+        "es": "UPS: DAP y punto preciso de entrega"
       },
-      "url": "https://www.aitworldwide.com/resources/incoterms/incoterms-dap-delivered-at-place/"
+      "url": "https://www.ups.com/us/en/supplychain/resources/glossary-term/delivered-at-place"
     },
     {
       "title": {
@@ -138,6 +233,8 @@ const article: EditorialArticle = {
       "zh": "收货门是可写入报价的具体交货点示例。",
       "es": "Una puerta de recepción es un ejemplo de punto de entrega que puede precisarse en la oferta."
     }
-  }
+  },
+  "updatedAt": "2026-11-12"
 }
+
 export default article

@@ -1,4 +1,5 @@
 import type { EditorialArticle } from '../editorial'
+
 const article: EditorialArticle = {
   "kind": "guide",
   "slug": "water-fill-coolant-order-quantity-per-design",
@@ -142,6 +143,40 @@ const article: EditorialArticle = {
               "zh": "实际库存或可接印刷订单范围",
               "es": "Existencias o alcance aceptado de impresión"
             }
+          ],
+          [
+            {
+              "en": "Electronic artwork approval",
+              "zh": "电子印稿确认",
+              "es": "Aprobación de diseño digital"
+            },
+            {
+              "en": "The exact file/revision and the line to which approval applies",
+              "zh": "准确文件/版本及该批准对应的订单行",
+              "es": "Archivo/revisión exactos y línea a la que corresponde"
+            },
+            {
+              "en": "Approved or pending; record a later artwork change separately",
+              "zh": "已确认或待确认；后续改稿另行记录",
+              "es": "Aprobado o pendiente; registrar por separado cambios posteriores"
+            }
+          ],
+          [
+            {
+              "en": "Physical stock-sample record",
+              "zh": "现货实样记录",
+              "es": "Registro de muestra física existente"
+            },
+            {
+              "en": "Plain or finished stock sample, its specification and the checks actually made",
+              "zh": "白版或成品现货样、其规格及实际所核项目",
+              "es": "Muestra sin imprimir o terminada, especificación y aspectos revisados"
+            },
+            {
+              "en": "No digitally printed custom physical sample is available for this pack route",
+              "zh": "本冰袋方式不提供数码打印定制实样",
+              "es": "No hay muestra física personalizada con impresión digital para esta modalidad"
+            }
           ]
         ]
       }
@@ -157,6 +192,11 @@ const article: EditorialArticle = {
           "en": "The current page states that digitally printed custom physical samples are not available for these packs. Stock plain or finished samples can be purchased at the quoted price. Identify what the stock sample represents and which features still depend on the requested printing order. An approved electronic artwork file is not approval of a custom printed physical sample.",
           "zh": "当前页面注明本款不提供数码印刷定制实物样。可按报价购买现货空白或成品样。写清现货样代表的规格，以及仍需随印刷订单确认的项目。电子印稿通过，不等于定制印刷实物样通过。",
           "es": "La página actual indica que estas bolsas no ofrecen muestras físicas personalizadas con impresión digital. Se pueden comprar muestras de existencias, sin impresión o acabadas, al precio cotizado. Identifique qué representa la muestra y qué queda por confirmar para el pedido impreso. Aprobar el archivo digital no equivale a aprobar una muestra física personalizada."
+        },
+        {
+          "en": "Use three separate statuses on each line: quantity basis confirmed, electronic artwork approved, and the identified stock sample reviewed for the stated features. One status cannot complete the other two. If a QR code or wording changes after approval, identify the replacement file and ask which design line it belongs to before pooling quantities. Do not describe a photographed stock pack as the unavailable custom-printed physical proof.",
+          "zh": "每行分开记录三种状态：数量口径已确认、电子稿已批准、具名现货样已核对相应项目。一种状态不能代替另两种。批准后若二维码或文字改变，应标明替换文件，并先确认归属哪个设计行，再讨论数量能否合并；不能把现货袋照片称为本方式并不提供的定制印刷实物稿。",
+          "es": "Separe tres estados por línea: base de cantidad confirmada, diseño digital aprobado y muestra existente identificada revisada para aspectos concretos. Uno no completa los otros. Si cambia texto o QR, identifique el reemplazo y su línea antes de agrupar cantidades. Una foto de existencias no es la prueba física personalizada no disponible."
         }
       ]
     },
@@ -214,6 +254,8 @@ const article: EditorialArticle = {
       "zh": "白色背面朝上的柔软薄膜袋。",
       "es": "Bolsa de película flexible con el reverso liso hacia arriba."
     }
-  }
+  },
+  "updatedAt": "2026-11-12"
 }
+
 export default article
