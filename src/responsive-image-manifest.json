@@ -16414,5 +16414,243 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-12-batch07/lot-inspection-overview-photo.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/632df7e2c8b1-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/c174976f74d9-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/9e4e68e88156-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/8144a758be5b-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/381712c9f95d-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/6cd1588293bf-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/5f6b444504b8-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-12-batch07/lot-inspection-handle-detail.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/e920e57d8565-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/00ecc2142903-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/c0b78753b9d4-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/d92f2e01a8b8-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/6fcd853dbd44-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/90ac068254b9-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/ae2bdb3f1239-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-12-batch07/drink-bag-recipient-handover.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/9ff929848dbb-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/0ff78b4a42c4-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/eae3bd4bcffa-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/2c7b588ad6f1-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/c1d07637f063-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/52c09bae07c9-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/114d56b91519-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-12-batch07/drink-cup-handover-carrier-retained.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/80cca6741fcc-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/3bfb29364235-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/180f4af07357-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/2cfab57cb267-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/e29e920ec3d6-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/7e052b432ccc-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/d1271ed804d9-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-12-batch07/nonwoven-sheet-and-complete-carrier.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/cea786c2c713-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/e90b1f0f48bf-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/8f7eb0a6a7ce-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/9e8203f18634-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/8668b4d4dc6f-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/18c6ee192dc3-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/9848f0abbd39-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-12-batch07/tray-corner-lining-location.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/63515e52f98e-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/93734d43973e-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/e5fe7305596b-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/dd421bcd07be-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/6c70cc270575-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/3fd975fef2e6-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/3ab535121e9d-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-12-batch07/coolant-tray-handover.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/8de0399140c3-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/10cd42fefbe2-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/9f80938ddd24-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/1d4808df5f38-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/e9576474332b-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/f59101fb1738-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/97c2d634bcc0-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

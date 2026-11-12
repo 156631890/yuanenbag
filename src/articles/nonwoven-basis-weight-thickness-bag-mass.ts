@@ -1,4 +1,5 @@
 import type { EditorialArticle } from '../editorial'
+
 const article: EditorialArticle = {
   "kind": "guide",
   "slug": "nonwoven-basis-weight-thickness-bag-mass",
@@ -112,6 +113,25 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
+        "en": "Check the unit against the object it describes",
+        "zh": "把单位对应到被测对象",
+        "es": "Relacione unidad y objeto"
+      },
+      "paragraphs": [
+        {
+          "en": "As a purely hypothetical arithmetic example, a uniform single sheet specified as 80 g/m² and an area of 0.5 m² gives 40 g of that sheet: 80 × 0.5. Neither number is a YUANEN specification. The result excludes foil, insulation, handles, zipper, binding and manufacturing allowances; it is not finished-bag or shipping mass. Add those quantities only when their own scope and data are available.",
+          "zh": "仅作假设算术例：均匀单层片材面密度80 g/m²、面积0.5 m²，对应该片材40 g，即80×0.5。两项输入都不是远恩规格。结果未包含铝箔、隔热层、提手、拉链、包边及制作余量，不能当整袋或运输重量；其他部分只有在范围和数据齐备后才可另计。",
+          "es": "Ejemplo aritmético puramente hipotético: una lámina uniforme de 80 g/m² y 0,5 m² corresponde a 40 g: 80 × 0,5. No son especificaciones YUANEN. Excluye aluminio, aislamiento, asas, cremallera, ribete y márgenes de fabricación; no es masa de bolsa ni de envío. Otras partes requieren datos y alcance propios."
+        },
+        {
+          "en": "Thickness needs the named layer or assembly and its measurement method and conditions. Finished-bag mass needs a defined sample and an inclusion list: empty bag, any divider or accessories, and whether transport packing is excluded. When a supplier answers only “80 g”, ask whether it means grams per bag or an omitted g/m² unit before comparing. Do not convert gsm into millimetres, carrying load or insulation duration.",
+          "zh": "厚度需明确层或组合及测量方法、条件；整袋质量需明确样品和包含清单：空袋、是否带分隔或附件、是否排除运输包装。若供应方只回复“80 g”，应先问是每只袋的克数，还是漏写了g/m²，再比较。不能把gsm直接换成毫米、承重或保温时长。",
+          "es": "El espesor requiere capa o conjunto, método y condiciones. La masa de bolsa requiere muestra y lista de incluidos: bolsa vacía, separadores o accesorios y exclusión del embalaje de transporte. Si la respuesta es solo «80 g», aclare si es por bolsa o falta g/m². No convierta gsm en milímetros, carga o duración térmica."
+        }
+      ]
+    },
+    {
+      "heading": {
         "en": "Apply the distinction to the current catering proposal",
         "zh": "对应到当前餐盘配送包方案",
         "es": "Aplique la distinción a la propuesta de catering"
@@ -158,19 +178,20 @@ const article: EditorialArticle = {
     "insulated-catering-bags"
   ],
   "image": {
-    "file": "images/editorial/2026-11-06-guide-cover-revisions/nonwoven-basis-weight-thickness-bag-mass.webp",
-    "kind": "illustration",
+    "file": "images/editorial/2026-11-12-batch07/nonwoven-sheet-and-complete-carrier.webp",
     "alt": {
-      "en": "A navy catering bag on a bench scale with a separate navy nonwoven swatch beside it.",
-      "zh": "深蓝色保温包放在台秤上，旁边单独摆着一块深蓝色无纺布样片。",
-      "es": "Bolsa térmica azul sobre una báscula de mesa, con una muestra separada de material no tejido al lado."
+      "en": "A closed navy carrier behind separate navy material, silver foil and black webbing swatches",
+      "zh": "闭合海军蓝配送包前放着独立蓝色材料片、银色箔片及黑色织带",
+      "es": "Bolsa azul marino cerrada detrás de recortes de material azul, aluminio y cinta negra"
     },
     "caption": {
-      "en": "Keep the material swatch and the complete bag separate when defining what a measurement covers.",
-      "zh": "约定测量口径时，分开记录面料样片和整只保温包。",
-      "es": "Distinga la muestra de material y la bolsa completa al definir qué abarca cada medición."
-    }
+      "en": "Sheet, foil, webbing and assembled bag are separate objects. Loose swatches are visual props, not measured samples or supply inclusions.",
+      "zh": "片材、箔片、织带与成袋是不同对象；散放材料片为视觉道具，不是已测样品或供货清单。",
+      "es": "Lámina, aluminio, cinta y bolsa son objetos distintos; los recortes son elementos visuales, no muestras medidas ni piezas incluidas."
+    },
+    "kind": "illustration"
   },
-  "updatedAt": "2026-10-31"
+  "updatedAt": "2026-11-12"
 }
+
 export default article

@@ -1,22 +1,120 @@
 import type { EditorialArticle } from '../editorial'
-const t = (en: string, zh: string, es: string) => ({ en, zh, es })
 
 const article: EditorialArticle = {
-  kind: 'industry', slug: 'fpa-brand-owner-council-formation', publishedAt: '2026-10-21', eventDate: '2026-10-14',
-  market: t('United States; flexible packaging industry', '美国；柔性包装行业', 'Estados Unidos; sector de envases flexibles'),
-  title: t('FPA Forms a Brand Owner Council With Three Inaugural Members', 'FPA 成立品牌商委员会，公布首批三家成员', 'FPA crea un consejo de marcas con tres miembros fundadores'),
-  description: t('FPA’s new Brand Owner Council gives packaging buyers a reason to clarify the hand-off between brand requirements, supplier replies and sample approval.', 'FPA 新设品牌商委员会，为包装采购者带来的实际启发是：明确品牌需求、供应商回复与样品确认之间的交接。', 'El nuevo consejo de FPA invita a aclarar el traspaso entre requisitos de marca, respuestas del proveedor y aprobación de muestras.'),
-  intro: t('The US Flexible Packaging Association announced its Brand Owner Council on 14 October 2026. Kraft Heinz, PepsiCo and Procter & Gamble are its inaugural members. FPA describes a new membership category for dialogue among brands, converters, suppliers and policymakers.', '美国柔性包装协会 FPA 于 2026 年 10 月 14 日宣布成立品牌商委员会，首批成员为 Kraft Heinz、PepsiCo 与 Procter & Gamble。FPA 将其介绍为促进品牌商、加工商、供应商及政策制定者交流的新会员类别。', 'La Flexible Packaging Association de Estados Unidos anunció su consejo de marcas el 14 de octubre de 2026. Kraft Heinz, PepsiCo y Procter & Gamble son sus miembros fundadores. FPA lo presenta como una categoría de membresía para el diálogo entre marcas, transformadores, proveedores y responsables de políticas.'),
-  sections: [
-    { heading: t('Read the announcement as an industry forum', '将公告理解为行业交流机制', 'Interprete el anuncio como un foro sectorial'), paragraphs: [t('The announced council is not, by itself, a purchasing specification for a particular order. Buyers should not infer a new legal requirement, a certification, a contract award or a shared material choice by its members. YUANEN claims no membership or commercial relationship from this announcement. The practical suggestions below are this article’s recommendations, not rules issued by the council.', '委员会的成立本身不构成某笔订单的采购规格，不能由此推断新法规、认证、合同授予或成员共同选择某种材料。远恩不因本公告声称具有会员身份或商业关系。下文是本篇提出的实际建议，并非委员会发布的规则。', 'La creación del consejo no constituye por sí misma una especificación de compra. No permite deducir una nueva obligación legal, certificación, adjudicación ni elección conjunta de material. YUANEN no afirma membresía ni relación comercial a partir del anuncio. Las propuestas siguientes son recomendaciones de este artículo, no reglas emitidas por el consejo.')] },
-    { heading: t('Name the decision owner before circulating an enquiry', '流转询价前先明确决定由谁确认', 'Identifique quién decide antes de distribuir la consulta'), paragraphs: [t('For a buyer coordinating a brand brief with a packaging supplier, we recommend recording who owns each requirement and who can accept a change. Separate the brand’s appearance request, the packing team’s usable-space and closure needs, and the evidence required for any performance claim. Give the supplier one current revision to answer, rather than treating several emails as an agreed specification.', '品牌简报需要交给包装供应方执行时，本篇建议记录每项要求由谁负责、变更由谁确认。将品牌外观要求、装载团队需要的可用空间与封口条件、以及性能主张所需证据分别列清。让供应商针对一个当前版本答复，不把多封邮件直接视作已达成一致的规格。', 'Cuando una marca traslada su propuesta a un proveedor, recomendamos identificar al responsable de cada requisito y a quien puede aceptar cambios. Separe apariencia, espacio útil y cierre necesarios para embalaje, y pruebas exigidas para cualquier afirmación de rendimiento. Entregue una revisión vigente para responder, sin tratar varios correos como una especificación acordada.')] },
-    { heading: t('Use a reply record that exposes unresolved requirements', '用回复记录明确暴露待确认项', 'Use un registro de respuesta que muestre lo pendiente'), paragraphs: [t('A useful enquiry record can contain: requirement; proposed construction or feature; supplier response; supporting file or sample reference; unresolved point; responsible person; and next decision. Ask the supplier to distinguish what is offered now from an option that still needs development. Leave unsupported properties open for assessment, rather than converting a blank field into an assurance.', '一份实用的询价记录可包含：要求、拟用结构或特征、供应商答复、依据文件或样品编号、待确认点、责任人及下一步决定。请供应方区分当前报价范围与仍需开发的选项。没有依据的属性保留为待评估项，不把空白字段转成供货保证。', 'Un registro útil puede incluir requisito, estructura o característica propuesta, respuesta del proveedor, archivo o muestra de apoyo, punto pendiente, responsable y siguiente decisión. Pida distinguir lo ofertado actualmente de una opción que necesita desarrollo. Mantenga las propiedades sin respaldo pendientes de evaluación, sin convertir una casilla vacía en una garantía.')], bullets: [t('Suggested entry: closure requirement ___; offered arrangement ___; sample revision ___; evidence still needed ___; confirmation owner ___; status ___.', '建议记录：封口要求___；拟供方案___；样品版本___；仍需证据___；确认责任人___；状态___。', 'Entrada propuesta: requisito de cierre ___; solución ofertada ___; revisión de muestra ___; pruebas pendientes ___; responsable de confirmar ___; estado ___.')] },
-    { heading: t('Apply the hand-off to a foil-pouch sample', '将需求交接落实到铝箔袋样品', 'Aplique el traspaso a una muestra de bolsa de aluminio'), paragraphs: [t('For YUANEN’s existing self-adhesive foil pouch, attach the intended contents, required usable space, proposed closure and any outer-pack arrangement to the enquiry. Ask YUANEN to confirm the quoted construction and sample reference. If the brand changes the artwork or the packing team changes the contents, record whether another sample review is needed. Do not imply that the council or its members have endorsed this pouch.', '针对远恩已有的自粘铝箔袋，在询价时附上拟装内容物、所需可用空间、拟用封口和外包装安排，请远恩确认报价结构与样品编号。如果品牌调整图稿，或装载团队更换内容物，应记录是否需要重新核样，不暗示委员会或其成员为该袋体背书。', 'Para la bolsa autoadhesiva de aluminio existente de YUANEN, adjunte contenido previsto, espacio útil, cierre y embalaje exterior. Solicite confirmar estructura cotizada y referencia de muestra. Si la marca cambia el diseño gráfico o el equipo cambia el contenido, registre si se requiere otra revisión de muestra. No sugiera que el consejo o sus miembros avalan esta bolsa.'), t('This keeps responsibility for the actual order with the parties reviewing it. An association announcement can prompt a better conversation, but the agreed sample and written order remain the place to resolve supply scope and any testing still required.', '这样可让实际订单的确认责任落实到审阅各方。协会公告可以启发更清晰的沟通，而供货范围及仍需进行的测试，仍应在约定样品和书面订单中落实。', 'Así, la responsabilidad del pedido queda en las partes que lo revisan. Un anuncio asociativo puede mejorar la conversación; el alcance del suministro y los ensayos pendientes deben concretarse en la muestra acordada y el pedido escrito.')] },
+  "kind": "industry",
+  "slug": "fpa-brand-owner-council-formation",
+  "publishedAt": "2026-10-21",
+  "eventDate": "2026-10-14",
+  "market": {
+    "en": "United States; flexible packaging industry",
+    "zh": "美国；柔性包装行业",
+    "es": "Estados Unidos; sector de envases flexibles"
+  },
+  "title": {
+    "en": "FPA Forms a Brand Owner Council With Three Inaugural Members",
+    "zh": "FPA 成立品牌商委员会，公布首批三家成员",
+    "es": "FPA crea un consejo de marcas con tres miembros fundadores"
+  },
+  "description": {
+    "en": "FPA’s new Brand Owner Council gives packaging buyers a reason to clarify the hand-off between brand requirements, supplier replies and sample approval.",
+    "zh": "FPA 新设品牌商委员会，为包装采购者带来的实际启发是：明确品牌需求、供应商回复与样品确认之间的交接。",
+    "es": "El nuevo consejo de FPA invita a aclarar el traspaso entre requisitos de marca, respuestas del proveedor y aprobación de muestras."
+  },
+  "intro": {
+    "en": "The US Flexible Packaging Association announced its Brand Owner Council on 14 October 2026. Kraft Heinz, PepsiCo and Procter & Gamble are its inaugural members. FPA describes a new membership category for dialogue among brands, converters, suppliers and policymakers.",
+    "zh": "美国柔性包装协会 FPA 于 2026 年 10 月 14 日宣布成立品牌商委员会，首批成员为 Kraft Heinz、PepsiCo 与 Procter & Gamble。FPA 将其介绍为促进品牌商、加工商、供应商及政策制定者交流的新会员类别。",
+    "es": "La Flexible Packaging Association de Estados Unidos anunció su consejo de marcas el 14 de octubre de 2026. Kraft Heinz, PepsiCo y Procter & Gamble son sus miembros fundadores. FPA lo presenta como una categoría de membresía para el diálogo entre marcas, transformadores, proveedores y responsables de políticas."
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "A membership category gives brands a direct voice",
+        "zh": "新的会员类别让品牌参与讨论",
+        "es": "Una categoría de miembros da voz a las marcas"
+      },
+      "paragraphs": [
+        {
+          "en": "FPA describes the council as a new membership category for brand owners. Its 14 October announcement names Kraft Heinz, PepsiCo and Procter & Gamble as inaugural members, and brings brands into shared learning with flexible-packaging converters, suppliers and policymakers. A later FPA post on 26 October repeats the three names; the later post date does not replace the formation announcement date.",
+          "zh": "FPA将理事会描述为面向品牌方的新会员类别。10月14日公告列明首批成员为卡夫亨氏、百事公司及宝洁，并让品牌与软包装加工商、供应商和政策制定者共同交流。FPA在10月26日的后续文章再次列出三家公司，后续文章日期不能替代成立公告日。",
+          "es": "FPA lo presenta como nueva categoría para propietarios de marcas. El anuncio del 14 de octubre nombra a Kraft Heinz, PepsiCo y Procter & Gamble y promueve aprendizaje con transformadores, proveedores y responsables de políticas. Otra publicación FPA del 26 repite los nombres; esa fecha posterior no sustituye la del anuncio."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "The forum addresses shared issues, not a common order specification",
+        "zh": "讨论共同议题，不等于统一订单规格",
+        "es": "Trata asuntos compartidos, no una especificación común"
+      },
+      "paragraphs": [
+        {
+          "en": "The announcement identifies packaging innovation, sustainability and business growth as the areas for shared learning. Bringing the participants together can make brand requirements part of association discussion, but a council statement does not identify an agreed film structure, an awarded order or a certification. Read any later technical or policy output as its own dated document, with its issuer and scope.",
+          "zh": "公告将包装创新、可持续性和业务发展列为共同学习议题。参与方聚在一起，可让品牌需求进入协会讨论，但理事会声明不能识别某个已确定膜结构、已授予订单或认证。后续若有技术或政策成果，应按独立的有日期文件核对发布者和范围。",
+          "es": "El anuncio sitúa innovación, sostenibilidad y crecimiento empresarial en el intercambio. Esto incorpora requisitos de marcas al diálogo de la asociación, pero no acredita una estructura de film acordada, adjudicación o certificación. Cualquier resultado técnico o político posterior debe revisarse como documento propio con fecha, emisor y alcance."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Keep the order decision with the actual buyer and supplier",
+        "zh": "具体订单仍由买卖双方确认",
+        "es": "La decisión del pedido sigue entre comprador y proveedor"
+      },
+      "paragraphs": [
+        {
+          "en": "For buyers, distinguish an industry discussion from the requirement a supplier must answer on a named project. Keep the current sample and specification revision with that enquiry; use the linked order checklist for the detailed handover record. YUANEN claims no council membership, endorsement or relationship with its founding brands. The cover shows generic flexible pouches, not those brands’ products.",
+          "zh": "买家应区分行业讨论与供应方在具体项目上需要答复的要求，把当前样品及规格版本与询价一起保留，详细交接记录可参阅所链订单清单。远恩不据此宣称会员资格、背书或与首批品牌的关系。封面为通用软包装袋，不是这些品牌的产品。",
+          "es": "Distinga el debate sectorial del requisito que debe contestar el proveedor en un proyecto concreto. Adjunte muestra y revisión; consulte la lista de pedido enlazada para el registro detallado. YUANEN no declara membresía, aval ni relación con las marcas. La portada muestra bolsas genéricas, no sus productos."
+        }
+      ]
+    }
   ],
-  sources: [
-    { title: t('FPA council announcement, 14 October 2026', 'FPA 委员会公告，2026 年 10 月 14 日', 'Anuncio del consejo de FPA, 14 de octubre de 2026'), url: 'https://www.flexpack.org/news/fpa-launches-brand-owner-council-welcomes-inaugural-members', publishedAt: '2026-10-14' },
-    { title: t('YUANEN current self-adhesive foil-pouch reference', '远恩当前自粘铝箔袋参考', 'Referencia vigente de bolsas autoadhesivas de aluminio de YUANEN'), url: 'https://yuanenbag.com/products/self-adhesive-foil-bags/' },
-  ], relatedProducts: ['self-adhesive-foil-bags'],
-  image: { file: 'images/editorial/2026-10-21/plain-pouch-sample-review.webp', kind: 'illustration', alt: t('Plain white stand-up pouch and a pale taupe flat pouch on a softly lit sample-review workbench', '柔光样品工作台上的无印刷白色自立袋与浅灰褐色平袋', 'Bolsa blanca de pie sin imprimir y bolsa plana de color topo claro sobre una mesa de muestras con luz suave'), caption: t('Generic flexible-packaging sample concept. These are not identified member-company packs or a record of a council meeting.', '通用柔性包装样品构想。画面不识别成员企业包装，也不记录委员会会议。', 'Concepto genérico de muestras de envases flexibles; no identifica envases de miembros ni documenta una reunión del consejo.') },
+  "sources": [
+    {
+      "title": {
+        "en": "FPA council announcement, 14 October 2026",
+        "zh": "FPA 委员会公告，2026 年 10 月 14 日",
+        "es": "Anuncio del consejo de FPA, 14 de octubre de 2026"
+      },
+      "url": "https://www.flexpack.org/news/fpa-launches-brand-owner-council-welcomes-inaugural-members",
+      "publishedAt": "2026-10-14"
+    },
+    {
+      "url": "https://www.flexpack.org/news/kraft-heinz-pepsico-pandg-join-fpas-new-brand-owner-council",
+      "title": {
+        "en": "FPA follow-up, 26 October",
+        "zh": "FPA 10月26日后续文章",
+        "es": "Seguimiento de FPA del 26 de octubre"
+      },
+      "publishedAt": "2026-10-26"
+    },
+    {
+      "url": "https://yuanenbag.com/guides/custom-bag-order-checklist/",
+      "title": {
+        "en": "Custom bag order checklist",
+        "zh": "定制袋订单清单",
+        "es": "Lista del pedido de bolsas"
+      }
+    }
+  ],
+  "relatedProducts": [
+    "self-adhesive-foil-bags"
+  ],
+  "image": {
+    "file": "images/editorial/2026-10-21/plain-pouch-sample-review.webp",
+    "kind": "illustration",
+    "alt": {
+      "en": "Plain white stand-up pouch and a pale taupe flat pouch on a softly lit sample-review workbench",
+      "zh": "柔光样品工作台上的无印刷白色自立袋与浅灰褐色平袋",
+      "es": "Bolsa blanca de pie sin imprimir y bolsa plana de color topo claro sobre una mesa de muestras con luz suave"
+    },
+    "caption": {
+      "en": "Generic flexible-packaging sample concept. These are not identified member-company packs or a record of a council meeting.",
+      "zh": "通用柔性包装样品构想。画面不识别成员企业包装，也不记录委员会会议。",
+      "es": "Concepto genérico de muestras de envases flexibles; no identifica envases de miembros ni documenta una reunión del consejo."
+    }
+  },
+  "updatedAt": "2026-11-12"
 }
+
 export default article

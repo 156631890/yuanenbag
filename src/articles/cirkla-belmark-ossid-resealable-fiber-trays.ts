@@ -1,4 +1,5 @@
 import type { EditorialArticle } from '../editorial'
+
 const article: EditorialArticle = {
   "kind": "industry",
   "slug": "cirkla-belmark-ossid-resealable-fiber-trays",
@@ -20,86 +21,55 @@ const article: EditorialArticle = {
     "es": "Revise bandeja cerrada, espacio para el film y carga antes de elegir una bolsa térmica; el envase primario y el embalaje exterior tienen alcances distintos."
   },
   "intro": {
-    "en": "In a Cirkla-issued announcement dated 12 October 2026, Cirkla, Belmark and Ossid presented a system combining fiber trays, resealable lidding film and automated tray sealing for food applications. For buyers considering a primary-pack change, the separate purchasing question is whether the actual closed pack still fits the proposed outer insulated packaging.",
-    "zh": "Cirkla于2026年10月12日发布公告，介绍与Belmark、Ossid组合纤维托盘、可重封盖膜与自动托盘封口技术的食品包装方案。采购方若考虑更换主包装，还需要另行回答一个问题：真实闭合餐盒是否仍适合拟用的外层保温包装。",
-    "es": "En un anuncio de Cirkla fechado el 12 de octubre de 2026, Cirkla, Belmark y Ossid presentaron un sistema de bandejas de fibra, film de tapa resellable y sellado automático para alimentos. Si se cambia el envase primario, queda una cuestión separada: si el envase cerrado real sigue cabiendo en el embalaje térmico exterior propuesto."
+    "en": "Cirkla’s 12 October 2026 announcement describes an integrated food-packaging system: its fiber tray, Belmark’s peel/reseal lidding film and Ossid’s automated tray sealing. Buyers need to assess those interfaces together before treating one component as an interchangeable substitute.",
+    "zh": "Cirkla在2026年10月12日公告中介绍了组合食品包装系统：其纤维托盘、Belmark揭开后可重封盖膜及Ossid自动托盘封合技术。买家需整体评估这些接口，再判断某个组件是否可替代。",
+    "es": "El anuncio de Cirkla del 12 de octubre de 2026 combina bandeja de fibra, film de apertura y recierre Belmark y sellado automático Ossid. Deben evaluarse las interfaces antes de considerar intercambiable una pieza."
   },
   "sections": [
     {
       "heading": {
-        "en": "The announcement has a defined scope",
-        "zh": "公告有明确的适用范围",
-        "es": "El anuncio tiene un alcance definido"
+        "en": "Three partners supply three linked functions",
+        "zh": "三方提供相互关联的三项功能",
+        "es": "Tres socios aportan funciones vinculadas"
       },
       "paragraphs": [
         {
-          "en": "The release identifies fresh protein, produce and ready meals as applications. It is a supplier announcement about the combined system, not evidence that YUANEN supplies it or has validated its performance.",
-          "zh": "公告列出鲜食蛋白类、果蔬和即食餐等应用。这是供应商对组合方案的介绍，不证明远恩供应该方案或已经验证其性能。",
-          "es": "El comunicado cita proteínas frescas, frutas y hortalizas y comidas preparadas. Es un anuncio de proveedores sobre el sistema conjunto, sin acreditar suministro ni validación de prestaciones por YUANEN."
+          "en": "Cirkla supplies the fiber-tray foundation and liner technology; Belmark contributes the resealable lidding film; Ossid contributes automated sealing, identified in the release with the ReeMaster NextGen tray sealer. The release explains the interface challenge as bonding the peel/reseal film to the fiber substrate without damaging the tray liner. That is a statement by the announcing companies, not a YUANEN test result.",
+          "zh": "Cirkla提供纤维托盘基础和内衬技术，Belmark提供可重封盖膜，Ossid提供自动封合技术，公告提到ReeMaster NextGen托盘封口机。公告将接口难点解释为：使揭开后可重封盖膜与纤维基材结合，同时不损伤托盘内衬。这是发布企业的说明，不是远恩试验结果。",
+          "es": "Cirkla aporta bandeja y tecnología de revestimiento; Belmark, film resellable; Ossid, sellado automático, con ReeMaster NextGen citado en el comunicado. Las empresas describen el reto como unir film de recierre a fibra sin dañar el revestimiento. Es su explicación, no un ensayo YUANEN."
         },
         {
-          "en": "The suggestions below are editorial checks for the outer packaging decision. Obtain the primary-pack supplier’s exact tray and film specification and its applicable evidence separately. The cover depicts a generic tray and film form, not the announced companies’ product or a sealing test.",
-          "zh": "以下为外层包装选型的编辑复核建议。主包装的准确托盘、盖膜规格及相应证据，应另向该供应方取得。封面仅展示通用托盘与薄膜形态，不对应报道企业的产品或封口试验。",
-          "es": "Las sugerencias siguientes son comprobaciones editoriales para elegir embalaje exterior. Solicite por separado al proveedor la especificación exacta de bandeja y film y sus evidencias aplicables. La portada representa una forma genérica, sin mostrar el producto anunciado ni un ensayo de sellado."
+          "en": "The stated applications include fresh protein, produce and ready meals. The announcement also listed planned October trade-show displays; this revision does not turn that plan into an observed demonstration. Claims about shelf life, barrier performance, line compatibility or investment savings require the supplier’s applicable evidence for the actual combination. The public announcement alone is not a buyer acceptance report.",
+          "zh": "所列应用包括鲜食蛋白类、果蔬和即食餐。公告还列出计划中的10月展会展示，本次修订不将计划写成已观察到的演示。货架期、阻隔性能、生产线兼容或投资节省的说法，需要供应方提供适用于实际组合的证据，公开公告本身不是买家验收报告。",
+          "es": "Cita proteínas frescas, frutas y hortalizas y comidas preparadas, además de exhibiciones previstas en octubre; esta revisión no afirma haberlas observado. Vida útil, barrera, compatibilidad de línea o ahorro de inversión necesitan evidencia aplicable al conjunto real. El anuncio no es informe de aceptación del comprador."
         }
       ]
     },
     {
       "heading": {
-        "en": "Measure the pack after closing it",
-        "zh": "测量闭合后的包装",
-        "es": "Mida el envase una vez cerrado"
+        "en": "Change the interface record when any component changes",
+        "zh": "任一组件变化都需复核接口记录",
+        "es": "Revise las interfaces si cambia un componente"
       },
       "paragraphs": [
         {
-          "en": "Use the complete proposed food pack rather than an empty-tray catalogue dimension. Record its widest closed outline, height, rim projection and any film tab. Compare that sample with the insulated bag opening and internal space without treating nominal bag width as a guaranteed fit.",
-          "zh": "采用完整拟用食品包装，不能只取空托盘目录尺寸。记录闭合后的最大外廓、高度、凸出盘沿及盖膜拉片，再与保温袋开口和内部空间实配，不把标称袋宽直接当作适配保证。",
-          "es": "Use el envase completo propuesto, sin limitarse a la medida de catálogo de la bandeja vacía. Registre contorno máximo cerrado, altura, reborde y pestaña de film. Contraste la muestra con abertura y espacio interior de la bolsa, sin garantizar ajuste a partir del ancho nominal."
-        },
-        {
-          "en": "YUANEN’s published self-adhesive foil insulated bag is a flat foil-facing/EPE composite pouch with a peel-and-seal flap and heat-sealed edges. Its form is distinct from the rigid tray and its film lid. Ask for a pouch sample around the actual closed pack; do not infer a gusset, carrier handle or rigid support from an image.",
-          "zh": "远恩已公开的自粘铝箔保温袋为铝箔面/EPE复合平袋，带揭纸粘封折口与热封边，形态不同于刚性托盘及其盖膜。应以真实闭合包装确认配套袋样，不能从图片推定带底褶、提手或刚性支撑。",
-          "es": "La bolsa térmica autoadhesiva publicada por YUANEN es plana, con cara de aluminio y EPE, solapa adhesiva con protector y bordes termosellados. Su forma es distinta de la bandeja rígida y su film. Solicite una muestra para el envase cerrado real; una imagen no acredita fuelle, asa ni soporte rígido."
+          "en": "Our purchasing interpretation is to identify the exact tray and liner, film revision and sealing configuration in one sample record. Changing a tray can change the rim the film meets; changing the film or process means the previous closure evidence cannot simply be assumed to apply. Ask the primary-pack suppliers which evidence remains applicable and which review is needed. No reseal cycle count, sealing setting or universal compatibility is supplied here.",
+          "zh": "本文采购建议是在同一份样品记录中识别托盘及其内衬、盖膜版本和封合配置。托盘改变可能改变与膜接合的盘沿；盖膜或工艺改变后，也不能直接假定旧封合证据仍适用。应请主包装供应方明确哪些依据仍适用、需补什么复核。本文不提供重封次数、封口设置或通用兼容承诺。",
+          "es": "Identifique bandeja/revestimiento, revisión del film y configuración de sellado en un registro. Cambiar bandeja puede cambiar el reborde; cambiar film o proceso impide asumir aplicabilidad automática de la evidencia anterior. Pida a sus proveedores qué sigue aplicando y qué revisar. Aquí no se fija número de recierres, ajuste de sellado ni compatibilidad universal."
         }
       ]
     },
     {
       "heading": {
-        "en": "Review insertion, removal and stacking together",
-        "zh": "同时复核装入、取出与堆叠",
-        "es": "Revise carga, extracción y apilado conjuntamente"
+        "en": "Review outer-pouch fit as a separate decision",
+        "zh": "外层袋适配是另一项决定",
+        "es": "Revise el ajuste de la bolsa exterior por separado"
       },
       "paragraphs": [
         {
-          "en": "With representative samples, agree an insertion and removal route that does not rely on pulling the tray by its film or forcing a projecting rim through the pouch mouth. Check where the pouch flap closes and whether it presses on a film tab. If either primary pack or pouch version changes, leave the fit decision open until the proposed combination is reviewed again.",
-          "zh": "采用代表样品约定装入和取出路径，不依赖拉盖膜搬托盘，也不强行将凸出盘沿挤过袋口。检查袋口折合的位置，以及是否压住盖膜拉片。主包装或袋体版本变化后，拟用组合应重新复核，再决定是否适配。",
-          "es": "Acuerde con muestras representativas cómo introducir y extraer el envase sin tirar del film ni forzar el reborde por la boca. Compruebe dónde cierra la solapa y si presiona una pestaña. Si cambia una versión, mantenga el ajuste pendiente hasta revisar de nuevo la combinación."
-        }
-      ],
-      "bullets": [
-        {
-          "en": "Sample record: tray/film supplier and version ___; closed outer dimensions ___; tab and rim clearance ___; pouch version/opening ___; insertion and removal observations ___; proposed stacking/outer support ___; unresolved items ___.",
-          "zh": "样品记录：托盘/膜供应方及版本___；闭合外尺寸___；拉片及盘沿余量___；袋体版本/开口___；装入取出观察___；拟用堆叠/外部支撑___；未决项___。",
-          "es": "Registro de muestra: proveedor y versión de bandeja/film ___; dimensiones cerradas ___; espacio para pestaña y reborde ___; versión y abertura de bolsa ___; carga y extracción observadas ___; apilado y soporte exterior propuestos ___; pendientes ___."
-        }
-      ]
-    },
-    {
-      "heading": {
-        "en": "Keep the two packaging functions separate",
-        "zh": "分开确认两层包装功能",
-        "es": "Confirme por separado las dos funciones"
-      },
-      "paragraphs": [
-        {
-          "en": "A primary lid’s resealing function does not demonstrate that an outer pouch is resealable, leakproof or thermally qualified. Nor does a changed tray prove an acceptable stacking load or transport result. Confirm the full intended pack, contents, handling and temperature conditions through the appropriate supplier and sample evaluation. No holding time, barrier value or load rating is established here.",
-          "zh": "主包装盖膜可重封，不能证明外层袋可重复封合、防漏或已通过温控验证。托盘变更也不能证明可接受的堆叠载荷或运输结果。完整拟用包装、内装物、操作及温区条件，须由相关供应方及样品评估确认。本文不建立保温时长、阻隔数值或承重等级。",
-          "es": "Que una tapa primaria se reselle no demuestra que la bolsa exterior sea resellable, estanca o térmicamente validada. Cambiar la bandeja tampoco acredita carga de apilado ni resultado de transporte. Confirme conjunto, contenido, manipulación y condiciones térmicas con los proveedores y evaluación de muestras. Aquí no se establece duración térmica, valor de barrera ni carga admisible."
-        },
-        {
-          "en": "For a YUANEN enquiry, send the closed tray dimensions, proposed pouch drawing, loading sequence and open fit questions. Specify who supplies the tray, film, pouch and any outer support. Confirm the sample and order scope in writing; this report adds no tray system, equipment or accessory to YUANEN’s supply commitment.",
-          "zh": "向远恩询价时，请提供闭合托盘尺寸、拟定袋图、装取顺序及未决适配问题，并分清托盘、盖膜、袋体及外部支撑的供货方。样品和订单范围应书面确认；本文不将托盘系统、设备或附件加入远恩供货承诺。",
-          "es": "Para consultar a YUANEN, envíe dimensiones cerradas, plano propuesto, secuencia de carga y dudas de ajuste. Identifique quién suministra bandeja, film, bolsa y soporte exterior. Confirme muestra y alcance por escrito; el informe no añade sistema de bandejas, equipos ni accesorios al suministro YUANEN."
+          "en": "For a separate YUANEN flat foil/EPE self-seal pouch enquiry, use the complete closed primary pack: widest rim, lid or film tab, height and intended loading path. Confirm the pouch mouth, flap and removal with samples. The primary film’s resealing function does not make the outer adhesive pouch resealable or thermally qualified. Identify separately who supplies tray, film, pouch and support. The cover is a generic tray form, not the companies’ announced specimen.",
+          "zh": "另询远恩铝箔/EPE自粘平袋时，应使用完整闭合主包装，包含最宽盘沿、盖或膜拉片、高度及拟用装入路径，并用样品确认袋口、折合与取出。主包装膜可重封，不会让外层粘封袋自动可重封或已通过温控验证。托盘、膜、袋体和支撑分别明确供货方。封面为通用盘型，不是报道企业样品。",
+          "es": "Para la bolsa plana autoadhesiva de aluminio/EPE YUANEN, use el envase primario cerrado completo: reborde máximo, tapa o pestaña, altura y recorrido. Compruebe boca, solapa y extracción con muestras. El recierre del film no hace resellable ni térmicamente validada la bolsa exterior. Defina suministradores por separado. La portada es una forma genérica, no el espécimen anunciado."
         }
       ]
     }
@@ -139,6 +109,8 @@ const article: EditorialArticle = {
       "zh": "通用纤维托盘与薄膜形态，不展示公告产品，也不证明重封性能。",
       "es": "Forma genérica de bandeja de fibra y film, sin mostrar el producto anunciado ni acreditar prestaciones de resellado."
     }
-  }
+  },
+  "updatedAt": "2026-11-12"
 }
+
 export default article

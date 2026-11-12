@@ -1,4 +1,5 @@
 import type { EditorialArticle } from '../editorial'
+
 const article: EditorialArticle = {
   "kind": "industry",
   "slug": "bio-based-europe-alliance-launch",
@@ -27,67 +28,53 @@ const article: EditorialArticle = {
   "sections": [
     {
       "heading": {
-        "en": "A voluntary framework for buyers and suppliers",
-        "zh": "买卖双方参与的自愿协作框架",
-        "es": "Un marco voluntario para compradores y proveedores"
+        "en": "Why the Alliance connects demand with investment",
+        "zh": "联盟为何把需求与投资连接起来",
+        "es": "Por qué la Alianza conecta demanda e inversión"
       },
       "paragraphs": [
         {
-          "en": "The Commission describes a voluntary initiative bringing together European buyers, primary producers, suppliers and public authorities. It aims to make demand more visible and support the move from demonstration to commercial deployment. The announcement says more than 100 stakeholders had joined; participants will develop its activities and scope together.",
-          "zh": "欧委会将其描述为欧洲买家、初级生产者、供应方及公共机构共同参与的自愿倡议，目标是让需求更清晰，并支持从示范走向商业应用。公告称已有100多方加入，具体活动和范围将由参与组织共同发展。",
-          "es": "La Comisión la describe como una iniciativa voluntaria de compradores europeos, productores primarios, proveedores y autoridades. Busca dar visibilidad a la demanda y apoyar el paso de la demostración al despliegue comercial. Según el anuncio, se habían sumado más de 100 actores; los participantes desarrollarán sus actividades y alcance."
-        }
-      ]
-    },
-    {
-      "heading": {
-        "en": "Turn a materials discussion into an identifiable offer",
-        "zh": "把材料交流落实到可识别的供货方案",
-        "es": "Convierta el diálogo sobre materiales en una oferta identificable"
-      },
-      "paragraphs": [
-        {
-          "en": "For packaging buyers, a collaborative initiative creates a reason to ask suppliers about their development stage. Participation or an expression of demand does not identify a particular film grade, available sample or accepted order. The following questions are editorial purchasing guidance, not Alliance membership requirements.",
-          "zh": "对包装买家而言，协作倡议带来向供应方了解开发阶段的契机。但参与倡议或表达需求，并不能识别某个膜材牌号、可提供样品或已接受订单。以下为采购编辑建议，不是联盟的参与条件。",
-          "es": "Para compradores de envases, la iniciativa invita a consultar la fase de desarrollo de un proveedor. Participar o expresar demanda no identifica un grado de película, una muestra disponible ni un pedido aceptado. Las preguntas siguientes son orientación editorial de compra, no condiciones de adhesión."
+          "en": "The Commission identifies weak demand visibility as a barrier between research or demonstration and commercial deployment. Its proposed mechanism is to connect European buyers with primary producers, suppliers and authorities, make prospective demand more predictable, and help producers seek investment for scale-up. These are the initiative’s aims, not evidence that a particular factory or purchase order has been financed.",
+          "zh": "欧委会指出，需求可见度不足会阻碍研究或示范走向商业应用。联盟拟连接欧洲买家、初级生产者、供应方及公共机构，让潜在需求更可预测，帮助生产方为扩大规模争取投资。这些是倡议目标，不证明某家工厂或某张订单已经获得融资。",
+          "es": "La Comisión identifica la escasa visibilidad de la demanda como obstáculo entre demostración y despliegue comercial. Propone conectar compradores europeos, productores primarios, proveedores y autoridades para dar previsibilidad a la demanda y facilitar inversión de escalado. Son objetivos, no prueba de financiación de una fábrica o pedido concreto."
         },
         {
-          "en": "Ask who can quote the exact offered construction, which version can be supplied for evaluation, and what the quotation actually includes. Keep research interest, a demonstration sample and a production offer distinguishable. If those details are unresolved, record the material as a prospect rather than an approved order specification.",
-          "zh": "询问由谁对确切结构报价、哪一版本可供评估，以及报价实际包含什么。研究意向、示范样品和量产供货应保持可区分；细节未明确时，把材料记为待跟进机会，而不是已批准的订单规格。",
-          "es": "Pregunte quién cotiza la estructura exacta, qué versión puede evaluarse y qué incluye la oferta. Distinga interés de investigación, muestra de demostración y oferta de producción. Si faltan estos datos, registre una posibilidad pendiente, no una especificación aprobada."
+          "en": "The 22 October announcement reports more than 100 stakeholders and says participants will jointly develop the activities and scope. The Alliance is voluntary. The separate Bioeconomy Investment Deployment Group met at the same summit to address financing gaps; that parallel finance discussion should not be presented as an Alliance grant awarded to a packaging supplier.",
+          "zh": "10月22日公告称已有100多方加入，活动与范围将由参与组织共同发展；参与为自愿性质。同一峰会还召开了生物经济投资部署小组会议，讨论融资缺口，但不能把平行的融资讨论写成联盟向某家包装供应商发放补助。",
+          "es": "El anuncio del 22 de octubre señala más de 100 participantes y un alcance que desarrollarán conjuntamente. La participación es voluntaria. El grupo de despliegue de inversiones se reunió en la misma cumbre para tratar carencias de financiación; ese trabajo paralelo no equivale a una subvención de la Alianza a un proveedor."
         }
       ]
     },
     {
       "heading": {
-        "en": "Use the current self-seal pouch as the purchasing baseline",
-        "zh": "以现有自粘袋作为采购基准",
-        "es": "Use la bolsa autoadhesiva actual como referencia de compra"
+        "en": "Materials and technologies are different market categories",
+        "zh": "材料与技术是不同的市场类别",
+        "es": "Materiales y tecnologías son categorías diferentes"
       },
       "paragraphs": [
         {
-          "en": "YUANEN’s published self-adhesive foil bag uses a foil-facing and EPE foam composite, with a peel-and-seal opening and heat-sealed edges. Its catalogue also distinguishes handmade samples from machine-made production and notes that construction may differ. These are the current product boundaries, not a bio-based offering announced by the Alliance.",
-          "zh": "远恩已发布的自粘铝箔袋采用铝箔面层与EPE泡棉复合结构，带粘封开口及热封边。其目录还区分手工样品与机器生产，并说明结构可能存在差异。这些是现有产品范围，不是联盟宣布的生物基供货方案。",
-          "es": "La bolsa autoadhesiva publicada de YUANEN tiene un compuesto de cara de aluminio y espuma EPE, cierre adhesivo y bordes termosellados. El catálogo distingue muestras manuales y producción mecanizada, cuya construcción puede diferir. Es el alcance actual del producto, no una oferta biológica anunciada por la Alianza."
+          "en": "The Commission’s Alliance page lists material markets including plastics and polymers, fibres and fabrics, chemicals, construction products and agricultural inputs. Its technology category includes biorefineries, advanced fermentation and permanent storage of biogenic carbon. A packaging enquiry should identify which actual material or production route is offered rather than treat every participant as a supplier of a finished bag.",
+          "zh": "欧委会联盟页列出的材料市场包括塑料和聚合物、纤维和织物、化学品、建筑产品及农业投入品；技术类别包括生物精炼、先进发酵和生物源碳永久储存。包装询价需识别实际提供的材料或生产路线，不能把每个参与方都当成成品袋供应商。",
+          "es": "La página oficial distingue mercados de materiales —plásticos y polímeros, fibras y tejidos, productos químicos, construcción e insumos agrícolas— y tecnologías como biorrefinerías, fermentación avanzada y almacenamiento permanente de carbono biogénico. Una consulta debe identificar el material o proceso ofrecido, sin considerar a todo participante proveedor de bolsas terminadas."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Ask which stage the offered material has reached",
+        "zh": "先问所报材料处于哪一阶段",
+        "es": "Pregunte en qué fase está el material ofrecido"
+      },
+      "paragraphs": [
+        {
+          "en": "For buyers, the next useful distinction is research interest, an identifiable demonstration sample, or a production offer with a named construction and scope. Ask which version can be sampled and which production version the offer represents. If the answer is only an expression of interest, keep it as a development lead rather than an approved substitution.",
+          "zh": "对买家而言，下一步应区分研究意向、可识别的示范样品，以及已明确结构和范围的生产供货。询问哪版材料可打样、报价对应哪版生产结构；若回复只是意向表达，应记为开发线索，不能直接批准替换。",
+          "es": "Distinga interés de investigación, muestra de demostración identificable y oferta de producción con construcción y alcance definidos. Pregunte qué versión puede muestrearse y a qué producción corresponde. Una expresión de interés sigue siendo una oportunidad de desarrollo, no una sustitución aprobada."
         },
         {
-          "en": "A new material swatch would therefore need a clear sample purpose and an identified production version before it could support an order decision. Send YUANEN the proposed material, the existing pouch reference and the stage you need evaluated. Confirm the offered construction, sampling scope and commercial terms in writing. The announcement does not establish YUANEN’s participation, a material substitution or a confirmed supply arrangement.",
-          "zh": "因此，新材料小样应先明确评估目的和所对应的生产版本，才可用于订单判断。向远恩提供拟用材料、现有袋款参考及需要评估的阶段，书面确认所报结构、打样范围和商业条款。该公告不能证明远恩参与联盟、已更换材料或已确认某项供货安排。",
-          "es": "Una muestra de material nuevo necesita un propósito de evaluación y una versión de producción identificada para orientar un pedido. Envíe a YUANEN el material propuesto, la referencia actual y la fase que desea evaluar. Confirme por escrito estructura, alcance de muestras y términos comerciales. El anuncio no acredita participación de YUANEN, sustitución de materiales ni suministro confirmado."
-        }
-      ]
-    },
-    {
-      "heading": {
-        "en": "About the cover",
-        "zh": "关于封面",
-        "es": "Sobre la portada"
-      },
-      "paragraphs": [
-        {
-          "en": "The cover is a generic materials-workbench scene. It does not show the launch, a participating organisation or a verified bio-based formulation. Appearance alone does not identify the origin of a material.",
-          "zh": "封面是通用材料工作台画面，不展示启动活动、参与组织或经核验的生物基配方；材料外观本身不能识别其来源。",
-          "es": "La portada muestra una mesa de materiales genérica, no el lanzamiento, una organización participante ni una formulación biológica verificada. La apariencia no identifica el origen del material."
+          "en": "YUANEN’s current self-seal foil pouch is a foil-facing/EPE construction, not a bio-based product established by this announcement. A proposed replacement needs its own material identity, sample and intended-use evidence. Neither Alliance participation nor the pale granules on the generic cover identifies a formulation, recycling route or confirmed YUANEN supply.",
+          "zh": "远恩当前自粘铝箔袋为铝箔面/EPE结构，该公告不能将其变成生物基产品。拟替换材料需另有身份、样品及用途证据；联盟参与资格和通用封面中的浅色颗粒，都不能证明配方、回收路径或远恩已确认供货。",
+          "es": "La bolsa actual YUANEN de aluminio/EPE no se convierte en producto biológico por este anuncio. Cualquier sustitución requiere identidad, muestra y evidencia de uso propias. La participación en la Alianza y los gránulos de la portada genérica no acreditan formulación, reciclaje ni suministro confirmado de YUANEN."
         }
       ]
     }
@@ -101,6 +88,14 @@ const article: EditorialArticle = {
       },
       "url": "https://environment.ec.europa.eu/news/bio-based-alliance-launches-drive-sustainable-solutions-2026-10-22_en",
       "publishedAt": "2026-10-22"
+    },
+    {
+      "url": "https://green-forum.ec.europa.eu/green-business/bio-based-europe-alliance_en",
+      "title": {
+        "en": "Commission Alliance scope and mechanism",
+        "zh": "欧委会联盟范围与机制",
+        "es": "Alcance y mecanismo de la Alianza"
+      }
     },
     {
       "title": {
@@ -127,6 +122,8 @@ const article: EditorialArticle = {
       "zh": "通用材料样品画面；外观不能识别原料来源或联盟参与方。",
       "es": "Muestras genéricas; la apariencia no identifica el origen de la materia prima ni a un participante de la Alianza."
     }
-  }
+  },
+  "updatedAt": "2026-11-12"
 }
+
 export default article
