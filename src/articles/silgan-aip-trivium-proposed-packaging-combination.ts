@@ -36,6 +36,11 @@ const article: EditorialArticle = {
           "en": "Silgan expects closing in mid-2027, subject to regulatory approvals, applicable works-council consultations and customary conditions. In its own customer-facing update, Trivium says the companies will continue as separate, independent businesses until closing. That distinction remains relevant when a buyer receives quotations or order notices during the proposed transition.",
           "zh": "Silgan预计于2027年中交割，仍须满足监管批准、适用的职工委员会咨询及惯常条件。Trivium面向客户的自有公告说明，交割前双方将继续作为独立企业运营。买家在拟议过渡期收到报价或订单通知时，应保留这一区分。",
           "es": "Silgan prevé el cierre a mediados de 2027, sujeto a autorizaciones regulatorias, consultas laborales aplicables y condiciones habituales. En su propia comunicación a clientes, Trivium indica que seguirán siendo empresas separadas e independientes hasta entonces. La distinción importa al recibir ofertas o avisos de pedido durante la transición propuesta."
+        },
+        {
+          "en": "For this November 12 revision, the cited Silgan release and Trivium customer update still describe a proposal with expected mid-2027 closing. The reviewed sources did not supply a completion announcement. Record a later official closing or customer notice when received; a search headline using “acquires” is not, on its own, evidence that the legal closing occurred.",
+          "zh": "本次11月12日修订所引用的Silgan公告及Trivium客户更新仍描述拟议交易、预计2027年中完成；所核来源未提供完成公告。后续收到正式完成或客户通知时再记录，搜索标题采用“收购”一词本身不能证明法律交割已发生。",
+          "es": "En esta revisión del 12 de noviembre, el comunicado Silgan y la actualización Trivium citados siguen describiendo una propuesta con cierre esperado a mediados de 2027. Las fuentes revisadas no aportaron anuncio de cierre. Registre futuras comunicaciones oficiales; un titular que diga «adquiere» no prueba por sí solo el cierre legal."
         }
       ]
     },
@@ -56,7 +61,67 @@ const article: EditorialArticle = {
           "zh": "具体指示经供应方既有渠道确认前，保留现有订单参考。对已接受的修改，记录其范围与生效日期。拟议交易不能证明价格变化、短缺或采购义务，本文不预测这些结果。",
           "es": "Mantenga la referencia actual hasta confirmar una instrucción concreta por el canal habitual del proveedor. Documente alcance y fecha efectiva de cada revisión aceptada. La operación propuesta no acredita cambios de precio, escasez ni obligación de compra; este artículo no pronostica esos resultados."
         }
-      ]
+      ],
+      "table": {
+        "caption": {
+          "en": "Classify the notice before changing the purchase record",
+          "zh": "先分类通知，再改采购记录",
+          "es": "Clasifique el aviso antes de cambiar el pedido"
+        },
+        "columns": [
+          {
+            "en": "Notice concerns",
+            "zh": "通知涉及",
+            "es": "El aviso afecta a"
+          },
+          {
+            "en": "Record to review",
+            "zh": "核对的记录",
+            "es": "Registro que revisar"
+          },
+          {
+            "en": "Physical sample implication",
+            "zh": "实物样品含义",
+            "es": "Implicación para la muestra"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "en": "Supplier entity, contact or order administration",
+              "zh": "供货实体、联系人或订单管理",
+              "es": "Entidad, contacto o gestión del pedido"
+            },
+            {
+              "en": "Issuer, established contact channel, reference and effective date",
+              "zh": "签发方、既有联系渠道、参考号与生效日",
+              "es": "Emisor, canal conocido, referencia y fecha"
+            },
+            {
+              "en": "No dimensional change follows automatically",
+              "zh": "不自动产生尺寸变更",
+              "es": "No implica cambiar medidas"
+            }
+          ],
+          [
+            {
+              "en": "Container, closure or packed arrangement",
+              "zh": "容器、封合件或装载排列",
+              "es": "Envase, cierre o disposición"
+            },
+            {
+              "en": "Identified item and physical specification revision",
+              "zh": "准确品项与实物规格版本",
+              "es": "Artículo y revisión física identificados"
+            },
+            {
+              "en": "Review affected fit/closure and other acceptance evidence",
+              "zh": "复核受影响适配、闭合及其他接受依据",
+              "es": "Revise ajuste, cierre y evidencia afectados"
+            }
+          ]
+        ]
+      }
     },
     {
       "heading": {
@@ -66,28 +131,9 @@ const article: EditorialArticle = {
       },
       "paragraphs": [
         {
-          "en": "For buyers who also source YUANEN’s foil insulated box liners, a changed company name and a changed packed container are different inputs. The current liner page requests usable box-interior dimensions, filled-product dimensions and planned coolant layout, allowing for liner thickness and the top fold. Foam type, thickness and layer arrangement remain subject to confirmation.",
-          "zh": "对同时采购远恩保温箱内衬的买家，企业名称改变与装好后的容器改变，是两类不同信息。当前内衬页面要求外箱可用内尺寸、装好后产品尺寸及拟定冰源布局，并预留内衬厚度和顶部折合空间；泡棉类型、厚度及层次安排仍待确认。",
-          "es": "Para compradores que también adquieren revestimientos aislantes YUANEN, un cambio de nombre empresarial y un cambio del recipiente lleno son datos distintos. La página actual solicita medidas interiores útiles de la caja, dimensiones del producto envasado y disposición del refrigerante, reservando espesor del forro y pliegue superior. Tipo de espuma, espesor y capas siguen por confirmar."
-        },
-        {
-          "en": "If a documented packaging revision changes the filled container, provide that revision and the intended arrangement when requesting a liner sample check. If only the issuing entity changes, keep the unchanged physical specification identifiable rather than inventing a dimensional change. The white foam box shown on the liner page is a demonstration prop outside its quotation; neither the proposed transaction nor this article adds boxes, metal containers or coolant to that supply scope.",
-          "zh": "若有记录的包装改版改变了装填后的容器，申请内衬样品复核时提供该版本及拟定排列。若只改变报价主体，则保持未变的实物规格可识别，不凭空假定尺寸也已改变。内衬页面的白色泡沫外箱为报价外的展示道具；拟议交易和本文都不会将外箱、金属容器或冰源加入该供货范围。",
-          "es": "Si una revisión documentada modifica el recipiente lleno, aporte esa versión y la disposición prevista al solicitar comprobar una muestra del revestimiento. Si solo cambia la entidad emisora, mantenga identificable la especificación física sin inventar cambios dimensionales. La caja blanca de espuma de la página es demostrativa y queda fuera de la oferta; ni la operación ni este artículo añaden cajas, envases metálicos o refrigerantes al suministro."
-        }
-      ]
-    },
-    {
-      "heading": {
-        "en": "Keep the enquiry and cover within their scope",
-        "zh": "询价与封面各自保留边界",
-        "es": "Mantenga el alcance de la consulta y la portada"
-      },
-      "paragraphs": [
-        {
-          "en": "Send YUANEN the relevant liner reference and any confirmed physical-pack revision; confirm construction, sample scope and order terms in writing. This article does not establish a relationship between YUANEN, Silgan, AIP or Trivium. The cover depicts generic unbranded metal containers, not the companies’ products, a transaction event or a factory visit.",
-          "zh": "向远恩提供相关内衬编号及已确认的实物包装改版，结构、打样范围和订单条款书面确认。本文不能证明远恩与Silgan、AIP或Trivium存在关系。封面为通用无品牌金属容器，不展示这些企业的产品、交易活动或工厂参访。",
-          "es": "Envíe a YUANEN la referencia del revestimiento y cualquier revisión física confirmada; acuerde por escrito estructura, muestra y términos del pedido. Este artículo no acredita relación entre YUANEN, Silgan, AIP o Trivium. La portada representa envases metálicos genéricos sin marca, no productos de esas empresas, la operación ni una visita a fábrica."
+          "en": "If a separately sourced YUANEN liner is affected by an identified change to the packed container, send that physical revision, usable outer-container interior and agreed coolant arrangement for review. If only the invoicing entity changes, keep the unchanged packaging specification identifiable. The transaction does not itself add boxes, metal containers or coolant to the liner quotation, establish a YUANEN relationship, or prove a shortage or price change.",
+          "zh": "若准确的内装容器变更影响另行采购的远恩内衬，应提交实物版本、外容器可用内腔及约定冷媒布局复核。若仅开票实体改变，则保留未变包装规格的可识别记录。交易本身不为内衬报价增加外箱、金属容器或冷媒，不建立远恩合作关系，也不证明短缺或价格变化。",
+          "es": "Si una revisión identificada del envase afecta a un revestimiento YUANEN comprado aparte, envíe revisión física, interior útil y refrigerante acordado. Si solo cambia la entidad de facturación, mantenga identificable la especificación sin cambios. La operación no añade cajas, envases metálicos ni refrigerante, ni demuestra relación YUANEN, escasez o cambios de precio."
         }
       ]
     }
@@ -136,6 +182,7 @@ const article: EditorialArticle = {
   },
   "relatedProducts": [
     "foil-insulated-box-liners"
-  ]
+  ],
+  "updatedAt": "2026-11-12"
 }
 export default article

@@ -1,23 +1,265 @@
 import type { EditorialArticle } from '../editorial'
 const article: EditorialArticle = {
- kind:'guide',slug:'foil-mailer-outer-carton-checklist',publishedAt:'2026-10-13',
- title:{en:'A Packing Checklist for Foil Insulated Mailers and Shipping Cartons',zh:'铝箔保温邮寄袋与外箱的装载检查清单',es:'Comprobaciones de embalaje para bolsas térmicas de aluminio y cajas de envío'},
- description:{en:'Review a self-seal foil pouch inside its actual shipping carton. Record closure, movement, edge contact and receipt observations without assuming parcel protection.',zh:'把自粘铝箔袋与实际运输外箱一起检查，记录封口、移位、边角接触及收货状态，不把袋面材质当作运输保护证明。',es:'Revise la bolsa autoadhesiva dentro de su caja de envío real. Registre cierre, movimiento, contacto con bordes y recepción sin presuponer protección del paquete.'},
- intro:{en:'YUANEN’s self-adhesive foil bag page describes a peel-and-seal pouch and asks parcel buyers to assess it with the filled container and outer box. The existing sizing guide explains the bag body and flap. This checklist addresses the next decision: how to document the pouch, outer carton and receiving process as one sample pack-out before agreeing the shipping specification.',zh:'远恩自粘铝箔袋产品页介绍了揭膜封口袋型，并要求邮寄采购者结合装好后的容器与外箱评估。现有尺寸指南已说明袋身与折口，本清单解决下一步问题：如何把内袋、外箱及收货过程记录为完整样品装载方案，再确认运输包装规格。',es:'La página de bolsas autoadhesivas de YUANEN describe el cierre adhesivo y pide evaluar el recipiente lleno junto con la caja exterior. La guía de medidas explica cuerpo y solapa. Esta lista aborda el siguiente paso: documentar bolsa, caja y recepción como una configuración de muestra antes de acordar el embalaje de envío.'},
- sections:[
-  {heading:{en:'Assign a requirement to each packaging layer',zh:'分别确定各包装层的要求',es:'Asigne requisitos a cada capa de embalaje'},paragraphs:[{en:'List the primary closed container, foil-facing and EPE composite pouch, selected coolant if needed, protective materials and shipping carton. Identify which component you expect to contain the product, provide insulation or limit movement. The published foil construction does not prove cushioning, puncture resistance or carrier acceptance. Specify those requirements and an appropriate acceptance method for the complete parcel instead of treating the pouch as verified transport protection.',zh:'列出封闭内容器、铝箔面层与EPE复合袋、按需选定的冰源、保护材料及运输外箱，分别说明哪个部件负责容纳物品、隔热或限制移动。已公开的铝箔结构不能证明缓冲、防刺穿或承运方认可，应为完整包裹确定这些要求及合适验收方法，不能把内袋当作已经验证的运输保护。',es:'Enumere recipiente cerrado, bolsa compuesta de superficie de aluminio y EPE, refrigerante si procede, protección y caja. Identifique qué pieza contiene el producto, aísla o limita el movimiento. La construcción publicada no acredita amortiguación, resistencia a perforaciones ni aceptación del transportista. Defina requisitos y un método de aceptación para el paquete completo.'}]},
-  {heading:{en:'Close the loaded pouch before choosing the carton fit',zh:'先封好装载内袋，再核对外箱适配',es:'Cierre la bolsa cargada antes de comprobar la caja'},paragraphs:[{en:'Use the actual container and agreed refrigerant layout. Check that the flap reaches its intended adhesive contact area without forcing the side seals or pressing a lid. Keep the closure surface in the condition required by the sample instructions. Measure the closed loaded pouch in its shipping orientation, then check the carton’s usable interior. Include any agreed restraint or separation; do not choose a carton from the empty flat-pouch dimensions alone.',zh:'采用实际容器与约定冰源布局，检查折口能否贴合预定粘接位置，不硬撑侧边封口或压迫容器盖。按样品说明保持封口接触面的所需状态。按运输方向测量封好后的装载内袋，再核对外箱可用内尺寸，并计入约定固定或隔离材料，不能仅凭空平袋尺寸选外箱。',es:'Use el recipiente y refrigerante acordados. Compruebe que la solapa alcanza la zona adhesiva sin forzar los sellados ni presionar una tapa. Mantenga la superficie de cierre según las instrucciones de muestra. Mida la bolsa cerrada en su orientación de envío y el interior útil de la caja, incluida la sujeción o separación acordada. No elija la caja solo por la bolsa plana vacía.'}]},
-  {heading:{en:'Inspect edge contact and movement in a sample trial',zh:'在样品试验中观察边角接触与移位',es:'Observe contacto con bordes y movimiento en una prueba'},paragraphs:[{en:'Before a trial, photograph the pouch closure and its position in the carton. Mark where container corners, carton folds or protective inserts contact the pouch. Have the responsible team agree the handling and transit checks required for the route; this article does not prescribe a shipping test standard. After the agreed trial, compare the photographs and inspect seal opening, rubbing, punctures, displaced coolant and container damage. Separate each observation so a torn pouch is not recorded as a temperature-test result.',zh:'试验前拍摄内袋封口及其在外箱中的位置，标出容器边角、外箱折边或保护件与内袋接触的位置。由负责团队约定路线所需搬运与运输检查；本文不指定运输测试标准。完成约定试验后对照照片，分别观察封口张开、磨擦、穿孔、冰源移位及容器损伤，不能把内袋破损直接记成温控试验结果。',es:'Fotografíe cierre y posición antes de la prueba. Marque los contactos de esquinas del recipiente, pliegues de caja o piezas protectoras con la bolsa. El equipo responsable debe acordar las comprobaciones de manejo y tránsito para la ruta; este artículo no prescribe una norma de ensayo. Después, compare fotos y examine apertura del cierre, roce, perforaciones, refrigerante desplazado y daños del envase. Registre cada observación por separado; una rotura no es un resultado térmico.'}]},
-  {heading:{en:'Make the receiving record usable',zh:'让收货记录能够定位问题',es:'Prepare un registro de recepción útil'},paragraphs:[{en:'Agree which identification must remain readable after the outer carton and pouch are closed. Confirm its placement with the shipper or recipient; this is not regulatory labelling advice. At receipt, record the pack-out reference before opening, then the condition of the carton, pouch closure and primary container in that order. A delivery receipt alone cannot establish seal integrity or food temperature.',zh:'约定外箱及内袋封好后仍需清晰可读的识别信息，并向发货方或收货方确认位置；这不是法规标签建议。收货时先记录装载方案编号，再依次观察外箱、内袋封口及内容器状态。仅有签收记录不能证明封口完整或食品温度。',es:'Acuerde qué identificación debe leerse con caja y bolsa cerradas y su ubicación con remitente o destinatario; no es asesoramiento sobre etiquetado legal. Al recibir, anote la referencia antes de abrir y revise caja, cierre de bolsa y recipiente en ese orden. Un comprobante de entrega no acredita integridad del cierre ni temperatura.'}],bullets:[
-   {en:'Pack-out reference: pouch sample version, container, carton, protection and coolant configuration.',zh:'装载编号：内袋样品版本、容器、外箱、保护材料与冰源配置。',es:'Referencia: versión de bolsa, recipiente, caja, protección y refrigerante.'},
-   {en:'Before dispatch: closure photo, orientation, contact points and identification visibility.',zh:'发出前：封口照片、摆放方向、接触位置及识别信息可读性。',es:'Antes del envío: foto de cierre, orientación, contactos e identificación visible.'},
-   {en:'At receipt: outer damage, seal condition, internal movement and container condition.',zh:'收货时：外部损伤、封口状态、内部移位与容器状态。',es:'En recepción: daños externos, cierre, movimiento interior y estado del recipiente.'},
-   {en:'Decision: defect location, revision needed and the acceptance check to repeat.',zh:'处理决定：问题位置、所需修改及需要重做的验收检查。',es:'Decisión: ubicación del defecto, revisión necesaria y comprobación que debe repetirse.'}
-  ]},
-  {heading:{en:'Confirm thermal requirements and the production sample',zh:'另行确认温控要求与生产样品',es:'Confirme requisitos térmicos y muestra de producción'},paragraphs:[{en:'Where temperature matters, test the complete parcel with the selected refrigerant, starting temperature, ambient exposure and route duration. Dimensional or closure approval does not establish a holding time. Send YUANEN the pack-out record, quantity, artwork and destination, and ask the quotation to identify pouch construction, finished dimensions, flap arrangement and the sample basis. The product page notes that handmade samples can differ from machine-made orders; agree which production-representative checks remain before accepting the bulk specification.',zh:'涉及温度要求时，用选定冰源、初温、环境暴露及路线时长测试完整包裹。尺寸或封口确认不能证明保冷时长。向远恩提供装载记录、数量、图稿及目的地，请报价注明袋体结构、成品尺寸、折口方式和样品依据。产品页提示手工样品可能与机器制作订单存在差异，因此批量规格确认前应约定还需哪些具有生产代表性的检查。',es:'Si la temperatura importa, pruebe el paquete completo con refrigerante, temperatura inicial, ambiente y duración elegidos. Aprobar medidas o cierre no acredita autonomía. Envíe registro, cantidad, diseño y destino a YUANEN; identifique construcción, medidas, solapa y base de muestra en la cotización. La página advierte que las muestras manuales pueden diferir del pedido mecanizado: acuerde las comprobaciones representativas de producción pendientes antes de aceptar la especificación del lote.'}]}
- ],
- sources:[{title:{en:'YUANEN self-adhesive foil bags: parcel selection and sample limitations',zh:'远恩自粘铝箔袋：邮寄选型与样品限制',es:'Bolsas autoadhesivas YUANEN: selección para envío y límites de muestra'},url:'https://yuanenbag.com/products/self-adhesive-foil-bags/'},{title:{en:'YUANEN foil bag sizing guide: body and flap measurements',zh:'远恩铝箔袋尺寸指南：袋身与折口测量',es:'Guía de medidas YUANEN: cuerpo y solapa'},url:'https://yuanenbag.com/guides/self-seal-foil-bag-size-flap-fit/'}],
- relatedProducts:['self-adhesive-foil-bags'],
- image:{file:'images/editorial/2026-10-13/foil-pouch-shipping-carton.webp',kind:'illustration',alt:{en:'A silver flat pouch with folded flap inside an open brown carton on a wooden packing bench',zh:'木质打包台上，打开的牛皮色纸箱内放着一只带翻折口的银色平袋',es:'Bolsa plana plateada con solapa doblada dentro de una caja marrón abierta sobre una mesa de embalaje'},caption:{en:'Generic foil-faced pouch and outer carton. The illustration does not demonstrate parcel or thermal test results.',zh:'通用铝箔面层平袋与外箱，画面不展示包裹保护或温控测试结果。',es:'Bolsa de superficie de aluminio y caja genéricas; la ilustración no muestra resultados de protección ni ensayos térmicos.'}}
+  "kind": "guide",
+  "slug": "foil-mailer-outer-carton-checklist",
+  "publishedAt": "2026-10-13",
+  "title": {
+    "en": "A Packing Checklist for Foil Insulated Mailers and Shipping Cartons",
+    "zh": "铝箔保温邮寄袋与外箱的装载检查清单",
+    "es": "Comprobaciones de embalaje para bolsas térmicas de aluminio y cajas de envío"
+  },
+  "description": {
+    "en": "Review a self-seal foil pouch inside its actual shipping carton. Record closure, movement, edge contact and receipt observations without assuming parcel protection.",
+    "zh": "把自粘铝箔袋与实际运输外箱一起检查，记录封口、移位、边角接触及收货状态，不把袋面材质当作运输保护证明。",
+    "es": "Revise la bolsa autoadhesiva dentro de su caja de envío real. Registre cierre, movimiento, contacto con bordes y recepción sin presuponer protección del paquete."
+  },
+  "intro": {
+    "en": "YUANEN’s self-adhesive foil bag page describes a peel-and-seal pouch and asks parcel buyers to assess it with the filled container and outer box. The existing sizing guide explains the bag body and flap. This checklist addresses the next decision: how to document the pouch, outer carton and receiving process as one sample pack-out before agreeing the shipping specification.",
+    "zh": "远恩自粘铝箔袋产品页介绍了揭膜封口袋型，并要求邮寄采购者结合装好后的容器与外箱评估。现有尺寸指南已说明袋身与折口，本清单解决下一步问题：如何把内袋、外箱及收货过程记录为完整样品装载方案，再确认运输包装规格。",
+    "es": "La página de bolsas autoadhesivas de YUANEN describe el cierre adhesivo y pide evaluar el recipiente lleno junto con la caja exterior. La guía de medidas explica cuerpo y solapa. Esta lista aborda el siguiente paso: documentar bolsa, caja y recepción como una configuración de muestra antes de acordar el embalaje de envío."
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "Assign a requirement to each packaging layer",
+        "zh": "分别确定各包装层的要求",
+        "es": "Asigne requisitos a cada capa de embalaje"
+      },
+      "paragraphs": [
+        {
+          "en": "List the primary closed container, foil-facing and EPE composite pouch, selected coolant if needed, protective materials and shipping carton. Identify which component you expect to contain the product, provide insulation or limit movement. The published foil construction does not prove cushioning, puncture resistance or carrier acceptance. Specify those requirements and an appropriate acceptance method for the complete parcel instead of treating the pouch as verified transport protection.",
+          "zh": "列出封闭内容器、铝箔面层与EPE复合袋、按需选定的冰源、保护材料及运输外箱，分别说明哪个部件负责容纳物品、隔热或限制移动。已公开的铝箔结构不能证明缓冲、防刺穿或承运方认可，应为完整包裹确定这些要求及合适验收方法，不能把内袋当作已经验证的运输保护。",
+          "es": "Enumere recipiente cerrado, bolsa compuesta de superficie de aluminio y EPE, refrigerante si procede, protección y caja. Identifique qué pieza contiene el producto, aísla o limita el movimiento. La construcción publicada no acredita amortiguación, resistencia a perforaciones ni aceptación del transportista. Defina requisitos y un método de aceptación para el paquete completo."
+        }
+      ],
+      "table": {
+        "caption": {
+          "en": "Assign the function before judging fit",
+          "zh": "先分清职责，再判断适配",
+          "es": "Asigne funciones antes de evaluar el ajuste"
+        },
+        "columns": [
+          {
+            "en": "Component",
+            "zh": "部件",
+            "es": "Componente"
+          },
+          {
+            "en": "Question resolved",
+            "zh": "解决的问题",
+            "es": "Pregunta"
+          },
+          {
+            "en": "Separate evidence still needed",
+            "zh": "仍须单独评估",
+            "es": "Evidencia separada"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "en": "Closed primary container",
+              "zh": "闭合一次容器",
+              "es": "Envase primario cerrado"
+            },
+            {
+              "en": "What directly contains the goods?",
+              "zh": "由什么直接盛装货物？",
+              "es": "¿Qué contiene directamente el producto?"
+            },
+            {
+              "en": "Its own closure and intended use",
+              "zh": "自身封口与用途",
+              "es": "Su cierre y uso"
+            }
+          ],
+          [
+            {
+              "en": "Self-seal insulating pouch",
+              "zh": "自粘隔热袋",
+              "es": "Bolsa aislante adhesiva"
+            },
+            {
+              "en": "Can the loaded bag close as specified?",
+              "zh": "装载后能否按约定闭合？",
+              "es": "¿Cierra cargada según lo acordado?"
+            },
+            {
+              "en": "No inferred puncture/cushioning rating",
+              "zh": "不推断抗穿刺或缓冲等级",
+              "es": "Sin deducir resistencia o amortiguación"
+            }
+          ],
+          [
+            {
+              "en": "Agreed protection or restraint",
+              "zh": "约定防护或约束",
+              "es": "Protección o sujeción acordada"
+            },
+            {
+              "en": "Which movement or hard-edge contact is addressed?",
+              "zh": "回应哪种移动或硬边接触？",
+              "es": "¿Qué movimiento o borde aborda?"
+            },
+            {
+              "en": "Supply and complete-parcel evaluation",
+              "zh": "供货及整件评估",
+              "es": "Suministro y evaluación del conjunto"
+            }
+          ],
+          [
+            {
+              "en": "Outer carton",
+              "zh": "运输外箱",
+              "es": "Caja exterior"
+            },
+            {
+              "en": "Does its usable interior accept the closed assembly?",
+              "zh": "可用内腔能否容纳闭合组件？",
+              "es": "¿Admite el conjunto cerrado?"
+            },
+            {
+              "en": "Route and carrier requirements",
+              "zh": "路线及承运要求",
+              "es": "Ruta y transportista"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "heading": {
+        "en": "Close the loaded pouch before choosing the carton fit",
+        "zh": "先封好装载内袋，再核对外箱适配",
+        "es": "Cierre la bolsa cargada antes de comprobar la caja"
+      },
+      "paragraphs": [
+        {
+          "en": "Use the actual container and agreed refrigerant layout. Check that the flap reaches its intended adhesive contact area without forcing the side seals or pressing a lid. Keep the closure surface in the condition required by the sample instructions. Measure the closed loaded pouch in its shipping orientation, then check the carton’s usable interior. Include any agreed restraint or separation; do not choose a carton from the empty flat-pouch dimensions alone.",
+          "zh": "采用实际容器与约定冰源布局，检查折口能否贴合预定粘接位置，不硬撑侧边封口或压迫容器盖。按样品说明保持封口接触面的所需状态。按运输方向测量封好后的装载内袋，再核对外箱可用内尺寸，并计入约定固定或隔离材料，不能仅凭空平袋尺寸选外箱。",
+          "es": "Use el recipiente y refrigerante acordados. Compruebe que la solapa alcanza la zona adhesiva sin forzar los sellados ni presionar una tapa. Mantenga la superficie de cierre según las instrucciones de muestra. Mida la bolsa cerrada en su orientación de envío y el interior útil de la caja, incluida la sujeción o separación acordada. No elija la caja solo por la bolsa plana vacía."
+        },
+        {
+          "en": "Keep the sample order explicit: close the primary container, load and close the pouch, add the agreed protection, then place that assembly in the carton. If a rigid lid corner touches the pouch at a carton fold, record that exact interface. A larger carton alone may create more movement; compare the identified contact and the agreed restraint rather than assume more empty space solves it. Any added paper or insert remains a separately specified component.",
+          "zh": "把试样顺序写明：先闭合一次容器，再装袋并封口，加入约定防护，最后放入外箱。若硬盒盖角在纸箱折位处接触袋体，应记录这个准确接口。单纯加大纸箱也可能留下更多移动空间，应比较已识别接触与约定约束，而非假定空隙越大越好；新增纸垫或内件须另行列明。",
+          "es": "Escriba el orden: cierre el envase primario, cargue y cierre la bolsa, añada la protección acordada e introduzca el conjunto en la caja. Si una esquina de tapa toca la bolsa en un pliegue de cartón, registre esa unión. Agrandar la caja puede dejar más movimiento; compare contacto y sujeción, sin suponer que más hueco lo resuelve. Papel o insertos añadidos deben especificarse aparte."
+        }
+      ],
+      "image": {
+        "file": "images/editorial/2026-11-12-batch06/closed-foil-pouch-carton-contact.webp",
+        "alt": {
+          "en": "A closed flat silver pouch inside an open corrugated carton, with a piece of kraft paper at one corner",
+          "zh": "敞开的瓦楞箱内有一只闭合平口银色袋，一角放有牛皮纸",
+          "es": "Bolsa plateada plana cerrada dentro de una caja de cartón abierta, con papel kraft en una esquina"
+        },
+        "caption": {
+          "en": "The folded pouch and carton are separate components. The paper piece is a proposed packing prop, not a supplied or validated protective insert.",
+          "zh": "折口袋与纸箱是不同部件；纸垫为拟定装箱道具，不代表随货内件或已验证防护。",
+          "es": "Bolsa plegada y caja son componentes distintos; el papel es un accesorio propuesto, no un inserto incluido o validado."
+        },
+        "kind": "illustration"
+      }
+    },
+    {
+      "heading": {
+        "en": "Inspect edge contact and movement in a sample trial",
+        "zh": "在样品试验中观察边角接触与移位",
+        "es": "Observe contacto con bordes y movimiento en una prueba"
+      },
+      "paragraphs": [
+        {
+          "en": "Before a trial, photograph the pouch closure and its position in the carton. Mark where container corners, carton folds or protective inserts contact the pouch. Have the responsible team agree the handling and transit checks required for the route; this article does not prescribe a shipping test standard. After the agreed trial, compare the photographs and inspect seal opening, rubbing, punctures, displaced coolant and container damage. Separate each observation so a torn pouch is not recorded as a temperature-test result.",
+          "zh": "试验前拍摄内袋封口及其在外箱中的位置，标出容器边角、外箱折边或保护件与内袋接触的位置。由负责团队约定路线所需搬运与运输检查；本文不指定运输测试标准。完成约定试验后对照照片，分别观察封口张开、磨擦、穿孔、冰源移位及容器损伤，不能把内袋破损直接记成温控试验结果。",
+          "es": "Fotografíe cierre y posición antes de la prueba. Marque los contactos de esquinas del recipiente, pliegues de caja o piezas protectoras con la bolsa. El equipo responsable debe acordar las comprobaciones de manejo y tránsito para la ruta; este artículo no prescribe una norma de ensayo. Después, compare fotos y examine apertura del cierre, roce, perforaciones, refrigerante desplazado y daños del envase. Registre cada observación por separado; una rotura no es un resultado térmico."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Make the receiving record usable",
+        "zh": "让收货记录能够定位问题",
+        "es": "Prepare un registro de recepción útil"
+      },
+      "paragraphs": [
+        {
+          "en": "Agree which identification must remain readable after the outer carton and pouch are closed. Confirm its placement with the shipper or recipient; this is not regulatory labelling advice. At receipt, record the pack-out reference before opening, then the condition of the carton, pouch closure and primary container in that order. A delivery receipt alone cannot establish seal integrity or food temperature.",
+          "zh": "约定外箱及内袋封好后仍需清晰可读的识别信息，并向发货方或收货方确认位置；这不是法规标签建议。收货时先记录装载方案编号，再依次观察外箱、内袋封口及内容器状态。仅有签收记录不能证明封口完整或食品温度。",
+          "es": "Acuerde qué identificación debe leerse con caja y bolsa cerradas y su ubicación con remitente o destinatario; no es asesoramiento sobre etiquetado legal. Al recibir, anote la referencia antes de abrir y revise caja, cierre de bolsa y recipiente en ese orden. Un comprobante de entrega no acredita integridad del cierre ni temperatura."
+        }
+      ],
+      "bullets": [
+        {
+          "en": "Pack-out reference: pouch sample version, container, carton, protection and coolant configuration.",
+          "zh": "装载编号：内袋样品版本、容器、外箱、保护材料与冰源配置。",
+          "es": "Referencia: versión de bolsa, recipiente, caja, protección y refrigerante."
+        },
+        {
+          "en": "Before dispatch: closure photo, orientation, contact points and identification visibility.",
+          "zh": "发出前：封口照片、摆放方向、接触位置及识别信息可读性。",
+          "es": "Antes del envío: foto de cierre, orientación, contactos e identificación visible."
+        },
+        {
+          "en": "At receipt: outer damage, seal condition, internal movement and container condition.",
+          "zh": "收货时：外部损伤、封口状态、内部移位与容器状态。",
+          "es": "En recepción: daños externos, cierre, movimiento interior y estado del recipiente."
+        },
+        {
+          "en": "Decision: defect location, revision needed and the acceptance check to repeat.",
+          "zh": "处理决定：问题位置、所需修改及需要重做的验收检查。",
+          "es": "Decisión: ubicación del defecto, revisión necesaria y comprobación que debe repetirse."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Confirm thermal requirements and the production sample",
+        "zh": "另行确认温控要求与生产样品",
+        "es": "Confirme requisitos térmicos y muestra de producción"
+      },
+      "paragraphs": [
+        {
+          "en": "Where temperature matters, test the complete parcel with the selected refrigerant, starting temperature, ambient exposure and route duration. Dimensional or closure approval does not establish a holding time. Send YUANEN the pack-out record, quantity, artwork and destination, and ask the quotation to identify pouch construction, finished dimensions, flap arrangement and the sample basis. The product page notes that handmade samples can differ from machine-made orders; agree which production-representative checks remain before accepting the bulk specification.",
+          "zh": "涉及温度要求时，用选定冰源、初温、环境暴露及路线时长测试完整包裹。尺寸或封口确认不能证明保冷时长。向远恩提供装载记录、数量、图稿及目的地，请报价注明袋体结构、成品尺寸、折口方式和样品依据。产品页提示手工样品可能与机器制作订单存在差异，因此批量规格确认前应约定还需哪些具有生产代表性的检查。",
+          "es": "Si la temperatura importa, pruebe el paquete completo con refrigerante, temperatura inicial, ambiente y duración elegidos. Aprobar medidas o cierre no acredita autonomía. Envíe registro, cantidad, diseño y destino a YUANEN; identifique construcción, medidas, solapa y base de muestra en la cotización. La página advierte que las muestras manuales pueden diferir del pedido mecanizado: acuerde las comprobaciones representativas de producción pendientes antes de aceptar la especificación del lote."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "YUANEN self-adhesive foil bags: parcel selection and sample limitations",
+        "zh": "远恩自粘铝箔袋：邮寄选型与样品限制",
+        "es": "Bolsas autoadhesivas YUANEN: selección para envío y límites de muestra"
+      },
+      "url": "https://yuanenbag.com/products/self-adhesive-foil-bags/"
+    },
+    {
+      "title": {
+        "en": "YUANEN foil bag sizing guide: body and flap measurements",
+        "zh": "远恩铝箔袋尺寸指南：袋身与折口测量",
+        "es": "Guía de medidas YUANEN: cuerpo y solapa"
+      },
+      "url": "https://yuanenbag.com/guides/self-seal-foil-bag-size-flap-fit/"
+    }
+  ],
+  "relatedProducts": [
+    "self-adhesive-foil-bags"
+  ],
+  "image": {
+    "file": "images/editorial/2026-10-13/foil-pouch-shipping-carton.webp",
+    "kind": "illustration",
+    "alt": {
+      "en": "A silver flat pouch with folded flap inside an open brown carton on a wooden packing bench",
+      "zh": "木质打包台上，打开的牛皮色纸箱内放着一只带翻折口的银色平袋",
+      "es": "Bolsa plana plateada con solapa doblada dentro de una caja marrón abierta sobre una mesa de embalaje"
+    },
+    "caption": {
+      "en": "Generic foil-faced pouch and outer carton. The illustration does not demonstrate parcel or thermal test results.",
+      "zh": "通用铝箔面层平袋与外箱，画面不展示包裹保护或温控测试结果。",
+      "es": "Bolsa de superficie de aluminio y caja genéricas; la ilustración no muestra resultados de protección ni ensayos térmicos."
+    }
+  },
+  "updatedAt": "2026-11-12"
 }
 export default article

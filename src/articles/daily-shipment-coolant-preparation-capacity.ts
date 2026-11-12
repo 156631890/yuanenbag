@@ -147,6 +147,132 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
+        "en": "Subtract allocations before promising the next departure",
+        "zh": "承诺下一窗口前，先扣除已分配数量",
+        "es": "Reste asignaciones antes de comprometer la siguiente salida"
+      },
+      "paragraphs": [
+        {
+          "en": "Continue the arithmetic example with assumed figures: 160 pouches have completed the required preparation, but 20 are already reserved for another departure. Only 140 are uncommitted against this window’s demand of 200, leaving a shortfall of 60. “Prepared” describes a stock status; “available for this window” also excludes other allocations. Do not count the same pouch in both departures.",
+          "zh": "继续使用假设数字：160只袋已完成规定准备，其中20只已留给另一出货窗口。本窗口需求200只，未占用的只有140只，缺口为60只。“已准备”描述库存状态；“本窗口可用”还需扣除其他分配，不能把同一只袋计入两次出货。",
+          "es": "Siguiendo el ejemplo con cifras supuestas: 160 bolsas completaron la preparación exigida, pero 20 están reservadas para otra salida. Quedan 140 sin asignar frente a una demanda de 200: faltan 60. «Preparadas» es un estado; «disponibles para esta salida» excluye otras asignaciones. No cuente la misma bolsa dos veces."
+        },
+        {
+          "en": "If the output of the next preparation batch is unknown, leave its contribution pending rather than fill the shortfall on paper. Keep batch identity and the time it can actually be handed to packing beside the quantity. The responsible team can then decide whether a different departure, a confirmed prepared batch or another evaluated arrangement is feasible; buying more unprepared pouches alone does not answer that timing question.",
+          "zh": "若下一准备批次的产出未知，其贡献就保持待定，不能在纸面上填平缺口。数量旁保留批次身份与实际可交给装箱的时点，让负责团队判断能否调整出货、使用已确认准备批次或采用另一经评估方案；单纯多买未准备冰袋不能解决时间问题。",
+          "es": "Si se desconoce la salida del siguiente lote de preparación, déjela pendiente en vez de cerrar la carencia sobre el papel. Junto a la cantidad, identifique lote y momento real de entrega a embalaje. El equipo decidirá si puede cambiar la salida, usar un lote preparado confirmado u otra configuración evaluada; comprar más bolsas sin preparar no resuelve el plazo."
+        }
+      ],
+      "image": {
+        "file": "images/editorial/2026-11-12-batch06/coolant-batch-to-packout-handoff.webp",
+        "alt": {
+          "en": "A white coolant pouch held beside a closed container in a foil-lined foam box, with more pouches on a separate tray",
+          "zh": "独立浅盘中的白色冷媒袋，以及内衬泡沫箱内闭合容器旁被手提起的一只袋",
+          "es": "Bolsa blanca junto a un recipiente cerrado en una caja de espuma revestida, con más bolsas en una bandeja separada"
+        },
+        "caption": {
+          "en": "A proposed batch-to-pack-out handoff. Appearance does not identify preparation state, approved quantity or temperature.",
+          "zh": "通用分批交接构图；外观不能确定准备状态、获准用量或温度。",
+          "es": "Entrega propuesta de lote a embalaje; el aspecto no determina preparación, cantidad aprobada ni temperatura."
+        },
+        "kind": "illustration"
+      },
+      "table": {
+        "caption": {
+          "en": "Assumed quantities for one departure, in individual pouches",
+          "zh": "一个出货窗口的假设数量，单位均为只",
+          "es": "Cantidades supuestas para una salida, en bolsas individuales"
+        },
+        "columns": [
+          {
+            "en": "Record",
+            "zh": "记录",
+            "es": "Registro"
+          },
+          {
+            "en": "Pouches",
+            "zh": "只数",
+            "es": "Bolsas"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "en": "Demand: 50 shipments × 4",
+              "zh": "需求：50票×4",
+              "es": "Demanda: 50 envíos × 4"
+            },
+            {
+              "en": "200",
+              "zh": "200",
+              "es": "200"
+            }
+          ],
+          [
+            {
+              "en": "Prepared stock, including other allocations",
+              "zh": "已准备库存，含其他分配",
+              "es": "Existencias preparadas, incluidas otras asignaciones"
+            },
+            {
+              "en": "160",
+              "zh": "160",
+              "es": "160"
+            }
+          ],
+          [
+            {
+              "en": "Allocated elsewhere",
+              "zh": "已分配其他窗口",
+              "es": "Asignadas a otra salida"
+            },
+            {
+              "en": "20",
+              "zh": "20",
+              "es": "20"
+            }
+          ],
+          [
+            {
+              "en": "Uncommitted: 160 − 20",
+              "zh": "未占用：160－20",
+              "es": "Sin asignar: 160 − 20"
+            },
+            {
+              "en": "140",
+              "zh": "140",
+              "es": "140"
+            }
+          ],
+          [
+            {
+              "en": "Shortfall: 200 − 140",
+              "zh": "缺口：200－140",
+              "es": "Carencia: 200 − 140"
+            },
+            {
+              "en": "60",
+              "zh": "60",
+              "es": "60"
+            }
+          ],
+          [
+            {
+              "en": "Additional preparation output",
+              "zh": "新增准备产出",
+              "es": "Preparación adicional"
+            },
+            {
+              "en": "Unknown; not counted as zero or ready",
+              "zh": "未知，不填0也不算已就绪",
+              "es": "Desconocida; no se registra como cero ni disponible"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "heading": {
         "en": "Verify the preparation constraint with the responsible team",
         "zh": "与现场责任团队核对准备约束",
         "es": "Verifique la limitación con el equipo responsable"
@@ -214,6 +340,6 @@ const article: EditorialArticle = {
       "es": "Bolsas dispuestas en una bandeja. El aspecto no acredita preparación ni capacidad."
     }
   },
-  "updatedAt": "2026-10-31"
+  "updatedAt": "2026-11-12"
 }
 export default article

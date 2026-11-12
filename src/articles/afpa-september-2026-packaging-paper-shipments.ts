@@ -39,64 +39,86 @@ const article: EditorialArticle = {
           "en": "The September figure compares one month with the same month a year earlier. The cumulative figure compares nine months with the equivalent nine-month period. Neither is a comparison with August, and subtracting the two percentages does not give a monthly growth rate.",
           "zh": "9月数字比较的是今年9月与去年9月；累计数字比较的是2026年与2025年前九个月的累计量。两者都不是与8月相比，两个百分比相减也不能得出月度增长率。",
           "es": "La cifra de septiembre compara ese mes con septiembre del año anterior. La acumulada compara nueve meses con el periodo equivalente. Ninguna compara septiembre con agosto; restar los dos porcentajes tampoco proporciona una tasa de crecimiento mensual."
+        },
+        {
+          "en": "The operating rate is a different measure from shipments: 90.9% is the reported September level, not a 90.9% increase. The release calls it the second-highest month so far in 2026. Keep product group, measure and comparison window together when using these figures; neither the two shipment growth rates nor an operating-rate level can be substituted for another.",
+          "zh": "开工率与出货量是不同指标：90.9%是9月报告的水平值，不是增长90.9%。公告称其为2026年截至当时第二高的月份。引用时须同时保留品类、指标与比较窗口，不能将两类出货增幅或开工率水平互相替换。",
+          "es": "La tasa operativa difiere de los envíos: 90,9% es el nivel de septiembre, no un crecimiento del 90,9%. El comunicado lo sitúa como el segundo mes más alto de 2026 hasta entonces. Conserve grupo, medida y periodo; no intercambie las variaciones de envíos ni el nivel operativo."
         }
       ],
       "table": {
         "caption": {
-          "en": "Comparison windows in AF&PA’s public summary",
-          "zh": "AF&PA公开摘要中的比较口径",
-          "es": "Periodos comparados en el resumen público de AF&PA"
+          "en": "Selected figures in the public September summary",
+          "zh": "9月公开摘要中的部分指标",
+          "es": "Cifras seleccionadas del resumen público de septiembre"
         },
         "columns": [
           {
-            "en": "Reported period",
-            "zh": "报告期间",
-            "es": "Periodo"
+            "en": "Measure",
+            "zh": "指标",
+            "es": "Indicador"
           },
           {
-            "en": "Reference period",
-            "zh": "比较基期",
-            "es": "Periodo de referencia"
+            "en": "September",
+            "zh": "9月",
+            "es": "Septiembre"
           },
           {
-            "en": "Shipment change",
-            "zh": "出货量变化",
-            "es": "Variación de los envíos"
+            "en": "January–September",
+            "zh": "1—9月",
+            "es": "Enero–septiembre"
           }
         ],
         "rows": [
           [
             {
-              "en": "September 2026",
-              "zh": "2026年9月",
-              "es": "Septiembre de 2026"
-            },
-            {
-              "en": "September 2025",
-              "zh": "2025年9月",
-              "es": "Septiembre de 2025"
+              "en": "Total packaging papers & specialty packaging shipments: year-on-year change",
+              "zh": "包装纸及特种包装出货总量：同比变化",
+              "es": "Envíos totales de papeles para envases y embalajes especiales: variación interanual"
             },
             {
               "en": "+2%",
               "zh": "+2%",
               "es": "+2%"
-            }
-          ],
-          [
-            {
-              "en": "January–September 2026",
-              "zh": "2026年1—9月",
-              "es": "Enero–septiembre de 2026"
-            },
-            {
-              "en": "January–September 2025",
-              "zh": "2025年1—9月",
-              "es": "Enero–septiembre de 2025"
             },
             {
               "en": "+4%",
               "zh": "+4%",
               "es": "+4%"
+            }
+          ],
+          [
+            {
+              "en": "Bleached food wrapping shipments: year-on-year change",
+              "zh": "漂白食品包装纸出货：同比变化",
+              "es": "Envíos de papel blanqueado para envolver alimentos: variación interanual"
+            },
+            {
+              "en": "+1.9%",
+              "zh": "+1.9%",
+              "es": "+1,9%"
+            },
+            {
+              "en": "+3.3%",
+              "zh": "+3.3%",
+              "es": "+3,3%"
+            }
+          ],
+          [
+            {
+              "en": "Unbleached packaging papers operating rate: level, not growth",
+              "zh": "未漂白包装纸开工率：水平值，非增幅",
+              "es": "Tasa operativa de papeles sin blanquear: nivel, no crecimiento"
+            },
+            {
+              "en": "90.9%",
+              "zh": "90.9%",
+              "es": "90,9%"
+            },
+            {
+              "en": "Not stated here",
+              "zh": "此处未列",
+              "es": "No indicada aquí"
             }
           ]
         ]
@@ -125,20 +147,6 @@ const article: EditorialArticle = {
           "es": "Si un proveedor cita el informe para explicar una oferta, pregunte a qué grado de papel y unidad se refiere. Compare después la misma construcción de bolsa, alcance del pedido y fecha de oferta. Separe la referencia de mercado de las pruebas sobre el artículo ofrecido."
         }
       ]
-    },
-    {
-      "heading": {
-        "en": "Keep the original release date with the statistic",
-        "zh": "保留统计数据的原始发布日期",
-        "es": "Conserve la fecha del comunicado original"
-      },
-      "paragraphs": [
-        {
-          "en": "Paper Advance dated its coverage 23 October and Board Converting News dated its summary 29 October. Both relay the same AF&PA figures; those later publication dates do not create a new reporting month or independent datasets. The original association release remains dated 19 October.",
-          "zh": "Paper Advance的相关报道日期为10月23日，Board Converting News的摘要日期为10月29日，两者传递的是同一组AF&PA数据。较晚的报道日期不代表新的统计月份，也不构成独立数据集；协会原公告日期仍为10月19日。",
-          "es": "Paper Advance fechó su cobertura el 23 de octubre y Board Converting News su resumen el 29 de octubre. Ambos transmiten las mismas cifras de AF&PA. Esas fechas posteriores no crean un nuevo mes estadístico ni conjuntos de datos independientes; el comunicado original de la asociación sigue fechado el 19 de octubre."
-        }
-      ]
     }
   ],
   "sources": [
@@ -158,24 +166,6 @@ const article: EditorialArticle = {
         "es": "AF&PA: descripción pública del alcance del informe"
       },
       "url": "https://www.afandpa.org/reports/packaging-papers-monthly"
-    },
-    {
-      "title": {
-        "en": "Paper Advance: coverage of the AF&PA release",
-        "zh": "Paper Advance：AF&PA公告报道",
-        "es": "Paper Advance: cobertura del comunicado de AF&PA"
-      },
-      "url": "https://www.paperadvance.com/news/market-analysis/af-pa-releases-september-2026-packaging-papers-monthly-report.html",
-      "publishedAt": "2026-10-23"
-    },
-    {
-      "title": {
-        "en": "Board Converting News: AF&PA summary",
-        "zh": "Board Converting News：AF&PA摘要",
-        "es": "Board Converting News: resumen de AF&PA"
-      },
-      "url": "https://boardconvertingnews.com/afpa-releases-september-2026-packaging-papers-monthly-report/",
-      "publishedAt": "2026-10-29"
     },
     {
       "title": {
@@ -207,6 +197,7 @@ const article: EditorialArticle = {
       "zh": "包装纸片与素面牛皮纸袋展示纸材的片材与成品形态。",
       "es": "Las hojas de papel de embalaje y la bolsa kraft lisa muestran el material en lámina y como envase terminado."
     }
-  }
+  },
+  "updatedAt": "2026-11-12"
 }
 export default article

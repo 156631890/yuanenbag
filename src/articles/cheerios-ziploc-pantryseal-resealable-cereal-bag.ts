@@ -27,127 +27,43 @@ const article: EditorialArticle = {
   "sections": [
     {
       "heading": {
-        "en": "The change concerns how the consumer uses the inner bag",
-        "zh": "变化发生在消费者使用内袋的环节",
-        "es": "El cambio afecta al uso de la bolsa interior"
+        "en": "Partial opening creates the stated pouring spout",
+        "zh": "局部开口形成公告所述倒口",
+        "es": "La apertura parcial forma el vertedor descrito"
       },
       "paragraphs": [
         {
-          "en": "The company describes a top that opens only partway to form a pouring opening. This makes the opening and reclosing sequence a relevant design question for dry-food packaging buyers. Its freshness language is a manufacturer claim, not a quantified shelf-life result adopted here.",
-          "zh": "公司介绍，袋顶局部开启可形成倾倒口。这让干粮包装采购需要关注开启与再次闭合的连续动作。其保鲜表述属于企业主张，本篇不据此给出量化保质期结论。",
-          "es": "La empresa describe una apertura parcial superior que forma una salida para verter. La secuencia de apertura y nuevo cierre pasa a ser una cuestión de diseño para compradores de envases de alimentos secos. Las afirmaciones de frescura son de la empresa; aquí no se adopta una vida útil cuantificada."
-        },
-        {
-          "en": "In an enquiry, name the action the user must complete rather than asking only for a “sealed bag”. First closure during packing, later opening by a consumer and repeated reclosing are different requirements. Keep the selected contents and intended use beside each question so a sample can be assessed against a clear brief.",
-          "zh": "询价时应说明使用者需要完成的动作，而不只写“密封袋”。装箱时首次闭合、消费者随后开启和反复再封，是不同要求。每个问题都与所选内装物及用途一起记录，才能用明确简报评估样品。",
-          "es": "Describa la acción del usuario en vez de pedir únicamente una “bolsa sellada”. Cierre inicial al embalar, apertura posterior y nuevos cierres son requisitos distintos. Vincule cada pregunta con contenido y uso previstos para evaluar la muestra con una consulta clara."
-        }
-      ],
-      "table": {
-        "caption": {
-          "en": "Separate the use actions in a packaging brief",
-          "zh": "在包装简报中分开记录使用动作",
-          "es": "Separe las acciones de uso en la consulta"
-        },
-        "columns": [
-          {
-            "en": "Action",
-            "zh": "使用动作",
-            "es": "Acción"
-          },
-          {
-            "en": "Question for the proposed package",
-            "zh": "对拟用包装的确认问题",
-            "es": "Pregunta sobre el envase propuesto"
-          }
-        ],
-        "rows": [
-          [
-            {
-              "en": "First opening",
-              "zh": "首次开启",
-              "es": "Primera apertura"
-            },
-            {
-              "en": "What opens, where is the opening, and which part remains attached?",
-              "zh": "打开哪一层、开口在哪里、哪些部分仍连接？",
-              "es": "¿Qué se abre, dónde y qué parte queda unida?"
-            }
-          ],
-          [
-            {
-              "en": "Dispensing",
-              "zh": "取出内装物",
-              "es": "Dispensación"
-            },
-            {
-              "en": "Can the intended contents be removed without changing the agreed package use?",
-              "zh": "能否按约定包装用途取出拟用内装物？",
-              "es": "¿Puede retirarse el contenido según el uso acordado?"
-            }
-          ],
-          [
-            {
-              "en": "Reclosing",
-              "zh": "再次闭合",
-              "es": "Nuevo cierre"
-            },
-            {
-              "en": "Is repeated closure actually part of this item’s specification?",
-              "zh": "本款规格是否确实包含反复闭合功能？",
-              "es": "¿Incluye la especificación el cierre repetido?"
-            }
-          ],
-          [
-            {
-              "en": "Outer handling",
-              "zh": "外层搬运",
-              "es": "Manipulación exterior"
-            },
-            {
-              "en": "Does a separate outer pack need its own fit, closure and handling checks?",
-              "zh": "独立外包装是否另需适配、封口与搬运核验？",
-              "es": "¿Necesita el embalaje exterior comprobar ajuste, cierre y manejo?"
-            }
-          ]
-        ]
-      }
-    },
-    {
-      "heading": {
-        "en": "A peel-and-seal outer bag has a separate role",
-        "zh": "自粘外层袋承担不同作用",
-        "es": "La bolsa exterior autoadhesiva tiene otra función"
-      },
-      "paragraphs": [
-        {
-          "en": "YUANEN’s existing self-adhesive foil bag has a peel-and-seal opening and heat-sealed edges, with the foil-facing and EPE composite specification confirmed by order. Its published use is packing takeaway containers, bakery boxes and fresh food. That construction does not establish the consumer resealing feature announced for the cereal liner.",
-          "zh": "远恩现有自粘铝箔袋采用揭条粘合开口和热封边，铝箔面与EPE复合规格按订单确认。其公开用途是装放外卖餐盒、烘焙盒及生鲜食品。这种结构不能确立谷物内袋公告中的消费者再封功能。",
-          "es": "La bolsa de aluminio autoadhesiva existente de YUANEN tiene cierre adhesivo al retirar la tira y bordes termosellados; el compuesto con EPE se confirma por pedido. Se publica para recipientes de comida, cajas de panadería y alimentos frescos. No establece la función de nuevo cierre anunciada para la bolsa de cereales."
-        },
-        {
-          "en": "Buyers considering that outer format should provide the closed primary container and check usable opening, flap overlap, seams and handling with the selected sample. Do not transfer a primary liner’s food-contact, freshness or reclosure claims to the outer bag, and do not assume an outer bag replaces the primary container.",
-          "zh": "考虑该外层形式的买家，应提供已闭合主容器，用所选样品核对可用开口、粘合翻边重叠、封边和搬运。不能把内袋的食品接触、保鲜或再封主张移用到外袋，也不默认外袋可以替代主容器。",
-          "es": "Si estudia ese formato exterior, facilite el recipiente primario cerrado y compruebe abertura útil, solape adhesivo, uniones y manejo con la muestra. No transfiera al exterior afirmaciones de contacto alimentario, frescura o nuevo cierre de la bolsa interior, ni suponga que sustituye al recipiente primario."
+          "en": "General Mills describes a bag that opens only partway across the top, creating a pouring spout, then seals closed again inside the cereal box. The action sequence is opening, pouring and reclosing; it is different from simply folding a paperboard box tab. The announcement’s “fresher longer” wording remains a company claim, without a quantified shelf-life result adopted here.",
+          "zh": "General Mills描述内袋顶部仅部分开启，形成倒取口，随后可在谷物盒内重新闭合。动作顺序是开启、倒取、再封，与单纯折合纸盒插舌不同。公告的“更长保鲜”仍是企业表述，本文不据此采用量化货架期结果。",
+          "es": "General Mills describe apertura parcial superior para formar un vertedor y posterior recierre dentro de la caja. La secuencia es abrir, verter y volver a cerrar, distinta de plegar la pestaña del cartón. «Más fresco durante más tiempo» sigue siendo una afirmación empresarial, sin adoptar aquí una vida útil cuantificada."
         }
       ]
     },
     {
       "heading": {
-        "en": "Keep the announcement separate from a new supply request",
-        "zh": "把行业公告与新的供货需求分开",
-        "es": "Separe el anuncio de una nueva solicitud de suministro"
+        "en": "The announcement identifies two cereal options and an initial channel",
+        "zh": "公告列明两款谷物与初始渠道",
+        "es": "El anuncio identifica dos opciones y el canal inicial"
       },
       "paragraphs": [
         {
-          "en": "For a YUANEN enquiry, describe the existing outer bag you need, the packed container and the required closing and handling actions. Any request for a food-contact resealable liner needs its own material, closure, manufacturing and acceptance evidence. This news does not add that liner or a licensed branded closure to YUANEN’s catalogue.",
-          "zh": "向远恩询价时，说明所需的现有外层袋、已装容器，以及闭合和搬运动作。若另需食品接触的可再封内袋，应单独取得材料、封口、制造与验收依据。本新闻不把这种内袋或获品牌授权的封口加入远恩目录。",
-          "es": "En una consulta a YUANEN, indique la bolsa exterior existente, el recipiente embalado y las acciones de cierre y manejo. Una bolsa interior resellable para contacto alimentario necesita evidencia propia de material, cierre, fabricación y aceptación. La noticia no incorpora esa bolsa ni un cierre de marca autorizado al catálogo de YUANEN."
-        },
+          "en": "The October 27 release names Cheerios and Honey Nut Cheerios with Ziploc PantrySeal as new choices, initially exclusive to Walmart.com from that date. Nationwide retail rollout is described as coming in the following months, not as completed availability at every retailer. It also identifies Buffalo, New York, as the exclusive production location for this version. These are announcement details, not a live inventory check.",
+          "zh": "10月27日公告列出Cheerios及Honey Nut Cheerios搭配Ziploc PantrySeal的新选择，自当日起先由Walmart.com独家销售。全国零售铺开被写为随后数月的计划，不能改成所有零售商均已到货。公告还列明此版本仅在纽约州布法罗生产；这些是公告信息，不是实时库存核查。",
+          "es": "El comunicado del 27 de octubre nombra Cheerios y Honey Nut Cheerios con Ziploc PantrySeal, inicialmente exclusivos de Walmart.com desde esa fecha. La distribución nacional se anuncia para meses posteriores, no como disponibilidad ya completada en todas las tiendas. Sitúa la producción exclusiva de esta versión en Buffalo, Nueva York. Son datos del anuncio, no inventario en directo."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Do not substitute a first-use adhesive flap for reclosure",
+        "zh": "一次粘口不能替代再封功能",
+        "es": "Una solapa adhesiva inicial no equivale al recierre"
+      },
+      "paragraphs": [
         {
-          "en": "The announcement date and initial US channel come from General Mills. No partnership with YUANEN, independent freshness test or cooling performance is claimed. The cover is generic dry-food packaging, not the announced branded package or a supplied YUANEN sample. Confirm actual specifications and supplied scope through the order and agreed sample.",
-          "zh": "公告日期与美国首发渠道来自General Mills。本篇不声称远恩参与合作，也不声称已独立测试保鲜或保冷表现。封面为通用干粮包装，不是公告中的品牌产品或远恩供货样品；实际规格和供货范围仍按订单及约定样品确认。",
-          "es": "La fecha y el canal inicial estadounidense proceden de General Mills. No se afirma una colaboración con YUANEN, ensayo independiente de frescura ni rendimiento térmico. La portada es un envase genérico, no el producto de marca ni una muestra suministrada por YUANEN. Confirme especificaciones y alcance en el pedido y la muestra acordada."
+          "en": "For an enquiry, state whether the closure is applied once during packing or must reopen and reclose during consumption. YUANEN’s current self-adhesive foil/EPE outer bag addresses the former packing format; its published record does not add this branded cereal liner or a licensed resealable closure. A request for a food-contact reclosable liner requires separate product and acceptance evidence. The generic cover does not reproduce the announced package.",
+          "zh": "询价时先说明闭合是在装箱时完成一次，还是需在消费过程中反复开启和再封。远恩当前自粘铝箔/EPE外袋对应前一类打包形式，公开记录并未增加这款品牌谷物内袋或获许可的再封结构。食品接触再封内袋需求须有独立产品及接受依据；通用封面不复刻公告包装。",
+          "es": "En la consulta indique si se cierra una vez al embalar o debe abrirse y recerrarse durante el consumo. La bolsa exterior adhesiva foil/EPE YUANEN corresponde al primer formato; no incorpora el revestimiento de cereal ni un cierre de marca bajo licencia. Un revestimiento alimentario recerrable requiere evidencia propia. La portada genérica no reproduce el envase anunciado."
         }
       ]
     }
@@ -187,6 +103,7 @@ const article: EditorialArticle = {
       "zh": "通用干粮包装，不是公告中的品牌包装或远恩样品。",
       "es": "Envase genérico de alimento seco; no es el producto anunciado ni una muestra de YUANEN."
     }
-  }
+  },
+  "updatedAt": "2026-11-12"
 }
 export default article

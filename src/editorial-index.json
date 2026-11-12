@@ -18,6 +18,7 @@
     "kind": "industry",
     "slug": "afpa-september-2026-packaging-paper-shipments",
     "publishedAt": "2026-10-31",
+    "updatedAt": "2026-11-12",
     "title": {
       "en": "AF&PA Reports September Packaging Paper Shipments Up 2% Year on Year",
       "zh": "AF&PA公布9月包装纸出货量同比增长2%",
@@ -48,6 +49,7 @@
     "kind": "industry",
     "slug": "amcor-europe-wet-pet-food-packaging-study",
     "publishedAt": "2026-10-23",
+    "updatedAt": "2026-11-12",
     "title": {
       "en": "Amcor Publishes European Wet-Pet-Food Packaging Research",
       "zh": "Amcor发布欧洲湿宠物食品包装研究",
@@ -155,6 +157,7 @@
     "kind": "industry",
     "slug": "cheerios-ziploc-pantryseal-resealable-cereal-bag",
     "publishedAt": "2026-10-29",
+    "updatedAt": "2026-11-12",
     "title": {
       "en": "Cheerios and Ziploc Introduce a Resealable Bag Inside the Cereal Box",
       "zh": "Cheerios与Ziploc推出带可再封内袋的谷物盒包装",
@@ -262,6 +265,7 @@
     "kind": "industry",
     "slug": "corona-cero-seven-bottle-packaging-case",
     "publishedAt": "2026-10-22",
+    "updatedAt": "2026-11-12",
     "title": {
       "en": "Smurfit Westrock Details Corona Cero Seven-Bottle Packaging Project",
       "zh": "Smurfit Westrock公布Corona Cero七瓶组合包装项目",
@@ -324,7 +328,7 @@
     "kind": "guide",
     "slug": "daily-shipment-coolant-preparation-capacity",
     "publishedAt": "2026-10-27",
-    "updatedAt": "2026-10-31",
+    "updatedAt": "2026-11-12",
     "title": {
       "en": "Check Coolant Preparation Capacity Before Increasing Daily Shipments",
       "zh": "日发货量增加前，先核对冰袋准备能力",
@@ -529,6 +533,7 @@
     "kind": "guide",
     "slug": "foil-mailer-outer-carton-checklist",
     "publishedAt": "2026-10-13",
+    "updatedAt": "2026-11-12",
     "title": {
       "en": "A Packing Checklist for Foil Insulated Mailers and Shipping Cartons",
       "zh": "铝箔保温邮寄袋与外箱的装载检查清单",
@@ -1336,6 +1341,7 @@
     "kind": "guide",
     "slug": "self-seal-bag-packing-process-trial",
     "publishedAt": "2026-10-16",
+    "updatedAt": "2026-11-12",
     "title": {
       "en": "Test the Packing Steps Before Batch-Sealing Insulated Pouches",
       "zh": "批量封口前，先试清楚自粘保温袋的操作步骤",
@@ -1399,7 +1405,7 @@
     "kind": "guide",
     "slug": "shipping-coolant-reuse-approval-record",
     "publishedAt": "2026-10-26",
-    "updatedAt": "2026-10-31",
+    "updatedAt": "2026-11-12",
     "title": {
       "en": "Confirm Coolant Reuse Conditions Before Another Shipment",
       "zh": "冰袋再次发货前，核对重复使用的适用条件",
@@ -1415,6 +1421,7 @@
     "kind": "industry",
     "slug": "silgan-aip-trivium-proposed-packaging-combination",
     "publishedAt": "2026-10-27",
+    "updatedAt": "2026-11-12",
     "title": {
       "en": "Silgan and AIP Propose a Packaging Combination with Trivium",
       "zh": "Silgan与AIP公布Trivium包装业务拟议交易",
@@ -1478,6 +1485,7 @@
     "kind": "industry",
     "slug": "spain-bonded-cold-storage-packaging-handoff",
     "publishedAt": "2026-10-12",
+    "updatedAt": "2026-11-12",
     "title": {
       "en": "Lineage Announces Bonded Warehouse Authorization for Its Murcia Cold Store",
       "zh": "Lineage宣布穆尔西亚冷库获得海关保税仓授权",

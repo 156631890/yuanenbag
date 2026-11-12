@@ -131,6 +131,96 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
+        "en": "Give each return a recorded destination",
+        "zh": "给每批退回品明确去向",
+        "es": "Asigne un destino documentado a cada devolución"
+      },
+      "paragraphs": [
+        {
+          "en": "For a proposed return loop, keep returned material outside ready-to-pack stock until the product-specific reuse basis and that batch’s decision are available. Missing history and observed damage are different findings: missing records leave a question open, while a visible leak or damaged seam records an actual condition needing disposition. Neither should be silently changed to “ready” because other pouches look intact.",
+          "zh": "拟定回收循环中，取得产品复用依据及该批次决定前，退回品与可装箱库存分开。记录缺失与观察到损伤是不同结果：缺记录留下未决问题，可见泄漏或接缝受损则记录了需处置的实际状态。不能因其他袋看着完整，就把两者悄然改成“就绪”。",
+          "es": "En un circuito propuesto, separe devoluciones del stock listo hasta disponer de base de reutilización y decisión del lote. Historia desconocida y daño observado son resultados distintos: faltan datos en un caso y existe una condición real en el otro. Ninguno pasa a «listo» porque otras bolsas parezcan intactas."
+        },
+        {
+          "en": "Even when the exact specification is permitted to be reused and the responsible reviewer accepts the returned batch, any required preparation for the next shipment remains a separate step. Do not infer that a reusable outer box makes its coolant reusable, or that repeating freezing establishes hygiene or a rated cycle count. Where the supplier does not support the intended reuse, request a suitable alternative rather than write an approval yourself.",
+          "zh": "即使准确规格获准复用且负责审核方接受了退回批次，下一货件所需准备仍是单独步骤。外箱可重复使用，不代表冷媒也可复用；再次冻结不能确立卫生状态或额定次数。若供方不支持预定复用，应另询合适方案，不能自行写成批准。",
+          "es": "Aunque la especificación permita reutilización y el responsable acepte el lote, la preparación para el siguiente envío sigue siendo otro paso. Una caja reutilizable no convierte en reutilizable su refrigerante; volver a congelar no acredita higiene ni ciclos. Si el proveedor no respalda el uso, solicite una alternativa en vez de autorizarlo por su cuenta."
+        }
+      ],
+      "image": {
+        "file": "images/editorial/2026-11-12-batch06/returned-coolant-separate-handling.webp",
+        "alt": {
+          "en": "White-film coolant pouches in a separate grey collection tray on a receiving bench",
+          "zh": "收货台上的独立灰色收集盘内放着白膜冷媒袋",
+          "es": "Bolsas de refrigerante blancas en una bandeja gris separada sobre una mesa de recepción"
+        },
+        "caption": {
+          "en": "Separate handling while a disposition remains unresolved. An intact appearance does not approve reuse.",
+          "zh": "去向未定时分开管理；外观完整不能作为复用批准。",
+          "es": "Gestión separada mientras se decide el destino; el aspecto intacto no autoriza reutilización."
+        },
+        "kind": "illustration"
+      },
+      "table": {
+        "caption": {
+          "en": "Proposed return decisions, not YUANEN acceptance criteria",
+          "zh": "拟定退回处置记录，并非远恩验收标准",
+          "es": "Decisiones propuestas, no criterios de aceptación YUANEN"
+        },
+        "columns": [
+          {
+            "en": "Finding",
+            "zh": "发现",
+            "es": "Hallazgo"
+          },
+          {
+            "en": "Recorded next step",
+            "zh": "记录的下一步",
+            "es": "Siguiente paso registrado"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "en": "Identity or history missing",
+              "zh": "身份或历史缺失",
+              "es": "Falta identidad o historia"
+            },
+            {
+              "en": "Hold separately; seek traceability and product-specific instructions",
+              "zh": "分开放待核；补追溯与本款说明",
+              "es": "Separar pendiente; obtener trazabilidad e instrucciones"
+            }
+          ],
+          [
+            {
+              "en": "Observed leak or damaged seam",
+              "zh": "观察到泄漏或接缝损伤",
+              "es": "Fuga o costura dañada observada"
+            },
+            {
+              "en": "Record location and batch; refer to agreed retirement/return/disposal decision",
+              "zh": "记位置和批次，按约定退役/退货/处置决定处理",
+              "es": "Registrar lugar y lote; aplicar decisión acordada de retirada/devolución/gestión"
+            }
+          ],
+          [
+            {
+              "en": "Reuse basis and batch acceptance documented",
+              "zh": "复用依据与批次接受已有记录",
+              "es": "Base de reutilización y aceptación documentadas"
+            },
+            {
+              "en": "Follow remaining preparation and next-shipment checks before allocation",
+              "zh": "完成余下准备及下次货件检查后再分配",
+              "es": "Completar preparación y revisión del siguiente envío antes de asignar"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "heading": {
         "en": "Confirm the next shipment separately",
         "zh": "另行确认下一次完整运输",
         "es": "Confirme por separado el siguiente envío"
@@ -176,6 +266,6 @@ const article: EditorialArticle = {
       "es": "Forma y bordes sellados; la imagen no acredita formulación, idoneidad de reutilización ni estado congelado."
     }
   },
-  "updatedAt": "2026-10-31"
+  "updatedAt": "2026-11-12"
 }
 export default article
