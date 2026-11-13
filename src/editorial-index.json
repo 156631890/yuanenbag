@@ -67,6 +67,7 @@
     "kind": "industry",
     "slug": "atlantic-pack-expo-fiber-existing-lines",
     "publishedAt": "2026-11-02",
+    "updatedAt": "2026-11-13",
     "title": {
       "en": "Atlantic Recaps Fiber Packaging Trials on Existing Lines at PACK EXPO",
       "zh": "Atlantic回顾PACK EXPO现有产线纸基包装演示",
@@ -242,7 +243,7 @@
     "kind": "guide",
     "slug": "coolant-disposal-instruction-product-match",
     "publishedAt": "2026-10-26",
-    "updatedAt": "2026-10-31",
+    "updatedAt": "2026-11-13",
     "title": {
       "en": "Match Coolant Disposal Instructions to the Actual Product",
       "zh": "冰袋的处理说明，要与实际配方和型号对应",
@@ -322,6 +323,7 @@
     "kind": "guide",
     "slug": "custom-insulated-bag-order-timeline-gates",
     "publishedAt": "2026-10-22",
+    "updatedAt": "2026-11-13",
     "title": {
       "en": "Set the Start Date for a Custom Insulated-Bag Order",
       "zh": "定制保温袋的交期，从哪个确认节点开始算",
@@ -369,6 +371,7 @@
     "kind": "guide",
     "slug": "delivery-bag-label-placement-trial",
     "publishedAt": "2026-10-17",
+    "updatedAt": "2026-11-13",
     "title": {
       "en": "Check Delivery-Bag Labels With the Sample Loaded",
       "zh": "配送袋贴标位置，要在装满和提起后再确认",
@@ -640,6 +643,7 @@
     "kind": "industry",
     "slug": "graphic-packaging-cti-boardio-nutraceutical-canisters",
     "publishedAt": "2026-11-05",
+    "updatedAt": "2026-11-13",
     "title": {
       "en": "Graphic Packaging Offers Boardio Paperboard Canisters Through CTI",
       "zh": "Graphic Packaging 通过 CTI 向北美营养补充剂品牌提供 Boardio 纸板罐",
@@ -687,6 +691,7 @@
     "kind": "guide",
     "slug": "ibc-cover-cap-valve-access-layout",
     "publishedAt": "2026-11-06",
+    "updatedAt": "2026-11-13",
     "title": {
       "zh": "IBC保温罩的检修口，要按桶盖和阀门操作空间定位",
       "en": "Position IBC Cover Openings Around Cap and Valve Access",
@@ -796,7 +801,7 @@
     "kind": "guide",
     "slug": "insulated-bag-carrying-load-requirement-brief",
     "publishedAt": "2026-10-25",
-    "updatedAt": "2026-10-31",
+    "updatedAt": "2026-11-13",
     "title": {
       "en": "Specify Carrying Loads Separately from Insulated-Bag Volume",
       "zh": "保温包能装多少，要把空间与提携载荷分开确认",
@@ -859,7 +864,7 @@
     "kind": "guide",
     "slug": "insulated-bag-thermal-report-comparison",
     "publishedAt": "2026-10-31",
-    "updatedAt": "2026-10-31",
+    "updatedAt": "2026-11-13",
     "title": {
       "en": "Match Conditions Before Comparing Insulated-Bag Test Reports",
       "zh": "比较保温包测试报告前，先对齐试验条件",
@@ -970,6 +975,7 @@
     "kind": "guide",
     "slug": "insulated-parcel-waiting-time-trial-brief",
     "publishedAt": "2026-10-24",
+    "updatedAt": "2026-11-13",
     "title": {
       "en": "Include Waiting Time in an Insulated-Parcel Trial",
       "zh": "保温包裹试用，要计入交接等待时间",
@@ -1234,6 +1240,7 @@
     "kind": "industry",
     "slug": "placon-homefresh-round-deli-lid-fit-relaunch",
     "publishedAt": "2026-10-28",
+    "updatedAt": "2026-11-13",
     "title": {
       "en": "Placon Relaunches HomeFresh Round Deli",
       "zh": "Placon重推HomeFresh餐盒",

@@ -148,6 +148,25 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
+        "en": "Add a mass example without assigning a rating",
+        "zh": "把质量加总算清楚，不据此给出额定载荷",
+        "es": "Sume masas sin asignar una carga nominal"
+      },
+      "paragraphs": [
+        {
+          "en": "Hypothetical arithmetic: two filled, lidded trays at 1.5 kg each total 3.0 kg; a separately counted prepared coolant pack is 0.4 kg and the empty bag is 0.6 kg. Contents and coolant total 3.4 kg; the whole assembly totals 4.0 kg. The tray entries already include food and lids, so neither is added again. These are teaching inputs, not product weights or a load YUANEN has approved.",
+          "zh": "仅作假设演算：两只已装食品、带盖餐盘各1.5千克，合计3.0千克；另计预处理冷媒0.4千克，空袋0.6千克。内装物与冷媒共3.4千克，完整组件共4.0千克。餐盘条目已包含食品和盖体，因此不重复相加。这些只是教学输入，不是远恩产品重量或已认可载荷。",
+          "es": "Ejemplo hipotético: dos bandejas llenas con tapa de 1,5 kg suman 3,0 kg; refrigerante preparado separado de 0,4 kg y bolsa vacía de 0,6 kg. Contenido y refrigerante suman 3,4 kg; conjunto completo, 4,0 kg. Comida y tapas ya están incluidas. Son datos didácticos, no pesos de producto ni carga aprobada por YUANEN."
+        },
+        {
+          "en": "Attach that explicitly named mass basis to the verification request. A grip-material report covers its named specimen; an attachment review concerns the joint; a complete-bag evaluation must identify the handles, seams, base and arrangement tested. Ask the issuer which level its result covers before using it in an order. None of those results alone determines whether one person should carry the assembly.",
+          "zh": "把明确命名的计重口径附在验证需求中。提手材料报告覆盖其试样，连接点检查涉及该接合处，成品包评估则应识别被检查的提手、接缝、底部与装载状态。采用结果前先向出具方确认其证据层级；这些结果也不能单独决定是否适合由一人搬运。",
+          "es": "Adjunte la base de masa al encargo. El informe del material de asa cubre su probeta; la revisión de fijación, esa unión; la evaluación de bolsa completa debe identificar asas, costuras, base y disposición. Pregunte al emisor qué nivel cubre el resultado. Ninguno decide por sí solo si una persona debe transportar el conjunto."
+        }
+      ]
+    },
+    {
+      "heading": {
         "en": "Give the verification plan a defined scope",
         "zh": "明确验证计划的范围",
         "es": "Delimite el plan de verificación"
@@ -214,19 +233,19 @@ const article: EditorialArticle = {
     "insulated-catering-bags"
   ],
   "image": {
-    "file": "images/editorial/2026-10-30-cover-repairs/insulated-bag-carrying-load-requirement-brief.webp",
+    "file": "images/editorial/2026-11-13-batch09/carrier-grip-base-construction.webp",
     "kind": "illustration",
     "alt": {
-      "en": "A front-opening carrier and separate tray beside a side-handle attachment detail",
-      "zh": "前开式配送包与独立餐盘，旁边展示侧提手连接细节",
-      "es": "Bolsa de abertura frontal y bandeja separada junto a un detalle de fijación del asa lateral"
+      "en": "Empty navy front-opening carrier with lowered flap, foil lining and short side grip",
+      "zh": "空海军蓝前开配送包、下折前幅、铝箔内衬及短侧提手",
+      "es": "Bolsa azul marino vacía de apertura frontal, panel abatido, forro de lámina y asa lateral corta"
     },
     "caption": {
-      "en": "Fit review and handle-load evidence are separate questions; no load rating or completed test is represented.",
-      "zh": "适配核对与提手载荷证据是不同问题，不展示额定承重或已完成测试。",
-      "es": "El ajuste y la evidencia de carga del asa son cuestiones separadas; no se representa capacidad nominal ni ensayo realizado."
+      "en": "Inspect the complete construction before agreeing a load-verification plan. No weight or strength result is shown.",
+      "zh": "先核对成品结构，再约定载荷验证方案；画面未展示重量或强度结果。",
+      "es": "Revise la construcción completa antes de acordar verificación de carga; no se muestra peso ni resultado de resistencia."
     }
   },
-  "updatedAt": "2026-10-31"
+  "updatedAt": "2026-11-13"
 }
 export default article

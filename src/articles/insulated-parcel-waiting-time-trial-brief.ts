@@ -148,6 +148,97 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
+        "en": "Define boundaries before adding the intervals",
+        "zh": "先定节点边界，再加时间区间",
+        "es": "Defina límites antes de sumar intervalos"
+      },
+      "paragraphs": [
+        {
+          "en": "Use event names that another team can recognise: packing complete, carrier collection, first delivery attempt and recipient possession. Keep planned and observed timestamps separate, with their time zones. A carrier’s “transit total” may already include a transfer wait. If you retain that total, show the transfer wait as an included sub-interval instead of adding it a second time. A delay after a failed delivery attempt needs its own endpoint if receipt has not occurred.",
+          "zh": "使用另一团队也能识别的节点：包装完成、承运方揽收、首次投递尝试、收件人取得包裹。计划与实测时间分别记录，并附时区。承运方“运输总时长”可能已经包含中转等待；保留总时长时，应将中转等待列为其中子区间，不再相加。首次投递未成功且尚未签收时，后续等待仍需要另定终点。",
+          "es": "Use eventos reconocibles: embalaje completo, recogida, primer intento y posesión del destinatario. Separe tiempos previstos y observados con zonas horarias. El tránsito total puede incluir espera en transferencia; si conserva ese total, muestre la espera como subintervalo, no la sume otra vez. Tras intento fallido sin recepción, defina el final de la espera adicional."
+        }
+      ],
+      "table": {
+        "caption": {
+          "en": "Blank event record for the intended route",
+          "zh": "目标路线的空白节点记录",
+          "es": "Registro vacío de eventos de ruta"
+        },
+        "columns": [
+          {
+            "en": "Boundary",
+            "zh": "节点",
+            "es": "Límite"
+          },
+          {
+            "en": "Timestamp / evidence",
+            "zh": "时间／证据",
+            "es": "Hora / evidencia"
+          },
+          {
+            "en": "Relationship",
+            "zh": "区间关系",
+            "es": "Relación"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "en": "Packing complete → collection",
+              "zh": "包装完成→揽收",
+              "es": "Embalaje → recogida"
+            },
+            {
+              "en": "Planned ___; observed ___; timezone ___; source ___",
+              "zh": "计划___；实测___；时区___；来源___",
+              "es": "Previsto ___; observado ___; zona ___; fuente ___"
+            },
+            {
+              "en": "Outside a collection-to-attempt total",
+              "zh": "在揽收到投递尝试总时长之外",
+              "es": "Fuera del total recogida-intento"
+            }
+          ],
+          [
+            {
+              "en": "Collection → first attempt",
+              "zh": "揽收→首次投递尝试",
+              "es": "Recogida → primer intento"
+            },
+            {
+              "en": "Start ___; finish ___; unknown segments ___",
+              "zh": "起点___；终点___；未知段___",
+              "es": "Inicio ___; final ___; tramos desconocidos ___"
+            },
+            {
+              "en": "Show included transfer waits within this interval",
+              "zh": "中转等待在此区间内标明",
+              "es": "Indicar esperas incluidas aquí"
+            }
+          ],
+          [
+            {
+              "en": "First attempt → possession",
+              "zh": "首次尝试→实际取得",
+              "es": "Primer intento → posesión"
+            },
+            {
+              "en": "Attempt ___; possession ___ or pending; owner ___",
+              "zh": "尝试___；取得___或待定；责任人___",
+              "es": "Intento ___; posesión ___ o pendiente; responsable ___"
+            },
+            {
+              "en": "Do not assume zero when the final event is unknown",
+              "zh": "终点未知时不填零",
+              "es": "No suponer cero si falta el final"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "heading": {
         "en": "Keep elapsed time and temperature evidence distinct",
         "zh": "经过时间与温度证据分开",
         "es": "Separe el tiempo transcurrido y los datos térmicos"
@@ -211,6 +302,7 @@ const article: EditorialArticle = {
       "zh": "自粘平袋与运输外箱。纸箱为道具，完整装载方式需通过样品确认。",
       "es": "Bolsa plana autoadhesiva y caja de transporte. La caja es un elemento de escena; confirme el conjunto por muestra."
     }
-  }
+  },
+  "updatedAt": "2026-11-13"
 }
 export default article

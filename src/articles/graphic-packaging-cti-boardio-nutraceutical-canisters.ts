@@ -46,6 +46,114 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
+        "en": "Quote the canister and packing service on the same scope",
+        "zh": "将罐体与包装服务按同一范围报价",
+        "es": "Cotice envase y servicio con el mismo alcance"
+      },
+      "paragraphs": [
+        {
+          "en": "The announcement identifies CTI as the co-packing route and says it offers sizes and barrier levels. A quotation for an empty canister and one for filled, closed packs therefore need separate scope lines. Ask who supplies each component, performs filling and closure, releases the finished lot and provides the corresponding evidence. Do not treat an available barrier option as a shelf-life result for the buyer’s formula.",
+          "zh": "公告将CTI列为合同包装渠道，并称其提供不同尺寸与阻隔等级。因此，空罐报价与灌装、闭合后成品报价需要分列范围。应明确谁供各部件、谁灌装封盖、谁放行成品批次并提供对应证据。可选阻隔等级不能替代买方配方的货架期结果。",
+          "es": "El anuncio identifica a CTI como vía de coenvasado con tamaños y barreras distintos. Separe cotización de envase vacío y de producto lleno y cerrado. Defina quién suministra componentes, llena, cierra y libera el lote con evidencia. Una barrera disponible no equivale a vida útil para la fórmula del comprador."
+        }
+      ],
+      "table": {
+        "caption": {
+          "en": "Proposed quotation scope, not a published price list",
+          "zh": "拟报价范围，不是公开价目表",
+          "es": "Alcance propuesto, no lista de precios"
+        },
+        "columns": [
+          {
+            "en": "Line",
+            "zh": "项目",
+            "es": "Partida"
+          },
+          {
+            "en": "Describe",
+            "zh": "说明内容",
+            "es": "Describir"
+          },
+          {
+            "en": "Evidence to match",
+            "zh": "对应证据",
+            "es": "Evidencia"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "en": "Body",
+              "zh": "罐体",
+              "es": "Cuerpo"
+            },
+            {
+              "en": "Selected size, structure and artwork revision",
+              "zh": "所选尺寸、结构与图稿版号",
+              "es": "Tamaño, estructura y revisión gráfica"
+            },
+            {
+              "en": "Item specification and representative sample",
+              "zh": "单品规格与代表样品",
+              "es": "Especificación y muestra"
+            }
+          ],
+          [
+            {
+              "en": "Closure",
+              "zh": "盖件／闭合",
+              "es": "Cierre"
+            },
+            {
+              "en": "Matching component and intended closing process",
+              "zh": "匹配部件及闭合工序",
+              "es": "Componente y proceso correspondientes"
+            },
+            {
+              "en": "Assembly and closure assessment",
+              "zh": "组合与闭合评价",
+              "es": "Evaluación del conjunto y cierre"
+            }
+          ],
+          [
+            {
+              "en": "Barrier",
+              "zh": "阻隔",
+              "es": "Barrera"
+            },
+            {
+              "en": "Selected structure and required storage conditions",
+              "zh": "所选结构与目标储存条件",
+              "es": "Estructura y condiciones de almacenamiento"
+            },
+            {
+              "en": "Method, conditions and scope of any result",
+              "zh": "结果的方法、条件与范围",
+              "es": "Método, condiciones y alcance"
+            }
+          ],
+          [
+            {
+              "en": "Service",
+              "zh": "服务",
+              "es": "Servicio"
+            },
+            {
+              "en": "Filling, closing, checks, packing and delivery inclusions",
+              "zh": "灌装、封合、检查、装箱与交付包含项",
+              "es": "Inclusiones de llenado, cierre, controles y entrega"
+            },
+            {
+              "en": "Written responsibilities and release documents",
+              "zh": "书面责任与放行文件",
+              "es": "Responsabilidades y documentos de liberación"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "heading": {
         "en": "What the announcement establishes",
         "zh": "公告确认了什么",
         "es": "Qué establece el anuncio"
@@ -92,6 +200,7 @@ const article: EditorialArticle = {
       "zh": "通用纸板罐的罐口与独立盖子展示两者的配合位置。",
       "es": "El borde y la tapa de un envase genérico de cartón muestran dónde encajan ambas piezas."
     }
-  }
+  },
+  "updatedAt": "2026-11-13"
 }
 export default article

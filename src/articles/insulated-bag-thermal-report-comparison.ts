@@ -182,6 +182,97 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
+        "en": "Use a side-by-side record with an explicit disposition",
+        "zh": "并排填记录，并写出差异处理",
+        "es": "Use un registro paralelo con una decisión explícita"
+      },
+      "paragraphs": [
+        {
+          "en": "Use the blank entries below alongside the existing condition matrix. Write the report page or attachment next to each answer so “unknown” can be resolved by a particular record. If the assembly is unidentified, obtain its identity first. If the assembly is identified but exposure or payload differs, ask the responsible test team for a documented applicability assessment or matched evaluation. Do not rank durations while those questions remain open.",
+          "zh": "将下面的空白项与前面的条件矩阵一起使用，每个答复旁标明报告页码或附件，让“未知”对应具体补证材料。组件身份不明时先补身份；身份相符但暴露或装载不同，则由负责测试团队提供书面适用性评估或可比评价。在这些问题未解决前，不按时长排名。",
+          "es": "Use los campos vacíos junto con la matriz anterior. Anote página o anexo para resolver cada dato desconocido. Si no se identifica el conjunto, obtenga su identidad primero. Si está identificado pero cambian exposición o carga, solicite evaluación documentada de aplicabilidad o ensayo comparable. No clasifique duraciones con esas dudas abiertas."
+        }
+      ],
+      "table": {
+        "caption": {
+          "en": "Teaching worksheet, not actual report data",
+          "zh": "教学空白表，不是实际报告数据",
+          "es": "Hoja didáctica, no datos de ensayo"
+        },
+        "columns": [
+          {
+            "en": "Item",
+            "zh": "项目",
+            "es": "Campo"
+          },
+          {
+            "en": "Report A / B",
+            "zh": "报告A／B",
+            "es": "Informe A / B"
+          },
+          {
+            "en": "Disposition",
+            "zh": "处理",
+            "es": "Decisión"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "en": "Assembly and revision",
+              "zh": "组件与版号",
+              "es": "Conjunto y revisión"
+            },
+            {
+              "en": "A: ___ / B: ___; reference: ___",
+              "zh": "A：___／B：___；出处：___",
+              "es": "A: ___ / B: ___; referencia: ___"
+            },
+            {
+              "en": "Unidentified: request the matching record",
+              "zh": "身份不明：补对应记录",
+              "es": "Sin identificar: solicitar registro"
+            }
+          ],
+          [
+            {
+              "en": "Payload and starting state",
+              "zh": "装载与起始状态",
+              "es": "Carga y estado inicial"
+            },
+            {
+              "en": "A: ___ / B: ___; same/different/unknown ___",
+              "zh": "A：___／B：___；相同／不同／未知___",
+              "es": "A: ___ / B: ___; igual/distinto/desconocido ___"
+            },
+            {
+              "en": "Difference: assess applicability before comparison",
+              "zh": "存在差异：先评估适用性",
+              "es": "Distinto: evaluar aplicabilidad primero"
+            }
+          ],
+          [
+            {
+              "en": "Exposure, sensors and endpoint",
+              "zh": "暴露、测点与终点",
+              "es": "Exposición, sensores y final"
+            },
+            {
+              "en": "A: ___ / B: ___; record owner: ___",
+              "zh": "A：___／B：___；记录责任人：___",
+              "es": "A: ___ / B: ___; responsable: ___"
+            },
+            {
+              "en": "Missing or unmatched: obtain evidence or agree a new evaluation",
+              "zh": "缺项或不匹配：补证或另约评价",
+              "es": "Falta o no coincide: obtener evidencia o acordar evaluación"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "heading": {
         "en": "Resolve a difference before drawing a purchasing conclusion",
         "zh": "先处理差异，再形成采购结论",
         "es": "Resuelva las diferencias antes de decidir la compra"
@@ -252,6 +343,6 @@ const article: EditorialArticle = {
       "es": "Registre la muestra cargada y la configuración del refrigerante antes de comparar informes de ensayo."
     }
   },
-  "updatedAt": "2026-10-31"
+  "updatedAt": "2026-11-13"
 }
 export default article

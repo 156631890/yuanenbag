@@ -40,6 +40,34 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
+        "en": "Relate the top view to the valve-facing front",
+        "zh": "把俯视图对应到阀门正面",
+        "es": "Relacione vista superior y frente de válvula"
+      },
+      "paragraphs": [
+        {
+          "en": "Use the valve face as the named front in both photographs. On the top-view record, mark the cap centre from that front edge and the same side edge; on the front-view record, locate the valve from the pallet deck and that side edge. Keep the drawing marks on the measurement record rather than inventing dimensions in the photograph. An aligned centre does not prove that a hand or the intended connector can pass through the opening.",
+          "zh": "两张照片都以阀门面作为正面。俯视记录中，从该前缘和同一侧边定位盖中心；正面记录中，从托盘面与该侧边定位阀门。标记放在测量记录上，不在照片中虚构尺寸。中心对齐仍不能证明手部或目标接头能够通过开口。",
+          "es": "Use la cara de válvula como frente en ambas fotos. En planta sitúe el centro de tapa desde ese frente y el mismo lateral; en alzado ubique válvula desde plataforma y lateral. Ponga marcas en el registro de medición, sin inventar medidas en la foto. Alinear centros no demuestra paso de mano o conector."
+        }
+      ],
+      "image": {
+        "file": "images/editorial/2026-11-13-batch09/ibc-top-front-reference.webp",
+        "kind": "illustration",
+        "alt": {
+          "en": "Elevated view of a silver IBC cover with open top flap and closed cap, with the valve-facing front below",
+          "zh": "银色IBC罩的高位视角，顶翻盖打开、桶盖闭合，下方可辨阀门正面",
+          "es": "Vista elevada de funda IBC plateada con solapa superior abierta y tapa cerrada, con frente de válvula visible"
+        },
+        "caption": {
+          "en": "Use the same front reference in top and front records. Tank and pallet are props; no fitting dimensions are supplied by the picture.",
+          "zh": "俯视与正视记录使用同一正面基准。桶与托盘为道具，画面不提供接口尺寸。",
+          "es": "Use el mismo frente en ambos registros. Tanque y palé son elementos de escena; la imagen no aporta medidas de conexiones."
+        }
+      }
+    },
+    {
+      "heading": {
         "en": "Test access before approving the overlap",
         "zh": "验收搭接前先检查操作空间",
         "es": "Compruebe el acceso antes de aprobar el solape"
@@ -56,6 +84,34 @@ const article: EditorialArticle = {
           "es": "Si el borde de la solapa se engancha, identifique si el contacto viene de la conexión, el ribete o el sentido de apertura. Pida revisar esa parte del plano y compruebe de nuevo el acceso y el cierre. Un hueco mayor puede alterar el solape, así que apruebe la posición abierta y la cerrada. Respete el espacio de ventilación requerido y deje libres los huecos de las horquillas."
         }
       ]
+    },
+    {
+      "heading": {
+        "en": "Separate a position error from an access-space error",
+        "zh": "区分位置偏差与操作空间不足",
+        "es": "Distinga error de posición y falta de acceso"
+      },
+      "paragraphs": [
+        {
+          "en": "If the opening is off-centre, revise its location on the drawing. If its centre matches but the bound edge obstructs the intended fitting approach, review opening size or direction and then recheck closed overlap. Keep an unavailable connector marked as pending. The closed-valve scene below shows the interface to inspect; it does not simulate a connection, dispensing or leak test.",
+          "zh": "开口偏心时修改图纸位置；中心一致但包边妨碍目标接口靠近时，则复核开口尺寸或方向，之后重查闭合搭接。目标接头缺席时，检查保持待完成。下图仅展示应观察的闭合阀门接口，不模拟连接、放液或泄漏测试。",
+          "es": "Si la abertura está descentrada, revise posición. Si coincide pero el ribete bloquea el acceso previsto, revise tamaño o dirección y vuelva a comprobar solape cerrado. Sin el conector previsto, deje pendiente la comprobación. La escena muestra la válvula cerrada, no conexión, descarga ni ensayo de fugas."
+        }
+      ],
+      "image": {
+        "file": "images/editorial/2026-11-13-batch09/ibc-valve-approach-clearance.webp",
+        "kind": "illustration",
+        "alt": {
+          "en": "Closed outlet visible through a lifted lower access flap above the black pallet deck and fork opening",
+          "zh": "下检修盖掀起后可见闭合出液口，下方为黑色托盘面与进叉口",
+          "es": "Salida cerrada visible bajo solapa inferior levantada, sobre plataforma negra y hueco de horquilla"
+        },
+        "caption": {
+          "en": "Observe the fitting approach and lower hem separately. Connector clearance still requires the actual intended fitting.",
+          "zh": "分别观察接口靠近空间与下摆。接头净空仍需实际目标接头核对。",
+          "es": "Observe por separado acceso y borde inferior. La holgura del conector exige la conexión real prevista."
+        }
+      }
     },
     {
       "heading": {
@@ -103,6 +159,7 @@ const article: EditorialArticle = {
       "zh": "保温罩套好后，分别检查顶部桶盖口和下方阀门口。",
       "es": "Compruebe por separado las aberturas de tapa y válvula con la funda colocada."
     }
-  }
+  },
+  "updatedAt": "2026-11-13"
 }
 export default article

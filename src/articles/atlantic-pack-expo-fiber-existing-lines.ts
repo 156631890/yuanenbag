@@ -66,6 +66,97 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
+        "en": "Keep three demonstration records instead of one paper claim",
+        "zh": "分别留存三种演示的证据",
+        "es": "Conserve tres registros de demostración"
+      },
+      "paragraphs": [
+        {
+          "en": "Atlantic’s recap identifies three material–machine combinations. Use each as a separate starting point for a supplier discussion. The table records what was described and what a buyer still needs for a matched application trial. It is not a record of YUANEN equipment or a promise that the same result transfers to another coated paper, product shape or line setup.",
+          "zh": "Atlantic回顾列出了三种材料与设备组合，应分别作为与供应方讨论的起点。下表区分原文描述与买方匹配应用仍需索取的证据，不代表远恩设备或试验，也不保证换用涂布纸、产品形态或生产设置后结果相同。",
+          "es": "El resumen de Atlantic identifica tres combinaciones material-máquina. Trátelas por separado. La tabla distingue lo descrito de la evidencia pendiente para su aplicación; no documenta equipos YUANEN ni transfiere resultados a otro papel, producto o ajuste."
+        }
+      ],
+      "table": {
+        "caption": {
+          "en": "Demonstrated format and next evidence",
+          "zh": "演示形式与下一步证据",
+          "es": "Formato y evidencia pendiente"
+        },
+        "columns": [
+          {
+            "en": "Format",
+            "zh": "形式",
+            "es": "Formato"
+          },
+          {
+            "en": "Original recap",
+            "zh": "原始回顾内容",
+            "es": "Resumen original"
+          },
+          {
+            "en": "Request for the proposed trial",
+            "zh": "拟用方案索证",
+            "es": "Solicitud para prueba propuesta"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "en": "Mailer",
+              "zh": "邮寄包装",
+              "es": "Sobre de envío"
+            },
+            {
+              "en": "Garrido AMS-JR forms a fiber mailer around the product",
+              "zh": "Garrido AMS-JR围绕产品成型纤维邮寄包装",
+              "es": "Garrido AMS-JR forma sobre de fibra alrededor del producto"
+            },
+            {
+              "en": "Paper specification, product envelope, changeover and finished sample",
+              "zh": "纸材规格、产品外廓、换线条件与成品样品",
+              "es": "Papel, contorno del producto, cambio y muestra final"
+            }
+          ],
+          [
+            {
+              "en": "Overwrap",
+              "zh": "外包裹",
+              "es": "Sobreenvoltura"
+            },
+            {
+              "en": "Canopy paper on Marden Edwards tuck-and-fold equipment",
+              "zh": "Canopy纸配Marden Edwards折叠裹包设备",
+              "es": "Papel Canopy en equipo de plegado Marden Edwards"
+            },
+            {
+              "en": "Carton geometry, printed paper and fold/closure reference",
+              "zh": "盒体形状、印刷纸材与折合／闭合记录",
+              "es": "Geometría, papel impreso y referencia de cierre"
+            }
+          ],
+          [
+            {
+              "en": "Paperboard blister format",
+              "zh": "纸板泡罩形式",
+              "es": "Formato blíster de cartón"
+            },
+            {
+              "en": "Paperform plus Canopy HS100 on Starview equipment",
+              "zh": "Paperform与Canopy HS100配Starview设备",
+              "es": "Paperform y Canopy HS100 en equipo Starview"
+            },
+            {
+              "en": "Formed component, sealing paper, setup and finished-pack assessment",
+              "zh": "成型件、封合纸、设备设置与完整包装评价",
+              "es": "Pieza formada, papel de sellado, ajustes y evaluación final"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "heading": {
         "en": "Keep the conclusion within the demonstrated scope",
         "zh": "结论限定在所演示的组合内",
         "es": "Limite la conclusión al conjunto demostrado"
@@ -115,6 +206,7 @@ const article: EditorialArticle = {
     "en": "United States · Chicago exhibition; supplier demonstrations",
     "zh": "美国 · 芝加哥展会及供应方演示",
     "es": "Estados Unidos · feria de Chicago y demostraciones de proveedores"
-  }
+  },
+  "updatedAt": "2026-11-13"
 }
 export default article

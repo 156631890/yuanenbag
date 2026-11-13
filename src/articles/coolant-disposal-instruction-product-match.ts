@@ -126,6 +126,25 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
+        "en": "What to do with a generic safety sheet",
+        "zh": "收到通用安全文件后怎么核对",
+        "es": "Qué hacer con una ficha genérica"
+      },
+      "paragraphs": [
+        {
+          "en": "A product name such as “gel pack” may cover more than the delivered item. Compare the document’s supplier, product identifier and revision with the quotation and delivered batch reference. Then check whether the identified contents and pouch specification are linked to that product. The composition entry may describe the contents without identifying the outer film; a missing film reference is a specific question for the supplier, not permission to classify it from its colour.",
+          "zh": "“Gel pack”这样的产品名可能覆盖多种交付物。先对照文件中的供应商、产品标识和版号与报价、交付批次编号，再核对内容物和包装膜规格是否与该产品建立关联。成分条目可能仅说明内容物，没有识别外膜；缺少膜材编号时，应把它列为供应商待答复项，不能按颜色自行分类。",
+          "es": "Un nombre como “gel pack” puede abarcar varios artículos. Compare proveedor, identificador y revisión con oferta y lote entregado. Compruebe que contenido y película están vinculados al producto. La composición puede describir solo el contenido; una película sin identificar exige preguntar al proveedor, no clasificarla por su color."
+        },
+        {
+          "en": "Hypothetical document check: the quotation names a specific water-fill pouch, but the file supplied only names a reusable gel product without a cross-reference. Keep the quotation and file together and ask for the matching instruction or a written explanation of coverage. Do not transfer another product’s disposal statement. Even a matched instruction leaves local receiving acceptance to be resolved for the intended destination.",
+          "zh": "假设核对情形：报价指向某一注水袋，而提供的文件仅写可重复使用凝胶产品，没有型号对应关系。保留报价与文件，索取匹配说明或书面适用范围解释，不挪用另一产品的处理结论。即使文件型号相符，目标地区接收方是否接受仍需另行确认。",
+          "es": "Ejemplo hipotético: la oferta identifica una bolsa rellenable, pero el archivo solo nombra un producto de gel reutilizable sin correspondencia. Conserve ambos y solicite instrucciones coincidentes o explicación escrita del alcance. No traslade la eliminación de otro producto. Aun con instrucciones correctas, queda por resolver la aceptación del receptor local."
+        }
+      ]
+    },
+    {
+      "heading": {
         "en": "Keep unknown handling decisions open",
         "zh": "资料未明时，保留操作决定为待确认",
         "es": "Mantenga pendientes las decisiones de manejo desconocidas"
@@ -176,6 +195,6 @@ const article: EditorialArticle = {
       "es": "Solo superficies y sellados; no se identifica contenido ni se demuestra eliminación."
     }
   },
-  "updatedAt": "2026-10-31"
+  "updatedAt": "2026-11-13"
 }
 export default article

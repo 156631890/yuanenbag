@@ -27,6 +27,25 @@ const article: EditorialArticle = {
   "sections": [
     {
       "heading": {
+        "en": "What the relaunched range changes—and what remains item-specific",
+        "zh": "重新推出的范围与单品待确认项",
+        "es": "Qué cambia en la gama y qué depende del artículo"
+      },
+      "paragraphs": [
+        {
+          "en": "Placon’s original page reports seven sizes, polypropylene construction, white or clear bodies, and a choice of overcap or inner-fit lid. It also says bases and lids can be printed. These are the manufacturer’s range descriptions, not dimensions or compatibility codes for a particular pair. Request the offered base code, lid code and revision on the same quotation; a shared range name cannot resolve an old/new component mix.",
+          "zh": "Placon原始页面列出七种尺寸、聚丙烯结构、白色或透明盒体，以及外扣盖或内嵌盖选择，并称盖与底可印刷。这些是制造商的产品线描述，不是具体盘盖组合的尺寸或兼容代码。应在同一报价中列出底盒代码、盖代码及版本，不能靠共同系列名称解决新旧件混用问题。",
+          "es": "Placon describe siete tamaños, polipropileno, cuerpos blancos o transparentes y tapas exteriores o de ajuste interior, además de impresión en bases y tapas. Son descripciones de gama, no dimensiones ni códigos de compatibilidad de una pareja. Pida códigos y revisión de base y tapa en una misma oferta; el nombre de gama no resuelve mezclas de versiones."
+        },
+        {
+          "en": "The public announcement attributes improved fit and leak resistance to the relaunch but does not quantify the improvement or identify every old and new item code. Ask the supplier which offered components changed and which evidence covers their intended use. Preserve the distinction between the webpage date, 26 October, and the dateline in its body, 22 October; neither requires changing this article’s original publication date.",
+          "zh": "公开公告将改善贴合与抗漏归于此次重新推出，但未量化改善幅度，也未逐一列出新旧单品代码。应向供应方核对具体哪些供货部件发生变化、哪些证据覆盖其目标用途。页面日期10月26日与正文电头10月22日的区别继续保留，不因此改动本文原发布日期。",
+          "es": "El anuncio atribuye mejor ajuste y resistencia a fugas al relanzamiento, pero no cuantifica la mejora ni enumera todos los códigos anteriores y nuevos. Pregunte qué componentes cambian y qué evidencia cubre el uso. Mantenga separados el 26 de octubre mostrado en página y el 22 de octubre del cuerpo, sin alterar la publicación original de este artículo."
+        }
+      ]
+    },
+    {
+      "heading": {
         "en": "A revised closure needs an identifiable pair",
         "zh": "更新盖合设计，先识别配套盒盖与盒身",
         "es": "Un cierre revisado requiere una pareja identificable"
@@ -99,6 +118,7 @@ const article: EditorialArticle = {
       "zh": "通用圆形餐盒准备画面，不展示HomeFresh型号或经核验的闭合结果。",
       "es": "Escena genérica de preparación de recipientes redondos; no muestra un modelo HomeFresh ni un resultado de cierre verificado."
     }
-  }
+  },
+  "updatedAt": "2026-11-13"
 }
 export default article
