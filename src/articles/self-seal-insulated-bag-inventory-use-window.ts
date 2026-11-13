@@ -61,6 +61,97 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
+        "en": "Match the planned withdrawal to the written window",
+        "zh": "把计划领用日对应到书面窗口",
+        "es": "Compare retirada prevista y período documentado"
+      },
+      "paragraphs": [
+        {
+          "en": "Keep the basis date attached to its definition. A document dated on issue is not automatically a manufacture-date-based use window, and receipt date does not replace either. Ask the supplier to link the instruction to the finished-bag construction and batch, then compare each planned withdrawal with the stated conditions. When coverage is missing or the date lies outside it, hold the affected stock for a written disposition or a separately agreed sample review; a visual check cannot create an extension.",
+          "zh": "起算日期必须连同定义保留。文件签发日不自动构成从生产日起算的使用窗口，收货日也不能替代这两者。应请供应方把说明关联至成品袋结构与批次，再将每次计划领用对应到所述条件。缺覆盖或超出窗口时，相关库存先待书面处置或另行约定样品评估；外观检查不能自行延长期限。",
+          "es": "Conserve fecha base y definición. La emisión de un documento no crea automáticamente un período desde fabricación, ni recepción sustituye esas fechas. Vincule instrucciones a construcción y lote de bolsa terminada y contraste cada retirada prevista con condiciones. Sin cobertura o fuera del período, retenga existencias hasta disposición escrita o revisión de muestra acordada; la inspección visual no extiende plazos."
+        }
+      ],
+      "table": {
+        "caption": {
+          "en": "Batch withdrawal worksheet—no shelf life assumed",
+          "zh": "批次领用记录——不假定保质期",
+          "es": "Registro por lote, sin vida útil supuesta"
+        },
+        "columns": [
+          {
+            "en": "Record",
+            "zh": "记录项",
+            "es": "Registro"
+          },
+          {
+            "en": "Supplier / stock evidence",
+            "zh": "供应／库存证据",
+            "es": "Evidencia proveedor / existencias"
+          },
+          {
+            "en": "Decision",
+            "zh": "处理",
+            "es": "Decisión"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "en": "Batch and construction",
+              "zh": "批次与结构",
+              "es": "Lote y construcción"
+            },
+            {
+              "en": "Bag ID ___; batch ___; instruction revision ___",
+              "zh": "袋型___；批次___；说明版___",
+              "es": "Bolsa ___; lote ___; revisión ___"
+            },
+            {
+              "en": "Match before applying the instruction",
+              "zh": "对应后再应用说明",
+              "es": "Vincular antes de aplicar"
+            }
+          ],
+          [
+            {
+              "en": "Date basis and conditions",
+              "zh": "起算与条件",
+              "es": "Fecha base y condiciones"
+            },
+            {
+              "en": "Basis meaning ___; date ___; storage record ___",
+              "zh": "起算含义___；日期___；储存记录___",
+              "es": "Definición ___; fecha ___; almacenamiento ___"
+            },
+            {
+              "en": "Resolve missing dates or storage deviations",
+              "zh": "解决缺日期或储存偏差",
+              "es": "Resolver fechas o desviaciones"
+            }
+          ],
+          [
+            {
+              "en": "Planned withdrawal",
+              "zh": "计划领用",
+              "es": "Retirada prevista"
+            },
+            {
+              "en": "Date ___; covered / unknown / outside ___",
+              "zh": "日期___；覆盖／未知／超出___",
+              "es": "Fecha ___; cubierto / desconocido / fuera ___"
+            },
+            {
+              "en": "Written disposition ___; responsible person ___",
+              "zh": "书面处置___；责任人___",
+              "es": "Disposición escrita ___; responsable ___"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "heading": {
         "en": "Resolve an uncovered use date before release",
         "zh": "领用日期超出已确认范围时，先复核",
         "es": "Revise las fechas no cubiertas antes de autorizar el uso"
@@ -120,6 +211,6 @@ const article: EditorialArticle = {
       "es": "Bolsas planas vacías con una faja de papel. La escena no acredita lote, cantidad ni vida de almacenamiento reales."
     }
   },
-  "updatedAt": "2026-10-31"
+  "updatedAt": "2026-11-13"
 }
 export default article

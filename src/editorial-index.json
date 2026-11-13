@@ -1219,6 +1219,7 @@
     "kind": "guide",
     "slug": "pizza-bag-passive-insulation-heating-requirement",
     "publishedAt": "2026-10-21",
+    "updatedAt": "2026-11-13",
     "title": {
       "en": "Check the Bag Specification When Delivery Requires Active Heating",
       "zh": "需要主动加热时，先核对披萨包范围",
@@ -1330,6 +1331,7 @@
     "kind": "guide",
     "slug": "roll-cage-cover-curtain-gate-access-trial",
     "publishedAt": "2026-11-05",
+    "updatedAt": "2026-11-13",
     "title": {
       "en": "Trial the Roll Cage Curtain and Gate Before Ordering",
       "zh": "笼车保温罩打样，要连前帘、车门和取货一起试",
@@ -1393,7 +1395,7 @@
     "kind": "guide",
     "slug": "self-seal-closure-tamper-evidence-requirements",
     "publishedAt": "2026-10-24",
-    "updatedAt": "2026-10-31",
+    "updatedAt": "2026-11-13",
     "title": {
       "en": "Specify Self-Sealing and Opening Evidence Separately",
       "zh": "自粘封口与开启痕迹，需要分别确认",
@@ -1425,7 +1427,7 @@
     "kind": "guide",
     "slug": "self-seal-insulated-bag-inventory-use-window",
     "publishedAt": "2026-10-24",
-    "updatedAt": "2026-10-31",
+    "updatedAt": "2026-11-13",
     "title": {
       "en": "Confirm the Storage and Use Window for Self-Seal Bags",
       "zh": "分批领用自粘保温袋前，确认库存使用期限",

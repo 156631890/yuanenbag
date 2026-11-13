@@ -17298,5 +17298,107 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-13-batch11/cage-curtain-before-gate.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/5dd9ea984437-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/d0dce32b7729-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/c6b3809a869e-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/4f12b1e1f891-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/bbf759c25f39-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/3d9185fb0399-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/1c492f6ef203-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-13-batch11/cage-gate-carton-path.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/884f6cb8eae7-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/35a3abfeb8b8-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/7329ba622caa-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/725726a440ec-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/a32adf9aa4e8-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/4038854d7394-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/cde5f742d02b-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-13-batch11/self-seal-release-liner.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/31561b459dde-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/477b65d30ab4-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/619a2654cb9e-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/b092373f1930-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/8ec9a5b08878-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/168848de6b0f-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/2c7456448935-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

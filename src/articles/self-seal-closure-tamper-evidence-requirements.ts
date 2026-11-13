@@ -54,6 +54,39 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
+        "en": "Decide whether closing alone answers the requirement",
+        "zh": "判断普通闭合是否满足需求",
+        "es": "Decida si basta con cerrar"
+      },
+      "paragraphs": [
+        {
+          "en": "If the requirement is ordinary closure for the agreed handling, review the adhesive flap and actual sample against that purpose. If the requirement is a visible indication after opening, specify what must change, who must recognise it and under which conditions; treat an independent indicator as a separate proposed component. If the buyer requires that evidence and no matching component or test is offered, record a scope mismatch rather than approving the bag from its appearance.",
+          "zh": "若需求是约定搬运中的普通闭合，应按该用途核对自粘翻口和实际样品；若需求是开启后可见指示，则写明什么必须改变、谁需识别、在何种条件下识别，独立指示件作为单独拟定部件。买方要求这种证据而没有匹配部件或试验时，应记录范围不符，不能按袋子外观批准。",
+          "es": "Si se requiere cierre ordinario durante manipulación acordada, revise solapa adhesiva y muestra para ese fin. Si exige indicación visible tras abrir, defina cambio, observador y condiciones; un indicador independiente es componente propuesto aparte. Si falta componente o ensayo que lo respalde, registre incompatibilidad de alcance sin aprobar por apariencia."
+        },
+        {
+          "en": "An opening indicator also does not replace the buyer’s product-risk controls. Define the closure decision separately from food handling, hygiene, chain of custody or any other applicable requirement. A white release strip identifies a component to inspect, not an established security claim.",
+          "zh": "开启指示也不能代替买方的产品风险控制。闭合判断应与食品处理、卫生、交接追踪等适用要求分开。白色离型条仅识别待检查部件，不建立安全防拆承诺。",
+          "es": "Un indicador tampoco sustituye controles del riesgo del producto. Separe cierre de manipulación alimentaria, higiene, custodia u otros requisitos. La tira blanca identifica un componente que revisar, no acredita seguridad contra manipulación."
+        }
+      ],
+      "image": {
+        "file": "images/editorial/2026-11-13-batch11/self-seal-release-liner.webp",
+        "kind": "illustration",
+        "alt": {
+          "en": "Silver insulated pouch with extended flap, white release liner and a fingertip nearby",
+          "zh": "银色保温袋延伸翻口、白色离型条与旁侧指尖",
+          "es": "Bolsa térmica plateada con solapa extendida, protector blanco y dedo próximo"
+        },
+        "caption": {
+          "en": "Closing components only; no opening indicator, adhesion result or tamper test is shown.",
+          "zh": "仅展示闭合部件，不证明开启指示、粘接结果或防拆试验。",
+          "es": "Solo componentes de cierre; sin acreditar indicador, adhesión ni ensayo antimanipulación."
+        }
+      }
+    },
+    {
+      "heading": {
         "en": "Review the two requirements on the same sample",
         "zh": "用同一份样品记录分项复核",
         "es": "Revise ambos requisitos sobre la misma muestra"
@@ -125,6 +158,6 @@ const article: EditorialArticle = {
       "es": "Forma ordinaria de bolsa con franja blanca superior. No muestra un indicador específico de apertura ni prestaciones de cierre ensayadas."
     }
   },
-  "updatedAt": "2026-10-31"
+  "updatedAt": "2026-11-13"
 }
 export default article

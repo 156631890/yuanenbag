@@ -40,6 +40,34 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
+        "en": "Clear the curtain before assessing the gate",
+        "zh": "先处理前帘，再判断车门",
+        "es": "Despeje la cortina antes de evaluar la puerta"
+      },
+      "paragraphs": [
+        {
+          "en": "Record the curtain position while the gate remains closed, then check whether the gate can begin its intended movement without trapping the cover edge. The pictured hand-held curtain is a proposed observation state, not evidence of a supplied retention mechanism. Use the actual cage, latch and agreed curtain arrangement for the trial; do not infer an automatic hold-open function from a rolled appearance.",
+          "zh": "先在车门仍闭合时记录前帘位置，再检查门能否开始预定运动而不夹住罩边。图中手持前帘只是拟观察状态，不代表供货包含固定机构。试装需使用实际笼车、锁扣与约定帘结构，不能从卷起外观推断自动保持开启功能。",
+          "es": "Registre cortina con puerta aún cerrada y compruebe si puede iniciar su movimiento sin atrapar el borde. La cortina sostenida a mano propone una observación, no un mecanismo incluido. Pruebe con carro, cierre y disposición acordados, sin inferir retención automática por verla enrollada."
+        }
+      ],
+      "image": {
+        "file": "images/editorial/2026-11-13-batch11/cage-curtain-before-gate.webp",
+        "kind": "illustration",
+        "alt": {
+          "en": "Operator holds a silver front curtain above the closed wire gate of a stationary cage",
+          "zh": "操作人员在静止笼车闭合网门上方手持银色前帘",
+          "es": "Operaria sostiene cortina plateada sobre puerta de malla cerrada de un carro inmóvil"
+        },
+        "caption": {
+          "en": "Check curtain clearance first. The cage and cartons are props; no field trial or retaining accessory is established.",
+          "zh": "先检查前帘空间；笼车和纸箱为道具，不证明现场试验或配套固定件。",
+          "es": "Revise primero la cortina; carro y cajas son elementos de escena, sin acreditar ensayo ni accesorio de retención."
+        }
+      }
+    },
+    {
+      "heading": {
         "en": "Find the step that interrupts the handoff",
         "zh": "找出卡住交接的具体动作",
         "es": "Localice el paso que interrumpe la entrega"
@@ -56,6 +84,34 @@ const article: EditorialArticle = {
           "es": "Registre el primer contacto, su lugar y la posición de cada pieza. Si la cortina cae en el recorrido de la caja, revise cómo mantenerla apartada. Si la puerta abre por completo en espacio libre pero golpea una estantería en el puesto previsto, revise la orientación del carro o el puesto de trabajo. Si la caja se atasca con cortina y puerta despejadas, revise juntos el hueco y el recorrido. Cada resultado requiere un ajuste y una prueba distintos."
         }
       ]
+    },
+    {
+      "heading": {
+        "en": "Classify the obstruction at the step where it appears",
+        "zh": "按出现步骤区分干涉原因",
+        "es": "Clasifique la interferencia por paso"
+      },
+      "paragraphs": [
+        {
+          "en": "After the curtain is clear, review the full gate sweep at the intended workstation; then review the carton’s exit path through the remaining opening. If the gate catches fabric, revise the curtain or edge arrangement. If the gate clears the cover but meets a wall or adjacent load, review workstation clearance. If the gate opens but the carton cannot pass, compare its complete outer envelope and grip space with the opening. Changing the curtain cannot resolve every one of these failures.",
+          "zh": "前帘让开后，在预定工位检查车门完整转动范围，再核对纸箱经过剩余开口的取出路径。门挂住布料时，应调整帘或罩边；门已避开罩体却碰到墙或相邻货物时，应检查工位空间；门能打开而箱体无法通过时，应比较箱体完整外廓、握持空间与开口。调整前帘不能解决所有这些问题。",
+          "es": "Con la cortina despejada, revise barrido completo de puerta en el puesto y después salida de la caja. Si atrapa material, revise cortina o borde; si libra la funda pero choca con pared o carga, revise puesto; si abre pero no pasa la caja, compare envolvente completa y espacio de agarre. Mover cortina no resuelve todos estos fallos."
+        }
+      ],
+      "image": {
+        "file": "images/editorial/2026-11-13-batch11/cage-gate-carton-path.webp",
+        "kind": "illustration",
+        "alt": {
+          "en": "Open left-hinged cage gate with a carton supported at the deck and held from the side",
+          "zh": "笼车左铰链网门打开，纸箱由底托支撑、侧方双手扶持",
+          "es": "Puerta izquierda abierta y caja apoyada en plataforma, sujeta desde un lado"
+        },
+        "caption": {
+          "en": "Proposed access geometry, not a lifting instruction or verified load rating.",
+          "zh": "拟取货空间，不作为搬举操作指令或已验证承重。",
+          "es": "Geometría de acceso propuesta, no instrucción de levantamiento ni capacidad verificada."
+        }
+      }
     },
     {
       "heading": {
@@ -98,6 +154,7 @@ const article: EditorialArticle = {
       "zh": "在作业位置把卷起的前帘、打开的车门和取箱空间一起检查。",
       "es": "Compruebe en el puesto la cortina recogida, la puerta abierta y el acceso a la caja."
     }
-  }
+  },
+  "updatedAt": "2026-11-13"
 }
 export default article
