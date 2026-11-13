@@ -116,7 +116,7 @@ const content: Pick<EditorialArticle, 'intro' | 'sections' | 'sources' | 'image'
       }
     },
     {
-      "url": "https://yuanenbag.com/products/water-absorbing-ice-packs/",
+      "url": "https://yuanenbag.com/products/self-absorbing-ice-packs/",
       "title": {
         "en": "Water-absorbing pouch",
         "zh": "自吸水袋",

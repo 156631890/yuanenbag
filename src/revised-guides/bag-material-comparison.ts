@@ -191,7 +191,7 @@ const content: Pick<EditorialArticle, 'intro' | 'sections' | 'sources' | 'image'
       }
     },
     {
-      "url": "https://yuanenbag.com/products/foil-box-liners/",
+      "url": "https://yuanenbag.com/products/foil-insulated-box-liners/",
       "title": {
         "en": "Box-liner construction and box fit",
         "zh": "箱内衬结构与箱体适配",

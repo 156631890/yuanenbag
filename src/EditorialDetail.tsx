@@ -9,6 +9,8 @@ import { labels, dateLabel, Breadcrumbs } from './EditorialLayout'
 
 export function EditorialDetail({ lang, article }: { lang: Lang; article: EditorialArticle }) {
   const related = article.relatedProducts.map(slug => bags.find(bag => bag.slug === slug)!)
+  const sourceFirst = lang === 'en' && article.kind === 'industry'
+  const relatedSection = related.length > 0 && <section className="editorial-related"><h2>{tx('Related products', '相关产品', 'Productos relacionados')[lang]}</h2><div className="related-links">{related.map(bag => <a href={href(`/products/${bag.slug}/`, lang)} key={bag.slug}>{bag.short[lang]}<ArrowUpRight size={16} /></a>)}</div></section>
   const updated = article.updatedAt || article.publishedAt
   return <article className="container page-section article editorial-article">
     <Breadcrumbs lang={lang} items={[{ label: labels[article.kind][lang], path: archivePath(article.kind) }, { label: article.title[lang] }]} />
@@ -18,12 +20,13 @@ export function EditorialDetail({ lang, article }: { lang: Lang; article: Editor
     </header>
     <ArticleFigure image={article.image} lang={lang} eager />
     <ArticleSections sections={article.sections} lang={lang} />
-    {related.length > 0 && <section className="editorial-related"><h2>{tx('Related products', '相关产品', 'Productos relacionados')[lang]}</h2><div className="related-links">{related.map(bag => <a href={href(`/products/${bag.slug}/`, lang)} key={bag.slug}>{bag.short[lang]}<ArrowUpRight size={16} /></a>)}</div></section>}
+    {!sourceFirst && relatedSection}
     <section className="guide-sources"><h2>{tx('Sources and scope', '资料来源与适用范围', 'Fuentes y alcance')[lang]}</h2>
       <p>{tx('Check the cited sources. Product specifications are subject to order confirmation and the agreed sample. This article is not a product test report or a regulatory certification.', '请核对所引资料。具体产品规格以订单确认和样品为准。本文不是产品测试报告或法规认证。', 'Consulte las fuentes citadas. Las especificaciones dependen de la confirmación del pedido y de la muestra acordada. Este artículo no es un informe de ensayo ni una certificación.')[lang]}</p>
       {article.sources.length > 0 && <ul>{article.sources.map(source => <li key={source.url}><a href={source.url} target="_blank" rel="noreferrer">{source.title[lang]}</a>{source.publishedAt && <> · <time dateTime={source.publishedAt}>{dateLabel(source.publishedAt, lang)}</time></>}</li>)}</ul>}
       <div className="related-links"><a href={href('/about/', lang)}>{tx('About YUANEN', '了解远恩', 'Acerca de YUANEN')[lang]}<ArrowUpRight size={16} /></a><a href={href('/contact/', lang)}>{tx('Discuss your specification', '沟通您的采购规格', 'Consultar su especificación')[lang]}<ArrowUpRight size={16} /></a></div>
     </section>
+    {sourceFirst && relatedSection}
     <a className="button primary" href={href('/contact/', lang)}>{tx('Prepare an enquiry', '准备询价', 'Preparar una consulta')[lang]}<ArrowUpRight size={18} /></a>
   </article>
 }
