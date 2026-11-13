@@ -70,9 +70,12 @@ export function startAnalytics() {
 function safeReferrer() {
   try { return document.referrer ? new URL(document.referrer).origin : '' } catch { return '' }
 }
-export function trackEnquiry(event: 'enquiry_sent' | 'enquiry_draft_prepared' | 'enquiry_brief_download' | 'enquiry_email_open') {
+const enquiryEvents = ['enquiry_sent', 'enquiry_draft_prepared', 'enquiry_brief_download', 'enquiry_email_open',
+  'product_quote_click', 'enquiry_form_start', 'enquiry_whatsapp_open'] as const
+
+export function trackEnquiry(event: typeof enquiryEvents[number]) {
   if (!activeId || choice !== 'granted') return
-  if (!['enquiry_sent', 'enquiry_draft_prepared', 'enquiry_brief_download', 'enquiry_email_open'].includes(event)) return
+  if (!enquiryEvents.includes(event)) return
   // Only the action is recorded. No form values, mailto link or generated brief.
   const win = window as AnalyticsWindow
   win.gtag?.('event', event, { send_to: activeId })

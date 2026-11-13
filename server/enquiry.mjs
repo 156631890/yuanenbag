@@ -18,7 +18,8 @@ function validate(body) {
   if (body.consent !== true || !['en', 'zh', 'es'].includes(body.lang) || body.website) return null
   const quantity = String(body.quantity ?? '')
   if (!/^\d{1,9}$/.test(quantity) || Number(quantity) < 1 || Number(quantity) > 100000000) return null
-  return { ...result, quantity, lang: body.lang }
+  if (body.quantityUnit !== undefined && !['pieces','rolls','sheets'].includes(body.quantityUnit)) return null
+  return { ...result, quantity, ...(body.quantityUnit && { quantityUnit: body.quantityUnit }), lang: body.lang }
 }
 
 function smtpConfig(env) {

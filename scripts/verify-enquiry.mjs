@@ -28,6 +28,14 @@ for (const change of [{ name: '' }, { email: 'buyer@example.test\r\nBcc: strange
   assert.equal((await request(handler, { ...valid, ...change })).statusCode, 400, JSON.stringify(Object.keys(change)))
 }
 assert.equal(sent.length, 0)
+const unitHandler = createEnquiryHandler({ env, createTransport: mockTransport })
+const foil = { ...valid, bag: 'gusseted-self-seal-foil-bags', quantityUnit: 'pieces', dimensions: 'Lid 18 cm, base 16 cm' }
+assert.equal((await request(unitHandler, { ...foil, quantityUnit: 'arbitrary' })).statusCode, 400)
+assert.equal((await request(unitHandler, foil)).statusCode, 200)
+assert(sent[0].text.includes('bag: gusseted-self-seal-foil-bags'))
+assert(sent[0].text.includes('quantityUnit: pieces'))
+assert(sent[0].text.includes('dimensions: Lid 18 cm, base 16 cm'))
+sent = []
 assert.equal((await request(createEnquiryHandler({ env: {}, createTransport: mockTransport }))).statusCode, 503)
 const success = await request(handler, { ...valid, to: 'attacker@example.test', from: 'fake@example.test' })
 assert.equal(success.statusCode, 200)
