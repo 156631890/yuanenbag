@@ -138,6 +138,25 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
+        "en": "Different handling histories do not make a matched comparison",
+        "zh": "处理历史不同，不能直接对比",
+        "es": "Historias de manipulación distintas no son comparables"
+      },
+      "paragraphs": [
+        {
+          "en": "Hypothetical record: sample A is reviewed immediately after opening its transport wrapper; sample B has already been aired or cleaned. A difference between the observations cannot isolate material or production as its cause because handling history also differs. Keep both histories, ask for the missing receipt and treatment record, and agree a comparable review state before drawing an acceptance conclusion. Do not add an unapproved cleaning treatment simply to obtain a preferred result.",
+          "zh": "假设记录：样品A拆开运输包装后立即观察，样品B已通风或清洁。两者观察差异不能单独归因于材料或生产，因为处理历史也不同。应保留两份历史，补齐收货与处理记录，再约定可比的评估状态后判断接受与否。不能为获得预期结果自行增加未确认的清洁处理。",
+          "es": "Ejemplo hipotético: A se observa al abrir su envoltorio y B ya fue ventilada o limpiada. La diferencia no aísla material o producción como causa, pues también cambia la manipulación. Conserve ambos historiales, solicite registros faltantes y acuerde un estado comparable antes de aceptar. No añada limpieza no aprobada para obtener un resultado deseado."
+        },
+        {
+          "en": "Record who observed the sample, when, in which location, and the words used to describe the observation. If a required use needs chemical, hygiene or health evidence, refer that requirement to an appropriate documented assessment. A subjective odour record does not establish any of those conclusions.",
+          "zh": "记录观察人、时间、位置与描述原话。若目标用途需要化学、卫生或健康证据，应转入相应有文件依据的评估；主观气味记录不能建立这些结论。",
+          "es": "Registre observador, momento, lugar y descripción empleada. Si el uso requiere evidencia química, higiénica o sanitaria, remítala a una evaluación documentada adecuada. Un registro subjetivo de olor no acredita esas conclusiones."
+        }
+      ]
+    },
+    {
+      "heading": {
         "en": "Resolve acceptance against the actual proposed order",
         "zh": "围绕拟下订单解决样品接受问题",
         "es": "Resuelva la aceptación para el pedido propuesto"
@@ -183,18 +202,19 @@ const article: EditorialArticle = {
     }
   ],
   "image": {
-    "file": "images/editorial/2026-11-02/sample-arrival-unpacking-review-record.webp",
+    "file": "images/editorial/2026-11-13-batch10/yellow-sample-unpacking-history.webp",
     "kind": "illustration",
     "alt": {
-      "en": "Three numbered stages show a closed transit carton, a yellow handled lunch bag and a blank review sheet",
-      "zh": "三个编号阶段依次展示闭合运输纸箱、黄色提手午餐袋和空白复核表",
-      "es": "Tres etapas numeradas muestran una caja de transporte cerrada, una bolsa amarilla con asas y una ficha de revisión vacía"
+      "en": "Closed yellow lunch bag beside an open plain carton and removed translucent wrapper",
+      "zh": "闭合黄色午餐袋、打开的普通纸箱与拆下的半透明包装袋",
+      "es": "Bolsa amarilla cerrada junto a caja abierta y envoltorio translúcido retirado"
     },
     "caption": {
-      "en": "Receipt, unpacked sample and pending review record are separate stages. The composition shows no odor observation or test result.",
-      "zh": "收样、取出样品与待填写复核记录分别呈现；画面没有气味观察或测试结果。",
-      "es": "La recepción, la muestra desembalada y el registro pendiente son etapas distintas. La composición no muestra una observación de olor ni resultados de ensayo."
+      "en": "Receiving context for recording sample history; no odour or safety result is shown.",
+      "zh": "用于记录样品历史的收货场景，未展示气味或安全结果。",
+      "es": "Contexto de recepción para registrar historial; no muestra resultado de olor ni seguridad."
     }
-  }
+  },
+  "updatedAt": "2026-11-13"
 }
 export default article

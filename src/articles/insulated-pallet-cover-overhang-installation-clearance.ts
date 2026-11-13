@@ -54,6 +54,39 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
+        "en": "Keep the deck reference through installation and handling",
+        "zh": "安装与搬运使用同一托盘顶面基准",
+        "es": "Mantenga la plataforma como referencia"
+      },
+      "paragraphs": [
+        {
+          "en": "Record the maximum wrapped-load envelope above the pallet deck, including any bulging packaging or protruding corner. Then check the proposed installation position: a hood that fits the finished envelope may still be difficult to lower over it where overhead space is restricted. The required working clearance depends on the installation method and must be reviewed at the actual workstation, rather than added as an invented universal allowance.",
+          "zh": "记录托盘顶面以上完整包装货物的最大外廓，包括鼓包和凸角，再检查拟安装位置。罩体即使能容纳最终外廓，也可能因上方空间不足而无法套下。操作余量取决于安装方法，应在实际工位核对，不虚构通用余量。",
+          "es": "Registre la envolvente máxima embalada desde la plataforma, incluidos abultamientos y esquinas salientes. Revise dónde se instalará: una funda que admite la carga final puede no poder bajarse con poco espacio superior. La holgura depende del método y puesto real, no de un margen universal inventado."
+        },
+        {
+          "en": "After fitting, inspect each lower edge relative to the deck and fork openings. If the hem enters an opening, resolve the agreed size, seating position or proposed hem revision before handling; do not treat folding it out of the way as an approved permanent fix. If the upper operation fails while lower seating is correct, review the installation arrangement separately. Neither check supplies a temperature-performance result.",
+          "zh": "套好后逐边检查下摆与托盘顶面、叉口的关系。下摆进入叉口时，应先解决约定尺寸、就位位置或拟改下摆，不能把临时折起当作已批准的永久方案。若下缘就位正确但上方操作失败，应另行调整安装安排；两种检查都不提供温控性能结果。",
+          "es": "Tras colocarla, revise cada borde frente a plataforma y entradas de horquilla. Si el faldón invade una entrada, resuelva medida, posición o revisión propuesta antes de manipular; plegarlo provisionalmente no aprueba una solución permanente. Si falla la instalación superior pero asienta abajo, revise esa operación por separado. Ninguna revisión acredita rendimiento térmico."
+        }
+      ],
+      "image": {
+        "file": "images/editorial/2026-11-13-batch10/pallet-hem-fork-clearance.webp",
+        "kind": "illustration",
+        "alt": {
+          "en": "Silver pallet hood lower edge above unobstructed wooden pallet openings",
+          "zh": "银色托盘罩下缘位于木托盘叉口上方",
+          "es": "Borde inferior de funda plateada sobre entradas libres del palé"
+        },
+        "caption": {
+          "en": "Inspect the hem against the pallet deck. No clearance dimension or completed handling test is shown.",
+          "zh": "对照托盘顶面检查下摆；画面不提供间隙尺寸或已完成搬运测试。",
+          "es": "Revise el borde respecto a la plataforma; no muestra holguras medidas ni ensayo de manipulación."
+        }
+      }
+    },
+    {
+      "heading": {
         "en": "Approve where the lower edge lands",
         "zh": "验收下沿实际落点",
         "es": "Apruebe la posición del borde inferior"
@@ -98,6 +131,7 @@ const article: EditorialArticle = {
       "zh": "核对罩体上方的安装空间，并给托盘叉孔留空。",
       "es": "Compruebe el espacio de montaje sobre la carga cubierta y deje libres los huecos del palé."
     }
-  }
+  },
+  "updatedAt": "2026-11-13"
 }
 export default article

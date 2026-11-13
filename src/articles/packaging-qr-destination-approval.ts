@@ -111,6 +111,97 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
+        "en": "Keep the encoded address and the final destination together",
+        "zh": "把编码地址与最终目的地放在同一记录",
+        "es": "Registre dirección codificada y destino final"
+      },
+      "paragraphs": [
+        {
+          "en": "Treat the following as a release record to fill using the actual artwork and live destination, not a claim that this blank-screen picture has been scanned. Preserve the original encoded string before redirects. Then check the final URL, displayed language, intended product and selected enquiry option. A page may return normally while the product option is absent or the language is wrong. Resolve that mismatch with the destination owner before releasing print.",
+          "zh": "下表应用真实图稿与在线目的地填写，不代表空白屏幕图片已扫码。先保留重定向前的原始编码字符串，再核对最终URL、显示语言、目标产品与询盘已选项。网页正常返回也可能产品选项缺失或语言错误；印刷放行前应与目的地责任方解决差异。",
+          "es": "Complete el registro con gráfica real y destino activo; la pantalla vacía no prueba lectura. Conserve cadena codificada antes de redirecciones y compruebe URL final, idioma, producto y opción de consulta. Una página puede responder con normalidad pero sin producto seleccionado o en idioma incorrecto. Resuelva con su responsable antes de imprimir."
+        }
+      ],
+      "table": {
+        "caption": {
+          "en": "Destination release record",
+          "zh": "目的地放行记录",
+          "es": "Registro de liberación del destino"
+        },
+        "columns": [
+          {
+            "en": "Check",
+            "zh": "检查项",
+            "es": "Comprobación"
+          },
+          {
+            "en": "Actual record",
+            "zh": "实际记录",
+            "es": "Registro real"
+          },
+          {
+            "en": "Owner / response",
+            "zh": "责任／处理",
+            "es": "Responsable / acción"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "en": "Encoded URL → final URL",
+              "zh": "编码URL→最终URL",
+              "es": "URL codificada → final"
+            },
+            {
+              "en": "Original ___; redirect ___; final ___",
+              "zh": "原始___；跳转___；最终___",
+              "es": "Original ___; redirección ___; final ___"
+            },
+            {
+              "en": "Destination owner ___; accepted route ___",
+              "zh": "目的地责任人___；接受路由___",
+              "es": "Responsable ___; ruta aceptada ___"
+            }
+          ],
+          [
+            {
+              "en": "Language / product / selection",
+              "zh": "语言／产品／选项",
+              "es": "Idioma / producto / selección"
+            },
+            {
+              "en": "Expected ___; displayed ___; selected ___",
+              "zh": "预期___；显示___；已选___",
+              "es": "Esperado ___; mostrado ___; seleccionado ___"
+            },
+            {
+              "en": "Correct mismatch before artwork release",
+              "zh": "图稿放行前解决不一致",
+              "es": "Corregir antes de liberar gráfica"
+            }
+          ],
+          [
+            {
+              "en": "Retest after change",
+              "zh": "变更后重测",
+              "es": "Revisión tras cambio"
+            },
+            {
+              "en": "Printed version ___; date ___; device ___",
+              "zh": "印刷版___；日期___；设备___",
+              "es": "Versión impresa ___; fecha ___; dispositivo ___"
+            },
+            {
+              "en": "Keep old printed code in the recheck",
+              "zh": "复核时保留旧印码",
+              "es": "Incluir código ya impreso en la revisión"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "heading": {
         "en": "Recheck the old printed code when the website changes",
         "zh": "网站变更时，复查已经印出的旧码",
         "es": "Revise el código ya impreso cuando cambie la web"
@@ -151,18 +242,19 @@ const article: EditorialArticle = {
     "self-seal-non-woven-delivery-bags"
   ],
   "image": {
-    "file": "images/editorial/2026-11-06-guide-cover-revisions/packaging-qr-destination-approval.webp",
+    "file": "images/editorial/2026-11-13-batch10/qr-destination-desk-review.webp",
     "kind": "illustration",
     "alt": {
-      "en": "A phone camera points toward a blurred code proof on the front of a beige delivery bag.",
-      "zh": "手机摄像头朝向米色外卖袋正面经过模糊处理的码样。",
-      "es": "La cámara de un teléfono apunta a una prueba de código desenfocada en la cara de una bolsa beige de reparto."
+      "en": "White delivery bag with green handles beside a hand holding a blank-screen phone",
+      "zh": "绿提手白色配送袋，旁侧手持空白屏幕手机",
+      "es": "Bolsa blanca con asas verdes junto a mano con teléfono de pantalla vacía"
     },
     "caption": {
-      "en": "Check the printed proof on the intended bag with a phone. The pictured code is illustrative.",
-      "zh": "用手机核对拟用袋面上的印样。画面中的码样仅用于展示位置。",
-      "es": "Compruebe con un teléfono la prueba impresa en la bolsa prevista. El código de la imagen es ilustrativo."
+      "en": "Check the intended destination separately. No printed code or successful scan is shown.",
+      "zh": "目的地须另行核对；画面未展示印码或成功扫码。",
+      "es": "Compruebe el destino por separado; no muestra código impreso ni lectura correcta."
     }
-  }
+  },
+  "updatedAt": "2026-11-13"
 }
 export default article

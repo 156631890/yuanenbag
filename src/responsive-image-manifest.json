@@ -17060,5 +17060,243 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-13-batch10/yellow-sample-unpacking-history.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/4149ebf03ba2-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/15b2cefcf915-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/d9be396016af-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/1a3e8403790e-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/b959a1d8fdb8-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/b4c8855572e2-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/29c7a6739637-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-13-batch10/qr-destination-desk-review.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/003626176aac-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/1f8e3981b01d-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/57b95228125a-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/6589c8b65510-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/b2452132b43a-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/7f22d99cc71f-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/ab4304df9ff8-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-13-batch10/whole-ice-sheet-receiving.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/0f2bfb7b91fe-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/112a0e5b120d-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/d50ceb0915f3-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/78aeb0ffde39-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/cb979519c128-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/46fe1deaa03d-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/bf991dbdeb30-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-13-batch10/roll-core-boundaries.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/93b6c0892cd1-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/d65bb8fb2892-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/4f3e296cc99d-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/098ed068d671-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/1830c7664051-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/78ab80aece70-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/7d1b09315210-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-13-batch10/laminate-interface-edge.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/c1e6f11199f7-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/62bc2dfc2c8c-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/225d58622b62-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/fa323287bce0-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/de13a8214761-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/dee9137940b3-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/6efedb91f068-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-13-batch10/pallet-hem-fork-clearance.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/d79be2b5c47b-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/ef31f6e4f11b-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/4ef37bbd2b29-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/418798e20960-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/b030eec40593-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/e80eeaee527e-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/a10372f0b89c-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-13-batch10/bubble-corner-contact.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/e0476efdbeb5-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/74f7dd844e23-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/68e826761fb4-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/ff608cffd2b0-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/51320121eae8-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/c0417178f486-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/68ef673a2dcd-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

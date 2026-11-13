@@ -78,6 +78,25 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
+        "en": "A reproducible teaching calculation",
+        "zh": "可复算的教学演算",
+        "es": "Cálculo didáctico reproducible"
+      },
+      "paragraphs": [
+        {
+          "en": "Teaching assumptions only: a roll costs 120 currency units, length is 50 m and quoted full width is 1.00 m. Gross area is 50.0 m², so the gross-area price is 2.40 per m². If the agreed usable width is 0.96 m after edge exclusion, usable area is 48.0 m² and the price becomes 2.50 per usable m². Do not subtract those same edges again. These numbers are invented for arithmetic instruction, not a YUANEN quotation or expected waste rate.",
+          "zh": "仅供教学的假设：一卷价格120货币单位，长50m，报价全幅宽1.00m。毛面积50.0m²，按毛面积计价为2.40/m²。若排除边部后的约定可用宽度为0.96m，可用面积48.0m²，单位可用面积价格为2.50/m²，不再重复扣除相同边部。这些数字仅用于演算，不是远恩报价或预期损耗率。",
+          "es": "Supuestos didácticos: precio 120 unidades monetarias, longitud 50 m y anchura total 1,00 m. Área bruta 50,0 m² y precio 2,40/m². Si la anchura útil acordada tras excluir bordes es 0,96 m, quedan 48,0 m² y 2,50 por m² útil; no reste otra vez esos bordes. Cifras inventadas para explicar cálculo, no oferta YUANEN ni merma esperada."
+        },
+        {
+          "en": "If the agreed splice disposition also excludes a combined 1 m of length in this example, use (50 − 1) × 0.96 = 47.04 m², giving 120 ÷ 47.04 ≈ 2.55 per usable m². Only use that exclusion when actual splice positions and the cutting rule support it. A count of joints cannot supply the missing excluded length, and usable area alone does not prove how many intact cut pieces the layout yields.",
+          "zh": "若本教学例的约定接头处置还要合计排除1m卷长，则分母为(50−1)×0.96=47.04m²，120÷47.04≈2.55/可用m²。只有实际接头位置和裁切规则支持时才这样扣除。接头个数不能代替缺失的排除长度，可用面积也不能单独证明完整裁片产出数。",
+          "es": "Si el acuerdo de empalmes excluyera además 1 m total en este ejemplo, el denominador sería (50 − 1) × 0,96 = 47,04 m² y 120 ÷ 47,04 ≈ 2,55/m² útil. Solo aplique esa exclusión con posiciones y regla de corte que la respalden. El número de uniones no da longitud descartada y el área no determina piezas íntegras obtenidas."
+        }
+      ]
+    },
+    {
+      "heading": {
         "en": "Keep cut-piece output separate from area",
         "zh": "面积与裁片产出分开比较",
         "es": "Separe superficie y cantidad de piezas"
@@ -130,6 +149,7 @@ const article: EditorialArticle = {
       "zh": "两条胶带在整幅卷材内标出一段示例可用幅宽。",
       "es": "Las dos tiras señalan un ejemplo de ancho útil dentro del ancho total."
     }
-  }
+  },
+  "updatedAt": "2026-11-13"
 }
 export default article

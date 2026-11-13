@@ -59,6 +59,39 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
+        "en": "Use two evidence chains for the wrapped corner",
+        "zh": "包覆转角采用两条证据链",
+        "es": "Dos cadenas de evidencia para la esquina"
+      },
+      "paragraphs": [
+        {
+          "en": "The material chain identifies whether the specimen was a facing film or the complete laminate, its construction, test method and reported result. The application chain identifies the actual corner, contact condition, support, wrapping layout and the agreed sample evaluation. A good result on a facing film cannot by itself approve the installed laminate at a carton corner; the second chain remains unresolved.",
+          "zh": "材料证据链识别试样是面膜还是完整复合材料、结构、试验方法与结果；应用证据链识别实际转角、接触状态、支撑、包覆布局及约定样品评估。面膜结果良好不能单独批准复合材料在纸箱转角的使用，第二条证据链仍需完成。",
+          "es": "La cadena de material identifica película o laminado completo, construcción, método y resultado. La de aplicación identifica esquina real, contacto, apoyo, disposición y evaluación acordada. Un buen resultado de película no aprueba por sí solo el laminado instalado sobre la esquina; falta resolver la segunda cadena."
+        },
+        {
+          "en": "A useful return question is: “Does this result cover the offered complete construction or only its facing? Please identify the method and edition, probe or dart conditions, specimen thickness, result definition and units.” F1306 describes slow driven-probe force, energy and penetration; D1709 expresses specified falling-dart failure in terms of mass at a statistical failure level. Do not convert a dart mass into probe force or compare them as one rating. The public scopes are not a substitute for the full method used by the laboratory.",
+          "zh": "可回问：“该结果覆盖拟供完整结构，还是仅面膜？请注明方法及版本、探头或落镖条件、试样厚度、结果定义与单位。”F1306描述慢速驱动探头的力、能量及穿透；D1709用规定落镖条件下统计失效水平对应的质量表达。不能把落镖质量换成探头力并作为同一等级比较。公开范围不能代替实验室实际执行的完整方法。",
+          "es": "Pregunta útil: “¿Cubre la construcción completa ofrecida o solo su cara? Identifique método y edición, condiciones de sonda o dardo, espesor, definición y unidades”. F1306 describe fuerza, energía y penetración lenta de sonda; D1709 expresa fallo estadístico por masa de dardo en condiciones definidas. No convierta masa en fuerza de sonda ni una sola clasificación. Los alcances públicos no sustituyen el método completo del laboratorio."
+        }
+      ],
+      "image": {
+        "file": "images/editorial/2026-11-13-batch10/bubble-corner-contact.webp",
+        "kind": "illustration",
+        "alt": {
+          "en": "Silver bubble laminate bent around an intact closed carton corner",
+          "zh": "银色气泡复合材料包覆完整闭合纸箱的转角",
+          "es": "Laminado plateado de burbujas alrededor de esquina íntegra de caja cerrada"
+        },
+        "caption": {
+          "en": "Proposed contact geometry only; no puncture, damage or protective result is demonstrated.",
+          "zh": "仅展示拟接触形态，不证明穿刺、损坏或防护结果。",
+          "es": "Solo geometría de contacto propuesta, sin demostrar perforación, daños ni protección."
+        }
+      }
+    },
+    {
+      "heading": {
         "en": "Decide separately on the wrapped corner",
         "zh": "实际包角单独验收",
         "es": "Evalúe por separado la esquina envuelta"
@@ -119,6 +152,7 @@ const article: EditorialArticle = {
       "zh": "在完整包装上检查卷材与纸箱转角的接触位置。",
       "es": "Inspeccione el contacto entre la lámina y la esquina de la caja en el embalaje montado."
     }
-  }
+  },
+  "updatedAt": "2026-11-13"
 }
 export default article

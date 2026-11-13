@@ -148,6 +148,39 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
+        "en": "Count intact objects before converting units",
+        "zh": "先数完整实物，再换算单位",
+        "es": "Cuente objetos completos antes de convertir unidades"
+      },
+      "paragraphs": [
+        {
+          "en": "At receipt, retain a photograph of one whole sheet with its complete perimeter, then identify the grid on that sheet. Keep the outer-carton count and any inner-pack count separate. The picture below shows a 12-cell format to explain counting; the stack and carton do not establish packing quantity. Do not infer a cutting line or permission to separate cells from the grid.",
+          "zh": "收货时先保留一张完整外边缘可见的整片照片，再识别该片的格阵。外箱数与内包数分别记录。下图用12格形式解释计数，叠片与纸箱不代表装箱数量，不能从格阵推断裁切线或允许分格。",
+          "es": "Al recibir, conserve foto de una lámina íntegra con perímetro completo y después identifique su cuadrícula. Registre por separado cajas y paquetes interiores. La imagen usa un formato de 12 celdas para explicar el recuento; pila y caja no indican cantidad de embalaje ni permiso de corte."
+        },
+        {
+          "en": "Hypothetical arithmetic: 100 complete sheets with 6 cells per sheet contain 600 cells, but the purchase quantity is still 100 sheets if that is the agreed unit. Reconcile carton count × complete sheets per carton with the purchase order before converting to cells. If it differs, record whether the discrepancy concerns cartons, whole sheets, cell format or the quoted unit. The published MOQ wording must be clarified on the offer; this example does not redefine it.",
+          "zh": "教学假设：100整片、每片6格，共600格；若订单单位为整片，采购数量仍为100片。应先核对箱数×每箱完整片数与订单，再换算格数。若不符，写明差异来自箱数、整片数、格型还是报价单位。产品页MOQ措辞应在报价中明确，本例不重新定义MOQ。",
+          "es": "Ejemplo didáctico: 100 láminas completas de 6 celdas suman 600 celdas; si se compra por lámina, siguen siendo 100 unidades. Concilie cajas × láminas completas por caja con el pedido antes de convertir a celdas. Clasifique la diferencia por cajas, láminas, formato o unidad. Aclare el MOQ publicado en la oferta; el ejemplo no lo redefine."
+        }
+      ],
+      "image": {
+        "file": "images/editorial/2026-11-13-batch10/whole-ice-sheet-receiving.webp",
+        "kind": "illustration",
+        "alt": {
+          "en": "Intact white twelve-cell sheet beside a stack of sheets and an open carton",
+          "zh": "完整白色12格冰片、旁侧叠片与打开的纸箱",
+          "es": "Lámina blanca íntegra de doce celdas, pila de láminas y caja abierta"
+        },
+        "caption": {
+          "en": "Whole-sheet and cell counting are different. Carton and stack are props, not a declared packing count.",
+          "zh": "整片与格数是不同计数对象；纸箱和叠片为道具，不代表装箱数。",
+          "es": "Láminas y celdas son recuentos distintos; caja y pila no declaran una cantidad de embalaje."
+        }
+      }
+    },
+    {
+      "heading": {
         "en": "Treat cell arithmetic as a separate calculation",
         "zh": "格数换算单独记录",
         "es": "Registre por separado el cálculo de celdas"
@@ -219,6 +252,7 @@ const article: EditorialArticle = {
       "zh": "封边格网清晰的多格薄膜片，画面排列不定义订货单位。",
       "es": "Lámina segmentada con sellos visibles. La distribución mostrada no define la unidad de pedido."
     }
-  }
+  },
+  "updatedAt": "2026-11-13"
 }
 export default article

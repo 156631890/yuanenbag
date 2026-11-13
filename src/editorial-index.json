@@ -707,6 +707,7 @@
     "kind": "guide",
     "slug": "ice-pack-delivery-state-quotation",
     "publishedAt": "2026-10-29",
+    "updatedAt": "2026-11-13",
     "title": {
       "en": "Confirm How Ice Packs Arrive Before Comparing Quotes",
       "zh": "冰袋报价，先确认交货时的状态",
@@ -722,6 +723,7 @@
     "kind": "guide",
     "slug": "ice-sheet-order-unit-sheets-cells",
     "publishedAt": "2026-10-27",
+    "updatedAt": "2026-11-13",
     "title": {
       "en": "Confirm Whether Ice-Sheet Quantities Count Sheets or Cells",
       "zh": "多格冰片订货，确认按张还是按格",
@@ -833,6 +835,7 @@
     "kind": "guide",
     "slug": "insulated-bag-odor-review-record",
     "publishedAt": "2026-11-02",
+    "updatedAt": "2026-11-13",
     "title": {
       "en": "Record Arrival Conditions When Reviewing Insulated-Bag Odor",
       "zh": "复核保温袋样品气味，先记录到样与开包状态",
@@ -944,6 +947,7 @@
     "kind": "guide",
     "slug": "insulated-pallet-cover-overhang-installation-clearance",
     "publishedAt": "2026-11-05",
+    "updatedAt": "2026-11-13",
     "title": {
       "en": "Size a Pallet Cover for the Load and the Fitting Space",
       "zh": "托盘保温罩选尺寸，要同时量整垛和安装空间",
@@ -1007,6 +1011,7 @@
     "kind": "guide",
     "slug": "insulation-laminate-bond-report-scope",
     "publishedAt": "2026-11-05",
+    "updatedAt": "2026-11-13",
     "title": {
       "en": "Match a Laminate Bond Report to the Insulation Material Being Ordered",
       "zh": "复合保温材料的粘接报告，先核对试样与结果口径",
@@ -1022,6 +1027,7 @@
     "kind": "guide",
     "slug": "insulation-roll-core-bore-finished-diameter",
     "publishedAt": "2026-11-04",
+    "updatedAt": "2026-11-13",
     "title": {
       "en": "Match Insulation Roll Bore and Diameter to Receiving Equipment",
       "zh": "保温卷材上设备前，分开核对芯孔与整卷直径",
@@ -1037,6 +1043,7 @@
     "kind": "guide",
     "slug": "insulation-roll-price-per-usable-square-metre",
     "publishedAt": "2026-11-05",
+    "updatedAt": "2026-11-13",
     "title": {
       "en": "Compare Insulation Roll Quotes on the Same Area Basis",
       "zh": "比较保温卷材报价，先统一每平方米的计算口径",
@@ -1052,6 +1059,7 @@
     "kind": "guide",
     "slug": "insulation-roll-splice-acceptance",
     "publishedAt": "2026-11-04",
+    "updatedAt": "2026-11-13",
     "title": {
       "en": "Agree Splice Acceptance Before Ordering Insulation Rolls",
       "zh": "保温卷材接头怎样写入订单与收货验收",
@@ -1131,6 +1139,7 @@
     "kind": "guide",
     "slug": "packaging-film-puncture-report-probe-scope",
     "publishedAt": "2026-11-06",
+    "updatedAt": "2026-11-13",
     "title": {
       "en": "Can You Compare Two Packaging Film Puncture Reports?",
       "zh": "两份包装膜穿刺报告，怎样判断能不能比？",
@@ -1146,6 +1155,7 @@
     "kind": "guide",
     "slug": "packaging-qr-destination-approval",
     "publishedAt": "2026-11-04",
+    "updatedAt": "2026-11-13",
     "title": {
       "en": "Approve What the Packaging QR Code Opens",
       "zh": "包装二维码印前先确认打开的页面",

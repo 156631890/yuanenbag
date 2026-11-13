@@ -131,6 +131,111 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
+        "en": "Match each boundary to the equipment acceptance field",
+        "zh": "逐项对应设备接收字段",
+        "es": "Asocie cada límite con el equipo"
+      },
+      "paragraphs": [
+        {
+          "en": "In an end view, the empty centre is the core bore; the core wall ends at another circle, and the wound material has its own outer circumference. A side view is needed for material width, core length and any projection beyond either roll face. The photograph illustrates the boundaries without assigning a size or proving projection. Put dimensions and tolerances in the supplier’s specification and equipment owner’s acceptance record.",
+          "zh": "正视时，空心中心是芯孔；芯壁终止于另一个圆周，卷绕材料还有自己的最外圆。材料宽度、芯总长及两侧是否伸出需用侧视记录。照片解释边界，不给定尺寸，也不证明芯端伸出。尺寸与公差应写入供应方规格和设备方接收记录。",
+          "es": "En vista frontal el hueco es el diámetro interior; otra circunferencia limita la pared del núcleo y otra el material enrollado. Una vista lateral registra anchura, longitud del núcleo y posibles salientes. La foto explica límites sin asignar medidas ni acreditar salientes. Anote medidas y tolerancias en especificación y aceptación del responsable del equipo."
+        }
+      ],
+      "table": {
+        "caption": {
+          "en": "Separate dimensional fields—fill from the actual proposal",
+          "zh": "尺寸字段分开——按实际方案填写",
+          "es": "Campos separados según la propuesta real"
+        },
+        "columns": [
+          {
+            "en": "Field",
+            "zh": "字段",
+            "es": "Campo"
+          },
+          {
+            "en": "Supply / equipment owner",
+            "zh": "供货／设备方",
+            "es": "Suministro / responsable del equipo"
+          },
+          {
+            "en": "Mismatch action",
+            "zh": "不匹配处理",
+            "es": "Acción ante diferencia"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "en": "Core bore / core outside diameter",
+              "zh": "芯孔／芯外径",
+              "es": "Diámetro interior / exterior del núcleo"
+            },
+            {
+              "en": "Proposed ___ / accepted range ___",
+              "zh": "拟供___／接收范围___",
+              "es": "Propuesto ___ / rango aceptado ___"
+            },
+            {
+              "en": "Request a compatible specification; do not improvise an adaptor",
+              "zh": "索取匹配规格，不自行制作适配件",
+              "es": "Pida especificación compatible, sin improvisar adaptadores"
+            }
+          ],
+          [
+            {
+              "en": "Finished roll diameter",
+              "zh": "成卷外径",
+              "es": "Diámetro del rollo acabado"
+            },
+            {
+              "en": "Maximum proposed ___ / equipment limit ___",
+              "zh": "拟供最大___／设备限值___",
+              "es": "Máximo propuesto ___ / límite ___"
+            },
+            {
+              "en": "Revisit roll length and winding proposal",
+              "zh": "重审卷长与卷绕方案",
+              "es": "Revise longitud y bobinado"
+            }
+          ],
+          [
+            {
+              "en": "Material width / total axial extent",
+              "zh": "材料宽度／轴向总占用",
+              "es": "Anchura / extensión axial total"
+            },
+            {
+              "en": "Width ___; core ends ___; owner limit ___",
+              "zh": "宽___；芯端___；设备限值___",
+              "es": "Anchura ___; extremos ___; límite ___"
+            },
+            {
+              "en": "Resolve end clearance with the equipment owner",
+              "zh": "与设备责任方解决端部空间",
+              "es": "Resuelva espacio axial con el responsable"
+            }
+          ]
+        ]
+      },
+      "image": {
+        "file": "images/editorial/2026-11-13-batch10/roll-core-boundaries.webp",
+        "kind": "illustration",
+        "alt": {
+          "en": "End view of a reflective white-foam roll and its hollow cardboard core",
+          "zh": "反射面白色泡棉卷的端面与空心纸芯",
+          "es": "Vista del extremo de un rollo de espuma blanca reflectante y núcleo hueco"
+        },
+        "caption": {
+          "en": "Use separate records for bore, finished diameter and axial extent. No dimensions are implied.",
+          "zh": "芯孔、成卷外径与轴向占用分别记录，画面不暗示尺寸。",
+          "es": "Registre interior, diámetro acabado y extensión axial por separado, sin medidas implícitas."
+        }
+      }
+    },
+    {
+      "heading": {
         "en": "Resolve mismatches before choosing the roll length",
         "zh": "先解决适配差异，再确定卷长",
         "es": "Resuelva diferencias antes de fijar la longitud"
@@ -184,6 +289,7 @@ const article: EditorialArticle = {
       "zh": "芯孔和整卷外径需要分别与设备条件核对。",
       "es": "El orificio del mandril y el diámetro exterior del rollo se verifican por separado con el equipo."
     }
-  }
+  },
+  "updatedAt": "2026-11-13"
 }
 export default article

@@ -59,6 +59,39 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
+        "en": "Locate the interface before comparing the result",
+        "zh": "先定位层间，再比较结果",
+        "es": "Identifique la interfaz antes del resultado"
+      },
+      "paragraphs": [
+        {
+          "en": "The pictured edge distinguishes the reflective facing from the white foam substrate. Record the actual sample construction and name the two surfaces separated in the report. An intact edge is an identity aid, not a bond-strength result. ASTM F904’s public scope concerns techniques to separate flexible laminate plies so a bond measurement can be made; citing it alone does not identify a complete measurement procedure or an acceptance limit.",
+          "zh": "图中边缘用于区分反射面层与白色泡棉基材。记录实际试样结构，写明报告分离的两个表面。完整边缘只能帮助识别，不能证明粘接强度。ASTM F904公开范围讨论为粘接测量分离柔性复合层的技术；仅引用它不能确定完整测量程序或验收限值。",
+          "es": "El borde distingue cara reflectante y espuma blanca. Identifique construcción y dos superficies separadas en el informe. El borde íntegro ayuda a identificar, no mide adhesión. El alcance público de ASTM F904 describe separación de capas para medir unión; citarlo no define por sí solo procedimiento completo ni límite de aceptación."
+        },
+        {
+          "en": "For a T-peel report, ASTM D1876’s public abstract distinguishes the initial peak from resistance over a specified subsequent bond length. If one offer gives only a maximum force and another gives a result over a stated interval, request the result definition, specimen width, interval and method before comparing them. Leave the value blank until supported; do not redraw a decorative curve as measured data.",
+          "zh": "对于T剥离报告，ASTM D1876公开摘要区分初始峰值与随后规定粘接长度的剥离阻力。一份报价只给最大力、另一份给指定区段结果时，应先索取结果定义、试样宽度、区段与方法，再比较。没有证据时数值留空，不把装饰曲线画成实测数据。",
+          "es": "El resumen público de ASTM D1876 distingue pico inicial y resistencia en una longitud posterior especificada. Si una oferta solo da fuerza máxima y otra un intervalo, solicite definición, anchura, tramo y método antes de comparar. Deje el valor en blanco sin respaldo; no dibuje curvas decorativas como mediciones."
+        }
+      ],
+      "image": {
+        "file": "images/editorial/2026-11-13-batch10/laminate-interface-edge.webp",
+        "kind": "illustration",
+        "alt": {
+          "en": "Close edge of silver-facing white foam laminate with a roll behind",
+          "zh": "银色面层与白色泡棉复合材料的边缘，后方有卷材",
+          "es": "Borde de laminado de espuma blanca con cara plateada y rollo detrás"
+        },
+        "caption": {
+          "en": "Visible layers only; no peel test, layer thickness or bond result is established.",
+          "zh": "仅展示可见层次，不证明剥离试验、层厚或粘接结果。",
+          "es": "Solo capas visibles; no acredita ensayo de pelado, espesores ni resultado de unión."
+        }
+      }
+    },
+    {
+      "heading": {
         "en": "Compare a stated result, not just its headline",
         "zh": "比较有定义的结果，而不只看标题",
         "es": "Compare un resultado definido, no solo su título"
@@ -142,6 +175,7 @@ const article: EditorialArticle = {
       "zh": "解读粘接结果前，先核对送检试样包含哪些层。",
       "es": "Identifique las capas presentes en la probeta antes de interpretar el resultado de adhesión."
     }
-  }
+  },
+  "updatedAt": "2026-11-13"
 }
 export default article

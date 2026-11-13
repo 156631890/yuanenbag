@@ -153,6 +153,97 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
+        "en": "Compare the same handover state",
+        "zh": "按同一交付状态比较",
+        "es": "Compare el mismo estado de entrega"
+      },
+      "paragraphs": [
+        {
+          "en": "Use the rows below as questions, not as a list of services YUANEN has agreed to provide. A quotation for empty pouches cannot be compared directly with one including filling and preparation. First align the number of complete units, contents per unit if applicable, delivery state and handover point. Then compare the included work and exclusions; a lower unit price on a different scope is not a saving established by the comparison.",
+          "zh": "下表是询价问题，不代表远恩已同意提供这些服务。空袋报价不能直接与包含填充、准备的报价比较。先统一完整件数量、适用时的每件内容物、交付状态和交接点，再比较包含作业与排除项；不同范围下较低单价并不能证明节省。",
+          "es": "Las filas son preguntas, no servicios ya acordados por YUANEN. Una oferta de bolsas vacías no es comparable directamente con otra que incluya llenado y preparación. Iguale unidades completas, contenido por unidad si procede, estado y punto de entrega; después compare trabajo incluido y exclusiones. Un precio menor con otro alcance no demuestra ahorro."
+        }
+      ],
+      "table": {
+        "caption": {
+          "en": "Blank quotation basis—no prices or services assumed",
+          "zh": "报价口径空表——不假定价格或服务",
+          "es": "Base de oferta en blanco, sin precios ni servicios supuestos"
+        },
+        "columns": [
+          {
+            "en": "Proposed state",
+            "zh": "拟交付状态",
+            "es": "Estado propuesto"
+          },
+          {
+            "en": "Responsibility to resolve",
+            "zh": "待明确责任",
+            "es": "Responsabilidad pendiente"
+          },
+          {
+            "en": "Offer record",
+            "zh": "报价记录",
+            "es": "Registro de oferta"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "en": "Empty pouch",
+              "zh": "空袋",
+              "es": "Bolsa vacía"
+            },
+            {
+              "en": "Who fills, prepares, stores and checks it?",
+              "zh": "谁填充、准备、储存与检查？",
+              "es": "¿Quién llena, prepara, almacena y revisa?"
+            },
+            {
+              "en": "Item ___; unit ___; included cost ___",
+              "zh": "型号___；单位___；包含费用___",
+              "es": "Artículo ___; unidad ___; coste incluido ___"
+            }
+          ],
+          [
+            {
+              "en": "Filled, not prepared",
+              "zh": "已填充、未准备",
+              "es": "Llena, sin preparar"
+            },
+            {
+              "en": "Contents and fill quantity; who prepares before use?",
+              "zh": "内容物与填充量；谁负责使用前准备？",
+              "es": "Contenido y cantidad; ¿quién prepara antes del uso?"
+            },
+            {
+              "en": "Written availability ___; exclusions ___",
+              "zh": "书面可提供范围___；排除项___",
+              "es": "Disponibilidad escrita ___; exclusiones ___"
+            }
+          ],
+          [
+            {
+              "en": "Prepared at handover",
+              "zh": "交接时已准备",
+              "es": "Preparada al entregar"
+            },
+            {
+              "en": "Agreed condition, evidence and handover owner",
+              "zh": "约定状态、证明与交接责任人",
+              "es": "Condición, evidencia y responsable"
+            },
+            {
+              "en": "Condition ___; handover ___; cost scope ___",
+              "zh": "状态___；交接点___；费用范围___",
+              "es": "Estado ___; entrega ___; alcance de coste ___"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "heading": {
         "en": "Keep the same basis when the offer changes",
         "zh": "报价变更时保留同一比较口径",
         "es": "Mantenga la misma base al cambiar la oferta"
@@ -232,6 +323,7 @@ const article: EditorialArticle = {
       "zh": "通用袋体形态，未指定内容物或交货状态。",
       "es": "Forma genérica de bolsa; contenido y condición de entrega sin especificar."
     }
-  }
+  },
+  "updatedAt": "2026-11-13"
 }
 export default article

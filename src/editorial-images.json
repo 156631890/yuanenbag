@@ -416,11 +416,11 @@
     }
   },
   "insulated-bag-odor-review-record": {
-    "file": "images/editorial/2026-11-02/sample-arrival-unpacking-review-record.webp",
+    "file": "images/editorial/2026-11-13-batch10/yellow-sample-unpacking-history.webp",
     "alt": {
-      "en": "Three numbered stages show a closed transit carton, a yellow handled lunch bag and a blank review sheet",
-      "zh": "三个编号阶段依次展示闭合运输纸箱、黄色提手午餐袋和空白复核表",
-      "es": "Tres etapas numeradas muestran una caja de transporte cerrada, una bolsa amarilla con asas y una ficha de revisión vacía"
+      "en": "Closed yellow lunch bag beside an open plain carton and removed translucent wrapper",
+      "zh": "闭合黄色午餐袋、打开的普通纸箱与拆下的半透明包装袋",
+      "es": "Bolsa amarilla cerrada junto a caja abierta y envoltorio translúcido retirado"
     }
   },
   "insulated-bag-print-colour-reference-proof": {
@@ -576,11 +576,11 @@
     }
   },
   "packaging-qr-destination-approval": {
-    "file": "images/editorial/2026-11-06-guide-cover-revisions/packaging-qr-destination-approval.webp",
+    "file": "images/editorial/2026-11-13-batch10/qr-destination-desk-review.webp",
     "alt": {
-      "en": "A phone camera points toward a blurred code proof on the front of a beige delivery bag.",
-      "zh": "手机摄像头朝向米色外卖袋正面经过模糊处理的码样。",
-      "es": "La cámara de un teléfono apunta a una prueba de código desenfocada en la cara de una bolsa beige de reparto."
+      "en": "White delivery bag with green handles beside a hand holding a blank-screen phone",
+      "zh": "绿提手白色配送袋，旁侧手持空白屏幕手机",
+      "es": "Bolsa blanca con asas verdes junto a mano con teléfono de pantalla vacía"
     }
   },
   "packaging-quote-incoterms-named-place": {

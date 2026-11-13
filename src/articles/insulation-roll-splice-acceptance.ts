@@ -83,6 +83,25 @@ const article: EditorialArticle = {
     },
     {
       "heading": {
+        "en": "The same joint can affect two cutting layouts differently",
+        "zh": "同一接头，在两种裁位中的影响不同",
+        "es": "Un mismo empalme afecta distinto según el corte"
+      },
+      "paragraphs": [
+        {
+          "en": "Hypothetical layout: a joint is at 1.5 m along a roll, and a required intact piece is 2 m long. A piece cut from 0 to 2 m contains that joint. Moving the proposed piece to 2–4 m avoids this particular joint, but leaves the first interval to be accounted for and says nothing about other joints or the order’s total yield. These are longitudinal positions for teaching, not a real roll map or cutting instruction.",
+          "zh": "教学布局假设：接头位于卷长1.5m处，需求为2m长完整裁片。0—2m的裁片跨过该接头；拟改为2—4m可避开这一接头，但前段仍需计入处置，而且不能说明其他接头或整单产出。以上仅为教学纵向位置，不是真实卷图或裁切操作指令。",
+          "es": "Ejemplo: unión a 1,5 m y pieza íntegra requerida de 2 m. El tramo 0–2 m contiene la unión; proponer 2–4 m la evita, pero queda por contabilizar el tramo inicial y otras uniones o rendimiento total. Son posiciones didácticas, no mapa real ni instrucción de corte."
+        },
+        {
+          "en": "Ask for a joint map tied to the roll identifier, its marking method and the agreed usable-piece rule. If a joint is permitted within a piece, define that acceptance separately; if prohibited, use its location to review cutting allocation. Resolve unmarked or undisclosed joints against the order before treating the remaining quantity as accepted.",
+          "zh": "索取与卷号关联的接头位置图、标识方式和约定可用裁片规则。允许片内有接头时，应另行定义接受条件；禁止时，按实际位置复核裁片分配。未标识或未披露接头应先按订单解决，再确认剩余数量可接受。",
+          "es": "Pida mapa vinculado al rollo, identificación de uniones y regla de pieza utilizable. Si se admite una unión dentro de la pieza, defina esa aceptación; si se prohíbe, revise asignación según posición. Resuelva uniones no marcadas o no declaradas contra el pedido antes de aceptar cantidad restante."
+        }
+      ]
+    },
+    {
+      "heading": {
         "en": "Compare usable quantity on the same basis",
         "zh": "比较报价时先统一可用数量口径",
         "es": "Compare la cantidad útil sobre la misma base"
@@ -163,6 +182,7 @@ const article: EditorialArticle = {
       "zh": "横向胶带展示一种接头标记方式，实际标记方法以订单约定为准。",
       "es": "La tira transversal ilustra una posible marca de empalme. Acuerde en el pedido cómo se marcará."
     }
-  }
+  },
+  "updatedAt": "2026-11-13"
 }
 export default article
