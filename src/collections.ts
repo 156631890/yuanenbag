@@ -13,12 +13,12 @@ export const collections:Collection[] = [
       "es": "Bolsas térmicas de aluminio"
     },
     "title": {
-      "en": "Foil Insulated Bags & Box Liners Manufacturer | YUANEN",
+      "en": "Foil Insulated Bags: Self-Seal, Open-Top & Gusseted | YUANEN",
       "zh": "铝箔保温袋与冷链箱内衬定制厂家 | 远恩",
       "es": "Bolsas de aluminio y revestimientos térmicos | YUANEN"
     },
     "description": {
-      "en": "Compare self-seal, open-top and gusseted foil insulated bags and box liners. Choose closures, usable sizes and EPE structures for food delivery.",
+      "en": "Compare self-seal, open-top and gusseted foil bags for packed food. Check usable opening, base depth and closure before choosing a pouch.",
       "zh": "比较自粘、平口、立体铝箔保温袋与箱内衬，为食品配送选择封口、可用尺寸与 EPE 复合结构。",
       "es": "Compare bolsas térmicas de aluminio autoadhesivas, abiertas, con base y revestimientos de caja. Elija cierre, medidas útiles y estructura EPE."
     },
@@ -55,12 +55,12 @@ export const collections:Collection[] = [
       "es": "Bolsas térmicas de reparto y compra"
     },
     "title": {
-      "en": "Custom Cooler Bags for Lunch, Cakes & Grocery | YUANEN",
+      "en": "Insulated Food Delivery Bags & Custom Cooler Bags | YUANEN",
       "zh": "午餐、蛋糕与商超保温包定制 | 远恩",
       "es": "Bolsas térmicas personalizadas para comida y tartas | YUANEN"
     },
     "description": {
-      "en": "Choose custom cooler bags for lunch boxes, cakes, meals and groceries. Compare zip openings, base shapes, handles and sample photos for bulk orders.",
+      "en": "Insulated food delivery bags for pizza boxes, catering trays and meal containers sit alongside cooler totes for grocery and bakery orders. Compare zip openings, base shapes, handles and sample photos for bulk orders.",
       "zh": "按午餐盒、蛋糕、餐饮和商超用途选择保温包，比较拉链开口、底型、提手及实拍样品，准备批量定制采购。",
       "es": "Elija bolsas térmicas para almuerzo, tartas, comidas y compras. Compare cierres, bases, asas y fotos de muestras para pedidos al por mayor."
     },
