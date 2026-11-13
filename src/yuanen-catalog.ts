@@ -712,7 +712,7 @@ export const yuanenProducts:Bag[] = [
       "es": "Bolsa térmica cuadrada con cremallera para tartas"
     },
     "intro": {
-      "en": "A mint-green, box-shaped insulated bag shown with cake packaging. Its zip opening and broad base suit a box-based loading layout; check internal clearance against the actual cake box.",
+      "en": "A mint-green, box-shaped insulated bag shown with cake packaging. Measure the cake board and the widest lip of the closed box. Keep the box level as you try it through the unzipped opening. If it only passes on a tilt, ask for a wider opening before approving the sample.",
       "zh": "目录展示薄荷绿色方形保温包，搭配蛋糕场景。拉链开口与宽底结构便于盒装内容物摆放，应按实际蛋糕盒核对内部余量。",
       "es": "Bolsa térmica cuadrada verde menta, mostrada con una tarta. La cremallera y la base amplia permiten cargar cajas; compruebe el espacio interior con la caja real."
     },

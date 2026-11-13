@@ -8,7 +8,7 @@ export default function CustomizationOrderOptions({ lang }: { lang: Lang }) {
     {
       name: tx('Existing size + screen printing', '现有尺寸 + 丝网印刷', 'Medida existente + serigrafía'),
       description: tx(
-        'Choose an existing bag size and colour. Use one print colour for both sides within the available print area. Custom dimensions are not available with this method.',
+        'From 100 pieces for this self-seal non-woven bag. Choose an existing size and colour. Both sides use the same print colour within the available print area.',
         '选择现有袋型尺寸和袋色，在指定印刷区域内正反面使用同一种印刷颜色。此方式不支持定制尺寸。',
         'Elija una medida y un color de bolsa existentes. Utilice el mismo color de impresión en ambas caras, dentro del área disponible. Este método no permite medidas personalizadas.',
       ),
@@ -16,7 +16,7 @@ export default function CustomizationOrderOptions({ lang }: { lang: Lang }) {
     {
       name: tx('Existing size + digital printing', '现有尺寸 + 数码印刷', 'Medida existente + impresión digital'),
       description: tx(
-        'Use full-bag artwork in one or multiple colours on an existing size. Custom dimensions are not available with this method.',
+        'From 200 pieces per regular size, or 1,000 for extra large. Use one or more artwork colours across an existing bag size.',
         '在现有尺寸上进行全袋单色或多色图稿印刷。此方式不支持定制尺寸。',
         'Utilice un diseño de uno o varios colores en toda la bolsa, con una medida existente. Este método no permite medidas personalizadas.',
       ),
@@ -24,7 +24,7 @@ export default function CustomizationOrderOptions({ lang }: { lang: Lang }) {
     {
       name: tx('Fully custom production', '全定制生产', 'Producción totalmente personalizada'),
       description: tx(
-        'Specify the bag dimensions, bag colour and full-bag artwork. Confirm the construction and order requirements for your chosen specification.',
+        'From 5,000 pieces for this bag. Choose this route if your box needs different bag dimensions. Specify the finished size, bag colour and artwork for sample review.',
         '指定袋子尺寸、袋色及全袋图稿，并按所选规格确认结构和订购要求。',
         'Especifique las medidas, el color de la bolsa y el diseño para toda su superficie. Confirme la estructura y las condiciones del pedido según la especificación elegida.',
       ),
