@@ -15,7 +15,7 @@ export const yuanenProducts:Bag[] = [
       "es": "Bolsas térmicas de aluminio autoadhesivas"
     },
     "intro": {
-      "en": "A peel-and-seal opening with heat-sealed edges for packing takeaway containers, bakery boxes and fresh food. Match the flat bag to your packed contents before selecting a size.",
+      "en": "A peel-and-seal opening with heat-sealed edges for packing takeaway containers, bakery boxes and fresh food. Measure the widest part of the filled pack, including its lid or rim. Try it through the sample opening and check that the adhesive flap still reaches a clean, flat surface without squeezing the contents.",
       "zh": "自粘封口搭配热压封边，适合餐盒、烘焙盒与生鲜包装。按装好后的内装物核对袋宽、袋高与封口余量。",
       "es": "Abertura autoadhesiva y bordes termosellados para envases de comida, cajas de pastelería y alimentos frescos. Compruebe las medidas con el contenido ya embalado."
     },
@@ -51,7 +51,7 @@ export const yuanenProducts:Bag[] = [
     "catalogPage": 6,
     "considerations": [
       {
-        "en": "Adhesive flap overlap and usable opening width",
+        "en": "For a shallow pack, check the widest filled edge against the opening. Close the flap with the contents in place.",
         "zh": "胶条搭接长度与可用开口宽度",
         "es": "Solape adhesivo y anchura útil de apertura"
       },
