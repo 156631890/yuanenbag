@@ -17604,5 +17604,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-14/butter.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/f731ad13f881-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/e4760a53e1a4-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/3e318486b1fd-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/912dee43747b-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/faf335080f25-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/2115af8c7ee0-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/9269eeda6b9b-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

@@ -135,6 +135,15 @@
     }
   },
   {
+    "kind": "industry",
+    "slug": "constantia-nom-paper-based-butter-wrap",
+    "title": {
+      "en": "Constantia and NÖM launch a paper-based butter wrap in Europe",
+      "zh": "Constantia与NÖM在欧洲推出纸基黄油包装",
+      "es": "Constantia y NÖM lanzan en Europa una envoltura de papel para mantequilla"
+    }
+  },
+  {
     "kind": "guide",
     "slug": "coolant-dispatch-preparation-record",
     "title": {

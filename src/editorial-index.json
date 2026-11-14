@@ -239,6 +239,21 @@
     }
   },
   {
+    "kind": "industry",
+    "slug": "constantia-nom-paper-based-butter-wrap",
+    "publishedAt": "2026-11-14",
+    "title": {
+      "en": "Constantia and NÖM launch a paper-based butter wrap in Europe",
+      "zh": "Constantia与NÖM在欧洲推出纸基黄油包装",
+      "es": "Constantia y NÖM lanzan en Europa una envoltura de papel para mantequilla"
+    },
+    "description": {
+      "en": "The November launch brings EcoPaperHighPlus into commercial use with NÖM. Buyers evaluating a switch need separate evidence for product protection, fold retention and local collection.",
+      "zh": "11月的公告披露了EcoPaperHighPlus在NÖM的商业应用。采购比选时，保质表现、折边保持和当地回收分别需要什么依据？",
+      "es": "El lanzamiento de noviembre lleva EcoPaperHighPlus al uso comercial con NÖM. La protección del producto, los pliegues y la recogida local requieren comprobaciones distintas."
+    }
+  },
+  {
     "kind": "guide",
     "slug": "coolant-dispatch-preparation-record",
     "publishedAt": "2026-10-17",
