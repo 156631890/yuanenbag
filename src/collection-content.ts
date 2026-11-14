@@ -51,7 +51,7 @@ export const collectionContent:Record<string,{answer:Text;checks:Text[]}> = {
   },
   "custom-cooler-bags": {
     "answer": {
-      "en": "Start with the shape of the packed food. Cake boxes need a clear opening and suitable base; meal containers may suit a wide horizontal layout; upright groceries need usable height and space for coolant. Confirm the loaded sample before choosing branding or a bulk quantity.",
+      "en": "Choose the carrier around the item your team loads and lifts out at each stop. Measure it with the lid, packaging and any coolant in place.",
       "zh": "先看装好后的食品形状：蛋糕盒需要足够的开口和底部空间；餐盒可采用宽底横向排布；直立商超包装需确认高度和冰源空间。在确定印刷与大货数量前，先核对装载样品。",
       "es": "Empiece por la forma del alimento embalado. Las cajas de tartas requieren abertura y base adecuadas; las comidas pueden necesitar una base ancha; las compras verticales requieren altura y espacio para refrigerante. Revise una muestra cargada antes de definir impresión y cantidad."
     },
