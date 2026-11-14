@@ -9,6 +9,8 @@ for (const { source, file, left, top, width, height } of Object.values(crops)) {
 }
 const standardized = JSON.parse(await readFile('src/standardized-product-images.json', 'utf8'))
 const sources = [...new Set([
+  "images/editorial/2026-11-14/pallet-detail.webp",
+  "images/editorial/2026-11-14/pallet.webp",
   "images/editorial/2026-11-14/pizza-detail.webp",
   "images/editorial/2026-11-14/pizza.webp",
   "images/editorial/2026-11-13-batch11/self-seal-release-liner.webp",

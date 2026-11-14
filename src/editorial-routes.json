@@ -892,6 +892,15 @@
   },
   {
     "kind": "guide",
+    "slug": "thermal-pallet-cover-return-loop",
+    "title": {
+      "en": "Plan a Return Loop for Reusable Thermal Pallet Covers",
+      "zh": "可重复使用托盘保温罩的回收周转怎么规划",
+      "es": "Planifique la devolución de cubiertas térmicas reutilizables"
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "tote-handle-drop-measurement-reference",
     "title": {
       "en": "Specify Tote Handle Drop Separately from Strap Length",

@@ -1584,6 +1584,21 @@
   },
   {
     "kind": "guide",
+    "slug": "thermal-pallet-cover-return-loop",
+    "publishedAt": "2026-11-14",
+    "title": {
+      "en": "Plan a Return Loop for Reusable Thermal Pallet Covers",
+      "zh": "可重复使用托盘保温罩的回收周转怎么规划",
+      "es": "Planifique la devolución de cubiertas térmicas reutilizables"
+    },
+    "description": {
+      "en": "Evaluate pallet-cover reuse through return ownership, inspection, available stock and cost per accepted trip before choosing a construction.",
+      "zh": "从返还责任、检查放行、可用库存及每次合格运输成本，评价托盘保温罩的周转方案与采购规格。",
+      "es": "Evalúe devolución, inspección, existencias disponibles y coste por trayecto aceptado antes de elegir la construcción de la cubierta."
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "tote-handle-drop-measurement-reference",
     "publishedAt": "2026-11-02",
     "updatedAt": "2026-11-10",
