@@ -1119,6 +1119,21 @@
   },
   {
     "kind": "guide",
+    "slug": "mixed-grocery-order-separate-bags",
+    "publishedAt": "2026-11-14",
+    "title": {
+      "en": "When one grocery order needs separate insulated bags",
+      "zh": "一张生鲜订单什么时候需要分用保温袋？",
+      "es": "Cuándo un pedido de supermercado necesita bolsas térmicas separadas"
+    },
+    "description": {
+      "en": "Size the dispatch set by the groups that must travel separately. Specify the packed footprint, the handoff check and the quantity of each tote before requesting a quote.",
+      "zh": "按必须分开的货品组确定配送袋组合。询价前核对各组装袋后的占位、交接清点方式和每种袋的数量。",
+      "es": "Dimensione el conjunto según los grupos que deban viajar por separado. Defina el espacio ocupado, el control de entrega y las unidades de cada bolsa antes de cotizar."
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "multi-stop-delivery-bag-opening-trial",
     "publishedAt": "2026-10-16",
     "updatedAt": "2026-11-12",

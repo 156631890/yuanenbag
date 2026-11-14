@@ -631,6 +631,15 @@
   },
   {
     "kind": "guide",
+    "slug": "mixed-grocery-order-separate-bags",
+    "title": {
+      "en": "When one grocery order needs separate insulated bags",
+      "zh": "一张生鲜订单什么时候需要分用保温袋？",
+      "es": "Cuándo un pedido de supermercado necesita bolsas térmicas separadas"
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "multi-stop-delivery-bag-opening-trial",
     "title": {
       "en": "Include Every Stop in an Insulated Delivery-Bag Trial",

@@ -17638,5 +17638,73 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-14/grocery.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/b4e9907ef478-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/0b789ee805a7-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/d7d08a3b8e0c-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/810ada083bd6-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/aec493aa26bc-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/961ad8425869-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/e690d6549d81-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-14/grocery-detail.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/aed06bedad98-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/31f4b591ea03-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/e6bde6c3da9d-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/854437e389b7-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/035515a2b5b2-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/43e243f7ac99-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/f9d6bbcf6f86-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }
