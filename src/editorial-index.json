@@ -1248,6 +1248,21 @@
     }
   },
   {
+    "kind": "guide",
+    "slug": "pizza-delivery-bag-ventilation-trial",
+    "publishedAt": "2026-11-14",
+    "title": {
+      "en": "Evaluate Pizza Box Ventilation with the Delivery Bag",
+      "zh": "披萨盒排汽与配送保温包如何一起试样",
+      "es": "Evalúe la ventilación de la caja con la bolsa de pizza"
+    },
+    "description": {
+      "en": "Plan a matched pizza box and insulated bag trial. Record moisture location, arrival condition and closure changes before approving a production specification.",
+      "zh": "把披萨盒与保温包作为组合试样，记录水分位置、到货状态及闭合变化，用可复查的比较确定采购规格。",
+      "es": "Planifique una prueba conjunta de caja y bolsa. Registre humedad, estado de llegada y cambios de cierre antes de aprobar la especificación."
+    }
+  },
+  {
     "kind": "industry",
     "slug": "placon-homefresh-round-deli-lid-fit-relaunch",
     "publishedAt": "2026-10-28",

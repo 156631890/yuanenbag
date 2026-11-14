@@ -623,6 +623,14 @@
       "es": "Dos cajas de pizza cerradas dentro de una bolsa roja baja abierta."
     }
   },
+  "pizza-delivery-bag-ventilation-trial": {
+    "file": "images/editorial/2026-11-14/pizza.webp",
+    "alt": {
+      "en": "Open red foil-lined pizza carrier holding a closed kraft box",
+      "zh": "打开的红色铝箔内衬披萨包中放着闭合牛皮纸盒",
+      "es": "Bolsa roja abierta con forro de aluminio y caja kraft cerrada"
+    }
+  },
   "placon-homefresh-round-deli-lid-fit-relaunch": {
     "file": "images/editorial/2026-10-28/round-deli-containers-preparation-counter.webp",
     "alt": {

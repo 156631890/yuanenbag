@@ -17400,5 +17400,73 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-14/pizza.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/2f003a0bebff-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/b80b1911f9ac-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/2deb8073ed73-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/e5e7daf2988c-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/0b1eb224d187-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/32fda5882618-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/7fd2573d75ef-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-14/pizza-detail.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/0c60363b5716-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/97c5f2a5cd22-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/e20340f67442-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/f73e26feda48-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/39184c7fc2d3-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/7aa1fbc75a06-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/29adbdd06ebc-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

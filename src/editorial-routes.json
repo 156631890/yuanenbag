@@ -702,6 +702,15 @@
     }
   },
   {
+    "kind": "guide",
+    "slug": "pizza-delivery-bag-ventilation-trial",
+    "title": {
+      "en": "Evaluate Pizza Box Ventilation with the Delivery Bag",
+      "zh": "披萨盒排汽与配送保温包如何一起试样",
+      "es": "Evalúe la ventilación de la caja con la bolsa de pizza"
+    }
+  },
+  {
     "kind": "industry",
     "slug": "placon-homefresh-round-deli-lid-fit-relaunch",
     "title": {
