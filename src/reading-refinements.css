@@ -6,6 +6,8 @@
 .seo-collection .answer-box{padding:22px 26px;margin-bottom:28px}
 .seo-collection .answer-box h2{font-size:24px;margin-bottom:12px}
 .seo-collection .answer-box p{max-width:100ch;font-size:15px;line-height:1.8}
+.seo-collection .answer-box p + p{margin-top:.65em}
+.seo-collection .answer-box p a{text-decoration:underline;text-underline-offset:.16em}
 .seo-collection>h2{font-size:28px;margin-bottom:18px}
 .seo-collection .table-scroll,.purchasing-guide .table-scroll{max-width:100%;border:1px solid var(--line);overscroll-behavior-x:contain}
 .seo-comparison th,.seo-comparison td{padding:14px 16px;line-height:1.7}
