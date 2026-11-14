@@ -113,6 +113,21 @@
   },
   {
     "kind": "guide",
+    "slug": "cake-cooler-bag-support-handoff",
+    "publishedAt": "2026-11-14",
+    "title": {
+      "en": "Match Cake Cooler Bags to the Box and Base Support",
+      "zh": "蛋糕保温袋如何配合盒体与底板支撑",
+      "es": "Combine la bolsa térmica de tarta con caja y base"
+    },
+    "description": {
+      "en": "Review cake boards, boxes, top-opening access and supported handover before ordering a cake cooler bag. Define component supply and sample boundaries.",
+      "zh": "订购蛋糕保温袋前，核对底板、盒体、上开口取放与托底交接，明确部件供货及样品确认范围。",
+      "es": "Revise bases, cajas, acceso superior y entrega con soporte antes de pedir bolsas térmicas para tartas. Defina suministro y alcance de muestra."
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "catering-bag-front-opening-tray-fit",
     "publishedAt": "2026-10-12",
     "updatedAt": "2026-11-10",

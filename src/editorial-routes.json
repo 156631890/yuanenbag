@@ -64,6 +64,15 @@
   },
   {
     "kind": "guide",
+    "slug": "cake-cooler-bag-support-handoff",
+    "title": {
+      "en": "Match Cake Cooler Bags to the Box and Base Support",
+      "zh": "蛋糕保温袋如何配合盒体与底板支撑",
+      "es": "Combine la bolsa térmica de tarta con caja y base"
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "catering-bag-front-opening-tray-fit",
     "title": {
       "en": "Check Horizontal Tray Access Before Ordering an Insulated Catering Bag",
