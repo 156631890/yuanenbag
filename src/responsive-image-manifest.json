@@ -17706,5 +17706,73 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-14/beverage.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/17b2bc5e63ae-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/5ff66b58bcea-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/9350693de9fb-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/57c6062ba6aa-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/50e2d2e78bcd-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/6b3d440a01b5-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/9adb8b64842a-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-14/beverage-detail.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/3cb558315bda-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/cb6735f3001c-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/5d7af83f770a-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/dd7502ba42e1-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/53c230aecc8b-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/3fb248c733e2-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/db1429604be7-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

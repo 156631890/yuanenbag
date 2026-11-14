@@ -81,6 +81,21 @@
   },
   {
     "kind": "guide",
+    "slug": "beverage-carrier-last-cup-trial",
+    "publishedAt": "2026-11-14",
+    "title": {
+      "en": "Will the beverage carrier work when only one cup remains?",
+      "zh": "饮品配送袋只剩最后一杯时，还能平稳交接吗？",
+      "es": "¿Cómo se comporta la bolsa de reparto cuando queda un solo vaso?"
+    },
+    "description": {
+      "en": "Use a staged unloading trial to distinguish a loose cup, a moving divider and a tilting bag. Each observation calls for a different sample revision.",
+      "zh": "按交付顺序逐杯取出，区分杯身晃动、分隔移位与整袋倾斜，据此提出不同的复样要求。",
+      "es": "Retire los vasos en el orden de entrega para distinguir movimiento del vaso, del separador o de toda la bolsa y solicitar la revisión adecuada."
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "beverage-delivery-bag-cup-divider-fit",
     "publishedAt": "2026-10-12",
     "updatedAt": "2026-11-10",

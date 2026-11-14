@@ -46,6 +46,15 @@
   },
   {
     "kind": "guide",
+    "slug": "beverage-carrier-last-cup-trial",
+    "title": {
+      "en": "Will the beverage carrier work when only one cup remains?",
+      "zh": "饮品配送袋只剩最后一杯时，还能平稳交接吗？",
+      "es": "¿Cómo se comporta la bolsa de reparto cuando queda un solo vaso?"
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "beverage-delivery-bag-cup-divider-fit",
     "title": {
       "en": "Cup Dividers in Beverage Delivery Bags Need Room for Lids and Hands",
