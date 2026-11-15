@@ -17774,5 +17774,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-15/label-proof.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/fe1d2f4c3700-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/d026d2f6e848-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/5674f00e1ad3-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/dfdb91818a88-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/f288c5489197-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/b93d6f666aee-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/924be72a8b30-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

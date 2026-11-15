@@ -238,6 +238,21 @@
     }
   },
   {
+    "kind": "industry",
+    "slug": "cjk-viking-label-packaging-reorders",
+    "publishedAt": "2026-11-15",
+    "title": {
+      "en": "CJK acquires Viking Label & Packaging. Viking keeps its sales team",
+      "zh": "CJK 宣布收购 Viking Label & Packaging，客户继续由原销售团队对接",
+      "es": "CJK adquiere Viking Label & Packaging, que mantiene su equipo comercial"
+    },
+    "description": {
+      "en": "Viking customers can use their existing contacts for repeat label orders. Which proof should a buyer reference when two versions of the same label are on file?",
+      "zh": "Viking 客户续订标签可继续联系原销售或客服。若档案里留有同一款标签的两份校样，采购方该用哪一版下单？",
+      "es": "Los clientes de Viking conservan sus contactos para repetir pedidos. ¿Qué prueba conviene indicar cuando hay dos versiones de la misma etiqueta?"
+    }
+  },
+  {
     "kind": "guide",
     "slug": "cleaning-trial-insulated-bag-samples",
     "publishedAt": "2026-10-15",
