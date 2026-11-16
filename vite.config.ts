@@ -9,6 +9,11 @@ export default defineConfig(({ mode, isSsrBuild }) => ({
     ...(!isSsrBuild && {
       rolldownOptions: {
         output: {
+          // Article loaders carry every chunk URL. Keep those private asset names short
+          // as the archive grows; public article routes retain their descriptive slugs.
+          chunkFileNames: chunk => chunk.facadeModuleId?.includes('/src/articles/')
+            ? 'assets/article-[hash].js'
+            : 'assets/[name]-[hash].js',
           codeSplitting: {
             groups: [{
               name: 'app-core',
