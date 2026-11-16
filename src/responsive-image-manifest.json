@@ -17842,5 +17842,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-16/pizza-handoff-detail.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/62aadd2ce78a-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/35defd978a67-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/7767c81e922c-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/4ad3c041c232-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/e477a6ebb4fd-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/8d74501594ed-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/6b673498d401-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }
