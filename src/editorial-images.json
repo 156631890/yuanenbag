@@ -663,6 +663,14 @@
       "es": "Dos cajas de pizza cerradas dentro de una bolsa roja baja abierta."
     }
   },
+  "pizza-delivery-bag-two-order-handoff": {
+    "file": "images/editorial/2026-11-16/pizza-handoff.webp",
+    "alt": {
+      "en": "Box B inside an open red pizza bag, box A on the counter and two lettered tickets.",
+      "zh": "敞开的红色披萨袋内留有 B 盒，A 盒放在台面上，旁边是两张字母票。",
+      "es": "Caja B dentro de una bolsa roja abierta, caja A en el mostrador y dos comprobantes con letras."
+    }
+  },
   "pizza-delivery-bag-ventilation-trial": {
     "file": "images/editorial/2026-11-14/pizza.webp",
     "alt": {

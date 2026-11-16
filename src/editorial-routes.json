@@ -748,6 +748,15 @@
   },
   {
     "kind": "guide",
+    "slug": "pizza-delivery-bag-two-order-handoff",
+    "title": {
+      "en": "Two pizza orders in one delivery bag: which boxes stay after the first stop?",
+      "zh": "一只披萨配送袋装两单，第一站该取哪些盒？",
+      "es": "Dos pedidos en una bolsa de reparto de pizzas: ¿qué cajas se quedan tras la primera entrega?"
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "pizza-delivery-bag-ventilation-trial",
     "title": {
       "en": "Evaluate Pizza Box Ventilation with the Delivery Bag",

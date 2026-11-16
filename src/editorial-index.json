@@ -1324,6 +1324,21 @@
   },
   {
     "kind": "guide",
+    "slug": "pizza-delivery-bag-two-order-handoff",
+    "publishedAt": "2026-11-16",
+    "title": {
+      "en": "Two pizza orders in one delivery bag: which boxes stay after the first stop?",
+      "zh": "一只披萨配送袋装两单，第一站该取哪些盒？",
+      "es": "Dos pedidos en una bolsa de reparto de pizzas: ¿qué cajas se quedan tras la primera entrega?"
+    },
+    "description": {
+      "en": "Try a two-stop handoff with marked boxes and matching tickets before deciding whether to share a pizza carrier or pack each order separately.",
+      "zh": "用带编号的闭合披萨盒和对应票据模拟两站交付，再决定共用配送袋还是按单分袋。",
+      "es": "Simule dos entregas con cajas identificadas y sus comprobantes antes de decidir si conviene compartir la bolsa o separar los pedidos."
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "pizza-delivery-bag-ventilation-trial",
     "publishedAt": "2026-11-14",
     "title": {
