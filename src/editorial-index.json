@@ -684,6 +684,21 @@
     }
   },
   {
+    "kind": "industry",
+    "slug": "georgia-pacific-paragould-thermoforming-expansion",
+    "publishedAt": "2026-11-16",
+    "title": {
+      "en": "Georgia-Pacific plans two new thermoforming lines at its Arkansas food packaging plant",
+      "zh": "Georgia-Pacific 将在阿肯色州食品包装厂增设两条热成型线",
+      "es": "Georgia-Pacific añadirá dos líneas de termoformado en su planta de envases alimentarios de Arkansas"
+    },
+    "description": {
+      "en": "Work has begun in Paragould, with startup scheduled for late 2027. What can a buyer use now to assess a container quotation that depends on the expansion?",
+      "zh": "Paragould 扩建项目已开工，新线计划于 2027 年末启动。采购方怎样判断手上的容器报价是否依赖这次扩产？",
+      "es": "Las obras en Paragould ya han comenzado y la puesta en marcha se prevé para finales de 2027. Cómo comprobar si una oferta de envases depende de esa ampliación."
+    }
+  },
+  {
     "kind": "guide",
     "slug": "glass-meal-container-protection-review",
     "publishedAt": "2026-10-22",

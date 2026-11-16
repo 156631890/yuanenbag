@@ -387,6 +387,15 @@
     }
   },
   {
+    "kind": "industry",
+    "slug": "georgia-pacific-paragould-thermoforming-expansion",
+    "title": {
+      "en": "Georgia-Pacific plans two new thermoforming lines at its Arkansas food packaging plant",
+      "zh": "Georgia-Pacific 将在阿肯色州食品包装厂增设两条热成型线",
+      "es": "Georgia-Pacific añadirá dos líneas de termoformado en su planta de envases alimentarios de Arkansas"
+    }
+  },
+  {
     "kind": "guide",
     "slug": "glass-meal-container-protection-review",
     "title": {

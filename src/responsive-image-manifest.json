@@ -17876,5 +17876,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-16/formed-tray.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/049e233d5330-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/7286437c3049-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/e3f41b3ff788-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/38adaea7081b-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/e4b256da09ee-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/276b00ac2379-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/4db7faf714f2-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }
