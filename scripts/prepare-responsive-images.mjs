@@ -1,11 +1,14 @@
 import sharp from 'sharp'
-import { createHash } from 'node:crypto'
 import { mkdir, readFile, writeFile } from 'node:fs/promises'
+import { createResponsiveImageCache } from './responsive-image-cache.mjs'
 
 // Export only the photographs used inside the original company montages.
+const cache = await createResponsiveImageCache()
 const crops = JSON.parse(await readFile('src/factory-photo-crops.json', 'utf8'))
 for (const { source, file, left, top, width, height } of Object.values(crops)) {
-  await sharp(`public/${source}`).extract({ left, top, width, height }).webp({ quality: 90 }).toFile(`public/${file}`)
+  await cache.transform(await readFile(`public/${source}`), {
+    extract: { left, top, width, height }, quality: 90, fixedFile: file,
+  })
 }
 const standardized = JSON.parse(await readFile('src/standardized-product-images.json', 'utf8'))
 const sources = [...new Set([
@@ -306,13 +309,11 @@ for (const source of sources) {
   const quality = source.startsWith('images/brand/') ? 90 : source.startsWith('images/documents/') ? 88 : source.startsWith('images/factory/') ? 80 : 82
   const variants = []
   for (const size of [...[96, 192, 384, 640, 768, 960, 1280, 1600].filter(size => size < width), width]) {
-    const output = await sharp(input).resize({ width: size, withoutEnlargement: true }).webp({ quality }).toBuffer()
-    const key = createHash('sha256').update(output).digest('hex').slice(0, 12)
-    const file = `images/responsive/${key}-${size}.webp`
-    await writeFile(`public/${file}`, output)
+    const { file } = await cache.transform(input, { width: size, quality })
     variants.push({ file, width: size })
   }
   manifest[source] = { width, height, variants }
 }
 await writeFile('src/responsive-image-manifest.json', JSON.stringify(manifest, null, 2) + '\n')
-console.log(`Prepared responsive variants for ${sources.length} audited images; originals preserved.`)
+await cache.save()
+console.log(`Prepared responsive variants for ${sources.length} audited images; originals preserved. Generated ${cache.stats.generated}; reused ${cache.stats.reused}.`)
