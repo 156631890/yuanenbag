@@ -730,6 +730,15 @@
   },
   {
     "kind": "guide",
+    "slug": "pallet-cover-trial-temperature-humidity-wetness",
+    "title": {
+      "en": "Read a Pallet Cover Trial Beyond the Temperature Curve",
+      "zh": "托盘罩试用报告：温度合格后，还要怎样检查湿润问题",
+      "es": "Evaluar una prueba de cubierta para palés más allá de la temperatura"
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "paper-insulated-bag-moisture-contact-brief",
     "title": {
       "en": "Specify Moisture Contact for Paper Insulated Bags",

@@ -17910,5 +17910,73 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-21/pallet-trial-detail.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/f1327d59635c-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/bc8d937c624d-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/6598f69f9128-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/415fb9f2badc-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/acc1a78d3125-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/c259b28e32f0-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/3dd89cf0434f-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/editorial/2026-11-21/pallet-trial.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/82530f305c9d-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/bf5ffecadb74-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/2d5743ef1b91-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/69bac81519f5-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/ce8f6f3ed804-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/b516e6b4cc60-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/e37966ca1338-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

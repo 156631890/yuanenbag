@@ -647,6 +647,14 @@
       "es": "Bolsa azul abierta con una bandeja tapada; dos dispositivos grises desconectados y una tarjeta aparte."
     }
   },
+  "pallet-cover-trial-temperature-humidity-wetness": {
+    "file": "images/editorial/2026-11-21/pallet-trial.webp",
+    "alt": {
+      "en": "A worker points to a carton beside a removed silver pallet hood",
+      "zh": "检查人员指向纸箱侧面，旁边放着已取下的银色托盘罩",
+      "es": "Una persona señala un cartón junto a una cubierta plateada retirada"
+    }
+  },
   "paper-insulated-bag-moisture-contact-brief": {
     "file": "images/editorial/2026-10-29/open-kraft-insulated-bag-base-handles.webp",
     "alt": {

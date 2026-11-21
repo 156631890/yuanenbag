@@ -1291,6 +1291,21 @@
   },
   {
     "kind": "guide",
+    "slug": "pallet-cover-trial-temperature-humidity-wetness",
+    "publishedAt": "2026-11-21",
+    "title": {
+      "en": "Read a Pallet Cover Trial Beyond the Temperature Curve",
+      "zh": "托盘罩试用报告：温度合格后，还要怎样检查湿润问题",
+      "es": "Evaluar una prueba de cubierta para palés más allá de la temperatura"
+    },
+    "description": {
+      "en": "Compare temperature, humidity and wetness records to decide what to change and retest in a pallet-cover sample.",
+      "zh": "比较温度、湿度与湿润记录，确定托盘罩样品该改什么、怎样复验。",
+      "es": "Compare temperatura, humedad y superficies mojadas para decidir qué cambiar y repetir en la prueba."
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "paper-insulated-bag-moisture-contact-brief",
     "publishedAt": "2026-10-29",
     "updatedAt": "2026-11-11",
