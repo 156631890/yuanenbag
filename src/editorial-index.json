@@ -142,6 +142,21 @@
     }
   },
   {
+    "kind": "industry",
+    "slug": "canada-carton-cellulose-insulation-pilot",
+    "publishedAt": "2026-11-21",
+    "title": {
+      "en": "Canadian Carton Insulation Pilot Leaves Commercial Acceptance Open",
+      "zh": "加拿大纸盒保温材料试验公布，商业接收条件仍待确认",
+      "es": "El ensayo canadiense de aislamiento con cartones deja pendiente la aceptación comercial"
+    },
+    "description": {
+      "en": "What the Innofibre and SEREX carton pilot establishes, what remains unverified, and what packaging buyers should request before changing recycling claims.",
+      "zh": "核对 Innofibre 与 SEREX 纸盒试验的已知结果、尚缺验证及采购方修改回收声明前需要的接收依据。",
+      "es": "Qué demuestra el ensayo de Innofibre y SEREX y qué deben comprobar los compradores antes de cambiar sus declaraciones de reciclaje."
+    }
+  },
+  {
     "kind": "guide",
     "slug": "catering-bag-front-opening-tray-fit",
     "publishedAt": "2026-10-12",

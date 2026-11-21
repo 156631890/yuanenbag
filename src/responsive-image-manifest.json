@@ -17978,5 +17978,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-21/carton-sort.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/8713b0977fbb-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/eb0d7d3cf90b-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/3531ad126764-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/6073d2b48dd5-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/4033caccdf56-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/051009dbdafe-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/55a000df3eef-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

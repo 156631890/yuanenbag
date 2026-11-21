@@ -1,1019 +1,458 @@
 [
   {
     "kind": "industry",
-    "slug": "acr-ultra-green-molded-fiber-acquisition",
-    "title": {
-      "en": "ACR Announces Acquisition of Molded-Fiber Supplier Ultra Green",
-      "zh": "ACR宣布收购模塑纤维包装供应商Ultra Green",
-      "es": "ACR anuncia la adquisición del proveedor de fibra moldeada Ultra Green"
-    }
+    "slug": "acr-ultra-green-molded-fiber-acquisition"
   },
   {
     "kind": "industry",
-    "slug": "afpa-september-2026-packaging-paper-shipments",
-    "title": {
-      "en": "AF&PA Reports September Packaging Paper Shipments Up 2% Year on Year",
-      "zh": "AF&PA公布9月包装纸出货量同比增长2%",
-      "es": "AF&PA informa de un aumento interanual del 2% en los envíos de papeles para envases en septiembre"
-    }
+    "slug": "afpa-september-2026-packaging-paper-shipments"
   },
   {
     "kind": "industry",
-    "slug": "amcor-barcelona-packaging-conference-recap",
-    "title": {
-      "en": "Amcor Reviews Barcelona Packaging Sustainability Discussions",
-      "zh": "Amcor回顾巴塞罗那包装可持续会议讨论",
-      "es": "Amcor repasa los debates sobre sostenibilidad del embalaje en Barcelona"
-    }
+    "slug": "amcor-barcelona-packaging-conference-recap"
   },
   {
     "kind": "industry",
-    "slug": "amcor-europe-wet-pet-food-packaging-study",
-    "title": {
-      "en": "Amcor Publishes European Wet-Pet-Food Packaging Research",
-      "zh": "Amcor发布欧洲湿宠物食品包装研究",
-      "es": "Amcor publica un estudio europeo sobre envases de alimento húmedo para mascotas"
-    }
+    "slug": "amcor-europe-wet-pet-food-packaging-study"
   },
   {
     "kind": "industry",
-    "slug": "atlantic-pack-expo-fiber-existing-lines",
-    "title": {
-      "en": "Atlantic Recaps Fiber Packaging Trials on Existing Lines at PACK EXPO",
-      "zh": "Atlantic回顾PACK EXPO现有产线纸基包装演示",
-      "es": "Atlantic repasa las pruebas de envases de fibra en líneas existentes en PACK EXPO"
-    }
+    "slug": "atlantic-pack-expo-fiber-existing-lines"
   },
   {
     "kind": "guide",
-    "slug": "beverage-carrier-last-cup-trial",
-    "title": {
-      "en": "Will the beverage carrier work when only one cup remains?",
-      "zh": "饮品配送袋只剩最后一杯时，还能平稳交接吗？",
-      "es": "¿Cómo se comporta la bolsa de reparto cuando queda un solo vaso?"
-    }
+    "slug": "beverage-carrier-last-cup-trial"
   },
   {
     "kind": "guide",
-    "slug": "beverage-delivery-bag-cup-divider-fit",
-    "title": {
-      "en": "Cup Dividers in Beverage Delivery Bags Need Room for Lids and Hands",
-      "zh": "饮品配送包的分隔要给杯盖和取杯留出空间",
-      "es": "Los separadores de las bolsas de reparto de bebidas necesitan espacio para tapas y manos"
-    }
+    "slug": "beverage-delivery-bag-cup-divider-fit"
   },
   {
     "kind": "industry",
-    "slug": "bio-based-europe-alliance-launch",
-    "title": {
-      "en": "Commission Launches Bio-Based Europe Alliance in Dublin",
-      "zh": "欧委会在都柏林启动生物基欧洲联盟",
-      "es": "La Comisión pone en marcha la Alianza Europea de Base Biológica en Dublín"
-    }
+    "slug": "bio-based-europe-alliance-launch"
   },
   {
     "kind": "guide",
-    "slug": "cake-cooler-bag-support-handoff",
-    "title": {
-      "en": "Match Cake Cooler Bags to the Box and Base Support",
-      "zh": "蛋糕保温袋如何配合盒体与底板支撑",
-      "es": "Combine la bolsa térmica de tarta con caja y base"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "catering-bag-front-opening-tray-fit",
-    "title": {
-      "en": "Check Horizontal Tray Access Before Ordering an Insulated Catering Bag",
-      "zh": "订购餐盘配送保温包前，先检查餐盘能否水平取放",
-      "es": "Compruebe el acceso horizontal de las bandejas antes de pedir una bolsa térmica de catering"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "catering-bag-trolley-shelf-clearance",
-    "title": {
-      "en": "A Catering Bag Needs Working Space on the Trolley",
-      "zh": "餐盘保温包上推车，别只量层板宽度",
-      "es": "La bolsa de catering también necesita espacio de maniobra en el carro"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "catering-tray-corner-lining-contact",
-    "title": {
-      "en": "Inspect Where Tray Corners Meet the Foil Lining",
-      "zh": "餐盘入袋后，检查盘角与铝箔内衬的接触",
-      "es": "Revise dónde las esquinas de la bandeja tocan el forro de aluminio"
-    }
+    "slug": "cake-cooler-bag-support-handoff"
   },
   {
     "kind": "industry",
-    "slug": "cheerios-ziploc-pantryseal-resealable-cereal-bag",
-    "title": {
-      "en": "Cheerios and Ziploc Introduce a Resealable Bag Inside the Cereal Box",
-      "zh": "Cheerios与Ziploc推出带可再封内袋的谷物盒包装",
-      "es": "Cheerios y Ziploc presentan una bolsa resellable dentro de la caja de cereales"
-    }
+    "slug": "canada-carton-cellulose-insulation-pilot"
   },
   {
     "kind": "guide",
-    "slug": "chocolate-gift-box-coolant-separation",
-    "title": {
-      "en": "Keep Chocolate Gift Packaging in the Coolant Separation Brief",
-      "zh": "巧克力运输冰源方案也要考虑礼盒表面保护",
-      "es": "Incluya la protección de la caja de chocolate al definir la separación del refrigerante"
-    }
+    "slug": "catering-bag-front-opening-tray-fit"
   },
   {
-    "kind": "industry",
-    "slug": "cirkla-belmark-ossid-resealable-fiber-trays",
-    "title": {
-      "en": "Cirkla, Belmark and Ossid Announce a Resealable Fiber-Tray System",
-      "zh": "Cirkla、Belmark与Ossid公布可重封纤维托盘方案",
-      "es": "Cirkla, Belmark y Ossid anuncian un sistema de bandejas de fibra resellables"
-    }
+    "kind": "guide",
+    "slug": "catering-bag-trolley-shelf-clearance"
+  },
+  {
+    "kind": "guide",
+    "slug": "catering-tray-corner-lining-contact"
   },
   {
     "kind": "industry",
-    "slug": "cjk-viking-label-packaging-reorders",
-    "title": {
-      "en": "CJK acquires Viking Label & Packaging. Viking keeps its sales team",
-      "zh": "CJK 宣布收购 Viking Label & Packaging，客户继续由原销售团队对接",
-      "es": "CJK adquiere Viking Label & Packaging, que mantiene su equipo comercial"
-    }
+    "slug": "cheerios-ziploc-pantryseal-resealable-cereal-bag"
   },
   {
     "kind": "guide",
-    "slug": "cleaning-trial-insulated-bag-samples",
-    "title": {
-      "en": "Agree a Cleaning Trial Before Putting Insulated Bags into Rotation",
-      "zh": "保温袋周转使用前，先确认清洁与干燥方法",
-      "es": "Acuerde una prueba de limpieza antes de reutilizar bolsas térmicas"
-    }
+    "slug": "chocolate-gift-box-coolant-separation"
   },
   {
     "kind": "industry",
-    "slug": "constantia-nom-paper-based-butter-wrap",
-    "title": {
-      "en": "Constantia and NÖM launch a paper-based butter wrap in Europe",
-      "zh": "Constantia与NÖM在欧洲推出纸基黄油包装",
-      "es": "Constantia y NÖM lanzan en Europa una envoltura de papel para mantequilla"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "coolant-dispatch-preparation-record",
-    "title": {
-      "en": "Keep the Coolant Preparation Record Through Packing Handover",
-      "zh": "冰源备冷到装箱，交接记录要保留哪些信息",
-      "es": "Conserve el registro de preparación del refrigerante hasta el embalaje"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "coolant-disposal-instruction-product-match",
-    "title": {
-      "en": "Match Coolant Disposal Instructions to the Actual Product",
-      "zh": "冰袋的处理说明，要与实际配方和型号对应",
-      "es": "Vincule las instrucciones de eliminación al producto refrigerante real"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "cooler-bag-zipper-strength-opening-evidence",
-    "title": {
-      "en": "Request Separate Evidence for Zipper Strength and Repeated Opening",
-      "zh": "保温包拉链强度与反复开合应分开核验",
-      "es": "Pida pruebas separadas de resistencia y apertura repetida de la cremallera"
-    }
+    "slug": "cirkla-belmark-ossid-resealable-fiber-trays"
   },
   {
     "kind": "industry",
-    "slug": "corona-cero-seven-bottle-packaging-case",
-    "title": {
-      "en": "Smurfit Westrock Details Corona Cero Seven-Bottle Packaging Project",
-      "zh": "Smurfit Westrock公布Corona Cero七瓶组合包装项目",
-      "es": "Smurfit Westrock detalla el proyecto de envase de siete botellas de Corona Cero"
-    }
+    "slug": "cjk-viking-label-packaging-reorders"
+  },
+  {
+    "kind": "guide",
+    "slug": "cleaning-trial-insulated-bag-samples"
   },
   {
     "kind": "industry",
-    "slug": "costco-orange-juice-paper-handle-case",
-    "title": {
-      "en": "Smurfit Westrock Shares Costco Orange-Juice Paper-Handle Case",
-      "zh": "Smurfit Westrock介绍Costco橙汁组合装纸提手案例",
-      "es": "Smurfit Westrock presenta el caso del asa de papel para zumo de Costco"
-    }
+    "slug": "constantia-nom-paper-based-butter-wrap"
   },
   {
     "kind": "guide",
-    "slug": "custom-bag-artwork-file-handoff",
-    "title": {
-      "en": "Prepare the Files Behind a Custom Bag Print Proof",
-      "zh": "定制袋印稿交付：源文件、预览与印刷版面分别确认",
-      "es": "Prepare los archivos que respaldan la prueba gráfica de su bolsa"
-    }
+    "slug": "coolant-dispatch-preparation-record"
   },
   {
     "kind": "guide",
-    "slug": "custom-insulated-bag-order-timeline-gates",
-    "title": {
-      "en": "Set the Start Date for a Custom Insulated-Bag Order",
-      "zh": "定制保温袋的交期，从哪个确认节点开始算",
-      "es": "Acuerde desde qué confirmación empieza el plazo de una bolsa térmica personalizada"
-    }
+    "slug": "coolant-disposal-instruction-product-match"
   },
   {
     "kind": "guide",
-    "slug": "daily-shipment-coolant-preparation-capacity",
-    "title": {
-      "en": "Check Coolant Preparation Capacity Before Increasing Daily Shipments",
-      "zh": "日发货量增加前，先核对冰袋准备能力",
-      "es": "Revise la capacidad de preparación de refrigerantes antes de aumentar los envíos diarios"
-    }
+    "slug": "cooler-bag-zipper-strength-opening-evidence"
   },
   {
     "kind": "industry",
-    "slug": "dart-lancaster-molded-fiber-capacity",
-    "title": {
-      "en": "Dart Expands Molded-Fiber Packaging Capacity in Lancaster",
-      "zh": "Dart扩展兰开斯特模塑纤维包装产能",
-      "es": "Dart amplía su capacidad de envases de fibra moldeada en Lancaster"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "delivery-bag-label-placement-trial",
-    "title": {
-      "en": "Check Delivery-Bag Labels With the Sample Loaded",
-      "zh": "配送袋贴标位置，要在装满和提起后再确认",
-      "es": "Compruebe la posición de la etiqueta con la bolsa de reparto cargada"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "delivery-cooler-external-rain-exposure-brief",
-    "title": {
-      "en": "Define External Rain Exposure for Delivery Coolers",
-      "zh": "配送保温包外部雨水暴露要求",
-      "es": "Defina la exposición exterior a la lluvia para las bolsas térmicas"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "design-sample-production-acceptance-scope",
-    "title": {
-      "en": "Define What a Design Sample Approves Before Production",
-      "zh": "量产前，写清设计样品的批准范围",
-      "es": "Defina qué aprueba una muestra de diseño antes de producir"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "drink-packaging-return-workflow",
-    "title": {
-      "en": "Choose Drink Packaging Around the Return Workflow",
-      "zh": "按交付与回收流程选择饮品外包装",
-      "es": "Elija el embalaje de bebidas según el circuito de devolución"
-    }
+    "slug": "corona-cero-seven-bottle-packaging-case"
   },
   {
     "kind": "industry",
-    "slug": "eu-bio-based-plastic-packaging-consultation",
-    "title": {
-      "en": "Commission Opens Consultation on Bio-Based Feedstock in Plastic Packaging",
-      "zh": "欧委会就塑料包装中的生物基原料公开征求意见",
-      "es": "La Comisión abre una consulta sobre materias primas biológicas en envases plásticos"
-    }
+    "slug": "costco-orange-juice-paper-handle-case"
+  },
+  {
+    "kind": "guide",
+    "slug": "custom-bag-artwork-file-handoff"
+  },
+  {
+    "kind": "guide",
+    "slug": "custom-insulated-bag-order-timeline-gates"
+  },
+  {
+    "kind": "guide",
+    "slug": "daily-shipment-coolant-preparation-capacity"
   },
   {
     "kind": "industry",
-    "slug": "eu-packaging-rules-insulated-bag-buyers",
-    "title": {
-      "en": "EU Packaging Regulation Begins Applying on 12 August 2026",
-      "zh": "欧盟包装法规于2026年8月12日开始适用",
-      "es": "El Reglamento de envases de la UE comienza a aplicarse el 12 de agosto de 2026"
-    }
+    "slug": "dart-lancaster-molded-fiber-capacity"
+  },
+  {
+    "kind": "guide",
+    "slug": "delivery-bag-label-placement-trial"
+  },
+  {
+    "kind": "guide",
+    "slug": "delivery-cooler-external-rain-exposure-brief"
+  },
+  {
+    "kind": "guide",
+    "slug": "design-sample-production-acceptance-scope"
+  },
+  {
+    "kind": "guide",
+    "slug": "drink-packaging-return-workflow"
   },
   {
     "kind": "industry",
-    "slug": "eurostat-2024-plastic-packaging-waste-data",
-    "title": {
-      "en": "Eurostat Publishes 2024 EU Plastic Packaging Waste Figures",
-      "zh": "Eurostat公布2024年欧盟塑料包装废弃量",
-      "es": "Eurostat publica las cifras de residuos de envases plásticos de la UE de 2024"
-    }
+    "slug": "eu-bio-based-plastic-packaging-consultation"
   },
   {
     "kind": "industry",
-    "slug": "fda-traceability-meeting-insulated-packaging-records",
-    "title": {
-      "en": "FDA’s November Traceability Meeting: What Packing Records Can Establish",
-      "zh": "FDA十一月追溯会议：包装记录能说明什么",
-      "es": "Reunión de trazabilidad de la FDA: qué acreditan los registros de embalaje"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "flat-packed-insulated-bag-storage-brief",
-    "title": {
-      "en": "Specify Empty-Bag Packing Before Ordering Insulated Totes",
-      "zh": "把空袋装箱与仓储条件写进保温袋询价",
-      "es": "Defina el embalaje de las bolsas térmicas vacías antes de pedirlas"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "foam-box-liner-closure-clearance",
-    "title": {
-      "en": "Check That Your Foam Box Lid Closes After Adding the Insulated Liner",
-      "zh": "装入保温内衬后，先检查泡沫箱盖能否闭合",
-      "es": "Compruebe el cierre de la caja de espuma después de colocar el forro aislante"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "foam-core-total-laminate-thickness",
-    "title": {
-      "en": "Define Which Layer an Insulation Thickness Quote Measures",
-      "zh": "保温材料报价里的厚度，量的是泡沫芯还是复合总厚",
-      "es": "Defina qué capa mide el espesor cotizado del aislante"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "foil-mailer-outer-carton-checklist",
-    "title": {
-      "en": "A Packing Checklist for Foil Insulated Mailers and Shipping Cartons",
-      "zh": "铝箔保温邮寄袋与外箱的装载检查清单",
-      "es": "Comprobaciones de embalaje para bolsas térmicas de aluminio y cajas de envío"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "foil-metallised-lining-specification",
-    "title": {
-      "en": "A Silver Lining Needs a Layer Specification",
-      "zh": "银色内衬询价，要分清铝箔与镀铝膜资料",
-      "es": "Un forro plateado necesita una especificación de sus capas"
-    }
+    "slug": "eu-packaging-rules-insulated-bag-buyers"
   },
   {
     "kind": "industry",
-    "slug": "fpa-brand-owner-council-formation",
-    "title": {
-      "en": "FPA Forms a Brand Owner Council With Three Inaugural Members",
-      "zh": "FPA 成立品牌商委员会，公布首批三家成员",
-      "es": "FPA crea un consejo de marcas con tres miembros fundadores"
-    }
+    "slug": "eurostat-2024-plastic-packaging-waste-data"
   },
   {
     "kind": "industry",
-    "slug": "fpf-ppwr-recycled-content-evidence",
-    "title": {
-      "en": "Food Packaging Forum Submits Comments on EU Recycling and Recycled Content",
-      "zh": "Food Packaging Forum就欧盟包装回收与再生含量提交意见",
-      "es": "Food Packaging Forum presenta observaciones sobre reciclaje y contenido reciclado en envases de la UE"
-    }
+    "slug": "fda-traceability-meeting-insulated-packaging-records"
+  },
+  {
+    "kind": "guide",
+    "slug": "flat-packed-insulated-bag-storage-brief"
+  },
+  {
+    "kind": "guide",
+    "slug": "foam-box-liner-closure-clearance"
+  },
+  {
+    "kind": "guide",
+    "slug": "foam-core-total-laminate-thickness"
+  },
+  {
+    "kind": "guide",
+    "slug": "foil-mailer-outer-carton-checklist"
+  },
+  {
+    "kind": "guide",
+    "slug": "foil-metallised-lining-specification"
   },
   {
     "kind": "industry",
-    "slug": "gcca-philadelphia-cold-chain-packaging-handoff",
-    "title": {
-      "en": "GCCA’s Philadelphia Meeting: An Update to the October Preview",
-      "zh": "GCCA费城冷链会议：10月预告的后续更新",
-      "es": "Encuentro de GCCA en Filadelfia: actualización del anuncio de octubre"
-    }
+    "slug": "fpa-brand-owner-council-formation"
   },
   {
     "kind": "industry",
-    "slug": "georgia-pacific-paragould-thermoforming-expansion",
-    "title": {
-      "en": "Georgia-Pacific plans two new thermoforming lines at its Arkansas food packaging plant",
-      "zh": "Georgia-Pacific 将在阿肯色州食品包装厂增设两条热成型线",
-      "es": "Georgia-Pacific añadirá dos líneas de termoformado en su planta de envases alimentarios de Arkansas"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "glass-meal-container-protection-review",
-    "title": {
-      "en": "Glass Meal Containers Need a Separate Protection Review",
-      "zh": "玻璃餐盒装入备餐包，还需单独评估防碰撞",
-      "es": "Los recipientes de vidrio necesitan una revisión de protección aparte"
-    }
+    "slug": "fpf-ppwr-recycled-content-evidence"
   },
   {
     "kind": "industry",
-    "slug": "graphic-packaging-cti-boardio-nutraceutical-canisters",
-    "title": {
-      "en": "Graphic Packaging Offers Boardio Paperboard Canisters Through CTI",
-      "zh": "Graphic Packaging 通过 CTI 向北美营养补充剂品牌提供 Boardio 纸板罐",
-      "es": "Graphic Packaging ofrece envases Boardio de cartón a través de CTI"
-    }
+    "slug": "gcca-philadelphia-cold-chain-packaging-handoff"
   },
   {
     "kind": "industry",
-    "slug": "hivest-sustana-recycled-paper-acquisition",
-    "title": {
-      "en": "Hivest Acquires Recycled-Fiber and Paper Producer Sustana",
-      "zh": "Hivest完成收购再生纤维与纸张生产商Sustana",
-      "es": "Hivest adquiere Sustana, fabricante de fibra reciclada y papel"
-    }
+    "slug": "georgia-pacific-paragould-thermoforming-expansion"
+  },
+  {
+    "kind": "guide",
+    "slug": "glass-meal-container-protection-review"
   },
   {
     "kind": "industry",
-    "slug": "holmen-incada-duo-laminated-paperboard",
-    "title": {
-      "en": "Holmen Presents UK-Made Incada Duo Laminated Paperboard",
-      "zh": "Holmen介绍英国产Incada Duo复合折叠纸板",
-      "es": "Holmen presenta el cartoncillo laminado Incada Duo fabricado en el Reino Unido"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "ibc-cover-cap-valve-access-layout",
-    "title": {
-      "zh": "IBC保温罩的检修口，要按桶盖和阀门操作空间定位",
-      "en": "Position IBC Cover Openings Around Cap and Valve Access",
-      "es": "Sitúe las aberturas de la funda IBC según el acceso a tapa y válvula"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "ice-pack-delivery-state-quotation",
-    "title": {
-      "en": "Confirm How Ice Packs Arrive Before Comparing Quotes",
-      "zh": "冰袋报价，先确认交货时的状态",
-      "es": "Confirme el estado de entrega de los acumuladores"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "ice-sheet-order-unit-sheets-cells",
-    "title": {
-      "en": "Confirm Whether Ice-Sheet Quantities Count Sheets or Cells",
-      "zh": "多格冰片订货，确认按张还是按格",
-      "es": "Confirme si las cantidades de láminas refrigerantes cuentan láminas o celdas"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "icecream-tub-refrigerant-fit",
-    "title": {
-      "en": "Size Your Ice Cream Delivery Bag Around the Tub and Refrigerant",
-      "zh": "根据桶体和冰源确定冰淇淋配送包尺寸",
-      "es": "Dimensione la bolsa de reparto de helado según el recipiente y el refrigerante"
-    }
+    "slug": "graphic-packaging-cti-boardio-nutraceutical-canisters"
   },
   {
     "kind": "industry",
-    "slug": "ifco-whole-foods-reusable-produce-packaging",
-    "title": {
-      "en": "IFCO expands reusable produce packaging at Whole Foods Market",
-      "zh": "IFCO扩展Whole Foods Market生鲜可重复使用包装计划",
-      "es": "IFCO amplía el embalaje reutilizable para productos frescos en Whole Foods Market"
-    }
+    "slug": "hivest-sustana-recycled-paper-acquisition"
   },
   {
     "kind": "industry",
-    "slug": "inline-plastics-safe-t-chef-24-ounce-lid-options",
-    "title": {
-      "en": "Inline Plastics Adds Two Safe-T-Chef Container Options",
-      "zh": "Inline Plastics新增两款Safe-T-Chef餐盒",
-      "es": "Inline Plastics amplía Safe-T-Chef con dos opciones de envase"
-    }
+    "slug": "holmen-incada-duo-laminated-paperboard"
+  },
+  {
+    "kind": "guide",
+    "slug": "ibc-cover-cap-valve-access-layout"
+  },
+  {
+    "kind": "guide",
+    "slug": "ice-pack-delivery-state-quotation"
+  },
+  {
+    "kind": "guide",
+    "slug": "ice-sheet-order-unit-sheets-cells"
+  },
+  {
+    "kind": "guide",
+    "slug": "icecream-tub-refrigerant-fit"
   },
   {
     "kind": "industry",
-    "slug": "innovia-propafilm-chbm-barrier-film",
-    "title": {
-      "en": "Innovia Introduces Propafilm CHBM for PP-Based Barrier Packaging",
-      "zh": "Innovia 发布面向 PP 阻隔包装的 Propafilm CHBM",
-      "es": "Innovia presenta Propafilm CHBM para envases de barrera basados en PP"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "insulated-bag-carrying-load-requirement-brief",
-    "title": {
-      "en": "Specify Carrying Loads Separately from Insulated-Bag Volume",
-      "zh": "保温包能装多少，要把空间与提携载荷分开确认",
-      "es": "Especifique la carga de transporte aparte del volumen de la bolsa térmica"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "insulated-bag-delivery-lot-inspection",
-    "title": {
-      "en": "Record Delivered Insulated Bags Against the Agreed Sample",
-      "zh": "保温袋到货后，怎样记录与确认样品的差异",
-      "es": "Registre las diferencias entre las bolsas recibidas y la muestra acordada"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "insulated-bag-odor-review-record",
-    "title": {
-      "en": "Record Arrival Conditions When Reviewing Insulated-Bag Odor",
-      "zh": "复核保温袋样品气味，先记录到样与开包状态",
-      "es": "Registre la recepción y apertura al revisar el olor de una bolsa térmica"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "insulated-bag-print-colour-reference-proof",
-    "title": {
-      "en": "Match Print-Colour Approval to the Bag Substrate",
-      "zh": "确认保温袋印刷颜色，要把色标与承印材料对应起来",
-      "es": "Vincule la aprobación del color impreso al material de la bolsa"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "insulated-bag-thermal-report-comparison",
-    "title": {
-      "en": "Match Conditions Before Comparing Insulated-Bag Test Reports",
-      "zh": "比较保温包测试报告前，先对齐试验条件",
-      "es": "Alinee las condiciones antes de comparar informes de bolsas térmicas"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "insulated-material-environmental-claim-evidence",
-    "title": {
-      "en": "Request Separate Evidence for Environmental Material Claims",
-      "zh": "采购保温复合材料时，把环境声明逐项索证",
-      "es": "Pida pruebas separadas para las declaraciones ambientales del material"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "insulated-packaging-contact-use-document-brief",
-    "title": {
-      "en": "Define the Packaging Use Before Requesting Food-Contact Documents",
-      "zh": "索取食品接触资料前，先写清包装用途",
-      "es": "Defina el uso del embalaje antes de pedir documentación de contacto alimentario"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "insulated-packaging-quote-comparison",
-    "title": {
-      "en": "Compare What Each Insulated-Packaging Quote Includes",
-      "zh": "保温包装报价差在哪，先把计价范围放到同一张表",
-      "es": "Compare qué incluye cada oferta de embalaje térmico"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "insulated-packout-dimensional-range-fit",
-    "title": {
-      "en": "Check Pack-Out Fit Across the Agreed Dimension Ranges",
-      "zh": "用约定尺寸范围核对保温袋与内装物的适配",
-      "es": "Compruebe el ajuste con los intervalos de dimensiones acordados"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "insulated-pallet-cover-overhang-installation-clearance",
-    "title": {
-      "en": "Size a Pallet Cover for the Load and the Fitting Space",
-      "zh": "托盘保温罩选尺寸，要同时量整垛和安装空间",
-      "es": "Dimensione la funda térmica para la carga y el espacio de montaje"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "insulated-parcel-shipping-dimensions-quote",
-    "title": {
-      "en": "Measure the Closed Insulated Parcel Before Requesting Shipping Costs",
-      "zh": "保温包裹运费询价，先量封装后的外包装",
-      "es": "Mida el paquete térmico cerrado antes de cotizar el envío"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "insulated-parcel-waiting-time-trial-brief",
-    "title": {
-      "en": "Include Waiting Time in an Insulated-Parcel Trial",
-      "zh": "保温包裹试用，要计入交接等待时间",
-      "es": "Incluya las esperas en la prueba del paquete térmico"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "insulated-shopping-bags-frozen-food",
-    "title": {
-      "en": "Choosing an Insulated Shopping Bag for Frozen Food Pickup",
-      "zh": "冷冻食品自提时，保温购物袋该怎么选",
-      "es": "Elegir una bolsa térmica para recoger alimentos congelados"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "insulation-laminate-bond-report-scope",
-    "title": {
-      "en": "Match a Laminate Bond Report to the Insulation Material Being Ordered",
-      "zh": "复合保温材料的粘接报告，先核对试样与结果口径",
-      "es": "Vincule el informe de unión al material aislante que va a pedir"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "insulation-roll-core-bore-finished-diameter",
-    "title": {
-      "en": "Match Insulation Roll Bore and Diameter to Receiving Equipment",
-      "zh": "保温卷材上设备前，分开核对芯孔与整卷直径",
-      "es": "Compare el hueco y diámetro del rollo aislante con el equipo receptor"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "insulation-roll-price-per-usable-square-metre",
-    "title": {
-      "en": "Compare Insulation Roll Quotes on the Same Area Basis",
-      "zh": "比较保温卷材报价，先统一每平方米的计算口径",
-      "es": "Compare las ofertas de rollos aislantes con la misma base de superficie"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "insulation-roll-splice-acceptance",
-    "title": {
-      "en": "Agree Splice Acceptance Before Ordering Insulation Rolls",
-      "zh": "保温卷材接头怎样写入订单与收货验收",
-      "es": "Acuerde la aceptación de empalmes antes de pedir rollos aislantes"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "meal-prep-container-stack-fit",
-    "title": {
-      "en": "Will Stacked Food Containers Fit in Your Meal Prep Bag?",
-      "zh": "多个餐盒叠放后，备餐包还能顺利装取吗？",
-      "es": "¿Caben los recipientes de comida apilados en su bolsa térmica?"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "mixed-grocery-order-separate-bags",
-    "title": {
-      "en": "When one grocery order needs separate insulated bags",
-      "zh": "一张生鲜订单什么时候需要分用保温袋？",
-      "es": "Cuándo un pedido de supermercado necesita bolsas térmicas separadas"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "multi-stop-delivery-bag-opening-trial",
-    "title": {
-      "en": "Include Every Stop in an Insulated Delivery-Bag Trial",
-      "zh": "逐站开袋和减载，应一起纳入配送试验",
-      "es": "Incluya cada parada en la prueba de una bolsa térmica de reparto"
-    }
+    "slug": "ifco-whole-foods-reusable-produce-packaging"
   },
   {
     "kind": "industry",
-    "slug": "nfinite-paper-barrier-pilot-run",
-    "title": {
-      "en": "Nfinite Reports a Roll-to-Roll Pilot Run for Barrier Paper",
-      "zh": "Nfinite公布阻隔纸卷对卷中试进展",
-      "es": "Nfinite anuncia una prueba piloto de papel barrera de bobina a bobina"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "nonwoven-basis-weight-thickness-bag-mass",
-    "title": {
-      "en": "Separate Nonwoven Basis Weight, Thickness and Bag Mass",
-      "zh": "区分无纺布克重、厚度与整袋重量",
-      "es": "Distinga el gramaje del no tejido, el espesor y la masa de la bolsa"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "packaging-film-puncture-report-probe-scope",
-    "title": {
-      "en": "Can You Compare Two Packaging Film Puncture Reports?",
-      "zh": "两份包装膜穿刺报告，怎样判断能不能比？",
-      "es": "¿Se pueden comparar dos informes de perforación de películas?"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "packaging-qr-destination-approval",
-    "title": {
-      "en": "Approve What the Packaging QR Code Opens",
-      "zh": "包装二维码印前先确认打开的页面",
-      "es": "Apruebe la página que abre el QR del envase"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "packaging-quote-incoterms-named-place",
-    "title": {
-      "en": "Write the Delivery Point into the Packaging Quotation",
-      "zh": "包装报价里的交货地点，不能只留一个城市名",
-      "es": "Defina el punto de entrega en la oferta de embalajes"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "packout-temperature-sensor-position-record",
-    "title": {
-      "en": "Keep Sensor Positions With the Loaded-Bag Test Record",
-      "zh": "装载测试的测温位置，要随照片一起留档",
-      "es": "Guarde la posición de los sensores con el registro de ensayo de la bolsa cargada"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "pallet-cover-trial-temperature-humidity-wetness",
-    "title": {
-      "en": "Read a Pallet Cover Trial Beyond the Temperature Curve",
-      "zh": "托盘罩试用报告：温度合格后，还要怎样检查湿润问题",
-      "es": "Evaluar una prueba de cubierta para palés más allá de la temperatura"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "paper-insulated-bag-moisture-contact-brief",
-    "title": {
-      "en": "Specify Moisture Contact for Paper Insulated Bags",
-      "zh": "纸基保温袋，先说明水分接触位置",
-      "es": "Defina el contacto con humedad en bolsas térmicas de papel"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "pizza-bag-passive-insulation-heating-requirement",
-    "title": {
-      "en": "Check the Bag Specification When Delivery Requires Active Heating",
-      "zh": "需要主动加热时，先核对披萨包范围",
-      "es": "Revise la bolsa si el reparto requiere calentamiento activo"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "pizza-delivery-bag-packout-checklist",
-    "title": {
-      "en": "What to Check After Loading Pizza Boxes into an Insulated Delivery Bag",
-      "zh": "披萨盒装进配送保温包后，样品要检查什么",
-      "es": "Qué comprobar después de cargar cajas de pizza en una bolsa térmica de reparto"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "pizza-delivery-bag-two-order-handoff",
-    "title": {
-      "en": "Two pizza orders in one delivery bag: which boxes stay after the first stop?",
-      "zh": "一只披萨配送袋装两单，第一站该取哪些盒？",
-      "es": "Dos pedidos en una bolsa de reparto de pizzas: ¿qué cajas se quedan tras la primera entrega?"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "pizza-delivery-bag-ventilation-trial",
-    "title": {
-      "en": "Evaluate Pizza Box Ventilation with the Delivery Bag",
-      "zh": "披萨盒排汽与配送保温包如何一起试样",
-      "es": "Evalúe la ventilación de la caja con la bolsa de pizza"
-    }
+    "slug": "inline-plastics-safe-t-chef-24-ounce-lid-options"
   },
   {
     "kind": "industry",
-    "slug": "placon-homefresh-round-deli-lid-fit-relaunch",
-    "title": {
-      "en": "Placon Relaunches HomeFresh Round Deli",
-      "zh": "Placon重推HomeFresh餐盒",
-      "es": "Placon relanza HomeFresh Round Deli"
-    }
+    "slug": "innovia-propafilm-chbm-barrier-film"
+  },
+  {
+    "kind": "guide",
+    "slug": "insulated-bag-carrying-load-requirement-brief"
+  },
+  {
+    "kind": "guide",
+    "slug": "insulated-bag-delivery-lot-inspection"
+  },
+  {
+    "kind": "guide",
+    "slug": "insulated-bag-odor-review-record"
+  },
+  {
+    "kind": "guide",
+    "slug": "insulated-bag-print-colour-reference-proof"
+  },
+  {
+    "kind": "guide",
+    "slug": "insulated-bag-thermal-report-comparison"
+  },
+  {
+    "kind": "guide",
+    "slug": "insulated-material-environmental-claim-evidence"
+  },
+  {
+    "kind": "guide",
+    "slug": "insulated-packaging-contact-use-document-brief"
+  },
+  {
+    "kind": "guide",
+    "slug": "insulated-packaging-quote-comparison"
+  },
+  {
+    "kind": "guide",
+    "slug": "insulated-packout-dimensional-range-fit"
+  },
+  {
+    "kind": "guide",
+    "slug": "insulated-pallet-cover-overhang-installation-clearance"
+  },
+  {
+    "kind": "guide",
+    "slug": "insulated-parcel-shipping-dimensions-quote"
+  },
+  {
+    "kind": "guide",
+    "slug": "insulated-parcel-waiting-time-trial-brief"
+  },
+  {
+    "kind": "guide",
+    "slug": "insulated-shopping-bags-frozen-food"
+  },
+  {
+    "kind": "guide",
+    "slug": "insulation-laminate-bond-report-scope"
+  },
+  {
+    "kind": "guide",
+    "slug": "insulation-roll-core-bore-finished-diameter"
+  },
+  {
+    "kind": "guide",
+    "slug": "insulation-roll-price-per-usable-square-metre"
+  },
+  {
+    "kind": "guide",
+    "slug": "insulation-roll-splice-acceptance"
+  },
+  {
+    "kind": "guide",
+    "slug": "meal-prep-container-stack-fit"
+  },
+  {
+    "kind": "guide",
+    "slug": "mixed-grocery-order-separate-bags"
+  },
+  {
+    "kind": "guide",
+    "slug": "multi-stop-delivery-bag-opening-trial"
   },
   {
     "kind": "industry",
-    "slug": "proampac-shelf-protect-food-contact-film",
-    "title": {
-      "en": "ProAmpac Introduces Shelf Protect Food-Contact Films",
-      "zh": "ProAmpac推出Shelf Protect食品接触薄膜",
-      "es": "ProAmpac presenta las películas Shelf Protect para contacto alimentario"
-    }
+    "slug": "nfinite-paper-barrier-pilot-run"
+  },
+  {
+    "kind": "guide",
+    "slug": "nonwoven-basis-weight-thickness-bag-mass"
+  },
+  {
+    "kind": "guide",
+    "slug": "packaging-film-puncture-report-probe-scope"
+  },
+  {
+    "kind": "guide",
+    "slug": "packaging-qr-destination-approval"
+  },
+  {
+    "kind": "guide",
+    "slug": "packaging-quote-incoterms-named-place"
+  },
+  {
+    "kind": "guide",
+    "slug": "packout-temperature-sensor-position-record"
+  },
+  {
+    "kind": "guide",
+    "slug": "pallet-cover-trial-temperature-humidity-wetness"
+  },
+  {
+    "kind": "guide",
+    "slug": "paper-insulated-bag-moisture-contact-brief"
+  },
+  {
+    "kind": "guide",
+    "slug": "pizza-bag-passive-insulation-heating-requirement"
+  },
+  {
+    "kind": "guide",
+    "slug": "pizza-delivery-bag-packout-checklist"
+  },
+  {
+    "kind": "guide",
+    "slug": "pizza-delivery-bag-two-order-handoff"
+  },
+  {
+    "kind": "guide",
+    "slug": "pizza-delivery-bag-ventilation-trial"
   },
   {
     "kind": "industry",
-    "slug": "proampac-sial-food-packaging-preview",
-    "title": {
-      "en": "Revisiting ProAmpac’s Food Packaging Plans for SIAL Paris 2026",
-      "zh": "回看ProAmpac的SIAL Paris 2026食品包装展示计划",
-      "es": "Los planes de ProAmpac para SIAL Paris 2026, revisados"
-    }
+    "slug": "placon-homefresh-round-deli-lid-fit-relaunch"
   },
   {
     "kind": "industry",
-    "slug": "promach-pack-expo-connected-line-preview",
-    "title": {
-      "en": "ProMach’s PACK EXPO Preview Separated the Stages of a Packaging Line",
-      "zh": "回看ProMach按包装工序组织的PACK EXPO预告",
-      "es": "La previa de ProMach en PACK EXPO separó las etapas de la línea"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "repeat-order-insulated-bag-change-review",
-    "title": {
-      "en": "Map Insulated Bag Changes to the Checks Needed Before a Repeat Order",
-      "zh": "保温袋返单前，把变更与复核项目对应起来",
-      "es": "Relacione los cambios de la bolsa térmica con las revisiones del nuevo pedido"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "roll-cage-cover-curtain-gate-access-trial",
-    "title": {
-      "en": "Trial the Roll Cage Curtain and Gate Before Ordering",
-      "zh": "笼车保温罩打样，要连前帘、车门和取货一起试",
-      "es": "Pruebe cortina, puerta y retirada antes de pedir la funda del carro"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "seafood-packout-leak-containment",
-    "title": {
-      "en": "Which Layer Should Contain Leaks in a Seafood Shipping Box?",
-      "zh": "海鲜运输箱中，哪一层负责防漏？",
-      "es": "¿Qué capa debe contener las fugas en una caja de transporte de pescado y marisco?"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "segmented-ice-sheet-approved-cut-layout",
-    "title": {
-      "en": "Agree the Cut Layout Before Resizing Ice Sheets",
-      "zh": "分格冰片裁切，先确认保留哪些格",
-      "es": "Acuerde el corte antes de ajustar láminas refrigerantes"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "self-seal-bag-packing-process-trial",
-    "title": {
-      "en": "Test the Packing Steps Before Batch-Sealing Insulated Pouches",
-      "zh": "批量封口前，先试清楚自粘保温袋的操作步骤",
-      "es": "Pruebe los pasos de embalaje antes de cerrar bolsas térmicas por lotes"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "self-seal-closure-tamper-evidence-requirements",
-    "title": {
-      "en": "Specify Self-Sealing and Opening Evidence Separately",
-      "zh": "自粘封口与开启痕迹，需要分别确认",
-      "es": "Especifique por separado el autocierre y la evidencia de apertura"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "self-seal-foil-bag-size-flap-fit",
-    "title": {
-      "en": "Read Self-Seal Foil Bag Dimensions Before Packing a Food Box",
-      "zh": "餐盒选袋前，先分清自粘铝箔袋的袋身和折口尺寸",
-      "es": "Lea las medidas de la bolsa térmica autoadhesiva antes de introducir el recipiente"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "self-seal-insulated-bag-inventory-use-window",
-    "title": {
-      "en": "Confirm the Storage and Use Window for Self-Seal Bags",
-      "zh": "分批领用自粘保温袋前，确认库存使用期限",
-      "es": "Confirme el plazo de almacenamiento y uso de las bolsas autoadhesivas"
-    }
-  },
-  {
-    "kind": "guide",
-    "slug": "shipping-coolant-reuse-approval-record",
-    "title": {
-      "en": "Confirm Coolant Reuse Conditions Before Another Shipment",
-      "zh": "冰袋再次发货前，核对重复使用的适用条件",
-      "es": "Confirme las condiciones de reutilización antes de otro envío"
-    }
+    "slug": "proampac-shelf-protect-food-contact-film"
   },
   {
     "kind": "industry",
-    "slug": "silgan-aip-trivium-proposed-packaging-combination",
-    "title": {
-      "en": "Silgan and AIP Propose a Packaging Combination with Trivium",
-      "zh": "Silgan与AIP公布Trivium包装业务拟议交易",
-      "es": "Silgan y AIP proponen una combinación de envases con Trivium"
-    }
+    "slug": "proampac-sial-food-packaging-preview"
   },
   {
     "kind": "industry",
-    "slug": "smurfit-westrock-allende-integrated-bottle-glass-pack",
-    "title": {
-      "en": "Smurfit Westrock Details Allende’s Integrated Bottle-and-Glass Pack",
-      "zh": "Smurfit Westrock披露Allende瓶杯一体分隔包装案例",
-      "es": "Smurfit Westrock detalla el envase integrado de botellas y vasos de Allende"
-    }
-  },
-  {
-    "kind": "industry",
-    "slug": "solidus-futurline-heat-eat-map-trays",
-    "title": {
-      "en": "Solidus Names Its Fibre-Based MAP Tray Range Futurline Heat&Eat",
-      "zh": "Solidus以Futurline Heat&Eat命名纸基气调餐盒系列",
-      "es": "Solidus denomina Futurline Heat&Eat a su gama de bandejas MAP de fibra"
-    }
-  },
-  {
-    "kind": "industry",
-    "slug": "sonoco-third-quarter-2026-packaging-costs",
-    "title": {
-      "en": "Sonoco Reports Cost and Volume Changes in Third-Quarter Packaging Results",
-      "zh": "Sonoco三季度公告披露包装业务成本与销量变化",
-      "es": "Sonoco informa de cambios en costes y volúmenes de embalaje en el tercer trimestre"
-    }
-  },
-  {
-    "kind": "industry",
-    "slug": "spain-bonded-cold-storage-packaging-handoff",
-    "title": {
-      "en": "Lineage Announces Bonded Warehouse Authorization for Its Murcia Cold Store",
-      "zh": "Lineage宣布穆尔西亚冷库获得海关保税仓授权",
-      "es": "Lineage anuncia la autorización como depósito aduanero de su almacén frigorífico de Murcia"
-    }
-  },
-  {
-    "kind": "industry",
-    "slug": "temperpack-cruz-foam-ip-acquisition",
-    "title": {
-      "en": "TemperPack Acquires Cruz Foam’s Intellectual Property Portfolio",
-      "zh": "TemperPack收购Cruz Foam知识产权组合",
-      "es": "TemperPack adquiere la cartera de propiedad intelectual de Cruz Foam"
-    }
-  },
-  {
-    "kind": "industry",
-    "slug": "tetra-pak-ice-cream-paper-wrap",
-    "title": {
-      "en": "Tetra Pak Plans a Phased Ice Cream Wrap Rollout from Europe",
-      "zh": "利乐计划从欧洲分阶段推出冰淇淋纸基包装",
-      "es": "Tetra Pak prevé un despliegue por fases desde Europa para Ice Cream Wrap"
-    }
+    "slug": "promach-pack-expo-connected-line-preview"
   },
   {
     "kind": "guide",
-    "slug": "thermal-pallet-cover-return-loop",
-    "title": {
-      "en": "Plan a Return Loop for Reusable Thermal Pallet Covers",
-      "zh": "可重复使用托盘保温罩的回收周转怎么规划",
-      "es": "Planifique la devolución de cubiertas térmicas reutilizables"
-    }
+    "slug": "repeat-order-insulated-bag-change-review"
   },
   {
     "kind": "guide",
-    "slug": "tote-handle-drop-measurement-reference",
-    "title": {
-      "en": "Specify Tote Handle Drop Separately from Strap Length",
-      "zh": "午餐袋提手净高与织带总长，应分别确认",
-      "es": "Defina la altura libre del asa por separado de su longitud"
-    }
+    "slug": "roll-cage-cover-curtain-gate-access-trial"
+  },
+  {
+    "kind": "guide",
+    "slug": "seafood-packout-leak-containment"
+  },
+  {
+    "kind": "guide",
+    "slug": "segmented-ice-sheet-approved-cut-layout"
+  },
+  {
+    "kind": "guide",
+    "slug": "self-seal-bag-packing-process-trial"
+  },
+  {
+    "kind": "guide",
+    "slug": "self-seal-closure-tamper-evidence-requirements"
+  },
+  {
+    "kind": "guide",
+    "slug": "self-seal-foil-bag-size-flap-fit"
+  },
+  {
+    "kind": "guide",
+    "slug": "self-seal-insulated-bag-inventory-use-window"
+  },
+  {
+    "kind": "guide",
+    "slug": "shipping-coolant-reuse-approval-record"
   },
   {
     "kind": "industry",
-    "slug": "umd-biobased-produce-wrap-research",
-    "title": {
-      "en": "University of Maryland Reports Bio-Based Wrap Research for Produce",
-      "zh": "马里兰大学公布果蔬生物基包装薄膜研究",
-      "es": "La Universidad de Maryland presenta un estudio sobre envolturas biobasadas para frutas y hortalizas"
-    }
+    "slug": "silgan-aip-trivium-proposed-packaging-combination"
   },
   {
     "kind": "industry",
-    "slug": "us-cold-chain-grants-frozen-food-packaging",
-    "title": {
-      "en": "USDA Announces Cold-Chain Grants for Emergency Food Assistance",
-      "zh": "美国农业部公布紧急食品援助冷链资助计划",
-      "es": "El USDA anuncia ayudas de cadena de frío para asistencia alimentaria de emergencia"
-    }
+    "slug": "smurfit-westrock-allende-integrated-bottle-glass-pack"
+  },
+  {
+    "kind": "industry",
+    "slug": "solidus-futurline-heat-eat-map-trays"
+  },
+  {
+    "kind": "industry",
+    "slug": "sonoco-third-quarter-2026-packaging-costs"
+  },
+  {
+    "kind": "industry",
+    "slug": "spain-bonded-cold-storage-packaging-handoff"
+  },
+  {
+    "kind": "industry",
+    "slug": "temperpack-cruz-foam-ip-acquisition"
+  },
+  {
+    "kind": "industry",
+    "slug": "tetra-pak-ice-cream-paper-wrap"
   },
   {
     "kind": "guide",
-    "slug": "water-activated-pack-condensation-claim-check",
-    "title": {
-      "en": "Specify Water Activation and Condensation Control Separately",
-      "zh": "把吸水准备与凝露控制分别写入冰袋要求",
-      "es": "Especifique por separado la activación con agua y el control de condensación"
-    }
+    "slug": "thermal-pallet-cover-return-loop"
   },
   {
     "kind": "guide",
-    "slug": "water-fill-coolant-order-quantity-per-design",
-    "title": {
-      "en": "Confirm Printed Water-Fill Pack Quantities for Each Design",
-      "zh": "注水冰袋印刷数量，按设计分别确认",
-      "es": "Confirme las cantidades de bolsas refrigerantes impresas por diseño"
-    }
+    "slug": "tote-handle-drop-measurement-reference"
+  },
+  {
+    "kind": "industry",
+    "slug": "umd-biobased-produce-wrap-research"
+  },
+  {
+    "kind": "industry",
+    "slug": "us-cold-chain-grants-frozen-food-packaging"
+  },
+  {
+    "kind": "guide",
+    "slug": "water-activated-pack-condensation-claim-check"
+  },
+  {
+    "kind": "guide",
+    "slug": "water-fill-coolant-order-quantity-per-design"
   }
 ]

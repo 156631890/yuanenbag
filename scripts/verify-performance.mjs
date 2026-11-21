@@ -10,7 +10,7 @@ const entry = await readFile(`dist/${manifest['index.html'].file}`, 'utf8')
 const editorialIndex = JSON.parse(await readFile('src/editorial-index.json', 'utf8'))
 const editorialImages = JSON.parse(await readFile('src/editorial-images.json', 'utf8'))
 const editorialRoutes = JSON.parse(await readFile('src/editorial-routes.json', 'utf8'))
-assert.deepEqual(editorialRoutes, editorialIndex.map(({ kind, slug, title }) => ({ kind, slug, title })), 'Editorial route index is stale.')
+assert.deepEqual(editorialRoutes, editorialIndex.map(({ kind, slug }) => ({ kind, slug })), 'Editorial route index is stale.')
 const globalMetadataModule = manifest['src/editorial-index.json']
 assert(globalMetadataModule?.isDynamicEntry, 'Global archive metadata must remain an on-demand fallback.')
 const globalCardImageModule = manifest['src/editorial-images.json']
