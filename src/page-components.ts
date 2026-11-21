@@ -45,3 +45,5 @@ export const IBCCoverSections = lazy(() => import('./IBCCoverSections'))
 export const ExpandedOrderGuide = lazy(() => import('./ExpandedOrderGuide'))
 export const ExpandedComparisonGuide = lazy(() => import('./ExpandedComparisonGuide'))
 export const ExpandedIceGuide = lazy(() => import('./ExpandedIceGuide'))
+
+export const WineBagSections = lazy(() => import('./WineBagSections'))

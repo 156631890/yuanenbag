@@ -40,3 +40,5 @@ export { default as IBCCoverSections } from './IBCCoverSections'
 export { default as ExpandedOrderGuide } from './ExpandedOrderGuide'
 export { default as ExpandedComparisonGuide } from './ExpandedComparisonGuide'
 export { default as ExpandedIceGuide } from './ExpandedIceGuide'
+
+export { default as WineBagSections } from './WineBagSections'

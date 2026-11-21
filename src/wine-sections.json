@@ -1,0 +1,98 @@
+[
+  {
+    "id": "applications",
+    "title": {
+      "en": "Applications",
+      "zh": "应用场景",
+      "es": "Aplicaciones"
+    },
+    "heading": {
+      "en": "Choose for the handover, not only the bottle count",
+      "zh": "按交接方式选型，不只看装几瓶",
+      "es": "Elija según la entrega, no solo la cantidad"
+    },
+    "body": {
+      "en": "For a shop collection, check that the packed bag stays upright while the buyer grips both handles. For a tasting visit, check removal of one bottle without pulling the adjoining bottles. For parcel delivery, specify a separate protective shipping system: soft dividers are not proof of drop resistance.",
+      "zh": "门店自提时，核对装好后的袋体能否稳放，以及双提手是否便于同时握持。品鉴携带时，检查取出一瓶会不会带动相邻酒瓶。若走快递运输，应另配并验证防护包装，软分隔不能作为抗跌落证明。",
+      "es": "Para recogida en tienda, compruebe estabilidad y agarre de ambas asas. En una cata, revise si puede sacar una botella sin arrastrar las contiguas. Para paquetería, especifique y valide un embalaje protector separado; los separadores blandos no prueban resistencia a caídas."
+    },
+    "image": 4,
+    "caption": {
+      "en": "One bottle is lowered into an empty cell; the others remain separated.",
+      "zh": "一瓶从空瓶位上方装入，其余酒瓶保持分隔。",
+      "es": "Una botella entra en la celda vacía; las demás permanecen separadas."
+    }
+  },
+  {
+    "id": "dimensions",
+    "title": {
+      "en": "Bottle fit & dimensions",
+      "zh": "瓶型适配与尺寸",
+      "es": "Ajuste y medidas"
+    },
+    "heading": {
+      "en": "Measure the bottle before choosing the bag",
+      "zh": "先测量酒瓶，再确定袋体",
+      "es": "Mida la botella antes de definir la bolsa"
+    },
+    "body": {
+      "en": "Record maximum bottle diameter D and height H from the standing surface to the top of the closed capsule. Include a gift sleeve if used. For mixed bottles, send each outline and the planned count. Specify bag usable internal W × D × H separately; allow for divider thickness, fingers and lid clearance. Use mm or inches consistently. Leave unknown dimensions blank in the enquiry and identify the bottle model.",
+      "zh": "记录瓶体最大直径 D，以及从支承面到封帽顶端的总高 H；带礼套时计入礼套。混装时分别提供瓶型外廓和计划数量。袋体另列可用内部宽 × 深 × 高，计入分隔厚度、手部取放与盖下余量。统一使用毫米或英寸；尚未测量可在询盘中留空并注明瓶型。",
+      "es": "Anote diámetro máximo D y altura H desde el apoyo hasta la parte superior del cierre, incluida cualquier funda. Para mezclas, detalle cada contorno y cantidad. Indique aparte ancho × fondo × alto interiores útiles, dejando espacio para separadores, dedos y tapa. Use mm o pulgadas; si faltan medidas, indique el modelo en la consulta."
+    },
+    "image": 7,
+    "caption": {
+      "en": "D spans the widest bottle body; H includes the closed capsule. Labels show measurement boundaries, not fixed dimensions.",
+      "zh": "D 为瓶体最大外径；H 计入封帽。图中仅标测量边界，不表示固定规格。",
+      "es": "D abarca el cuerpo más ancho; H incluye el cierre. Son límites de medición, no medidas fijas."
+    }
+  },
+  {
+    "id": "materials",
+    "title": {
+      "en": "Materials & construction",
+      "zh": "材料与结构",
+      "es": "Materiales y estructura"
+    },
+    "heading": {
+      "en": "Agree the lining, dividers and handle path together",
+      "zh": "内衬、分隔与提手连接一起确认",
+      "es": "Confirme forro, separadores y asas juntos"
+    },
+    "body": {
+      "en": "The illustrated construction uses a matte non-woven exterior, thin foil lining and fixed cross dividers with bound edges. The webbing legs extend down the front and rear faces to the lower seam. Agree fabric composition, insulation, seam construction and base insert material with the sample; none is a tested specification inferred from the pictures. Bottles stay closed; wine does not directly contact the lining.",
+      "zh": "画面采用哑光无纺布外层、薄铝箔内衬与包边固定十字分隔，提手织带沿前后袋面延伸至下端接缝。通过样品一起确认外层成分、隔热层、缝合方式与底托材料，不从图片推定已测试参数。酒瓶保持密闭，酒液不直接接触内衬。",
+      "es": "La construcción ilustrada combina exterior no tejido mate, forro fino de aluminio y separadores fijos en cruz con ribetes. Las cintas bajan por las caras delantera y trasera hasta la costura inferior. Acuerde composición, aislamiento, costuras y base con una muestra; las imágenes no prueban especificaciones ensayadas. Las botellas permanecen cerradas."
+    },
+    "image": 5,
+    "caption": {
+      "en": "Foil lining, edge binding and webbing attachment are separate construction details.",
+      "zh": "铝箔内衬、包边和织带连接需分别核对。",
+      "es": "Forro de aluminio, ribete y unión de cinta se revisan por separado."
+    }
+  },
+  {
+    "id": "features",
+    "title": {
+      "en": "Dividers, base & closure",
+      "zh": "分隔、承托与闭合",
+      "es": "Separadores, base y cierre"
+    },
+    "heading": {
+      "en": "Review the four cells as one loaded system",
+      "zh": "将四瓶位作为完整装载一起检查",
+      "es": "Revise los cuatro espacios como un conjunto"
+    },
+    "body": {
+      "en": "The cross divider separates adjacent bottle bodies. Check that it stays attached and does not fold under a bottle as it is lowered. Confirm base support under every bottle and inspect sagging when both handles are lifted. Close the lid without pressure on the capsules. Adding coolant requires extra space agreed before sampling; do not push it into occupied cells.",
+      "zh": "十字分隔用于隔开相邻瓶身，试装时检查连接是否稳定，装瓶会不会将分隔压到瓶底。底部须支撑每一只酒瓶，双提手提起后检查下垂情况；袋盖应在不压封帽的情况下闭合。如需冷媒，应在打样前另留空间，不挤占已经装瓶的瓶位。",
+      "es": "La cruz separa cuerpos contiguos. Compruebe su fijación y que no se pliegue bajo una botella al introducirla. Verifique apoyo de cada botella y deformación al levantar ambas asas. Cierre sin presionar las cápsulas. Si necesita refrigerante, reserve espacio antes del muestreo; no lo fuerce entre celdas ocupadas."
+    },
+    "image": 3,
+    "caption": {
+      "en": "Fixed cross dividers form four cells; arrangement and support require a loaded sample check.",
+      "zh": "固定十字分隔形成四个瓶位，排列与承托需通过装载样品核对。",
+      "es": "La cruz fija forma cuatro celdas; distribución y apoyo requieren prueba con muestra cargada."
+    }
+  }
+]

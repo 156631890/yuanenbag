@@ -18012,5 +18012,243 @@
         "width": 1200
       }
     ]
+  },
+  "images/products/standardized/insulated-wine-bags/01.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/e6abe8c976ae-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/e4ecb6bb28d4-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/d5f3bfa78a95-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/11eeebace62f-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/36b2160db09b-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/2ad5746f9fa7-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/009388cd3090-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-wine-bags/02.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/14c67f41dc1b-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/3d627e9128ee-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/3661534ec265-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/a4768e8f1994-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/e72b9ac7a233-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/91e829ccd415-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/770a2b7b26ec-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-wine-bags/03.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/a0771534cacc-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/b99cf8e6b286-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/2a3d623593d0-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/1bfe16e15055-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/dd01693733ce-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/f8ecd985923c-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/965b3d8938c7-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-wine-bags/04.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/3b168dc0e1c6-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/3eee527e60be-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/c38b057ff17d-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/d9995b87faeb-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/563328ec0dcf-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/e399df7d2dda-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/194606151c07-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-wine-bags/05.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/9bfaf1ba928e-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/a16c5e0f069c-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/fc3a8465d38f-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/cef39a819e37-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/d56fa81e3079-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/0ac20d4014e3-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/0173180e581f-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-wine-bags/06.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/af657630d685-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/6c7b9af0b7c9-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/4c3eaf1626e8-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/7440ac2786f3-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/eeb787f5542d-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/45ef9e56fd80-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/d5a1266215c2-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-wine-bags/07.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/de91aaa31bce-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/debba14cb6c0-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/1b408e66a3ea-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/00f61c962560-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/fa98b010ed0e-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/024d219acf57-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/bd005fad81ad-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

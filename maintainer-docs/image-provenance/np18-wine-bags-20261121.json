@@ -1,0 +1,123 @@
+{
+  "id": "NP18",
+  "slug": "insulated-wine-bags",
+  "date": "2026-11-21",
+  "tool": "image_gen.imagegen",
+  "rights": "Original generated artwork using own-site material reference photographs; no competitor image copied.",
+  "size": [
+    1200,
+    1200
+  ],
+  "format": "WebP",
+  "images": [
+    {
+      "number": 1,
+      "original": "/Users/ic/Projects/yuanenbag/content-automation/outputs/NP18-wine-preview-2026-11-21/generated-originals/01.png",
+      "webp": "/Users/ic/Projects/yuanenbag/website-wine-preview/public/images/products/insulated-wine-bags/01.webp",
+      "sha256": "130d0cf58e5065a2f0e61e8e310ba0c36fcf236ff97040fe9f7af33e0acb18c0",
+      "review": "Viewed individually: full geometry, closure direction, fixed four-cell cross, burgundy nonwoven appearance, thin reflective foil and black handle attachment checked. Concept consistency acceptable for user design review; not physical proof."
+    },
+    {
+      "number": 2,
+      "original": "/Users/ic/Projects/yuanenbag/content-automation/outputs/NP18-wine-preview-2026-11-21/generated-originals/02.png",
+      "webp": "/Users/ic/Projects/yuanenbag/website-wine-preview/public/images/products/insulated-wine-bags/02.webp",
+      "sha256": "db30ebdc595fd88f8806cf79e4e5527865c32c25d6f489846ab2b0698879563e",
+      "review": "Viewed individually: full geometry, closure direction, fixed four-cell cross, burgundy nonwoven appearance, thin reflective foil and black handle attachment checked. Concept consistency acceptable for user design review; not physical proof."
+    },
+    {
+      "number": 3,
+      "original": "/Users/ic/Projects/yuanenbag/content-automation/outputs/NP18-wine-preview-2026-11-21/generated-originals/03.png",
+      "webp": "/Users/ic/Projects/yuanenbag/website-wine-preview/public/images/products/insulated-wine-bags/03.webp",
+      "sha256": "784c0c02708ead01b156faef4ae872e87af6e61c8d4b200cfd6199b8f5576517",
+      "review": "Viewed individually: full geometry, closure direction, fixed four-cell cross, burgundy nonwoven appearance, thin reflective foil and black handle attachment checked. Concept consistency acceptable for user design review; not physical proof."
+    },
+    {
+      "number": 4,
+      "original": "/Users/ic/Projects/yuanenbag/content-automation/outputs/NP18-wine-preview-2026-11-21/generated-originals/04.png",
+      "webp": "/Users/ic/Projects/yuanenbag/website-wine-preview/public/images/products/insulated-wine-bags/04.webp",
+      "sha256": "d68306ecb1b6725dfe93aad24e76ac067c63d0fa5efa0816b927efbaf6fc4054",
+      "review": "Viewed individually: full geometry, closure direction, fixed four-cell cross, burgundy nonwoven appearance, thin reflective foil and black handle attachment checked. Concept consistency acceptable for user design review; not physical proof."
+    },
+    {
+      "number": 5,
+      "original": "/Users/ic/Projects/yuanenbag/content-automation/outputs/NP18-wine-preview-2026-11-21/generated-originals/05.png",
+      "webp": "/Users/ic/Projects/yuanenbag/website-wine-preview/public/images/products/insulated-wine-bags/05.webp",
+      "sha256": "3ef8c057666bd8a82211a51673019b4f777df07b5ba2198d10e4c79043d70617",
+      "review": "Viewed individually: full geometry, closure direction, fixed four-cell cross, burgundy nonwoven appearance, thin reflective foil and black handle attachment checked. Concept consistency acceptable for user design review; not physical proof."
+    },
+    {
+      "number": 6,
+      "original": "/Users/ic/Projects/yuanenbag/content-automation/outputs/NP18-wine-preview-2026-11-21/generated-originals/06.png",
+      "webp": "/Users/ic/Projects/yuanenbag/website-wine-preview/public/images/products/insulated-wine-bags/06.webp",
+      "sha256": "4286a24342ae785d020e992cfddc59c51d5addd719e8b7ede5310e42e0b491f8",
+      "review": "Viewed individually: full geometry, closure direction, fixed four-cell cross, burgundy nonwoven appearance, thin reflective foil and black handle attachment checked. Concept consistency acceptable for user design review; not physical proof."
+    },
+    {
+      "number": 7,
+      "original": "/Users/ic/Projects/yuanenbag/content-automation/outputs/NP18-wine-preview-2026-11-21/generated-originals/07.png",
+      "webp": "/Users/ic/Projects/yuanenbag/website-wine-preview/public/images/products/insulated-wine-bags/07.webp",
+      "sha256": "ddf27beac9872e1a3c0c98669bf513f7c9546da71048aef912e44d04d3bbf38e",
+      "review": "Viewed individually: full geometry, closure direction, fixed four-cell cross, burgundy nonwoven appearance, thin reflective foil and black handle attachment checked. Concept consistency acceptable for user design review; not physical proof."
+    }
+  ],
+  "materialReferences": [
+    "public/images/products/photos-2026-09/compact-lunch-bag-side.webp",
+    "public/images/products/photos-2026-09/mint-cake-bag-lining.webp"
+  ],
+  "referenceLimit": "Material appearance only; no same-product physical sample or approved engineering drawing available.",
+  "industrySources": [
+    "https://www.holdenbags.com/products/insulated-6-bottle-wine-tote",
+    "https://www.wzbags.com/wine-bag-manufacturer/"
+  ],
+  "industryLimit": "Terminology and common construction only; no transferred capacity, load, lead-time or test claims.",
+  "openFacts": [
+    "Bottle maximum diameter and capped height",
+    "Final divider attachment and usable cell size",
+    "Base insert and loaded handle strength",
+    "Lid clearance with actual bottle types",
+    "Laminate composition and any thermal performance"
+  ],
+  "publicationAuthorized": true,
+  "authorization": {
+    "userMessage": "可以发布",
+    "product": "NP18 / insulated-wine-bags",
+    "date": "2026-11-21",
+    "scope": "Reviewed trilingual product and seven images only"
+  },
+  "prompts": {
+    "prompts": [
+      {
+        "id": "02",
+        "prompt": "Create ONE square photographic product concept image showing EXACTLY THE SAME burgundy four-bottle insulated wine carrier as the reference. Preserve tall square-footprint proportions, matte random-fiber thermally bonded nonwoven exterior (not canvas, not woven textile), black edging, TWO black webbing loop handles attached with long vertical reinforcing legs down front and back to base, three-side black zipper top lid hinged at rear, thin crinkled metallic aluminum foil lining, fixed burgundy CROSS DIVIDER with black binding creating exactly FOUR equal 2x2 compartments. Nothing detachable except bottles; no loose accessories. Soft natural studio light and subtle real fabric wrinkles on #F6F6F4 seamless background. Fine photographic detail, honest soft construction, no CGI gloss. No labels, words, logos, dimensions, numbers or arrows. Entire subject visible with 10% safe margins. Do not change product identity. CLOSED FORM: front three-quarter angle, lid fully closed and zipper fully fastened. Both loop handles rise naturally above bag, front and rear handles visibly distinct with four attachment legs total. No visible bottles. Show lid closure clearance and upright silhouette.",
+        "reference": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-a0a23c6d-a838-4d83-ae04-9cb6b2e2875a.png"
+      },
+      {
+        "id": "03",
+        "prompt": "Create ONE square photographic product concept image showing EXACTLY THE SAME burgundy four-bottle insulated wine carrier as the reference. Preserve tall square-footprint proportions, matte random-fiber thermally bonded nonwoven exterior (not canvas, not woven textile), black edging, TWO black webbing loop handles attached with long vertical reinforcing legs down front and back to base, three-side black zipper top lid hinged at rear, thin crinkled metallic aluminum foil lining, fixed burgundy CROSS DIVIDER with black binding creating exactly FOUR equal 2x2 compartments. Nothing detachable except bottles; no loose accessories. Soft natural studio light and subtle real fabric wrinkles on #F6F6F4 seamless background. Fine photographic detail, honest soft construction, no CGI gloss. No labels, words, logos, dimensions, numbers or arrows. Entire subject visible with 10% safe margins. Do not change product identity. EMPTY COMPARTMENTS: look down into the OPEN bag from steep elevated 3/4 angle, lid open back. Remove all bottles. Show exactly four empty full-depth cells divided by one cross, fixed divider endpoints connected to walls, continuous foil-lined floor beneath divider visible at bottom of cells. No pockets, no extra grid. Handles draped outside. Clearly reveal empty compartment geometry.",
+        "reference": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-a0a23c6d-a838-4d83-ae04-9cb6b2e2875a.png"
+      },
+      {
+        "id": "04",
+        "prompt": "Create ONE square photographic product concept image showing EXACTLY THE SAME burgundy four-bottle insulated wine carrier as the reference. Preserve tall square-footprint proportions, matte random-fiber thermally bonded nonwoven exterior (not canvas, not woven textile), black edging, TWO black webbing loop handles attached with long vertical reinforcing legs down front and back to base, three-side black zipper top lid hinged at rear, thin crinkled metallic aluminum foil lining, fixed burgundy CROSS DIVIDER with black binding creating exactly FOUR equal 2x2 compartments. Nothing detachable except bottles; no loose accessories. Soft natural studio light and subtle real fabric wrinkles on #F6F6F4 seamless background. Fine photographic detail, honest soft construction, no CGI gloss. No labels, words, logos, dimensions, numbers or arrows. Entire subject visible with 10% safe margins. Do not change product identity. LOADING ONE BOTTLE: open bag seated securely on studio surface. Three plain dark green wine bottles with black tops already upright in three cells. One realistic adult hand entering from upper right holds the FOURTH matching bottle around its upper body, just above the empty front-right cell ready for vertical insertion. Four bottles total, not five. All installed bottle tops below rim. Fingers and bottle physically clear of divider and zipper. Body, lid and base fully visible. Arm may enter frame naturally.",
+        "reference": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-a0a23c6d-a838-4d83-ae04-9cb6b2e2875a.png"
+      },
+      {
+        "id": "05",
+        "prompt": "Create ONE square photographic product concept image showing EXACTLY THE SAME burgundy four-bottle insulated wine carrier as the reference. Preserve tall square-footprint proportions, matte random-fiber thermally bonded nonwoven exterior (not canvas, not woven textile), black edging, TWO black webbing loop handles attached with long vertical reinforcing legs down front and back to base, three-side black zipper top lid hinged at rear, thin crinkled metallic aluminum foil lining, fixed burgundy CROSS DIVIDER with black binding creating exactly FOUR equal 2x2 compartments. Nothing detachable except bottles; no loose accessories. Soft natural studio light and subtle real fabric wrinkles on #F6F6F4 seamless background. Fine photographic detail, honest soft construction, no CGI gloss. No labels, words, logos, dimensions, numbers or arrows. Entire subject visible with 10% safe margins. Do not change product identity. MATERIAL AND STITCHING CLOSE-UP: close photographic detail of the front upper corner, show matte nonwoven burgundy random fibers, black vertical handle webbing with real reinforced stitching, the black zipper track following rim and inside thin metallic crinkled aluminum foil. Burgundy fixed divider with black binding glimpsed inside. Intentional macro crop of bag corner, no full bag required; no additional components, no thick silver cushion or woven burgundy textile.",
+        "reference": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-a0a23c6d-a838-4d83-ae04-9cb6b2e2875a.png"
+      },
+      {
+        "id": "06",
+        "prompt": "Create ONE square photographic product concept image showing EXACTLY THE SAME burgundy four-bottle insulated wine carrier as the reference. Preserve tall square-footprint proportions, matte random-fiber thermally bonded nonwoven exterior (not canvas, not woven textile), black edging, TWO black webbing loop handles attached with long vertical reinforcing legs down front and back to base, three-side black zipper top lid hinged at rear, thin crinkled metallic aluminum foil lining, fixed burgundy CROSS DIVIDER with black binding creating exactly FOUR equal 2x2 compartments. Nothing detachable except bottles; no loose accessories. Soft natural studio light and subtle real fabric wrinkles on #F6F6F4 seamless background. Fine photographic detail, honest soft construction, no CGI gloss. No labels, words, logos, dimensions, numbers or arrows. Entire subject visible with 10% safe margins. Do not change product identity. BASE AND HANDLE PATH: same bag fully closed, laid gently on its SIDE with bottom tilted toward viewer. Entire bag in view. Show plain burgundy square bottom with black perimeter binding and front/back handle reinforcement webbing legs terminating at the lower seam, not floating. Do NOT invent straps across underside, feet, rubber pad or external board. Two handles drape on surface. Soft consistent physical bag; bottom flat but not a hard cooler.",
+        "reference": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-a0a23c6d-a838-4d83-ae04-9cb6b2e2875a.png"
+      },
+      {
+        "id": "07",
+        "prompt": "Create ONE square photographic product concept image showing EXACTLY THE SAME burgundy four-bottle insulated wine carrier as the reference. Preserve tall square-footprint proportions, matte random-fiber thermally bonded nonwoven exterior (not canvas, not woven textile), black edging, TWO black webbing loop handles attached with long vertical reinforcing legs down front and back to base, three-side black zipper top lid hinged at rear, thin crinkled metallic aluminum foil lining, fixed burgundy CROSS DIVIDER with black binding creating exactly FOUR equal 2x2 compartments. Nothing detachable except bottles; no loose accessories. Soft natural studio light and subtle real fabric wrinkles on #F6F6F4 seamless background. Fine photographic detail, honest soft construction, no CGI gloss. No labels, words, logos, dimensions, numbers or arrows. Entire subject visible with 10% safe margins. Do not change product identity. BOTTLE FIT REFERENCE: open SAME bag on RIGHT side of square frame with four EMPTY fixed compartments visible and foil lid raised; one unlabelled green wine bottle with black capsule stands upright OUTSIDE bag on LEFT on same plane. Bottle has physically plausible height that would fit below bag zip rim. No other bottles. Front three-quarter scene with generous side margins for measurement labels to be added later. No ruler or text. Full bag and single bottle visible. Studio background #F6F6F4.",
+        "reference": "/Users/ic/.codex/generated_images/01a167ad-43a9-7811-90c9-aa219bbada6d/exec-a0a23c6d-a838-4d83-ae04-9cb6b2e2875a.png"
+      }
+    ],
+    "initial": "Use case: product-mockup. Create ONE square premium natural studio photograph-style CONCEPT preview of a new four-bottle insulated wine carrier. References are MATERIAL TEXTURE ONLY, not same product evidence: first photo matte nonwoven fabric, second thin creased aluminum foil. New design: tall rectangular soft-sided bag, body width and depth approximately equal, body height about 1.45 times width, muted burgundy matte nonwoven exterior, fine random fibers and tiny heat-bond dots, NO canvas weave. Black edge binding and exactly TWO black webbing loop handles, one front one back; each handle's two vertical webbing legs extend down its face to lower base seam. A three-sided black zipper top lid hinged at the rear. Lid open tilted back, thin metallic creased aluminum foil underside and foil-lined inside walls. Inside exactly FOUR square cells in a 2x2 arrangement formed by ONE crossed divider system, full height to bottle shoulders, burgundy nonwoven panels with black top binding, fixed to inside walls. Four plain dark green wine bottles with black capsule tops, no labels, upright in cells, tops entirely BELOW the zipper rim with closure clearance. Modest rectangular footprint with bottle separation, not a giant bag. Front 3/4 slightly elevated angle makes four bottle tops and center cross divider visible, also front handle attachment. Handles drape naturally outside opening, never intersect bottles or lid. Body gently flexible, not rigid cooler, thin foil not thick padded silver fabric. Grounded soft contact shadow on seamless #F6F6F4, soft daylight, crisp honest fibers and stitching, subtle imperfections, balanced 12% margins, entire product and handles visible, no text, arrows, brand logo, watermark, dimensions, extra props. This is an original internal concept illustration, not evidence of manufactured sample.",
+    "revision": "Edit this original four-bottle wine carrier concept. Preserve exactly its four-cell 2x2 crossed divider geometry, four bottles below closure rim, burgundy color, silver thin crinkled aluminum foil lining, rear-hinged three-side zip lid. Correct ONLY material, handles, framing: exterior and dividers must look like actual thermally bonded NONWOVEN polypropylene with sparse tiny random fibers and small heat-bond dots, absolutely NO regular woven diagonal/crosshatch canvas texture. Use the yellow sample reference ONLY for surface textile texture, not bag shape or color. BLACK divider top edge binding visibly trims the cross. Exactly two practical webbing handles. Front handle continuous inverted U rising from two webbing legs stitched down the front to the base; the loop is draped downward outside the front face like a natural shopping bag handle. Rear matching loop lies behind the raised lid, partially visible. Show the whole product at smaller scale, centered within square canvas, at least 10% clear background above lid and below base and either side. More matte burgundy surface, thin foil remains naturally metallic. Soft realistic photographic light, #F6F6F4 background, no logos or text. No new accessories."
+  }
+}
