@@ -65,6 +65,21 @@
   },
   {
     "kind": "industry",
+    "slug": "amcor-moderna-closure-specification-check",
+    "publishedAt": "2026-11-22",
+    "title": {
+      "en": "Amcor Launches Moderna Closure; Buyers Should Resolve the Orifice Specification",
+      "zh": "Amcor 推出 Moderna 瓶盖，询样前需核对出液孔规格",
+      "es": "Amcor lanza el cierre Moderna: conviene aclarar la especificación del orificio"
+    },
+    "description": {
+      "en": "Amcor’s launch notice and product page list different middle orifice sizes. Match the drawing, sample and intended filling product before ordering.",
+      "zh": "Amcor 公告与产品页的中间孔径不一致。下单前核对图纸、样品及实际灌装物，不把新闻参数当成订单规格。",
+      "es": "El anuncio y la ficha de Amcor difieren en un diámetro. Antes de comprar, vincule plano, muestra y producto de llenado."
+    }
+  },
+  {
+    "kind": "industry",
     "slug": "atlantic-pack-expo-fiber-existing-lines",
     "publishedAt": "2026-11-02",
     "updatedAt": "2026-11-13",
