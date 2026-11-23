@@ -663,6 +663,14 @@
       "es": "Bolsa azul abierta con una bandeja tapada; dos dispositivos grises desconectados y una tarjeta aparte."
     }
   },
+  "pallet-cover-removal-point-air-cargo-handover": {
+    "file": "images/editorial/2026-11-23/pallet-handover-record.webp",
+    "alt": {
+      "en": "Two workers review a clipboard beside a silver-covered load on a wooden pallet.",
+      "zh": "两名工作人员在罩着银色罩体的木托盘货垛旁核对夹板记录。",
+      "es": "Dos trabajadores revisan una carpeta junto a una carga cubierta de plata sobre un palé de madera."
+    }
+  },
   "pallet-cover-trial-temperature-humidity-wetness": {
     "file": "images/editorial/2026-11-21/pallet-trial.webp",
     "alt": {

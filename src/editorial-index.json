@@ -1321,6 +1321,21 @@
   },
   {
     "kind": "guide",
+    "slug": "pallet-cover-removal-point-air-cargo-handover",
+    "publishedAt": "2026-11-23",
+    "title": {
+      "en": "Confirm the Pallet-Cover Removal Point Before Air-Cargo Handover",
+      "zh": "空运交接前，先明确托盘保温罩的拆除位置",
+      "es": "Defina dónde retirar la funda del palé antes de la entrega aérea"
+    },
+    "description": {
+      "en": "Separate ground-stage pallet protection from requested onboard use, rehearse the removal handover, and record the gap before the next protective step.",
+      "zh": "区分托盘地面阶段保护与拟随货上机的要求，演练拆罩交接，并记录下一段保护开始前的间隔。",
+      "es": "Separe la protección terrestre del uso solicitado a bordo, ensaye la retirada y registre el intervalo hasta la siguiente protección."
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "pallet-cover-trial-temperature-humidity-wetness",
     "publishedAt": "2026-11-21",
     "title": {
