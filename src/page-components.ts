@@ -47,3 +47,5 @@ export const ExpandedComparisonGuide = lazy(() => import('./ExpandedComparisonGu
 export const ExpandedIceGuide = lazy(() => import('./ExpandedIceGuide'))
 
 export const WineBagSections = lazy(() => import('./WineBagSections'))
+
+export const TrolleyBagSections = lazy(() => import('./TrolleyBagSections'))

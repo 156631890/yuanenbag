@@ -1,0 +1,98 @@
+[
+  {
+    "id": "dimensions",
+    "title": {
+      "en": "Frame fit & dimensions",
+      "zh": "车架适配与尺寸",
+      "es": "Ajuste y medidas"
+    },
+    "heading": {
+      "en": "Measure the mounting area before the bag",
+      "zh": "先测安装位置，再确定袋体",
+      "es": "Mida primero la zona de montaje"
+    },
+    "body": {
+      "en": "Record the mounting rail circumference and unobstructed width, then the vertical distance to a usable lower frame member. Mark the nearest wheel, ground and walking space in a side-view photo. Specify bag usable internal W × D × H separately, with units in mm or inches. Allow for the loaded body bulging and the lid opening; the pictured rail and bag are not fixed dimensions.",
+      "zh": "记录安装横杆周长和无遮挡宽度，再测到可用下部车架的垂直距离。侧面照片中标出邻近车轮、地面与步行位置。袋体另列可用内部宽 × 深 × 高，注明毫米或英寸。计入装载后鼓出及开盖空间；图中横杆和袋体不表示固定尺寸。",
+      "es": "Anote perímetro y ancho libre de la barra, y distancia vertical hasta un elemento inferior utilizable. Marque ruedas, suelo y espacio de paso en una foto lateral. Indique por separado ancho × fondo × alto interiores útiles en mm o pulgadas. Prevea abombamiento con carga y apertura de tapa; la imagen no fija medidas."
+    },
+    "image": 4,
+    "caption": {
+      "en": "S marks the centre-to-centre spacing of the two straps. Measure rail circumference and clear mounting width separately; no fixed dimensions are shown.",
+      "zh": "S 标出两处绑带的中心间距；另测横杆周长和可用安装宽度。图中不表示固定尺寸。",
+      "es": "S señala la distancia entre centros de las cintas. Mida aparte perímetro y ancho libre de barra; no se muestran medidas fijas."
+    }
+  },
+  {
+    "id": "applications",
+    "title": {
+      "en": "Shopping & handling",
+      "zh": "购物与搬运",
+      "es": "Compra y manipulación"
+    },
+    "heading": {
+      "en": "Match the bag to the trolley journey",
+      "zh": "按拉车使用过程核对",
+      "es": "Revise todo el recorrido con el carro"
+    },
+    "body": {
+      "en": "For a grocery-store collection, check that the loaded bag can be fitted without blocking access to the main basket. Before walking, confirm clearance from wheels and legs and that the trolley remains stable. For handover at home, detach the straps with the bag supported. Do not lift the entire trolley by the bag handle.",
+      "zh": "门店取货时，检查装好商品的袋体安装后是否挡住主购物篮。行走前确认袋体与轮子、腿部有间隙，且整车保持稳定。到家拆卸时先承托袋体，再解开绑带；不能用袋体提手提起整辆拉车。",
+      "es": "Al recoger la compra, compruebe que la bolsa cargada no bloquee la cesta principal. Antes de caminar, revise ruedas, piernas y estabilidad. Apoye la bolsa antes de soltar las cintas al llegar. No levante el carro completo por el asa de la bolsa."
+    },
+    "image": 5,
+    "caption": {
+      "en": "A generic trolley shows mounting relationships; frame compatibility must be checked separately.",
+      "zh": "通用车架用于说明安装关系，实际车型需单独核对适配。",
+      "es": "Un carro genérico muestra la relación de montaje; la compatibilidad se verifica aparte."
+    }
+  },
+  {
+    "id": "materials",
+    "title": {
+      "en": "Materials & opening",
+      "zh": "材料与开口",
+      "es": "Materiales y abertura"
+    },
+    "heading": {
+      "en": "Review the lining and closure together",
+      "zh": "内衬与闭合一起确认",
+      "es": "Revise forro y cierre juntos"
+    },
+    "body": {
+      "en": "The illustrated construction uses a matte non-woven exterior, thin foil lining and a three-sided zip lid. Agree outer composition, insulating layer and seam construction with the sample. Confirm packed-goods dimensions and any coolant placement before setting internal space. Keep packaged food closed; no leakproof or direct-food-contact claim is established by these images.",
+      "zh": "画面采用哑光无纺布外层、薄铝箔内衬和三边拉链上盖。外层成分、隔热层与接缝方式通过样品确认。先核对包装商品尺寸及冷媒摆放，再确定内部空间。食品保持密封包装；图片不构成防漏或食品直接接触性能证明。",
+      "es": "La construcción ilustrada lleva exterior no tejido mate, forro fino de aluminio y tapa con cremallera en tres lados. Acuerde composición, aislamiento y costuras con la muestra. Defina envases y refrigerante antes del espacio interior. Mantenga alimentos envasados; las imágenes no prueban estanqueidad ni aptitud para contacto alimentario directo."
+    },
+    "image": 3,
+    "caption": {
+      "en": "An empty single chamber makes the lining and lid path visible.",
+      "zh": "空置单仓展示内衬与上盖开合路径。",
+      "es": "El compartimento vacío muestra el forro y la apertura de tapa."
+    }
+  },
+  {
+    "id": "features",
+    "title": {
+      "en": "Attachment & base support",
+      "zh": "绑带连接与底部承托",
+      "es": "Fijación y apoyo de base"
+    },
+    "heading": {
+      "en": "Test the loaded assembly, not just the straps",
+      "zh": "检查完整装载，不只看绑带",
+      "es": "Pruebe el conjunto cargado"
+    },
+    "body": {
+      "en": "Upper wrap straps connect to the agreed rail and vertical webbing continues toward the base seam. A lower restraint must engage a suitable frame member; a strap lying flat against the bag alone does not secure it. Test slipping, seam strain, base sag and trolley tipping with the intended load. Agree any base insert and strap closure details before production.",
+      "zh": "上部环绕绑带连接约定横杆，竖向织带延伸至底部接缝。下部限位带须连接合适的车架部件，仅贴在袋面上不能起固定作用。按计划装载测试滑移、缝线受力、底部下垂和整车倾覆风险；底托及绑带闭合细节在生产前确认。",
+      "es": "Las cintas superiores rodean la barra acordada y los refuerzos verticales llegan a la costura inferior. La retención inferior debe enlazar un elemento adecuado del bastidor: una cinta apoyada solo en la bolsa no la fija. Pruebe deslizamiento, costuras, deformación de base y vuelco con la carga prevista. Acuerde inserto de base y cierres antes de producir."
+    },
+    "image": 6,
+    "caption": {
+      "en": "Base seams and webbing joints require a loaded sample check.",
+      "zh": "底部接缝和织带连接需通过装载样品核对。",
+      "es": "Las costuras y uniones requieren comprobarse con una muestra cargada."
+    }
+  }
+]

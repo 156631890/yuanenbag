@@ -18386,5 +18386,243 @@
         "width": 1200
       }
     ]
+  },
+  "images/products/standardized/insulated-shopping-trolley-bags/01.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/a4dd81d50c17-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/2043902e4182-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/581411da54a6-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/93ec2d64fe34-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/86d5c5b8faab-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/90552c7c0e9e-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/5b546a2f8a94-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-shopping-trolley-bags/02.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/708ce4b4baa7-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/16814d0536de-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/ced48dcbcb8e-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/7ea21424d254-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/d49cf1f11201-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/b7ded9c95a1f-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/0f6f855d4f30-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-shopping-trolley-bags/03.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/b3f8fd431eca-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/44231aabc941-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/6b7b92e8e54e-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/e85a8b617174-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/af0dc49ebc0f-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/b78b598196d6-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/ffd2b7c402b8-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-shopping-trolley-bags/04.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/de3275a3825b-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/64a35970ed0f-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/78bd93ae0d27-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/52597090c120-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/d14bcb32230a-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/90ed3a7f2b61-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/bb3a58e2a4c6-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-shopping-trolley-bags/05.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/ed233786621a-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/f16b98153ead-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/a8aa1a1066d0-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/2e0bffb1037f-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/c42195a88b12-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/0346e7e24c7b-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/474279bd4105-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-shopping-trolley-bags/06.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/1910a9b3b718-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/cf31a9c06b20-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/1c0591e0f56c-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/7a28de6177ff-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/f93a9a2768e5-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/aacdbddc0f2d-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/6daeb016d04e-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "images/products/standardized/insulated-shopping-trolley-bags/07.webp": {
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "images/responsive/0f509897c434-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/daafa99cfffd-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/6060a61763e4-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/617464c524e5-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/e9960272bf5c-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/005224ab1738-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/fc6f262239ab-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }
