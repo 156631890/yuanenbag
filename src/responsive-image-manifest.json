@@ -18352,5 +18352,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-23/cup-lid-record.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/a90b9eb477b4-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/6c4bbe140ddd-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/b17174d6bbd6-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/111e8d1a1392-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/ce2dd5554776-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/eac644edae12-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/15599f15488b-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

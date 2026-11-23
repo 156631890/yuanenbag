@@ -793,6 +793,21 @@
     }
   },
   {
+    "kind": "industry",
+    "slug": "huhtamaki-slush-2026-cups-lids-collection",
+    "publishedAt": "2026-11-23",
+    "title": {
+      "en": "Huhtamaki Sets Out Slush 2026 Cup and Lid Supply with a Recycling Goal",
+      "zh": "Huhtamaki 公布 Slush 2026 杯盖供应安排与回收目标",
+      "es": "Huhtamaki detalla el suministro de vasos y tapas para Slush 2026 y su objetivo de reciclaje"
+    },
+    "description": {
+      "en": "The Helsinki event announcement names paper cups and fiber lids. Buyers still need an item-by-item collection agreement and evidence of the actual outcome.",
+      "zh": "赫尔辛基活动公告列出纸杯和纤维盖供应安排。买家仍需逐项约定收集接收条件，并另行核实实际处理结果。",
+      "es": "El anuncio de Helsinki incluye vasos de papel y tapas de fibra. La compra requiere acordar la recogida por artículo y verificar el resultado real."
+    }
+  },
+  {
     "kind": "guide",
     "slug": "ibc-cover-cap-valve-access-layout",
     "publishedAt": "2026-11-06",
