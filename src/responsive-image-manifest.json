@@ -18624,5 +18624,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-24/corrugated-tray-stack.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/27e545494b09-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/c72e73309ca9-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/7517b9a47a00-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/a13eb6857c5c-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/9c99672e5ceb-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/131fd7836f41-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/d63591a412c6-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }

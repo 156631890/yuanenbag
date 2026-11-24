@@ -1223,6 +1223,21 @@
     }
   },
   {
+    "kind": "industry",
+    "slug": "mondi-food-packaging-whitepaper-pallet-comparison",
+    "publishedAt": "2026-11-24",
+    "title": {
+      "en": "Mondi Publishes Food-Packaging White Paper on Damage and Pallet Efficiency",
+      "zh": "Mondi 发布食品包装白皮书，讨论损伤与托盘装载效率",
+      "es": "Mondi publica un libro blanco sobre daños y eficiencia del palet en envases alimentarios"
+    },
+    "description": {
+      "en": "Mondi’s 23 November announcement links corrugated packaging with product protection and pallet use. Buyers need separate loading and arrival-quality comparisons.",
+      "zh": "Mondi 11 月 23 日公告将瓦楞包装与产品保护、托盘利用联系起来。采购比较应分别记录装载数量和到货质量。",
+      "es": "El anuncio de Mondi del 23 de noviembre relaciona cartón ondulado, protección y uso del palet. Compare carga y calidad a la llegada por separado."
+    }
+  },
+  {
     "kind": "guide",
     "slug": "multi-stop-delivery-bag-opening-trial",
     "publishedAt": "2026-10-16",
