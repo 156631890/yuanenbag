@@ -80,6 +80,21 @@
   },
   {
     "kind": "industry",
+    "slug": "amcor-unipak-luma-dairy-packaging",
+    "publishedAt": "2026-11-25",
+    "title": {
+      "en": "Amcor Details UniPak Luma for Dairy and Cold-Filled Foods",
+      "zh": "Amcor介绍面向乳品与冷灌食品的UniPak Luma",
+      "es": "Amcor detalla UniPak Luma para lácteos y alimentos de llenado en frío"
+    },
+    "description": {
+      "en": "Amcor’s November 24 announcement describes the UniPak Luma range. Buyers replacing food tubs should compare complete packs and recheck their delivery configuration.",
+      "zh": "Amcor于11月24日发布UniPak Luma专门公告。采购方更换食品容器时，应按完整杯盖组件比较规格，并复核实际配送装载。",
+      "es": "El anuncio de Amcor del 24 de noviembre describe UniPak Luma. Al sustituir envases, conviene comparar el conjunto completo y revisar su configuración de reparto."
+    }
+  },
+  {
+    "kind": "industry",
     "slug": "atlantic-pack-expo-fiber-existing-lines",
     "publishedAt": "2026-11-02",
     "updatedAt": "2026-11-13",

@@ -18726,5 +18726,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-25/dairy-tub-lid-outline.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/4377ec9ac57b-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/1c2515bfc3bf-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/8999ca03b129-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/5d44bb872256-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/1b192a922177-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/77a67c2424bf-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/1660814cef22-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }
