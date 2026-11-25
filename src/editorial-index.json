@@ -1001,6 +1001,21 @@
   },
   {
     "kind": "guide",
+    "slug": "insulated-mailer-label-application-trial",
+    "publishedAt": "2026-11-25",
+    "title": {
+      "en": "Decide When to Apply Labels to Insulated Mailers",
+      "zh": "保温邮袋外贴标签，应在冷却前还是冷却后贴？",
+      "es": "Decida cuándo aplicar etiquetas a las bolsas térmicas"
+    },
+    "description": {
+      "en": "Compare label application before and after cooling on the intended foil mailer surface. Record conditions, separate adhesion from readability and choose what to retest.",
+      "zh": "用拟下单的铝箔保温邮袋表面比较冷却前后贴标，记录贴标条件，分别检查贴附与可读性，再决定调整哪一项及怎样复验。",
+      "es": "Compare el etiquetado antes y después del enfriamiento sobre la superficie prevista. Registre condiciones y distinga adhesión de legibilidad para decidir qué repetir."
+    }
+  },
+  {
+    "kind": "guide",
     "slug": "insulated-material-environmental-claim-evidence",
     "publishedAt": "2026-10-25",
     "updatedAt": "2026-11-11",
