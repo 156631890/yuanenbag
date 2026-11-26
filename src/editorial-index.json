@@ -1808,6 +1808,21 @@
     }
   },
   {
+    "kind": "industry",
+    "slug": "tetra-reva-spoonable-food-carton",
+    "publishedAt": "2026-11-26",
+    "title": {
+      "en": "Tetra Pak Launches Tetra Reva for Spoonable Foods",
+      "zh": "利乐推出用于匙食食品的Tetra Reva纸基包装",
+      "es": "Tetra Pak lanza Tetra Reva para alimentos de cuchara"
+    },
+    "description": {
+      "en": "Tetra Reva introduces a square paper-based food pack. Buyers need recipe-specific production confirmation and a new closed-pack layout check.",
+      "zh": "Tetra Reva带来方形纸基食品包装。采购者需按具体配方确认生产条件，并重新检查闭合包件与装箱布局。",
+      "es": "Tetra Reva incorpora un envase cuadrado con base de papel. La compra requiere confirmar producción por receta y revisar el embalaje del envase cerrado."
+    }
+  },
+  {
     "kind": "guide",
     "slug": "thermal-pallet-cover-return-loop",
     "publishedAt": "2026-11-14",

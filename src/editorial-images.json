@@ -911,6 +911,14 @@
       "es": "Tres paquetes rectangulares con envoltura blanca lisa sobre una bandeja de acero inoxidable"
     }
   },
+  "tetra-reva-spoonable-food-carton": {
+    "file": "images/editorial/2026-11-26/square-food-carton-packout.webp",
+    "alt": {
+      "en": "Closed white square food cartons inside and beside an open corrugated box",
+      "zh": "闭合白色方形食品盒放在敞口瓦楞箱内及旁边",
+      "es": "Envases cuadrados blancos cerrados dentro y junto a una caja de cartón ondulado abierta"
+    }
+  },
   "thermal-pallet-cover-return-loop": {
     "file": "images/editorial/2026-11-14/pallet.webp",
     "alt": {

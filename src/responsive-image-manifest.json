@@ -18760,5 +18760,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-26/square-food-carton-packout.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/19c06b46f8d7-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/43eb905313e0-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/eff4985c52e2-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/ed4213e44f28-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/f09ed40aa35e-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/be1e42ad6cc0-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/50cdd88130ad-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }
