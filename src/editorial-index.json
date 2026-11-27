@@ -777,6 +777,21 @@
   },
   {
     "kind": "industry",
+    "slug": "henkel-wwf-packaging-circularity-partnership",
+    "publishedAt": "2026-11-27",
+    "title": {
+      "en": "Henkel and WWF Germany Partner on Packaging Circularity",
+      "zh": "汉高与WWF德国合作推进包装循环",
+      "es": "Henkel y WWF Alemania colaboran en circularidad de envases"
+    },
+    "description": {
+      "en": "The partnership supports EPR work in Mexico and Türkiye. Buyers should distinguish announced plans from component evidence and local requirements.",
+      "zh": "合作支持墨西哥及土耳其的EPR工作。买家需将公布的计划、包装组件证据与当地要求分开核对。",
+      "es": "La colaboración apoya el trabajo EPR en México y Türkiye. Conviene distinguir los planes anunciados, las pruebas de componentes y los requisitos locales."
+    }
+  },
+  {
+    "kind": "industry",
     "slug": "hivest-sustana-recycled-paper-acquisition",
     "publishedAt": "2026-10-30",
     "updatedAt": "2026-11-10",
