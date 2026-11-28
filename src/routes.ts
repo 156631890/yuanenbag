@@ -5,13 +5,14 @@ const productDescriptions: Record<string, import('./data').Text> = import.meta.e
 import { collections } from './collections'
 import { bags, guides, tx, type Lang, type Text } from './data'
 import { archivePageCount, archivePath, articlePath, editorialArticles, industryArticles } from './editorial-route-data'
-export type Page = { path: string; type: string; title: Text; description?: Text; slug?: string; pageNumber?: number }
+export type Page = { path: string; type: string; title: Text; description?: Text; slug?: string; pageNumber?: number; languages?: readonly Lang[] }
 // Descriptions are emitted into static HTML by the server. The client router
 // only updates the document title; archive descriptions load with its page module.
 const editorialDescriptions = import.meta.env.SSR
   ? Object.fromEntries((await import('./editorial-index.json')).default.map(article => [article.slug, article.description]))
   : {}
 export const pages: Page[] = [
+  {path:'/buying-questions/',type:'buyingQuestions',languages:['en'],title:tx("Insulated Bag and Cold-Chain Packaging Buying Questions | YUANEN",'保温袋采购问答 | 远恩','Preguntas sobre embalaje térmico | YUANEN'),description:tx("Compare insulated bags, box liners, pallet covers and coolant packs. Check fit, materials, temperature tests and landed cost before a wholesale order.",'核对冷链包装的尺寸、材料和报价。','Compare medidas, materiales y cotizaciones de embalaje térmico.')},
   {path:'/quality/',type:'quality',title:tx('Factory Audits & Material Test Reports | YUANEN','关联工厂审核与材料检测资料 | 远恩','Auditorías de fábrica e informes de materiales | YUANEN'),description:tx('Review affiliated-factory BSCI audit records, CTT sample test reports and an OEKO-TEX fabric certificate, with named holders, dates and scope.','查阅关联工厂的 BSCI 审核、CTT 样品检测报告及 OEKO-TEX 面料证书，核对文件主体、日期与适用范围。','Consulte auditorías BSCI de fábricas vinculadas, informes CTT de muestras y un certificado OEKO-TEX de tejido, con titulares, fechas y alcance.')},
   {path:'/',type:'home',title:tx('Insulated & Cold Chain Packaging Manufacturer | YUANEN','远恩 | 保温冷链包装生产厂家','Fabricante de embalaje térmico y cadena de frío | YUANEN'),description:tx('Custom insulated foil bags, cooler bags and ice packs for food delivery and cold-chain packing. Explore products, manufacturing and custom order specifications.','专注铝箔保温袋、保温包和配套冰袋，服务餐饮配送与冷链包装，了解产品、生产工艺和定制采购规格。','Bolsas térmicas, bolsas de aluminio y acumuladores de frío para reparto alimentario. Explore productos, fabricación y especificaciones a medida.')},
   {path:'/products/',type:'catalog',title:tx('Insulated Bags & Cold Chain Products | YUANEN','保温袋与冷链产品中心 | 远恩','Bolsas térmicas y productos de cadena de frío | YUANEN'),description:tx('Explore insulated packaging: lunch cooler bags, bakery cake carriers, foil pouches, insulated delivery totes and ice packs. Review real sample photos and specifications.','探索保温冷链产品：午餐保温包、烘焙蛋糕保温包、铝箔袋、保温外卖袋及冰袋，查看实拍样品与定制规格。','Explore bolsas térmicas de almuerzo y pastelería, bolsas de aluminio y reparto, y acumuladores de frío. Consulte fotos de muestras y especificaciones.')},
@@ -37,6 +38,6 @@ export function resolveRoute(path:string) {
   const lang:Lang = /^\/zh(?:\/|$)/.test(clean)?'zh':/^\/es(?:\/|$)/.test(clean)?'es':'en'
   if(lang!=='en') clean = clean.slice(lang.length+1) || '/'
   if(!clean.endsWith('/')) clean += '/'
-  const page = pages.find(p=>p.path===clean)
+  const page = pages.find(p=>p.path===clean && (!p.languages || p.languages.includes(lang)))
   return {lang, page:page || {path:'/404/',type:'404',title:tx('Page not found | YUANEN','页面不存在 | 远恩'),description:tx('Find your way back to YUANEN packaging.','返回远恩包装网站。')}}
 }

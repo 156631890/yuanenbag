@@ -13,7 +13,7 @@ import {qualityDocuments} from './documentation-data'
 import { archivePath, articlePath, articlesOnPage, editorialArticles } from './editorial'
 
 export const notFoundPaths = languages.map(lang=>href('/404/',lang))
-export const paths = languages.flatMap(lang => pages.map(page => href(page.path, lang)))
+export const paths = languages.flatMap(lang => pages.filter(page => !page.languages || page.languages.includes(lang)).map(page => href(page.path, lang)))
 export const seoAudit = {pages, collections, collectionContent, collectionProducts, guides, editorialArticles}
 export const catalogAudit = {classificationFor, productClassifications, productFamilies, productMaterials, bags,materialCategories,styleOptions,usageOptions,commercialProfiles,stockSpecifications}
 export const documentationAudit = qualityDocuments
@@ -67,7 +67,7 @@ export function render(path = '/', indexable = false) {
     `<title>${escape(page.title[lang])}</title>`,
     `<meta name="description" content="${escape(page.description![lang])}" />`,
     `<meta name="robots" content="${indexable && page.type !== '404' ? 'index, follow' : 'noindex, follow'}" />`,
-    ...(page.type === '404' ? [] : [`<link rel="canonical" href="${escape(url)}" />`, ...languages.map(language=>`<link rel="alternate" hreflang="${locales[language].tag}" href="${escape(absolute(href(page.path,language)))}" />`), `<link rel="alternate" hreflang="x-default" href="${escape(absolute(href(page.path,'en')))}" />`]),
+    ...(page.type === '404' ? [] : [`<link rel="canonical" href="${escape(url)}" />`, ...(page.languages?.length===1 ? [] : [...languages.map(language=>`<link rel="alternate" hreflang="${locales[language].tag}" href="${escape(absolute(href(page.path,language)))}" />`), `<link rel="alternate" hreflang="x-default" href="${escape(absolute(href(page.path,'en')))}" />`])]),
     `<meta property="og:title" content="${escape(page.title[lang])}" />`,
     `<meta property="og:description" content="${escape(page.description![lang])}" />`,
     `<meta property="og:url" content="${escape(url)}" />`,
@@ -76,7 +76,7 @@ export function render(path = '/', indexable = false) {
     `<meta property="og:image" content="${escape(absolute(href('/', 'en')+shareImage))}" />`,
     `<script type="application/ld+json">${JSON.stringify({'@context':'https://schema.org','@graph':graph}).replace(/</g,'\\u003c')}</script>`,
   ].join('\n    ')
-  const clientModules: Record<string,string> = {home:'src/CustomerBrands.tsx',about:'src/CustomerBrands.tsx',collection:'src/CollectionPage.tsx',catalog:'src/CatalogBrowser.tsx',bag:'src/ProductSections.tsx',contact:'src/Enquiry.tsx',customization:'src/CustomizationOrderOptions.tsx'}
+  const clientModules: Record<string,string> = {buyingQuestions:'src/buyer-questions/buyer-questions.tsx',home:'src/CustomerBrands.tsx',about:'src/CustomerBrands.tsx',collection:'src/CollectionPage.tsx',catalog:'src/CatalogBrowser.tsx',bag:'src/ProductSections.tsx',contact:'src/Enquiry.tsx',customization:'src/CustomizationOrderOptions.tsx'}
   const clientModule = page.type === 'guide' && page.slug === 'insulated-bag-materials' ? 'src/ExpandedGuide.tsx' : page.slug==='insulated-shopping-trolley-bags' ? 'src/TrolleyBagSections.tsx' : page.slug==='insulated-wine-bags' ? 'src/WineBagSections.tsx' : page.slug==='insulated-drum-covers' ? 'src/DrumCoverSections.tsx' : page.slug==='insulated-ibc-covers' ? 'src/IBCCoverSections.tsx' : page.slug==='insulated-roll-cage-covers' ? 'src/CageCoverSections.tsx' : page.slug==='foil-bubble-insulation-rolls' ? 'src/BubbleRollSections.tsx' : page.slug==='insulated-pallet-covers' ? 'src/PalletCoverSections.tsx' : page.slug==='epe-foam-foil-insulation-rolls' ? 'src/InsulationRollSections.tsx' : page.type==='guide'&&page.slug==='bag-material-comparison' ? 'src/ExpandedComparisonGuide.tsx' : page.type==='guide'&&page.slug==='ice-pack-selection' ? 'src/ExpandedIceGuide.tsx' : page.type==='guide'&&page.slug==='custom-bag-order-checklist' ? 'src/ExpandedOrderGuide.tsx' : clientModules[page.type]
   const editorialModules = page.type === 'editorialArticle'
     ? ['src/EditorialArticlePage.tsx', `src/articles/${page.slug}.ts`]
