@@ -44,3 +44,5 @@ export { default as ExpandedIceGuide } from './ExpandedIceGuide'
 export { default as WineBagSections } from './WineBagSections'
 
 export { default as TrolleyBagSections } from './TrolleyBagSections'
+
+export { default as BuyerQuestions } from './buyer-questions/buyer-questions'

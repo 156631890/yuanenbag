@@ -35,6 +35,7 @@ const reports=[]
 for(const lang of ['en','zh','es']){
  const prefix=lang==='en'?'':`/${lang}`,descriptions=new Set()
  for(const page of seoAudit.pages){
+  if(page.languages && !page.languages.includes(lang)) continue
   const path=prefix+page.path,html=await readFile(`dist${path}index.html`,'utf8')
   const visible=html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/g,'')
   const title=decode(html.match(/<title>(.*?)<\/title>/)[1])

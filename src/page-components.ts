@@ -1,4 +1,5 @@
 import { lazy } from 'react'
+export const BuyerQuestions = lazy(() => import('./buyer-questions/buyer-questions'))
 export const ExpandedGuide = lazy(() => import('./ExpandedGuide'))
 
 export const CatalogPage = lazy(() => import('./CatalogBrowser'))
