@@ -65,6 +65,21 @@
   },
   {
     "kind": "industry",
+    "slug": "amcor-fluidsolids-biocomposite-closures",
+    "publishedAt": "2026-11-28",
+    "title": {
+      "en": "Amcor and FluidSolids Evaluate Fiber-Based Packaging Closures",
+      "zh": "Amcor与FluidSolids评估纤维基包装封盖",
+      "es": "Amcor y FluidSolids evalúan cierres de envases de fibra"
+    },
+    "description": {
+      "en": "The partners are evaluating three biocomposite grades and planning cosmetics trials. Buyers still need grade, component and disposal-route evidence.",
+      "zh": "双方正在评估三个生物复合材料牌号，并计划开展化妆品应用试用。采购仍需核对牌号、成品组件及处置路径证据。",
+      "es": "Las empresas evalúan tres grados de biocompuestos y prevén ensayos cosméticos. La compra aún requiere pruebas del grado, componente y vía de gestión."
+    }
+  },
+  {
+    "kind": "industry",
     "slug": "amcor-moderna-closure-specification-check",
     "publishedAt": "2026-11-22",
     "title": {

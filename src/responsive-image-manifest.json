@@ -18828,5 +18828,39 @@
         "width": 1200
       }
     ]
+  },
+  "images/editorial/2026-11-28/molding-material-preparation.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "file": "images/responsive/b6d87d7db277-96.webp",
+        "width": 96
+      },
+      {
+        "file": "images/responsive/49dc27fcd850-192.webp",
+        "width": 192
+      },
+      {
+        "file": "images/responsive/ff64e5e6b795-384.webp",
+        "width": 384
+      },
+      {
+        "file": "images/responsive/c39409a80c32-640.webp",
+        "width": 640
+      },
+      {
+        "file": "images/responsive/48c244304623-768.webp",
+        "width": 768
+      },
+      {
+        "file": "images/responsive/c7e1866c8586-960.webp",
+        "width": 960
+      },
+      {
+        "file": "images/responsive/38405674ad8c-1200.webp",
+        "width": 1200
+      }
+    ]
   }
 }
